@@ -1,0 +1,1192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="AppDescription" xml:space="preserve">
+    <value>TalaTouchApp</value>
+  </data>
+  <data name="AppDisplayName" xml:space="preserve">
+    <value>TalaTouchApp</value>
+  </data>
+  <data name="AudioDeviceSelector_MicDropdown.PlaceholderText" xml:space="preserve">
+    <value>Микрофонды таңдау</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneMic.Text" xml:space="preserve">
+    <value>Person One Microphone</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneSpeaker.Text" xml:space="preserve">
+    <value>Бір сөйлеуші тұлғасы</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoMic.Text" xml:space="preserve">
+    <value>Адам екі микрофон</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoSpeaker.Text" xml:space="preserve">
+    <value>Екі сөйлеуші</value>
+  </data>
+  <data name="AudioDeviceSelector_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>Динамикті таңдау</value>
+  </data>
+  <data name="BluetoothPairingDialog_Description.Text" xml:space="preserve">
+    <value>Құрылғыңыздың қосылғанын және табылғанын көз жеткізіңіз. Қосылу үшін төмендегі құрылғыны таңдаңыз.</value>
+  </data>
+  <data name="BluetoothPairingDialog_Title.Text" xml:space="preserve">
+    <value>Құрылғыны қосу</value>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>Болдырмау</value>
+  </data>
+  <data name="ChangePasscodeDialog_Confirm.Text" xml:space="preserve">
+    <value>Жаңа құпия кодты растау</value>
+  </data>
+  <data name="ChangePasscodeDialog_Current.Text" xml:space="preserve">
+    <value>Ағымдағы құпия код</value>
+  </data>
+  <data name="ChangePasscodeDialog_New.Text" xml:space="preserve">
+    <value>Жаңа құпия код</value>
+  </data>
+  <data name="ChangePasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Құпия кодты өзгерту</value>
+  </data>
+  <data name="Close.Content" xml:space="preserve">
+    <value>Жабу</value>
+  </data>
+  <data name="ConsentDialog_Description1.Text" xml:space="preserve">
+    <value>Құпиялылыққа қатысты алаңдаушылық – біздің бірінші кезектегі міндетіміз. (5) Осы Құпиялылық саясатының шарттары мен шарттарын қолданылатындай ұялы телефонмен немесе планшетпен қабылдайсыз.</value>
+  </data>
+  <data name="ConsentDialog_Description2.Text" xml:space="preserve">
+    <value>Егер сіз келісім беру туралы сұрау салуды алған кезде бізге кіруге рұқсат бермеуді таңдасаңыз (мұндай сұрау салулар туралы ICTS веб-сайтында мына мекенжай бойынша хабарланады:</value>
+  </data>
+  <data name="ConsentDialog_Description3.Text" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int</value>
+  </data>
+  <data name="ConsentDialog_Description4.Text" xml:space="preserve">
+    <value>), содан кейін берілген электрондық пошта мекенжайы да, жеке тұлғаны анықтай алатын басқа да жеке ақпарат та осындай рұқсат берілгеннен кейін біздің иелігімізге келе алмайды.</value>
+  </data>
+  <data name="ConsentDialog_Description5.Text" xml:space="preserve">
+    <value>Белгілі бір бөліктерді пайдалану арқылы: /Менің Ұялы телефонымды/Белгішелерімді пайдалану - ол чат бөлмелерінде басқаларға сияқты өнімдер туралы рұқсат беруді қамтуы мүмкін</value>
+  </data>
+  <data name="ConsentDialog_HyperLink.NavigateUri" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int/</value>
+  </data>
+  <data name="ConsentDialog_Title.Text" xml:space="preserve">
+    <value>Құпиялылығыңызды бағалаймыз</value>
+  </data>
+  <data name="Dashboard_Choose_Language.Text" xml:space="preserve">
+    <value>Тілді таңдау</value>
+  </data>
+  <data name="Dashboard_Hello.Text" xml:space="preserve">
+    <value>Сәлеметсіз бе</value>
+  </data>
+  <data name="Dashboard_SearchBox.PlaceholderText" xml:space="preserve">
+    <value>Іздеу тілі</value>
+  </data>
+  <data name="Dashboard_Welcome.Text" xml:space="preserve">
+    <value>Қош келдіңіз</value>
+  </data>
+  <data name="DevicesErrorDialog_NoDeviceError" xml:space="preserve">
+    <value>Сізде сақталған құрылғы(лар) жоқ. Микрофон мен динамикті таңдау үшін Параметрлер -&gt; құрылғылар бөліміне өтіп, Сақтау түймешігін басыңыз.</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Description.Text" xml:space="preserve">
+    <value>Қол жетімді bluetooth құрылғылары</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_DropDown.PlaceholderText" xml:space="preserve">
+    <value>Bluetooth құрылғысын таңдау</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Scan.Text" xml:space="preserve">
+    <value>Сканерлеу</value>
+  </data>
+  <data name="DevicesPage_Bluetooth.Text" xml:space="preserve">
+    <value>Блютоот</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices_Description.Text" xml:space="preserve">
+    <value>Дыбыстық құрылғыны таңдау</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices.Text" xml:space="preserve">
+    <value>Қосылған дыбыстық құрылғылар</value>
+  </data>
+  <data name="DevicesPage_MicDropDown.PlaceholderText" xml:space="preserve">
+    <value>Микрофонды таңдау</value>
+  </data>
+  <data name="DevicesPage_Network_Description.Text" xml:space="preserve">
+    <value>Қол жетімді желілер</value>
+  </data>
+  <data name="DevicesPage_Network_DropDown.PlaceholderText" xml:space="preserve">
+    <value>Желіні таңдау</value>
+  </data>
+  <data name="DevicesPage_Network.Text" xml:space="preserve">
+    <value>Желі</value>
+  </data>
+  <data name="DevicesPage_NetworkError" xml:space="preserve">
+    <value>Желі таңдалмаған. Желі қосылымдарын тексеріңіз.</value>
+  </data>
+  <data name="DevicesPage_PersonOne_Speaker.Text" xml:space="preserve">
+    <value>Бір сөйлеушінің адамы</value>
+  </data>
+  <data name="DevicesPage_PersonOneMic.Text" xml:space="preserve">
+    <value>Бір микрофонды адам</value>
+  </data>
+  <data name="DevicesPage_PersonTwo_Mic.Text" xml:space="preserve">
+    <value>Адам екі микрофон</value>
+  </data>
+  <data name="DevicesPage_Scan" xml:space="preserve">
+    <value>Сканерлеу</value>
+  </data>
+  <data name="DevicesPage_Scanning" xml:space="preserve">
+    <value>Сканерлеу...</value>
+  </data>
+  <data name="DevicesPage_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>Динамикті таңдау</value>
+  </data>
+  <data name="DevicesPage_Status_Connect" xml:space="preserve">
+    <value>Қосылу</value>
+  </data>
+  <data name="DevicesPage_Status_Connected" xml:space="preserve">
+    <value>Байланысқан</value>
+  </data>
+  <data name="DevicesPage_Status_Connecting" xml:space="preserve">
+    <value>Қосу...</value>
+  </data>
+  <data name="DevicesPage_Status_Off" xml:space="preserve">
+    <value>ӨШІРУ</value>
+  </data>
+  <data name="DevicesPage_Status_On" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="DevicesPager_PersonTwo_Speaker.Text" xml:space="preserve">
+    <value>Екі сөйлеушінің адамы</value>
+  </data>
+  <data name="EnterPasscodeDialog_Description.Text" xml:space="preserve">
+    <value>Параметрлер бетіне қатынасу үшін құпия кодты енгізіңіз</value>
+  </data>
+  <data name="EnterPasscodeDialog_ForgotPasscode.Content" xml:space="preserve">
+    <value>Құпия кодты жаңылыспай ма?</value>
+  </data>
+  <data name="EnterPasscodeDialog_InvalidPasscode.Text" xml:space="preserve">
+    <value>Жарамсыз құпия код! Қайталап көріңіз.</value>
+  </data>
+  <data name="EnterPasscodeDialog_Passcode.Text" xml:space="preserve">
+    <value>Құпия код</value>
+  </data>
+  <data name="EnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Құпия кодты енгізу</value>
+  </data>
+  <data name="IAgree.Content" xml:space="preserve">
+    <value>Келісем</value>
+  </data>
+  <data name="InvalidLicenseDialog_Description.Text" xml:space="preserve">
+    <value>Лицензияны тексеру жаңылысы</value>
+  </data>
+  <data name="InvalidLicenseDialog_Title.Text" xml:space="preserve">
+    <value>Лицензияның жарамсыздығы</value>
+  </data>
+  <data name="LoginFailedDialog_Button.Content" xml:space="preserve">
+    <value>Қайтып бар</value>
+  </data>
+  <data name="LoginFailedDialog_Description.Text" xml:space="preserve">
+    <value>Кіру әрекеті сәтсіз аяқталды.</value>
+  </data>
+  <data name="LoginFailedDialog_Title.Text" xml:space="preserve">
+    <value>Кіру жаңылысы</value>
+  </data>
+  <data name="Main_Title.Text" xml:space="preserve">
+    <value>Негізгі</value>
+  </data>
+  <data name="PasswordPopup_SetupTitle.Text" xml:space="preserve">
+    <value>Құпия кодты орнату</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Description1.Text" xml:space="preserve">
+    <value>Өңдеуді сақтау үшін құпия кодты қайта енгізіңіз...</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Құпия кодты қайта енгізу</value>
+  </data>
+  <data name="RenterPasscodeDialog_Description2.Text" xml:space="preserve">
+    <value>автосақтау және үйге оралу</value>
+  </data>
+  <data name="Save.Content" xml:space="preserve">
+    <value>Сақтау</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Description.Text" xml:space="preserve">
+    <value>Бұл Бағдарлама Deep Linking қызметінен белсендірілген жағдайда белсендіру параметрлерін көрсететін үлгі беті.</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Title.Text" xml:space="preserve">
+    <value>ShemeActivationSample</value>
+  </data>
+  <data name="SetPasscodeDialog_ConfirmPasscode.Text" xml:space="preserve">
+    <value>Жаңа құпия кодты растау </value>
+  </data>
+  <data name="SetPasscodeDialog_NewPasscode.Text" xml:space="preserve">
+    <value>Жаңа құпия код</value>
+  </data>
+  <data name="SetPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Құпия кодты орнату</value>
+  </data>
+  <data name="Settings_About.Text" xml:space="preserve">
+    <value>Осы қосымша туралы</value>
+  </data>
+  <data name="Settings_AboutDescription.Text" xml:space="preserve">
+    <value>Параметрлер бетінің толтырғыш мәтіні.  Бағдарлама сипаттамасы осында өтеді.</value>
+  </data>
+  <data name="Settings_Personalization.Text" xml:space="preserve">
+    <value>Жекелендіру</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.Content" xml:space="preserve">
+    <value>Құпиялылық туралы мәлімдеме</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.NavigateUri" xml:space="preserve">
+    <value>https://YourPrivacyUrlGoesHere/</value>
+  </data>
+  <data name="Settings_Theme_Dark.Content" xml:space="preserve">
+    <value>Қараңғы</value>
+  </data>
+  <data name="Settings_Theme_Default.Content" xml:space="preserve">
+    <value>Windows әдепкі</value>
+  </data>
+  <data name="Settings_Theme_Light.Content" xml:space="preserve">
+    <value>Жарық</value>
+  </data>
+  <data name="Settings_Theme.Text" xml:space="preserve">
+    <value>Тақырыпты таңдау</value>
+  </data>
+  <data name="Settings_Title.Text" xml:space="preserve">
+    <value>Параметрлер</value>
+  </data>
+  <data name="SettingsPage_Devices" xml:space="preserve">
+    <value>Құрылғылар</value>
+  </data>
+  <data name="SettingsPage_Language" xml:space="preserve">
+    <value>Тіл</value>
+  </data>
+  <data name="SettingsPage_Profile" xml:space="preserve">
+    <value>Профилі</value>
+  </data>
+  <data name="SettingsPage_Questions" xml:space="preserve">
+    <value>Сұрақтар</value>
+  </data>
+  <data name="SettingsPage_Title" xml:space="preserve">
+    <value>Параметрлер</value>
+  </data>
+  <data name="ShellView_Help" xml:space="preserve">
+    <value>Анықтама</value>
+  </data>
+  <data name="ShellView_History" xml:space="preserve">
+    <value>Журнал</value>
+  </data>
+  <data name="ShellView_Home" xml:space="preserve">
+    <value>Үй</value>
+  </data>
+  <data name="ShellView_Settings.Text" xml:space="preserve">
+    <value>Параметрлер</value>
+  </data>
+  <data name="Sign_In.Text" xml:space="preserve">
+    <value>Жүйеге кіру</value>
+  </data>
+  <data name="SignInDialog_Description.Text" xml:space="preserve">
+    <value>Jabra құрылғысымен бірнеше ғаламдық тілде бірден байланысыңыз.</value>
+  </data>
+  <data name="SignInDialog_SignInButton.Content" xml:space="preserve">
+    <value>Жүйеге кіру</value>
+  </data>
+  <data name="Translate_Button.Text" xml:space="preserve">
+    <value>Аудару</value>
+  </data>
+  <data name="TranslationPage_EndSession.Text" xml:space="preserve">
+    <value>Сеансты аяқтау</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOn" xml:space="preserve">
+    <value>Microphone On</value>
+  </data>
+  <data name="TranslationPage_SpeakerOn" xml:space="preserve">
+    <value>Динамик</value>
+  </data>
+  <data name="TranslationPage_SpeakNow.Text" xml:space="preserve">
+    <value>Қазір сөйлеу</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Шамамен</value>
+  </data>
+  <data name="AboutPage_AppVersion.Text" xml:space="preserve">
+    <value>Бағдарлама нұсқасы</value>
+  </data>
+  <data name="AboutPage_CheckUpdate.Content" xml:space="preserve">
+    <value>Жаңартуларды тексеру</value>
+  </data>
+  <data name="AboutPage_DataConsent" xml:space="preserve">
+    <value>Ұйымыңыз деректеріңізді бұлтта сақтауға келісім берді.</value>
+  </data>
+  <data name="AboutPage_NoDataConsent" xml:space="preserve">
+    <value>Ұйымыңыз деректеріңізді бұлтта сақтауға келісім бермеді.</value>
+  </data>
+  <data name="AboutPage_Published.Text" xml:space="preserve">
+    <value>FITTS Limited баспасынан жарық көрді.</value>
+  </data>
+  <data name="AppClose_Close.Content" xml:space="preserve">
+    <value>Сонда да жабу</value>
+  </data>
+  <data name="AppClose_Dismiss.Content" xml:space="preserve">
+    <value>Болдырмау</value>
+  </data>
+  <data name="AppClose_Warning.Text" xml:space="preserve">
+    <value>Сеанс жүріп жатыр. Өтінімнен шықпас бұрын сессияны аяқтауыңызды сұраймын.</value>
+  </data>
+  <data name="AppVersion.Text" xml:space="preserve">
+    <value>Бағдарлама нұсқасы</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Button.Content" xml:space="preserve">
+    <value>Сеансты жалғастыру</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Description.Text" xml:space="preserve">
+    <value>Сессия аяқталады</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Title.Text" xml:space="preserve">
+    <value>Дыбыс табылмады</value>
+  </data>
+  <data name="AudioPlayer_Error.Text" xml:space="preserve">
+    <value>Дыбыс жүктелмеді</value>
+  </data>
+  <data name="DashboardPage_DefaultLanguageError" xml:space="preserve">
+    <value>Әдепкі аударма тілі сақталмаған. Әдепкі аударма тілін таңдау үшін Параметрлер -&gt; тілдері тармағына өтіп, Сақтау түймешігін басыңыз.</value>
+  </data>
+  <data name="DashboardPage_TargetLanguageError" xml:space="preserve">
+    <value>Мақсатты аударма тілі таңдалған жоқ. Тілді таңдап, Аудару түймешігін басыңыз.</value>
+  </data>
+  <data name="DevicesErrorDialog_DualDeviceError" xml:space="preserve">
+    <value>Қосарлы құрылғы аудармасын таңдадыңыз, бірақ сізде 2-тұлға үшін таңдалған құрылғы (лар) жоқ. Микрофон мен динамикті таңдау үшін Параметрлер -&gt; құрылғылар бөліміне өтіп, Сақтау түймешігін басыңыз.</value>
+  </data>
+  <data name="DevicesPage_Title.Text" xml:space="preserve">
+    <value>Құрылғылар</value>
+  </data>
+  <data name="DevicesPage_Wifi_Password.Text" xml:space="preserve">
+    <value>Құпиясөзді енгізу</value>
+  </data>
+  <data name="DevicesPage_WifiStatus.Text" xml:space="preserve">
+    <value>Wifi күйі</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Өңдеу</value>
+  </data>
+  <data name="Expiry.Text" xml:space="preserve">
+    <value>Жарамдылық мерзімі</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Кері байланыс</value>
+  </data>
+  <data name="FeedbackMessage.Text" xml:space="preserve">
+    <value>Егер қандай да бір пікірлеріңіз немесе сұрауларыңыз болса, байланысқа шығуға күдіктенбеңіз.</value>
+  </data>
+  <data name="GetInTouchButton.Text" xml:space="preserve">
+    <value>Байланысу</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Анықтама</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>Журнал</value>
+  </data>
+  <data name="History_ExportBtn.Text" xml:space="preserve">
+    <value>Экспорттау</value>
+  </data>
+  <data name="HistoryExportButtonTooltip.Text" xml:space="preserve">
+    <value>Экспорттау</value>
+  </data>
+  <data name="HistoryListColumnDate.Text" xml:space="preserve">
+    <value>Күні</value>
+  </data>
+  <data name="HistoryListColumnDuration.Text" xml:space="preserve">
+    <value>Ұзақтық</value>
+  </data>
+  <data name="HistoryListColumnPrimaryLanguage.Text" xml:space="preserve">
+    <value>Бастапқы тіл</value>
+  </data>
+  <data name="HistoryListColumnSecondaryLanguage.Text" xml:space="preserve">
+    <value>Орта тіл</value>
+  </data>
+  <data name="HistoryListColumnSessionId.Text" xml:space="preserve">
+    <value>Сеанс идентифика- ты</value>
+  </data>
+  <data name="InitalSetup_SkipSetup.Content" xml:space="preserve">
+    <value>Баптауды өткізіп жіберу</value>
+  </data>
+  <data name="InitialNetworkPopupConnectButton.Content" xml:space="preserve">
+    <value>Қосылу</value>
+  </data>
+  <data name="InitialSetup_DeviceSelection.Text" xml:space="preserve">
+    <value>Құрылғыны таңдау</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionDescription.Text" xml:space="preserve">
+    <value>Әдепкі дыбыстық құрылғыны орнату</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneMicrophone.Text" xml:space="preserve">
+    <value>Микрофонды таңдау</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneSpeaker.Text" xml:space="preserve">
+    <value>Динамикті таңдау</value>
+  </data>
+  <data name="InitialSetup_FinishSetup.Content" xml:space="preserve">
+    <value>Баптауды аяқтау</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection_Description.Text" xml:space="preserve">
+    <value>Әдепкі аударма тілін орнату</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection.Text" xml:space="preserve">
+    <value>Тіл таңдау</value>
+  </data>
+  <data name="InitialSetup_NetworkSelection.Text" xml:space="preserve">
+    <value>Таңдаулы желі</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopup.Text" xml:space="preserve">
+    <value>Желіге қосылу</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopupPassword.Text" xml:space="preserve">
+    <value>Құпия сөзді енгізіңіз:</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionDescription.Text" xml:space="preserve">
+    <value>Қол жетімді желілердің бірінен таңдау</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionNoInternetConnection.Text" xml:space="preserve">
+    <value>Сіз интернетке қосылмағансыз. Желі қосылымдарын тексеріңіз.</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionOtherNetworks.Text" xml:space="preserve">
+    <value>Басқа желілер</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup_Description.Text" xml:space="preserve">
+    <value>Бағдарлама құпия кодын орнату</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup.Text" xml:space="preserve">
+    <value>Құпия кодты баптау</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Тіл</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage_Description.Text" xml:space="preserve">
+    <value>Бағдарлама тілін таңдау</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage.Text" xml:space="preserve">
+    <value>Бағдарлама тілі</value>
+  </data>
+  <data name="LanguagesPage_AppLanguageDropdown.PlaceholderText" xml:space="preserve">
+    <value>Тілді таңдау</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage_Description.Text" xml:space="preserve">
+    <value>Пайдаланып жатқан әдепкі тіл</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage.Text" xml:space="preserve">
+    <value>Әдепкі тілім</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguageDropDown.PlaceholderText" xml:space="preserve">
+    <value>Тілді таңдау</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description.Text" xml:space="preserve">
+    <value>Журнал бөлімі (көп құрылғылы аудармалар үшін)</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description1.Text" xml:space="preserve">
+    <value>* бір құрылғы аудармалары барлық дыбысты әдепкі ретінде ойнайды *</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage.Text" xml:space="preserve">
+    <value>Әдепкі ойнату тілі</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguages.Text" xml:space="preserve">
+    <value>Тілдерді жылдам көру</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguagesDropdown.PlaceholderText" xml:space="preserve">
+    <value>Тіл қосу</value>
+  </data>
+  <data name="LanguagesPage_Title.Text" xml:space="preserve">
+    <value>Тілдер</value>
+  </data>
+  <data name="Licence" xml:space="preserve">
+    <value>Лицензия</value>
+  </data>
+  <data name="LicenseType.Text" xml:space="preserve">
+    <value>Лицензия түрі:</value>
+  </data>
+  <data name="NetworkConnectionError" xml:space="preserve">
+    <value>Қате:</value>
+  </data>
+  <data name="Next.Content" xml:space="preserve">
+    <value>Келесі</value>
+  </data>
+  <data name="PasscodeError_MinimumLength" xml:space="preserve">
+    <value>Құпия кодтың ең аз ұзындығы 4 болуы тиіс.</value>
+  </data>
+  <data name="PasscodeError_NotMatching" xml:space="preserve">
+    <value>Енгізілген құпия индекстер сәйкес келмейді. Құпия индекстерді қайта енгізіңіз, содан кейін қайталап көріңіз.</value>
+  </data>
+  <data name="Person.Text" xml:space="preserve">
+    <value>Адам</value>
+  </data>
+  <data name="PrivacyPolicy.Text" xml:space="preserve">
+    <value>Құпиялылық саясаты</value>
+  </data>
+  <data name="ProfilePage_Email_Description.Text" xml:space="preserve">
+    <value>Әдепкі экспорттау электрондық поштасы</value>
+  </data>
+  <data name="ProfilePage_Email.Text" xml:space="preserve">
+    <value>Электрондық пошта</value>
+  </data>
+  <data name="ProfilePage_Passcode_Description.Text" xml:space="preserve">
+    <value>Бағдарламаңыздың құпия коды</value>
+  </data>
+  <data name="ProfilePage_Passcode.Text" xml:space="preserve">
+    <value>Құпия код</value>
+  </data>
+  <data name="ProfilePage_Timeout_Description.Text" xml:space="preserve">
+    <value>Әкімші режимін құлыптау жиілігі</value>
+  </data>
+  <data name="ProfilePage_Timeout.Text" xml:space="preserve">
+    <value>Әкімші режимінің уақыты</value>
+  </data>
+  <data name="ProfilePage_TimeoutDropdown.PlaceholderText" xml:space="preserve">
+    <value>Уақытты таңдау</value>
+  </data>
+  <data name="ProfilePage_Title.Text" xml:space="preserve">
+    <value>Профилі</value>
+  </data>
+  <data name="PublishedBy.Text" xml:space="preserve">
+    <value>Жарияланды</value>
+  </data>
+  <data name="ReleaseNotesMessage.Text" xml:space="preserve">
+    <value>Шығарылым жазбалары жақын арада жаңартылады</value>
+  </data>
+  <data name="Save_Text" xml:space="preserve">
+    <value>Сақтау</value>
+  </data>
+  <data name="SessionDetailsPage_Description.Text" xml:space="preserve">
+    <value>Транскрипция тарихы</value>
+  </data>
+  <data name="SessionDetailsPage_Duration.Text" xml:space="preserve">
+    <value>Ұзақтық</value>
+  </data>
+  <data name="SessionDetailsPage_SessionID.Text" xml:space="preserve">
+    <value>Сеанс идентифика- ты</value>
+  </data>
+  <data name="SessionDetailsPage_Title.Text" xml:space="preserve">
+    <value>Журнал</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Параметрлер</value>
+  </data>
+  <data name="TermsOfUse.Text" xml:space="preserve">
+    <value>Пайдалану шарттары</value>
+  </data>
+  <data name="TranslationPage_SettingUpState" xml:space="preserve">
+    <value>Орнату...</value>
+  </data>
+  <data name="TranslationPage_SpeakFast" xml:space="preserve">
+    <value>Аударма нәтижелерін жақсарту үшін біршама жылдам сөйлеуге тырысыңыз.</value>
+  </data>
+  <data name="TranslationPage_SpeakIn" xml:space="preserve">
+    <value>Сөйлеу</value>
+  </data>
+  <data name="TranslationPage_SpeakSlow" xml:space="preserve">
+    <value>Аударма нәтижелерін жақсарту үшін біршама баяу сөйлеуге тырысыңыз.</value>
+  </data>
+  <data name="TranslationPage_Switching" xml:space="preserve">
+    <value>Ауыстырып қосу</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonOne" xml:space="preserve">
+    <value>1-адамға ауысу</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonTwo" xml:space="preserve">
+    <value>2-адамға ауысу</value>
+  </data>
+  <data name="TranslationPage_TranslationReadyState" xml:space="preserve">
+    <value>Қазір сөйлеу</value>
+  </data>
+  <data name="Website.Text" xml:space="preserve">
+    <value>Веб-сайт</value>
+  </data>
+  <data name="WhatsNew" xml:space="preserve">
+    <value>Жаңалықтар</value>
+  </data>
+  <data name="WhatsNewInSpeechly.Text" xml:space="preserve">
+    <value>Жаңалықтар</value>
+  </data>
+  <data name="AudioDevicesSelectorDualDevice.Content" xml:space="preserve">
+    <value>Қос құрылғы</value>
+  </data>
+  <data name="AudioDevicesSelectorSingleDevice.Content" xml:space="preserve">
+    <value>Бір құрылғы</value>
+  </data>
+  <data name="AutoDetectSearchCountry.PlaceholderText" xml:space="preserve">
+    <value>Іздеу елі</value>
+  </data>
+  <data name="AutoDetectSelectLanguage.Text" xml:space="preserve">
+    <value>Тілді таңдау</value>
+  </data>
+  <data name="ChatViewPersonOne" xml:space="preserve">
+    <value>Бір адам</value>
+  </data>
+  <data name="ChatViewPersonTwo" xml:space="preserve">
+    <value>Екі адам</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionLost" xml:space="preserve">
+    <value>Интернет қосылымы жоғалды. Қосылымды мейірімділікпен тексеріңіз, содан кейін қайталап көріңіз.</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionUnstable" xml:space="preserve">
+    <value>Интернетке қосылу баяу жүр. Біраз артта қалуды бастан кешіруіңіз мүмкін.</value>
+  </data>
+  <data name="CustomTagSelectionTitle.Text" xml:space="preserve">
+    <value>Ұйым тегтері (қосу үшін таңдаңыз)</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.Header" xml:space="preserve">
+    <value>Тілді ауыстыратын пайдаланушы жалаушасы</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OffContent" xml:space="preserve">
+    <value>Ажыратылсын</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OnContent" xml:space="preserve">
+    <value>Қосулы</value>
+  </data>
+  <data name="DetectLanguageButton.Content" xml:space="preserve">
+    <value>Тілді анықтау</value>
+  </data>
+  <data name="DevicesPageNetworkSetupBluetoothStatus.Text" xml:space="preserve">
+    <value>Bluetooth күйі:</value>
+  </data>
+  <data name="DevicesPageNetworkSetupConnectAutomatically.Text" xml:space="preserve">
+    <value>Автоматты түрде қосылу</value>
+  </data>
+  <data name="DevicesPageNetworkSetupWiFiStatus.Text" xml:space="preserve">
+    <value>WiFi күйі:</value>
+  </data>
+  <data name="Dimiss.Content" xml:space="preserve">
+    <value>Болдырмау</value>
+  </data>
+  <data name="Duration.Text" xml:space="preserve">
+    <value>|  Ұзақтық</value>
+  </data>
+  <data name="EmailPopup_Description.Text" xml:space="preserve">
+    <value>Электрондық пошта мекенжайын енгізу</value>
+  </data>
+  <data name="EmailPopup_Title.Text" xml:space="preserve">
+    <value>Сеансты электрондық поштамен жіберу</value>
+  </data>
+  <data name="ForcedUpdateDialogCaption" xml:space="preserve">
+    <value>Бізде сыни жаңартулар бар</value>
+  </data>
+  <data name="ForcedUpdateDialogInstallBtnText" xml:space="preserve">
+    <value>Жаңарту</value>
+  </data>
+  <data name="ForcedUpdateDialogTitle" xml:space="preserve">
+    <value>Сыни жаңартулар</value>
+  </data>
+  <data name="GoBack.Content" xml:space="preserve">
+    <value>Қайтып бар</value>
+  </data>
+  <data name="HelpPageSignOut.Content" xml:space="preserve">
+    <value>Шығу</value>
+  </data>
+  <data name="History_Export.Text" xml:space="preserve">
+    <value>Файлды жасау...</value>
+  </data>
+  <data name="HistoryListColumnSessionName.Text" xml:space="preserve">
+    <value>Атауы</value>
+  </data>
+  <data name="HistoryListColumnSynced.Text" xml:space="preserve">
+    <value>Синхрондалған</value>
+  </data>
+  <data name="HistorySearchBox.PlaceholderText" xml:space="preserve">
+    <value>Тіл, сеанс атауы, тегтер немесе идентификациялар</value>
+  </data>
+  <data name="HistorySearchButtonTooltip.Text" xml:space="preserve">
+    <value>Іздеу</value>
+  </data>
+  <data name="HistorySearchClearButtonTooltip.Text" xml:space="preserve">
+    <value>Тазалау</value>
+  </data>
+  <data name="HistorySearchFromDate.Header" xml:space="preserve">
+    <value>Кідірту:</value>
+  </data>
+  <data name="HistorySearchToDate.Header" xml:space="preserve">
+    <value>Вокс</value>
+  </data>
+  <data name="HistoryShareButtonTooltip.Text" xml:space="preserve">
+    <value>Ортақ пайдалану/Жіберу</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonOne.Text" xml:space="preserve">
+    <value>1 адам</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonTwo.Text" xml:space="preserve">
+    <value>2 адам</value>
+  </data>
+  <data name="LoginPageTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NewVersionDialogCaption" xml:space="preserve">
+    <value>Жаңа бағдарлама нұсқасын орнату</value>
+  </data>
+  <data name="NewVersionDialogDescription" xml:space="preserve">
+    <value>Жаңа мүмкіндіктер мен қателерді түзету жоқ болады </value>
+  </data>
+  <data name="NewVersionDialogInstallBtnText" xml:space="preserve">
+    <value>Жаңа нұсқасын орнату</value>
+  </data>
+  <data name="NewVersionDialogTitle" xml:space="preserve">
+    <value>Жаңа бағдарлама нұсқасы</value>
+  </data>
+  <data name="NextText" xml:space="preserve">
+    <value>Келесі</value>
+  </data>
+  <data name="ProfilePageEditButton.Content" xml:space="preserve">
+    <value>Өңдеу</value>
+  </data>
+  <data name="QuestionsButton.Content" xml:space="preserve">
+    <value>Сұрақтар бөлімін қараңыз</value>
+  </data>
+  <data name="QuestionSettingsDescription.Text" xml:space="preserve">
+    <value>Сұрақ пернелер тіркесімін көру немесе өзгерту</value>
+  </data>
+  <data name="QuestionSettingsInstructionOne.Text" xml:space="preserve">
+    <value>* Әр сұраққа 1-9 сандарын пайдаланыңыз. Нөл (0) қаралмайды.</value>
+  </data>
+  <data name="QuestionSettingsInstructionThree.Text" xml:space="preserve">
+    <value>* Тек 9 сұраққа пернелер тіркесімін тағайындауға болады.</value>
+  </data>
+  <data name="QuestionSettingsListTitle.Text" xml:space="preserve">
+    <value>Сұрақтар тізімі:</value>
+  </data>
+  <data name="ResellerEmailAddress.Text" xml:space="preserve">
+    <value>Сатқыштың электрондық пошта мекенжайы:</value>
+  </data>
+  <data name="ResellerName.Text" xml:space="preserve">
+    <value>Сатқыштың атауы:</value>
+  </data>
+  <data name="SelectFlag.Text" xml:space="preserve">
+    <value>Жалаушаңызды таңдаңыз:</value>
+  </data>
+  <data name="Send.Content" xml:space="preserve">
+    <value>Жіберу</value>
+  </data>
+  <data name="SessionDetailsPage_SessionName.Text" xml:space="preserve">
+    <value>Сеанс атауы</value>
+  </data>
+  <data name="SessionID.Text" xml:space="preserve">
+    <value>Сеанс идентифика- ты: -</value>
+  </data>
+  <data name="SessionMetadataDialog_ContinueButton.Text" xml:space="preserve">
+    <value>Жалғастыру</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTags.Text" xml:space="preserve">
+    <value>Реттелетін тег( тер)</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Тег атауын мына жерге енгізіңіз</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextboxHelper.Text" xml:space="preserve">
+    <value>Enter пернесін басыңыз</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTags.Text" xml:space="preserve">
+    <value>Әдетті тег( тер)</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Мұнда мәнді енгізу</value>
+  </data>
+  <data name="SessionMetadataDialog_Description.Text" xml:space="preserve">
+    <value>Міндетті өрістер ' деп белгіленеді</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionName.Text" xml:space="preserve">
+    <value>Сеанс атауы</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionNameTextbox.PlaceholderText" xml:space="preserve">
+    <value>мысалы, науқас нөлге тең</value>
+  </data>
+  <data name="SessionMetadataDialog_Title.Text" xml:space="preserve">
+    <value>Сеанс атауын және тегтерді қосу</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorActionMessage" xml:space="preserve">
+    <value>Тіркелгіңізді белсендіру үшін әкімшіге хабарласыңыз.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorMessage" xml:space="preserve">
+    <value>Тіркелгіңіз істен шығарылды.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorActionMessage" xml:space="preserve">
+    <value>Тіркелгіңізді жасау үшін әкімшіге хабарласыңыз.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorMessage" xml:space="preserve">
+    <value>Тіркелгіңіз жойылды.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorActionMessage" xml:space="preserve">
+    <value>Тіркелгіңізді қосу үшін әкімшіге хабарласыңыз.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorMessage" xml:space="preserve">
+    <value>Тіркелгіңіз өшірілді.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorActionMessage" xml:space="preserve">
+    <value>Тіркелгіңізді жасау үшін әкімшіге хабарласыңыз.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorMessage" xml:space="preserve">
+    <value>Сізде белсенді тіркелгі жоқ.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorActionMessage" xml:space="preserve">
+    <value>Лицензияңызды жаңарту үшін әкімшіге хабарласыңыз.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorMessage" xml:space="preserve">
+    <value>Лицензияңыздың мерзімі бітті.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorActionMessage" xml:space="preserve">
+    <value>Лицензияны белсендіру үшін әкімшіге хабарласыңыз.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorMessage" xml:space="preserve">
+    <value>Лицензияңыз істен шығарылды.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorActionMessage" xml:space="preserve">
+    <value>Әкімшіге хабарласыңыз.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorMessage" xml:space="preserve">
+    <value>Лицензияңыздың қолданысы тоқтатылды.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorActionMessage" xml:space="preserve">
+    <value>Сізге лицензия тағайындау үшін әкімшіге хабарласыңыз.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorMessage" xml:space="preserve">
+    <value>Сізге берілген лицензия жоқ.</value>
+  </data>
+  <data name="StartupPage2020.Text" xml:space="preserve">
+    <value>2021 </value>
+  </data>
+  <data name="StartupPageErrorDescription.Text" xml:space="preserve">
+    <value>Қате пайда болды. Интернет қосылымын тексеріп, қайталап көріңіз.</value>
+  </data>
+  <data name="StartupPagePoweredBy.Text" xml:space="preserve">
+    <value>Қуат алады </value>
+  </data>
+  <data name="StartupPageProgressDescription.Text" xml:space="preserve">
+    <value>Бұл бірнеше секундқа созылуы мүмкін</value>
+  </data>
+  <data name="StartupPageRetryButton.Content" xml:space="preserve">
+    <value>Ретри</value>
+  </data>
+  <data name="StartupPageRightsReserved.Text" xml:space="preserve">
+    <value>Барлық құқықтар сақталған.</value>
+  </data>
+  <data name="StartUpPageSettingUpMessage" xml:space="preserve">
+    <value>Баптау...</value>
+  </data>
+  <data name="StartupPageTitleDescription.Text" xml:space="preserve">
+    <value>Қош келдіңіз </value>
+  </data>
+  <data name="TranslateText" xml:space="preserve">
+    <value>Аудару</value>
+  </data>
+  <data name="TranslationLicenceUseError" xml:space="preserve">
+    <value>Қазіргі уақытта лицензияңыз басқа сессияда пайдаланылуда.</value>
+  </data>
+  <data name="TranslationLimitReachedError" xml:space="preserve">
+    <value>Сеансқа ең көп уақыт шегіне жеттіңіз. Сеанстың аяқталуы.</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOff" xml:space="preserve">
+    <value>Microphone өшірулі</value>
+  </data>
+  <data name="TranslationPage_SpeakerOff" xml:space="preserve">
+    <value>Динамик өшірулі</value>
+  </data>
+  <data name="TranslationTimeDepletedError" xml:space="preserve">
+    <value>Аударма минуттарыңыз таусылды. Әкімшіге мейірімділікпен хабарласыңыз.</value>
+  </data>
+  <data name="UnsupportedVersionDialogBtntext" xml:space="preserve">
+    <value>Жаңарту</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption" xml:space="preserve">
+    <value>Сыни жаңартулар қажет </value>
+  </data>
+  <data name="UnsupportedVersionDialogDescription" xml:space="preserve">
+    <value>Мүмкіндіктер мен қауіпсіздік жаңартуларын алуды жалғастыру үшін бағдарламаны жаңартыңыз.</value>
+  </data>
+  <data name="UnsupportedVersionDialogTitle" xml:space="preserve">
+    <value>Қолдау көрсетілмейтін бағдарлама нұсқасы</value>
+  </data>
+  <data name="UpdateDialogWhatsNew.Text" xml:space="preserve">
+    <value>Жаңалық дегеніміз не?</value>
+  </data>
+  <data name="Zoom.Text" xml:space="preserve">
+    <value>Ұлғайту</value>
+  </data>
+  <data name="Add.Content" xml:space="preserve">
+    <value>Қосу</value>
+  </data>
+  <data name="AddNewQuestion.Text" xml:space="preserve">
+    <value>Алдын ала анықталған жаңа сұрақты қосу</value>
+  </data>
+  <data name="AddQuestion.Content" xml:space="preserve">
+    <value>Сұрақты қосу</value>
+  </data>
+  <data name="ChooseLanguage.Text" xml:space="preserve">
+    <value>Әдепкі тілді таңдау</value>
+  </data>
+  <data name="CustomProfileAdded" xml:space="preserve">
+    <value>Профиль атауы сәтті қосылды.</value>
+  </data>
+  <data name="CustomProfileDeleted" xml:space="preserve">
+    <value>Профиль сәтті жойылды.</value>
+  </data>
+  <data name="CustomProfileInvalidName" xml:space="preserve">
+    <value>Қате! Профиль атауы жарамсыз.</value>
+  </data>
+  <data name="CustomProfileNotDeleted" xml:space="preserve">
+    <value>Жойылатын профиль жоқ.</value>
+  </data>
+  <data name="CustomProfileNotSaved" xml:space="preserve">
+    <value>Қате! Профиль сақталмады.</value>
+  </data>
+  <data name="CustomProfileProfileSaved" xml:space="preserve">
+    <value>Профиль сәтті сақталды.</value>
+  </data>
+  <data name="DataRequestMessage" xml:space="preserve">
+    <value>Сіз ешбір мәтінді таңдаған жоқсыз. Ортақ пайдалану үшін мәтінді таңдап, қайталап көріңіз.</value>
+  </data>
+  <data name="DevicesAddProfileButton.Content" xml:space="preserve">
+    <value>Қосу</value>
+  </data>
+  <data name="DevicesAvailableProfiles.Text" xml:space="preserve">
+    <value>Қол жетімді профильдер</value>
+  </data>
+  <data name="DevicesDefaultProfile.Text" xml:space="preserve">
+    <value>Әдепкі профиль:</value>
+  </data>
+  <data name="DevicesDeleteProfileBtn.Content" xml:space="preserve">
+    <value>Профильді жою</value>
+  </data>
+  <data name="DeviceSetupChanged" xml:space="preserve">
+    <value>Қосылған дыбыстық құрылғылар жаңартылды </value>
+  </data>
+  <data name="DevicesHelpfulTip1.Text" xml:space="preserve">
+    <value>1. Профиль атауын орнату</value>
+  </data>
+  <data name="DevicesHelpfulTip2.Text" xml:space="preserve">
+    <value>2, Бір немесе қосарлы құрылғы режимдерін таңдау</value>
+  </data>
+  <data name="DevicesHelpfulTip3.Text" xml:space="preserve">
+    <value>3. Динамик(лер) мен микрофонды таңдау</value>
+  </data>
+  <data name="DevicesHelpfulTip4.Text" xml:space="preserve">
+    <value>4. Профильді әдепкі ретінде орнатыңыз</value>
+  </data>
+  <data name="DevicesHelpfulTip5.Text" xml:space="preserve">
+    <value>5. Профильді сақтау үшін Профильді сақтау түймешігін басыңыз</value>
+  </data>
+  <data name="DevicesHelpfulTips.Text" xml:space="preserve">
+    <value>Пайдалы кеңестер</value>
+  </data>
+  <data name="DevicesProfileNameTextBox.PlaceholderText" xml:space="preserve">
+    <value>Профиль атауы...</value>
+  </data>
+  <data name="DevicesSaveProfileBtn.Content" xml:space="preserve">
+    <value>Профильді сақтау</value>
+  </data>
+  <data name="DevicesSetasDefault.Text" xml:space="preserve">
+    <value>Әдепкі ретінде орнату</value>
+  </data>
+  <data name="DevicesSetProfileButton.Content" xml:space="preserve">
+    <value>Профильді орнату</value>
+  </data>
+  <data name="DevicesSetProfileText.Text" xml:space="preserve">
+    <value>Реттелетін профильді орнатыңыз ба?</value>
+  </data>
+  <data name="DiscardButton.Content" xml:space="preserve">
+    <value>Алып тастау</value>
+  </data>
+  <data name="DismissButton.Content" xml:space="preserve">
+    <value>Жұмыстан шығару</value>
+  </data>
+  <data name="DismissText.Text" xml:space="preserve">
+    <value>Жұмыстан шығару</value>
+  </data>
+  <data name="DownloadAudio.Text" xml:space="preserve">
+    <value>Дыбысты жүктеу</value>
+  </data>
+  <data name="DownloadCancel" xml:space="preserve">
+    <value>Жүктеуден бас тартылды</value>
+  </data>
+  <data name="Downloaded" xml:space="preserve">
+    <value>Жүктеп алынған</value>
+  </data>
+  <data name="DownloadError" xml:space="preserve">
+    <value>Қате пайда болды</value>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>Жүктеу</value>
+  </data>
+  <data name="DownloadPaused" xml:space="preserve">
+    <value>Кідіртуді жүктеу</value>
+  </data>
+  <data name="DualDeviceUpdated" xml:space="preserve">
+    <value>Қосарлы құрылғыны орнату сәтті жаңартылды</value>
+  </data>
+  <data name="EnterQuestion.Text" xml:space="preserve">
+    <value>Төмендегі сұрақты енгізіңіз</value>
+  </data>
+  <data name="ErrorDescription.Text" xml:space="preserve">
+    <value>Сіздің өзгерістеріңіз сақталмады, оларды сақтағыңыз келе ме, әлде алып тастағыңыз келе ме?</value>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>Бірдеңе дұрыс болмады... Тағы да көр</value>
+  </data>
+  <data name="ErrorTitle.Text" xml:space="preserve">
+    <value>Сізде пайдаланылмаған өзгерістер бар</value>
+  </data>
+  <data name="FeedbackEight.Text" xml:space="preserve">
+    <value>Біз бір-бірімізді үзіп қалдық</value>
+  </data>
+  <data name="FeedbackFive.Text" xml:space="preserve">
+    <value>Қоңырауда жаңғырық естідім</value>
+  </data>
+  <data name="FeedbackFour.Text" xml:space="preserve">
+    <value>Ол фондық дауыстарды таңдады</value>
+  </data>
+  <data name="FeedbackOne.Text" xml:space="preserve">
+    <value>Ол менің дауысымды дұрыс таңдай алмады</value>
+  </data>
+  <data name="FeedbackQuestion.Text" xml:space="preserve">
+    <value>Не жақсы болар еді?</value>
+  </data>
+  <data name="FeedbackSeven.Text" xml:space="preserve">
+    <value>Сеанс күтпеген жерден аяқталды</value>
+  </data>
+  <data name="FeedbackSix.Text" xml:space="preserve">
+    <value>Көлемі тым төмен болды</value>
+  </data>
+  <data name="FeedbackThanks.Text" xml:space="preserve">
+    <value>Пікір үшін рахмет</value>
+  </data>
+  <data name="FeedbackThree.Text" xml:space="preserve">
+    <value>Аударма уақыты тым баяу болды</value>
+  </data>
+  <data name="FeedbackTwo.Text" xml:space="preserve">
+    <value>Ол менің сөйлемдерімді қате ауыстырды</value>
+  </data>
+  <data name="ForcedUpdateDialogCaptionContinuation" xml:space="preserve">
+    <value>жұмыс істеу үшін. Бұл жаңартуларсыз бағдарлама жұмыс істемейді.</value>
+  </data>
+  <data name="Improvement.Text" xml:space="preserve">
+    <value>Біз сіздердің тәжірибелеріңізді жетілдіру бойынша жұмыс жүргіземіз.</value>
+  </data>
+  <data name="LanguageSettingsUpdated" xml:space="preserve">
+    <value>Тіл өзгерістері жаңартылды</value>
+  </data>
+  <data name="NewVersionDialogDescription2" xml:space="preserve">
+    <value>және сіздің нұсқасыңыз</value>
+  </data>
+  <data name="NewVersionDialogDescription3" xml:space="preserve">
+    <value>қолдау көрсетілмеуі мүмкін.</value>
+  </data>
+  <data name="Other.Text" xml:space="preserve">
+    <value>Басқа түсініктемелер:</value>
+  </data>
+  <data name="PasswordUpdated" xml:space="preserve">
+    <value>Құпиясөз өзгертілген</value>
+  </data>
+  <data name="PlaybackLanguageUpdated" xml:space="preserve">
+    <value>Әдепкі ойнату тілі Succesfully өзгертілді</value>
+  </data>
+  <data name="QuestionAdded" xml:space="preserve">
+    <value>Сұрақ сәтті қосылды</value>
+  </data>
+  <data name="QuestionDeleted" xml:space="preserve">
+    <value>Сұрақ сәтті жойылды</value>
+  </data>
+  <data name="Questions.Text" xml:space="preserve">
+    <value>Сұрақтар</value>
+  </data>
+  <data name="QuestionSettingsInstructionTwo.Text" xml:space="preserve">
+    <value>* Әрбір сұрақта әр түрлі пернелер тіркесімі болуы тиіс.</value>
+  </data>
+  <data name="QuestionsValidationError.Text" xml:space="preserve">
+    <value>* Тексерулеріңізді тексеріп, қайталап көріңіз.</value>
+  </data>
+  <data name="QuickViewLanguagesUpdated" xml:space="preserve">
+    <value>Жылдам көру лангалары Succesfully жаңартылды</value>
+  </data>
+  <data name="SendFeedback.Content" xml:space="preserve">
+    <value>Пікір жіберу</value>
+  </data>
+  <data name="SessionFeedbackPrompt" xml:space="preserve">
+    <value>Аударма сеансын қалай бағалайсыз?</value>
+  </data>
+  <data name="SessionFeedbackTitle" xml:space="preserve">
+    <value>Аударма пікірі</value>
+  </data>
+  <data name="ShortcutSuccess" xml:space="preserve">
+    <value>Сұрақтар пернелер тіркесімдері сәтті жаңартылды</value>
+  </data>
+  <data name="SingleDeviceUpdated" xml:space="preserve">
+    <value>Жалғыз құрылғыны орнату сәтті жаңартылды</value>
+  </data>
+  <data name="StartupPageTitleDescription2.Text" xml:space="preserve">
+    <value>аударма бағдарламалық қамтамасыз ету.</value>
+  </data>
+  <data name="TimeoutUpdated" xml:space="preserve">
+    <value>Timeout жаңартылған succesuly</value>
+  </data>
+  <data name="TouchShareText" xml:space="preserve">
+    <value>Сенсорлық ортақ пайдалану</value>
+  </data>
+  <data name="TranslationLanguageUpdated" xml:space="preserve">
+    <value>Әдепкі аударма тілі қысқаша өзгерді</value>
+  </data>
+  <data name="TranslationPlaybackUpdated" xml:space="preserve">
+    <value>Әдепкі аударма - ойнату тілі сопылық өзгерді</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption2" xml:space="preserve">
+    <value>жұмыс істеу үшін. Мүмкіндіктер ескертусіз жұмысын тоқтатуы мүмкін. Қосымшаны жаңартыңыз.</value>
+  </data>
+  <data name="UserFlagSwitch" xml:space="preserve">
+    <value>Жаңартылған тілді ауыстыратын пайдаланушы жалаушасы</value>
+  </data>
+</root>

@@ -1,0 +1,1192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="AppDescription" xml:space="preserve">
+    <value>TalaTouchApp</value>
+  </data>
+  <data name="AppDisplayName" xml:space="preserve">
+    <value>TalaTouchApp</value>
+  </data>
+  <data name="AudioDeviceSelector_MicDropdown.PlaceholderText" xml:space="preserve">
+    <value>Zgjidh mikrofonin</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneMic.Text" xml:space="preserve">
+    <value>Person Një Mikrofon</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneSpeaker.Text" xml:space="preserve">
+    <value>Person Një Folës</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoMic.Text" xml:space="preserve">
+    <value>Mikrofoni i personit dy</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoSpeaker.Text" xml:space="preserve">
+    <value>Folësi i personit dy</value>
+  </data>
+  <data name="AudioDeviceSelector_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>Zgjidh një altoparlant</value>
+  </data>
+  <data name="BluetoothPairingDialog_Description.Text" xml:space="preserve">
+    <value>Sigurohu që pajisja jote të jetë e ndezur dhe e zbuluar. Zgjidh një pajisje më poshtë për t'u lidhur.</value>
+  </data>
+  <data name="BluetoothPairingDialog_Title.Text" xml:space="preserve">
+    <value>Shto një pajisje</value>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>Anulo</value>
+  </data>
+  <data name="ChangePasscodeDialog_Confirm.Text" xml:space="preserve">
+    <value>Konfirmo kodin e ri pasues</value>
+  </data>
+  <data name="ChangePasscodeDialog_Current.Text" xml:space="preserve">
+    <value>Kod kalimi aktual</value>
+  </data>
+  <data name="ChangePasscodeDialog_New.Text" xml:space="preserve">
+    <value>Kod kalimi i ri</value>
+  </data>
+  <data name="ChangePasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Ndrysho kodin e kalimit</value>
+  </data>
+  <data name="Close.Content" xml:space="preserve">
+    <value>Mbylle</value>
+  </data>
+  <data name="ConsentDialog_Description1.Text" xml:space="preserve">
+    <value>Shqetësimet për privatësinë janë përparësia jonë numër një. (5) Ju pranoni kushtet dhe kushtet e kësaj Politike të Privatësisë me celularin ose tabletin tuaj, siç është e zbatueshme.</value>
+  </data>
+  <data name="ConsentDialog_Description2.Text" xml:space="preserve">
+    <value>Nëse zgjidhni të mos na lejoni hyrjen kur marrim një kërkesë për pëlqim (kërkesa të tilla do të lajmërohen në faqen e internetit të WWW ICTS në :</value>
+  </data>
+  <data name="ConsentDialog_Description3.Text" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int</value>
+  </data>
+  <data name="ConsentDialog_Description4.Text" xml:space="preserve">
+    <value>), atëherë as adresa e postës elektronike e dhënë dhe asnjë informacion tjetër personal që mund të identifikojë një individ gjithashtu mund të vijë në posedimin tonë sapo të jetë dhënë një leje e tillë.</value>
+  </data>
+  <data name="ConsentDialog_Description5.Text" xml:space="preserve">
+    <value>Duke përdorur pjesë të caktuara: /Përdorimi nga unë i Celularit tim / Ikonave - që mund të përfshijë lejimin e të tjerëve në dhomat e bisedave rreth produkteve si</value>
+  </data>
+  <data name="ConsentDialog_HyperLink.NavigateUri" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int/</value>
+  </data>
+  <data name="ConsentDialog_Title.Text" xml:space="preserve">
+    <value>E vlerësojmë jetën tënde private</value>
+  </data>
+  <data name="Dashboard_Choose_Language.Text" xml:space="preserve">
+    <value>Zgjidh gjuhën</value>
+  </data>
+  <data name="Dashboard_Hello.Text" xml:space="preserve">
+    <value>Përshëndetje</value>
+  </data>
+  <data name="Dashboard_SearchBox.PlaceholderText" xml:space="preserve">
+    <value>Gjuha e kërkimit</value>
+  </data>
+  <data name="Dashboard_Welcome.Text" xml:space="preserve">
+    <value>Mirë se erdhe</value>
+  </data>
+  <data name="DevicesErrorDialog_NoDeviceError" xml:space="preserve">
+    <value>Ju nuk keni asnjë pajisje të ruajtur(s). Shko tek Settings -&gt; Devices për të zgjedhur një Mikrofon dhe një Folës pastaj kliko mbi Save.</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Description.Text" xml:space="preserve">
+    <value>Pajisje bluetooth në dispozicion</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_DropDown.PlaceholderText" xml:space="preserve">
+    <value>Zgjidh pajisjen bluetooth</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Scan.Text" xml:space="preserve">
+    <value>Skano</value>
+  </data>
+  <data name="DevicesPage_Bluetooth.Text" xml:space="preserve">
+    <value>Bluetooth</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices_Description.Text" xml:space="preserve">
+    <value>Zgjidh pajisjen tënde audio</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices.Text" xml:space="preserve">
+    <value>Pajisje audio të lidhura</value>
+  </data>
+  <data name="DevicesPage_MicDropDown.PlaceholderText" xml:space="preserve">
+    <value>Zgjidh mikrofonin</value>
+  </data>
+  <data name="DevicesPage_Network_Description.Text" xml:space="preserve">
+    <value>Rrjetet në dispozicion</value>
+  </data>
+  <data name="DevicesPage_Network_DropDown.PlaceholderText" xml:space="preserve">
+    <value>Zgjidh një rrjet</value>
+  </data>
+  <data name="DevicesPage_Network.Text" xml:space="preserve">
+    <value>Rrjeti</value>
+  </data>
+  <data name="DevicesPage_NetworkError" xml:space="preserve">
+    <value>Asnjë rrjet i zgjedhur. Kontrollo lidhjet e rrjetit.</value>
+  </data>
+  <data name="DevicesPage_PersonOne_Speaker.Text" xml:space="preserve">
+    <value>Person një folës</value>
+  </data>
+  <data name="DevicesPage_PersonOneMic.Text" xml:space="preserve">
+    <value>Person një mikrofon</value>
+  </data>
+  <data name="DevicesPage_PersonTwo_Mic.Text" xml:space="preserve">
+    <value>Personi dy mikrofon</value>
+  </data>
+  <data name="DevicesPage_Scan" xml:space="preserve">
+    <value>Skano</value>
+  </data>
+  <data name="DevicesPage_Scanning" xml:space="preserve">
+    <value>Skanimi ...</value>
+  </data>
+  <data name="DevicesPage_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>Zgjidh një altoparlant</value>
+  </data>
+  <data name="DevicesPage_Status_Connect" xml:space="preserve">
+    <value>Lidhu</value>
+  </data>
+  <data name="DevicesPage_Status_Connected" xml:space="preserve">
+    <value>E lidhur</value>
+  </data>
+  <data name="DevicesPage_Status_Connecting" xml:space="preserve">
+    <value>Lidhja...</value>
+  </data>
+  <data name="DevicesPage_Status_Off" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="DevicesPage_Status_On" xml:space="preserve">
+    <value>NË</value>
+  </data>
+  <data name="DevicesPager_PersonTwo_Speaker.Text" xml:space="preserve">
+    <value>Personi dy folës</value>
+  </data>
+  <data name="EnterPasscodeDialog_Description.Text" xml:space="preserve">
+    <value>Shkruaj kodin tënd për të hyrë në faqen e rregullimeve</value>
+  </data>
+  <data name="EnterPasscodeDialog_ForgotPasscode.Content" xml:space="preserve">
+    <value>Harrove Paskod?</value>
+  </data>
+  <data name="EnterPasscodeDialog_InvalidPasscode.Text" xml:space="preserve">
+    <value>Kod kalimi i pavlefshëm! Të lutem provoje përsëri.</value>
+  </data>
+  <data name="EnterPasscodeDialog_Passcode.Text" xml:space="preserve">
+    <value>Kod kalimi</value>
+  </data>
+  <data name="EnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Shkruaj kodin tënd të kalimit</value>
+  </data>
+  <data name="IAgree.Content" xml:space="preserve">
+    <value>Jam dakord</value>
+  </data>
+  <data name="InvalidLicenseDialog_Description.Text" xml:space="preserve">
+    <value>Verifikimi i liçensës dështoi</value>
+  </data>
+  <data name="InvalidLicenseDialog_Title.Text" xml:space="preserve">
+    <value>Liçensë e pavlefshme</value>
+  </data>
+  <data name="LoginFailedDialog_Button.Content" xml:space="preserve">
+    <value>Kthehu mbrapa</value>
+  </data>
+  <data name="LoginFailedDialog_Description.Text" xml:space="preserve">
+    <value>Përpjekja juaj e hyrjes dështoi.</value>
+  </data>
+  <data name="LoginFailedDialog_Title.Text" xml:space="preserve">
+    <value>Hyrje e dështuar</value>
+  </data>
+  <data name="Main_Title.Text" xml:space="preserve">
+    <value>Kryesore</value>
+  </data>
+  <data name="PasswordPopup_SetupTitle.Text" xml:space="preserve">
+    <value>Përcakto një kod kalimi</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Description1.Text" xml:space="preserve">
+    <value>Ju lutem ri-hyni kodin tuaj për të vazhduar redaktimin...</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Ri-shkruaj kodin tënd të kalimit</value>
+  </data>
+  <data name="RenterPasscodeDialog_Description2.Text" xml:space="preserve">
+    <value>auto duke kursyer dhe duke u kthyer në shtëpi</value>
+  </data>
+  <data name="Save.Content" xml:space="preserve">
+    <value>Ruaj</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Description.Text" xml:space="preserve">
+    <value>Kjo është një faqe mostër që do të tregojë parametrat e aktivizimit nëse aplikacioni aktivizohet nga Deep Linking.</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Title.Text" xml:space="preserve">
+    <value>Aktivimi i skemave</value>
+  </data>
+  <data name="SetPasscodeDialog_ConfirmPasscode.Text" xml:space="preserve">
+    <value>Konfirmo kodin e ri pasues </value>
+  </data>
+  <data name="SetPasscodeDialog_NewPasscode.Text" xml:space="preserve">
+    <value>Kod kalimi i ri</value>
+  </data>
+  <data name="SetPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Përcakto një kod kalimi</value>
+  </data>
+  <data name="Settings_About.Text" xml:space="preserve">
+    <value>Rreth këtij aplikimi</value>
+  </data>
+  <data name="Settings_AboutDescription.Text" xml:space="preserve">
+    <value>Rregullimet e tekstit të vendmbajtësit të faqes.  Përshkrimi i aplikacionit tuaj shkon këtu.</value>
+  </data>
+  <data name="Settings_Personalization.Text" xml:space="preserve">
+    <value>Personalizimi</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.Content" xml:space="preserve">
+    <value>Deklarata e konfidencialitetit</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.NavigateUri" xml:space="preserve">
+    <value>https://YourPrivacyUrlGoesHere/</value>
+  </data>
+  <data name="Settings_Theme_Dark.Content" xml:space="preserve">
+    <value>Errësirë</value>
+  </data>
+  <data name="Settings_Theme_Default.Content" xml:space="preserve">
+    <value>E prezgjedhur e Windows</value>
+  </data>
+  <data name="Settings_Theme_Light.Content" xml:space="preserve">
+    <value>Dritë</value>
+  </data>
+  <data name="Settings_Theme.Text" xml:space="preserve">
+    <value>Zgjidh Temën</value>
+  </data>
+  <data name="Settings_Title.Text" xml:space="preserve">
+    <value>Rregullimet</value>
+  </data>
+  <data name="SettingsPage_Devices" xml:space="preserve">
+    <value>Pajisje</value>
+  </data>
+  <data name="SettingsPage_Language" xml:space="preserve">
+    <value>Gjuha</value>
+  </data>
+  <data name="SettingsPage_Profile" xml:space="preserve">
+    <value>Profili</value>
+  </data>
+  <data name="SettingsPage_Questions" xml:space="preserve">
+    <value>Pyetje</value>
+  </data>
+  <data name="SettingsPage_Title" xml:space="preserve">
+    <value>Rregullimet</value>
+  </data>
+  <data name="ShellView_Help" xml:space="preserve">
+    <value>Ndihmë</value>
+  </data>
+  <data name="ShellView_History" xml:space="preserve">
+    <value>Historia</value>
+  </data>
+  <data name="ShellView_Home" xml:space="preserve">
+    <value>Shtëpi</value>
+  </data>
+  <data name="ShellView_Settings.Text" xml:space="preserve">
+    <value>Rregullimet</value>
+  </data>
+  <data name="Sign_In.Text" xml:space="preserve">
+    <value>Hyr</value>
+  </data>
+  <data name="SignInDialog_Description.Text" xml:space="preserve">
+    <value>Komunikoni menjëherë në gjuhë të shumëfishta globale me pajisjen tuaj Jabra.</value>
+  </data>
+  <data name="SignInDialog_SignInButton.Content" xml:space="preserve">
+    <value>Hyr</value>
+  </data>
+  <data name="Translate_Button.Text" xml:space="preserve">
+    <value>Përkthe</value>
+  </data>
+  <data name="TranslationPage_EndSession.Text" xml:space="preserve">
+    <value>Përfundoje seancën</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOn" xml:space="preserve">
+    <value>Mikrofoni i ndezur</value>
+  </data>
+  <data name="TranslationPage_SpeakerOn" xml:space="preserve">
+    <value>Altoparlanti On</value>
+  </data>
+  <data name="TranslationPage_SpeakNow.Text" xml:space="preserve">
+    <value>Fol tani</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Rreth</value>
+  </data>
+  <data name="AboutPage_AppVersion.Text" xml:space="preserve">
+    <value>Versioni i programit</value>
+  </data>
+  <data name="AboutPage_CheckUpdate.Content" xml:space="preserve">
+    <value>Kontrollo për përditësimet</value>
+  </data>
+  <data name="AboutPage_DataConsent" xml:space="preserve">
+    <value>Organizata juaj ka dhënë pëlqimin për të ruajtur të dhënat tuaja në re.</value>
+  </data>
+  <data name="AboutPage_NoDataConsent" xml:space="preserve">
+    <value>Organizata juaj nuk ka dhënë pëlqimin për të ruajtur të dhënat tuaja në re.</value>
+  </data>
+  <data name="AboutPage_Published.Text" xml:space="preserve">
+    <value>Botuar nga "FITTS Limited".</value>
+  </data>
+  <data name="AppClose_Close.Content" xml:space="preserve">
+    <value>Mbylle gjithsesi</value>
+  </data>
+  <data name="AppClose_Dismiss.Content" xml:space="preserve">
+    <value>Anulo</value>
+  </data>
+  <data name="AppClose_Warning.Text" xml:space="preserve">
+    <value>Keni një seancë në proces. Ju lutem mbyllni seancën para se të dilni nga programi.</value>
+  </data>
+  <data name="AppVersion.Text" xml:space="preserve">
+    <value>Versioni i app</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Button.Content" xml:space="preserve">
+    <value>Vazhdo seancën</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Description.Text" xml:space="preserve">
+    <value>Sesioni do të përfundojë në</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Title.Text" xml:space="preserve">
+    <value>Audio nuk u zbulua</value>
+  </data>
+  <data name="AudioPlayer_Error.Text" xml:space="preserve">
+    <value>Gabim gjatë ngarkimit të audios</value>
+  </data>
+  <data name="DashboardPage_DefaultLanguageError" xml:space="preserve">
+    <value>Ju nuk keni ruajtur Default Translation Language. Shko tek Settings -&gt; Languages për të zgjedhur një Gjuhë Përkthimi të Prezgjedhur pastaj kliko tek Save.</value>
+  </data>
+  <data name="DashboardPage_TargetLanguageError" xml:space="preserve">
+    <value>Nuk ke zgjedhur një gjuhë të përkthimit të synuar. Zgjidh me dashamirësi një gjuhë pastaj kliko mbi Translate.</value>
+  </data>
+  <data name="DevicesErrorDialog_DualDeviceError" xml:space="preserve">
+    <value>Ju keni zgjedhur Përkthimin Dual Device por nuk keni një (s) pajisje të zgjedhur për Person 2. Shko tek Settings -&gt; Devices për të zgjedhur një Mikrofon dhe një Folës pastaj kliko mbi Save.</value>
+  </data>
+  <data name="DevicesPage_Title.Text" xml:space="preserve">
+    <value>Pajisje</value>
+  </data>
+  <data name="DevicesPage_Wifi_Password.Text" xml:space="preserve">
+    <value>Shkruaj Fjalëkalimin</value>
+  </data>
+  <data name="DevicesPage_WifiStatus.Text" xml:space="preserve">
+    <value>Gjendja Wifi</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Ndrysho</value>
+  </data>
+  <data name="Expiry.Text" xml:space="preserve">
+    <value>Skadim</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Feedback</value>
+  </data>
+  <data name="FeedbackMessage.Text" xml:space="preserve">
+    <value>Nëse keni ndonjë reagim ose pyetje, mos ngurroni të lidheni me të.</value>
+  </data>
+  <data name="GetInTouchButton.Text" xml:space="preserve">
+    <value>Lidhu me të.</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Ndihmë</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>Historia</value>
+  </data>
+  <data name="History_ExportBtn.Text" xml:space="preserve">
+    <value>Eksporto</value>
+  </data>
+  <data name="HistoryExportButtonTooltip.Text" xml:space="preserve">
+    <value>Eksporto</value>
+  </data>
+  <data name="HistoryListColumnDate.Text" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="HistoryListColumnDuration.Text" xml:space="preserve">
+    <value>Kohëzgjatja</value>
+  </data>
+  <data name="HistoryListColumnPrimaryLanguage.Text" xml:space="preserve">
+    <value>Gjuha primare</value>
+  </data>
+  <data name="HistoryListColumnSecondaryLanguage.Text" xml:space="preserve">
+    <value>Gjuhë sekondare</value>
+  </data>
+  <data name="HistoryListColumnSessionId.Text" xml:space="preserve">
+    <value>ID e seancës</value>
+  </data>
+  <data name="InitalSetup_SkipSetup.Content" xml:space="preserve">
+    <value>Paracakto instalimin</value>
+  </data>
+  <data name="InitialNetworkPopupConnectButton.Content" xml:space="preserve">
+    <value>Lidhu</value>
+  </data>
+  <data name="InitialSetup_DeviceSelection.Text" xml:space="preserve">
+    <value>Zgjedhja e pajisjes</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionDescription.Text" xml:space="preserve">
+    <value>Konfiguro dispozitivin audio të prezgjedhur</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneMicrophone.Text" xml:space="preserve">
+    <value>Zgjidh Mikrofonin</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneSpeaker.Text" xml:space="preserve">
+    <value>Zgjidh Altoparlantin</value>
+  </data>
+  <data name="InitialSetup_FinishSetup.Content" xml:space="preserve">
+    <value>Rregullimi i përfundimit</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection_Description.Text" xml:space="preserve">
+    <value>Konfiguro gjuhën e prezgjedhur të përkthimit</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection.Text" xml:space="preserve">
+    <value>Përzgjedhja e gjuhës</value>
+  </data>
+  <data name="InitialSetup_NetworkSelection.Text" xml:space="preserve">
+    <value>Rrjeti i preferuar</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopup.Text" xml:space="preserve">
+    <value>Lidhu me Rrjetin</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopupPassword.Text" xml:space="preserve">
+    <value>Shkruaj Fjalëkalimin:</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionDescription.Text" xml:space="preserve">
+    <value>Zgjidh nga një nga rrjetet e disponueshme</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionNoInternetConnection.Text" xml:space="preserve">
+    <value>Ti nuk je i lidhur me internetin. Ju lutem kontrolloni lidhjet e rrjetit tuaj.</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionOtherNetworks.Text" xml:space="preserve">
+    <value>Rrjete të tjera</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup_Description.Text" xml:space="preserve">
+    <value>Përcakto kodkalimin e apliktit tënd</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup.Text" xml:space="preserve">
+    <value>Rregullimi i kodeve të kalimit</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Gjuha</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage_Description.Text" xml:space="preserve">
+    <value>Zgjidh gjuhën e aplikimit</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage.Text" xml:space="preserve">
+    <value>Gjuha e app</value>
+  </data>
+  <data name="LanguagesPage_AppLanguageDropdown.PlaceholderText" xml:space="preserve">
+    <value>Zgjidh një gjuhë</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage_Description.Text" xml:space="preserve">
+    <value>Gjuha e prezgjedhur që po përdor</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage.Text" xml:space="preserve">
+    <value>Gjuha ime e prezgjedhur</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguageDropDown.PlaceholderText" xml:space="preserve">
+    <value>Zgjidh një gjuhë</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description.Text" xml:space="preserve">
+    <value>Seksioni i historisë (për përkthimet me shumë pajisje)</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description1.Text" xml:space="preserve">
+    <value>* përkthimet e një pajisjeje të vetme luajnë të gjithë audion si të prezgjedhur *</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage.Text" xml:space="preserve">
+    <value>Gjuha e prezgjedhur e luajtjes</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguages.Text" xml:space="preserve">
+    <value>Gjuhë të shikimit të shpejtë</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguagesDropdown.PlaceholderText" xml:space="preserve">
+    <value>Shto një gjuhë</value>
+  </data>
+  <data name="LanguagesPage_Title.Text" xml:space="preserve">
+    <value>Gjuhët</value>
+  </data>
+  <data name="Licence" xml:space="preserve">
+    <value>Liçensë</value>
+  </data>
+  <data name="LicenseType.Text" xml:space="preserve">
+    <value>Lloji i liçensës:</value>
+  </data>
+  <data name="NetworkConnectionError" xml:space="preserve">
+    <value>Gabim:</value>
+  </data>
+  <data name="Next.Content" xml:space="preserve">
+    <value>Në vazhdim</value>
+  </data>
+  <data name="PasscodeError_MinimumLength" xml:space="preserve">
+    <value>Gjatësia minimale e kodit duhet të jetë 4.</value>
+  </data>
+  <data name="PasscodeError_NotMatching" xml:space="preserve">
+    <value>Kodet e futura nuk përputhen. Me mirësjellje ri-shkruaj kodet e kalimit pastaj provo përsëri.</value>
+  </data>
+  <data name="Person.Text" xml:space="preserve">
+    <value>Person</value>
+  </data>
+  <data name="PrivacyPolicy.Text" xml:space="preserve">
+    <value>Politika e privatësisë</value>
+  </data>
+  <data name="ProfilePage_Email_Description.Text" xml:space="preserve">
+    <value>Email eksporti i prezgjedhur</value>
+  </data>
+  <data name="ProfilePage_Email.Text" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="ProfilePage_Passcode_Description.Text" xml:space="preserve">
+    <value>Kodi i aplikimit tuaj</value>
+  </data>
+  <data name="ProfilePage_Passcode.Text" xml:space="preserve">
+    <value>Kod kalimi</value>
+  </data>
+  <data name="ProfilePage_Timeout_Description.Text" xml:space="preserve">
+    <value>Frekuenca e kyçit të modalitetit admin</value>
+  </data>
+  <data name="ProfilePage_Timeout.Text" xml:space="preserve">
+    <value>Koha e modalitetit Admin</value>
+  </data>
+  <data name="ProfilePage_TimeoutDropdown.PlaceholderText" xml:space="preserve">
+    <value>Zgjidh një kohë</value>
+  </data>
+  <data name="ProfilePage_Title.Text" xml:space="preserve">
+    <value>Profili</value>
+  </data>
+  <data name="PublishedBy.Text" xml:space="preserve">
+    <value>Botuar nga</value>
+  </data>
+  <data name="ReleaseNotesMessage.Text" xml:space="preserve">
+    <value>Shënimet e lëshimit do të përditësohen së shpejti</value>
+  </data>
+  <data name="Save_Text" xml:space="preserve">
+    <value>Ruaj</value>
+  </data>
+  <data name="SessionDetailsPage_Description.Text" xml:space="preserve">
+    <value>Historia e transkriptimit</value>
+  </data>
+  <data name="SessionDetailsPage_Duration.Text" xml:space="preserve">
+    <value>Kohëzgjatja</value>
+  </data>
+  <data name="SessionDetailsPage_SessionID.Text" xml:space="preserve">
+    <value>ID e seancës</value>
+  </data>
+  <data name="SessionDetailsPage_Title.Text" xml:space="preserve">
+    <value>Historia</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Rregullimet</value>
+  </data>
+  <data name="TermsOfUse.Text" xml:space="preserve">
+    <value>Kushtet e përdorimit</value>
+  </data>
+  <data name="TranslationPage_SettingUpState" xml:space="preserve">
+    <value>Duke vendosur ...</value>
+  </data>
+  <data name="TranslationPage_SpeakFast" xml:space="preserve">
+    <value>Përpiqu të flasësh pak më shpejt për rezultate më të mira përkthimi.</value>
+  </data>
+  <data name="TranslationPage_SpeakIn" xml:space="preserve">
+    <value>Fol brenda.</value>
+  </data>
+  <data name="TranslationPage_SpeakSlow" xml:space="preserve">
+    <value>Përpiqu të flasësh pak më ngadalë për rezultate më të mira përkthimi.</value>
+  </data>
+  <data name="TranslationPage_Switching" xml:space="preserve">
+    <value>Duke ndryshuar</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonOne" xml:space="preserve">
+    <value>Kalo tek personi 1</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonTwo" xml:space="preserve">
+    <value>Kalo tek personi 2</value>
+  </data>
+  <data name="TranslationPage_TranslationReadyState" xml:space="preserve">
+    <value>Fol tani.</value>
+  </data>
+  <data name="Website.Text" xml:space="preserve">
+    <value>Faqja e internetit</value>
+  </data>
+  <data name="WhatsNew" xml:space="preserve">
+    <value>Çfarë është e re?</value>
+  </data>
+  <data name="WhatsNewInSpeechly.Text" xml:space="preserve">
+    <value>Çfarë është e re në</value>
+  </data>
+  <data name="AudioDevicesSelectorDualDevice.Content" xml:space="preserve">
+    <value>Pajisje e dyfishtë</value>
+  </data>
+  <data name="AudioDevicesSelectorSingleDevice.Content" xml:space="preserve">
+    <value>Pajisje e vetme</value>
+  </data>
+  <data name="AutoDetectSearchCountry.PlaceholderText" xml:space="preserve">
+    <value>Kërko vendin</value>
+  </data>
+  <data name="AutoDetectSelectLanguage.Text" xml:space="preserve">
+    <value>Zgjidh gjuhën</value>
+  </data>
+  <data name="ChatViewPersonOne" xml:space="preserve">
+    <value>Personi 1</value>
+  </data>
+  <data name="ChatViewPersonTwo" xml:space="preserve">
+    <value>Personi 2</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionLost" xml:space="preserve">
+    <value>Lidhja e internetit humbi. Me mirësjellje kontrollo lidhjen dhe provo përsëri.</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionUnstable" xml:space="preserve">
+    <value>Lidhja juaj në internet është e ngadalshme. Mund të përjetosh ndonjë të çarë.</value>
+  </data>
+  <data name="CustomTagSelectionTitle.Text" xml:space="preserve">
+    <value>Organizo Tags (zgjidh për të shtuar)</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.Header" xml:space="preserve">
+    <value>Flamuri i përdoruesit për të ndryshuar gjuhën</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OffContent" xml:space="preserve">
+    <value>Çaktivizuar</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OnContent" xml:space="preserve">
+    <value>Aktivuar</value>
+  </data>
+  <data name="DetectLanguageButton.Content" xml:space="preserve">
+    <value>Detekton gjuhën</value>
+  </data>
+  <data name="DevicesPageNetworkSetupBluetoothStatus.Text" xml:space="preserve">
+    <value>Gjendja Bluetooth :</value>
+  </data>
+  <data name="DevicesPageNetworkSetupConnectAutomatically.Text" xml:space="preserve">
+    <value>Lidhu automatikisht</value>
+  </data>
+  <data name="DevicesPageNetworkSetupWiFiStatus.Text" xml:space="preserve">
+    <value>Gjendja WiFi :</value>
+  </data>
+  <data name="Dimiss.Content" xml:space="preserve">
+    <value>Anulo</value>
+  </data>
+  <data name="Duration.Text" xml:space="preserve">
+    <value>|  Kohëzgjatja</value>
+  </data>
+  <data name="EmailPopup_Description.Text" xml:space="preserve">
+    <value>Shkruaj adresën tënde të postës elektronike</value>
+  </data>
+  <data name="EmailPopup_Title.Text" xml:space="preserve">
+    <value>Dërgo në email seancën tënde</value>
+  </data>
+  <data name="ForcedUpdateDialogCaption" xml:space="preserve">
+    <value>Kemi përditësime kritike për</value>
+  </data>
+  <data name="ForcedUpdateDialogInstallBtnText" xml:space="preserve">
+    <value>Rifresko</value>
+  </data>
+  <data name="ForcedUpdateDialogTitle" xml:space="preserve">
+    <value>Përditësime kritike</value>
+  </data>
+  <data name="GoBack.Content" xml:space="preserve">
+    <value>Kthehu mbrapa</value>
+  </data>
+  <data name="HelpPageSignOut.Content" xml:space="preserve">
+    <value>Firmos</value>
+  </data>
+  <data name="History_Export.Text" xml:space="preserve">
+    <value>Gjenerimin e file...</value>
+  </data>
+  <data name="HistoryListColumnSessionName.Text" xml:space="preserve">
+    <value>Emri</value>
+  </data>
+  <data name="HistoryListColumnSynced.Text" xml:space="preserve">
+    <value>Sinkronizuar</value>
+  </data>
+  <data name="HistorySearchBox.PlaceholderText" xml:space="preserve">
+    <value>Gjuha, emri i seancës, etiketat ose ID-të</value>
+  </data>
+  <data name="HistorySearchButtonTooltip.Text" xml:space="preserve">
+    <value>Kërko</value>
+  </data>
+  <data name="HistorySearchClearButtonTooltip.Text" xml:space="preserve">
+    <value>E qartë</value>
+  </data>
+  <data name="HistorySearchFromDate.Header" xml:space="preserve">
+    <value>Nga:</value>
+  </data>
+  <data name="HistorySearchToDate.Header" xml:space="preserve">
+    <value>Për:</value>
+  </data>
+  <data name="HistoryShareButtonTooltip.Text" xml:space="preserve">
+    <value>Share/Send</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonOne.Text" xml:space="preserve">
+    <value>Personi 1</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonTwo.Text" xml:space="preserve">
+    <value>Personi 2</value>
+  </data>
+  <data name="LoginPageTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NewVersionDialogCaption" xml:space="preserve">
+    <value>Instalo versionin e ri të aplik</value>
+  </data>
+  <data name="NewVersionDialogDescription" xml:space="preserve">
+    <value>Do të mungojnë veçori të reja dhe riparime bug nga </value>
+  </data>
+  <data name="NewVersionDialogInstallBtnText" xml:space="preserve">
+    <value>Instalo versionin e ri</value>
+  </data>
+  <data name="NewVersionDialogTitle" xml:space="preserve">
+    <value>Versioni i ri i app</value>
+  </data>
+  <data name="NextText" xml:space="preserve">
+    <value>Në vazhdim</value>
+  </data>
+  <data name="ProfilePageEditButton.Content" xml:space="preserve">
+    <value>Ndrysho</value>
+  </data>
+  <data name="QuestionsButton.Content" xml:space="preserve">
+    <value>Shih pyetjet</value>
+  </data>
+  <data name="QuestionSettingsDescription.Text" xml:space="preserve">
+    <value>Shfaq ose modifiko shkurtoret e pyetjeve të tua</value>
+  </data>
+  <data name="QuestionSettingsInstructionOne.Text" xml:space="preserve">
+    <value>* Përdor numrat 1-9 për çdo pyetje. Zero (0) nuk do të merret në konsideratë.</value>
+  </data>
+  <data name="QuestionSettingsInstructionThree.Text" xml:space="preserve">
+    <value>* Mund t'u japësh shkurtesave vetëm 9 pyetje.</value>
+  </data>
+  <data name="QuestionSettingsListTitle.Text" xml:space="preserve">
+    <value>Lista e pyetjeve:</value>
+  </data>
+  <data name="ResellerEmailAddress.Text" xml:space="preserve">
+    <value>Adresa Elektronike Reseller :</value>
+  </data>
+  <data name="ResellerName.Text" xml:space="preserve">
+    <value>Reseller Emri:</value>
+  </data>
+  <data name="SelectFlag.Text" xml:space="preserve">
+    <value>Zgjidh flamurin tënd:</value>
+  </data>
+  <data name="Send.Content" xml:space="preserve">
+    <value>Dërgo</value>
+  </data>
+  <data name="SessionDetailsPage_SessionName.Text" xml:space="preserve">
+    <value>Emri i seancës</value>
+  </data>
+  <data name="SessionID.Text" xml:space="preserve">
+    <value>ID e sesionit: -</value>
+  </data>
+  <data name="SessionMetadataDialog_ContinueButton.Text" xml:space="preserve">
+    <value>Vazhdo</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTags.Text" xml:space="preserve">
+    <value>Etiketë(s) e personalizuar</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Shkruaj emrin e etiketës këtu</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextboxHelper.Text" xml:space="preserve">
+    <value>Shkruaj</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTags.Text" xml:space="preserve">
+    <value>Tag(s) e prezgjedhur</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Shkruaj vlerën këtu</value>
+  </data>
+  <data name="SessionMetadataDialog_Description.Text" xml:space="preserve">
+    <value>Fushat e detyrueshme janë shënuar me '</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionName.Text" xml:space="preserve">
+    <value>Emri i seancës</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionNameTextbox.PlaceholderText" xml:space="preserve">
+    <value>p.sh pacienti zero</value>
+  </data>
+  <data name="SessionMetadataDialog_Title.Text" xml:space="preserve">
+    <value>Shto një emër sesioni dhe etiketa</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorActionMessage" xml:space="preserve">
+    <value>Ju lutem kontaktoni administratorin tuaj për të aktivizuar llogarinë tuaj.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorMessage" xml:space="preserve">
+    <value>Llogaria juaj është çaktivizuar.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorActionMessage" xml:space="preserve">
+    <value>Ju lutem kontaktoni administratorin tuaj për të krijuar llogarinë tuaj.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorMessage" xml:space="preserve">
+    <value>Llogaria juaj është fshirë.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorActionMessage" xml:space="preserve">
+    <value>Ju lutem kontaktoni administratorin tuaj për të aktivizuar llogarinë tuaj.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorMessage" xml:space="preserve">
+    <value>Llogaria juaj është çaktivizuar.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorActionMessage" xml:space="preserve">
+    <value>Ju lutem kontaktoni administratorin tuaj për të krijuar llogarinë tuaj.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorMessage" xml:space="preserve">
+    <value>Nuk ke llogari aktive.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorActionMessage" xml:space="preserve">
+    <value>Ju lutem kontaktoni administratorin tuaj për të rinovuar liçensën tuaj.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorMessage" xml:space="preserve">
+    <value>Licensa juaj ka skaduar.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorActionMessage" xml:space="preserve">
+    <value>Ju lutem kontaktoni administratorin tuaj për të aktivizuar liçensën tuaj.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorMessage" xml:space="preserve">
+    <value>Licensa juaj është çaktivizuar.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorActionMessage" xml:space="preserve">
+    <value>Ju lutem kontaktoni administratorin tuaj.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorMessage" xml:space="preserve">
+    <value>Patenta juaj është pezulluar.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorActionMessage" xml:space="preserve">
+    <value>Ju lutem kontaktoni administratorin tuaj për të caktuar një leje për ju.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorMessage" xml:space="preserve">
+    <value>Ju nuk keni një leje të caktuar për ju.</value>
+  </data>
+  <data name="StartupPage2020.Text" xml:space="preserve">
+    <value>2021 </value>
+  </data>
+  <data name="StartupPageErrorDescription.Text" xml:space="preserve">
+    <value>Ndodhi një gabim. Ju lutem kontrolloni Lidhjen tuaj të Internetit pastaj provoni përsëri.</value>
+  </data>
+  <data name="StartupPagePoweredBy.Text" xml:space="preserve">
+    <value>Mundësuar nga </value>
+  </data>
+  <data name="StartupPageProgressDescription.Text" xml:space="preserve">
+    <value>Kjo mund të marrë disa sekonda</value>
+  </data>
+  <data name="StartupPageRetryButton.Content" xml:space="preserve">
+    <value>Ritry</value>
+  </data>
+  <data name="StartupPageRightsReserved.Text" xml:space="preserve">
+    <value>Të gjitha të drejtat e rezervuara.</value>
+  </data>
+  <data name="StartUpPageSettingUpMessage" xml:space="preserve">
+    <value>Duke u ngritur...</value>
+  </data>
+  <data name="StartupPageTitleDescription.Text" xml:space="preserve">
+    <value>Mirëseerdhët në </value>
+  </data>
+  <data name="TranslateText" xml:space="preserve">
+    <value>Përkthe</value>
+  </data>
+  <data name="TranslationLicenceUseError" xml:space="preserve">
+    <value>Licensa juaj është aktualisht në përdorim në një sesion tjetër.</value>
+  </data>
+  <data name="TranslationLimitReachedError" xml:space="preserve">
+    <value>Keni arritur limitin maksimal të kohës për sesion. Po mbarojmë seancën.</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOff" xml:space="preserve">
+    <value>Hiq mikrofonin</value>
+  </data>
+  <data name="TranslationPage_SpeakerOff" xml:space="preserve">
+    <value>Altoparlanti Off</value>
+  </data>
+  <data name="TranslationTimeDepletedError" xml:space="preserve">
+    <value>Minutat tuaja të përkthimit janë shteruar. Kontakto me dashamirësi administratorin tënd.</value>
+  </data>
+  <data name="UnsupportedVersionDialogBtntext" xml:space="preserve">
+    <value>Rifresko</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption" xml:space="preserve">
+    <value>Nevojiten përditësime kritike për </value>
+  </data>
+  <data name="UnsupportedVersionDialogDescription" xml:space="preserve">
+    <value>Përditëso aplikacionin tënd për të vazhduar marrjen e veçorive dhe përditësimeve të sigurisë.</value>
+  </data>
+  <data name="UnsupportedVersionDialogTitle" xml:space="preserve">
+    <value>Version i pasuportuar i app</value>
+  </data>
+  <data name="UpdateDialogWhatsNew.Text" xml:space="preserve">
+    <value>Çfarë është e re?</value>
+  </data>
+  <data name="Zoom.Text" xml:space="preserve">
+    <value>Zmadhim</value>
+  </data>
+  <data name="Add.Content" xml:space="preserve">
+    <value>Shto</value>
+  </data>
+  <data name="AddNewQuestion.Text" xml:space="preserve">
+    <value>Shto pyetje të re të parapërcaktuar</value>
+  </data>
+  <data name="AddQuestion.Content" xml:space="preserve">
+    <value>Shto pyetje</value>
+  </data>
+  <data name="ChooseLanguage.Text" xml:space="preserve">
+    <value>Zgjidh gjuhën e prezgjedhur</value>
+  </data>
+  <data name="CustomProfileAdded" xml:space="preserve">
+    <value>Emri i profilit u shtua me sukses.</value>
+  </data>
+  <data name="CustomProfileDeleted" xml:space="preserve">
+    <value>Profili u fshi me sukses.</value>
+  </data>
+  <data name="CustomProfileInvalidName" xml:space="preserve">
+    <value>Gabim! Emër i pavlefshëm profili.</value>
+  </data>
+  <data name="CustomProfileNotDeleted" xml:space="preserve">
+    <value>Nuk ka profil për të fshirë.</value>
+  </data>
+  <data name="CustomProfileNotSaved" xml:space="preserve">
+    <value>Gabim! Nuk është ruajtur profili.</value>
+  </data>
+  <data name="CustomProfileProfileSaved" xml:space="preserve">
+    <value>Profili shpëtoi me sukses.</value>
+  </data>
+  <data name="DataRequestMessage" xml:space="preserve">
+    <value>Nuk ke zgjedhur asnjë tekst. Të lutem zgjidh tekstin për të ndarë dhe për të provuar përsëri.</value>
+  </data>
+  <data name="DevicesAddProfileButton.Content" xml:space="preserve">
+    <value>Shto</value>
+  </data>
+  <data name="DevicesAvailableProfiles.Text" xml:space="preserve">
+    <value>Profilet në dispozicion</value>
+  </data>
+  <data name="DevicesDefaultProfile.Text" xml:space="preserve">
+    <value>Profili i prezgjedhur:</value>
+  </data>
+  <data name="DevicesDeleteProfileBtn.Content" xml:space="preserve">
+    <value>Elemino profilin</value>
+  </data>
+  <data name="DeviceSetupChanged" xml:space="preserve">
+    <value>Përditësohen pajisjet audio të lidhura </value>
+  </data>
+  <data name="DevicesHelpfulTip1.Text" xml:space="preserve">
+    <value>1. Vendos një emër profili</value>
+  </data>
+  <data name="DevicesHelpfulTip2.Text" xml:space="preserve">
+    <value>2. Zgjidh modalitetet e pajisjes së vetme ose të dyfishtë</value>
+  </data>
+  <data name="DevicesHelpfulTip3.Text" xml:space="preserve">
+    <value>3. Zgjidh altoparlantin (s) dhe mikrofonin (s)</value>
+  </data>
+  <data name="DevicesHelpfulTip4.Text" xml:space="preserve">
+    <value>4. Vendos profilin tënd si të prezgjedhur</value>
+  </data>
+  <data name="DevicesHelpfulTip5.Text" xml:space="preserve">
+    <value>5. Kliko butonin Ruaj Profilin për të ruajtur profilin tuaj</value>
+  </data>
+  <data name="DevicesHelpfulTips.Text" xml:space="preserve">
+    <value>Këshilla të dobishme</value>
+  </data>
+  <data name="DevicesProfileNameTextBox.PlaceholderText" xml:space="preserve">
+    <value>Emri i profilit...</value>
+  </data>
+  <data name="DevicesSaveProfileBtn.Content" xml:space="preserve">
+    <value>Ruaj profilin</value>
+  </data>
+  <data name="DevicesSetasDefault.Text" xml:space="preserve">
+    <value>E prezgjedhur</value>
+  </data>
+  <data name="DevicesSetProfileButton.Content" xml:space="preserve">
+    <value>Vendos profilin</value>
+  </data>
+  <data name="DevicesSetProfileText.Text" xml:space="preserve">
+    <value>Vendos një profil të personalizuar?</value>
+  </data>
+  <data name="DiscardButton.Content" xml:space="preserve">
+    <value>Flakja</value>
+  </data>
+  <data name="DismissButton.Content" xml:space="preserve">
+    <value>Hiqe</value>
+  </data>
+  <data name="DismissText.Text" xml:space="preserve">
+    <value>Hiqe</value>
+  </data>
+  <data name="DownloadAudio.Text" xml:space="preserve">
+    <value>Shkarko Audio</value>
+  </data>
+  <data name="DownloadCancel" xml:space="preserve">
+    <value>Shkarkimi u anullua</value>
+  </data>
+  <data name="Downloaded" xml:space="preserve">
+    <value>Shkarkuar</value>
+  </data>
+  <data name="DownloadError" xml:space="preserve">
+    <value>Gabim i ndodhur</value>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>Shkarkim</value>
+  </data>
+  <data name="DownloadPaused" xml:space="preserve">
+    <value>Shkarko Pauzë</value>
+  </data>
+  <data name="DualDeviceUpdated" xml:space="preserve">
+    <value>Rregullimi i Pajisjes së Dyfishtë i azhornuar me sukses</value>
+  </data>
+  <data name="EnterQuestion.Text" xml:space="preserve">
+    <value>Shkruaj pyetjen më poshtë</value>
+  </data>
+  <data name="ErrorDescription.Text" xml:space="preserve">
+    <value>Ndryshimet e tua nuk janë ruajtur, dëshiron t'i shpëtosh apo t'i hedhësh?</value>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>Diçka shkoi keq. Provo përsëri</value>
+  </data>
+  <data name="ErrorTitle.Text" xml:space="preserve">
+    <value>Ke ndryshime të pasigurta.</value>
+  </data>
+  <data name="FeedbackEight.Text" xml:space="preserve">
+    <value>Ne vazhduam të ndërpresim njëri-tjetrin</value>
+  </data>
+  <data name="FeedbackFive.Text" xml:space="preserve">
+    <value>Dëgjova jehonë në telefonatë.</value>
+  </data>
+  <data name="FeedbackFour.Text" xml:space="preserve">
+    <value>Mblodhi zërat e sfondit</value>
+  </data>
+  <data name="FeedbackOne.Text" xml:space="preserve">
+    <value>Nuk e ka kapur zërin tim siç duhet.</value>
+  </data>
+  <data name="FeedbackQuestion.Text" xml:space="preserve">
+    <value>Çfarë mund të kishte qenë më mirë?</value>
+  </data>
+  <data name="FeedbackSeven.Text" xml:space="preserve">
+    <value>Sesioni përfundoi papritur</value>
+  </data>
+  <data name="FeedbackSix.Text" xml:space="preserve">
+    <value>Vëllimi ishte shumë i ulët</value>
+  </data>
+  <data name="FeedbackThanks.Text" xml:space="preserve">
+    <value>Faleminderit për reagimet</value>
+  </data>
+  <data name="FeedbackThree.Text" xml:space="preserve">
+    <value>Koha e përkthimit ishte tepër e ngadaltë</value>
+  </data>
+  <data name="FeedbackTwo.Text" xml:space="preserve">
+    <value>Kjo i përktinte keq fjalitë e mia</value>
+  </data>
+  <data name="ForcedUpdateDialogCaptionContinuation" xml:space="preserve">
+    <value>për të funksionuar. Programi nuk do të funksionojë pa këto përditësime.</value>
+  </data>
+  <data name="Improvement.Text" xml:space="preserve">
+    <value>Ne do të vazhdojmë të punojmë në përmirësimin e përvojës suaj.</value>
+  </data>
+  <data name="LanguageSettingsUpdated" xml:space="preserve">
+    <value>Ndryshimet gjuhësore përditësohen me sukses</value>
+  </data>
+  <data name="NewVersionDialogDescription2" xml:space="preserve">
+    <value>dhe versionin tuaj të</value>
+  </data>
+  <data name="NewVersionDialogDescription3" xml:space="preserve">
+    <value>mund të bëhet i pasuportuar.</value>
+  </data>
+  <data name="Other.Text" xml:space="preserve">
+    <value>Komente të tjera:</value>
+  </data>
+  <data name="PasswordUpdated" xml:space="preserve">
+    <value>Fjalëkalimi ndryshohet me sukses</value>
+  </data>
+  <data name="PlaybackLanguageUpdated" xml:space="preserve">
+    <value>Gjuha e prezgjedhur e luajtjes ndryshoi në mënyrë të succesfully</value>
+  </data>
+  <data name="QuestionAdded" xml:space="preserve">
+    <value>Pyetje e shtuar me sukses</value>
+  </data>
+  <data name="QuestionDeleted" xml:space="preserve">
+    <value>Pyetja e fshirë me sukses</value>
+  </data>
+  <data name="Questions.Text" xml:space="preserve">
+    <value>Pyetje</value>
+  </data>
+  <data name="QuestionSettingsInstructionTwo.Text" xml:space="preserve">
+    <value>* Çdo pyetje duhet të ketë një çelës të ndryshëm të shkurtë.</value>
+  </data>
+  <data name="QuestionsValidationError.Text" xml:space="preserve">
+    <value>* Kontrollo vleftësimet e tua dhe provo përsëri.</value>
+  </data>
+  <data name="QuickViewLanguagesUpdated" xml:space="preserve">
+    <value>Paraqitja e shpejtë lakohet e azhornuar me sukses</value>
+  </data>
+  <data name="SendFeedback.Content" xml:space="preserve">
+    <value>Dërgo feedback</value>
+  </data>
+  <data name="SessionFeedbackPrompt" xml:space="preserve">
+    <value>Si do ta vlerësonit seancën tuaj të përkthimit?</value>
+  </data>
+  <data name="SessionFeedbackTitle" xml:space="preserve">
+    <value>Rishpjesë e përkthimit</value>
+  </data>
+  <data name="ShortcutSuccess" xml:space="preserve">
+    <value>Shkurtimet e pyetjeve përditësohen me sukses</value>
+  </data>
+  <data name="SingleDeviceUpdated" xml:space="preserve">
+    <value>Rregullimi i pajisjes së vetme i azhornuar me sukses</value>
+  </data>
+  <data name="StartupPageTitleDescription2.Text" xml:space="preserve">
+    <value>program përkthimi.</value>
+  </data>
+  <data name="TimeoutUpdated" xml:space="preserve">
+    <value>Koha e azhornuar me sukses</value>
+  </data>
+  <data name="TouchShareText" xml:space="preserve">
+    <value>Pjesa e prekjes</value>
+  </data>
+  <data name="TranslationLanguageUpdated" xml:space="preserve">
+    <value>Gjuha e prezgjedhur e përkthimit ndryshoi me sukses</value>
+  </data>
+  <data name="TranslationPlaybackUpdated" xml:space="preserve">
+    <value>Përkthimi i prezgjedhur &amp; gjuha playback ndryshuar me sukses</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption2" xml:space="preserve">
+    <value>për të funksionuar. Veçoritë mund të ndalojnë së punuari pa u vënë re. Ju lutem përditësoni aplikimin.</value>
+  </data>
+  <data name="UserFlagSwitch" xml:space="preserve">
+    <value>Flamuri i përdoruesit për të ndryshuar gjuhën</value>
+  </data>
+</root>

@@ -1,0 +1,1192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="AppDescription" xml:space="preserve">
+    <value>ታላቱክኣፕ</value>
+  </data>
+  <data name="AppDisplayName" xml:space="preserve">
+    <value>ታላቱክኣፕ</value>
+  </data>
+  <data name="AudioDeviceSelector_MicDropdown.PlaceholderText" xml:space="preserve">
+    <value>ማይክሮፎን ምረጽ</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneMic.Text" xml:space="preserve">
+    <value>ሓደ ማይክሮፎን</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneSpeaker.Text" xml:space="preserve">
+    <value>ሓደ ተዛራባይ</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoMic.Text" xml:space="preserve">
+    <value>ክልተ ማይክሮፎን</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoSpeaker.Text" xml:space="preserve">
+    <value>ክልተ ተዛራባይ</value>
+  </data>
+  <data name="AudioDeviceSelector_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>ተዛራባይ ምረጽ</value>
+  </data>
+  <data name="BluetoothPairingDialog_Description.Text" xml:space="preserve">
+    <value>ኤለክትሮኒካዊ መሳርሒኻ ኸም እተዓጽወን ከም ዚርከብን ኣረጋግጽ። ንምርኻብ ኣብ ታሕቲ ዘሎ ኤለክትሮኒካዊ መሳርሒ ምረጽ።</value>
+  </data>
+  <data name="BluetoothPairingDialog_Title.Text" xml:space="preserve">
+    <value>ኤለክትሮኒካዊ መሳርሒ ወሲኽካ</value>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>ደምስስ</value>
+  </data>
+  <data name="ChangePasscodeDialog_Confirm.Text" xml:space="preserve">
+    <value>ሓድሽ ፓስኮድ ኣረጋግጽ</value>
+  </data>
+  <data name="ChangePasscodeDialog_Current.Text" xml:space="preserve">
+    <value>እዋናዊ ፓስኮድ</value>
+  </data>
+  <data name="ChangePasscodeDialog_New.Text" xml:space="preserve">
+    <value>ሓድሽ ፓስኮድ</value>
+  </data>
+  <data name="ChangePasscodeDialog_Title.Text" xml:space="preserve">
+    <value>ፓስኮድ ቀያይር</value>
+  </data>
+  <data name="Close.Content" xml:space="preserve">
+    <value>ቀሪብካ</value>
+  </data>
+  <data name="ConsentDialog_Description1.Text" xml:space="preserve">
+    <value>ንብሕትና ቐዳምነት እንህቦ ነገር እዩ ። (5) ነቲ ዅነታትን ኵነታትን ናይዚ ናይ ምስጢር ፖሊሲ ብሞባይል ተሌፎንካ ወይ ታብለትካ ጌርካ ኢኻ እትቕበሎ።</value>
+  </data>
+  <data name="ConsentDialog_Description2.Text" xml:space="preserve">
+    <value>ፍቓድ ክንረክብ ሕቶ ምስ ተቐበልና ኽንኣቱ እንተ ዘይፈቒድካልና (ከምዚ ዝኣመሰለ ሕቶታት ኣብ www ICTS ዚብሃል ወብ ሳይት ኪሕብረና እዩ ፦</value>
+  </data>
+  <data name="ConsentDialog_Description3.Text" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int</value>
+  </data>
+  <data name="ConsentDialog_Description4.Text" xml:space="preserve">
+    <value>( ድሕሪኡ እቲ እተዋህበና ናይ ኢ-መይል ኣድራሻ ዀነ ንሓደ ውልቀ-ሰብ ኬለልዮ ዚኽእል ዝዀነ ይኹን ብሕታዊ ሓበሬታ ፍቓድ ምስ ተዋህበና ኺውንነና ኣይክእልን እዩ።</value>
+  </data>
+  <data name="ConsentDialog_Description5.Text" xml:space="preserve">
+    <value>ገሊኡ ኽፋላት ብምጥቃም ፦ /እቲ ኣነ ዝጥቀመሉ ሞባይል ተሌፎነይ/Icons - እዚ ኸኣ ንኻልኦት ሰባት ኣብ ቻት ሩም ብዛዕባ ኸም እኒ ፍርያት ኬዕልሉ ምፍቃድ ዜጠቓልል ኪኸውን ይኽእል እዩ</value>
+  </data>
+  <data name="ConsentDialog_HyperLink.NavigateUri" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int/</value>
+  </data>
+  <data name="ConsentDialog_Title.Text" xml:space="preserve">
+    <value>ንብሕትኻ ኣኽቢርና ኢና እንርእዮ</value>
+  </data>
+  <data name="Dashboard_Choose_Language.Text" xml:space="preserve">
+    <value>ቋንቋ ምረጽ</value>
+  </data>
+  <data name="Dashboard_Hello.Text" xml:space="preserve">
+    <value>ሰላም</value>
+  </data>
+  <data name="Dashboard_SearchBox.PlaceholderText" xml:space="preserve">
+    <value>ቋንቋ ድለ</value>
+  </data>
+  <data name="Dashboard_Welcome.Text" xml:space="preserve">
+    <value>እንቋዕ ብደሓን መጻእኩም</value>
+  </data>
+  <data name="DevicesErrorDialog_NoDeviceError" xml:space="preserve">
+    <value>ዘዋህለልካዮ መሳርሒ የብልካን ። ማይክሮፎንን ተዛራባይን ንምምራጽ ናብ ኣፕሊኬሽን -&gt; ኤለክትሮኒካዊ መሳርሒታት ኪድ እሞ ኣብ ሴቭ ጠውቕ ።</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Description.Text" xml:space="preserve">
+    <value>ክርከብ ዝከኣል ናይ ብሉቱዝ መሳርሒታት</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_DropDown.PlaceholderText" xml:space="preserve">
+    <value>ብሉቱዝ ዚብሃል መሳርሒ ምረጽ</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Scan.Text" xml:space="preserve">
+    <value>ስካን</value>
+  </data>
+  <data name="DevicesPage_Bluetooth.Text" xml:space="preserve">
+    <value>ብሉቱዝ</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices_Description.Text" xml:space="preserve">
+    <value>ኤለክትሮኒካዊ መሳርሒ ኣውድዮ ምረጽ</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices.Text" xml:space="preserve">
+    <value>እተተሓሓዘ መሳርሒታት ኣውድዮ</value>
+  </data>
+  <data name="DevicesPage_MicDropDown.PlaceholderText" xml:space="preserve">
+    <value>ማይክሮፎን ምረጽ</value>
+  </data>
+  <data name="DevicesPage_Network_Description.Text" xml:space="preserve">
+    <value>ክርከብ ዝከኣል መራኸቢታት</value>
+  </data>
+  <data name="DevicesPage_Network_DropDown.PlaceholderText" xml:space="preserve">
+    <value>መርበብ ምረጽ</value>
+  </data>
+  <data name="DevicesPage_Network.Text" xml:space="preserve">
+    <value>መርበብ ሓበሬታ</value>
+  </data>
+  <data name="DevicesPage_NetworkError" xml:space="preserve">
+    <value>እተመርጸ መርበብ ሓበሬታ የልቦን ። ነቲ መርበብ ሓበሬታ ርኣዮ።</value>
+  </data>
+  <data name="DevicesPage_PersonOne_Speaker.Text" xml:space="preserve">
+    <value>ሓደ ተዛራባይ</value>
+  </data>
+  <data name="DevicesPage_PersonOneMic.Text" xml:space="preserve">
+    <value>ሓደ ማይክሮፎን</value>
+  </data>
+  <data name="DevicesPage_PersonTwo_Mic.Text" xml:space="preserve">
+    <value>ክልተ ማይክሮፎን</value>
+  </data>
+  <data name="DevicesPage_Scan" xml:space="preserve">
+    <value>ስካን</value>
+  </data>
+  <data name="DevicesPage_Scanning" xml:space="preserve">
+    <value>ስካን ምግባር ...</value>
+  </data>
+  <data name="DevicesPage_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>ተዛራባይ ምረጽ</value>
+  </data>
+  <data name="DevicesPage_Status_Connect" xml:space="preserve">
+    <value>ኣራኽብ</value>
+  </data>
+  <data name="DevicesPage_Status_Connected" xml:space="preserve">
+    <value>እተኣሳሰረ</value>
+  </data>
+  <data name="DevicesPage_Status_Connecting" xml:space="preserve">
+    <value>ምትእስሳር ...</value>
+  </data>
+  <data name="DevicesPage_Status_Off" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DevicesPage_Status_On" xml:space="preserve">
+    <value>ኦን</value>
+  </data>
+  <data name="DevicesPager_PersonTwo_Speaker.Text" xml:space="preserve">
+    <value>ክልተ ተዛራባይ</value>
+  </data>
+  <data name="EnterPasscodeDialog_Description.Text" xml:space="preserve">
+    <value>ኣብ ገጽ እቲ ኣሰራርሓ ምእንቲ ኽትኣቱ በጃኻ ፓስኮድካ ኣእቱ</value>
+  </data>
+  <data name="EnterPasscodeDialog_ForgotPasscode.Content" xml:space="preserve">
+    <value>ፓስኮድ ረሲዕካዶ ?</value>
+  </data>
+  <data name="EnterPasscodeDialog_InvalidPasscode.Text" xml:space="preserve">
+    <value>ዘይግቡእ ፓስኮድ! በጃኻ እንደገና ፈትን ።</value>
+  </data>
+  <data name="EnterPasscodeDialog_Passcode.Text" xml:space="preserve">
+    <value>ፓስኮድ</value>
+  </data>
+  <data name="EnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>ፓስኮድካ ኣእቱ</value>
+  </data>
+  <data name="IAgree.Content" xml:space="preserve">
+    <value>ይሰማማዕ እየ</value>
+  </data>
+  <data name="InvalidLicenseDialog_Description.Text" xml:space="preserve">
+    <value>ፍቓድካ ተረጋገጸ</value>
+  </data>
+  <data name="InvalidLicenseDialog_Title.Text" xml:space="preserve">
+    <value>ዘይግቡእ ፍቓድ</value>
+  </data>
+  <data name="LoginFailedDialog_Button.Content" xml:space="preserve">
+    <value>ተመለስ</value>
+  </data>
+  <data name="LoginFailedDialog_Description.Text" xml:space="preserve">
+    <value>እቲ ናብ ቤትካ ንምእታው ዝገበርካዮ ፈተነ ፈሸለ ።</value>
+  </data>
+  <data name="LoginFailedDialog_Title.Text" xml:space="preserve">
+    <value>ዝፈሸለ መእተዊ</value>
+  </data>
+  <data name="Main_Title.Text" xml:space="preserve">
+    <value>ቀንዲ</value>
+  </data>
+  <data name="PasswordPopup_SetupTitle.Text" xml:space="preserve">
+    <value>ፓስኮድ ኣዳሉ</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Description1.Text" xml:space="preserve">
+    <value>በጃኻ ነቲ ፓስኮድካ እንደገና ኣእትዎ እሞ ብቐጻሊ ኣዐርዮ።</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>ፓስኮድካ እንደገና ኣእቱ</value>
+  </data>
+  <data name="RenterPasscodeDialog_Description2.Text" xml:space="preserve">
+    <value>ማኪና ኣዋህሊልካ ናብ ቤትካ ምምላስ</value>
+  </data>
+  <data name="Save.Content" xml:space="preserve">
+    <value>ኣድሕን</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Description.Text" xml:space="preserve">
+    <value>እዚ ኣፕሊኬሽን እዚ ካብ ዲፕ ሊንክንግ እንተ ተላዒሉ ንንጥፈታት ዚምልከት መለክዒታት ዜርኢ ንመርኣዪ ዚኸውን ገጽ እዩ።</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Title.Text" xml:space="preserve">
+    <value>ናይ መደብ ንጥፈታት መርኣያ</value>
+  </data>
+  <data name="SetPasscodeDialog_ConfirmPasscode.Text" xml:space="preserve">
+    <value>ሓድሽ ፓስኮድ ኣረጋግጽ </value>
+  </data>
+  <data name="SetPasscodeDialog_NewPasscode.Text" xml:space="preserve">
+    <value>ሓድሽ ፓስኮድ</value>
+  </data>
+  <data name="SetPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>ፓስኮድ ኣዳሉ</value>
+  </data>
+  <data name="Settings_About.Text" xml:space="preserve">
+    <value>ብዛዕባ እዚ ኣወዓዕላ እዚ</value>
+  </data>
+  <data name="Settings_AboutDescription.Text" xml:space="preserve">
+    <value>ኣሰራርሓ ገጻት እቲ ንፕላዝነር ዚሕዝ ጽሑፍ።  መግለጺ ኣፕሊኬሽንካ ኣብዚ ኣሎ።</value>
+  </data>
+  <data name="Settings_Personalization.Text" xml:space="preserve">
+    <value>ብሕታዊ ምዃን</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.Content" xml:space="preserve">
+    <value>ናይ ብሕትኻ መግለጺ</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.NavigateUri" xml:space="preserve">
+    <value>https://YourPrivacyUrlGoesHere/</value>
+  </data>
+  <data name="Settings_Theme_Dark.Content" xml:space="preserve">
+    <value>ጸልማት</value>
+  </data>
+  <data name="Settings_Theme_Default.Content" xml:space="preserve">
+    <value>ናይ Windows ስሕተት</value>
+  </data>
+  <data name="Settings_Theme_Light.Content" xml:space="preserve">
+    <value>ብርሃን</value>
+  </data>
+  <data name="Settings_Theme.Text" xml:space="preserve">
+    <value>ፍረ ነገር ምረጽ</value>
+  </data>
+  <data name="Settings_Title.Text" xml:space="preserve">
+    <value>ኵነታት</value>
+  </data>
+  <data name="SettingsPage_Devices" xml:space="preserve">
+    <value>መሳርሒታት</value>
+  </data>
+  <data name="SettingsPage_Language" xml:space="preserve">
+    <value>ቋንቋ</value>
+  </data>
+  <data name="SettingsPage_Profile" xml:space="preserve">
+    <value>ፕሮፌሰር</value>
+  </data>
+  <data name="SettingsPage_Questions" xml:space="preserve">
+    <value>ሕቶታት</value>
+  </data>
+  <data name="SettingsPage_Title" xml:space="preserve">
+    <value>ኵነታት</value>
+  </data>
+  <data name="ShellView_Help" xml:space="preserve">
+    <value>ሓገዝ</value>
+  </data>
+  <data name="ShellView_History" xml:space="preserve">
+    <value>ታሪኽ</value>
+  </data>
+  <data name="ShellView_Home" xml:space="preserve">
+    <value>ቤት</value>
+  </data>
+  <data name="ShellView_Settings.Text" xml:space="preserve">
+    <value>ኵነታት</value>
+  </data>
+  <data name="Sign_In.Text" xml:space="preserve">
+    <value>እቶ</value>
+  </data>
+  <data name="SignInDialog_Description.Text" xml:space="preserve">
+    <value>ብኡንብኡ ብብዙሕ ዓለምለኻዊ ቛንቋታት ምስ ጃብራ ኻባኻ ሓሳብ ንሓሳብ ምልውዋጥ ።</value>
+  </data>
+  <data name="SignInDialog_SignInButton.Content" xml:space="preserve">
+    <value>እቶ</value>
+  </data>
+  <data name="Translate_Button.Text" xml:space="preserve">
+    <value>ተርጉም</value>
+  </data>
+  <data name="TranslationPage_EndSession.Text" xml:space="preserve">
+    <value>ነቲ ፕሮግራም ዛዘምዎ</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOn" xml:space="preserve">
+    <value>ማይክሮፎን</value>
+  </data>
+  <data name="TranslationPage_SpeakerOn" xml:space="preserve">
+    <value>ተዛራባይ</value>
+  </data>
+  <data name="TranslationPage_SpeakNow.Text" xml:space="preserve">
+    <value>ሕጂ ተዛረብ</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>ብዛዕባ</value>
+  </data>
+  <data name="AboutPage_AppVersion.Text" xml:space="preserve">
+    <value>ኣወዓዕላ ትርጕም</value>
+  </data>
+  <data name="AboutPage_CheckUpdate.Content" xml:space="preserve">
+    <value>እዋናዊ ሓበሬታ እንተ ኣልዩ ኣረጋግጽ</value>
+  </data>
+  <data name="AboutPage_DataConsent" xml:space="preserve">
+    <value>ማሕበርካ ነቲ ሓበሬታኻ ኣብ ደበና ኸተዋህልሎ ፍቓደኛ ዀይኑ ኣሎ።</value>
+  </data>
+  <data name="AboutPage_NoDataConsent" xml:space="preserve">
+    <value>ማሕበርካ ነቲ ሓበሬታኻ ኣብ ደበና ኸተዋህልሎ ፍቓደኛ ኣይኰነን ።</value>
+  </data>
+  <data name="AboutPage_Published.Text" xml:space="preserve">
+    <value>ብፊትስ ሊሚትድ እተሓትመ ።</value>
+  </data>
+  <data name="AppClose_Close.Content" xml:space="preserve">
+    <value>ዝዀነ ዀይኑ ዕጾ</value>
+  </data>
+  <data name="AppClose_Dismiss.Content" xml:space="preserve">
+    <value>ደምስስ</value>
+  </data>
+  <data name="AppClose_Warning.Text" xml:space="preserve">
+    <value>ፕሮግራም ትህብ ኣለኻ ። ካብቲ መመልከቲ ቕድሚ ምውጻእካ በጃኻ ነቲ ፕሮግራም ዛዝፎ።</value>
+  </data>
+  <data name="AppVersion.Text" xml:space="preserve">
+    <value>ኣፕሊኬሽን</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Button.Content" xml:space="preserve">
+    <value>ፕሮግራምካ ቐጽል</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Description.Text" xml:space="preserve">
+    <value>እቲ ፕሮግራም ኪዛዘም እዩ</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Title.Text" xml:space="preserve">
+    <value>ኣውድዮ ኣይተረኽበን</value>
+  </data>
+  <data name="AudioPlayer_Error.Text" xml:space="preserve">
+    <value>ኣውድዮ ኺጽዕኑ ኣይከኣሉን</value>
+  </data>
+  <data name="DashboardPage_DefaultLanguageError" xml:space="preserve">
+    <value>ናይ ትርጕም ቋንቋ ኸተድሕን ኣይትኽእልን ኢኻ። ናይ ቀደም ቋንቋ ትርጕም ንምምራጽ ናብ Settings -&gt; ቛንቋታት ኪድ ድሕሪኡ ኣብ ሴቭ ጠውቕ ።</value>
+  </data>
+  <data name="DashboardPage_TargetLanguageError" xml:space="preserve">
+    <value>ዕላማ ቛንቋ ትርጕም ኣይመረጽካን ። ሕያውነት ዝመልኦ ቛንቋ ምረጽ እሞ ኣብ ትርጕም ጠውቕ።</value>
+  </data>
+  <data name="DevicesErrorDialog_DualDeviceError" xml:space="preserve">
+    <value>ድርብ ኤለክትሮኒካዊ ትርጕም መሪጽካ እኳ እንተ ዀንካ ንሰብ 2 እተመርጸ ኤለክትሮኒካዊ መሳርሒ ግን የብልኩምን። ማይክሮፎንን ተዛራባይን ንምምራጽ ናብ ኣፕሊኬሽን -&gt; ኤለክትሮኒካዊ መሳርሒታት ኪድ እሞ ኣብ ሴቭ ጠውቕ ።</value>
+  </data>
+  <data name="DevicesPage_Title.Text" xml:space="preserve">
+    <value>መሳርሒታት</value>
+  </data>
+  <data name="DevicesPage_Wifi_Password.Text" xml:space="preserve">
+    <value>ፓስዎርድ ኣእቱ</value>
+  </data>
+  <data name="DevicesPage_WifiStatus.Text" xml:space="preserve">
+    <value>ኵነታት Wifi</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>ኣረምቲ</value>
+  </data>
+  <data name="Expiry.Text" xml:space="preserve">
+    <value>ግዜ ይጽንቀቕ</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>እተዋህበ ርእይቶ</value>
+  </data>
+  <data name="FeedbackMessage.Text" xml:space="preserve">
+    <value>ዝዀነ ይኹን ርእይቶ ወይ ሕቶታት እንተ ኣልዩካ ንምትንኻፍ ድሕር ኣይትበል።</value>
+  </data>
+  <data name="GetInTouchButton.Text" xml:space="preserve">
+    <value>ተራኸብ</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>ሓገዝ</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>ታሪኽ</value>
+  </data>
+  <data name="History_ExportBtn.Text" xml:space="preserve">
+    <value>ሰደድ</value>
+  </data>
+  <data name="HistoryExportButtonTooltip.Text" xml:space="preserve">
+    <value>ሰደድ</value>
+  </data>
+  <data name="HistoryListColumnDate.Text" xml:space="preserve">
+    <value>ዕለት</value>
+  </data>
+  <data name="HistoryListColumnDuration.Text" xml:space="preserve">
+    <value>ንውሓት ግዜ</value>
+  </data>
+  <data name="HistoryListColumnPrimaryLanguage.Text" xml:space="preserve">
+    <value>ቀንዲ ቛንቋ</value>
+  </data>
+  <data name="HistoryListColumnSecondaryLanguage.Text" xml:space="preserve">
+    <value>ካልኣይ ቋንቋ</value>
+  </data>
+  <data name="HistoryListColumnSessionId.Text" xml:space="preserve">
+    <value>መንነት እቲ ፕሮግራም</value>
+  </data>
+  <data name="InitalSetup_SkipSetup.Content" xml:space="preserve">
+    <value>ምድላው ኣቋሪጽካ</value>
+  </data>
+  <data name="InitialNetworkPopupConnectButton.Content" xml:space="preserve">
+    <value>ኣራኽብ</value>
+  </data>
+  <data name="InitialSetup_DeviceSelection.Text" xml:space="preserve">
+    <value>ምርጫ ኤለክትሮኒካዊ መሳርሒ</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionDescription.Text" xml:space="preserve">
+    <value>ናይ ቀደም ኣውድዮ መሳርሒኻ ኣዳሉ</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneMicrophone.Text" xml:space="preserve">
+    <value>ማይክሮፎን ምረጽ</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneSpeaker.Text" xml:space="preserve">
+    <value>ተዛራባይ ምረጽ</value>
+  </data>
+  <data name="InitialSetup_FinishSetup.Content" xml:space="preserve">
+    <value>ምድላው ዛዘም</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection_Description.Text" xml:space="preserve">
+    <value>ናይ ትርጕም ቋንቋኻ ኣዳሉ</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection.Text" xml:space="preserve">
+    <value>ምርጫ ቛንቋ</value>
+  </data>
+  <data name="InitialSetup_NetworkSelection.Text" xml:space="preserve">
+    <value>ምርጫ ዘለዎ መርበብ ሓበሬታ</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopup.Text" xml:space="preserve">
+    <value>ምስ መርበብ ሓበሬታ ተተሓሓዝ</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopupPassword.Text" xml:space="preserve">
+    <value>ፓስዎርድ ኣእቱ፦</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionDescription.Text" xml:space="preserve">
+    <value>ካብ ሓደ ኻብቲ ኽርከብ ዝከኣል መራኸቢታት ምረጽ</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionNoInternetConnection.Text" xml:space="preserve">
+    <value>ምስ ኢንተርነት ኣይትራኸብን ኢኻ። በጃኻ ነቲ መርበብ ሓበሬታ ርኣዮ።</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionOtherNetworks.Text" xml:space="preserve">
+    <value>ካልእ መራኸቢታት</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup_Description.Text" xml:space="preserve">
+    <value>ኣፕሊኬሽንካ ፓስኮድ ኣዳሉ</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup.Text" xml:space="preserve">
+    <value>ኣሰራርሓ ፓስኮድ</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>ቋንቋ</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage_Description.Text" xml:space="preserve">
+    <value>ቋንቋ ኣወዓዕላ ምረጽ</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage.Text" xml:space="preserve">
+    <value>ቋንቋ ኣፕሊኬሽን</value>
+  </data>
+  <data name="LanguagesPage_AppLanguageDropdown.PlaceholderText" xml:space="preserve">
+    <value>ቋንቋ ምረጽ</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage_Description.Text" xml:space="preserve">
+    <value>እትጥቀመሉ ዘለኻ ናይ መጀመርታ ቛንቋ</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage.Text" xml:space="preserve">
+    <value>ናይ ቀደም ቋንቋይ</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguageDropDown.PlaceholderText" xml:space="preserve">
+    <value>ቋንቋ ምረጽ</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description.Text" xml:space="preserve">
+    <value>ክፋል ታሪኽ (ንብዙሕ መሳርሒታት ንምትርጓም)</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description1.Text" xml:space="preserve">
+    <value>* ትርጕማት ሓንቲ ኤለክትሮኒካዊት መሳርሒ ንዅሉ ኣውድዮ ኸም ስሕተት ገይሩ እዩ ዚጻወቶ *</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage.Text" xml:space="preserve">
+    <value>ናይ ቀደም Playback ቋንቋ</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguages.Text" xml:space="preserve">
+    <value>ቋንቋታት ቀልጢፍካ ምርኣይ</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguagesDropdown.PlaceholderText" xml:space="preserve">
+    <value>ቋንቋ ወሲኽካ</value>
+  </data>
+  <data name="LanguagesPage_Title.Text" xml:space="preserve">
+    <value>ቋንቋታት</value>
+  </data>
+  <data name="Licence" xml:space="preserve">
+    <value>ፍቓድ</value>
+  </data>
+  <data name="LicenseType.Text" xml:space="preserve">
+    <value>ዓይነት ፍቓድ ፦</value>
+  </data>
+  <data name="NetworkConnectionError" xml:space="preserve">
+    <value>ጌጋ፦</value>
+  </data>
+  <data name="Next.Content" xml:space="preserve">
+    <value>ቀጺሉ</value>
+  </data>
+  <data name="PasscodeError_MinimumLength" xml:space="preserve">
+    <value>እቲ ዝተሓተ ንውሓት ፓስኮድ 4 ክኸውን ኣለዎ።</value>
+  </data>
+  <data name="PasscodeError_NotMatching" xml:space="preserve">
+    <value>እቲ ዝኣተወ ፓስኮድ ምስዚ ኣይሰማማዕን እዩ ። ነቲ ፓስኮድ እንደገና ኣእትዎ እሞ እንደገና ፈትኖ።</value>
+  </data>
+  <data name="Person.Text" xml:space="preserve">
+    <value>ሰብ</value>
+  </data>
+  <data name="PrivacyPolicy.Text" xml:space="preserve">
+    <value>ፖሊሲ ውልቃዊ ጕዳያት</value>
+  </data>
+  <data name="ProfilePage_Email_Description.Text" xml:space="preserve">
+    <value>ናይ ወጻኢ ኢ-መይል</value>
+  </data>
+  <data name="ProfilePage_Email.Text" xml:space="preserve">
+    <value>ኢ-መይል</value>
+  </data>
+  <data name="ProfilePage_Passcode_Description.Text" xml:space="preserve">
+    <value>ኣወዓዕላኻ ፓስኮድ</value>
+  </data>
+  <data name="ProfilePage_Passcode.Text" xml:space="preserve">
+    <value>ፓስኮድ</value>
+  </data>
+  <data name="ProfilePage_Timeout_Description.Text" xml:space="preserve">
+    <value>ብተደጋጋሚ ናይ ኣመሓዳሪ ኣገባብ መሸጐር</value>
+  </data>
+  <data name="ProfilePage_Timeout.Text" xml:space="preserve">
+    <value>ናይ ኣመሓዳሪ ኣገባብ ዕረፍቲ</value>
+  </data>
+  <data name="ProfilePage_TimeoutDropdown.PlaceholderText" xml:space="preserve">
+    <value>ግዜ ምረጽ</value>
+  </data>
+  <data name="ProfilePage_Title.Text" xml:space="preserve">
+    <value>ፕሮፌሰር</value>
+  </data>
+  <data name="PublishedBy.Text" xml:space="preserve">
+    <value>እተሓትመ</value>
+  </data>
+  <data name="ReleaseNotesMessage.Text" xml:space="preserve">
+    <value>መዘኻኸሪታት ምውጻእ ድሕሪ ሓጺር እዋን ኪመሓየሽ እዩ</value>
+  </data>
+  <data name="Save_Text" xml:space="preserve">
+    <value>ኣድሕን</value>
+  </data>
+  <data name="SessionDetailsPage_Description.Text" xml:space="preserve">
+    <value>ታሪኽ ምትርጓም</value>
+  </data>
+  <data name="SessionDetailsPage_Duration.Text" xml:space="preserve">
+    <value>ንውሓት ግዜ</value>
+  </data>
+  <data name="SessionDetailsPage_SessionID.Text" xml:space="preserve">
+    <value>መንነት እቲ ፕሮግራም</value>
+  </data>
+  <data name="SessionDetailsPage_Title.Text" xml:space="preserve">
+    <value>ታሪኽ</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>ኵነታት</value>
+  </data>
+  <data name="TermsOfUse.Text" xml:space="preserve">
+    <value>ኣጠቓቕማ ቓላት</value>
+  </data>
+  <data name="TranslationPage_SettingUpState" xml:space="preserve">
+    <value>ምድላው ...</value>
+  </data>
+  <data name="TranslationPage_SpeakFast" xml:space="preserve">
+    <value>ዝሓሸ ውጽኢት ትርጕም ንምርካብ ቅልጡፍ ዘረባ ኽትዛረብ ፈትን።</value>
+  </data>
+  <data name="TranslationPage_SpeakIn" xml:space="preserve">
+    <value>ተዛረብ</value>
+  </data>
+  <data name="TranslationPage_SpeakSlow" xml:space="preserve">
+    <value>ዝሓሸ ውጽኢት ትርጕም ምእንቲ ኺህልወካ ህድእ በል።</value>
+  </data>
+  <data name="TranslationPage_Switching" xml:space="preserve">
+    <value>ምልውዋጥ</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonOne" xml:space="preserve">
+    <value>ናብ ሰብ 1 ቐያይር</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonTwo" xml:space="preserve">
+    <value>ናብ ሰብ ምቕያር 2</value>
+  </data>
+  <data name="TranslationPage_TranslationReadyState" xml:space="preserve">
+    <value>ሕጂ ተዛረብ</value>
+  </data>
+  <data name="Website.Text" xml:space="preserve">
+    <value>ወብ ሳይት</value>
+  </data>
+  <data name="WhatsNew" xml:space="preserve">
+    <value>ሓድሽ ነገር</value>
+  </data>
+  <data name="WhatsNewInSpeechly.Text" xml:space="preserve">
+    <value>ሓድሽ ነገር</value>
+  </data>
+  <data name="AudioDevicesSelectorDualDevice.Content" xml:space="preserve">
+    <value>ድርብ መሳርሒ</value>
+  </data>
+  <data name="AudioDevicesSelectorSingleDevice.Content" xml:space="preserve">
+    <value>ንጽል መሳርሒ</value>
+  </data>
+  <data name="AutoDetectSearchCountry.PlaceholderText" xml:space="preserve">
+    <value>ሃገር ድለ</value>
+  </data>
+  <data name="AutoDetectSelectLanguage.Text" xml:space="preserve">
+    <value>ቋንቋኻ ምረጽ</value>
+  </data>
+  <data name="ChatViewPersonOne" xml:space="preserve">
+    <value>ሓደ ሰብ</value>
+  </data>
+  <data name="ChatViewPersonTwo" xml:space="preserve">
+    <value>ክልተ ሰብ</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionLost" xml:space="preserve">
+    <value>መርበብ ሓበሬታ ጠፍአ ። ነቲ ርክብካ ብሕያውነት መርምሮ እሞ እንደገና ፈትኖ።</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionUnstable" xml:space="preserve">
+    <value>ኢንተርነት ቀልጥ ዝበለ እዩ። እተወሰነ ግዜ ኺድንጕየካ ይኽእል እዩ ።</value>
+  </data>
+  <data name="CustomTagSelectionTitle.Text" xml:space="preserve">
+    <value>ናይ ማሕበር ምልክት (ክትውስኸሉ ምረጽ)</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.Header" xml:space="preserve">
+    <value>ቋንቋ ንምቕያር ሰንደቕ ዕላማ ተጠቃሚ</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OffContent" xml:space="preserve">
+    <value>ስንኩል</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OnContent" xml:space="preserve">
+    <value>ዚከኣል</value>
+  </data>
+  <data name="DetectLanguageButton.Content" xml:space="preserve">
+    <value>ቋንቋ ፍለጥ</value>
+  </data>
+  <data name="DevicesPageNetworkSetupBluetoothStatus.Text" xml:space="preserve">
+    <value>ኵነታት ብሉቱዝ ፦</value>
+  </data>
+  <data name="DevicesPageNetworkSetupConnectAutomatically.Text" xml:space="preserve">
+    <value>ብኡንብኡ ኣራኽብ</value>
+  </data>
+  <data name="DevicesPageNetworkSetupWiFiStatus.Text" xml:space="preserve">
+    <value>ኵነታት WiFi</value>
+  </data>
+  <data name="Dimiss.Content" xml:space="preserve">
+    <value>ደምስስ</value>
+  </data>
+  <data name="Duration.Text" xml:space="preserve">
+    <value>|  ንውሓት ግዜ</value>
+  </data>
+  <data name="EmailPopup_Description.Text" xml:space="preserve">
+    <value>ኣድራሻ ኢ-መይልካ ኣእቱ</value>
+  </data>
+  <data name="EmailPopup_Title.Text" xml:space="preserve">
+    <value>ፕሮግራምካ ኢ-መይል ጽሓፍ</value>
+  </data>
+  <data name="ForcedUpdateDialogCaption" xml:space="preserve">
+    <value>ወሳኒ ምትዕርራያት ኣሎና</value>
+  </data>
+  <data name="ForcedUpdateDialogInstallBtnText" xml:space="preserve">
+    <value>እዋናዊ ሓበሬታ</value>
+  </data>
+  <data name="ForcedUpdateDialogTitle" xml:space="preserve">
+    <value>ወሳኒ ምትዕርራያት</value>
+  </data>
+  <data name="GoBack.Content" xml:space="preserve">
+    <value>ተመለስ</value>
+  </data>
+  <data name="HelpPageSignOut.Content" xml:space="preserve">
+    <value>ክታም ኣውጽእ</value>
+  </data>
+  <data name="History_Export.Text" xml:space="preserve">
+    <value>ፋይል ምውጻእ...</value>
+  </data>
+  <data name="HistoryListColumnSessionName.Text" xml:space="preserve">
+    <value>ስም</value>
+  </data>
+  <data name="HistoryListColumnSynced.Text" xml:space="preserve">
+    <value>እተወሃሃደ</value>
+  </data>
+  <data name="HistorySearchBox.PlaceholderText" xml:space="preserve">
+    <value>ቋንቋ ስም ፕሮግራም ምልክት ወይ መሐበሪ</value>
+  </data>
+  <data name="HistorySearchButtonTooltip.Text" xml:space="preserve">
+    <value>ድለ</value>
+  </data>
+  <data name="HistorySearchClearButtonTooltip.Text" xml:space="preserve">
+    <value>ንጹር</value>
+  </data>
+  <data name="HistorySearchFromDate.Header" xml:space="preserve">
+    <value>ካብዚ ዝስዕብ ኢዩ -</value>
+  </data>
+  <data name="HistorySearchToDate.Header" xml:space="preserve">
+    <value>ነዚ ዝስዕብ ኢዩ -</value>
+  </data>
+  <data name="HistoryShareButtonTooltip.Text" xml:space="preserve">
+    <value>ምክፋል/ምልኣኽ</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonOne.Text" xml:space="preserve">
+    <value>ሰብ 1</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonTwo.Text" xml:space="preserve">
+    <value>ሰብ 2</value>
+  </data>
+  <data name="LoginPageTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NewVersionDialogCaption" xml:space="preserve">
+    <value>ሓድሽ ኣፕሊኬሽን ግጠም</value>
+  </data>
+  <data name="NewVersionDialogDescription" xml:space="preserve">
+    <value>ሓድሽ መዳያትን ፍታሕ ትዃንን ኣይኪህሉን እዩ </value>
+  </data>
+  <data name="NewVersionDialogInstallBtnText" xml:space="preserve">
+    <value>ሓድሽ ትርጕም ግጠም</value>
+  </data>
+  <data name="NewVersionDialogTitle" xml:space="preserve">
+    <value>ሓድሽ ኣፕሊኬሽን</value>
+  </data>
+  <data name="NextText" xml:space="preserve">
+    <value>ቀጺሉ</value>
+  </data>
+  <data name="ProfilePageEditButton.Content" xml:space="preserve">
+    <value>ኣረምቲ</value>
+  </data>
+  <data name="QuestionsButton.Content" xml:space="preserve">
+    <value>ሕቶታት ርአ</value>
+  </data>
+  <data name="QuestionSettingsDescription.Text" xml:space="preserve">
+    <value>ንሓጺር መገዲ ሕቶኻ ርኣዮ ወይ ኣተዓራዮ</value>
+  </data>
+  <data name="QuestionSettingsInstructionOne.Text" xml:space="preserve">
+    <value>* ንነፍሲ ወከፍ ሕቶ ቍጽርታት 1-9 ተጠቐም። Zero (0) ኣብ ግምት ኣይኪኣቱን እዩ።</value>
+  </data>
+  <data name="QuestionSettingsInstructionThree.Text" xml:space="preserve">
+    <value>* ናብ 9 ሕቶታት እትመርሕ መገዲ ጥራይ ኢኻ ኽትምድብ እትኽእል ።</value>
+  </data>
+  <data name="QuestionSettingsListTitle.Text" xml:space="preserve">
+    <value>ዝርዝር ሕቶታት ፦</value>
+  </data>
+  <data name="ResellerEmailAddress.Text" xml:space="preserve">
+    <value>ሸያጢ ኢ-መይል ኣድራሻ ፦</value>
+  </data>
+  <data name="ResellerName.Text" xml:space="preserve">
+    <value>ስም ሸያጢ ፦</value>
+  </data>
+  <data name="SelectFlag.Text" xml:space="preserve">
+    <value>ሰንደቕ ዕላማኻ ምረጽ ፦</value>
+  </data>
+  <data name="Send.Content" xml:space="preserve">
+    <value>ልኣኽ</value>
+  </data>
+  <data name="SessionDetailsPage_SessionName.Text" xml:space="preserve">
+    <value>ስም ክፍለ ግዜ</value>
+  </data>
+  <data name="SessionID.Text" xml:space="preserve">
+    <value>ናይ ክፍለ - ግዜ መንነት - -</value>
+  </data>
+  <data name="SessionMetadataDialog_ContinueButton.Text" xml:space="preserve">
+    <value>ቀጽል</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTags.Text" xml:space="preserve">
+    <value>ናይ ልምዲ ምልክት (s)</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>ስም ምልክት ኣብዚ ኣእቱ</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextboxHelper.Text" xml:space="preserve">
+    <value>ጸቕጢ ኣእቱ</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTags.Text" xml:space="preserve">
+    <value>ናይ ቀደም ምልክት (s)</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>ዋጋ ኣብዚ ኣእቱ</value>
+  </data>
+  <data name="SessionMetadataDialog_Description.Text" xml:space="preserve">
+    <value>ግዴታዊ ግራውቲ ምልክት ኣለዎ '</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionName.Text" xml:space="preserve">
+    <value>ስም ክፍለ ግዜ</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionNameTextbox.PlaceholderText" xml:space="preserve">
+    <value>ንኣብነት ሕሙም ዜሮ</value>
+  </data>
+  <data name="SessionMetadataDialog_Title.Text" xml:space="preserve">
+    <value>ስምን ምልክትታትን ወሲኽካ</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorActionMessage" xml:space="preserve">
+    <value>ሕሳብካ ንኼንቀሳቕስ በጃኻ ምስ ኣመሓዳሪኻ ተራኸብ።</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorMessage" xml:space="preserve">
+    <value>ጸብጻብካ ኣይተዓናቐፈን ።</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorActionMessage" xml:space="preserve">
+    <value>ሕሳብካ ምእንቲ ኽትፈጥር በጃኻ ምስ ኣመሓዳሪኻ ተራኸብ።</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorMessage" xml:space="preserve">
+    <value>ጸብጻብካ ተደምሲሱ እዩ።</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorActionMessage" xml:space="preserve">
+    <value>ሕሳብካ ምእንቲ ኽትጥቀም በጃኻ ምስ ኣመሓዳሪኻ ተራኸብ ።</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorMessage" xml:space="preserve">
+    <value>ጸብጻብካ ስንኩል እዩ ።</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorActionMessage" xml:space="preserve">
+    <value>ሕሳብካ ምእንቲ ኽትፈጥር በጃኻ ምስ ኣመሓዳሪኻ ተራኸብ።</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorMessage" xml:space="preserve">
+    <value>ንጡፍ ጸብጻብ የብልኩምን ።</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorActionMessage" xml:space="preserve">
+    <value>ፍቓድካ ንምሕዳስ በጃኻ ምስ ኣመሓዳሪኻ ተራኸብ።</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorMessage" xml:space="preserve">
+    <value>ፍቓድካ ተፈሪዱ ኣሎ።</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorActionMessage" xml:space="preserve">
+    <value>ፍቓድካ ንምንቕቓሕ በጃኻ ምስ ኣመሓዳሪኻ ተራኸብ ።</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorMessage" xml:space="preserve">
+    <value>ፍቓድካ ኣይተዓናቐፈን።</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorActionMessage" xml:space="preserve">
+    <value>በጃኻ ምስ ኣመሓዳሪኻ ተራኸብ ።</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorMessage" xml:space="preserve">
+    <value>ፍቓድካ ጠጠው ኢሉ ኣሎ።</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorActionMessage" xml:space="preserve">
+    <value>ፍቓድ ምእንቲ ኺህበካ በጃኻ ምስ ኣመሓዳሪኻ ተራኸብ።</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorMessage" xml:space="preserve">
+    <value>እተመደበልካ ፍቓድ የብልኩምን ።</value>
+  </data>
+  <data name="StartupPage2020.Text" xml:space="preserve">
+    <value>2021 </value>
+  </data>
+  <data name="StartupPageErrorDescription.Text" xml:space="preserve">
+    <value>ሓደ ጌጋ ተፈጸመ ። በጃኻ ነቲ ኣብ ኢንተርነት ዘሎካ ርክብ ርኣዮ እሞ እንደገና ፈትኖ።</value>
+  </data>
+  <data name="StartupPagePoweredBy.Text" xml:space="preserve">
+    <value>ዝማዕበለ ብ </value>
+  </data>
+  <data name="StartupPageProgressDescription.Text" xml:space="preserve">
+    <value>እዚ ሒደት ካልኢት ኪወስድ ይኽእል እዩ</value>
+  </data>
+  <data name="StartupPageRetryButton.Content" xml:space="preserve">
+    <value>እንደገና ፈትኖ</value>
+  </data>
+  <data name="StartupPageRightsReserved.Text" xml:space="preserve">
+    <value>ኵሉ መሰላት እተሓዝአ እዩ ።</value>
+  </data>
+  <data name="StartUpPageSettingUpMessage" xml:space="preserve">
+    <value>ምድላው...</value>
+  </data>
+  <data name="StartupPageTitleDescription.Text" xml:space="preserve">
+    <value>እንቋዕ ብደሓን መጻእኩም </value>
+  </data>
+  <data name="TranslateText" xml:space="preserve">
+    <value>ተርጉም</value>
+  </data>
+  <data name="TranslationLicenceUseError" xml:space="preserve">
+    <value>ኣብዚ እዋን እዚ ፍቓድካ ኣብ ካልእ እዋን ኣብ ጥቕሚ ይውዕል ኣሎ።</value>
+  </data>
+  <data name="TranslationLimitReachedError" xml:space="preserve">
+    <value>ኣብ ነፍሲ ወከፍ ክፍለ-ግዜ ዝለዓለ ደረት ግዜ በጺሕካ ኢኻ። ኣብ መወዳእታ እቲ ፕሮግራም ።</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOff" xml:space="preserve">
+    <value>ማይክሮፎን ኣቋሪጽካ</value>
+  </data>
+  <data name="TranslationPage_SpeakerOff" xml:space="preserve">
+    <value>ተዛራባይ ኣቋረጸ</value>
+  </data>
+  <data name="TranslationTimeDepletedError" xml:space="preserve">
+    <value>ደቓይቕ ትርጕምካ ተቛሪጹ እዩ ። ምስ ኣመሓዳሪኻ ብሕያውነት ተራኸብ ።</value>
+  </data>
+  <data name="UnsupportedVersionDialogBtntext" xml:space="preserve">
+    <value>እዋናዊ ሓበሬታ</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption" xml:space="preserve">
+    <value>ኣገዳሲ ምትዕርራያት የድሊ </value>
+  </data>
+  <data name="UnsupportedVersionDialogDescription" xml:space="preserve">
+    <value>ኣፕሊኬሽንካ ነቲ ብዛዕባ ድሕንነት ዚገልጽ ሓበሬታ ብቐጻሊ ምእንቲ ኽትረኽብዎ ምትዕርራይ ግበር።</value>
+  </data>
+  <data name="UnsupportedVersionDialogTitle" xml:space="preserve">
+    <value>ደገፍ ዘይብሉ ኣፕሊኬሽን ትርጕም</value>
+  </data>
+  <data name="UpdateDialogWhatsNew.Text" xml:space="preserve">
+    <value>ሓድሽ ነገር እንታይ እዩ ?</value>
+  </data>
+  <data name="Zoom.Text" xml:space="preserve">
+    <value>ዕቤት</value>
+  </data>
+  <data name="Add.Content" xml:space="preserve">
+    <value>ወሲኽካ</value>
+  </data>
+  <data name="AddNewQuestion.Text" xml:space="preserve">
+    <value>ኣቐዲምካ እተፈልጠት ሓዳስ ሕቶ ወሲኽካ</value>
+  </data>
+  <data name="AddQuestion.Content" xml:space="preserve">
+    <value>ሕቶ ወሲኽካ</value>
+  </data>
+  <data name="ChooseLanguage.Text" xml:space="preserve">
+    <value>ነቲ ናይ ቀደም ቋንቋ ምረጽ</value>
+  </data>
+  <data name="CustomProfileAdded" xml:space="preserve">
+    <value>ስም ፕሮፌሰር ብዕዉት መገዲ ተወሰኸ ።</value>
+  </data>
+  <data name="CustomProfileDeleted" xml:space="preserve">
+    <value>ፕሮፌሰር ብዕዉት መገዲ ተደምሰሰ ።</value>
+  </data>
+  <data name="CustomProfileInvalidName" xml:space="preserve">
+    <value>ጌጋ! ዘይግቡእ ስም ፕሮፌሰር።</value>
+  </data>
+  <data name="CustomProfileNotDeleted" xml:space="preserve">
+    <value>ኪድምስሶ ዘለዎ ሓበሬታ የልቦን።</value>
+  </data>
+  <data name="CustomProfileNotSaved" xml:space="preserve">
+    <value>ጌጋ! ዋላ ሓንቲ ሓበሬታ ኣይተዓቀበን ።</value>
+  </data>
+  <data name="CustomProfileProfileSaved" xml:space="preserve">
+    <value>ፕሮፌሰር ብዕዉት መገዲ ተዓቂቡ እዩ ።</value>
+  </data>
+  <data name="DataRequestMessage" xml:space="preserve">
+    <value>ዝዀነ ይኹን ጽሑፍ ኣይመረጽካን ። በጃኻ ንኻልኦት ከተካፍሎምን እንደገና ኽትፍትኖምን ዚከኣለካ ጥቕሲ ምረጽ።</value>
+  </data>
+  <data name="DevicesAddProfileButton.Content" xml:space="preserve">
+    <value>ወሲኽካ</value>
+  </data>
+  <data name="DevicesAvailableProfiles.Text" xml:space="preserve">
+    <value>ክርከብ ዝከኣል ፕሮፌሰራት</value>
+  </data>
+  <data name="DevicesDefaultProfile.Text" xml:space="preserve">
+    <value>ናይ ቀደም ፕሮፌሰር፦</value>
+  </data>
+  <data name="DevicesDeleteProfileBtn.Content" xml:space="preserve">
+    <value>ፕሮፌሰር ኣወግድ</value>
+  </data>
+  <data name="DeviceSetupChanged" xml:space="preserve">
+    <value>እተመሓየሸ ኤለክትሮኒካዊ መሳርሒታት ኣውድዮ </value>
+  </data>
+  <data name="DevicesHelpfulTip1.Text" xml:space="preserve">
+    <value>1. ናይ ፕሮፌሰር ስም ኣውጽእ</value>
+  </data>
+  <data name="DevicesHelpfulTip2.Text" xml:space="preserve">
+    <value>2. ንጽል ወይ ድርብ ኤለክትሮኒካዊ መሳርሒታት ምረጽ</value>
+  </data>
+  <data name="DevicesHelpfulTip3.Text" xml:space="preserve">
+    <value>3. ተዛረብትን ማይክሮፎንን ምረጽ</value>
+  </data>
+  <data name="DevicesHelpfulTip4.Text" xml:space="preserve">
+    <value>4. ንፕሮፌሰርካ ኸም ስሕተት ጌርካ ኣቕርቦ</value>
+  </data>
+  <data name="DevicesHelpfulTip5.Text" xml:space="preserve">
+    <value>5. ፕሮፌሰርካ ምእንቲ ኽትቍጥብ ኣብታ Save Profile እትብል ጠውቕ</value>
+  </data>
+  <data name="DevicesHelpfulTips.Text" xml:space="preserve">
+    <value>ሓጋዚ ምኽሪ</value>
+  </data>
+  <data name="DevicesProfileNameTextBox.PlaceholderText" xml:space="preserve">
+    <value>ስም ፕሮፌሰር...</value>
+  </data>
+  <data name="DevicesSaveProfileBtn.Content" xml:space="preserve">
+    <value>ፕሮፌሰር ኣዋህልል</value>
+  </data>
+  <data name="DevicesSetasDefault.Text" xml:space="preserve">
+    <value>ከም ስሕተት ጌርካ ምድላው</value>
+  </data>
+  <data name="DevicesSetProfileButton.Content" xml:space="preserve">
+    <value>ፕሮፌሰር ምድላው</value>
+  </data>
+  <data name="DevicesSetProfileText.Text" xml:space="preserve">
+    <value>ናይ ልምዲ መግለጺ ድዩ?</value>
+  </data>
+  <data name="DiscardButton.Content" xml:space="preserve">
+    <value>ጐሓፍ</value>
+  </data>
+  <data name="DismissButton.Content" xml:space="preserve">
+    <value>ካብ ቤት ካባና ተሰጐ</value>
+  </data>
+  <data name="DismissText.Text" xml:space="preserve">
+    <value>ካብ ቤት ካባና ተሰጐ</value>
+  </data>
+  <data name="DownloadAudio.Text" xml:space="preserve">
+    <value>ኣውድዮ ኣራግፍ</value>
+  </data>
+  <data name="DownloadCancel" xml:space="preserve">
+    <value>ኣራግፍ ተሰረዘ</value>
+  </data>
+  <data name="Downloaded" xml:space="preserve">
+    <value>ኣራጊፍካ</value>
+  </data>
+  <data name="DownloadError" xml:space="preserve">
+    <value>ጌጋ ተፈጸመ</value>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>ምራግ</value>
+  </data>
+  <data name="DownloadPaused" xml:space="preserve">
+    <value>ደው ኢልካ ኣራግፍ</value>
+  </data>
+  <data name="DualDeviceUpdated" xml:space="preserve">
+    <value>ድርብ ኤለክትሮኒካዊ መሳርሒ ብዕዉት መገዲ ተመሓይሹ</value>
+  </data>
+  <data name="EnterQuestion.Text" xml:space="preserve">
+    <value>ኣብ ታሕቲ ዘሎ ሕቶ ኣእቱ</value>
+  </data>
+  <data name="ErrorDescription.Text" xml:space="preserve">
+    <value>እቲ ዝገበርካዮ ለውጥታት ኣይተዓቀበን ከተድሕኖ ወይ ክትድርብዮ ትደሊዶ?</value>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>ገለ ሽግር ኣጋጠመኒ ። ደጊምካ ፈትን</value>
+  </data>
+  <data name="ErrorTitle.Text" xml:space="preserve">
+    <value>ዘይተዓቀበ ለውጥታት ኣሎካ</value>
+  </data>
+  <data name="FeedbackEight.Text" xml:space="preserve">
+    <value>ንሓድሕድና ንቋየቕ ነበርና</value>
+  </data>
+  <data name="FeedbackFive.Text" xml:space="preserve">
+    <value>ኣብቲ ጻውዒት ድምጺ ሰማዕኩ</value>
+  </data>
+  <data name="FeedbackFour.Text" xml:space="preserve">
+    <value>ናይ ድሕረ - ባይታ ድምጺ ረኸበት</value>
+  </data>
+  <data name="FeedbackOne.Text" xml:space="preserve">
+    <value>ድምጸይ ብልክዕ ኣየልዓለን</value>
+  </data>
+  <data name="FeedbackQuestion.Text" xml:space="preserve">
+    <value>ካብዚ ዚሓይሽ እንታይ ምሃለወ ?</value>
+  </data>
+  <data name="FeedbackSeven.Text" xml:space="preserve">
+    <value>እቲ ፕሮግራም ብሃንደበት ተዛዘመ</value>
+  </data>
+  <data name="FeedbackSix.Text" xml:space="preserve">
+    <value>እቲ ድምጺ ኣዝዩ ትሑት ነበረ</value>
+  </data>
+  <data name="FeedbackThanks.Text" xml:space="preserve">
+    <value>ስለቲ ዝገበርኩምዎ ምላሽ አመስግነኩም</value>
+  </data>
+  <data name="FeedbackThree.Text" xml:space="preserve">
+    <value>እቲ ግዜ ትርጕም ኣዝዩ ደንጓዪ እዩ ነይሩ</value>
+  </data>
+  <data name="FeedbackTwo.Text" xml:space="preserve">
+    <value>ምሉእ ሓሳባት ብጌጋ ተርጐመለይ</value>
+  </data>
+  <data name="ForcedUpdateDialogCaptionContinuation" xml:space="preserve">
+    <value>ዘ. ብዘይ እዚ ምትዕርራያት እዚ እቲ ኣወዓዕላ ኣይዓዪን እዩ።</value>
+  </data>
+  <data name="Improvement.Text" xml:space="preserve">
+    <value>ተመክሮኻ ንምምሕያሽ ክንጽዕር ኢና።</value>
+  </data>
+  <data name="LanguageSettingsUpdated" xml:space="preserve">
+    <value>ቋንቋ ብዜመሓይሽ መገዲ ይቕይሮ</value>
+  </data>
+  <data name="NewVersionDialogDescription2" xml:space="preserve">
+    <value>ትርጕምካ</value>
+  </data>
+  <data name="NewVersionDialogDescription3" xml:space="preserve">
+    <value>ምናልባት ደገፍ ኣይህልዎን ይኸውን ።</value>
+  </data>
+  <data name="Other.Text" xml:space="preserve">
+    <value>ካልእ ሓሳባት ፦</value>
+  </data>
+  <data name="PasswordUpdated" xml:space="preserve">
+    <value>ፓስዎርድ ብጭካነ ተቐየረ</value>
+  </data>
+  <data name="PlaybackLanguageUpdated" xml:space="preserve">
+    <value>ናይ ቀደም ጸወታታት ብሱከስ ተቐየረ</value>
+  </data>
+  <data name="QuestionAdded" xml:space="preserve">
+    <value>ብዕዉት መገዲ እተወሰኸ ሕቶ</value>
+  </data>
+  <data name="QuestionDeleted" xml:space="preserve">
+    <value>ሕቶ ብዓወት ተደምሰሰ</value>
+  </data>
+  <data name="Questions.Text" xml:space="preserve">
+    <value>ሕቶታት</value>
+  </data>
+  <data name="QuestionSettingsInstructionTwo.Text" xml:space="preserve">
+    <value>* ነፍሲ ወከፍ ሕቶ እተፈላለየ መፍትሕ ሓጻር መገዲ ኺህልዋ ኣለዎ።</value>
+  </data>
+  <data name="QuestionsValidationError.Text" xml:space="preserve">
+    <value>* ሓቅነትካ መርምር እሞ እንደገና ፈትን።</value>
+  </data>
+  <data name="QuickViewLanguagesUpdated" xml:space="preserve">
+    <value>ቅልጡፍ ናይ ምርኣይ ክእለት ዘለዎ ላግጅስ ብሱከስእተገብረ ምትዕርራይ</value>
+  </data>
+  <data name="SendFeedback.Content" xml:space="preserve">
+    <value>መልሲ ለኣኽ</value>
+  </data>
+  <data name="SessionFeedbackPrompt" xml:space="preserve">
+    <value>ነቲ እትትርጕመሉ ግዜ ብኸመይ ምገምገምካዮ?</value>
+  </data>
+  <data name="SessionFeedbackTitle" xml:space="preserve">
+    <value>ርእይቶ ትርጕም</value>
+  </data>
+  <data name="ShortcutSuccess" xml:space="preserve">
+    <value>መተሓላለፊታት ሕቶታት ብዕዉት መገዲ እተመሓየሸ</value>
+  </data>
+  <data name="SingleDeviceUpdated" xml:space="preserve">
+    <value>ንጽል ኤለክትሮኒካዊ መሳርሒ ብዕዉት መገዲ ተመሓይሹ</value>
+  </data>
+  <data name="StartupPageTitleDescription2.Text" xml:space="preserve">
+    <value>ናይ ትርጕም ሶፍትዌር።</value>
+  </data>
+  <data name="TimeoutUpdated" xml:space="preserve">
+    <value>ግዜ ምሕላፍ ብሱከስ እተመሓየሸ</value>
+  </data>
+  <data name="TouchShareText" xml:space="preserve">
+    <value>ምክፋል ምትንካፍ</value>
+  </data>
+  <data name="TranslationLanguageUpdated" xml:space="preserve">
+    <value>ናይ ትርጕም ቋንቋ ብዜሸግር መገዲ ተቐየረ</value>
+  </data>
+  <data name="TranslationPlaybackUpdated" xml:space="preserve">
+    <value>ናይ ቀደም ትርጕምን playback ቋንቋን ብዜሸግር መገዲ ተቐየረ</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption2" xml:space="preserve">
+    <value>ዘ. እቲ መዳያት ብዘይ ገለ መጠንቀቕታ ኻብ ምዕያይ ኬቋርጽ ይኽእል እዩ። በጃኻ ነቲ ኣወዓዕላ ኣመሓይሽዎ።</value>
+  </data>
+  <data name="UserFlagSwitch" xml:space="preserve">
+    <value>እተመሓየሸ ቛንቋ ንምቕያር ሰንደቕ ዕላማ ተጠቃሚ</value>
+  </data>
+</root>

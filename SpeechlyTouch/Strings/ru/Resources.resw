@@ -1,0 +1,1192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="AppDescription" xml:space="preserve">
+    <value>TalaTouchApp</value>
+  </data>
+  <data name="AppDisplayName" xml:space="preserve">
+    <value>TalaTouchApp</value>
+  </data>
+  <data name="AudioDeviceSelector_MicDropdown.PlaceholderText" xml:space="preserve">
+    <value>Выберите микрофон</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneMic.Text" xml:space="preserve">
+    <value>Микрофон «человек один»</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneSpeaker.Text" xml:space="preserve">
+    <value>Человек Один Спикер</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoMic.Text" xml:space="preserve">
+    <value>Человек Два Микрофон</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoSpeaker.Text" xml:space="preserve">
+    <value>Человек Два Спикер</value>
+  </data>
+  <data name="AudioDeviceSelector_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>Выберите динамик</value>
+  </data>
+  <data name="BluetoothPairingDialog_Description.Text" xml:space="preserve">
+    <value>Убедитесь, что устройство включено и его можно обнаружить. Выберите устройство ниже для подключения.</value>
+  </data>
+  <data name="BluetoothPairingDialog_Title.Text" xml:space="preserve">
+    <value>Добавление устройства</value>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="ChangePasscodeDialog_Confirm.Text" xml:space="preserve">
+    <value>Подтвердите новый пароль</value>
+  </data>
+  <data name="ChangePasscodeDialog_Current.Text" xml:space="preserve">
+    <value>Текущий секретный код</value>
+  </data>
+  <data name="ChangePasscodeDialog_New.Text" xml:space="preserve">
+    <value>Новый секретный код</value>
+  </data>
+  <data name="ChangePasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Изменить секретный код</value>
+  </data>
+  <data name="Close.Content" xml:space="preserve">
+    <value>Закрывать</value>
+  </data>
+  <data name="ConsentDialog_Description1.Text" xml:space="preserve">
+    <value>Проблемы конфиденциальности являются нашим приоритетом номер один. (5) Вы принимаете условия настоящей Политики конфиденциальности с помощью своего мобильного телефона или планшета, в зависимости от обстоятельств.</value>
+  </data>
+  <data name="ConsentDialog_Description2.Text" xml:space="preserve">
+    <value>Если вы решите не разрешать нам доступ, когда мы получим запрос на согласие (такие запросы будут уведомлены на веб-сайте www ICTS по адресу:</value>
+  </data>
+  <data name="ConsentDialog_Description3.Text" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int</value>
+  </data>
+  <data name="ConsentDialog_Description4.Text" xml:space="preserve">
+    <value>), то ни предоставленный адрес электронной почты, ни любая другая личная информация, которая могла бы идентифицировать человека, также не могут войти в наше распоряжение после предоставления такого разрешения.</value>
+  </data>
+  <data name="ConsentDialog_Description5.Text" xml:space="preserve">
+    <value>Используя определенные части: /Использование мной моего мобильного телефона/значков, которые могут включать в себя разрешение другим в чатах о таких продуктах, как</value>
+  </data>
+  <data name="ConsentDialog_HyperLink.NavigateUri" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int/</value>
+  </data>
+  <data name="ConsentDialog_Title.Text" xml:space="preserve">
+    <value>Мы ценим вашу конфиденциальность</value>
+  </data>
+  <data name="Dashboard_Choose_Language.Text" xml:space="preserve">
+    <value>Выберите язык</value>
+  </data>
+  <data name="Dashboard_Hello.Text" xml:space="preserve">
+    <value>Привет</value>
+  </data>
+  <data name="Dashboard_SearchBox.PlaceholderText" xml:space="preserve">
+    <value>Язык поиска</value>
+  </data>
+  <data name="Dashboard_Welcome.Text" xml:space="preserve">
+    <value>Добро пожаловать</value>
+  </data>
+  <data name="DevicesErrorDialog_NoDeviceError" xml:space="preserve">
+    <value>У вас нет сохраненных устройств. Перейдите в Настройки -&gt; устройства, чтобы выбрать микрофон и динамик, затем нажмите «Сохранить».</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Description.Text" xml:space="preserve">
+    <value>Доступные устройства Bluetooth</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_DropDown.PlaceholderText" xml:space="preserve">
+    <value>Выберите устройство Bluetooth</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Scan.Text" xml:space="preserve">
+    <value>Сканировать</value>
+  </data>
+  <data name="DevicesPage_Bluetooth.Text" xml:space="preserve">
+    <value>Блютуз</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices_Description.Text" xml:space="preserve">
+    <value>Выберите аудиоустройство</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices.Text" xml:space="preserve">
+    <value>Подключенные аудиоустройства</value>
+  </data>
+  <data name="DevicesPage_MicDropDown.PlaceholderText" xml:space="preserve">
+    <value>Выбор микрофона</value>
+  </data>
+  <data name="DevicesPage_Network_Description.Text" xml:space="preserve">
+    <value>Доступные сети</value>
+  </data>
+  <data name="DevicesPage_Network_DropDown.PlaceholderText" xml:space="preserve">
+    <value>Выберите сеть</value>
+  </data>
+  <data name="DevicesPage_Network.Text" xml:space="preserve">
+    <value>Сеть</value>
+  </data>
+  <data name="DevicesPage_NetworkError" xml:space="preserve">
+    <value>Сеть не выбрана. Проверьте сетевые подключения.</value>
+  </data>
+  <data name="DevicesPage_PersonOne_Speaker.Text" xml:space="preserve">
+    <value>Человек один оратор</value>
+  </data>
+  <data name="DevicesPage_PersonOneMic.Text" xml:space="preserve">
+    <value>Человек один микрофон</value>
+  </data>
+  <data name="DevicesPage_PersonTwo_Mic.Text" xml:space="preserve">
+    <value>Человек два микрофона</value>
+  </data>
+  <data name="DevicesPage_Scan" xml:space="preserve">
+    <value>Сканировать</value>
+  </data>
+  <data name="DevicesPage_Scanning" xml:space="preserve">
+    <value>Сканирование...</value>
+  </data>
+  <data name="DevicesPage_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>Выберите динамик</value>
+  </data>
+  <data name="DevicesPage_Status_Connect" xml:space="preserve">
+    <value>Соединять</value>
+  </data>
+  <data name="DevicesPage_Status_Connected" xml:space="preserve">
+    <value>Связанный</value>
+  </data>
+  <data name="DevicesPage_Status_Connecting" xml:space="preserve">
+    <value>Соединительный...</value>
+  </data>
+  <data name="DevicesPage_Status_Off" xml:space="preserve">
+    <value>ОТ</value>
+  </data>
+  <data name="DevicesPage_Status_On" xml:space="preserve">
+    <value>НА</value>
+  </data>
+  <data name="DevicesPager_PersonTwo_Speaker.Text" xml:space="preserve">
+    <value>Человек два спикера</value>
+  </data>
+  <data name="EnterPasscodeDialog_Description.Text" xml:space="preserve">
+    <value>Пожалуйста, введите свой пароль для доступа к странице настроек</value>
+  </data>
+  <data name="EnterPasscodeDialog_ForgotPasscode.Content" xml:space="preserve">
+    <value>Забыли пароль?</value>
+  </data>
+  <data name="EnterPasscodeDialog_InvalidPasscode.Text" xml:space="preserve">
+    <value>Неверный пароль! Повторите попытку.</value>
+  </data>
+  <data name="EnterPasscodeDialog_Passcode.Text" xml:space="preserve">
+    <value>Секретный код</value>
+  </data>
+  <data name="EnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Введите секретный код</value>
+  </data>
+  <data name="IAgree.Content" xml:space="preserve">
+    <value>Принимаю</value>
+  </data>
+  <data name="InvalidLicenseDialog_Description.Text" xml:space="preserve">
+    <value>Ошибка проверки лицензии</value>
+  </data>
+  <data name="InvalidLicenseDialog_Title.Text" xml:space="preserve">
+    <value>Недействительная лицензия</value>
+  </data>
+  <data name="LoginFailedDialog_Button.Content" xml:space="preserve">
+    <value>Вернуться</value>
+  </data>
+  <data name="LoginFailedDialog_Description.Text" xml:space="preserve">
+    <value>Попытка входа в систему не удалась.</value>
+  </data>
+  <data name="LoginFailedDialog_Title.Text" xml:space="preserve">
+    <value>Неудачный вход</value>
+  </data>
+  <data name="Main_Title.Text" xml:space="preserve">
+    <value>Главный</value>
+  </data>
+  <data name="PasswordPopup_SetupTitle.Text" xml:space="preserve">
+    <value>Настройка пароля</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Description1.Text" xml:space="preserve">
+    <value>Пожалуйста, повторно введите секретный код, чтобы продолжить редактирование...</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Повторно введите секретный код</value>
+  </data>
+  <data name="RenterPasscodeDialog_Description2.Text" xml:space="preserve">
+    <value>автосохранение и возвращение домой</value>
+  </data>
+  <data name="Save.Content" xml:space="preserve">
+    <value>Спасать</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Description.Text" xml:space="preserve">
+    <value>Это пример страницы, на которой будут показаны параметры активации, если приложение активировано из Deep Linking.</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Title.Text" xml:space="preserve">
+    <value>СхемаАктивацияОбразец</value>
+  </data>
+  <data name="SetPasscodeDialog_ConfirmPasscode.Text" xml:space="preserve">
+    <value>Подтвердите новый пароль </value>
+  </data>
+  <data name="SetPasscodeDialog_NewPasscode.Text" xml:space="preserve">
+    <value>Новый секретный код</value>
+  </data>
+  <data name="SetPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Настройка пароля</value>
+  </data>
+  <data name="Settings_About.Text" xml:space="preserve">
+    <value>Об этом приложении</value>
+  </data>
+  <data name="Settings_AboutDescription.Text" xml:space="preserve">
+    <value>Параметры замещающего текста страницы.  Описание приложения находится здесь.</value>
+  </data>
+  <data name="Settings_Personalization.Text" xml:space="preserve">
+    <value>Персонализация</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.Content" xml:space="preserve">
+    <value>Заявление о конфиденциальности</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.NavigateUri" xml:space="preserve">
+    <value>https://YourPrivacyUrlGoesHere/</value>
+  </data>
+  <data name="Settings_Theme_Dark.Content" xml:space="preserve">
+    <value>Темный</value>
+  </data>
+  <data name="Settings_Theme_Default.Content" xml:space="preserve">
+    <value>Windows по умолчанию</value>
+  </data>
+  <data name="Settings_Theme_Light.Content" xml:space="preserve">
+    <value>Свет</value>
+  </data>
+  <data name="Settings_Theme.Text" xml:space="preserve">
+    <value>Выберите тему</value>
+  </data>
+  <data name="Settings_Title.Text" xml:space="preserve">
+    <value>Параметры</value>
+  </data>
+  <data name="SettingsPage_Devices" xml:space="preserve">
+    <value>Приборы</value>
+  </data>
+  <data name="SettingsPage_Language" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="SettingsPage_Profile" xml:space="preserve">
+    <value>Профиль</value>
+  </data>
+  <data name="SettingsPage_Questions" xml:space="preserve">
+    <value>Вопросы</value>
+  </data>
+  <data name="SettingsPage_Title" xml:space="preserve">
+    <value>Параметры</value>
+  </data>
+  <data name="ShellView_Help" xml:space="preserve">
+    <value>Справка</value>
+  </data>
+  <data name="ShellView_History" xml:space="preserve">
+    <value>История</value>
+  </data>
+  <data name="ShellView_Home" xml:space="preserve">
+    <value>Дом</value>
+  </data>
+  <data name="ShellView_Settings.Text" xml:space="preserve">
+    <value>Параметры</value>
+  </data>
+  <data name="Sign_In.Text" xml:space="preserve">
+    <value>Войти</value>
+  </data>
+  <data name="SignInDialog_Description.Text" xml:space="preserve">
+    <value>Мгновенно общайтесь на нескольких языках по всему миру с помощью устройства Jabra.</value>
+  </data>
+  <data name="SignInDialog_SignInButton.Content" xml:space="preserve">
+    <value>Войти</value>
+  </data>
+  <data name="Translate_Button.Text" xml:space="preserve">
+    <value>Перевести</value>
+  </data>
+  <data name="TranslationPage_EndSession.Text" xml:space="preserve">
+    <value>Завершение сеанса</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOn" xml:space="preserve">
+    <value>Микрофон включен</value>
+  </data>
+  <data name="TranslationPage_SpeakerOn" xml:space="preserve">
+    <value>Спикер включен</value>
+  </data>
+  <data name="TranslationPage_SpeakNow.Text" xml:space="preserve">
+    <value>Говори сейчас</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Около</value>
+  </data>
+  <data name="AboutPage_AppVersion.Text" xml:space="preserve">
+    <value>Версия приложения</value>
+  </data>
+  <data name="AboutPage_CheckUpdate.Content" xml:space="preserve">
+    <value>Проверка наличия обновлений</value>
+  </data>
+  <data name="AboutPage_DataConsent" xml:space="preserve">
+    <value>Ваша организация дала согласие на сохранение ваших данных в облаке.</value>
+  </data>
+  <data name="AboutPage_NoDataConsent" xml:space="preserve">
+    <value>Ваша организация не дала согласия на сохранение ваших данных в облаке.</value>
+  </data>
+  <data name="AboutPage_Published.Text" xml:space="preserve">
+    <value>Опубликовано FITTS Limited.</value>
+  </data>
+  <data name="AppClose_Close.Content" xml:space="preserve">
+    <value>Закрыть в любом случае</value>
+  </data>
+  <data name="AppClose_Dismiss.Content" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="AppClose_Warning.Text" xml:space="preserve">
+    <value>Сеанс выполняется. Пожалуйста, завершите сеанс перед выходом из приложения.</value>
+  </data>
+  <data name="AppVersion.Text" xml:space="preserve">
+    <value>Версия приложения</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Button.Content" xml:space="preserve">
+    <value>Продолжить сессию</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Description.Text" xml:space="preserve">
+    <value>Сессия завершится в</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Title.Text" xml:space="preserve">
+    <value>Звук не обнаружен</value>
+  </data>
+  <data name="AudioPlayer_Error.Text" xml:space="preserve">
+    <value>Не удалось загрузить аудио</value>
+  </data>
+  <data name="DashboardPage_DefaultLanguageError" xml:space="preserve">
+    <value>У вас нет сохраненного языка перевода по умолчанию. Перейдите в Настройки -&gt; языки, чтобы выбрать язык перевода по умолчанию, затем нажмите «Сохранить».</value>
+  </data>
+  <data name="DashboardPage_TargetLanguageError" xml:space="preserve">
+    <value>Вы не выбрали целевой язык перевода. Пожалуйста, выберите язык, затем нажмите «Перевести».</value>
+  </data>
+  <data name="DevicesErrorDialog_DualDeviceError" xml:space="preserve">
+    <value>Вы выбрали преобразование Двух устройств, но у вас нет устройств, выбранных для Человека 2. Перейдите в Настройки -&gt; устройства, чтобы выбрать микрофон и динамик, затем нажмите «Сохранить».</value>
+  </data>
+  <data name="DevicesPage_Title.Text" xml:space="preserve">
+    <value>Приборы</value>
+  </data>
+  <data name="DevicesPage_Wifi_Password.Text" xml:space="preserve">
+    <value>Введите пароль</value>
+  </data>
+  <data name="DevicesPage_WifiStatus.Text" xml:space="preserve">
+    <value>Статус Wi-Fi</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="Expiry.Text" xml:space="preserve">
+    <value>Истечение</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Обратная связь</value>
+  </data>
+  <data name="FeedbackMessage.Text" xml:space="preserve">
+    <value>Если у вас есть какие-либо отзывы или вопросы, не стесняйтесь обращаться к нам.</value>
+  </data>
+  <data name="GetInTouchButton.Text" xml:space="preserve">
+    <value>Свяжитесь с нами</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Справка</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>История</value>
+  </data>
+  <data name="History_ExportBtn.Text" xml:space="preserve">
+    <value>Экспорт</value>
+  </data>
+  <data name="HistoryExportButtonTooltip.Text" xml:space="preserve">
+    <value>Экспорт</value>
+  </data>
+  <data name="HistoryListColumnDate.Text" xml:space="preserve">
+    <value>Дата</value>
+  </data>
+  <data name="HistoryListColumnDuration.Text" xml:space="preserve">
+    <value>Длительность</value>
+  </data>
+  <data name="HistoryListColumnPrimaryLanguage.Text" xml:space="preserve">
+    <value>Основной язык</value>
+  </data>
+  <data name="HistoryListColumnSecondaryLanguage.Text" xml:space="preserve">
+    <value>Вторичный язык</value>
+  </data>
+  <data name="HistoryListColumnSessionId.Text" xml:space="preserve">
+    <value>Идентификатор сеанса</value>
+  </data>
+  <data name="InitalSetup_SkipSetup.Content" xml:space="preserve">
+    <value>Пропустить настройку</value>
+  </data>
+  <data name="InitialNetworkPopupConnectButton.Content" xml:space="preserve">
+    <value>Соединять</value>
+  </data>
+  <data name="InitialSetup_DeviceSelection.Text" xml:space="preserve">
+    <value>Выбор устройства</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionDescription.Text" xml:space="preserve">
+    <value>Настройка аудиоустройства по умолчанию</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneMicrophone.Text" xml:space="preserve">
+    <value>Выберите микрофон</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneSpeaker.Text" xml:space="preserve">
+    <value>Выберите динамик</value>
+  </data>
+  <data name="InitialSetup_FinishSetup.Content" xml:space="preserve">
+    <value>Завершение настройки</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection_Description.Text" xml:space="preserve">
+    <value>Настройка языка перевода по умолчанию</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection.Text" xml:space="preserve">
+    <value>Выбор языка</value>
+  </data>
+  <data name="InitialSetup_NetworkSelection.Text" xml:space="preserve">
+    <value>Предпочитаемая сеть</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopup.Text" xml:space="preserve">
+    <value>Подключение к сети</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopupPassword.Text" xml:space="preserve">
+    <value>Введите пароль:</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionDescription.Text" xml:space="preserve">
+    <value>Выберите одну из доступных сетей</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionNoInternetConnection.Text" xml:space="preserve">
+    <value>Вы не подключены к Интернету. Проверьте сетевые подключения.</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionOtherNetworks.Text" xml:space="preserve">
+    <value>Другие сети</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup_Description.Text" xml:space="preserve">
+    <value>Настройка пароля приложения</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup.Text" xml:space="preserve">
+    <value>Настройка пароля</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage_Description.Text" xml:space="preserve">
+    <value>Выберите язык приложения</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage.Text" xml:space="preserve">
+    <value>Язык приложения</value>
+  </data>
+  <data name="LanguagesPage_AppLanguageDropdown.PlaceholderText" xml:space="preserve">
+    <value>Выберите язык</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage_Description.Text" xml:space="preserve">
+    <value>Язык по умолчанию, который вы используете</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage.Text" xml:space="preserve">
+    <value>Мой язык по умолчанию</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguageDropDown.PlaceholderText" xml:space="preserve">
+    <value>Выберите язык</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description.Text" xml:space="preserve">
+    <value>Раздел истории (для переводов на несколько устройств)</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description1.Text" xml:space="preserve">
+    <value>* переводы одного устройства воспроизводят все аудио по умолчанию *</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage.Text" xml:space="preserve">
+    <value>Язык воспроизведения по умолчанию</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguages.Text" xml:space="preserve">
+    <value>Языки быстрого просмотра</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguagesDropdown.PlaceholderText" xml:space="preserve">
+    <value>Добавление языка</value>
+  </data>
+  <data name="LanguagesPage_Title.Text" xml:space="preserve">
+    <value>Языки</value>
+  </data>
+  <data name="Licence" xml:space="preserve">
+    <value>Лицензия</value>
+  </data>
+  <data name="LicenseType.Text" xml:space="preserve">
+    <value>Тип лицензии:</value>
+  </data>
+  <data name="NetworkConnectionError" xml:space="preserve">
+    <value>Ошибка:</value>
+  </data>
+  <data name="Next.Content" xml:space="preserve">
+    <value>Следующий</value>
+  </data>
+  <data name="PasscodeError_MinimumLength" xml:space="preserve">
+    <value>Минимальная длина пароля должна быть 4.</value>
+  </data>
+  <data name="PasscodeError_NotMatching" xml:space="preserve">
+    <value>Введенные пароли не совпадают. Пожалуйста, повторно введите секретные коды, а затем повторите попытку.</value>
+  </data>
+  <data name="Person.Text" xml:space="preserve">
+    <value>Человек</value>
+  </data>
+  <data name="PrivacyPolicy.Text" xml:space="preserve">
+    <value>Политика конфиденциальности</value>
+  </data>
+  <data name="ProfilePage_Email_Description.Text" xml:space="preserve">
+    <value>Экспорт электронной почты по умолчанию</value>
+  </data>
+  <data name="ProfilePage_Email.Text" xml:space="preserve">
+    <value>Отправить по электронной почте</value>
+  </data>
+  <data name="ProfilePage_Passcode_Description.Text" xml:space="preserve">
+    <value>Секретный код приложения</value>
+  </data>
+  <data name="ProfilePage_Passcode.Text" xml:space="preserve">
+    <value>Секретный код</value>
+  </data>
+  <data name="ProfilePage_Timeout_Description.Text" xml:space="preserve">
+    <value>Частота блокировки режима администратора</value>
+  </data>
+  <data name="ProfilePage_Timeout.Text" xml:space="preserve">
+    <value>Тайм-аут режима администратора</value>
+  </data>
+  <data name="ProfilePage_TimeoutDropdown.PlaceholderText" xml:space="preserve">
+    <value>Выберите время</value>
+  </data>
+  <data name="ProfilePage_Title.Text" xml:space="preserve">
+    <value>Профиль</value>
+  </data>
+  <data name="PublishedBy.Text" xml:space="preserve">
+    <value>Издатель:</value>
+  </data>
+  <data name="ReleaseNotesMessage.Text" xml:space="preserve">
+    <value>Примечания к выпуску будут обновлены в ближайшее время</value>
+  </data>
+  <data name="Save_Text" xml:space="preserve">
+    <value>Спасать</value>
+  </data>
+  <data name="SessionDetailsPage_Description.Text" xml:space="preserve">
+    <value>История транскрипции</value>
+  </data>
+  <data name="SessionDetailsPage_Duration.Text" xml:space="preserve">
+    <value>Длительность</value>
+  </data>
+  <data name="SessionDetailsPage_SessionID.Text" xml:space="preserve">
+    <value>Идентификатор сеанса</value>
+  </data>
+  <data name="SessionDetailsPage_Title.Text" xml:space="preserve">
+    <value>История</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Параметры</value>
+  </data>
+  <data name="TermsOfUse.Text" xml:space="preserve">
+    <value>Условия использования</value>
+  </data>
+  <data name="TranslationPage_SettingUpState" xml:space="preserve">
+    <value>Учреждение...</value>
+  </data>
+  <data name="TranslationPage_SpeakFast" xml:space="preserve">
+    <value>Попробуйте говорить немного быстрее для улучшения результатов перевода.</value>
+  </data>
+  <data name="TranslationPage_SpeakIn" xml:space="preserve">
+    <value>Говорите в</value>
+  </data>
+  <data name="TranslationPage_SpeakSlow" xml:space="preserve">
+    <value>Попробуйте говорить немного медленнее для улучшения результатов перевода.</value>
+  </data>
+  <data name="TranslationPage_Switching" xml:space="preserve">
+    <value>Переключение</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonOne" xml:space="preserve">
+    <value>Переключиться на человека 1</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonTwo" xml:space="preserve">
+    <value>Переключиться на человека 2</value>
+  </data>
+  <data name="TranslationPage_TranslationReadyState" xml:space="preserve">
+    <value>Говорить сейчас</value>
+  </data>
+  <data name="Website.Text" xml:space="preserve">
+    <value>Сайт</value>
+  </data>
+  <data name="WhatsNew" xml:space="preserve">
+    <value>Что нового</value>
+  </data>
+  <data name="WhatsNewInSpeechly.Text" xml:space="preserve">
+    <value>Что нового в</value>
+  </data>
+  <data name="AudioDevicesSelectorDualDevice.Content" xml:space="preserve">
+    <value>Двойное устройство</value>
+  </data>
+  <data name="AudioDevicesSelectorSingleDevice.Content" xml:space="preserve">
+    <value>Одно устройство</value>
+  </data>
+  <data name="AutoDetectSearchCountry.PlaceholderText" xml:space="preserve">
+    <value>Страна поиска</value>
+  </data>
+  <data name="AutoDetectSelectLanguage.Text" xml:space="preserve">
+    <value>Выберите язык</value>
+  </data>
+  <data name="ChatViewPersonOne" xml:space="preserve">
+    <value>Человек первый</value>
+  </data>
+  <data name="ChatViewPersonTwo" xml:space="preserve">
+    <value>Человек второй</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionLost" xml:space="preserve">
+    <value>Потеряно подключение к Интернету. Пожалуйста, проверьте соединение, а затем повторите попытку.</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionUnstable" xml:space="preserve">
+    <value>Ваше подключение к Интернету медленное. Вы можете столкнуться с некоторым отставанием.</value>
+  </data>
+  <data name="CustomTagSelectionTitle.Text" xml:space="preserve">
+    <value>Теги организации (выберите, чтобы добавить)</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.Header" xml:space="preserve">
+    <value>Флаг пользователя для переключения языка</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OffContent" xml:space="preserve">
+    <value>Нетрудоспособный</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OnContent" xml:space="preserve">
+    <value>Включен</value>
+  </data>
+  <data name="DetectLanguageButton.Content" xml:space="preserve">
+    <value>Определение языка</value>
+  </data>
+  <data name="DevicesPageNetworkSetupBluetoothStatus.Text" xml:space="preserve">
+    <value>Состояние Bluetooth :</value>
+  </data>
+  <data name="DevicesPageNetworkSetupConnectAutomatically.Text" xml:space="preserve">
+    <value>Автоматическое подключение</value>
+  </data>
+  <data name="DevicesPageNetworkSetupWiFiStatus.Text" xml:space="preserve">
+    <value>Статус WiFi :</value>
+  </data>
+  <data name="Dimiss.Content" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="Duration.Text" xml:space="preserve">
+    <value>|  Длительность</value>
+  </data>
+  <data name="EmailPopup_Description.Text" xml:space="preserve">
+    <value>Введите свой адрес электронной почты</value>
+  </data>
+  <data name="EmailPopup_Title.Text" xml:space="preserve">
+    <value>Отправить сеанс по электронной почте</value>
+  </data>
+  <data name="ForcedUpdateDialogCaption" xml:space="preserve">
+    <value>У нас есть критические обновления для</value>
+  </data>
+  <data name="ForcedUpdateDialogInstallBtnText" xml:space="preserve">
+    <value>Обновлять</value>
+  </data>
+  <data name="ForcedUpdateDialogTitle" xml:space="preserve">
+    <value>Критические обновления</value>
+  </data>
+  <data name="GoBack.Content" xml:space="preserve">
+    <value>Вернуться</value>
+  </data>
+  <data name="HelpPageSignOut.Content" xml:space="preserve">
+    <value>Выйти</value>
+  </data>
+  <data name="History_Export.Text" xml:space="preserve">
+    <value>Генерация файла...</value>
+  </data>
+  <data name="HistoryListColumnSessionName.Text" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="HistoryListColumnSynced.Text" xml:space="preserve">
+    <value>Синхронизированы</value>
+  </data>
+  <data name="HistorySearchBox.PlaceholderText" xml:space="preserve">
+    <value>Язык, имя сеанса, теги или идентификаторы</value>
+  </data>
+  <data name="HistorySearchButtonTooltip.Text" xml:space="preserve">
+    <value>Искать</value>
+  </data>
+  <data name="HistorySearchClearButtonTooltip.Text" xml:space="preserve">
+    <value>Ясный</value>
+  </data>
+  <data name="HistorySearchFromDate.Header" xml:space="preserve">
+    <value>От:</value>
+  </data>
+  <data name="HistorySearchToDate.Header" xml:space="preserve">
+    <value>Кому:</value>
+  </data>
+  <data name="HistoryShareButtonTooltip.Text" xml:space="preserve">
+    <value>Поделиться/Отправить</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonOne.Text" xml:space="preserve">
+    <value>Персона 1</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonTwo.Text" xml:space="preserve">
+    <value>Персона 2</value>
+  </data>
+  <data name="LoginPageTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NewVersionDialogCaption" xml:space="preserve">
+    <value>Установка новой версии приложения</value>
+  </data>
+  <data name="NewVersionDialogDescription" xml:space="preserve">
+    <value>Новые функции и исправления ошибок будут отсутствовать в </value>
+  </data>
+  <data name="NewVersionDialogInstallBtnText" xml:space="preserve">
+    <value>Установить новую версию</value>
+  </data>
+  <data name="NewVersionDialogTitle" xml:space="preserve">
+    <value>Новая версия приложения</value>
+  </data>
+  <data name="NextText" xml:space="preserve">
+    <value>Следующий</value>
+  </data>
+  <data name="ProfilePageEditButton.Content" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="QuestionsButton.Content" xml:space="preserve">
+    <value>Посмотреть вопросы</value>
+  </data>
+  <data name="QuestionSettingsDescription.Text" xml:space="preserve">
+    <value>Просмотр или изменение ярлыков вопросов</value>
+  </data>
+  <data name="QuestionSettingsInstructionOne.Text" xml:space="preserve">
+    <value>* Используйте цифры 1-9 для каждого вопроса. Ноль (0) рассматриваться не будет.</value>
+  </data>
+  <data name="QuestionSettingsInstructionThree.Text" xml:space="preserve">
+    <value>* Вы можете назначить ярлыки только для 9 вопросов.</value>
+  </data>
+  <data name="QuestionSettingsListTitle.Text" xml:space="preserve">
+    <value>Список вопросов :</value>
+  </data>
+  <data name="ResellerEmailAddress.Text" xml:space="preserve">
+    <value>Адрес электронной почты реселлера :</value>
+  </data>
+  <data name="ResellerName.Text" xml:space="preserve">
+    <value>Имя реселлера :</value>
+  </data>
+  <data name="SelectFlag.Text" xml:space="preserve">
+    <value>Выберите свой флаг:</value>
+  </data>
+  <data name="Send.Content" xml:space="preserve">
+    <value>Отправить</value>
+  </data>
+  <data name="SessionDetailsPage_SessionName.Text" xml:space="preserve">
+    <value>Имя сеанса</value>
+  </data>
+  <data name="SessionID.Text" xml:space="preserve">
+    <value>Идентификатор сеанса : -</value>
+  </data>
+  <data name="SessionMetadataDialog_ContinueButton.Text" xml:space="preserve">
+    <value>Продолжать</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTags.Text" xml:space="preserve">
+    <value>Пользовательские теги</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Введите имя тега здесь</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextboxHelper.Text" xml:space="preserve">
+    <value>Нажмите Enter</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTags.Text" xml:space="preserve">
+    <value>Тег(ы) по умолчанию</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Введите значение здесь</value>
+  </data>
+  <data name="SessionMetadataDialog_Description.Text" xml:space="preserve">
+    <value>Обязательные для заполнения поля отмечены знаком '</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionName.Text" xml:space="preserve">
+    <value>Имя сеанса</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionNameTextbox.PlaceholderText" xml:space="preserve">
+    <value>например, нулевой пациент</value>
+  </data>
+  <data name="SessionMetadataDialog_Title.Text" xml:space="preserve">
+    <value>Добавление имени сеанса и тегов</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorActionMessage" xml:space="preserve">
+    <value>Обратитесь к администратору, чтобы активировать учетную запись.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorMessage" xml:space="preserve">
+    <value>Ваша учетная запись была деактивирована.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorActionMessage" xml:space="preserve">
+    <value>Обратитесь к администратору для создания учетной записи.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorMessage" xml:space="preserve">
+    <value>Ваша учетная запись была удалена.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorActionMessage" xml:space="preserve">
+    <value>Обратитесь к администратору, чтобы включить учетную запись.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorMessage" xml:space="preserve">
+    <value>Ваша учетная запись отключена.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorActionMessage" xml:space="preserve">
+    <value>Обратитесь к администратору для создания учетной записи.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorMessage" xml:space="preserve">
+    <value>У вас нет активной учетной записи.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorActionMessage" xml:space="preserve">
+    <value>Обратитесь к администратору, чтобы продлить лицензию.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorMessage" xml:space="preserve">
+    <value>Срок действия вашей лицензии истек.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorActionMessage" xml:space="preserve">
+    <value>Обратитесь к администратору, чтобы активировать лицензию.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorMessage" xml:space="preserve">
+    <value>Ваша лицензия была деактивирована.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorActionMessage" xml:space="preserve">
+    <value>Обратитесь к администратору.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorMessage" xml:space="preserve">
+    <value>Действие вашей лицензии приостановлено.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorActionMessage" xml:space="preserve">
+    <value>Обратитесь к администратору, чтобы назначить вам лицензию.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorMessage" xml:space="preserve">
+    <value>У вас нет назначенной вам лицензии.</value>
+  </data>
+  <data name="StartupPage2020.Text" xml:space="preserve">
+    <value>2021 </value>
+  </data>
+  <data name="StartupPageErrorDescription.Text" xml:space="preserve">
+    <value>Произошла ошибка. Проверьте подключение к Интернету и повторите попытку.</value>
+  </data>
+  <data name="StartupPagePoweredBy.Text" xml:space="preserve">
+    <value>Руководствовался </value>
+  </data>
+  <data name="StartupPageProgressDescription.Text" xml:space="preserve">
+    <value>Это может занять несколько секунд</value>
+  </data>
+  <data name="StartupPageRetryButton.Content" xml:space="preserve">
+    <value>Снова пробовать</value>
+  </data>
+  <data name="StartupPageRightsReserved.Text" xml:space="preserve">
+    <value>Все права защищены.</value>
+  </data>
+  <data name="StartUpPageSettingUpMessage" xml:space="preserve">
+    <value>Учреждение...</value>
+  </data>
+  <data name="StartupPageTitleDescription.Text" xml:space="preserve">
+    <value>Добро пожаловать в </value>
+  </data>
+  <data name="TranslateText" xml:space="preserve">
+    <value>Перевести</value>
+  </data>
+  <data name="TranslationLicenceUseError" xml:space="preserve">
+    <value>Ваша лицензия в настоящее время используется в другом сеансе.</value>
+  </data>
+  <data name="TranslationLimitReachedError" xml:space="preserve">
+    <value>Вы достигли максимального лимита времени за сеанс. Завершение сеанса.</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOff" xml:space="preserve">
+    <value>Микрофон выключен</value>
+  </data>
+  <data name="TranslationPage_SpeakerOff" xml:space="preserve">
+    <value>Динамик выключен</value>
+  </data>
+  <data name="TranslationTimeDepletedError" xml:space="preserve">
+    <value>Ваши протоколы перевода были исчерпаны. Пожалуйста, свяжитесь с администратором.</value>
+  </data>
+  <data name="UnsupportedVersionDialogBtntext" xml:space="preserve">
+    <value>Обновлять</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption" xml:space="preserve">
+    <value>Критические обновления необходимы для </value>
+  </data>
+  <data name="UnsupportedVersionDialogDescription" xml:space="preserve">
+    <value>Обновите приложение, чтобы продолжить получать обновления функций и безопасности.</value>
+  </data>
+  <data name="UnsupportedVersionDialogTitle" xml:space="preserve">
+    <value>Неподдерживаемая версия приложения</value>
+  </data>
+  <data name="UpdateDialogWhatsNew.Text" xml:space="preserve">
+    <value>Что нового?</value>
+  </data>
+  <data name="Zoom.Text" xml:space="preserve">
+    <value>Увеличить</value>
+  </data>
+  <data name="Add.Content" xml:space="preserve">
+    <value>Добавлять</value>
+  </data>
+  <data name="AddNewQuestion.Text" xml:space="preserve">
+    <value>Добавление нового предопределенного вопроса</value>
+  </data>
+  <data name="AddQuestion.Content" xml:space="preserve">
+    <value>Добавить вопрос</value>
+  </data>
+  <data name="ChooseLanguage.Text" xml:space="preserve">
+    <value>Выберите язык по умолчанию</value>
+  </data>
+  <data name="CustomProfileAdded" xml:space="preserve">
+    <value>Имя профиля успешно добавлено.</value>
+  </data>
+  <data name="CustomProfileDeleted" xml:space="preserve">
+    <value>Профиль успешно удален.</value>
+  </data>
+  <data name="CustomProfileInvalidName" xml:space="preserve">
+    <value>Ошибка! Недопустимое имя профиля.</value>
+  </data>
+  <data name="CustomProfileNotDeleted" xml:space="preserve">
+    <value>Нет профиля для удаления.</value>
+  </data>
+  <data name="CustomProfileNotSaved" xml:space="preserve">
+    <value>Ошибка! Профиль не сохранен.</value>
+  </data>
+  <data name="CustomProfileProfileSaved" xml:space="preserve">
+    <value>Профиль успешно сохранен.</value>
+  </data>
+  <data name="DataRequestMessage" xml:space="preserve">
+    <value>Вы не выделили текст. Выберите текст для совместного использования и повторите попытку.</value>
+  </data>
+  <data name="DevicesAddProfileButton.Content" xml:space="preserve">
+    <value>Добавлять</value>
+  </data>
+  <data name="DevicesAvailableProfiles.Text" xml:space="preserve">
+    <value>Доступные профили</value>
+  </data>
+  <data name="DevicesDefaultProfile.Text" xml:space="preserve">
+    <value>Профиль по умолчанию:</value>
+  </data>
+  <data name="DevicesDeleteProfileBtn.Content" xml:space="preserve">
+    <value>Удалить профиль</value>
+  </data>
+  <data name="DeviceSetupChanged" xml:space="preserve">
+    <value>Обновлены подключенные аудиоустройства </value>
+  </data>
+  <data name="DevicesHelpfulTip1.Text" xml:space="preserve">
+    <value>1. Задайте имя профиля</value>
+  </data>
+  <data name="DevicesHelpfulTip2.Text" xml:space="preserve">
+    <value>2. Выберите режимы одного или двух устройств</value>
+  </data>
+  <data name="DevicesHelpfulTip3.Text" xml:space="preserve">
+    <value>3. Выберите динамик (динамики) и микрофон (ы)</value>
+  </data>
+  <data name="DevicesHelpfulTip4.Text" xml:space="preserve">
+    <value>4. Установите свой профиль по умолчанию</value>
+  </data>
+  <data name="DevicesHelpfulTip5.Text" xml:space="preserve">
+    <value>5. Нажмите кнопку Сохранить профиль, чтобы сохранить профиль</value>
+  </data>
+  <data name="DevicesHelpfulTips.Text" xml:space="preserve">
+    <value>Полезные советы</value>
+  </data>
+  <data name="DevicesProfileNameTextBox.PlaceholderText" xml:space="preserve">
+    <value>Имя профиля...</value>
+  </data>
+  <data name="DevicesSaveProfileBtn.Content" xml:space="preserve">
+    <value>Сохранить профиль</value>
+  </data>
+  <data name="DevicesSetasDefault.Text" xml:space="preserve">
+    <value>Установлено по умолчанию</value>
+  </data>
+  <data name="DevicesSetProfileButton.Content" xml:space="preserve">
+    <value>Установить профиль</value>
+  </data>
+  <data name="DevicesSetProfileText.Text" xml:space="preserve">
+    <value>Установить пользовательский профиль?</value>
+  </data>
+  <data name="DiscardButton.Content" xml:space="preserve">
+    <value>Отбрасывать</value>
+  </data>
+  <data name="DismissButton.Content" xml:space="preserve">
+    <value>Увольнять</value>
+  </data>
+  <data name="DismissText.Text" xml:space="preserve">
+    <value>Увольнять</value>
+  </data>
+  <data name="DownloadAudio.Text" xml:space="preserve">
+    <value>Скачать аудио</value>
+  </data>
+  <data name="DownloadCancel" xml:space="preserve">
+    <value>Загрузка отменена</value>
+  </data>
+  <data name="Downloaded" xml:space="preserve">
+    <value>Загрузить</value>
+  </data>
+  <data name="DownloadError" xml:space="preserve">
+    <value>Произошла ошибка</value>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>Загрузки</value>
+  </data>
+  <data name="DownloadPaused" xml:space="preserve">
+    <value>Загрузка приостановлена</value>
+  </data>
+  <data name="DualDeviceUpdated" xml:space="preserve">
+    <value>Установка двух устройств успешно обновлена</value>
+  </data>
+  <data name="EnterQuestion.Text" xml:space="preserve">
+    <value>Введите вопрос ниже</value>
+  </data>
+  <data name="ErrorDescription.Text" xml:space="preserve">
+    <value>Ваши изменения не были сохранены, вы хотите сохранить их или отменить?</value>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>Что-то пошло не так.. Повторить</value>
+  </data>
+  <data name="ErrorTitle.Text" xml:space="preserve">
+    <value>У вас есть несохраненные изменения</value>
+  </data>
+  <data name="FeedbackEight.Text" xml:space="preserve">
+    <value>Мы продолжали перебивать друг друга</value>
+  </data>
+  <data name="FeedbackFive.Text" xml:space="preserve">
+    <value>Я услышал эхо в звонке</value>
+  </data>
+  <data name="FeedbackFour.Text" xml:space="preserve">
+    <value>Он улавливал фоновые голоса</value>
+  </data>
+  <data name="FeedbackOne.Text" xml:space="preserve">
+    <value>Он неправильно уловил мой голос</value>
+  </data>
+  <data name="FeedbackQuestion.Text" xml:space="preserve">
+    <value>Что могло быть лучше?</value>
+  </data>
+  <data name="FeedbackSeven.Text" xml:space="preserve">
+    <value>Сеанс неожиданно завершился</value>
+  </data>
+  <data name="FeedbackSix.Text" xml:space="preserve">
+    <value>Громкость была слишком низкой</value>
+  </data>
+  <data name="FeedbackThanks.Text" xml:space="preserve">
+    <value>Спасибо за отзыв</value>
+  </data>
+  <data name="FeedbackThree.Text" xml:space="preserve">
+    <value>Время перевода было слишком медленным</value>
+  </data>
+  <data name="FeedbackTwo.Text" xml:space="preserve">
+    <value>Он неправильно перевел мои предложения</value>
+  </data>
+  <data name="ForcedUpdateDialogCaptionContinuation" xml:space="preserve">
+    <value>для функционирования. Приложение не будет работать без этих обновлений.</value>
+  </data>
+  <data name="Improvement.Text" xml:space="preserve">
+    <value>Мы будем продолжать работать над улучшением вашего опыта.</value>
+  </data>
+  <data name="LanguageSettingsUpdated" xml:space="preserve">
+    <value>Языковые изменения успешно обновляются</value>
+  </data>
+  <data name="NewVersionDialogDescription2" xml:space="preserve">
+    <value>и ваша версия</value>
+  </data>
+  <data name="NewVersionDialogDescription3" xml:space="preserve">
+    <value>может отсутствовать.</value>
+  </data>
+  <data name="Other.Text" xml:space="preserve">
+    <value>Другие комментарии:</value>
+  </data>
+  <data name="PasswordUpdated" xml:space="preserve">
+    <value>Пароль успешно изменен</value>
+  </data>
+  <data name="PlaybackLanguageUpdated" xml:space="preserve">
+    <value>Язык воспроизведения по умолчанию успешно изменен</value>
+  </data>
+  <data name="QuestionAdded" xml:space="preserve">
+    <value>Вопрос успешно добавлен</value>
+  </data>
+  <data name="QuestionDeleted" xml:space="preserve">
+    <value>Вопрос успешно удален</value>
+  </data>
+  <data name="Questions.Text" xml:space="preserve">
+    <value>Вопросы</value>
+  </data>
+  <data name="QuestionSettingsInstructionTwo.Text" xml:space="preserve">
+    <value>* Каждый вопрос должен иметь разные сочетания клавиш.</value>
+  </data>
+  <data name="QuestionsValidationError.Text" xml:space="preserve">
+    <value>* Проверьте подтверждения и повторите попытку.</value>
+  </data>
+  <data name="QuickViewLanguagesUpdated" xml:space="preserve">
+    <value>Языки быстрого просмотра успешно обновлены</value>
+  </data>
+  <data name="SendFeedback.Content" xml:space="preserve">
+    <value>Отправить отзыв</value>
+  </data>
+  <data name="SessionFeedbackPrompt" xml:space="preserve">
+    <value>Как бы вы оценили свою переводческую сессию?</value>
+  </data>
+  <data name="SessionFeedbackTitle" xml:space="preserve">
+    <value>Обратная связь по переводу</value>
+  </data>
+  <data name="ShortcutSuccess" xml:space="preserve">
+    <value>Ярлыки вопросов успешно обновлены</value>
+  </data>
+  <data name="SingleDeviceUpdated" xml:space="preserve">
+    <value>Программа установки одного устройства успешно обновлена</value>
+  </data>
+  <data name="StartupPageTitleDescription2.Text" xml:space="preserve">
+    <value>программное обеспечение для перевода.</value>
+  </data>
+  <data name="TimeoutUpdated" xml:space="preserve">
+    <value>Тайм-аут успешно обновлен</value>
+  </data>
+  <data name="TouchShareText" xml:space="preserve">
+    <value>Нажмите Поделиться</value>
+  </data>
+  <data name="TranslationLanguageUpdated" xml:space="preserve">
+    <value>Язык перевода по умолчанию успешно изменен</value>
+  </data>
+  <data name="TranslationPlaybackUpdated" xml:space="preserve">
+    <value>Язык перевода и воспроизведения по умолчанию успешно изменился</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption2" xml:space="preserve">
+    <value>для функционирования. Функции могут перестать работать без предварительного уведомления. Пожалуйста, обновите приложение.</value>
+  </data>
+  <data name="UserFlagSwitch" xml:space="preserve">
+    <value>Флаг пользователя для переключения языка обновлен</value>
+  </data>
+</root>

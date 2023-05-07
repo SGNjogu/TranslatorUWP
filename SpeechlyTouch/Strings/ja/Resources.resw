@@ -1,0 +1,1192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="AppDescription" xml:space="preserve">
+    <value>タラタッチアプリ</value>
+  </data>
+  <data name="AppDisplayName" xml:space="preserve">
+    <value>タラタッチアプリ</value>
+  </data>
+  <data name="AudioDeviceSelector_MicDropdown.PlaceholderText" xml:space="preserve">
+    <value>マイクを選択する</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneMic.Text" xml:space="preserve">
+    <value>人1つのマイク</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneSpeaker.Text" xml:space="preserve">
+    <value>人 1 スピーカー</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoMic.Text" xml:space="preserve">
+    <value>人物 2 マイク</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoSpeaker.Text" xml:space="preserve">
+    <value>人物 2 スピーカー</value>
+  </data>
+  <data name="AudioDeviceSelector_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>スピーカーを選択する</value>
+  </data>
+  <data name="BluetoothPairingDialog_Description.Text" xml:space="preserve">
+    <value>デバイスの電源が入っていて、検出可能であることを確認します。接続するデバイスを以下から選択してください。</value>
+  </data>
+  <data name="BluetoothPairingDialog_Title.Text" xml:space="preserve">
+    <value>デバイスを追加する</value>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="ChangePasscodeDialog_Confirm.Text" xml:space="preserve">
+    <value>新しいパスコードの確認</value>
+  </data>
+  <data name="ChangePasscodeDialog_Current.Text" xml:space="preserve">
+    <value>現在のパスコード</value>
+  </data>
+  <data name="ChangePasscodeDialog_New.Text" xml:space="preserve">
+    <value>新しいパスコード</value>
+  </data>
+  <data name="ChangePasscodeDialog_Title.Text" xml:space="preserve">
+    <value>パスコードの変更</value>
+  </data>
+  <data name="Close.Content" xml:space="preserve">
+    <value>閉める</value>
+  </data>
+  <data name="ConsentDialog_Description1.Text" xml:space="preserve">
+    <value>プライバシーの懸念は私たちの最優先事項です。(5) お客様は、必要に応じて、携帯電話またはタブレットで本プライバシーポリシーの条件に同意するものとします。</value>
+  </data>
+  <data name="ConsentDialog_Description2.Text" xml:space="preserve">
+    <value>同意の要求を受け取ったときにアクセスを許可しないことを選択した場合(そのような要求は、www ICTSのWebサイトで通知されます。</value>
+  </data>
+  <data name="ConsentDialog_Description3.Text" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int</value>
+  </data>
+  <data name="ConsentDialog_Description4.Text" xml:space="preserve">
+    <value>)、提供された電子メールアドレスも、個人を特定できるその他の個人情報も、そのような許可が付与されると、当社の所有物になることはありません。</value>
+  </data>
+  <data name="ConsentDialog_Description5.Text" xml:space="preserve">
+    <value>特定の部品を使用することによって:/私の携帯電話/アイコンの使用-次のような製品についてチャットルームで他の人を許可することが含まれる場合があります</value>
+  </data>
+  <data name="ConsentDialog_HyperLink.NavigateUri" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int/</value>
+  </data>
+  <data name="ConsentDialog_Title.Text" xml:space="preserve">
+    <value>私たちはあなたのプライバシーを大切にします</value>
+  </data>
+  <data name="Dashboard_Choose_Language.Text" xml:space="preserve">
+    <value>言語を選択</value>
+  </data>
+  <data name="Dashboard_Hello.Text" xml:space="preserve">
+    <value>こんにちは</value>
+  </data>
+  <data name="Dashboard_SearchBox.PlaceholderText" xml:space="preserve">
+    <value>検索言語</value>
+  </data>
+  <data name="Dashboard_Welcome.Text" xml:space="preserve">
+    <value>ようこそ</value>
+  </data>
+  <data name="DevicesErrorDialog_NoDeviceError" xml:space="preserve">
+    <value>保存したデバイスがありません。[設定]-[&gt;デバイス]に移動してマイクとスピーカーを選択し、[保存]をクリックします。</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Description.Text" xml:space="preserve">
+    <value>利用可能なブルートゥースデバイス</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_DropDown.PlaceholderText" xml:space="preserve">
+    <value>ブルートゥースデバイスを選択</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Scan.Text" xml:space="preserve">
+    <value>スキャン</value>
+  </data>
+  <data name="DevicesPage_Bluetooth.Text" xml:space="preserve">
+    <value>Bluetooth</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices_Description.Text" xml:space="preserve">
+    <value>オーディオデバイスを選択してください</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices.Text" xml:space="preserve">
+    <value>接続されたオーディオデバイス</value>
+  </data>
+  <data name="DevicesPage_MicDropDown.PlaceholderText" xml:space="preserve">
+    <value>マイクを選ぶ</value>
+  </data>
+  <data name="DevicesPage_Network_Description.Text" xml:space="preserve">
+    <value>利用可能なネットワーク</value>
+  </data>
+  <data name="DevicesPage_Network_DropDown.PlaceholderText" xml:space="preserve">
+    <value>ネットワークを選択</value>
+  </data>
+  <data name="DevicesPage_Network.Text" xml:space="preserve">
+    <value>ネットワーク</value>
+  </data>
+  <data name="DevicesPage_NetworkError" xml:space="preserve">
+    <value>ネットワークが選択されていません。ネットワーク接続を確認してください。</value>
+  </data>
+  <data name="DevicesPage_PersonOne_Speaker.Text" xml:space="preserve">
+    <value>人 1 話者</value>
+  </data>
+  <data name="DevicesPage_PersonOneMic.Text" xml:space="preserve">
+    <value>マイク 1 個</value>
+  </data>
+  <data name="DevicesPage_PersonTwo_Mic.Text" xml:space="preserve">
+    <value>人2マイク</value>
+  </data>
+  <data name="DevicesPage_Scan" xml:space="preserve">
+    <value>スキャン</value>
+  </data>
+  <data name="DevicesPage_Scanning" xml:space="preserve">
+    <value>スキャニング。。。</value>
+  </data>
+  <data name="DevicesPage_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>スピーカーを選ぶ</value>
+  </data>
+  <data name="DevicesPage_Status_Connect" xml:space="preserve">
+    <value>繋ぐ</value>
+  </data>
+  <data name="DevicesPage_Status_Connected" xml:space="preserve">
+    <value>接続</value>
+  </data>
+  <data name="DevicesPage_Status_Connecting" xml:space="preserve">
+    <value>接続。。。</value>
+  </data>
+  <data name="DevicesPage_Status_Off" xml:space="preserve">
+    <value>オフ</value>
+  </data>
+  <data name="DevicesPage_Status_On" xml:space="preserve">
+    <value>オン</value>
+  </data>
+  <data name="DevicesPager_PersonTwo_Speaker.Text" xml:space="preserve">
+    <value>人物2話者</value>
+  </data>
+  <data name="EnterPasscodeDialog_Description.Text" xml:space="preserve">
+    <value>設定ページにアクセスするには、パスコードを入力してください</value>
+  </data>
+  <data name="EnterPasscodeDialog_ForgotPasscode.Content" xml:space="preserve">
+    <value>パスコードをお忘れですか?</value>
+  </data>
+  <data name="EnterPasscodeDialog_InvalidPasscode.Text" xml:space="preserve">
+    <value>無効なパスコードです!もう一度やり直してください。</value>
+  </data>
+  <data name="EnterPasscodeDialog_Passcode.Text" xml:space="preserve">
+    <value>パスコード</value>
+  </data>
+  <data name="EnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>パスコードを入力してください</value>
+  </data>
+  <data name="IAgree.Content" xml:space="preserve">
+    <value>賛成です</value>
+  </data>
+  <data name="InvalidLicenseDialog_Description.Text" xml:space="preserve">
+    <value>ライセンスの検証に失敗しました</value>
+  </data>
+  <data name="InvalidLicenseDialog_Title.Text" xml:space="preserve">
+    <value>無効なライセンス</value>
+  </data>
+  <data name="LoginFailedDialog_Button.Content" xml:space="preserve">
+    <value>戻ってください</value>
+  </data>
+  <data name="LoginFailedDialog_Description.Text" xml:space="preserve">
+    <value>ログインに失敗しました。</value>
+  </data>
+  <data name="LoginFailedDialog_Title.Text" xml:space="preserve">
+    <value>ログイン失敗</value>
+  </data>
+  <data name="Main_Title.Text" xml:space="preserve">
+    <value>メイン</value>
+  </data>
+  <data name="PasswordPopup_SetupTitle.Text" xml:space="preserve">
+    <value>パスコードを設定する</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Description1.Text" xml:space="preserve">
+    <value>編集を続けるには、パスコードを再入力してください...</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>パスコードを再入力してください</value>
+  </data>
+  <data name="RenterPasscodeDialog_Description2.Text" xml:space="preserve">
+    <value>自動保存と帰宅</value>
+  </data>
+  <data name="Save.Content" xml:space="preserve">
+    <value>セーブ</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Description.Text" xml:space="preserve">
+    <value>これは、アプリがディープリンクからアクティブ化された場合にアクティブ化パラメーターを表示するサンプルページです。</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Title.Text" xml:space="preserve">
+    <value>スキームアクティベーションサンプル</value>
+  </data>
+  <data name="SetPasscodeDialog_ConfirmPasscode.Text" xml:space="preserve">
+    <value>新しいパスコードの確認</value>
+  </data>
+  <data name="SetPasscodeDialog_NewPasscode.Text" xml:space="preserve">
+    <value>新しいパスコード</value>
+  </data>
+  <data name="SetPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>パスコードを設定する</value>
+  </data>
+  <data name="Settings_About.Text" xml:space="preserve">
+    <value>このアプリケーションについて</value>
+  </data>
+  <data name="Settings_AboutDescription.Text" xml:space="preserve">
+    <value>設定ページのプレースホルダー テキスト。 アプリの説明はここに表示されます。</value>
+  </data>
+  <data name="Settings_Personalization.Text" xml:space="preserve">
+    <value>パーソナル 化</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.Content" xml:space="preserve">
+    <value>プライバシーに関する声明</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.NavigateUri" xml:space="preserve">
+    <value>https://YourPrivacyUrlGoesHere/</value>
+  </data>
+  <data name="Settings_Theme_Dark.Content" xml:space="preserve">
+    <value>暗い</value>
+  </data>
+  <data name="Settings_Theme_Default.Content" xml:space="preserve">
+    <value>ウィンドウのデフォルト</value>
+  </data>
+  <data name="Settings_Theme_Light.Content" xml:space="preserve">
+    <value>光</value>
+  </data>
+  <data name="Settings_Theme.Text" xml:space="preserve">
+    <value>テーマを選択</value>
+  </data>
+  <data name="Settings_Title.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="SettingsPage_Devices" xml:space="preserve">
+    <value>デバイス</value>
+  </data>
+  <data name="SettingsPage_Language" xml:space="preserve">
+    <value>言語</value>
+  </data>
+  <data name="SettingsPage_Profile" xml:space="preserve">
+    <value>プロフィール</value>
+  </data>
+  <data name="SettingsPage_Questions" xml:space="preserve">
+    <value>問</value>
+  </data>
+  <data name="SettingsPage_Title" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="ShellView_Help" xml:space="preserve">
+    <value>ヘルプ</value>
+  </data>
+  <data name="ShellView_History" xml:space="preserve">
+    <value>歴史</value>
+  </data>
+  <data name="ShellView_Home" xml:space="preserve">
+    <value>家</value>
+  </data>
+  <data name="ShellView_Settings.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="Sign_In.Text" xml:space="preserve">
+    <value>サインイン</value>
+  </data>
+  <data name="SignInDialog_Description.Text" xml:space="preserve">
+    <value>Jabraデバイスとの複数のグローバル言語で即座に通信します。</value>
+  </data>
+  <data name="SignInDialog_SignInButton.Content" xml:space="preserve">
+    <value>サインイン</value>
+  </data>
+  <data name="Translate_Button.Text" xml:space="preserve">
+    <value>翻訳</value>
+  </data>
+  <data name="TranslationPage_EndSession.Text" xml:space="preserve">
+    <value>セッションを終了する</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOn" xml:space="preserve">
+    <value>マイクオン</value>
+  </data>
+  <data name="TranslationPage_SpeakerOn" xml:space="preserve">
+    <value>スピーカーオン</value>
+  </data>
+  <data name="TranslationPage_SpeakNow.Text" xml:space="preserve">
+    <value>今すぐ話す</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>に関しては</value>
+  </data>
+  <data name="AboutPage_AppVersion.Text" xml:space="preserve">
+    <value>アプリケーションのバージョン</value>
+  </data>
+  <data name="AboutPage_CheckUpdate.Content" xml:space="preserve">
+    <value>更新プログラムを確認する</value>
+  </data>
+  <data name="AboutPage_DataConsent" xml:space="preserve">
+    <value>組織は、データをクラウドに保存することに同意しました。</value>
+  </data>
+  <data name="AboutPage_NoDataConsent" xml:space="preserve">
+    <value>組織がクラウドにデータを保存することに同意していない。</value>
+  </data>
+  <data name="AboutPage_Published.Text" xml:space="preserve">
+    <value>FITTSリミテッド発行。</value>
+  </data>
+  <data name="AppClose_Close.Content" xml:space="preserve">
+    <value>とにかく閉じる</value>
+  </data>
+  <data name="AppClose_Dismiss.Content" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="AppClose_Warning.Text" xml:space="preserve">
+    <value>進行中のセッションがあります。アプリケーションを終了する前にセッションを終了してください。</value>
+  </data>
+  <data name="AppVersion.Text" xml:space="preserve">
+    <value>アプリのバージョン</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Button.Content" xml:space="preserve">
+    <value>セッション続行</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Description.Text" xml:space="preserve">
+    <value>セッションはで終了します</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Title.Text" xml:space="preserve">
+    <value>オーディオが検出されない</value>
+  </data>
+  <data name="AudioPlayer_Error.Text" xml:space="preserve">
+    <value>オーディオの読み込みに失敗しました</value>
+  </data>
+  <data name="DashboardPage_DefaultLanguageError" xml:space="preserve">
+    <value>デフォルトの翻訳言語が保存されていません。[設定]-[&gt;言語]に移動してデフォルトの翻訳言語を選択し、[保存]をクリックします。</value>
+  </data>
+  <data name="DashboardPage_TargetLanguageError" xml:space="preserve">
+    <value>ターゲット翻訳言語を選択していません。言語を選択し、[翻訳]をクリックしてください。</value>
+  </data>
+  <data name="DevicesErrorDialog_DualDeviceError" xml:space="preserve">
+    <value>デュアルデバイス翻訳を選択しましたが、人物2にデバイスが選択されていません。[設定]-[&gt;デバイス]に移動してマイクとスピーカーを選択し、[保存]をクリックします。</value>
+  </data>
+  <data name="DevicesPage_Title.Text" xml:space="preserve">
+    <value>デバイス</value>
+  </data>
+  <data name="DevicesPage_Wifi_Password.Text" xml:space="preserve">
+    <value>パスワードを入力</value>
+  </data>
+  <data name="DevicesPage_WifiStatus.Text" xml:space="preserve">
+    <value>無線 LAN ステータス</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="Expiry.Text" xml:space="preserve">
+    <value>有効 期限</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>フィードバック</value>
+  </data>
+  <data name="FeedbackMessage.Text" xml:space="preserve">
+    <value>フィードバックや質問がある場合は、遠慮なくご連絡ください。</value>
+  </data>
+  <data name="GetInTouchButton.Text" xml:space="preserve">
+    <value>お問い合わせ</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>ヘルプ</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>歴史</value>
+  </data>
+  <data name="History_ExportBtn.Text" xml:space="preserve">
+    <value>輸出</value>
+  </data>
+  <data name="HistoryExportButtonTooltip.Text" xml:space="preserve">
+    <value>輸出</value>
+  </data>
+  <data name="HistoryListColumnDate.Text" xml:space="preserve">
+    <value>日付</value>
+  </data>
+  <data name="HistoryListColumnDuration.Text" xml:space="preserve">
+    <value>期間</value>
+  </data>
+  <data name="HistoryListColumnPrimaryLanguage.Text" xml:space="preserve">
+    <value>第一言語</value>
+  </data>
+  <data name="HistoryListColumnSecondaryLanguage.Text" xml:space="preserve">
+    <value>第二言語</value>
+  </data>
+  <data name="HistoryListColumnSessionId.Text" xml:space="preserve">
+    <value>セッション ID</value>
+  </data>
+  <data name="InitalSetup_SkipSetup.Content" xml:space="preserve">
+    <value>セットアップをスキップする</value>
+  </data>
+  <data name="InitialNetworkPopupConnectButton.Content" xml:space="preserve">
+    <value>繋ぐ</value>
+  </data>
+  <data name="InitialSetup_DeviceSelection.Text" xml:space="preserve">
+    <value>デバイスの選択</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionDescription.Text" xml:space="preserve">
+    <value>デフォルトのオーディオデバイスを設定する</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneMicrophone.Text" xml:space="preserve">
+    <value>マイクを選択</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneSpeaker.Text" xml:space="preserve">
+    <value>スピーカーを選択</value>
+  </data>
+  <data name="InitialSetup_FinishSetup.Content" xml:space="preserve">
+    <value>セットアップの完了</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection_Description.Text" xml:space="preserve">
+    <value>デフォルトの翻訳言語を設定する</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection.Text" xml:space="preserve">
+    <value>言語選択</value>
+  </data>
+  <data name="InitialSetup_NetworkSelection.Text" xml:space="preserve">
+    <value>優先ネットワーク</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopup.Text" xml:space="preserve">
+    <value>ネットワークに接続する</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopupPassword.Text" xml:space="preserve">
+    <value>パスワードを入力:</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionDescription.Text" xml:space="preserve">
+    <value>利用可能なネットワークのいずれかから選択してください</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionNoInternetConnection.Text" xml:space="preserve">
+    <value>インターネットに接続されていません。ネットワーク接続を確認してください。</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionOtherNetworks.Text" xml:space="preserve">
+    <value>その他のネットワーク</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup_Description.Text" xml:space="preserve">
+    <value>アプリのパスコードを設定する</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup.Text" xml:space="preserve">
+    <value>パスコードの設定</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>言語</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage_Description.Text" xml:space="preserve">
+    <value>アプリケーション言語の選択</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage.Text" xml:space="preserve">
+    <value>アプリの言語</value>
+  </data>
+  <data name="LanguagesPage_AppLanguageDropdown.PlaceholderText" xml:space="preserve">
+    <value>言語を選択</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage_Description.Text" xml:space="preserve">
+    <value>使用している既定の言語</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage.Text" xml:space="preserve">
+    <value>私のデフォルトの言語</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguageDropDown.PlaceholderText" xml:space="preserve">
+    <value>言語を選択</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description.Text" xml:space="preserve">
+    <value>履歴セクション(マルチデバイス翻訳用)</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description1.Text" xml:space="preserve">
+    <value>*シングルデバイス翻訳はデフォルトですべてのオーディオを再生します*</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage.Text" xml:space="preserve">
+    <value>デフォルトの再生言語</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguages.Text" xml:space="preserve">
+    <value>クイックビュー言語</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguagesDropdown.PlaceholderText" xml:space="preserve">
+    <value>言語を追加する</value>
+  </data>
+  <data name="LanguagesPage_Title.Text" xml:space="preserve">
+    <value>言語</value>
+  </data>
+  <data name="Licence" xml:space="preserve">
+    <value>ライセンス</value>
+  </data>
+  <data name="LicenseType.Text" xml:space="preserve">
+    <value>ライセンスタイプ:</value>
+  </data>
+  <data name="NetworkConnectionError" xml:space="preserve">
+    <value>エラー：</value>
+  </data>
+  <data name="Next.Content" xml:space="preserve">
+    <value>次に</value>
+  </data>
+  <data name="PasscodeError_MinimumLength" xml:space="preserve">
+    <value>パスコードの最小長は 4 である必要があります。</value>
+  </data>
+  <data name="PasscodeError_NotMatching" xml:space="preserve">
+    <value>入力されたパスコードが一致しません。パスコードを再入力してから、もう一度やり直してください。</value>
+  </data>
+  <data name="Person.Text" xml:space="preserve">
+    <value>人</value>
+  </data>
+  <data name="PrivacyPolicy.Text" xml:space="preserve">
+    <value>プライバシーポリシー</value>
+  </data>
+  <data name="ProfilePage_Email_Description.Text" xml:space="preserve">
+    <value>デフォルトのエクスポートメール</value>
+  </data>
+  <data name="ProfilePage_Email.Text" xml:space="preserve">
+    <value>電子メール</value>
+  </data>
+  <data name="ProfilePage_Passcode_Description.Text" xml:space="preserve">
+    <value>アプリケーションのパスコード</value>
+  </data>
+  <data name="ProfilePage_Passcode.Text" xml:space="preserve">
+    <value>パスコード</value>
+  </data>
+  <data name="ProfilePage_Timeout_Description.Text" xml:space="preserve">
+    <value>管理モードロックの頻度</value>
+  </data>
+  <data name="ProfilePage_Timeout.Text" xml:space="preserve">
+    <value>管理モードのタイムアウト</value>
+  </data>
+  <data name="ProfilePage_TimeoutDropdown.PlaceholderText" xml:space="preserve">
+    <value>時間を選ぶ</value>
+  </data>
+  <data name="ProfilePage_Title.Text" xml:space="preserve">
+    <value>プロフィール</value>
+  </data>
+  <data name="PublishedBy.Text" xml:space="preserve">
+    <value>発行</value>
+  </data>
+  <data name="ReleaseNotesMessage.Text" xml:space="preserve">
+    <value>リリースノートはまもなく更新されます</value>
+  </data>
+  <data name="Save_Text" xml:space="preserve">
+    <value>セーブ</value>
+  </data>
+  <data name="SessionDetailsPage_Description.Text" xml:space="preserve">
+    <value>転写履歴</value>
+  </data>
+  <data name="SessionDetailsPage_Duration.Text" xml:space="preserve">
+    <value>期間</value>
+  </data>
+  <data name="SessionDetailsPage_SessionID.Text" xml:space="preserve">
+    <value>セッション ID</value>
+  </data>
+  <data name="SessionDetailsPage_Title.Text" xml:space="preserve">
+    <value>歴史</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="TermsOfUse.Text" xml:space="preserve">
+    <value>利用規約(英語)</value>
+  </data>
+  <data name="TranslationPage_SettingUpState" xml:space="preserve">
+    <value>セットアップ...</value>
+  </data>
+  <data name="TranslationPage_SpeakFast" xml:space="preserve">
+    <value>より良い翻訳結果を得るために、もう少し速く話してみてください。</value>
+  </data>
+  <data name="TranslationPage_SpeakIn" xml:space="preserve">
+    <value>で話す</value>
+  </data>
+  <data name="TranslationPage_SpeakSlow" xml:space="preserve">
+    <value>より良い翻訳結果を得るために、少しゆっくり話してみてください。</value>
+  </data>
+  <data name="TranslationPage_Switching" xml:space="preserve">
+    <value>切り替え</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonOne" xml:space="preserve">
+    <value>人 1 に切り替える</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonTwo" xml:space="preserve">
+    <value>ユーザー2に切り替える</value>
+  </data>
+  <data name="TranslationPage_TranslationReadyState" xml:space="preserve">
+    <value>今すぐ話す</value>
+  </data>
+  <data name="Website.Text" xml:space="preserve">
+    <value>ウェブサイト</value>
+  </data>
+  <data name="WhatsNew" xml:space="preserve">
+    <value>新着情報</value>
+  </data>
+  <data name="WhatsNewInSpeechly.Text" xml:space="preserve">
+    <value>新機能</value>
+  </data>
+  <data name="AudioDevicesSelectorDualDevice.Content" xml:space="preserve">
+    <value>デュアルデバイス</value>
+  </data>
+  <data name="AudioDevicesSelectorSingleDevice.Content" xml:space="preserve">
+    <value>単一デバイス</value>
+  </data>
+  <data name="AutoDetectSearchCountry.PlaceholderText" xml:space="preserve">
+    <value>国を検索</value>
+  </data>
+  <data name="AutoDetectSelectLanguage.Text" xml:space="preserve">
+    <value>言語を選択</value>
+  </data>
+  <data name="ChatViewPersonOne" xml:space="preserve">
+    <value>パーソン ワン</value>
+  </data>
+  <data name="ChatViewPersonTwo" xml:space="preserve">
+    <value>人2</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionLost" xml:space="preserve">
+    <value>インターネット接続が失われました。接続を確認してから、もう一度やり直してください。</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionUnstable" xml:space="preserve">
+    <value>インターネット接続が遅い。多少の遅れが発生する可能性があります。</value>
+  </data>
+  <data name="CustomTagSelectionTitle.Text" xml:space="preserve">
+    <value>組織タグ (選択して追加)</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.Header" xml:space="preserve">
+    <value>言語を切り替えるためのユーザーフラグ</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OffContent" xml:space="preserve">
+    <value>無効</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OnContent" xml:space="preserve">
+    <value>有効</value>
+  </data>
+  <data name="DetectLanguageButton.Content" xml:space="preserve">
+    <value>言語の検出</value>
+  </data>
+  <data name="DevicesPageNetworkSetupBluetoothStatus.Text" xml:space="preserve">
+    <value>Bluetoothステータス :</value>
+  </data>
+  <data name="DevicesPageNetworkSetupConnectAutomatically.Text" xml:space="preserve">
+    <value>自動的に接続する</value>
+  </data>
+  <data name="DevicesPageNetworkSetupWiFiStatus.Text" xml:space="preserve">
+    <value>無線LANステータス :</value>
+  </data>
+  <data name="Dimiss.Content" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="Duration.Text" xml:space="preserve">
+    <value>| 期間</value>
+  </data>
+  <data name="EmailPopup_Description.Text" xml:space="preserve">
+    <value>メールアドレスを入力</value>
+  </data>
+  <data name="EmailPopup_Title.Text" xml:space="preserve">
+    <value>セッションをメールで送信する</value>
+  </data>
+  <data name="ForcedUpdateDialogCaption" xml:space="preserve">
+    <value>重要な更新があります</value>
+  </data>
+  <data name="ForcedUpdateDialogInstallBtnText" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="ForcedUpdateDialogTitle" xml:space="preserve">
+    <value>重要な更新</value>
+  </data>
+  <data name="GoBack.Content" xml:space="preserve">
+    <value>戻ってください</value>
+  </data>
+  <data name="HelpPageSignOut.Content" xml:space="preserve">
+    <value>サインアウト</value>
+  </data>
+  <data name="History_Export.Text" xml:space="preserve">
+    <value>ファイルを生成しています...</value>
+  </data>
+  <data name="HistoryListColumnSessionName.Text" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <data name="HistoryListColumnSynced.Text" xml:space="preserve">
+    <value>同期</value>
+  </data>
+  <data name="HistorySearchBox.PlaceholderText" xml:space="preserve">
+    <value>言語、セッション名、タグまたは ID</value>
+  </data>
+  <data name="HistorySearchButtonTooltip.Text" xml:space="preserve">
+    <value>捜索</value>
+  </data>
+  <data name="HistorySearchClearButtonTooltip.Text" xml:space="preserve">
+    <value>クリア</value>
+  </data>
+  <data name="HistorySearchFromDate.Header" xml:space="preserve">
+    <value>差出人：</value>
+  </data>
+  <data name="HistorySearchToDate.Header" xml:space="preserve">
+    <value>宛先：</value>
+  </data>
+  <data name="HistoryShareButtonTooltip.Text" xml:space="preserve">
+    <value>共有/送信</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonOne.Text" xml:space="preserve">
+    <value>人物 1</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonTwo.Text" xml:space="preserve">
+    <value>人物 2</value>
+  </data>
+  <data name="LoginPageTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NewVersionDialogCaption" xml:space="preserve">
+    <value>の新しいアプリバージョンをインストールする</value>
+  </data>
+  <data name="NewVersionDialogDescription" xml:space="preserve">
+    <value>新機能とバグ修正は、</value>
+  </data>
+  <data name="NewVersionDialogInstallBtnText" xml:space="preserve">
+    <value>新しいバージョンのインストール</value>
+  </data>
+  <data name="NewVersionDialogTitle" xml:space="preserve">
+    <value>アプリの新しいバージョン</value>
+  </data>
+  <data name="NextText" xml:space="preserve">
+    <value>次に</value>
+  </data>
+  <data name="ProfilePageEditButton.Content" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="QuestionsButton.Content" xml:space="preserve">
+    <value>質問を見る</value>
+  </data>
+  <data name="QuestionSettingsDescription.Text" xml:space="preserve">
+    <value>質問のショートカットを表示または変更する</value>
+  </data>
+  <data name="QuestionSettingsInstructionOne.Text" xml:space="preserve">
+    <value>*各質問に1〜9の数字を使用します。ゼロ (0) は考慮されません。</value>
+  </data>
+  <data name="QuestionSettingsInstructionThree.Text" xml:space="preserve">
+    <value>*ショートカットを割り当てることができるのは9つの質問のみです。</value>
+  </data>
+  <data name="QuestionSettingsListTitle.Text" xml:space="preserve">
+    <value>質問リスト:</value>
+  </data>
+  <data name="ResellerEmailAddress.Text" xml:space="preserve">
+    <value>再販業者のメールアドレス :</value>
+  </data>
+  <data name="ResellerName.Text" xml:space="preserve">
+    <value>販売代理店名:</value>
+  </data>
+  <data name="SelectFlag.Text" xml:space="preserve">
+    <value>フラグを選択します。</value>
+  </data>
+  <data name="Send.Content" xml:space="preserve">
+    <value>送信</value>
+  </data>
+  <data name="SessionDetailsPage_SessionName.Text" xml:space="preserve">
+    <value>セッション名</value>
+  </data>
+  <data name="SessionID.Text" xml:space="preserve">
+    <value>セッション ID : -</value>
+  </data>
+  <data name="SessionMetadataDialog_ContinueButton.Text" xml:space="preserve">
+    <value>続ける</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTags.Text" xml:space="preserve">
+    <value>カスタムタグ</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>ここにタグ名を入力してください</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextboxHelper.Text" xml:space="preserve">
+    <value>エンターを押す</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTags.Text" xml:space="preserve">
+    <value>デフォルトタグ</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>ここに値を入力してください</value>
+  </data>
+  <data name="SessionMetadataDialog_Description.Text" xml:space="preserve">
+    <value>必須フィールドには '</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionName.Text" xml:space="preserve">
+    <value>セッション名</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionNameTextbox.PlaceholderText" xml:space="preserve">
+    <value>例:患者ゼロ</value>
+  </data>
+  <data name="SessionMetadataDialog_Title.Text" xml:space="preserve">
+    <value>セッション名とタグを追加する</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorActionMessage" xml:space="preserve">
+    <value>管理者に連絡して、アカウントをアクティブ化してください。</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorMessage" xml:space="preserve">
+    <value>アカウントが無効になりました。</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorActionMessage" xml:space="preserve">
+    <value>管理者に連絡してアカウントを作成してください。</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorMessage" xml:space="preserve">
+    <value>アカウントが削除されました。</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorActionMessage" xml:space="preserve">
+    <value>管理者に連絡して、アカウントを有効にしてください。</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorMessage" xml:space="preserve">
+    <value>アカウントが無効になっています。</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorActionMessage" xml:space="preserve">
+    <value>管理者に連絡してアカウントを作成してください。</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorMessage" xml:space="preserve">
+    <value>アクティブなアカウントがありません。</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorActionMessage" xml:space="preserve">
+    <value>管理者に連絡してライセンスを更新してください。</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorMessage" xml:space="preserve">
+    <value>ライセンスの有効期限が切れています。</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorActionMessage" xml:space="preserve">
+    <value>管理者に連絡してライセンスをアクティベートしてください。</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorMessage" xml:space="preserve">
+    <value>ライセンスが無効になっています。</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorActionMessage" xml:space="preserve">
+    <value>管理者に問い合わせてください。</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorMessage" xml:space="preserve">
+    <value>ライセンスが停止されました。</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorActionMessage" xml:space="preserve">
+    <value>管理者に連絡してライセンスを割り当ててください。</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorMessage" xml:space="preserve">
+    <value>ライセンスが割り当てられていません。</value>
+  </data>
+  <data name="StartupPage2020.Text" xml:space="preserve">
+    <value>2021</value>
+  </data>
+  <data name="StartupPageErrorDescription.Text" xml:space="preserve">
+    <value>エラーが発生しました。インターネット接続を確認してから、もう一度やり直してください。</value>
+  </data>
+  <data name="StartupPagePoweredBy.Text" xml:space="preserve">
+    <value>協力を受けています</value>
+  </data>
+  <data name="StartupPageProgressDescription.Text" xml:space="preserve">
+    <value>これには数秒かかる場合があります</value>
+  </data>
+  <data name="StartupPageRetryButton.Content" xml:space="preserve">
+    <value>リトライ</value>
+  </data>
+  <data name="StartupPageRightsReserved.Text" xml:space="preserve">
+    <value>全著作権所有。</value>
+  </data>
+  <data name="StartUpPageSettingUpMessage" xml:space="preserve">
+    <value>セットアップ中...</value>
+  </data>
+  <data name="StartupPageTitleDescription.Text" xml:space="preserve">
+    <value>へようこそ</value>
+  </data>
+  <data name="TranslateText" xml:space="preserve">
+    <value>翻訳</value>
+  </data>
+  <data name="TranslationLicenceUseError" xml:space="preserve">
+    <value>ライセンスは現在別のセッションで使用されています。</value>
+  </data>
+  <data name="TranslationLimitReachedError" xml:space="preserve">
+    <value>セッションあたりの最大制限時間に達しました。セッションを終了します。</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOff" xml:space="preserve">
+    <value>マイクオフ</value>
+  </data>
+  <data name="TranslationPage_SpeakerOff" xml:space="preserve">
+    <value>スピーカーオフ</value>
+  </data>
+  <data name="TranslationTimeDepletedError" xml:space="preserve">
+    <value>翻訳時間を使い果たしました。管理者にお問い合わせください。</value>
+  </data>
+  <data name="UnsupportedVersionDialogBtntext" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption" xml:space="preserve">
+    <value>重要な更新は、</value>
+  </data>
+  <data name="UnsupportedVersionDialogDescription" xml:space="preserve">
+    <value>アプリを更新して、機能とセキュリティ更新プログラムを引き続き取得します。</value>
+  </data>
+  <data name="UnsupportedVersionDialogTitle" xml:space="preserve">
+    <value>サポートされていないアプリのバージョン</value>
+  </data>
+  <data name="UpdateDialogWhatsNew.Text" xml:space="preserve">
+    <value>新機能</value>
+  </data>
+  <data name="Zoom.Text" xml:space="preserve">
+    <value>ズーム</value>
+  </data>
+  <data name="Add.Content" xml:space="preserve">
+    <value>足す</value>
+  </data>
+  <data name="AddNewQuestion.Text" xml:space="preserve">
+    <value>新しい定義済み質問を追加する</value>
+  </data>
+  <data name="AddQuestion.Content" xml:space="preserve">
+    <value>質問を追加</value>
+  </data>
+  <data name="ChooseLanguage.Text" xml:space="preserve">
+    <value>既定の言語を選択する</value>
+  </data>
+  <data name="CustomProfileAdded" xml:space="preserve">
+    <value>プロファイル名が正常に追加されました。</value>
+  </data>
+  <data name="CustomProfileDeleted" xml:space="preserve">
+    <value>プロファイルが正常に削除されました。</value>
+  </data>
+  <data name="CustomProfileInvalidName" xml:space="preserve">
+    <value>エラー！プロファイル名が無効です。</value>
+  </data>
+  <data name="CustomProfileNotDeleted" xml:space="preserve">
+    <value>削除するプロファイルがありません。</value>
+  </data>
+  <data name="CustomProfileNotSaved" xml:space="preserve">
+    <value>エラー！プロファイルは保存されません。</value>
+  </data>
+  <data name="CustomProfileProfileSaved" xml:space="preserve">
+    <value>プロファイルが正常に保存されました。</value>
+  </data>
+  <data name="DataRequestMessage" xml:space="preserve">
+    <value>テキストが選択されていません。共有するテキストを選択して、もう一度やり直してください。</value>
+  </data>
+  <data name="DevicesAddProfileButton.Content" xml:space="preserve">
+    <value>足す</value>
+  </data>
+  <data name="DevicesAvailableProfiles.Text" xml:space="preserve">
+    <value>使用可能なプロファイル</value>
+  </data>
+  <data name="DevicesDefaultProfile.Text" xml:space="preserve">
+    <value>既定のプロファイル:</value>
+  </data>
+  <data name="DevicesDeleteProfileBtn.Content" xml:space="preserve">
+    <value>プロファイルの削除</value>
+  </data>
+  <data name="DeviceSetupChanged" xml:space="preserve">
+    <value>接続されたオーディオデバイスの更新</value>
+  </data>
+  <data name="DevicesHelpfulTip1.Text" xml:space="preserve">
+    <value>1. プロファイル名を設定する</value>
+  </data>
+  <data name="DevicesHelpfulTip2.Text" xml:space="preserve">
+    <value>2.シングルまたはデュアルデバイスモードを選択します</value>
+  </data>
+  <data name="DevicesHelpfulTip3.Text" xml:space="preserve">
+    <value>3.スピーカーとマイクを選択します</value>
+  </data>
+  <data name="DevicesHelpfulTip4.Text" xml:space="preserve">
+    <value>4.プロファイルをデフォルトとして設定します</value>
+  </data>
+  <data name="DevicesHelpfulTip5.Text" xml:space="preserve">
+    <value>5. [プロファイルの保存]ボタンをクリックして、プロファイルを保存します</value>
+  </data>
+  <data name="DevicesHelpfulTips.Text" xml:space="preserve">
+    <value>役に立つヒント</value>
+  </data>
+  <data name="DevicesProfileNameTextBox.PlaceholderText" xml:space="preserve">
+    <value>プロファイル名...</value>
+  </data>
+  <data name="DevicesSaveProfileBtn.Content" xml:space="preserve">
+    <value>プロファイルの保存</value>
+  </data>
+  <data name="DevicesSetasDefault.Text" xml:space="preserve">
+    <value>デフォルトとして設定</value>
+  </data>
+  <data name="DevicesSetProfileButton.Content" xml:space="preserve">
+    <value>プロファイルの設定</value>
+  </data>
+  <data name="DevicesSetProfileText.Text" xml:space="preserve">
+    <value>カスタムプロファイルを設定しますか?</value>
+  </data>
+  <data name="DiscardButton.Content" xml:space="preserve">
+    <value>捨てる</value>
+  </data>
+  <data name="DismissButton.Content" xml:space="preserve">
+    <value>解任する</value>
+  </data>
+  <data name="DismissText.Text" xml:space="preserve">
+    <value>解任する</value>
+  </data>
+  <data name="DownloadAudio.Text" xml:space="preserve">
+    <value>オーディオのダウンロード</value>
+  </data>
+  <data name="DownloadCancel" xml:space="preserve">
+    <value>ダウンロードがキャンセルされました</value>
+  </data>
+  <data name="Downloaded" xml:space="preserve">
+    <value>ダウンロード</value>
+  </data>
+  <data name="DownloadError" xml:space="preserve">
+    <value>エラーが発生しました</value>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>ダウンロード</value>
+  </data>
+  <data name="DownloadPaused" xml:space="preserve">
+    <value>ダウンロードの一時停止</value>
+  </data>
+  <data name="DualDeviceUpdated" xml:space="preserve">
+    <value>デュアルデバイスのセットアップが正常に更新されました</value>
+  </data>
+  <data name="EnterQuestion.Text" xml:space="preserve">
+    <value>以下に質問を入力してください</value>
+  </data>
+  <data name="ErrorDescription.Text" xml:space="preserve">
+    <value>変更を保存していませんが、保存しますか、それとも破棄しますか?</value>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>何かがうまくいかなかった..もう一度やり直してください</value>
+  </data>
+  <data name="ErrorTitle.Text" xml:space="preserve">
+    <value>未保存の変更があります</value>
+  </data>
+  <data name="FeedbackEight.Text" xml:space="preserve">
+    <value>私たちはお互いを邪魔し続けました</value>
+  </data>
+  <data name="FeedbackFive.Text" xml:space="preserve">
+    <value>通話中にエコーが聞こえました</value>
+  </data>
+  <data name="FeedbackFour.Text" xml:space="preserve">
+    <value>バックグラウンドの声を拾いました</value>
+  </data>
+  <data name="FeedbackOne.Text" xml:space="preserve">
+    <value>声を正しく拾わなかった</value>
+  </data>
+  <data name="FeedbackQuestion.Text" xml:space="preserve">
+    <value>何が良かったでしょうか?</value>
+  </data>
+  <data name="FeedbackSeven.Text" xml:space="preserve">
+    <value>セッションが予期せず終了しました</value>
+  </data>
+  <data name="FeedbackSix.Text" xml:space="preserve">
+    <value>音量が小さすぎます</value>
+  </data>
+  <data name="FeedbackThanks.Text" xml:space="preserve">
+    <value>フィードバックをありがとう</value>
+  </data>
+  <data name="FeedbackThree.Text" xml:space="preserve">
+    <value>翻訳時間が遅すぎた</value>
+  </data>
+  <data name="FeedbackTwo.Text" xml:space="preserve">
+    <value>それは私の文章を誤って翻訳しました</value>
+  </data>
+  <data name="ForcedUpdateDialogCaptionContinuation" xml:space="preserve">
+    <value>機能する。これらの更新がないと、アプリケーションは動作しません。</value>
+  </data>
+  <data name="Improvement.Text" xml:space="preserve">
+    <value>私たちはあなたの経験を改善することに引き続き取り組んでいきます。</value>
+  </data>
+  <data name="LanguageSettingsUpdated" xml:space="preserve">
+    <value>言語の変更が正常に更新されました</value>
+  </data>
+  <data name="NewVersionDialogDescription2" xml:space="preserve">
+    <value>とあなたのバージョン</value>
+  </data>
+  <data name="NewVersionDialogDescription3" xml:space="preserve">
+    <value>サポートされなくなる可能性があります。</value>
+  </data>
+  <data name="Other.Text" xml:space="preserve">
+    <value>その他のコメント:</value>
+  </data>
+  <data name="PasswordUpdated" xml:space="preserve">
+    <value>パスワードが正常に変更されました</value>
+  </data>
+  <data name="PlaybackLanguageUpdated" xml:space="preserve">
+    <value>デフォルトの再生言語が正常に変更されました</value>
+  </data>
+  <data name="QuestionAdded" xml:space="preserve">
+    <value>質問が正常に追加されました</value>
+  </data>
+  <data name="QuestionDeleted" xml:space="preserve">
+    <value>質問が正常に削除されました</value>
+  </data>
+  <data name="Questions.Text" xml:space="preserve">
+    <value>問</value>
+  </data>
+  <data name="QuestionSettingsInstructionTwo.Text" xml:space="preserve">
+    <value>*各質問には異なるショートカットキーが必要です。</value>
+  </data>
+  <data name="QuestionsValidationError.Text" xml:space="preserve">
+    <value>* 検証を確認して、もう一度やり直してください。</value>
+  </data>
+  <data name="QuickViewLanguagesUpdated" xml:space="preserve">
+    <value>クイックビュー言語が正常に更新されました</value>
+  </data>
+  <data name="SendFeedback.Content" xml:space="preserve">
+    <value>フィードバックの送信</value>
+  </data>
+  <data name="SessionFeedbackPrompt" xml:space="preserve">
+    <value>翻訳セッションをどのように評価しますか?</value>
+  </data>
+  <data name="SessionFeedbackTitle" xml:space="preserve">
+    <value>翻訳フィードバック</value>
+  </data>
+  <data name="ShortcutSuccess" xml:space="preserve">
+    <value>質問のショートカットが正常に更新されました</value>
+  </data>
+  <data name="SingleDeviceUpdated" xml:space="preserve">
+    <value>単一デバイスのセットアップが正常に更新されました</value>
+  </data>
+  <data name="StartupPageTitleDescription2.Text" xml:space="preserve">
+    <value>翻訳ソフトウェア。</value>
+  </data>
+  <data name="TimeoutUpdated" xml:space="preserve">
+    <value>タイムアウトが正常に更新されました</value>
+  </data>
+  <data name="TouchShareText" xml:space="preserve">
+    <value>[共有] をタップします。</value>
+  </data>
+  <data name="TranslationLanguageUpdated" xml:space="preserve">
+    <value>デフォルトの翻訳言語が正常に変更されました</value>
+  </data>
+  <data name="TranslationPlaybackUpdated" xml:space="preserve">
+    <value>デフォルトの翻訳と再生言語が正常に変更されました</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption2" xml:space="preserve">
+    <value>機能する。機能は予告なく動作を停止する場合があります。アプリケーションを更新してください。</value>
+  </data>
+  <data name="UserFlagSwitch" xml:space="preserve">
+    <value>言語を切り替えるためのユーザーフラグが更新されました</value>
+  </data>
+</root>

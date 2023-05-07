@@ -1,0 +1,350 @@
+﻿<Page
+    x:Class="SpeechlyTouch.Views.Pages.DashboardPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:contentControls="using:SpeechlyTouch.Views.ContentControls"
+    xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    x:Name="shellView"
+    Background="{Binding PrimaryBackgroundColor, Source={StaticResource DynamicColors}}"
+    DataContext="{Binding DashboardViewModel, Source={StaticResource ViewModelLocator}}"
+    mc:Ignorable="d">
+
+    <Grid>
+
+        <!--  Page Background  -->
+
+        <contentControls:PageBackground />
+
+        <Grid>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <contentControls:TitleView Grid.Row="0" />
+
+
+            <StackPanel
+                Grid.Row="1"
+                Padding="10"
+                HorizontalAlignment="Right"
+                Orientation="Horizontal"
+                Spacing="10">
+
+                <!--  AutoDetect button  -->
+
+                <Button
+                    x:Uid="DetectLanguageButton"
+                    Height="36"
+                    Margin="0,10,10,0"
+                    Padding="10,0"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Top"
+                    Background="Transparent"
+                    BorderBrush="{Binding AccentColor, Source={StaticResource DynamicColors}}"
+                    BorderThickness="1.5"
+                    Command="{Binding LaunchAutoDetectCommand}"
+                    CornerRadius="4"
+                    Foreground="{Binding AccentColor, Source={StaticResource DynamicColors}}"
+                    PointerEntered="Button_PointerEntered"
+                    PointerExited="Button_PointerExited"
+                    Style="{StaticResource ButtonStyle}" />
+
+                <!--  Settings Button  -->
+                <Button
+                    Width="36"
+                    Height="36"
+                    Margin="0,10,10,0"
+                    Padding="0"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Top"
+                    Background="Transparent"
+                    BorderBrush="{Binding AccentColor, Source={StaticResource DynamicColors}}"
+                    BorderThickness="1.5"
+                    Command="{Binding ShowEnterPasscodeCommand}"
+                    CornerRadius="18"
+                    Foreground="{Binding AccentColor, Source={StaticResource DynamicColors}}"
+                    PointerEntered="Button_PointerEntered"
+                    PointerExited="Button_PointerExited"
+                    Style="{StaticResource ButtonStyle}">
+
+                    <Button.Content>
+                        <FontIcon
+                            Grid.Column="0"
+                            FontFamily="{StaticResource SymbolThemeFontFamily}"
+                            FontSize="30"
+                            FontWeight="ExtraBold"
+                            Glyph="&#xE712;" />
+                    </Button.Content>
+
+                </Button>
+            </StackPanel>
+
+            <!--  Content View  -->
+
+            <Grid
+                Grid.Row="1"
+                Margin="100,0,100,0"
+                VerticalAlignment="Center"
+                RowSpacing="50">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <StackPanel
+                    Grid.Row="0"
+                    HorizontalAlignment="Center"
+                    Spacing="20">
+                    <TextBlock
+                        x:Uid="Dashboard_Hello"
+                        FontSize="50"
+                        Foreground="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}"
+                        HorizontalTextAlignment="Center"
+                        Style="{StaticResource TextBlockStyle}" />
+                    <TextBlock
+                        x:Uid="Dashboard_Welcome"
+                        FontSize="25"
+                        Foreground="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}"
+                        HorizontalTextAlignment="Center"
+                        Style="{StaticResource TextBlockStyle}" />
+                </StackPanel>
+
+                <!--  Searchbox  -->
+
+                <StackPanel Grid.Row="1" Spacing="30">
+                    <TextBlock
+                        x:Uid="Dashboard_Choose_Language"
+                        FontSize="16"
+                        FontWeight="Medium"
+                        Foreground="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}"
+                        Style="{StaticResource TextBlockStyle}" />
+                    <StackPanel Spacing="5">
+                        <Grid ColumnSpacing="10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+
+                            <FontIcon
+                                Grid.Column="0"
+                                FontFamily="{StaticResource SymbolThemeFontFamily}"
+                                Foreground="{Binding PrimaryTextColor, Source={StaticResource DynamicColors}}"
+                                Glyph="&#xE71E;"
+                                HighContrastAdjustment="None" />
+
+                            <TextBox
+                                x:Uid="Dashboard_SearchBox"
+                                Grid.Column="1"
+                                HorizontalAlignment="Stretch"
+                                Background="Transparent"
+                                BorderBrush="Transparent"
+                                BorderThickness="0"
+                                IsFocusEngaged="False"
+                                Style="{StaticResource TextBoxStyle}"
+                                Text="{Binding LanguageSearchText, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+
+                        </Grid>
+                        <Border BorderBrush="{Binding BorderBrush, Source={StaticResource DynamicColors}}" BorderThickness="1" />
+                    </StackPanel>
+                </StackPanel>
+
+                <!--  Horizontal ListView  -->
+
+                <Grid
+                    Grid.Row="2"
+                    Height="150"
+                    ColumnSpacing="10">
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+
+                    <Button
+                        Grid.Row="0"
+                        Width="60"
+                        Height="60"
+                        Margin="0,0,0,35"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Background="{Binding DashboardBtnAccentColor, Source={StaticResource DynamicColors}}"
+                        Click="LeftScroll_Click"
+                        CornerRadius="30"
+                        PointerEntered="Button_PointerEntered"
+                        PointerExited="Button_PointerExited"
+                        Style="{StaticResource ButtonStyle}">
+
+                        <Button.Content>
+                            <FontIcon
+                                Grid.Column="0"
+                                FontFamily="{StaticResource SymbolThemeFontFamily}"
+                                FontSize="20"
+                                Foreground="{Binding DashboardBtnTextColor, Source={StaticResource DynamicColors}}"
+                                Glyph="&#xE973;"
+                                HighContrastAdjustment="None" />
+                        </Button.Content>
+
+                    </Button>
+
+                    <GridView
+                        x:Name="gridView"
+                        Grid.Column="1"
+                        Height="150"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        IsHitTestVisible="{Binding IsSelectionEnabled}"
+                        ItemsSource="{Binding QuickViewLanguages}"
+                        Loaded="gridView_Loaded"
+                        ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+                        ScrollViewer.HorizontalScrollMode="Enabled"
+                        ScrollViewer.VerticalScrollBarVisibility="Disabled"
+                        ScrollViewer.VerticalScrollMode="Disabled"
+                        SelectedItem="{Binding SelectedTargetLanguage, Mode=TwoWay}"
+                        SelectionMode="Single">
+                        <GridView.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Margin="20" Spacing="10">
+                                    <controls:DropShadowPanel
+                                        HorizontalAlignment="Center"
+                                        Background="{Binding PrimaryBackgroundColor, Source={StaticResource DynamicColors}}"
+                                        BlurRadius="5"
+                                        CornerRadius="20"
+                                        OffsetX="0"
+                                        OffsetY="3"
+                                        ShadowOpacity="0.70"
+                                        Color="{Binding BorderColor, Source={StaticResource DynamicColors}}">
+
+                                        <Border
+                                            Padding="15,10,15,10"
+                                            Background="{Binding PrimaryBackgroundColor, Source={StaticResource DynamicColors}}"
+                                            BorderBrush="{Binding BorderBrush, Source={StaticResource DynamicColors}}"
+                                            BorderThickness="1"
+                                            CornerRadius="5">
+                                            <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+
+                                                <Image
+                                                    Width="60"
+                                                    Height="30"
+                                                    Source="{Binding Flag}"
+                                                    Stretch="Fill" />
+
+                                                <TextBlock
+                                                    Margin="10,0,10,0"
+                                                    VerticalAlignment="Center"
+                                                    FontSize="18"
+                                                    FontWeight="SemiBold"
+                                                    Foreground="{Binding PrimaryTextColor, Source={StaticResource DynamicColors}}"
+                                                    Style="{StaticResource TextBlockStyle}"
+                                                    Text="{Binding DisplayCode}" />
+                                            </StackPanel>
+                                        </Border>
+
+                                    </controls:DropShadowPanel>
+                                    <TextBlock
+                                        HorizontalAlignment="Center"
+                                        FontWeight="SemiBold"
+                                        Foreground="{Binding PrimaryTextColor, Source={StaticResource DynamicColors}}"
+                                        Style="{StaticResource TextBlockStyle}"
+                                        Text="{Binding DisplayName}" />
+                                </StackPanel>
+                            </DataTemplate>
+                        </GridView.ItemTemplate>
+                        <GridView.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <ItemsWrapGrid Orientation="Vertical" />
+                            </ItemsPanelTemplate>
+                        </GridView.ItemsPanel>
+                    </GridView>
+
+                    <Button
+                        Grid.Column="2"
+                        Width="60"
+                        Height="60"
+                        Margin="0,0,0,35"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Background="{Binding DashboardBtnAccentColor, Source={StaticResource DynamicColors}}"
+                        Click="RightScroll_Click"
+                        CornerRadius="30"
+                        PointerEntered="Button_PointerEntered"
+                        PointerExited="Button_PointerExited"
+                        Style="{StaticResource ButtonStyle}">
+
+                        <Button.Content>
+                            <FontIcon
+                                Grid.Column="0"
+                                FontFamily="{StaticResource SymbolThemeFontFamily}"
+                                FontSize="20"
+                                Foreground="{Binding DashboardBtnTextColor, Source={StaticResource DynamicColors}}"
+                                Glyph="&#xE974;"
+                                HighContrastAdjustment="None" />
+                        </Button.Content>
+
+                    </Button>
+
+                </Grid>
+
+                <TextBlock
+                    Grid.Row="2"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    FontSize="18"
+                    Foreground="{Binding PrimaryTextColor, Source={StaticResource DynamicColors}}"
+                    Style="{StaticResource TextBlockStyle}"
+                    Text="No Results"
+                    Visibility="{Binding NoResultsVisibility}" />
+
+                <!--  Translate Btn  -->
+
+                <StackPanel Grid.Row="3" Spacing="10">
+
+                    <Button
+                        Grid.Row="3"
+                        Width="80"
+                        Height="80"
+                        HorizontalAlignment="Center"
+                        Background="{Binding DashboardBtnAccentColor, Source={StaticResource DynamicColors}}"
+                        Command="{Binding ShowConsentCommand}"
+                        CornerRadius="40"
+                        PointerEntered="Button_PointerEntered"
+                        PointerExited="Button_PointerExited"
+                        Style="{StaticResource ButtonStyle}">
+
+                        <Button.Content>
+                            <FontIcon
+                                Grid.Column="0"
+                                FontFamily="{StaticResource SymbolThemeFontFamily}"
+                                FontSize="20"
+                                Foreground="{Binding DashboardBtnTextColor, Source={StaticResource DynamicColors}}"
+                                Glyph="&#xEC71;"
+                                HighContrastAdjustment="None" />
+                        </Button.Content>
+
+                    </Button>
+
+                    <TextBlock
+                        x:Uid="Translate_Button"
+                        HorizontalAlignment="Center"
+                        FontSize="20"
+                        FontWeight="SemiBold"
+                        Foreground="{Binding AccentColor, Source={StaticResource DynamicColors}}"
+                        Style="{StaticResource TextBlockStyle}" />
+
+                </StackPanel>
+
+            </Grid>
+
+        </Grid>
+
+    </Grid>
+
+</Page>
+

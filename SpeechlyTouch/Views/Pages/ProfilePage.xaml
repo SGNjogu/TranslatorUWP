@@ -1,0 +1,340 @@
+﻿<Page
+    x:Class="SpeechlyTouch.Views.Pages.ProfilePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:extensions="using:SpeechlyTouch.Helpers"
+    xmlns:i="using:Microsoft.Xaml.Interactivity"
+    xmlns:i1="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:i2="using:Microsoft.Xaml.Interactions.Core"
+    xmlns:local="using:SpeechlyTouch.Views.Pages"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Background="{Binding PrimaryBackgroundColor, Source={StaticResource DynamicColors}}"
+    DataContext="{Binding ProfileViewModel, Source={StaticResource ViewModelLocator}}"
+    mc:Ignorable="d">
+
+    <ScrollViewer>
+
+        <Grid Padding="60,30,60,20" RowSpacing="40">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <!--  Title View  -->
+
+            <Grid Grid.Row="0">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <TextBlock
+                    x:Uid="ProfilePage_Title"
+                    Grid.Column="0"
+                    VerticalAlignment="Center"
+                    FontSize="20"
+                    FontWeight="SemiBold"
+                    Foreground="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}"
+                    Style="{StaticResource TextBlockStyle}" />
+
+
+            </Grid>
+
+            <!--  Passcode  -->
+
+            <StackPanel Grid.Row="1" Spacing="20">
+
+                <Grid>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*" />
+                        <ColumnDefinition Width="3*" />
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock
+                        x:Uid="ProfilePage_Passcode"
+                        Grid.Column="0"
+                        VerticalAlignment="Center"
+                        FontSize="18"
+                        FontWeight="SemiBold"
+                        Foreground="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}"
+                        Style="{StaticResource TextBlockStyle}" />
+
+                    <TextBlock
+                        x:Uid="ProfilePage_Passcode_Description"
+                        Grid.Column="1"
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Center"
+                        FontSize="18"
+                        FontWeight="Light"
+                        Foreground="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}"
+                        Style="{StaticResource TextBlockStyle}" />
+
+                </Grid>
+
+                <Border BorderBrush="{Binding BorderBrush, Source={StaticResource DynamicColors}}" BorderThickness="1" />
+
+                <Grid>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <!--  Passcode Input  -->
+
+                    <controls:DropShadowPanel
+                        Grid.Column="0"
+                        VerticalAlignment="Center"
+                        HorizontalContentAlignment="Stretch"
+                        Background="White"
+                        BlurRadius="5"
+                        CornerRadius="10"
+                        OffsetX="3"
+                        OffsetY="3"
+                        ShadowOpacity="0.70"
+                        Color="{Binding BorderColor, Source={StaticResource DynamicColors}}">
+
+                        <PasswordBox
+                            Width="350"
+                            BorderBrush="{Binding BorderBrush, Source={StaticResource DynamicColors}}"
+                            CornerRadius="3"
+                            IsEnabled="False"
+                            Password="XXXX"
+                            Style="{StaticResource PasswordBoxStyle}" />
+
+                    </controls:DropShadowPanel>
+
+                    <!--  Passcode Edit Button  -->
+
+                    <Button
+                        x:Uid="ProfilePageEditButton"
+                        Grid.Column="1"
+                        Padding="40,5,40,5"
+                        HorizontalAlignment="Right"
+                        VerticalAlignment="Center"
+                        Background="{Binding PrimaryBackgroundColor, Source={StaticResource DynamicColors}}"
+                        Command="{Binding ShowChangePasscodeCommand}"
+                        CornerRadius="3"
+                        FontSize="20"
+                        FontWeight="Bold"
+                        Foreground="{Binding AccentColor, Source={StaticResource DynamicColors}}"
+                        PointerEntered="Button_PointerEntered"
+                        PointerExited="Button_PointerExited"
+                        Style="{StaticResource ButtonStyle}" />
+
+                </Grid>
+
+            </StackPanel>
+
+
+            <!--  Timeout  -->
+
+            <StackPanel Grid.Row="2" Spacing="20">
+
+                <Grid>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*" />
+                        <ColumnDefinition Width="3*" />
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock
+                        x:Uid="ProfilePage_Timeout"
+                        Grid.Column="0"
+                        VerticalAlignment="Center"
+                        FontSize="18"
+                        FontWeight="SemiBold"
+                        Foreground="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}"
+                        Style="{StaticResource TextBlockStyle}" />
+
+                    <TextBlock
+                        x:Uid="ProfilePage_Timeout_Description"
+                        Grid.Column="1"
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Center"
+                        FontSize="18"
+                        FontWeight="Light"
+                        Foreground="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}"
+                        Style="{StaticResource TextBlockStyle}" />
+
+                </Grid>
+
+                <Border BorderBrush="{Binding BorderBrush, Source={StaticResource DynamicColors}}" BorderThickness="1" />
+
+                <Grid>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <!--  Timeout Combobox  -->
+
+                    <controls:DropShadowPanel
+                        Grid.Column="0"
+                        VerticalAlignment="Center"
+                        HorizontalContentAlignment="Stretch"
+                        Background="{Binding PrimaryBackgroundColor, Source={StaticResource DynamicColors}}"
+                        BlurRadius="5"
+                        CornerRadius="10"
+                        OffsetX="3"
+                        OffsetY="3"
+                        ShadowOpacity="0.70"
+                        Color="{Binding BorderColor, Source={StaticResource DynamicColors}}">
+
+                        <Border
+                            Background="{Binding PrimaryBackgroundColor, Source={StaticResource DynamicColors}}"
+                            BorderBrush="{Binding BorderBrush, Source={StaticResource DynamicColors}}"
+                            BorderThickness="1"
+                            CornerRadius="3">
+                            <ComboBox
+                                x:Name="TimeoutComboBox"
+                                x:Uid="ProfilePage_TimeoutDropdown"
+                                Width="350"
+                                HorizontalAlignment="Stretch"
+                                BorderBrush="Transparent"
+                                ItemsSource="{Binding AdminModeTimeOutList}"
+                                PointerEntered="Button_PointerEntered"
+                                PointerExited="Button_PointerExited"
+                                SelectedItem="{Binding AdminModeTimeOut, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                Style="{StaticResource ComboBoxStyle}" />
+
+                        </Border>
+
+                    </controls:DropShadowPanel>
+
+                </Grid>
+
+            </StackPanel>
+
+
+            <!--  Email  -->
+
+            <!--<StackPanel Grid.Row="3" Spacing="20">
+
+                <Grid>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*" />
+                        <ColumnDefinition Width="3*" />
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock
+                        x:Uid="ProfilePage_Email"
+                        Grid.Column="0"
+                        VerticalAlignment="Center"
+                        FontSize="18"
+                        FontWeight="SemiBold"
+                        Style="{StaticResource TextBlockStyle}" />
+
+                    <TextBlock
+                        x:Uid="ProfilePage_Email_Description"
+                        Grid.Column="1"
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Center"
+                        FontSize="18"
+                        FontWeight="Light"
+                        Style="{StaticResource TextBlockStyle}" />
+
+                </Grid>
+
+                <Border BorderBrush="{StaticResource BorderColor}" BorderThickness="1" />
+
+                <Grid Margin="0,0,0,50">
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+            -->
+            <!--  Email Input  -->
+            <!--
+
+                    <StackPanel Grid.Column="0">
+
+                        <controls:DropShadowPanel
+                            VerticalAlignment="Center"
+                            HorizontalContentAlignment="Stretch"
+                            Background="White"
+                            BlurRadius="5"
+                            CornerRadius="10"
+                            OffsetX="3"
+                            OffsetY="3"
+                            ShadowOpacity="0.70"
+                            Color="{StaticResource BorderColor}">
+
+                            <Border
+                                Background="White"
+                                BorderBrush="{StaticResource BorderColor}"
+                                BorderThickness="1"
+                                CornerRadius="3">
+                                <TextBox
+                                    Width="350"
+                                    extensions:FocusExtension.IsFocused="{Binding IsEditing}"
+                                    Background="White"
+                                    BorderBrush="Transparent"
+                                    CornerRadius="3"
+                                    IsEnabled="{Binding IsEditing}"
+                                    IsSpellCheckEnabled="False"
+                                    Style="{StaticResource TextBoxStyle}"
+                                    Text="{Binding UserDataExportEmail, Mode=TwoWay}"
+                                    TextAlignment="Start" />
+                            </Border>
+
+                        </controls:DropShadowPanel>
+
+                        <TextBlock
+                            Width="350"
+                            Margin="0,2,0,0"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            Foreground="{StaticResource ErrorColor}"
+                            HorizontalTextAlignment="Center"
+                            Style="{StaticResource TextBlockStyle}"
+                            Text="Enter a valid email address."
+                            TextWrapping="Wrap"
+                            Visibility="{Binding ErrorMessageVisibility}" />
+
+                    </StackPanel>
+
+            -->
+            <!--  Email Edit Button  -->
+            <!--
+
+                    <Button
+                        Grid.Column="1"
+                        Padding="40,5,40,5"
+                        HorizontalAlignment="Right"
+                        VerticalAlignment="Center"
+                        Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+                        Command="{Binding EditCommand}"
+                        Content="{Binding EditBtnText}"
+                        CornerRadius="3"
+                        FontSize="20"
+                        FontWeight="Bold"
+                        Foreground="{StaticResource AccentColor}"
+                        PointerEntered="Button_PointerEntered"
+                        PointerExited="Button_PointerExited"
+                        Style="{StaticResource ButtonStyle}" />
+
+                </Grid>
+
+            </StackPanel>-->
+
+        </Grid>
+        <i:Interaction.Behaviors>
+            <i2:EventTriggerBehavior EventName="SelectionChanged" SourceObject="{Binding ElementName=TimeoutComboBox}">
+                <i2:InvokeCommandAction Command="{Binding LogTimeOutChange}" />
+            </i2:EventTriggerBehavior>
+        </i:Interaction.Behaviors>
+    </ScrollViewer>
+
+</Page>

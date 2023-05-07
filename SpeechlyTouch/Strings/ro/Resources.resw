@@ -1,0 +1,1192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="AppDescription" xml:space="preserve">
+    <value>TalaTouchApp</value>
+  </data>
+  <data name="AppDisplayName" xml:space="preserve">
+    <value>TalaTouchApp</value>
+  </data>
+  <data name="AudioDeviceSelector_MicDropdown.PlaceholderText" xml:space="preserve">
+    <value>Selectarea unui microfon</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneMic.Text" xml:space="preserve">
+    <value>Persoană un microfon</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneSpeaker.Text" xml:space="preserve">
+    <value>Persoană un vorbitor</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoMic.Text" xml:space="preserve">
+    <value>Persoana a doua microfon</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoSpeaker.Text" xml:space="preserve">
+    <value>Persoana a doua vorbitor</value>
+  </data>
+  <data name="AudioDeviceSelector_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>Selectarea unui vorbitor</value>
+  </data>
+  <data name="BluetoothPairingDialog_Description.Text" xml:space="preserve">
+    <value>Asigurați-vă că dispozitivul este pornit și poate fi descoperit. Selectați un dispozitiv de mai jos pentru a vă conecta.</value>
+  </data>
+  <data name="BluetoothPairingDialog_Title.Text" xml:space="preserve">
+    <value>Adăugarea unui dispozitiv</value>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>Anula</value>
+  </data>
+  <data name="ChangePasscodeDialog_Confirm.Text" xml:space="preserve">
+    <value>Confirmați noul cod de acces</value>
+  </data>
+  <data name="ChangePasscodeDialog_Current.Text" xml:space="preserve">
+    <value>Codul de acces curent</value>
+  </data>
+  <data name="ChangePasscodeDialog_New.Text" xml:space="preserve">
+    <value>Cod de acces nou</value>
+  </data>
+  <data name="ChangePasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Modificarea codului de acces</value>
+  </data>
+  <data name="Close.Content" xml:space="preserve">
+    <value>Închide</value>
+  </data>
+  <data name="ConsentDialog_Description1.Text" xml:space="preserve">
+    <value>Preocupările legate de confidențialitate sunt prioritatea noastră numărul unu. (5) Acceptați termenii și condițiile acestei Politici de confidențialitate cu telefonul mobil sau tableta, după caz.</value>
+  </data>
+  <data name="ConsentDialog_Description2.Text" xml:space="preserve">
+    <value>Dacă alegeți să nu ne permiteți accesul atunci când primim o cerere de consimțământ (astfel de solicitări vor fi notificate pe site-ul www ICTS la:</value>
+  </data>
+  <data name="ConsentDialog_Description3.Text" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int</value>
+  </data>
+  <data name="ConsentDialog_Description4.Text" xml:space="preserve">
+    <value>), atunci nici adresa de e-mail furnizată, nici orice alte informații cu caracter personal care ar putea identifica o persoană nu pot intra, de asemenea, în posesia noastră odată ce o astfel de permisiune a fost acordată.</value>
+  </data>
+  <data name="ConsentDialog_Description5.Text" xml:space="preserve">
+    <value>Prin utilizarea anumitor părți: / Utilizarea de către mine a telefonului meu mobil / Icoane - care pot include permiterea altora în camere de chat despre produse cum ar fi</value>
+  </data>
+  <data name="ConsentDialog_HyperLink.NavigateUri" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int/</value>
+  </data>
+  <data name="ConsentDialog_Title.Text" xml:space="preserve">
+    <value>Apreciem confidențialitatea dvs.</value>
+  </data>
+  <data name="Dashboard_Choose_Language.Text" xml:space="preserve">
+    <value>Alege limba</value>
+  </data>
+  <data name="Dashboard_Hello.Text" xml:space="preserve">
+    <value>Bună ziua</value>
+  </data>
+  <data name="Dashboard_SearchBox.PlaceholderText" xml:space="preserve">
+    <value>Limba de căutare</value>
+  </data>
+  <data name="Dashboard_Welcome.Text" xml:space="preserve">
+    <value>Bun venit</value>
+  </data>
+  <data name="DevicesErrorDialog_NoDeviceError" xml:space="preserve">
+    <value>Nu aveți niciun dispozitiv (dispozitive) salvat(e). Accesați Setări -&gt; Dispozitive pentru a selecta un microfon și un difuzor, apoi faceți clic pe Salvare.</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Description.Text" xml:space="preserve">
+    <value>Dispozitive bluetooth disponibile</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_DropDown.PlaceholderText" xml:space="preserve">
+    <value>Selectați dispozitivul bluetooth</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Scan.Text" xml:space="preserve">
+    <value>Scanare</value>
+  </data>
+  <data name="DevicesPage_Bluetooth.Text" xml:space="preserve">
+    <value>Bluetooth</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices_Description.Text" xml:space="preserve">
+    <value>Alegeți dispozitivul audio</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices.Text" xml:space="preserve">
+    <value>Dispozitive audio conectate</value>
+  </data>
+  <data name="DevicesPage_MicDropDown.PlaceholderText" xml:space="preserve">
+    <value>Alegeți un microfon</value>
+  </data>
+  <data name="DevicesPage_Network_Description.Text" xml:space="preserve">
+    <value>Rețele disponibile</value>
+  </data>
+  <data name="DevicesPage_Network_DropDown.PlaceholderText" xml:space="preserve">
+    <value>Alegeți o rețea</value>
+  </data>
+  <data name="DevicesPage_Network.Text" xml:space="preserve">
+    <value>Rețea</value>
+  </data>
+  <data name="DevicesPage_NetworkError" xml:space="preserve">
+    <value>Nu este selectată nicio rețea. Verificați conexiunile de rețea.</value>
+  </data>
+  <data name="DevicesPage_PersonOne_Speaker.Text" xml:space="preserve">
+    <value>Persoana un vorbitor</value>
+  </data>
+  <data name="DevicesPage_PersonOneMic.Text" xml:space="preserve">
+    <value>Persoană un microfon</value>
+  </data>
+  <data name="DevicesPage_PersonTwo_Mic.Text" xml:space="preserve">
+    <value>Persoana două microfon</value>
+  </data>
+  <data name="DevicesPage_Scan" xml:space="preserve">
+    <value>Scanare</value>
+  </data>
+  <data name="DevicesPage_Scanning" xml:space="preserve">
+    <value>Scanare...</value>
+  </data>
+  <data name="DevicesPage_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>Alegeți un difuzor</value>
+  </data>
+  <data name="DevicesPage_Status_Connect" xml:space="preserve">
+    <value>Conecta</value>
+  </data>
+  <data name="DevicesPage_Status_Connected" xml:space="preserve">
+    <value>Conectat</value>
+  </data>
+  <data name="DevicesPage_Status_Connecting" xml:space="preserve">
+    <value>Conectarea...</value>
+  </data>
+  <data name="DevicesPage_Status_Off" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="DevicesPage_Status_On" xml:space="preserve">
+    <value>PE</value>
+  </data>
+  <data name="DevicesPager_PersonTwo_Speaker.Text" xml:space="preserve">
+    <value>Persoana a doua vorbitor</value>
+  </data>
+  <data name="EnterPasscodeDialog_Description.Text" xml:space="preserve">
+    <value>Vă rugăm să introduceți codul de acces pentru a accesa pagina de setări</value>
+  </data>
+  <data name="EnterPasscodeDialog_ForgotPasscode.Content" xml:space="preserve">
+    <value>Ai uitat codul de acces?</value>
+  </data>
+  <data name="EnterPasscodeDialog_InvalidPasscode.Text" xml:space="preserve">
+    <value>Cod de acces nevalid! Vă rugăm să încercați din nou.</value>
+  </data>
+  <data name="EnterPasscodeDialog_Passcode.Text" xml:space="preserve">
+    <value>Cod de acces</value>
+  </data>
+  <data name="EnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Introdu codul de acces</value>
+  </data>
+  <data name="IAgree.Content" xml:space="preserve">
+    <value>Sunt de acord</value>
+  </data>
+  <data name="InvalidLicenseDialog_Description.Text" xml:space="preserve">
+    <value>Verificarea permisului nu a reușit</value>
+  </data>
+  <data name="InvalidLicenseDialog_Title.Text" xml:space="preserve">
+    <value>Licență nevalidă</value>
+  </data>
+  <data name="LoginFailedDialog_Button.Content" xml:space="preserve">
+    <value>Întoarce-te</value>
+  </data>
+  <data name="LoginFailedDialog_Description.Text" xml:space="preserve">
+    <value>Încercarea de conectare a eșuat.</value>
+  </data>
+  <data name="LoginFailedDialog_Title.Text" xml:space="preserve">
+    <value>Conectare nereușită</value>
+  </data>
+  <data name="Main_Title.Text" xml:space="preserve">
+    <value>Principal</value>
+  </data>
+  <data name="PasswordPopup_SetupTitle.Text" xml:space="preserve">
+    <value>Configurarea unui cod de acces</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Description1.Text" xml:space="preserve">
+    <value>Vă rugăm să reintroduceți codul de acces pentru a continua să editați...</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Reintroduceți codul de acces</value>
+  </data>
+  <data name="RenterPasscodeDialog_Description2.Text" xml:space="preserve">
+    <value>salvarea automată și întoarcerea acasă</value>
+  </data>
+  <data name="Save.Content" xml:space="preserve">
+    <value>Salva</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Description.Text" xml:space="preserve">
+    <value>Aceasta este o pagină eșantion care va afișa parametrii de activare dacă aplicația este activată din Deep Linking.</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Title.Text" xml:space="preserve">
+    <value>SchemeActivationSample</value>
+  </data>
+  <data name="SetPasscodeDialog_ConfirmPasscode.Text" xml:space="preserve">
+    <value>Confirmați noul cod de acces </value>
+  </data>
+  <data name="SetPasscodeDialog_NewPasscode.Text" xml:space="preserve">
+    <value>Cod de acces nou</value>
+  </data>
+  <data name="SetPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Configurarea unui cod de acces</value>
+  </data>
+  <data name="Settings_About.Text" xml:space="preserve">
+    <value>Despre această aplicație</value>
+  </data>
+  <data name="Settings_AboutDescription.Text" xml:space="preserve">
+    <value>Setări text substituent de pagină.  Descrierea aplicației merge aici.</value>
+  </data>
+  <data name="Settings_Personalization.Text" xml:space="preserve">
+    <value>Personalizare</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.Content" xml:space="preserve">
+    <value>Respectare</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.NavigateUri" xml:space="preserve">
+    <value>https://YourPrivacyUrlGoesHere/</value>
+  </data>
+  <data name="Settings_Theme_Dark.Content" xml:space="preserve">
+    <value>Întunecat</value>
+  </data>
+  <data name="Settings_Theme_Default.Content" xml:space="preserve">
+    <value>Windows implicit</value>
+  </data>
+  <data name="Settings_Theme_Light.Content" xml:space="preserve">
+    <value>Lumină</value>
+  </data>
+  <data name="Settings_Theme.Text" xml:space="preserve">
+    <value>Alegeți Temă</value>
+  </data>
+  <data name="Settings_Title.Text" xml:space="preserve">
+    <value>Setări</value>
+  </data>
+  <data name="SettingsPage_Devices" xml:space="preserve">
+    <value>Dispozitive</value>
+  </data>
+  <data name="SettingsPage_Language" xml:space="preserve">
+    <value>Limbă</value>
+  </data>
+  <data name="SettingsPage_Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="SettingsPage_Questions" xml:space="preserve">
+    <value>Întrebări</value>
+  </data>
+  <data name="SettingsPage_Title" xml:space="preserve">
+    <value>Setări</value>
+  </data>
+  <data name="ShellView_Help" xml:space="preserve">
+    <value>Ajutor</value>
+  </data>
+  <data name="ShellView_History" xml:space="preserve">
+    <value>Istorie</value>
+  </data>
+  <data name="ShellView_Home" xml:space="preserve">
+    <value>Domiciliu</value>
+  </data>
+  <data name="ShellView_Settings.Text" xml:space="preserve">
+    <value>Setări</value>
+  </data>
+  <data name="Sign_In.Text" xml:space="preserve">
+    <value>Conectează-te</value>
+  </data>
+  <data name="SignInDialog_Description.Text" xml:space="preserve">
+    <value>Comunicați instantaneu în mai multe limbi globale cu dispozitivul Jabra.</value>
+  </data>
+  <data name="SignInDialog_SignInButton.Content" xml:space="preserve">
+    <value>Conectează-te</value>
+  </data>
+  <data name="Translate_Button.Text" xml:space="preserve">
+    <value>Traduce</value>
+  </data>
+  <data name="TranslationPage_EndSession.Text" xml:space="preserve">
+    <value>Încheierea sesiunii</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOn" xml:space="preserve">
+    <value>Microfon pe</value>
+  </data>
+  <data name="TranslationPage_SpeakerOn" xml:space="preserve">
+    <value>Vorbitor pe</value>
+  </data>
+  <data name="TranslationPage_SpeakNow.Text" xml:space="preserve">
+    <value>Vorbește acum</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Despre</value>
+  </data>
+  <data name="AboutPage_AppVersion.Text" xml:space="preserve">
+    <value>Versiunea aplicației</value>
+  </data>
+  <data name="AboutPage_CheckUpdate.Content" xml:space="preserve">
+    <value>Căutați actualizări</value>
+  </data>
+  <data name="AboutPage_DataConsent" xml:space="preserve">
+    <value>Organizația dumneavoastră și-a dat consimțământul pentru a vă salva datele în cloud.</value>
+  </data>
+  <data name="AboutPage_NoDataConsent" xml:space="preserve">
+    <value>Organizația dumneavoastră nu și-a dat consimțământul pentru a vă salva datele în cloud.</value>
+  </data>
+  <data name="AboutPage_Published.Text" xml:space="preserve">
+    <value>Publicat de FITTS Limited.</value>
+  </data>
+  <data name="AppClose_Close.Content" xml:space="preserve">
+    <value>Închideți oricum</value>
+  </data>
+  <data name="AppClose_Dismiss.Content" xml:space="preserve">
+    <value>Anula</value>
+  </data>
+  <data name="AppClose_Warning.Text" xml:space="preserve">
+    <value>Aveți o sesiune în curs de desfășurare. Vă rugăm să încheiați sesiunea înainte de a ieși din aplicație.</value>
+  </data>
+  <data name="AppVersion.Text" xml:space="preserve">
+    <value>Versiunea aplicației</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Button.Content" xml:space="preserve">
+    <value>Continuați sesiunea</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Description.Text" xml:space="preserve">
+    <value>Sesiunea se va încheia în</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Title.Text" xml:space="preserve">
+    <value>Audio nu a fost detectat</value>
+  </data>
+  <data name="AudioPlayer_Error.Text" xml:space="preserve">
+    <value>Nu a reușit să se încarce audio</value>
+  </data>
+  <data name="DashboardPage_DefaultLanguageError" xml:space="preserve">
+    <value>Nu aveți nicio limbă de traducere implicită salvată. Accesați Setări -&gt; Limbi pentru a selecta o limbă de traducere implicită, apoi faceți clic pe Salvare.</value>
+  </data>
+  <data name="DashboardPage_TargetLanguageError" xml:space="preserve">
+    <value>Nu ați selectat o limbă de traducere țintă. Vă rugăm să selectați o limbă, apoi faceți clic pe Traducere.</value>
+  </data>
+  <data name="DevicesErrorDialog_DualDeviceError" xml:space="preserve">
+    <value>Ați selectat traducerea pe două dispozitive, dar nu aveți un dispozitiv (dispozitive) selectat(e) pentru Persoana 2. Accesați Setări -&gt; Dispozitive pentru a selecta un microfon și un difuzor, apoi faceți clic pe Salvare.</value>
+  </data>
+  <data name="DevicesPage_Title.Text" xml:space="preserve">
+    <value>Dispozitive</value>
+  </data>
+  <data name="DevicesPage_Wifi_Password.Text" xml:space="preserve">
+    <value>Introduceți parola</value>
+  </data>
+  <data name="DevicesPage_WifiStatus.Text" xml:space="preserve">
+    <value>Starea Wifi-ului</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Editare</value>
+  </data>
+  <data name="Expiry.Text" xml:space="preserve">
+    <value>Expirare</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Feedback</value>
+  </data>
+  <data name="FeedbackMessage.Text" xml:space="preserve">
+    <value>Dacă aveți feedback sau întrebări, nu ezitați să luați legătura.</value>
+  </data>
+  <data name="GetInTouchButton.Text" xml:space="preserve">
+    <value>Luați legătura</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Ajutor</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>Istorie</value>
+  </data>
+  <data name="History_ExportBtn.Text" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="HistoryExportButtonTooltip.Text" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="HistoryListColumnDate.Text" xml:space="preserve">
+    <value>Dată</value>
+  </data>
+  <data name="HistoryListColumnDuration.Text" xml:space="preserve">
+    <value>Durată</value>
+  </data>
+  <data name="HistoryListColumnPrimaryLanguage.Text" xml:space="preserve">
+    <value>Limba primară</value>
+  </data>
+  <data name="HistoryListColumnSecondaryLanguage.Text" xml:space="preserve">
+    <value>Limba secundară</value>
+  </data>
+  <data name="HistoryListColumnSessionId.Text" xml:space="preserve">
+    <value>ID-ul sesiunii</value>
+  </data>
+  <data name="InitalSetup_SkipSetup.Content" xml:space="preserve">
+    <value>Săriți peste configurare</value>
+  </data>
+  <data name="InitialNetworkPopupConnectButton.Content" xml:space="preserve">
+    <value>Conecta</value>
+  </data>
+  <data name="InitialSetup_DeviceSelection.Text" xml:space="preserve">
+    <value>Selectarea dispozitivelor</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionDescription.Text" xml:space="preserve">
+    <value>Configurarea dispozitivului audio implicit</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneMicrophone.Text" xml:space="preserve">
+    <value>Selectați microfon</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneSpeaker.Text" xml:space="preserve">
+    <value>Selectați difuzorul</value>
+  </data>
+  <data name="InitialSetup_FinishSetup.Content" xml:space="preserve">
+    <value>Terminați configurarea</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection_Description.Text" xml:space="preserve">
+    <value>Configurarea limbii de traducere implicite</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection.Text" xml:space="preserve">
+    <value>Selectarea limbii</value>
+  </data>
+  <data name="InitialSetup_NetworkSelection.Text" xml:space="preserve">
+    <value>Rețea preferată</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopup.Text" xml:space="preserve">
+    <value>Conectați-vă la rețea</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopupPassword.Text" xml:space="preserve">
+    <value>Introduceți parola:</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionDescription.Text" xml:space="preserve">
+    <value>Alegeți dintr-una dintre rețelele disponibile</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionNoInternetConnection.Text" xml:space="preserve">
+    <value>Nu sunteți conectat la internet. Vă rugăm să verificați conexiunile de rețea.</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionOtherNetworks.Text" xml:space="preserve">
+    <value>Alte rețele</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup_Description.Text" xml:space="preserve">
+    <value>Configurarea codului de acces al aplicației</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup.Text" xml:space="preserve">
+    <value>Configurarea codului de acces</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Limbă</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage_Description.Text" xml:space="preserve">
+    <value>Alegeți limba aplicației</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage.Text" xml:space="preserve">
+    <value>Limba aplicației</value>
+  </data>
+  <data name="LanguagesPage_AppLanguageDropdown.PlaceholderText" xml:space="preserve">
+    <value>Alegeți o limbă</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage_Description.Text" xml:space="preserve">
+    <value>Limba implicită pe care o utilizați</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage.Text" xml:space="preserve">
+    <value>Limba mea implicită</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguageDropDown.PlaceholderText" xml:space="preserve">
+    <value>Alegeți o limbă</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description.Text" xml:space="preserve">
+    <value>Secțiunea Istoric (pentru traduceri pe mai multe dispozitive)</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description1.Text" xml:space="preserve">
+    <value>* traducerile cu un singur dispozitiv redau toate audio ca implicit *</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage.Text" xml:space="preserve">
+    <value>Limba de redare implicită</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguages.Text" xml:space="preserve">
+    <value>Limbi de vizualizare rapidă</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguagesDropdown.PlaceholderText" xml:space="preserve">
+    <value>Adăugarea unei limbi</value>
+  </data>
+  <data name="LanguagesPage_Title.Text" xml:space="preserve">
+    <value>Limbi</value>
+  </data>
+  <data name="Licence" xml:space="preserve">
+    <value>Licenţă</value>
+  </data>
+  <data name="LicenseType.Text" xml:space="preserve">
+    <value>Tipul licenței:</value>
+  </data>
+  <data name="NetworkConnectionError" xml:space="preserve">
+    <value>Eroare:</value>
+  </data>
+  <data name="Next.Content" xml:space="preserve">
+    <value>Următor</value>
+  </data>
+  <data name="PasscodeError_MinimumLength" xml:space="preserve">
+    <value>Lungimea minimă a codului de acces ar trebui să fie 4.</value>
+  </data>
+  <data name="PasscodeError_NotMatching" xml:space="preserve">
+    <value>Codurile de acces introduse nu se potrivesc. Vă rugăm să reintroduceți codurile de acces, apoi încercați din nou.</value>
+  </data>
+  <data name="Person.Text" xml:space="preserve">
+    <value>Persoană</value>
+  </data>
+  <data name="PrivacyPolicy.Text" xml:space="preserve">
+    <value>Politica de confidențialitate</value>
+  </data>
+  <data name="ProfilePage_Email_Description.Text" xml:space="preserve">
+    <value>E-mail de export implicit</value>
+  </data>
+  <data name="ProfilePage_Email.Text" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="ProfilePage_Passcode_Description.Text" xml:space="preserve">
+    <value>Codul de acces al aplicației dvs.</value>
+  </data>
+  <data name="ProfilePage_Passcode.Text" xml:space="preserve">
+    <value>Cod de acces</value>
+  </data>
+  <data name="ProfilePage_Timeout_Description.Text" xml:space="preserve">
+    <value>Frecvența blocării modului admin</value>
+  </data>
+  <data name="ProfilePage_Timeout.Text" xml:space="preserve">
+    <value>Expirare mod admin</value>
+  </data>
+  <data name="ProfilePage_TimeoutDropdown.PlaceholderText" xml:space="preserve">
+    <value>Alegeți o oră</value>
+  </data>
+  <data name="ProfilePage_Title.Text" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="PublishedBy.Text" xml:space="preserve">
+    <value>Publicat de</value>
+  </data>
+  <data name="ReleaseNotesMessage.Text" xml:space="preserve">
+    <value>Notele de lansare vor fi actualizate în curând</value>
+  </data>
+  <data name="Save_Text" xml:space="preserve">
+    <value>Salva</value>
+  </data>
+  <data name="SessionDetailsPage_Description.Text" xml:space="preserve">
+    <value>Istoricul transcrierii</value>
+  </data>
+  <data name="SessionDetailsPage_Duration.Text" xml:space="preserve">
+    <value>Durată</value>
+  </data>
+  <data name="SessionDetailsPage_SessionID.Text" xml:space="preserve">
+    <value>ID-ul sesiunii</value>
+  </data>
+  <data name="SessionDetailsPage_Title.Text" xml:space="preserve">
+    <value>Istorie</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Setări</value>
+  </data>
+  <data name="TermsOfUse.Text" xml:space="preserve">
+    <value>Termeni de utilizare</value>
+  </data>
+  <data name="TranslationPage_SettingUpState" xml:space="preserve">
+    <value>Configurarea...</value>
+  </data>
+  <data name="TranslationPage_SpeakFast" xml:space="preserve">
+    <value>Încercați să vorbiți un pic mai repede pentru rezultate mai bune de traducere.</value>
+  </data>
+  <data name="TranslationPage_SpeakIn" xml:space="preserve">
+    <value>Vorbiți în</value>
+  </data>
+  <data name="TranslationPage_SpeakSlow" xml:space="preserve">
+    <value>Încercați să vorbiți un pic mai lent pentru rezultate mai bune de traducere.</value>
+  </data>
+  <data name="TranslationPage_Switching" xml:space="preserve">
+    <value>Comutare</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonOne" xml:space="preserve">
+    <value>Comutarea la persoana 1</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonTwo" xml:space="preserve">
+    <value>Comutarea la persoana 2</value>
+  </data>
+  <data name="TranslationPage_TranslationReadyState" xml:space="preserve">
+    <value>Vorbiți acum</value>
+  </data>
+  <data name="Website.Text" xml:space="preserve">
+    <value>Site-ul web</value>
+  </data>
+  <data name="WhatsNew" xml:space="preserve">
+    <value>Ce mai e nou</value>
+  </data>
+  <data name="WhatsNewInSpeechly.Text" xml:space="preserve">
+    <value>Ce este nou în</value>
+  </data>
+  <data name="AudioDevicesSelectorDualDevice.Content" xml:space="preserve">
+    <value>Dispozitiv dual</value>
+  </data>
+  <data name="AudioDevicesSelectorSingleDevice.Content" xml:space="preserve">
+    <value>Un singur dispozitiv</value>
+  </data>
+  <data name="AutoDetectSearchCountry.PlaceholderText" xml:space="preserve">
+    <value>Țara de căutare</value>
+  </data>
+  <data name="AutoDetectSelectLanguage.Text" xml:space="preserve">
+    <value>Selectați limba dvs.</value>
+  </data>
+  <data name="ChatViewPersonOne" xml:space="preserve">
+    <value>Persoana Unu</value>
+  </data>
+  <data name="ChatViewPersonTwo" xml:space="preserve">
+    <value>Persoana a doua</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionLost" xml:space="preserve">
+    <value>Conexiunea la Internet pierdută. Vă rugăm să verificați conexiunea, apoi încercați din nou.</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionUnstable" xml:space="preserve">
+    <value>Conexiunea la internet este lentă. Este posibil să apară unele lag.</value>
+  </data>
+  <data name="CustomTagSelectionTitle.Text" xml:space="preserve">
+    <value>Etichete organizație (selectați pentru a adăuga)</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.Header" xml:space="preserve">
+    <value>Semnalizatorul utilizatorului pentru a comuta limba</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OffContent" xml:space="preserve">
+    <value>Dezactivat</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OnContent" xml:space="preserve">
+    <value>Activat</value>
+  </data>
+  <data name="DetectLanguageButton.Content" xml:space="preserve">
+    <value>Detectarea limbii</value>
+  </data>
+  <data name="DevicesPageNetworkSetupBluetoothStatus.Text" xml:space="preserve">
+    <value>Stare Bluetooth :</value>
+  </data>
+  <data name="DevicesPageNetworkSetupConnectAutomatically.Text" xml:space="preserve">
+    <value>Conectați-vă automat</value>
+  </data>
+  <data name="DevicesPageNetworkSetupWiFiStatus.Text" xml:space="preserve">
+    <value>Stare WiFi :</value>
+  </data>
+  <data name="Dimiss.Content" xml:space="preserve">
+    <value>Anula</value>
+  </data>
+  <data name="Duration.Text" xml:space="preserve">
+    <value>|  Durată</value>
+  </data>
+  <data name="EmailPopup_Description.Text" xml:space="preserve">
+    <value>Introduceți adresa de e-mail</value>
+  </data>
+  <data name="EmailPopup_Title.Text" xml:space="preserve">
+    <value>Trimiteți-vă sesiunea prin e-mail</value>
+  </data>
+  <data name="ForcedUpdateDialogCaption" xml:space="preserve">
+    <value>Avem actualizări critice pentru</value>
+  </data>
+  <data name="ForcedUpdateDialogInstallBtnText" xml:space="preserve">
+    <value>Actualiza</value>
+  </data>
+  <data name="ForcedUpdateDialogTitle" xml:space="preserve">
+    <value>Actualizări critice</value>
+  </data>
+  <data name="GoBack.Content" xml:space="preserve">
+    <value>Întoarce-te</value>
+  </data>
+  <data name="HelpPageSignOut.Content" xml:space="preserve">
+    <value>Deconectare</value>
+  </data>
+  <data name="History_Export.Text" xml:space="preserve">
+    <value>Generarea de fișiere ...</value>
+  </data>
+  <data name="HistoryListColumnSessionName.Text" xml:space="preserve">
+    <value>Nume</value>
+  </data>
+  <data name="HistoryListColumnSynced.Text" xml:space="preserve">
+    <value>Sincronizate</value>
+  </data>
+  <data name="HistorySearchBox.PlaceholderText" xml:space="preserve">
+    <value>Limba, numele sesiunii, etichetele sau ID-urile</value>
+  </data>
+  <data name="HistorySearchButtonTooltip.Text" xml:space="preserve">
+    <value>Căutare</value>
+  </data>
+  <data name="HistorySearchClearButtonTooltip.Text" xml:space="preserve">
+    <value>Clar</value>
+  </data>
+  <data name="HistorySearchFromDate.Header" xml:space="preserve">
+    <value>Din:</value>
+  </data>
+  <data name="HistorySearchToDate.Header" xml:space="preserve">
+    <value>Spre:</value>
+  </data>
+  <data name="HistoryShareButtonTooltip.Text" xml:space="preserve">
+    <value>Partajare/Trimitere</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonOne.Text" xml:space="preserve">
+    <value>Persoana 1</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonTwo.Text" xml:space="preserve">
+    <value>Persoana 2</value>
+  </data>
+  <data name="LoginPageTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NewVersionDialogCaption" xml:space="preserve">
+    <value>Instalați o nouă versiune de aplicație de</value>
+  </data>
+  <data name="NewVersionDialogDescription" xml:space="preserve">
+    <value>Noile caracteristici și remedierile de erori vor lipsi din </value>
+  </data>
+  <data name="NewVersionDialogInstallBtnText" xml:space="preserve">
+    <value>Instalați o nouă versiune</value>
+  </data>
+  <data name="NewVersionDialogTitle" xml:space="preserve">
+    <value>Noua versiune de aplicație</value>
+  </data>
+  <data name="NextText" xml:space="preserve">
+    <value>Următor</value>
+  </data>
+  <data name="ProfilePageEditButton.Content" xml:space="preserve">
+    <value>Editare</value>
+  </data>
+  <data name="QuestionsButton.Content" xml:space="preserve">
+    <value>Vezi întrebări</value>
+  </data>
+  <data name="QuestionSettingsDescription.Text" xml:space="preserve">
+    <value>Vizualizarea sau modificarea comenzilor rapide pentru întrebări</value>
+  </data>
+  <data name="QuestionSettingsInstructionOne.Text" xml:space="preserve">
+    <value>* Utilizați numerele 1-9 pentru fiecare întrebare. Zero (0) nu va fi luat în considerare.</value>
+  </data>
+  <data name="QuestionSettingsInstructionThree.Text" xml:space="preserve">
+    <value>* Puteți atribui comenzi rapide doar la 9 întrebări.</value>
+  </data>
+  <data name="QuestionSettingsListTitle.Text" xml:space="preserve">
+    <value>Lista de întrebări :</value>
+  </data>
+  <data name="ResellerEmailAddress.Text" xml:space="preserve">
+    <value>Reseller Adresa de e-mail:</value>
+  </data>
+  <data name="ResellerName.Text" xml:space="preserve">
+    <value>Reseller Nume:</value>
+  </data>
+  <data name="SelectFlag.Text" xml:space="preserve">
+    <value>Selectează-ți steagul:</value>
+  </data>
+  <data name="Send.Content" xml:space="preserve">
+    <value>Expedia</value>
+  </data>
+  <data name="SessionDetailsPage_SessionName.Text" xml:space="preserve">
+    <value>Numele sesiunii</value>
+  </data>
+  <data name="SessionID.Text" xml:space="preserve">
+    <value>ID-ul sesiunii : -</value>
+  </data>
+  <data name="SessionMetadataDialog_ContinueButton.Text" xml:space="preserve">
+    <value>Continua</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTags.Text" xml:space="preserve">
+    <value>Tag-uri personalizate</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Introduceți numele etichetei aici</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextboxHelper.Text" xml:space="preserve">
+    <value>Apăsați enter</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTags.Text" xml:space="preserve">
+    <value>Tag-uri implicite</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Introduceți valoarea aici</value>
+  </data>
+  <data name="SessionMetadataDialog_Description.Text" xml:space="preserve">
+    <value>Câmpurile obligatorii sunt marcate cu '</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionName.Text" xml:space="preserve">
+    <value>Numele sesiunii</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionNameTextbox.PlaceholderText" xml:space="preserve">
+    <value>de exemplu, pacientul zero</value>
+  </data>
+  <data name="SessionMetadataDialog_Title.Text" xml:space="preserve">
+    <value>Adăugarea unui nume de sesiune și a etichetelor</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorActionMessage" xml:space="preserve">
+    <value>Vă rugăm să contactați administratorul pentru a vă activa contul.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorMessage" xml:space="preserve">
+    <value>Contul tău a fost dezactivat.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorActionMessage" xml:space="preserve">
+    <value>Vă rugăm să contactați administratorul pentru a vă crea contul.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorMessage" xml:space="preserve">
+    <value>Contul tău a fost șters.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorActionMessage" xml:space="preserve">
+    <value>Vă rugăm să contactați administratorul pentru a vă activa contul.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorMessage" xml:space="preserve">
+    <value>Contul tău a fost dezactivat.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorActionMessage" xml:space="preserve">
+    <value>Vă rugăm să contactați administratorul pentru a vă crea contul.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorMessage" xml:space="preserve">
+    <value>Nu aveți un Cont activ.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorActionMessage" xml:space="preserve">
+    <value>Vă rugăm să contactați administratorul pentru a vă reînnoi licența.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorMessage" xml:space="preserve">
+    <value>Permisul dumneavoastră a expirat.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorActionMessage" xml:space="preserve">
+    <value>Vă rugăm să contactați administratorul pentru a vă activa licența.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorMessage" xml:space="preserve">
+    <value>Permisul dumneavoastră a fost dezactivat.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorActionMessage" xml:space="preserve">
+    <value>Vă rugăm să contactați administratorul.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorMessage" xml:space="preserve">
+    <value>Permisul dumneavoastră a fost suspendat.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorActionMessage" xml:space="preserve">
+    <value>Vă rugăm să contactați administratorul pentru a vă atribui o licență.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorMessage" xml:space="preserve">
+    <value>Nu aveți o licență atribuită.</value>
+  </data>
+  <data name="StartupPage2020.Text" xml:space="preserve">
+    <value>2021 </value>
+  </data>
+  <data name="StartupPageErrorDescription.Text" xml:space="preserve">
+    <value>A apărut o eroare. Vă rugăm să verificați conexiunea la Internet, apoi încercați din nou.</value>
+  </data>
+  <data name="StartupPagePoweredBy.Text" xml:space="preserve">
+    <value>Oferit de </value>
+  </data>
+  <data name="StartupPageProgressDescription.Text" xml:space="preserve">
+    <value>Acest lucru ar putea dura câteva secunde</value>
+  </data>
+  <data name="StartupPageRetryButton.Content" xml:space="preserve">
+    <value>Reîncercare</value>
+  </data>
+  <data name="StartupPageRightsReserved.Text" xml:space="preserve">
+    <value>Toate drepturile rezervate.</value>
+  </data>
+  <data name="StartUpPageSettingUpMessage" xml:space="preserve">
+    <value>Configurarea...</value>
+  </data>
+  <data name="StartupPageTitleDescription.Text" xml:space="preserve">
+    <value>Bine ati venit la </value>
+  </data>
+  <data name="TranslateText" xml:space="preserve">
+    <value>Traduce</value>
+  </data>
+  <data name="TranslationLicenceUseError" xml:space="preserve">
+    <value>Permisul dumneavoastră este utilizat în prezent într-o altă sesiune.</value>
+  </data>
+  <data name="TranslationLimitReachedError" xml:space="preserve">
+    <value>Ați atins limita maximă de timp pe sesiune. Sesiunea de încheiere.</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOff" xml:space="preserve">
+    <value>Microfon oprit</value>
+  </data>
+  <data name="TranslationPage_SpeakerOff" xml:space="preserve">
+    <value>Vorbitor oprit</value>
+  </data>
+  <data name="TranslationTimeDepletedError" xml:space="preserve">
+    <value>Procesele-verbale de traducere au fost epuizate. Vă rugăm să contactați administratorul.</value>
+  </data>
+  <data name="UnsupportedVersionDialogBtntext" xml:space="preserve">
+    <value>Actualiza</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption" xml:space="preserve">
+    <value>Actualizările critice sunt necesare pentru </value>
+  </data>
+  <data name="UnsupportedVersionDialogDescription" xml:space="preserve">
+    <value>Actualizați-vă aplicația pentru a continua să primiți actualizări de caracteristici și de securitate.</value>
+  </data>
+  <data name="UnsupportedVersionDialogTitle" xml:space="preserve">
+    <value>Versiunea aplicației neacceptată</value>
+  </data>
+  <data name="UpdateDialogWhatsNew.Text" xml:space="preserve">
+    <value>Ce mai e nou?</value>
+  </data>
+  <data name="Zoom.Text" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="Add.Content" xml:space="preserve">
+    <value>Adăuga</value>
+  </data>
+  <data name="AddNewQuestion.Text" xml:space="preserve">
+    <value>Adăugarea unei noi întrebări predefinite</value>
+  </data>
+  <data name="AddQuestion.Content" xml:space="preserve">
+    <value>Adăugare întrebare</value>
+  </data>
+  <data name="ChooseLanguage.Text" xml:space="preserve">
+    <value>Selectați limba implicită</value>
+  </data>
+  <data name="CustomProfileAdded" xml:space="preserve">
+    <value>Numele profilului adăugat cu succes.</value>
+  </data>
+  <data name="CustomProfileDeleted" xml:space="preserve">
+    <value>Profil șters cu succes.</value>
+  </data>
+  <data name="CustomProfileInvalidName" xml:space="preserve">
+    <value>Eroare! Nume de profil nevalid.</value>
+  </data>
+  <data name="CustomProfileNotDeleted" xml:space="preserve">
+    <value>Nici un profil pentru a șterge.</value>
+  </data>
+  <data name="CustomProfileNotSaved" xml:space="preserve">
+    <value>Eroare! Nu s-a salvat niciun profil.</value>
+  </data>
+  <data name="CustomProfileProfileSaved" xml:space="preserve">
+    <value>Profil salvat cu succes.</value>
+  </data>
+  <data name="DataRequestMessage" xml:space="preserve">
+    <value>Nu ați selectat niciun text. Selectați textul pe care să-l partajați și încercați din nou.</value>
+  </data>
+  <data name="DevicesAddProfileButton.Content" xml:space="preserve">
+    <value>Adăuga</value>
+  </data>
+  <data name="DevicesAvailableProfiles.Text" xml:space="preserve">
+    <value>Profiluri disponibile</value>
+  </data>
+  <data name="DevicesDefaultProfile.Text" xml:space="preserve">
+    <value>Profil implicit:</value>
+  </data>
+  <data name="DevicesDeleteProfileBtn.Content" xml:space="preserve">
+    <value>Ștergere profil</value>
+  </data>
+  <data name="DeviceSetupChanged" xml:space="preserve">
+    <value>Dispozitive audio conectate actualizate </value>
+  </data>
+  <data name="DevicesHelpfulTip1.Text" xml:space="preserve">
+    <value>1. Setați un nume de profil</value>
+  </data>
+  <data name="DevicesHelpfulTip2.Text" xml:space="preserve">
+    <value>2. Selectați modurile de dispozitiv unic sau dual</value>
+  </data>
+  <data name="DevicesHelpfulTip3.Text" xml:space="preserve">
+    <value>3. Selectați difuzorul (difuzoarele) și microfonul (microfoanele)</value>
+  </data>
+  <data name="DevicesHelpfulTip4.Text" xml:space="preserve">
+    <value>4. Setați-vă profilul ca implicit</value>
+  </data>
+  <data name="DevicesHelpfulTip5.Text" xml:space="preserve">
+    <value>5. Faceți clic pe butonul Salvare profil pentru a vă salva profilul</value>
+  </data>
+  <data name="DevicesHelpfulTips.Text" xml:space="preserve">
+    <value>Sfaturi utile</value>
+  </data>
+  <data name="DevicesProfileNameTextBox.PlaceholderText" xml:space="preserve">
+    <value>Numele profilului...</value>
+  </data>
+  <data name="DevicesSaveProfileBtn.Content" xml:space="preserve">
+    <value>Salvare profil</value>
+  </data>
+  <data name="DevicesSetasDefault.Text" xml:space="preserve">
+    <value>Setarea ca implicită</value>
+  </data>
+  <data name="DevicesSetProfileButton.Content" xml:space="preserve">
+    <value>Setarea profilului</value>
+  </data>
+  <data name="DevicesSetProfileText.Text" xml:space="preserve">
+    <value>Setați un profil personalizat?</value>
+  </data>
+  <data name="DiscardButton.Content" xml:space="preserve">
+    <value>Arunca</value>
+  </data>
+  <data name="DismissButton.Content" xml:space="preserve">
+    <value>A concedia</value>
+  </data>
+  <data name="DismissText.Text" xml:space="preserve">
+    <value>A concedia</value>
+  </data>
+  <data name="DownloadAudio.Text" xml:space="preserve">
+    <value>Descarca Audio</value>
+  </data>
+  <data name="DownloadCancel" xml:space="preserve">
+    <value>Descărcare anulată</value>
+  </data>
+  <data name="Downloaded" xml:space="preserve">
+    <value>Descărcat</value>
+  </data>
+  <data name="DownloadError" xml:space="preserve">
+    <value>Eroare a apărut</value>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>Descărcare</value>
+  </data>
+  <data name="DownloadPaused" xml:space="preserve">
+    <value>Descarca pauză</value>
+  </data>
+  <data name="DualDeviceUpdated" xml:space="preserve">
+    <value>Configurarea dispozitivului dual s-a actualizat cu succes</value>
+  </data>
+  <data name="EnterQuestion.Text" xml:space="preserve">
+    <value>Introduceți întrebarea de mai jos</value>
+  </data>
+  <data name="ErrorDescription.Text" xml:space="preserve">
+    <value>Modificările tale nu au fost salvate, vrei să le salvezi sau să le arunci?</value>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>Ceva nu a mers bine.. încearcă din nou</value>
+  </data>
+  <data name="ErrorTitle.Text" xml:space="preserve">
+    <value>Aveți modificări nesalvate</value>
+  </data>
+  <data name="FeedbackEight.Text" xml:space="preserve">
+    <value>Ne-am tot întrerupt reciproc</value>
+  </data>
+  <data name="FeedbackFive.Text" xml:space="preserve">
+    <value>Am auzit ecou în apel</value>
+  </data>
+  <data name="FeedbackFour.Text" xml:space="preserve">
+    <value>A luat voci de fundal</value>
+  </data>
+  <data name="FeedbackOne.Text" xml:space="preserve">
+    <value>Nu mi-a luat vocea corect</value>
+  </data>
+  <data name="FeedbackQuestion.Text" xml:space="preserve">
+    <value>Ce ar fi putut fi mai bun?</value>
+  </data>
+  <data name="FeedbackSeven.Text" xml:space="preserve">
+    <value>Sesiunea s-a încheiat pe neașteptate</value>
+  </data>
+  <data name="FeedbackSix.Text" xml:space="preserve">
+    <value>Volumul a fost prea mic</value>
+  </data>
+  <data name="FeedbackThanks.Text" xml:space="preserve">
+    <value>Multumesc pentru feedback-ul</value>
+  </data>
+  <data name="FeedbackThree.Text" xml:space="preserve">
+    <value>Timpul de traducere a fost prea lent</value>
+  </data>
+  <data name="FeedbackTwo.Text" xml:space="preserve">
+    <value>Mi-a tradus greșit propozițiile</value>
+  </data>
+  <data name="ForcedUpdateDialogCaptionContinuation" xml:space="preserve">
+    <value>pentru a funcționa. Aplicația nu va funcționa fără aceste actualizări.</value>
+  </data>
+  <data name="Improvement.Text" xml:space="preserve">
+    <value>Vom continua să lucrăm la îmbunătățirea experienței dvs.</value>
+  </data>
+  <data name="LanguageSettingsUpdated" xml:space="preserve">
+    <value>Modificări de limbă actualizate cu succes</value>
+  </data>
+  <data name="NewVersionDialogDescription2" xml:space="preserve">
+    <value>și versiunea dvs. de</value>
+  </data>
+  <data name="NewVersionDialogDescription3" xml:space="preserve">
+    <value>poate deveni neacceptat.</value>
+  </data>
+  <data name="Other.Text" xml:space="preserve">
+    <value>Alte comentarii:</value>
+  </data>
+  <data name="PasswordUpdated" xml:space="preserve">
+    <value>Parola a fost schimbată cu succes</value>
+  </data>
+  <data name="PlaybackLanguageUpdated" xml:space="preserve">
+    <value>Limba de redare implicită s-a schimbat cu succes</value>
+  </data>
+  <data name="QuestionAdded" xml:space="preserve">
+    <value>Întrebare adăugată cu succes</value>
+  </data>
+  <data name="QuestionDeleted" xml:space="preserve">
+    <value>Întrebare ștearsă cu succes</value>
+  </data>
+  <data name="Questions.Text" xml:space="preserve">
+    <value>Întrebări</value>
+  </data>
+  <data name="QuestionSettingsInstructionTwo.Text" xml:space="preserve">
+    <value>* Fiecare întrebare trebuie să aibă o tastă de comenzi rapide diferită.</value>
+  </data>
+  <data name="QuestionsValidationError.Text" xml:space="preserve">
+    <value>* Verificați validările și încercați din nou.</value>
+  </data>
+  <data name="QuickViewLanguagesUpdated" xml:space="preserve">
+    <value>Vizualizare rapidă languges actualizate cu succes</value>
+  </data>
+  <data name="SendFeedback.Content" xml:space="preserve">
+    <value>Trimite feedback</value>
+  </data>
+  <data name="SessionFeedbackPrompt" xml:space="preserve">
+    <value>Cum ați evalua sesiunea de traducere?</value>
+  </data>
+  <data name="SessionFeedbackTitle" xml:space="preserve">
+    <value>Feedback de traducere</value>
+  </data>
+  <data name="ShortcutSuccess" xml:space="preserve">
+    <value>Comenzi rapide pentru întrebări actualizate cu succes</value>
+  </data>
+  <data name="SingleDeviceUpdated" xml:space="preserve">
+    <value>Configurarea unui singur dispozitiv este actualizată cu succes</value>
+  </data>
+  <data name="StartupPageTitleDescription2.Text" xml:space="preserve">
+    <value>software-ul de traducere.</value>
+  </data>
+  <data name="TimeoutUpdated" xml:space="preserve">
+    <value>Timeout actualizat cu succes</value>
+  </data>
+  <data name="TouchShareText" xml:space="preserve">
+    <value>Partajare tactilă</value>
+  </data>
+  <data name="TranslationLanguageUpdated" xml:space="preserve">
+    <value>Limba de traducere implicită s-a schimbat cu succes</value>
+  </data>
+  <data name="TranslationPlaybackUpdated" xml:space="preserve">
+    <value>Traducerea implicită și limbajul de redare s-au schimbat cu succes</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption2" xml:space="preserve">
+    <value>pentru a funcționa. Este posibil ca caracteristicile să nu mai funcționeze fără notificare prealabilă. Vă rugăm să actualizați aplicația.</value>
+  </data>
+  <data name="UserFlagSwitch" xml:space="preserve">
+    <value>Semnalizatorul utilizatorului pentru a comuta limba actualizată</value>
+  </data>
+</root>

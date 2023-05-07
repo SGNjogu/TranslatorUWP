@@ -1,0 +1,83 @@
+﻿<ContentDialog
+    x:Class="SpeechlyTouch.Views.Popups.ReEnterPasscodeDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Background="{Binding PrimaryBackgroundColor, Source={StaticResource DynamicColors}}"
+    DataContext="{Binding ReEnterPasscodeViewModel, Source={StaticResource ViewModelLocator}}"
+    mc:Ignorable="d">
+
+    <Grid
+        Padding="20"
+        Background="{Binding PrimaryBackgroundColor, Source={StaticResource DynamicColors}}"
+        RowSpacing="30">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <StackPanel
+            Grid.Row="0"
+            HorizontalAlignment="Center"
+            Spacing="10">
+            <TextBlock
+                x:Uid="ReEnterPasscodeDialog_Title"
+                FontSize="20"
+                FontWeight="SemiBold"
+                Foreground="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}"
+                Style="{StaticResource TextBlockStyle}" />
+            <Border
+                Margin="15,0,15,0"
+                BorderBrush="{Binding BorderBrush, Source={StaticResource DynamicColors}}"
+                BorderThickness="1" />
+        </StackPanel>
+
+        <StackPanel Grid.Row="1">
+            <TextBlock
+                x:Uid="ReEnterPasscodeDialog_Description1"
+                Grid.Row="1"
+                Margin="0,0,0,10"
+                Foreground="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}"
+                Style="{StaticResource TextBlockStyle}"
+                TextWrapping="Wrap" />
+
+            <PasswordBox
+                BorderBrush="{Binding BorderBrush, Source={StaticResource DynamicColors}}"
+                Width="350"
+                CornerRadius="3"
+                MaxLength="4"
+                Password="{Binding EnteredPasscode, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                Style="{StaticResource PasswordBoxStyle}" />
+        </StackPanel>
+
+        <Grid Grid.Row="2">
+
+            <StackPanel HorizontalAlignment="Center">
+                <TextBlock
+                    x:Uid="RenterPasscodeDialog_Description2"
+                    Grid.Row="1"
+                    Margin="0,0,0,10"
+                    HorizontalAlignment="Center"
+                    Foreground="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}"
+                    Style="{StaticResource TextBlockStyle}"
+                    TextWrapping="Wrap" />
+
+                <TextBlock
+                    Grid.Row="1"
+                    Margin="0,0,0,10"
+                    HorizontalAlignment="Center"
+                    FontSize="24"
+                    FontWeight="Bold"
+                    Foreground="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}"
+                    Style="{StaticResource TextBlockStyle}"
+                    Text="{Binding EnterPasscodeCountDown, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                    TextWrapping="Wrap" />
+            </StackPanel>
+        </Grid>
+    </Grid>
+</ContentDialog>

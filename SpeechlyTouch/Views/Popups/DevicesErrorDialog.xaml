@@ -1,0 +1,48 @@
+﻿<ContentDialog
+    x:Class="SpeechlyTouch.Views.Popups.DevicesErrorDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:SpeechlyTouch.Views.Popups"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Background="{Binding PrimaryBackgroundColor, Source={StaticResource DynamicColors}}"
+    DataContext="{Binding DevicesErrorViewModel, Source={StaticResource ViewModelLocator}}"
+    mc:Ignorable="d">
+
+    <Grid
+        Margin="20"
+        Background="{Binding PrimaryBackgroundColor, Source={StaticResource DynamicColors}}"
+        RowSpacing="50">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <TextBlock
+            Grid.Row="0"
+            Width="350"
+            Foreground="Red"
+            Style="{StaticResource TextBlockStyle}"
+            Text="{Binding ErrorMessage}"
+            TextAlignment="Center"
+            TextWrapping="Wrap" />
+
+        <Button
+            x:Uid="Close"
+            Grid.Row="1"
+            Width="100"
+            Padding="20,5,20,5"
+            HorizontalAlignment="Center"
+            Background="{Binding BtnAccentColor, Source={StaticResource DynamicColors}}"
+            Command="{Binding CloseDialogCommand}"
+            CornerRadius="3"
+            FontWeight="Medium"
+            Foreground="{Binding BtnAccentTextColor, Source={StaticResource DynamicColors}}"
+            PointerEntered="Button_PointerEntered"
+            PointerExited="Button_PointerExited"
+            Style="{StaticResource ButtonStyle}" />
+
+    </Grid>
+
+</ContentDialog>

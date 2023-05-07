@@ -1,0 +1,313 @@
+﻿<Page
+    x:Class="SpeechlyTouch.Views.Pages.ShellView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:contentControls="using:SpeechlyTouch.Views.ContentControls"
+    xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:SpeechlyTouch.Views.Pages"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Background="{Binding PrimaryBackgroundColor, Source={StaticResource DynamicColors}}"
+    DataContext="{Binding ShellViewModel, Source={StaticResource ViewModelLocator}}"
+    Loaded="Page_Loaded"
+    NavigationCacheMode="Enabled"
+    mc:Ignorable="d">
+
+    <Grid Background="{Binding SecondaryBackgroundColor, Source={StaticResource DynamicColors}}" RowSpacing="0">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <contentControls:TitleView Grid.Row="0" Margin="0,0,0,5" />
+
+        <Grid
+            Grid.Row="1"
+            Padding="60,40,60,40"
+            RowSpacing="0">
+
+            <Grid Background="{Binding PrimaryBackgroundColor, Source={StaticResource DynamicColors}}" RowSpacing="0">
+
+                <controls:DropShadowPanel
+                    HorizontalContentAlignment="Stretch"
+                    Background="{Binding PrimaryBackgroundColor, Source={StaticResource DynamicColors}}"
+                    BlurRadius="5"
+                    CornerRadius="20"
+                    OffsetX="0"
+                    OffsetY="3"
+                    ShadowOpacity="0.70"
+                    Color="{Binding BorderColor, Source={StaticResource DynamicColors}}">
+
+                    <Grid Background="{Binding PrimaryBackgroundColor, Source={StaticResource DynamicColors}}" RowSpacing="0">
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+
+                        <!--  Title View  -->
+
+                        <controls:DropShadowPanel
+                            Grid.Row="0"
+                            Margin="0,0,0,5"
+                            HorizontalContentAlignment="Stretch"
+                            Background="{Binding PrimaryBackgroundColor, Source={StaticResource DynamicColors}}"
+                            BlurRadius="5"
+                            CornerRadius="20"
+                            OffsetX="0"
+                            OffsetY="5"
+                            ShadowOpacity="0.70"
+                            Visibility="{Binding TitleViewVisibility}"
+                            Color="{Binding BorderColor, Source={StaticResource DynamicColors}}">
+
+                            <Grid
+                                Padding="50,10,50,10"
+                                Background="{Binding PrimaryBackgroundColor, Source={StaticResource DynamicColors}}"
+                                BorderBrush="{Binding BorderBrush, Source={StaticResource DynamicColors}}"
+                                BorderThickness="1">
+
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+
+                                <StackPanel
+                                    Grid.Column="0"
+                                    Orientation="Horizontal"
+                                    Spacing="20">
+                                    <Border
+                                        Width="50"
+                                        Height="50"
+                                        BorderBrush="{Binding BorderBrush, Source={StaticResource DynamicColors}}"
+                                        BorderThickness="1"
+                                        CornerRadius="25">
+                                        <FontIcon
+                                            FontFamily="{StaticResource SymbolThemeFontFamily}"
+                                            FontSize="25"
+                                            Foreground="{Binding BorderBrush, Source={StaticResource DynamicColors}}"
+                                            Glyph="&#xE77B;"
+                                            HighContrastAdjustment="None" />
+                                    </Border>
+                                    <StackPanel>
+                                        <TextBlock
+                                            FontSize="20"
+                                            FontWeight="Normal"
+                                            Foreground="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}"
+                                            Style="{StaticResource TextBlockStyle}"
+                                            Text="{Binding CurrentUser.UserName}" />
+                                        <TextBlock
+                                            FontWeight="SemiBold"
+                                            Foreground="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}"
+                                            Style="{StaticResource TextBlockStyle}"
+                                            Text="{Binding CurrentUser.PolicyType}" />
+                                    </StackPanel>
+                                </StackPanel>
+
+                                <TextBlock
+                                    Grid.Column="1"
+                                    HorizontalAlignment="Right"
+                                    VerticalAlignment="Center"
+                                    FontSize="20"
+                                    FontWeight="SemiBold"
+                                    Foreground="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}"
+                                    Style="{StaticResource TextBlockStyle}"
+                                    Text="{Binding PageTitle}" />
+
+                            </Grid>
+
+                        </controls:DropShadowPanel>
+
+                        <!--  MainFrame  -->
+
+                        <Frame
+                            x:Name="mainFrame"
+                            Grid.Row="1"
+                            Background="{Binding PrimaryBackgroundColor, Source={StaticResource DynamicColors}}" />
+
+                        <contentControls:NotificationView />
+                        <!--  Navigation Bar  -->
+
+                        <controls:DropShadowPanel
+                            Grid.Row="2"
+                            HorizontalContentAlignment="Stretch"
+                            Background="{Binding PrimaryBackgroundColor, Source={StaticResource DynamicColors}}"
+                            BlurRadius="5"
+                            CornerRadius="20"
+                            OffsetX="0"
+                            OffsetY="-3"
+                            ShadowOpacity="0.70"
+                            Color="{Binding BorderColor, Source={StaticResource DynamicColors}}">
+
+                            <Grid
+                                Height="80"
+                                Background="{Binding PrimaryBackgroundColor, Source={StaticResource DynamicColors}}"
+                                BorderBrush="{Binding BorderBrush, Source={StaticResource DynamicColors}}"
+                                BorderThickness="1">
+
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition />
+                                    <ColumnDefinition />
+                                    <ColumnDefinition />
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+
+                                <Button
+                                    Grid.Column="0"
+                                    Margin="5,0,0,0"
+                                    HorizontalAlignment="Stretch"
+                                    Background="{Binding PrimaryBackgroundColor, Source={StaticResource DynamicColors}}"
+                                    BorderThickness="0"
+                                    Command="{Binding NavigateToHomeCommand}"
+                                    CornerRadius="3"
+                                    PointerEntered="Button_PointerEntered"
+                                    PointerExited="Button_PointerExited"
+                                    Style="{StaticResource ButtonStyle}">
+
+                                    <Button.Content>
+                                        <StackPanel>
+                                            <Grid>
+                                                <Ellipse
+                                                    Width="40"
+                                                    Height="40"
+                                                    Fill="#DEE0EF" />
+                                                <FontIcon
+                                                    Grid.Column="0"
+                                                    FontFamily="{StaticResource SymbolThemeFontFamily}"
+                                                    FontSize="20"
+                                                    Foreground="#02175d"
+                                                    Glyph="&#xE80F;" />
+                                            </Grid>
+                                            <TextBlock
+                                                HorizontalAlignment="Center"
+                                                Foreground="#7781BE"
+                                                Style="{StaticResource TextBlockStyle}"
+                                                Text="{Binding HomeTitle}" />
+                                        </StackPanel>
+                                    </Button.Content>
+
+                                </Button>
+
+
+                                <Button
+                                    Grid.Column="1"
+                                    HorizontalAlignment="Stretch"
+                                    Background="{Binding PrimaryBackgroundColor, Source={StaticResource DynamicColors}}"
+                                    BorderThickness="0"
+                                    Command="{Binding NavigateToHistoryCommand}"
+                                    CornerRadius="3"
+                                    PointerEntered="Button_PointerEntered"
+                                    PointerExited="Button_PointerExited"
+                                    Style="{StaticResource ButtonStyle}">
+
+                                    <Button.Content>
+                                        <StackPanel>
+                                            <Grid>
+                                                <Ellipse
+                                                    Width="40"
+                                                    Height="40"
+                                                    Fill="{Binding BtnStyling.HistoryEllipseBtnColor}" />
+                                                <FontIcon
+                                                    Grid.Column="0"
+                                                    FontFamily="{StaticResource SymbolThemeFontFamily}"
+                                                    FontSize="20"
+                                                    Foreground="{Binding BtnStyling.HistoryFontIconBtnColor}"
+                                                    Glyph="&#xE81C;" />
+                                            </Grid>
+                                            <TextBlock
+                                                HorizontalAlignment="Center"
+                                                Foreground="{Binding BtnStyling.HistoryTextBtnColor}"
+                                                Style="{StaticResource TextBlockStyle}"
+                                                Text="{Binding HistoryTitle}" />
+                                        </StackPanel>
+                                    </Button.Content>
+
+                                </Button>
+
+                                <Button
+                                    Grid.Column="2"
+                                    HorizontalAlignment="Stretch"
+                                    Background="{Binding PrimaryBackgroundColor, Source={StaticResource DynamicColors}}"
+                                    BorderThickness="0"
+                                    Command="{Binding NavigateToSettingsCommand}"
+                                    CornerRadius="3"
+                                    PointerEntered="Button_PointerEntered"
+                                    PointerExited="Button_PointerExited"
+                                    Style="{StaticResource ButtonStyle}">
+
+                                    <Button.Content>
+                                        <StackPanel>
+                                            <Grid>
+                                                <Ellipse
+                                                    Width="40"
+                                                    Height="40"
+                                                    Fill="{Binding BtnStyling.SettingsEllipseBtnColor}" />
+                                                <FontIcon
+                                                    Grid.Column="0"
+                                                    FontFamily="{StaticResource SymbolThemeFontFamily}"
+                                                    FontSize="20"
+                                                    Foreground="{Binding BtnStyling.SettingsFontIconBtnColor}"
+                                                    Glyph="&#xE713;" />
+                                            </Grid>
+                                            <TextBlock
+                                                HorizontalAlignment="Center"
+                                                Foreground="{Binding BtnStyling.SettingsTextBtnColor}"
+                                                Style="{StaticResource TextBlockStyle}"
+                                                Text="{Binding SettingsTitle}" />
+                                        </StackPanel>
+                                    </Button.Content>
+
+                                </Button>
+
+
+                                <Button
+                                    Grid.Column="3"
+                                    Margin="0,0,5,0"
+                                    HorizontalAlignment="Stretch"
+                                    Background="{Binding PrimaryBackgroundColor, Source={StaticResource DynamicColors}}"
+                                    BorderThickness="0"
+                                    Command="{Binding NavigateToHelpCommand}"
+                                    CornerRadius="3"
+                                    PointerEntered="Button_PointerEntered"
+                                    PointerExited="Button_PointerExited"
+                                    Style="{StaticResource ButtonStyle}">
+
+                                    <Button.Content>
+                                        <StackPanel>
+                                            <Grid>
+                                                <Ellipse
+                                                    Width="40"
+                                                    Height="40"
+                                                    Fill="{Binding BtnStyling.HelpEllipseBtnColor}" />
+                                                <FontIcon
+                                                    Grid.Column="0"
+                                                    FontFamily="{StaticResource SymbolThemeFontFamily}"
+                                                    FontSize="20"
+                                                    Foreground="{Binding BtnStyling.HelpFontIconBtnColor}"
+                                                    Glyph="&#xE897;" />
+                                            </Grid>
+                                            <TextBlock
+                                                HorizontalAlignment="Center"
+                                                Foreground="{Binding BtnStyling.HelpTextBtnColor}"
+                                                Style="{StaticResource TextBlockStyle}"
+                                                Text="{Binding HelpTitle}" />
+                                        </StackPanel>
+                                    </Button.Content>
+
+                                </Button>
+
+                            </Grid>
+
+                        </controls:DropShadowPanel>
+
+                    </Grid>
+
+                </controls:DropShadowPanel>
+
+            </Grid>
+        </Grid>
+
+    </Grid>
+
+</Page>

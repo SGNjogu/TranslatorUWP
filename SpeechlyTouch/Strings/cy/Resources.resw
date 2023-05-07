@@ -1,0 +1,1192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="AppDescription" xml:space="preserve">
+    <value>TalaTouchApp</value>
+  </data>
+  <data name="AppDisplayName" xml:space="preserve">
+    <value>TalaTouchApp</value>
+  </data>
+  <data name="AudioDeviceSelector_MicDropdown.PlaceholderText" xml:space="preserve">
+    <value>Dewiswch feicroffon</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneMic.Text" xml:space="preserve">
+    <value>Person un microffon</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneSpeaker.Text" xml:space="preserve">
+    <value>Person Un Siaradwr</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoMic.Text" xml:space="preserve">
+    <value>Person Dau feicroffon</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoSpeaker.Text" xml:space="preserve">
+    <value>Person Dau Lefarydd</value>
+  </data>
+  <data name="AudioDeviceSelector_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>Dewis siaradwr</value>
+  </data>
+  <data name="BluetoothPairingDialog_Description.Text" xml:space="preserve">
+    <value>Gwnewch yn siŵr bod eich dyfais yn cael ei throi ymlaen a'i darganfod. Dewiswch ddyfais isod i gysylltu.</value>
+  </data>
+  <data name="BluetoothPairingDialog_Title.Text" xml:space="preserve">
+    <value>Ychwanegu dyfais</value>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>Canslo</value>
+  </data>
+  <data name="ChangePasscodeDialog_Confirm.Text" xml:space="preserve">
+    <value>Cadarnhau cod pasio newydd</value>
+  </data>
+  <data name="ChangePasscodeDialog_Current.Text" xml:space="preserve">
+    <value>Cod Pasio cyfredol</value>
+  </data>
+  <data name="ChangePasscodeDialog_New.Text" xml:space="preserve">
+    <value>Cod Pasio Newydd</value>
+  </data>
+  <data name="ChangePasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Newid y cod pasio</value>
+  </data>
+  <data name="Close.Content" xml:space="preserve">
+    <value>Cau</value>
+  </data>
+  <data name="ConsentDialog_Description1.Text" xml:space="preserve">
+    <value>Pryderon preifatrwydd yw ein prif flaenoriaeth. (5) Rydych yn derbyn telerau ac amodau'r Polisi Preifatrwydd hwn gyda'ch ffôn symudol neu dabled, fel sy'n berthnasol.</value>
+  </data>
+  <data name="ConsentDialog_Description2.Text" xml:space="preserve">
+    <value>Os ydych yn dewis peidio â chaniatáu mynediad i ni pan fyddwn yn derbyn cais am ganiatâd (bydd ceisiadau o'r fath yn cael eu hysbysu ar wefan www ICTS yn :</value>
+  </data>
+  <data name="ConsentDialog_Description3.Text" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int</value>
+  </data>
+  <data name="ConsentDialog_Description4.Text" xml:space="preserve">
+    <value>), yna ni all y cyfeiriad e-bost a ddarperir nac unrhyw wybodaeth bersonol arall a allai nodi unigolyn hefyd ddod i'n meddiant unwaith y bydd caniatâd o'r fath wedi'i roi.</value>
+  </data>
+  <data name="ConsentDialog_Description5.Text" xml:space="preserve">
+    <value>Drwy ddefnyddio rhannau penodol: /The use by me of my Mobile Phone/Icons - a allai gynnwys caniatáu i eraill mewn ystafelloedd sgwrsio am gynnyrch fel</value>
+  </data>
+  <data name="ConsentDialog_HyperLink.NavigateUri" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int/</value>
+  </data>
+  <data name="ConsentDialog_Title.Text" xml:space="preserve">
+    <value>Rydym yn gwerthfawrogi eich preifatrwydd</value>
+  </data>
+  <data name="Dashboard_Choose_Language.Text" xml:space="preserve">
+    <value>Dewis Iaith</value>
+  </data>
+  <data name="Dashboard_Hello.Text" xml:space="preserve">
+    <value>Helo</value>
+  </data>
+  <data name="Dashboard_SearchBox.PlaceholderText" xml:space="preserve">
+    <value>Iaith Chwilio</value>
+  </data>
+  <data name="Dashboard_Welcome.Text" xml:space="preserve">
+    <value>Croeso</value>
+  </data>
+  <data name="DevicesErrorDialog_NoDeviceError" xml:space="preserve">
+    <value>Nid oes gennych ddyfais(au) achubedig. Ewch i Settings -&gt; Dyfeisiau i ddewis Meicroffon a Siaradwr yna cliciwch ar Cadw.</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Description.Text" xml:space="preserve">
+    <value>Dyfeisiau bluetooth ar gael</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_DropDown.PlaceholderText" xml:space="preserve">
+    <value>Dewis dyfais bluetooth</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Scan.Text" xml:space="preserve">
+    <value>Sganio</value>
+  </data>
+  <data name="DevicesPage_Bluetooth.Text" xml:space="preserve">
+    <value>Bluetooth</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices_Description.Text" xml:space="preserve">
+    <value>Dewiswch eich dyfais sain</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices.Text" xml:space="preserve">
+    <value>Dyfeisiau Sain Cysylltiedig</value>
+  </data>
+  <data name="DevicesPage_MicDropDown.PlaceholderText" xml:space="preserve">
+    <value>Dewiswch feicroffon</value>
+  </data>
+  <data name="DevicesPage_Network_Description.Text" xml:space="preserve">
+    <value>Rhwydweithiau sydd ar gael</value>
+  </data>
+  <data name="DevicesPage_Network_DropDown.PlaceholderText" xml:space="preserve">
+    <value>Dewis rhwydwaith</value>
+  </data>
+  <data name="DevicesPage_Network.Text" xml:space="preserve">
+    <value>Rhwydwaith</value>
+  </data>
+  <data name="DevicesPage_NetworkError" xml:space="preserve">
+    <value>Dim rhwydwaith a ddewiswyd. Gwiriwch eich cysylltiadau rhwydwaith.</value>
+  </data>
+  <data name="DevicesPage_PersonOne_Speaker.Text" xml:space="preserve">
+    <value>Person un siaradwr</value>
+  </data>
+  <data name="DevicesPage_PersonOneMic.Text" xml:space="preserve">
+    <value>Person un microffon</value>
+  </data>
+  <data name="DevicesPage_PersonTwo_Mic.Text" xml:space="preserve">
+    <value>Person dau feicroffon</value>
+  </data>
+  <data name="DevicesPage_Scan" xml:space="preserve">
+    <value>Sganio</value>
+  </data>
+  <data name="DevicesPage_Scanning" xml:space="preserve">
+    <value>Sganio...</value>
+  </data>
+  <data name="DevicesPage_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>Dewis siaradwr</value>
+  </data>
+  <data name="DevicesPage_Status_Connect" xml:space="preserve">
+    <value>Cysylltu</value>
+  </data>
+  <data name="DevicesPage_Status_Connected" xml:space="preserve">
+    <value>Cysylltiedig</value>
+  </data>
+  <data name="DevicesPage_Status_Connecting" xml:space="preserve">
+    <value>Cysylltiol...</value>
+  </data>
+  <data name="DevicesPage_Status_Off" xml:space="preserve">
+    <value>BANT</value>
+  </data>
+  <data name="DevicesPage_Status_On" xml:space="preserve">
+    <value>AR</value>
+  </data>
+  <data name="DevicesPager_PersonTwo_Speaker.Text" xml:space="preserve">
+    <value>Person dau siaradwr</value>
+  </data>
+  <data name="EnterPasscodeDialog_Description.Text" xml:space="preserve">
+    <value>Rhowch eich cod pasio i gael mynediad i'r dudalen gosodiadau</value>
+  </data>
+  <data name="EnterPasscodeDialog_ForgotPasscode.Content" xml:space="preserve">
+    <value>Forgot Passcode?</value>
+  </data>
+  <data name="EnterPasscodeDialog_InvalidPasscode.Text" xml:space="preserve">
+    <value>Cod Pasio annilys! Rhowch gynnig arni eto.</value>
+  </data>
+  <data name="EnterPasscodeDialog_Passcode.Text" xml:space="preserve">
+    <value>Cod Pasio</value>
+  </data>
+  <data name="EnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Rhowch eich cod pasio</value>
+  </data>
+  <data name="IAgree.Content" xml:space="preserve">
+    <value>Rwy'n cytuno</value>
+  </data>
+  <data name="InvalidLicenseDialog_Description.Text" xml:space="preserve">
+    <value>Methodd dilysu eich trwydded</value>
+  </data>
+  <data name="InvalidLicenseDialog_Title.Text" xml:space="preserve">
+    <value>Trwydded annilys</value>
+  </data>
+  <data name="LoginFailedDialog_Button.Content" xml:space="preserve">
+    <value>Cer nôl</value>
+  </data>
+  <data name="LoginFailedDialog_Description.Text" xml:space="preserve">
+    <value>Methodd eich ymgais fewngofnodi.</value>
+  </data>
+  <data name="LoginFailedDialog_Title.Text" xml:space="preserve">
+    <value>Wedi methu mewngofnodi</value>
+  </data>
+  <data name="Main_Title.Text" xml:space="preserve">
+    <value>Prif</value>
+  </data>
+  <data name="PasswordPopup_SetupTitle.Text" xml:space="preserve">
+    <value>Gosod cod pasio</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Description1.Text" xml:space="preserve">
+    <value>Ail-nodwch eich cod pasio i barhau i olygu...</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Ail-gydio yn eich cod pasio</value>
+  </data>
+  <data name="RenterPasscodeDialog_Description2.Text" xml:space="preserve">
+    <value>Arbed auto a mynd yn ôl adref</value>
+  </data>
+  <data name="Save.Content" xml:space="preserve">
+    <value>Achub</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Description.Text" xml:space="preserve">
+    <value>Mae hon yn dudalen sampl a fydd yn dangos paramedrau actifadu os yw'r ap yn cael ei actifadu o Deep Linking.</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Title.Text" xml:space="preserve">
+    <value>SchemeActivationSample</value>
+  </data>
+  <data name="SetPasscodeDialog_ConfirmPasscode.Text" xml:space="preserve">
+    <value>Cadarnhau cod pasio newydd </value>
+  </data>
+  <data name="SetPasscodeDialog_NewPasscode.Text" xml:space="preserve">
+    <value>Cod Pasio Newydd</value>
+  </data>
+  <data name="SetPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Gosod cod pasio</value>
+  </data>
+  <data name="Settings_About.Text" xml:space="preserve">
+    <value>Am y cais hwn</value>
+  </data>
+  <data name="Settings_AboutDescription.Text" xml:space="preserve">
+    <value>Gosodiadau testun placeholder tudalen.  Mae eich disgrifiad ap yn mynd yma.</value>
+  </data>
+  <data name="Settings_Personalization.Text" xml:space="preserve">
+    <value>Personoli</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.Content" xml:space="preserve">
+    <value>Datganiad Preifatrwydd</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.NavigateUri" xml:space="preserve">
+    <value>https://YourPrivacyUrlGoesHere/</value>
+  </data>
+  <data name="Settings_Theme_Dark.Content" xml:space="preserve">
+    <value>Tywyll</value>
+  </data>
+  <data name="Settings_Theme_Default.Content" xml:space="preserve">
+    <value>Mae Windows yn ddiofyn</value>
+  </data>
+  <data name="Settings_Theme_Light.Content" xml:space="preserve">
+    <value>Golau</value>
+  </data>
+  <data name="Settings_Theme.Text" xml:space="preserve">
+    <value>Dewis thema</value>
+  </data>
+  <data name="Settings_Title.Text" xml:space="preserve">
+    <value>Gosodiadau</value>
+  </data>
+  <data name="SettingsPage_Devices" xml:space="preserve">
+    <value>Dyfeisiau</value>
+  </data>
+  <data name="SettingsPage_Language" xml:space="preserve">
+    <value>Iaith</value>
+  </data>
+  <data name="SettingsPage_Profile" xml:space="preserve">
+    <value>Proffil</value>
+  </data>
+  <data name="SettingsPage_Questions" xml:space="preserve">
+    <value>Cwestiynau</value>
+  </data>
+  <data name="SettingsPage_Title" xml:space="preserve">
+    <value>Gosodiadau</value>
+  </data>
+  <data name="ShellView_Help" xml:space="preserve">
+    <value>Helpu</value>
+  </data>
+  <data name="ShellView_History" xml:space="preserve">
+    <value>Hanes</value>
+  </data>
+  <data name="ShellView_Home" xml:space="preserve">
+    <value>Cartref</value>
+  </data>
+  <data name="ShellView_Settings.Text" xml:space="preserve">
+    <value>Gosodiadau</value>
+  </data>
+  <data name="Sign_In.Text" xml:space="preserve">
+    <value>Mewngofnodi</value>
+  </data>
+  <data name="SignInDialog_Description.Text" xml:space="preserve">
+    <value>Cyfathrebu'n syth mewn sawl iaith fyd-eang gyda'ch dyfais Jabra.</value>
+  </data>
+  <data name="SignInDialog_SignInButton.Content" xml:space="preserve">
+    <value>Mewngofnodi</value>
+  </data>
+  <data name="Translate_Button.Text" xml:space="preserve">
+    <value>Cyfieithu</value>
+  </data>
+  <data name="TranslationPage_EndSession.Text" xml:space="preserve">
+    <value>Diwedd y sesiwn</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOn" xml:space="preserve">
+    <value>Meicroffon On</value>
+  </data>
+  <data name="TranslationPage_SpeakerOn" xml:space="preserve">
+    <value>Siaradwr Ar</value>
+  </data>
+  <data name="TranslationPage_SpeakNow.Text" xml:space="preserve">
+    <value>Siarad Nawr</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Ynghylch</value>
+  </data>
+  <data name="AboutPage_AppVersion.Text" xml:space="preserve">
+    <value>Fersiwn cais</value>
+  </data>
+  <data name="AboutPage_CheckUpdate.Content" xml:space="preserve">
+    <value>Chwilio am ddiweddariadau</value>
+  </data>
+  <data name="AboutPage_DataConsent" xml:space="preserve">
+    <value>Mae eich sefydliad wedi rhoi caniatâd i arbed eich data yn y cwmwl.</value>
+  </data>
+  <data name="AboutPage_NoDataConsent" xml:space="preserve">
+    <value>Nid yw eich sefydliad wedi rhoi caniatâd i arbed eich data yn y cwmwl.</value>
+  </data>
+  <data name="AboutPage_Published.Text" xml:space="preserve">
+    <value>Cyhoeddwyd gan FITTS Limited.</value>
+  </data>
+  <data name="AppClose_Close.Content" xml:space="preserve">
+    <value>Cau beth bynnag</value>
+  </data>
+  <data name="AppClose_Dismiss.Content" xml:space="preserve">
+    <value>Canslo</value>
+  </data>
+  <data name="AppClose_Warning.Text" xml:space="preserve">
+    <value>Mae gennych chi sesiwn ar y gweill. Dewch â'r sesiwn i ben cyn ymadael â'r cais.</value>
+  </data>
+  <data name="AppVersion.Text" xml:space="preserve">
+    <value>Fersiwn app</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Button.Content" xml:space="preserve">
+    <value>Sesiwn Barhaus</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Description.Text" xml:space="preserve">
+    <value>Daw'r sesiwn i ben yn</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Title.Text" xml:space="preserve">
+    <value>Sain heb ei ganfod</value>
+  </data>
+  <data name="AudioPlayer_Error.Text" xml:space="preserve">
+    <value>Methu llwytho sain</value>
+  </data>
+  <data name="DashboardPage_DefaultLanguageError" xml:space="preserve">
+    <value>Nid ydych wedi arbed Iaith Gyfieithu Rhagosodedig. Ewch i Gosodiadau -&gt; Ieithoedd i ddewis Iaith Gyfieithu Ddiofyn yna cliciwch ar Cadw.</value>
+  </data>
+  <data name="DashboardPage_TargetLanguageError" xml:space="preserve">
+    <value>Nid ydych wedi dewis Iaith Gyfieithu Targed. Dewiswch iaith yn garedig yna cliciwch ar Translate.</value>
+  </data>
+  <data name="DevicesErrorDialog_DualDeviceError" xml:space="preserve">
+    <value>Rydych wedi dewis cyfieithiad Dyfais Ddeuol ond nid oes gennych ddyfais(au) wedi'i dewis ar gyfer Person 2. Ewch i Settings -&gt; Dyfeisiau i ddewis Meicroffon a Siaradwr yna cliciwch ar Cadw.</value>
+  </data>
+  <data name="DevicesPage_Title.Text" xml:space="preserve">
+    <value>Dyfeisiau</value>
+  </data>
+  <data name="DevicesPage_Wifi_Password.Text" xml:space="preserve">
+    <value>Rhowch Cyfrinair</value>
+  </data>
+  <data name="DevicesPage_WifiStatus.Text" xml:space="preserve">
+    <value>Statws Wifi</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Golygu</value>
+  </data>
+  <data name="Expiry.Text" xml:space="preserve">
+    <value>Diwedd</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Adborth</value>
+  </data>
+  <data name="FeedbackMessage.Text" xml:space="preserve">
+    <value>Os oes gennych unrhyw adborth neu ymholiadau, peidiwch ag oedi i gysylltu â ni.</value>
+  </data>
+  <data name="GetInTouchButton.Text" xml:space="preserve">
+    <value>Cysylltu â ni</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Helpu</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>Hanes</value>
+  </data>
+  <data name="History_ExportBtn.Text" xml:space="preserve">
+    <value>Allforio</value>
+  </data>
+  <data name="HistoryExportButtonTooltip.Text" xml:space="preserve">
+    <value>Allforio</value>
+  </data>
+  <data name="HistoryListColumnDate.Text" xml:space="preserve">
+    <value>Dyddiad</value>
+  </data>
+  <data name="HistoryListColumnDuration.Text" xml:space="preserve">
+    <value>Hyd</value>
+  </data>
+  <data name="HistoryListColumnPrimaryLanguage.Text" xml:space="preserve">
+    <value>Iaith Gynradd</value>
+  </data>
+  <data name="HistoryListColumnSecondaryLanguage.Text" xml:space="preserve">
+    <value>Iaith Uwchradd</value>
+  </data>
+  <data name="HistoryListColumnSessionId.Text" xml:space="preserve">
+    <value>ID Sesiwn</value>
+  </data>
+  <data name="InitalSetup_SkipSetup.Content" xml:space="preserve">
+    <value>Skip setup</value>
+  </data>
+  <data name="InitialNetworkPopupConnectButton.Content" xml:space="preserve">
+    <value>Cysylltu</value>
+  </data>
+  <data name="InitialSetup_DeviceSelection.Text" xml:space="preserve">
+    <value>Dewis Dyfais</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionDescription.Text" xml:space="preserve">
+    <value>Sefydlu eich dyfais sain ddiofyn</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneMicrophone.Text" xml:space="preserve">
+    <value>Dewis meicroffon</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneSpeaker.Text" xml:space="preserve">
+    <value>Dewis Siaradwr</value>
+  </data>
+  <data name="InitialSetup_FinishSetup.Content" xml:space="preserve">
+    <value>Gorffen setup</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection_Description.Text" xml:space="preserve">
+    <value>Sefydlu eich iaith gyfieithu ddiofyn</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection.Text" xml:space="preserve">
+    <value>Dewis Iaith</value>
+  </data>
+  <data name="InitialSetup_NetworkSelection.Text" xml:space="preserve">
+    <value>Rhwydwaith sy'n cael ei ffafrio</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopup.Text" xml:space="preserve">
+    <value>Cysylltu â rhwydwaith</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopupPassword.Text" xml:space="preserve">
+    <value>Rhowch Cyfrinair:</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionDescription.Text" xml:space="preserve">
+    <value>Dewiswch o un o'r rhwydweithiau sydd ar gael</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionNoInternetConnection.Text" xml:space="preserve">
+    <value>Nid ydych wedi eich cysylltu â'r rhyngrwyd. Gwiriwch eich cysylltiadau rhwydwaith.</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionOtherNetworks.Text" xml:space="preserve">
+    <value>Rhwydweithiau Eraill</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup_Description.Text" xml:space="preserve">
+    <value>Gosod eich cod pasio app</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup.Text" xml:space="preserve">
+    <value>Setup Cod Pasio</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Iaith</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage_Description.Text" xml:space="preserve">
+    <value>Dewiswch Iaith Cais</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage.Text" xml:space="preserve">
+    <value>Iaith ap</value>
+  </data>
+  <data name="LanguagesPage_AppLanguageDropdown.PlaceholderText" xml:space="preserve">
+    <value>Dewiswch iaith</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage_Description.Text" xml:space="preserve">
+    <value>Yr iaith ddiofyn rydych chi'n ei defnyddio</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage.Text" xml:space="preserve">
+    <value>Fy iaith ddiofyn</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguageDropDown.PlaceholderText" xml:space="preserve">
+    <value>Dewiswch iaith</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description.Text" xml:space="preserve">
+    <value>Adran hanes (ar gyfer cyfieithiadau aml-ddyfais)</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description1.Text" xml:space="preserve">
+    <value>* Mae cyfieithiadau un ddyfais yn chwarae pob sain yn ddiofyn *</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage.Text" xml:space="preserve">
+    <value>Iaith Chwarae Diofyn</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguages.Text" xml:space="preserve">
+    <value>Gweld yn gyflym Ieithoedd</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguagesDropdown.PlaceholderText" xml:space="preserve">
+    <value>Ychwanegu iaith</value>
+  </data>
+  <data name="LanguagesPage_Title.Text" xml:space="preserve">
+    <value>Ieithoedd</value>
+  </data>
+  <data name="Licence" xml:space="preserve">
+    <value>Trwydded</value>
+  </data>
+  <data name="LicenseType.Text" xml:space="preserve">
+    <value>Math o drwydded:</value>
+  </data>
+  <data name="NetworkConnectionError" xml:space="preserve">
+    <value>Gwall:</value>
+  </data>
+  <data name="Next.Content" xml:space="preserve">
+    <value>Nesaf</value>
+  </data>
+  <data name="PasscodeError_MinimumLength" xml:space="preserve">
+    <value>Dylai isafswm hyd y cod pasio fod yn 4.</value>
+  </data>
+  <data name="PasscodeError_NotMatching" xml:space="preserve">
+    <value>Nid yw'r codau pasio a gofnodwyd yn cyfateb. Yn garedig iawn ail-gydio yn y codau pasio yna ceisiwch eto.</value>
+  </data>
+  <data name="Person.Text" xml:space="preserve">
+    <value>Person</value>
+  </data>
+  <data name="PrivacyPolicy.Text" xml:space="preserve">
+    <value>Polisi Preifatrwydd</value>
+  </data>
+  <data name="ProfilePage_Email_Description.Text" xml:space="preserve">
+    <value>E-bost allforio diofyn</value>
+  </data>
+  <data name="ProfilePage_Email.Text" xml:space="preserve">
+    <value>E-bost</value>
+  </data>
+  <data name="ProfilePage_Passcode_Description.Text" xml:space="preserve">
+    <value>Eich cod pasio cais</value>
+  </data>
+  <data name="ProfilePage_Passcode.Text" xml:space="preserve">
+    <value>Cod Pasio</value>
+  </data>
+  <data name="ProfilePage_Timeout_Description.Text" xml:space="preserve">
+    <value>Amlder clo'r modd gweinyddol</value>
+  </data>
+  <data name="ProfilePage_Timeout.Text" xml:space="preserve">
+    <value>Admin mode timeout</value>
+  </data>
+  <data name="ProfilePage_TimeoutDropdown.PlaceholderText" xml:space="preserve">
+    <value>Dewis amser</value>
+  </data>
+  <data name="ProfilePage_Title.Text" xml:space="preserve">
+    <value>Proffil</value>
+  </data>
+  <data name="PublishedBy.Text" xml:space="preserve">
+    <value>Cyhoeddwyd gan</value>
+  </data>
+  <data name="ReleaseNotesMessage.Text" xml:space="preserve">
+    <value>Bydd nodiadau rhyddhau yn cael eu diweddaru'n fuan</value>
+  </data>
+  <data name="Save_Text" xml:space="preserve">
+    <value>Achub</value>
+  </data>
+  <data name="SessionDetailsPage_Description.Text" xml:space="preserve">
+    <value>Hanes Trawsgrifio</value>
+  </data>
+  <data name="SessionDetailsPage_Duration.Text" xml:space="preserve">
+    <value>Hyd</value>
+  </data>
+  <data name="SessionDetailsPage_SessionID.Text" xml:space="preserve">
+    <value>ID Sesiwn</value>
+  </data>
+  <data name="SessionDetailsPage_Title.Text" xml:space="preserve">
+    <value>Hanes</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Gosodiadau</value>
+  </data>
+  <data name="TermsOfUse.Text" xml:space="preserve">
+    <value>Telerau Defnyddio</value>
+  </data>
+  <data name="TranslationPage_SettingUpState" xml:space="preserve">
+    <value>Sefydlu...</value>
+  </data>
+  <data name="TranslationPage_SpeakFast" xml:space="preserve">
+    <value>Rhowch gynnig ar siarad ychydig yn gyflymach ar gyfer canlyniadau cyfieithu gwell.</value>
+  </data>
+  <data name="TranslationPage_SpeakIn" xml:space="preserve">
+    <value>Siarad yn</value>
+  </data>
+  <data name="TranslationPage_SpeakSlow" xml:space="preserve">
+    <value>Ceisiwch siarad ychydig yn arafach am ganlyniadau cyfieithu gwell.</value>
+  </data>
+  <data name="TranslationPage_Switching" xml:space="preserve">
+    <value>Newid</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonOne" xml:space="preserve">
+    <value>Newid i berson 1</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonTwo" xml:space="preserve">
+    <value>Newid i berson 2</value>
+  </data>
+  <data name="TranslationPage_TranslationReadyState" xml:space="preserve">
+    <value>Siarad nawr</value>
+  </data>
+  <data name="Website.Text" xml:space="preserve">
+    <value>Gwefan</value>
+  </data>
+  <data name="WhatsNew" xml:space="preserve">
+    <value>Beth sy'n newydd</value>
+  </data>
+  <data name="WhatsNewInSpeechly.Text" xml:space="preserve">
+    <value>Beth sy'n newydd yn</value>
+  </data>
+  <data name="AudioDevicesSelectorDualDevice.Content" xml:space="preserve">
+    <value>Dyfais Ddeuol</value>
+  </data>
+  <data name="AudioDevicesSelectorSingleDevice.Content" xml:space="preserve">
+    <value>Dyfais Sengl</value>
+  </data>
+  <data name="AutoDetectSearchCountry.PlaceholderText" xml:space="preserve">
+    <value>Chwilio'r wlad</value>
+  </data>
+  <data name="AutoDetectSelectLanguage.Text" xml:space="preserve">
+    <value>Dewis eich iaith</value>
+  </data>
+  <data name="ChatViewPersonOne" xml:space="preserve">
+    <value>Person Un</value>
+  </data>
+  <data name="ChatViewPersonTwo" xml:space="preserve">
+    <value>Person Dau</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionLost" xml:space="preserve">
+    <value>Colli cysylltiad rhyngrwyd. Gwiriwch yn garedig eich cysylltiad yna ceisiwch eto.</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionUnstable" xml:space="preserve">
+    <value>Mae eich cysylltiad rhyngrwyd yn araf. Efallai y byddwch chi'n profi rhywfaint o lag.</value>
+  </data>
+  <data name="CustomTagSelectionTitle.Text" xml:space="preserve">
+    <value>Tagiau sefydliad (dewiswch i ychwanegu)</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.Header" xml:space="preserve">
+    <value>Baner defnyddiwr i newid iaith</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OffContent" xml:space="preserve">
+    <value>Anabl</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OnContent" xml:space="preserve">
+    <value>Galluog</value>
+  </data>
+  <data name="DetectLanguageButton.Content" xml:space="preserve">
+    <value>Canfod Iaith</value>
+  </data>
+  <data name="DevicesPageNetworkSetupBluetoothStatus.Text" xml:space="preserve">
+    <value>Statws Bluetooth :</value>
+  </data>
+  <data name="DevicesPageNetworkSetupConnectAutomatically.Text" xml:space="preserve">
+    <value>Cysylltu yn awtomatig</value>
+  </data>
+  <data name="DevicesPageNetworkSetupWiFiStatus.Text" xml:space="preserve">
+    <value>Statws WiFi :</value>
+  </data>
+  <data name="Dimiss.Content" xml:space="preserve">
+    <value>Canslo</value>
+  </data>
+  <data name="Duration.Text" xml:space="preserve">
+    <value>|  Hyd</value>
+  </data>
+  <data name="EmailPopup_Description.Text" xml:space="preserve">
+    <value>Rhowch eich cyfeiriad e-bost</value>
+  </data>
+  <data name="EmailPopup_Title.Text" xml:space="preserve">
+    <value>E-bostiwch eich sesiwn</value>
+  </data>
+  <data name="ForcedUpdateDialogCaption" xml:space="preserve">
+    <value>Mae gennym ddiweddariadau beirniadol ar gyfer</value>
+  </data>
+  <data name="ForcedUpdateDialogInstallBtnText" xml:space="preserve">
+    <value>Diweddaru</value>
+  </data>
+  <data name="ForcedUpdateDialogTitle" xml:space="preserve">
+    <value>Diweddariadau Beirniadol</value>
+  </data>
+  <data name="GoBack.Content" xml:space="preserve">
+    <value>Cer nôl</value>
+  </data>
+  <data name="HelpPageSignOut.Content" xml:space="preserve">
+    <value>Logio</value>
+  </data>
+  <data name="History_Export.Text" xml:space="preserve">
+    <value>Cynhyrchu ffeil...</value>
+  </data>
+  <data name="HistoryListColumnSessionName.Text" xml:space="preserve">
+    <value>Enw</value>
+  </data>
+  <data name="HistoryListColumnSynced.Text" xml:space="preserve">
+    <value>Synced</value>
+  </data>
+  <data name="HistorySearchBox.PlaceholderText" xml:space="preserve">
+    <value>Iaith, enw'r sesiwn, tagiau neu IDs</value>
+  </data>
+  <data name="HistorySearchButtonTooltip.Text" xml:space="preserve">
+    <value>Chwilio</value>
+  </data>
+  <data name="HistorySearchClearButtonTooltip.Text" xml:space="preserve">
+    <value>Clirio</value>
+  </data>
+  <data name="HistorySearchFromDate.Header" xml:space="preserve">
+    <value>O:</value>
+  </data>
+  <data name="HistorySearchToDate.Header" xml:space="preserve">
+    <value>I:</value>
+  </data>
+  <data name="HistoryShareButtonTooltip.Text" xml:space="preserve">
+    <value>Rhannu/Anfon</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonOne.Text" xml:space="preserve">
+    <value>Person 1</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonTwo.Text" xml:space="preserve">
+    <value>Person 2</value>
+  </data>
+  <data name="LoginPageTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NewVersionDialogCaption" xml:space="preserve">
+    <value>Gosod fersiwn app newydd o</value>
+  </data>
+  <data name="NewVersionDialogDescription" xml:space="preserve">
+    <value>Bydd nodweddion newydd a datrysiadau byg ar goll o </value>
+  </data>
+  <data name="NewVersionDialogInstallBtnText" xml:space="preserve">
+    <value>Gosod Fersiwn Newydd</value>
+  </data>
+  <data name="NewVersionDialogTitle" xml:space="preserve">
+    <value>Fersiwn ap newydd</value>
+  </data>
+  <data name="NextText" xml:space="preserve">
+    <value>Nesaf</value>
+  </data>
+  <data name="ProfilePageEditButton.Content" xml:space="preserve">
+    <value>Golygu</value>
+  </data>
+  <data name="QuestionsButton.Content" xml:space="preserve">
+    <value>Gweld Cwestiynau</value>
+  </data>
+  <data name="QuestionSettingsDescription.Text" xml:space="preserve">
+    <value>Gweld neu addasu eich llwybrau byr cwestiwn</value>
+  </data>
+  <data name="QuestionSettingsInstructionOne.Text" xml:space="preserve">
+    <value>* Defnyddiwch rifau 1-9 ar gyfer pob cwestiwn. Ni fydd sero (0) yn cael ei ystyried.</value>
+  </data>
+  <data name="QuestionSettingsInstructionThree.Text" xml:space="preserve">
+    <value>* Gallwch chi ond neilltuo llwybrau byr i 9 cwestiwn.</value>
+  </data>
+  <data name="QuestionSettingsListTitle.Text" xml:space="preserve">
+    <value>Rhestr Cwestiynau :</value>
+  </data>
+  <data name="ResellerEmailAddress.Text" xml:space="preserve">
+    <value>Cyfeiriad E-bost Reseller :</value>
+  </data>
+  <data name="ResellerName.Text" xml:space="preserve">
+    <value>Enw Reseller :</value>
+  </data>
+  <data name="SelectFlag.Text" xml:space="preserve">
+    <value>Dewiswch eich baner:</value>
+  </data>
+  <data name="Send.Content" xml:space="preserve">
+    <value>Anfon</value>
+  </data>
+  <data name="SessionDetailsPage_SessionName.Text" xml:space="preserve">
+    <value>Enw Sesiwn</value>
+  </data>
+  <data name="SessionID.Text" xml:space="preserve">
+    <value>ID Sesiwn : -</value>
+  </data>
+  <data name="SessionMetadataDialog_ContinueButton.Text" xml:space="preserve">
+    <value>Parhau</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTags.Text" xml:space="preserve">
+    <value>Tag(au) arferol</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Rhowch enw tag yma</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextboxHelper.Text" xml:space="preserve">
+    <value>Rhoi'r Wasg Enter</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTags.Text" xml:space="preserve">
+    <value>Tag(au) diofyn</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Rhowch werth yma</value>
+  </data>
+  <data name="SessionMetadataDialog_Description.Text" xml:space="preserve">
+    <value>Caeau gorfodol yn cael eu marcio â '</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionName.Text" xml:space="preserve">
+    <value>Enw Sesiwn</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionNameTextbox.PlaceholderText" xml:space="preserve">
+    <value>e.e sero claf</value>
+  </data>
+  <data name="SessionMetadataDialog_Title.Text" xml:space="preserve">
+    <value>Ychwanegu enw sesiwn a tagiau</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorActionMessage" xml:space="preserve">
+    <value>Cysylltwch â'ch gweinyddwr i actifadu eich cyfrif.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorMessage" xml:space="preserve">
+    <value>Mae eich cyfrif wedi cael ei ddadactifadu.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorActionMessage" xml:space="preserve">
+    <value>Cysylltwch â'ch gweinyddwr i greu eich cyfrif.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorMessage" xml:space="preserve">
+    <value>Mae eich cyfrif wedi'i dileu.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorActionMessage" xml:space="preserve">
+    <value>Cysylltwch â'ch gweinyddwr er mwyn galluogi eich cyfrif.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorMessage" xml:space="preserve">
+    <value>Mae eich cyfrif wedi bod yn anabl.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorActionMessage" xml:space="preserve">
+    <value>Cysylltwch â'ch gweinyddwr i greu eich cyfrif.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorMessage" xml:space="preserve">
+    <value>Nid oes gennych Gyfrif gweithredol.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorActionMessage" xml:space="preserve">
+    <value>Cysylltwch â'ch gweinyddwr i adnewyddu eich trwydded.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorMessage" xml:space="preserve">
+    <value>Mae eich trwydded wedi dod i ben.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorActionMessage" xml:space="preserve">
+    <value>Cysylltwch â'ch gweinyddwr i actifadu eich trwydded.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorMessage" xml:space="preserve">
+    <value>Mae eich trwydded wedi cael ei dadactifadu.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorActionMessage" xml:space="preserve">
+    <value>Cysylltwch â'ch gweinyddwr.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorMessage" xml:space="preserve">
+    <value>Mae eich trwydded wedi ei hatal.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorActionMessage" xml:space="preserve">
+    <value>Cysylltwch â'ch gweinyddwr i neilltuo trwydded i chi.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorMessage" xml:space="preserve">
+    <value>Nid oes gennych drwydded a neilltuwyd i chi.</value>
+  </data>
+  <data name="StartupPage2020.Text" xml:space="preserve">
+    <value>2021 </value>
+  </data>
+  <data name="StartupPageErrorDescription.Text" xml:space="preserve">
+    <value>Digwyddodd gwall. Gwiriwch eich Cysylltiad Rhyngrwyd yna ceisiwch eto.</value>
+  </data>
+  <data name="StartupPagePoweredBy.Text" xml:space="preserve">
+    <value>Wedi'i bweru gan </value>
+  </data>
+  <data name="StartupPageProgressDescription.Text" xml:space="preserve">
+    <value>Gallai hyn gymryd ychydig eiliadau</value>
+  </data>
+  <data name="StartupPageRetryButton.Content" xml:space="preserve">
+    <value>Ailgynnig</value>
+  </data>
+  <data name="StartupPageRightsReserved.Text" xml:space="preserve">
+    <value>Cedwir pob hawl.</value>
+  </data>
+  <data name="StartUpPageSettingUpMessage" xml:space="preserve">
+    <value>Sefydlu...</value>
+  </data>
+  <data name="StartupPageTitleDescription.Text" xml:space="preserve">
+    <value>Croeso i </value>
+  </data>
+  <data name="TranslateText" xml:space="preserve">
+    <value>Cyfieithu</value>
+  </data>
+  <data name="TranslationLicenceUseError" xml:space="preserve">
+    <value>Mae eich trwydded yn cael ei defnyddio ar hyn o bryd mewn sesiwn arall.</value>
+  </data>
+  <data name="TranslationLimitReachedError" xml:space="preserve">
+    <value>Rydych wedi cyrraedd eich terfyn amser uchaf fesul sesiwn. Sesiwn i ben.</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOff" xml:space="preserve">
+    <value>Meicroffon i ffwrdd</value>
+  </data>
+  <data name="TranslationPage_SpeakerOff" xml:space="preserve">
+    <value>Siaradwr i ffwrdd</value>
+  </data>
+  <data name="TranslationTimeDepletedError" xml:space="preserve">
+    <value>Mae eich cofnodion cyfieithu wedi eu disbyddu. Cysylltwch yn garedig â'ch gweinyddwr.</value>
+  </data>
+  <data name="UnsupportedVersionDialogBtntext" xml:space="preserve">
+    <value>Diweddaru</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption" xml:space="preserve">
+    <value>Mae angen diweddariadau beirniadol ar gyfer </value>
+  </data>
+  <data name="UnsupportedVersionDialogDescription" xml:space="preserve">
+    <value>Diweddaru eich ap i barhau i gael diweddariadau nodwedd a diogelwch.</value>
+  </data>
+  <data name="UnsupportedVersionDialogTitle" xml:space="preserve">
+    <value>Fersiwn ap heb gymorth</value>
+  </data>
+  <data name="UpdateDialogWhatsNew.Text" xml:space="preserve">
+    <value>Pa newydd?</value>
+  </data>
+  <data name="Zoom.Text" xml:space="preserve">
+    <value>Chwyddo</value>
+  </data>
+  <data name="Add.Content" xml:space="preserve">
+    <value>Adio</value>
+  </data>
+  <data name="AddNewQuestion.Text" xml:space="preserve">
+    <value>Ychwanegu cwestiwn newydd wedi'i ddiffinio ymlaen llaw</value>
+  </data>
+  <data name="AddQuestion.Content" xml:space="preserve">
+    <value>Ychwanegu Cwestiwn</value>
+  </data>
+  <data name="ChooseLanguage.Text" xml:space="preserve">
+    <value>Dewis yr iaith ddiofyn</value>
+  </data>
+  <data name="CustomProfileAdded" xml:space="preserve">
+    <value>Ychwanegodd enw proffil yn llwyddiannus.</value>
+  </data>
+  <data name="CustomProfileDeleted" xml:space="preserve">
+    <value>Proffil wedi ei ddileu'n llwyddiannus.</value>
+  </data>
+  <data name="CustomProfileInvalidName" xml:space="preserve">
+    <value>Gwall! Enw proffil annilys.</value>
+  </data>
+  <data name="CustomProfileNotDeleted" xml:space="preserve">
+    <value>Dim proffil i'w ddileu.</value>
+  </data>
+  <data name="CustomProfileNotSaved" xml:space="preserve">
+    <value>Gwall! Dim proffil wedi'i arbed.</value>
+  </data>
+  <data name="CustomProfileProfileSaved" xml:space="preserve">
+    <value>Arbedodd proffil yn llwyddiannus.</value>
+  </data>
+  <data name="DataRequestMessage" xml:space="preserve">
+    <value>Nid ydych wedi dewis unrhyw destun. Dewiswch destun i rannu a rhoi cynnig arall arni.</value>
+  </data>
+  <data name="DevicesAddProfileButton.Content" xml:space="preserve">
+    <value>Adio</value>
+  </data>
+  <data name="DevicesAvailableProfiles.Text" xml:space="preserve">
+    <value>Proffiliau sydd ar gael</value>
+  </data>
+  <data name="DevicesDefaultProfile.Text" xml:space="preserve">
+    <value>Proffil diofyn:</value>
+  </data>
+  <data name="DevicesDeleteProfileBtn.Content" xml:space="preserve">
+    <value>Dileu Proffil</value>
+  </data>
+  <data name="DeviceSetupChanged" xml:space="preserve">
+    <value>Dyfeisiau sain cysylltiedig wedi'u diweddaru </value>
+  </data>
+  <data name="DevicesHelpfulTip1.Text" xml:space="preserve">
+    <value>1. Gosod enw proffil</value>
+  </data>
+  <data name="DevicesHelpfulTip2.Text" xml:space="preserve">
+    <value>2. Dewiswch ddulliau dyfais sengl neu ddeuol</value>
+  </data>
+  <data name="DevicesHelpfulTip3.Text" xml:space="preserve">
+    <value>3. Dewis siaradwr(au) a meicroffon(au)</value>
+  </data>
+  <data name="DevicesHelpfulTip4.Text" xml:space="preserve">
+    <value>4. Gosodwch eich proffil yn ddiofyn</value>
+  </data>
+  <data name="DevicesHelpfulTip5.Text" xml:space="preserve">
+    <value>5. Cliciwch y Save Profile botwm i gadw'ch proffil</value>
+  </data>
+  <data name="DevicesHelpfulTips.Text" xml:space="preserve">
+    <value>Cynghorion defnyddiol</value>
+  </data>
+  <data name="DevicesProfileNameTextBox.PlaceholderText" xml:space="preserve">
+    <value>Enw proffil...</value>
+  </data>
+  <data name="DevicesSaveProfileBtn.Content" xml:space="preserve">
+    <value>Arbed Proffil</value>
+  </data>
+  <data name="DevicesSetasDefault.Text" xml:space="preserve">
+    <value>Gosod yn ddiofyn</value>
+  </data>
+  <data name="DevicesSetProfileButton.Content" xml:space="preserve">
+    <value>Gosod proffil</value>
+  </data>
+  <data name="DevicesSetProfileText.Text" xml:space="preserve">
+    <value>Gosod proffil arferiad?</value>
+  </data>
+  <data name="DiscardButton.Content" xml:space="preserve">
+    <value>Taflwch</value>
+  </data>
+  <data name="DismissButton.Content" xml:space="preserve">
+    <value>Diswyddo</value>
+  </data>
+  <data name="DismissText.Text" xml:space="preserve">
+    <value>Diswyddo</value>
+  </data>
+  <data name="DownloadAudio.Text" xml:space="preserve">
+    <value>Lawrlwytho Sain</value>
+  </data>
+  <data name="DownloadCancel" xml:space="preserve">
+    <value>Lawrlwytho canslo</value>
+  </data>
+  <data name="Downloaded" xml:space="preserve">
+    <value>Lawrlwytho</value>
+  </data>
+  <data name="DownloadError" xml:space="preserve">
+    <value>Camgymeriad wedi digwydd</value>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>Lawrlwytho</value>
+  </data>
+  <data name="DownloadPaused" xml:space="preserve">
+    <value>Lawrlwytho Paused</value>
+  </data>
+  <data name="DualDeviceUpdated" xml:space="preserve">
+    <value>Setup Dyfais Ddeuol wedi'i ddiweddaru'n llwyddiannus</value>
+  </data>
+  <data name="EnterQuestion.Text" xml:space="preserve">
+    <value>Rhowch gwestiwn isod</value>
+  </data>
+  <data name="ErrorDescription.Text" xml:space="preserve">
+    <value>Dydy eich newidiadau ddim wedi cael eu hachub, a ydych am eu hachub neu eu taflu?</value>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>Aeth rhywbeth o'i le.. Trio eto</value>
+  </data>
+  <data name="ErrorTitle.Text" xml:space="preserve">
+    <value>Mae gennych chi newidiadau heb eu cadw</value>
+  </data>
+  <data name="FeedbackEight.Text" xml:space="preserve">
+    <value>Roedden ni'n dal i dorri ar draws ein gilydd</value>
+  </data>
+  <data name="FeedbackFive.Text" xml:space="preserve">
+    <value>Clywais atsain yn yr alwad</value>
+  </data>
+  <data name="FeedbackFour.Text" xml:space="preserve">
+    <value>Cododd leisiau cefndir</value>
+  </data>
+  <data name="FeedbackOne.Text" xml:space="preserve">
+    <value>Ni chododd fy llais yn gywir</value>
+  </data>
+  <data name="FeedbackQuestion.Text" xml:space="preserve">
+    <value>Beth allai fod wedi bod yn well?</value>
+  </data>
+  <data name="FeedbackSeven.Text" xml:space="preserve">
+    <value>Daeth y sesiwn i ben yn annisgwyl</value>
+  </data>
+  <data name="FeedbackSix.Text" xml:space="preserve">
+    <value>Roedd y gyfrol yn rhy isel</value>
+  </data>
+  <data name="FeedbackThanks.Text" xml:space="preserve">
+    <value>Diolch am yr adborth</value>
+  </data>
+  <data name="FeedbackThree.Text" xml:space="preserve">
+    <value>Roedd yr amser cyfieithu yn rhy araf</value>
+  </data>
+  <data name="FeedbackTwo.Text" xml:space="preserve">
+    <value>Fe gamgyfieithodd fy brawddegau</value>
+  </data>
+  <data name="ForcedUpdateDialogCaptionContinuation" xml:space="preserve">
+    <value>i weithredu. Ni fydd y cais yn gweithio heb y diweddariadau hyn.</value>
+  </data>
+  <data name="Improvement.Text" xml:space="preserve">
+    <value>Byddwn yn parhau i weithio ar wella eich profiad.</value>
+  </data>
+  <data name="LanguageSettingsUpdated" xml:space="preserve">
+    <value>Newidiadau iaith wedi'u diweddaru'n succesful</value>
+  </data>
+  <data name="NewVersionDialogDescription2" xml:space="preserve">
+    <value>a'ch fersiwn chi o</value>
+  </data>
+  <data name="NewVersionDialogDescription3" xml:space="preserve">
+    <value>efallai na fydd yn cael ei gefnogi.</value>
+  </data>
+  <data name="Other.Text" xml:space="preserve">
+    <value>Sylwadau eraill:</value>
+  </data>
+  <data name="PasswordUpdated" xml:space="preserve">
+    <value>Cyfrinair wedi newid yn succesful</value>
+  </data>
+  <data name="PlaybackLanguageUpdated" xml:space="preserve">
+    <value>Iaith chwarae diofyn wedi newid Succesfully</value>
+  </data>
+  <data name="QuestionAdded" xml:space="preserve">
+    <value>Cwestiwn wedi ychwanegu'n llwyddiannus</value>
+  </data>
+  <data name="QuestionDeleted" xml:space="preserve">
+    <value>Cwestiwn wedi ei ddileu'n llwyddiannus</value>
+  </data>
+  <data name="Questions.Text" xml:space="preserve">
+    <value>Cwestiynau</value>
+  </data>
+  <data name="QuestionSettingsInstructionTwo.Text" xml:space="preserve">
+    <value>* Mae'n rhaid i bob cwestiwn gael allwedd shortcut gwahanol.</value>
+  </data>
+  <data name="QuestionsValidationError.Text" xml:space="preserve">
+    <value>* Gwiriwch eich dilysiadau a cheisiwch eto.</value>
+  </data>
+  <data name="QuickViewLanguagesUpdated" xml:space="preserve">
+    <value>Golwg cyflym languges wedi'i ddiweddaru Succesfully</value>
+  </data>
+  <data name="SendFeedback.Content" xml:space="preserve">
+    <value>Anfon Adborth</value>
+  </data>
+  <data name="SessionFeedbackPrompt" xml:space="preserve">
+    <value>Sut fyddech chi'n graddio eich sesiwn gyfieithu?</value>
+  </data>
+  <data name="SessionFeedbackTitle" xml:space="preserve">
+    <value>Adborth Cyfieithu</value>
+  </data>
+  <data name="ShortcutSuccess" xml:space="preserve">
+    <value>Cwestiynau llwybrau byr wedi'u diweddaru'n llwyddiannus</value>
+  </data>
+  <data name="SingleDeviceUpdated" xml:space="preserve">
+    <value>Setup Dyfais Sengl wedi'i ddiweddaru'n llwyddiannus</value>
+  </data>
+  <data name="StartupPageTitleDescription2.Text" xml:space="preserve">
+    <value>meddalwedd cyfieithu.</value>
+  </data>
+  <data name="TimeoutUpdated" xml:space="preserve">
+    <value>Timeout diweddaru Succesfully</value>
+  </data>
+  <data name="TouchShareText" xml:space="preserve">
+    <value>Cyfran Gyffwrdd</value>
+  </data>
+  <data name="TranslationLanguageUpdated" xml:space="preserve">
+    <value>Iaith gyfieithu ddiofyn wedi newid yn succesful</value>
+  </data>
+  <data name="TranslationPlaybackUpdated" xml:space="preserve">
+    <value>Cyfieithiad diofyn &amp; playback language wedi newid yn succesful</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption2" xml:space="preserve">
+    <value>i weithredu. Gall nodweddion roi'r gorau i weithio heb rybudd. Diweddaru'r cais os gwelwch yn dda.</value>
+  </data>
+  <data name="UserFlagSwitch" xml:space="preserve">
+    <value>Baner defnyddiwr i newid iaith wedi'i diweddaru</value>
+  </data>
+</root>

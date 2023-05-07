@@ -1,0 +1,1192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="AppDescription" xml:space="preserve">
+    <value>TalaTouchApp</value>
+  </data>
+  <data name="AppDisplayName" xml:space="preserve">
+    <value>TalaTouchApp</value>
+  </data>
+  <data name="AudioDeviceSelector_MicDropdown.PlaceholderText" xml:space="preserve">
+    <value>Välj en mikrofon</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneMic.Text" xml:space="preserve">
+    <value>Person En mikrofon</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneSpeaker.Text" xml:space="preserve">
+    <value>Person En högtalare</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoMic.Text" xml:space="preserve">
+    <value>Person två mikrofon</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoSpeaker.Text" xml:space="preserve">
+    <value>Person två högtalare</value>
+  </data>
+  <data name="AudioDeviceSelector_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>Välj en högtalare</value>
+  </data>
+  <data name="BluetoothPairingDialog_Description.Text" xml:space="preserve">
+    <value>Se till att enheten är påslagen och upptäckbar. Välj en enhet nedan för att ansluta.</value>
+  </data>
+  <data name="BluetoothPairingDialog_Title.Text" xml:space="preserve">
+    <value>Lägga till en enhet</value>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>Annullera</value>
+  </data>
+  <data name="ChangePasscodeDialog_Confirm.Text" xml:space="preserve">
+    <value>Bekräfta nytt lösenord</value>
+  </data>
+  <data name="ChangePasscodeDialog_Current.Text" xml:space="preserve">
+    <value>Aktuellt lösenord</value>
+  </data>
+  <data name="ChangePasscodeDialog_New.Text" xml:space="preserve">
+    <value>Nytt lösenord</value>
+  </data>
+  <data name="ChangePasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Ändra lösenord</value>
+  </data>
+  <data name="Close.Content" xml:space="preserve">
+    <value>Stänga</value>
+  </data>
+  <data name="ConsentDialog_Description1.Text" xml:space="preserve">
+    <value>Integritetsfrågor är vår främsta prioritet. (5) Du accepterar villkoren i denna sekretesspolicy med din mobiltelefon eller surfplatta, beroende på vad som är tillämpligt.</value>
+  </data>
+  <data name="ConsentDialog_Description2.Text" xml:space="preserve">
+    <value>Om du väljer att inte ge oss åtkomst när vi får en begäran om samtycke (sådana förfrågningar kommer att meddelas på www ICTS webbplats på:</value>
+  </data>
+  <data name="ConsentDialog_Description3.Text" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int</value>
+  </data>
+  <data name="ConsentDialog_Description4.Text" xml:space="preserve">
+    <value>), kan varken den angivna e-postadressen eller någon annan personlig information som kan identifiera en individ också komma i vår besittning när sådant tillstånd har beviljats.</value>
+  </data>
+  <data name="ConsentDialog_Description5.Text" xml:space="preserve">
+    <value>Genom att använda vissa delar: / Användningen av mig av min mobiltelefon / ikoner - vilket kan inkludera att tillåta andra i chattrum om produkter som</value>
+  </data>
+  <data name="ConsentDialog_HyperLink.NavigateUri" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int/</value>
+  </data>
+  <data name="ConsentDialog_Title.Text" xml:space="preserve">
+    <value>Vi värdesätter din integritet</value>
+  </data>
+  <data name="Dashboard_Choose_Language.Text" xml:space="preserve">
+    <value>Välj språk</value>
+  </data>
+  <data name="Dashboard_Hello.Text" xml:space="preserve">
+    <value>Hej</value>
+  </data>
+  <data name="Dashboard_SearchBox.PlaceholderText" xml:space="preserve">
+    <value>Sökspråk</value>
+  </data>
+  <data name="Dashboard_Welcome.Text" xml:space="preserve">
+    <value>Välkommen</value>
+  </data>
+  <data name="DevicesErrorDialog_NoDeviceError" xml:space="preserve">
+    <value>Du har inga sparade enheter. Gå till Inställningar -&gt; Enheter för att välja en mikrofon och en högtalare och klicka sedan på Spara.</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Description.Text" xml:space="preserve">
+    <value>Tillgängliga Bluetooth-enheter</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_DropDown.PlaceholderText" xml:space="preserve">
+    <value>Välj Bluetooth-enhet</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Scan.Text" xml:space="preserve">
+    <value>Avsöka</value>
+  </data>
+  <data name="DevicesPage_Bluetooth.Text" xml:space="preserve">
+    <value>Blåtand</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices_Description.Text" xml:space="preserve">
+    <value>Välj din ljudenhet</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices.Text" xml:space="preserve">
+    <value>Anslutna ljudenheter</value>
+  </data>
+  <data name="DevicesPage_MicDropDown.PlaceholderText" xml:space="preserve">
+    <value>Välj en mikrofon</value>
+  </data>
+  <data name="DevicesPage_Network_Description.Text" xml:space="preserve">
+    <value>Tillgängliga nätverk</value>
+  </data>
+  <data name="DevicesPage_Network_DropDown.PlaceholderText" xml:space="preserve">
+    <value>Välj ett nätverk</value>
+  </data>
+  <data name="DevicesPage_Network.Text" xml:space="preserve">
+    <value>Nätverk</value>
+  </data>
+  <data name="DevicesPage_NetworkError" xml:space="preserve">
+    <value>Inget nätverk har valts. Kontrollera dina nätverksanslutningar.</value>
+  </data>
+  <data name="DevicesPage_PersonOne_Speaker.Text" xml:space="preserve">
+    <value>Person en talare</value>
+  </data>
+  <data name="DevicesPage_PersonOneMic.Text" xml:space="preserve">
+    <value>Person en mikrofon</value>
+  </data>
+  <data name="DevicesPage_PersonTwo_Mic.Text" xml:space="preserve">
+    <value>Person två mikrofon</value>
+  </data>
+  <data name="DevicesPage_Scan" xml:space="preserve">
+    <value>Avsöka</value>
+  </data>
+  <data name="DevicesPage_Scanning" xml:space="preserve">
+    <value>Skanning...</value>
+  </data>
+  <data name="DevicesPage_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>Välj en högtalare</value>
+  </data>
+  <data name="DevicesPage_Status_Connect" xml:space="preserve">
+    <value>Ansluta</value>
+  </data>
+  <data name="DevicesPage_Status_Connected" xml:space="preserve">
+    <value>Ansluten</value>
+  </data>
+  <data name="DevicesPage_Status_Connecting" xml:space="preserve">
+    <value>Ansluta...</value>
+  </data>
+  <data name="DevicesPage_Status_Off" xml:space="preserve">
+    <value>BORT</value>
+  </data>
+  <data name="DevicesPage_Status_On" xml:space="preserve">
+    <value>PÅ</value>
+  </data>
+  <data name="DevicesPager_PersonTwo_Speaker.Text" xml:space="preserve">
+    <value>Person två talare</value>
+  </data>
+  <data name="EnterPasscodeDialog_Description.Text" xml:space="preserve">
+    <value>Ange ditt lösenord för att komma åt inställningssidan</value>
+  </data>
+  <data name="EnterPasscodeDialog_ForgotPasscode.Content" xml:space="preserve">
+    <value>Har du glömt lösenordet?</value>
+  </data>
+  <data name="EnterPasscodeDialog_InvalidPasscode.Text" xml:space="preserve">
+    <value>Ogiltigt lösenord! Försök igen.</value>
+  </data>
+  <data name="EnterPasscodeDialog_Passcode.Text" xml:space="preserve">
+    <value>Lösenord</value>
+  </data>
+  <data name="EnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Ange din lösenkod</value>
+  </data>
+  <data name="IAgree.Content" xml:space="preserve">
+    <value>Jag håller med</value>
+  </data>
+  <data name="InvalidLicenseDialog_Description.Text" xml:space="preserve">
+    <value>Din licensverifiering misslyckades</value>
+  </data>
+  <data name="InvalidLicenseDialog_Title.Text" xml:space="preserve">
+    <value>Ogiltig licens</value>
+  </data>
+  <data name="LoginFailedDialog_Button.Content" xml:space="preserve">
+    <value>Gå tillbaka</value>
+  </data>
+  <data name="LoginFailedDialog_Description.Text" xml:space="preserve">
+    <value>Ditt inloggningsförsök misslyckades.</value>
+  </data>
+  <data name="LoginFailedDialog_Title.Text" xml:space="preserve">
+    <value>Misslyckad inloggning</value>
+  </data>
+  <data name="Main_Title.Text" xml:space="preserve">
+    <value>Huvudsaklig</value>
+  </data>
+  <data name="PasswordPopup_SetupTitle.Text" xml:space="preserve">
+    <value>Ställ in ett lösenord</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Description1.Text" xml:space="preserve">
+    <value>Ange ditt lösenord igen för att fortsätta redigera ...</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Ange din lösenkod igen</value>
+  </data>
+  <data name="RenterPasscodeDialog_Description2.Text" xml:space="preserve">
+    <value>Spara automatiskt och gå hem</value>
+  </data>
+  <data name="Save.Content" xml:space="preserve">
+    <value>Spara</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Description.Text" xml:space="preserve">
+    <value>Det här är en exempelsida som visar aktiveringsparametrar om appen aktiveras från Deep Linking.</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Title.Text" xml:space="preserve">
+    <value>SchemeActivationSample</value>
+  </data>
+  <data name="SetPasscodeDialog_ConfirmPasscode.Text" xml:space="preserve">
+    <value>Bekräfta nytt lösenord </value>
+  </data>
+  <data name="SetPasscodeDialog_NewPasscode.Text" xml:space="preserve">
+    <value>Nytt lösenord</value>
+  </data>
+  <data name="SetPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Ställ in ett lösenord</value>
+  </data>
+  <data name="Settings_About.Text" xml:space="preserve">
+    <value>Om den här applikationen</value>
+  </data>
+  <data name="Settings_AboutDescription.Text" xml:space="preserve">
+    <value>Platshållartext för inställningssidan.  Din appbeskrivning finns här.</value>
+  </data>
+  <data name="Settings_Personalization.Text" xml:space="preserve">
+    <value>Personalisering</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.Content" xml:space="preserve">
+    <value>Meddelande om skydd av personuppgifter</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.NavigateUri" xml:space="preserve">
+    <value>https://YourPrivacyUrlGoesHere/</value>
+  </data>
+  <data name="Settings_Theme_Dark.Content" xml:space="preserve">
+    <value>Mörk</value>
+  </data>
+  <data name="Settings_Theme_Default.Content" xml:space="preserve">
+    <value>Windows standard</value>
+  </data>
+  <data name="Settings_Theme_Light.Content" xml:space="preserve">
+    <value>Ljus</value>
+  </data>
+  <data name="Settings_Theme.Text" xml:space="preserve">
+    <value>Välj tema</value>
+  </data>
+  <data name="Settings_Title.Text" xml:space="preserve">
+    <value>Inställningar</value>
+  </data>
+  <data name="SettingsPage_Devices" xml:space="preserve">
+    <value>Enheter</value>
+  </data>
+  <data name="SettingsPage_Language" xml:space="preserve">
+    <value>Språk</value>
+  </data>
+  <data name="SettingsPage_Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="SettingsPage_Questions" xml:space="preserve">
+    <value>Frågor</value>
+  </data>
+  <data name="SettingsPage_Title" xml:space="preserve">
+    <value>Inställningar</value>
+  </data>
+  <data name="ShellView_Help" xml:space="preserve">
+    <value>Hjälp</value>
+  </data>
+  <data name="ShellView_History" xml:space="preserve">
+    <value>Historia</value>
+  </data>
+  <data name="ShellView_Home" xml:space="preserve">
+    <value>Hem</value>
+  </data>
+  <data name="ShellView_Settings.Text" xml:space="preserve">
+    <value>Inställningar</value>
+  </data>
+  <data name="Sign_In.Text" xml:space="preserve">
+    <value>Logga in</value>
+  </data>
+  <data name="SignInDialog_Description.Text" xml:space="preserve">
+    <value>Kommunicera omedelbart på flera globala språk med din Jabra-enhet.</value>
+  </data>
+  <data name="SignInDialog_SignInButton.Content" xml:space="preserve">
+    <value>Logga in</value>
+  </data>
+  <data name="Translate_Button.Text" xml:space="preserve">
+    <value>Översätta</value>
+  </data>
+  <data name="TranslationPage_EndSession.Text" xml:space="preserve">
+    <value>Avsluta sessionen</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOn" xml:space="preserve">
+    <value>Mikrofon på</value>
+  </data>
+  <data name="TranslationPage_SpeakerOn" xml:space="preserve">
+    <value>Högtalare på</value>
+  </data>
+  <data name="TranslationPage_SpeakNow.Text" xml:space="preserve">
+    <value>Tala nu</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Om</value>
+  </data>
+  <data name="AboutPage_AppVersion.Text" xml:space="preserve">
+    <value>Ansökan Version</value>
+  </data>
+  <data name="AboutPage_CheckUpdate.Content" xml:space="preserve">
+    <value>Sök efter uppdateringar</value>
+  </data>
+  <data name="AboutPage_DataConsent" xml:space="preserve">
+    <value>Din organisation har gett sitt samtycke till att spara dina data i molnet.</value>
+  </data>
+  <data name="AboutPage_NoDataConsent" xml:space="preserve">
+    <value>Din organisation har inte gett sitt samtycke till att spara dina data i molnet.</value>
+  </data>
+  <data name="AboutPage_Published.Text" xml:space="preserve">
+    <value>Utgiven av FITTS Limited.</value>
+  </data>
+  <data name="AppClose_Close.Content" xml:space="preserve">
+    <value>Stäng ändå</value>
+  </data>
+  <data name="AppClose_Dismiss.Content" xml:space="preserve">
+    <value>Annullera</value>
+  </data>
+  <data name="AppClose_Warning.Text" xml:space="preserve">
+    <value>Du har en session på gång. Avsluta sessionen innan du avslutar ansökan.</value>
+  </data>
+  <data name="AppVersion.Text" xml:space="preserve">
+    <value>App-version</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Button.Content" xml:space="preserve">
+    <value>Fortsätt sessionen</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Description.Text" xml:space="preserve">
+    <value>Sessionen avslutas i</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Title.Text" xml:space="preserve">
+    <value>Ljudet upptäcktes inte</value>
+  </data>
+  <data name="AudioPlayer_Error.Text" xml:space="preserve">
+    <value>Det gick inte att ladda ljud</value>
+  </data>
+  <data name="DashboardPage_DefaultLanguageError" xml:space="preserve">
+    <value>Du har inget sparat standardöversättningsspråk. Gå till Inställningar -&gt; Språk för att välja ett standardöversättningsspråk och klicka sedan på Spara.</value>
+  </data>
+  <data name="DashboardPage_TargetLanguageError" xml:space="preserve">
+    <value>Du har inte valt ett målöversättningsspråk. Välj ett språk och klicka sedan på Översätt.</value>
+  </data>
+  <data name="DevicesErrorDialog_DualDeviceError" xml:space="preserve">
+    <value>Du har valt Översättning av dubbla enheter men du har inte valt en eller flera enheter för Person 2. Gå till Inställningar -&gt; Enheter för att välja en mikrofon och en högtalare och klicka sedan på Spara.</value>
+  </data>
+  <data name="DevicesPage_Title.Text" xml:space="preserve">
+    <value>Enheter</value>
+  </data>
+  <data name="DevicesPage_Wifi_Password.Text" xml:space="preserve">
+    <value>Ange lösenord</value>
+  </data>
+  <data name="DevicesPage_WifiStatus.Text" xml:space="preserve">
+    <value>Wifi-status</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Redigera</value>
+  </data>
+  <data name="Expiry.Text" xml:space="preserve">
+    <value>Utgången</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Feedback</value>
+  </data>
+  <data name="FeedbackMessage.Text" xml:space="preserve">
+    <value>Om du har någon feedback eller frågor tveka inte att höra av dig.</value>
+  </data>
+  <data name="GetInTouchButton.Text" xml:space="preserve">
+    <value>Kontakta oss</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Hjälp</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>Historia</value>
+  </data>
+  <data name="History_ExportBtn.Text" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="HistoryExportButtonTooltip.Text" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="HistoryListColumnDate.Text" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="HistoryListColumnDuration.Text" xml:space="preserve">
+    <value>Varaktighet</value>
+  </data>
+  <data name="HistoryListColumnPrimaryLanguage.Text" xml:space="preserve">
+    <value>Primärt språk</value>
+  </data>
+  <data name="HistoryListColumnSecondaryLanguage.Text" xml:space="preserve">
+    <value>Sekundärt språk</value>
+  </data>
+  <data name="HistoryListColumnSessionId.Text" xml:space="preserve">
+    <value>Sessions-ID</value>
+  </data>
+  <data name="InitalSetup_SkipSetup.Content" xml:space="preserve">
+    <value>Hoppa över installationen</value>
+  </data>
+  <data name="InitialNetworkPopupConnectButton.Content" xml:space="preserve">
+    <value>Ansluta</value>
+  </data>
+  <data name="InitialSetup_DeviceSelection.Text" xml:space="preserve">
+    <value>Val av enhet</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionDescription.Text" xml:space="preserve">
+    <value>Konfigurera din standardljudenhet</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneMicrophone.Text" xml:space="preserve">
+    <value>Välj mikrofon</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneSpeaker.Text" xml:space="preserve">
+    <value>Välj högtalare</value>
+  </data>
+  <data name="InitialSetup_FinishSetup.Content" xml:space="preserve">
+    <value>Slutför installationen</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection_Description.Text" xml:space="preserve">
+    <value>Konfigurera standardöversättningsspråk</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection.Text" xml:space="preserve">
+    <value>Val av språk</value>
+  </data>
+  <data name="InitialSetup_NetworkSelection.Text" xml:space="preserve">
+    <value>Föredraget nätverk</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopup.Text" xml:space="preserve">
+    <value>Anslut till nätverk</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopupPassword.Text" xml:space="preserve">
+    <value>Ange lösenord:</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionDescription.Text" xml:space="preserve">
+    <value>Välj från ett av de tillgängliga nätverken</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionNoInternetConnection.Text" xml:space="preserve">
+    <value>Du är inte ansluten till internet. Kontrollera dina nätverksanslutningar.</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionOtherNetworks.Text" xml:space="preserve">
+    <value>Andra nätverk</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup_Description.Text" xml:space="preserve">
+    <value>Konfigurera appens lösenkod</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup.Text" xml:space="preserve">
+    <value>Inställning av lösenord</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Språk</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage_Description.Text" xml:space="preserve">
+    <value>Välj programspråk</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage.Text" xml:space="preserve">
+    <value>Appens språk</value>
+  </data>
+  <data name="LanguagesPage_AppLanguageDropdown.PlaceholderText" xml:space="preserve">
+    <value>Välj ett språk</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage_Description.Text" xml:space="preserve">
+    <value>Standardspråket du använder</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage.Text" xml:space="preserve">
+    <value>Mitt standardspråk</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguageDropDown.PlaceholderText" xml:space="preserve">
+    <value>Välj ett språk</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description.Text" xml:space="preserve">
+    <value>Historikavsnitt (för översättningar av flera enheter)</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description1.Text" xml:space="preserve">
+    <value>* Översättningar av en enhet spelar upp allt ljud som standard *</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage.Text" xml:space="preserve">
+    <value>Standardspråk för uppspelning</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguages.Text" xml:space="preserve">
+    <value>Språk för snabbvy</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguagesDropdown.PlaceholderText" xml:space="preserve">
+    <value>Lägga till ett språk</value>
+  </data>
+  <data name="LanguagesPage_Title.Text" xml:space="preserve">
+    <value>Språk</value>
+  </data>
+  <data name="Licence" xml:space="preserve">
+    <value>Licens</value>
+  </data>
+  <data name="LicenseType.Text" xml:space="preserve">
+    <value>Typ av licens:</value>
+  </data>
+  <data name="NetworkConnectionError" xml:space="preserve">
+    <value>Fel:</value>
+  </data>
+  <data name="Next.Content" xml:space="preserve">
+    <value>Nästa</value>
+  </data>
+  <data name="PasscodeError_MinimumLength" xml:space="preserve">
+    <value>Minsta lösenordslängd bör vara 4.</value>
+  </data>
+  <data name="PasscodeError_NotMatching" xml:space="preserve">
+    <value>De angivna lösenorden matchar inte. Ange lösenorden igen och försök sedan igen.</value>
+  </data>
+  <data name="Person.Text" xml:space="preserve">
+    <value>Person</value>
+  </data>
+  <data name="PrivacyPolicy.Text" xml:space="preserve">
+    <value>Integritetspolicy</value>
+  </data>
+  <data name="ProfilePage_Email_Description.Text" xml:space="preserve">
+    <value>Standardexport av e-post</value>
+  </data>
+  <data name="ProfilePage_Email.Text" xml:space="preserve">
+    <value>E-post</value>
+  </data>
+  <data name="ProfilePage_Passcode_Description.Text" xml:space="preserve">
+    <value>Programmets lösenkod</value>
+  </data>
+  <data name="ProfilePage_Passcode.Text" xml:space="preserve">
+    <value>Lösenord</value>
+  </data>
+  <data name="ProfilePage_Timeout_Description.Text" xml:space="preserve">
+    <value>Frekvens för administratörslägeslås</value>
+  </data>
+  <data name="ProfilePage_Timeout.Text" xml:space="preserve">
+    <value>Timeout för administratörsläge</value>
+  </data>
+  <data name="ProfilePage_TimeoutDropdown.PlaceholderText" xml:space="preserve">
+    <value>Välj en tid</value>
+  </data>
+  <data name="ProfilePage_Title.Text" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="PublishedBy.Text" xml:space="preserve">
+    <value>Publicerad av</value>
+  </data>
+  <data name="ReleaseNotesMessage.Text" xml:space="preserve">
+    <value>Viktig information kommer snart att uppdateras</value>
+  </data>
+  <data name="Save_Text" xml:space="preserve">
+    <value>Spara</value>
+  </data>
+  <data name="SessionDetailsPage_Description.Text" xml:space="preserve">
+    <value>Historik</value>
+  </data>
+  <data name="SessionDetailsPage_Duration.Text" xml:space="preserve">
+    <value>Varaktighet</value>
+  </data>
+  <data name="SessionDetailsPage_SessionID.Text" xml:space="preserve">
+    <value>Sessions-ID</value>
+  </data>
+  <data name="SessionDetailsPage_Title.Text" xml:space="preserve">
+    <value>Historia</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Inställningar</value>
+  </data>
+  <data name="TermsOfUse.Text" xml:space="preserve">
+    <value>Villkor för användning</value>
+  </data>
+  <data name="TranslationPage_SettingUpState" xml:space="preserve">
+    <value>Inrätta...</value>
+  </data>
+  <data name="TranslationPage_SpeakFast" xml:space="preserve">
+    <value>Försök att prata lite snabbare för bättre översättningsresultat.</value>
+  </data>
+  <data name="TranslationPage_SpeakIn" xml:space="preserve">
+    <value>Tala i</value>
+  </data>
+  <data name="TranslationPage_SpeakSlow" xml:space="preserve">
+    <value>Försök att prata lite långsammare för bättre översättningsresultat.</value>
+  </data>
+  <data name="TranslationPage_Switching" xml:space="preserve">
+    <value>Transistor</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonOne" xml:space="preserve">
+    <value>Byt till person 1</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonTwo" xml:space="preserve">
+    <value>Byt till person 2</value>
+  </data>
+  <data name="TranslationPage_TranslationReadyState" xml:space="preserve">
+    <value>Tala nu</value>
+  </data>
+  <data name="Website.Text" xml:space="preserve">
+    <value>Webbplats</value>
+  </data>
+  <data name="WhatsNew" xml:space="preserve">
+    <value>Vad är det senaste</value>
+  </data>
+  <data name="WhatsNewInSpeechly.Text" xml:space="preserve">
+    <value>Vad är nytt i</value>
+  </data>
+  <data name="AudioDevicesSelectorDualDevice.Content" xml:space="preserve">
+    <value>Dubbel enhet</value>
+  </data>
+  <data name="AudioDevicesSelectorSingleDevice.Content" xml:space="preserve">
+    <value>En enda enhet</value>
+  </data>
+  <data name="AutoDetectSearchCountry.PlaceholderText" xml:space="preserve">
+    <value>Sök land</value>
+  </data>
+  <data name="AutoDetectSelectLanguage.Text" xml:space="preserve">
+    <value>Välj språk</value>
+  </data>
+  <data name="ChatViewPersonOne" xml:space="preserve">
+    <value>Person ett</value>
+  </data>
+  <data name="ChatViewPersonTwo" xml:space="preserve">
+    <value>Person två</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionLost" xml:space="preserve">
+    <value>Internetanslutning förlorad. Kontrollera din anslutning och försök sedan igen.</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionUnstable" xml:space="preserve">
+    <value>Din internetanslutning är långsam. Du kan uppleva en viss fördröjning.</value>
+  </data>
+  <data name="CustomTagSelectionTitle.Text" xml:space="preserve">
+    <value>Organisationstaggar (välj att lägga till)</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.Header" xml:space="preserve">
+    <value>Användarflagga för att byta språk</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OffContent" xml:space="preserve">
+    <value>Handikappad</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OnContent" xml:space="preserve">
+    <value>Aktiverat</value>
+  </data>
+  <data name="DetectLanguageButton.Content" xml:space="preserve">
+    <value>Identifiera språk</value>
+  </data>
+  <data name="DevicesPageNetworkSetupBluetoothStatus.Text" xml:space="preserve">
+    <value>Bluetooth-status :</value>
+  </data>
+  <data name="DevicesPageNetworkSetupConnectAutomatically.Text" xml:space="preserve">
+    <value>Anslut automatiskt</value>
+  </data>
+  <data name="DevicesPageNetworkSetupWiFiStatus.Text" xml:space="preserve">
+    <value>WiFi-status :</value>
+  </data>
+  <data name="Dimiss.Content" xml:space="preserve">
+    <value>Annullera</value>
+  </data>
+  <data name="Duration.Text" xml:space="preserve">
+    <value>|  Varaktighet</value>
+  </data>
+  <data name="EmailPopup_Description.Text" xml:space="preserve">
+    <value>Ange din e-postadress</value>
+  </data>
+  <data name="EmailPopup_Title.Text" xml:space="preserve">
+    <value>Skicka din session via e-post</value>
+  </data>
+  <data name="ForcedUpdateDialogCaption" xml:space="preserve">
+    <value>Vi har viktiga uppdateringar för</value>
+  </data>
+  <data name="ForcedUpdateDialogInstallBtnText" xml:space="preserve">
+    <value>Uppdatera</value>
+  </data>
+  <data name="ForcedUpdateDialogTitle" xml:space="preserve">
+    <value>Viktiga uppdateringar</value>
+  </data>
+  <data name="GoBack.Content" xml:space="preserve">
+    <value>Gå tillbaka</value>
+  </data>
+  <data name="HelpPageSignOut.Content" xml:space="preserve">
+    <value>Logga ut</value>
+  </data>
+  <data name="History_Export.Text" xml:space="preserve">
+    <value>Generera fil...</value>
+  </data>
+  <data name="HistoryListColumnSessionName.Text" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="HistoryListColumnSynced.Text" xml:space="preserve">
+    <value>Synkroniseras</value>
+  </data>
+  <data name="HistorySearchBox.PlaceholderText" xml:space="preserve">
+    <value>Språk, sessionsnamn, taggar eller ID:n</value>
+  </data>
+  <data name="HistorySearchButtonTooltip.Text" xml:space="preserve">
+    <value>Söka</value>
+  </data>
+  <data name="HistorySearchClearButtonTooltip.Text" xml:space="preserve">
+    <value>Klar</value>
+  </data>
+  <data name="HistorySearchFromDate.Header" xml:space="preserve">
+    <value>Från:</value>
+  </data>
+  <data name="HistorySearchToDate.Header" xml:space="preserve">
+    <value>Vox</value>
+  </data>
+  <data name="HistoryShareButtonTooltip.Text" xml:space="preserve">
+    <value>Dela/Skicka</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonOne.Text" xml:space="preserve">
+    <value>Person 1</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonTwo.Text" xml:space="preserve">
+    <value>Person 2</value>
+  </data>
+  <data name="LoginPageTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NewVersionDialogCaption" xml:space="preserve">
+    <value>Installera ny appversion av</value>
+  </data>
+  <data name="NewVersionDialogDescription" xml:space="preserve">
+    <value>Nya funktioner och buggfixar kommer att saknas i </value>
+  </data>
+  <data name="NewVersionDialogInstallBtnText" xml:space="preserve">
+    <value>Installera ny version</value>
+  </data>
+  <data name="NewVersionDialogTitle" xml:space="preserve">
+    <value>Ny appversion</value>
+  </data>
+  <data name="NextText" xml:space="preserve">
+    <value>Nästa</value>
+  </data>
+  <data name="ProfilePageEditButton.Content" xml:space="preserve">
+    <value>Redigera</value>
+  </data>
+  <data name="QuestionsButton.Content" xml:space="preserve">
+    <value>Se frågor</value>
+  </data>
+  <data name="QuestionSettingsDescription.Text" xml:space="preserve">
+    <value>Visa eller ändra dina frågegenvägar</value>
+  </data>
+  <data name="QuestionSettingsInstructionOne.Text" xml:space="preserve">
+    <value>* Använd siffrorna 1-9 för varje fråga. Noll (0) kommer inte att beaktas.</value>
+  </data>
+  <data name="QuestionSettingsInstructionThree.Text" xml:space="preserve">
+    <value>* Du kan bara tilldela genvägar till 9 frågor.</value>
+  </data>
+  <data name="QuestionSettingsListTitle.Text" xml:space="preserve">
+    <value>Frågelista:</value>
+  </data>
+  <data name="ResellerEmailAddress.Text" xml:space="preserve">
+    <value>E-postadress för återförsäljare:</value>
+  </data>
+  <data name="ResellerName.Text" xml:space="preserve">
+    <value>Återförsäljarens namn:</value>
+  </data>
+  <data name="SelectFlag.Text" xml:space="preserve">
+    <value>Välj din flagga:</value>
+  </data>
+  <data name="Send.Content" xml:space="preserve">
+    <value>Sända</value>
+  </data>
+  <data name="SessionDetailsPage_SessionName.Text" xml:space="preserve">
+    <value>Sessionens namn</value>
+  </data>
+  <data name="SessionID.Text" xml:space="preserve">
+    <value>Sessions-ID: -</value>
+  </data>
+  <data name="SessionMetadataDialog_ContinueButton.Text" xml:space="preserve">
+    <value>Fortsätta</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTags.Text" xml:space="preserve">
+    <value>Anpassade taggar</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Ange taggnamn här</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextboxHelper.Text" xml:space="preserve">
+    <value>Tryck på Enter</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTags.Text" xml:space="preserve">
+    <value>Standardtaggar</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Ange värde här</value>
+  </data>
+  <data name="SessionMetadataDialog_Description.Text" xml:space="preserve">
+    <value>Obligatoriska fält är markerade med '</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionName.Text" xml:space="preserve">
+    <value>Sessionens namn</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionNameTextbox.PlaceholderText" xml:space="preserve">
+    <value>t.ex. patient noll</value>
+  </data>
+  <data name="SessionMetadataDialog_Title.Text" xml:space="preserve">
+    <value>Lägga till ett sessionsnamn och taggar</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorActionMessage" xml:space="preserve">
+    <value>Kontakta administratören för att aktivera ditt konto.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorMessage" xml:space="preserve">
+    <value>Ditt konto har inaktiverats.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorActionMessage" xml:space="preserve">
+    <value>Kontakta administratören för att skapa ditt konto.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorMessage" xml:space="preserve">
+    <value>Ditt konto har tagits bort.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorActionMessage" xml:space="preserve">
+    <value>Kontakta administratören för att aktivera ditt konto.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorMessage" xml:space="preserve">
+    <value>Ditt konto har inaktiverats.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorActionMessage" xml:space="preserve">
+    <value>Kontakta administratören för att skapa ditt konto.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorMessage" xml:space="preserve">
+    <value>Du har inget aktivt konto.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorActionMessage" xml:space="preserve">
+    <value>Kontakta administratören för att förnya licensen.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorMessage" xml:space="preserve">
+    <value>Din licens har gått ut.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorActionMessage" xml:space="preserve">
+    <value>Kontakta administratören för att aktivera din licens.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorMessage" xml:space="preserve">
+    <value>Din licens har inaktiverats.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorActionMessage" xml:space="preserve">
+    <value>Kontakta administratören.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorMessage" xml:space="preserve">
+    <value>Ditt körkort har dragits in.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorActionMessage" xml:space="preserve">
+    <value>Kontakta administratören för att tilldela dig en licens.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorMessage" xml:space="preserve">
+    <value>Du har ingen licens tilldelad dig.</value>
+  </data>
+  <data name="StartupPage2020.Text" xml:space="preserve">
+    <value>2021 </value>
+  </data>
+  <data name="StartupPageErrorDescription.Text" xml:space="preserve">
+    <value>Ett fel inträffade. Kontrollera din Internetanslutning och försök sedan igen.</value>
+  </data>
+  <data name="StartupPagePoweredBy.Text" xml:space="preserve">
+    <value>Styrt av </value>
+  </data>
+  <data name="StartupPageProgressDescription.Text" xml:space="preserve">
+    <value>Det kan ta några sekunder</value>
+  </data>
+  <data name="StartupPageRetryButton.Content" xml:space="preserve">
+    <value>Igen</value>
+  </data>
+  <data name="StartupPageRightsReserved.Text" xml:space="preserve">
+    <value>Alla rättigheter förbehållna.</value>
+  </data>
+  <data name="StartUpPageSettingUpMessage" xml:space="preserve">
+    <value>Inrätta...</value>
+  </data>
+  <data name="StartupPageTitleDescription.Text" xml:space="preserve">
+    <value>Välkommen till </value>
+  </data>
+  <data name="TranslateText" xml:space="preserve">
+    <value>Översätta</value>
+  </data>
+  <data name="TranslationLicenceUseError" xml:space="preserve">
+    <value>Din licens används för närvarande i en annan session.</value>
+  </data>
+  <data name="TranslationLimitReachedError" xml:space="preserve">
+    <value>Du har nått din maximala tidsgräns per session. Avslutande session.</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOff" xml:space="preserve">
+    <value>Mikrofonen av</value>
+  </data>
+  <data name="TranslationPage_SpeakerOff" xml:space="preserve">
+    <value>Högtalaren av</value>
+  </data>
+  <data name="TranslationTimeDepletedError" xml:space="preserve">
+    <value>Dina översättningsprotokoll har tömts. Kontakta din administratör.</value>
+  </data>
+  <data name="UnsupportedVersionDialogBtntext" xml:space="preserve">
+    <value>Uppdatera</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption" xml:space="preserve">
+    <value>Kritiska uppdateringar krävs för </value>
+  </data>
+  <data name="UnsupportedVersionDialogDescription" xml:space="preserve">
+    <value>Uppdatera din app för att fortsätta få funktions- och säkerhetsuppdateringar.</value>
+  </data>
+  <data name="UnsupportedVersionDialogTitle" xml:space="preserve">
+    <value>Appversion som inte stöds</value>
+  </data>
+  <data name="UpdateDialogWhatsNew.Text" xml:space="preserve">
+    <value>Vad är det senaste?</value>
+  </data>
+  <data name="Zoom.Text" xml:space="preserve">
+    <value>Zooma</value>
+  </data>
+  <data name="Add.Content" xml:space="preserve">
+    <value>Addera</value>
+  </data>
+  <data name="AddNewQuestion.Text" xml:space="preserve">
+    <value>Lägg till ny fördefinierad fråga</value>
+  </data>
+  <data name="AddQuestion.Content" xml:space="preserve">
+    <value>Lägg till fråga</value>
+  </data>
+  <data name="ChooseLanguage.Text" xml:space="preserve">
+    <value>Välj standardspråk</value>
+  </data>
+  <data name="CustomProfileAdded" xml:space="preserve">
+    <value>Profilnamnet har lagts till.</value>
+  </data>
+  <data name="CustomProfileDeleted" xml:space="preserve">
+    <value>Profilen har tagits bort.</value>
+  </data>
+  <data name="CustomProfileInvalidName" xml:space="preserve">
+    <value>Fel! Ogiltigt profilnamn.</value>
+  </data>
+  <data name="CustomProfileNotDeleted" xml:space="preserve">
+    <value>Ingen profil att ta bort.</value>
+  </data>
+  <data name="CustomProfileNotSaved" xml:space="preserve">
+    <value>Fel! Ingen profil har sparats.</value>
+  </data>
+  <data name="CustomProfileProfileSaved" xml:space="preserve">
+    <value>Profilen har sparats.</value>
+  </data>
+  <data name="DataRequestMessage" xml:space="preserve">
+    <value>Du har inte markerat någon text. Välj text att dela och försök igen.</value>
+  </data>
+  <data name="DevicesAddProfileButton.Content" xml:space="preserve">
+    <value>Addera</value>
+  </data>
+  <data name="DevicesAvailableProfiles.Text" xml:space="preserve">
+    <value>Tillgängliga profiler</value>
+  </data>
+  <data name="DevicesDefaultProfile.Text" xml:space="preserve">
+    <value>Standardprofil:</value>
+  </data>
+  <data name="DevicesDeleteProfileBtn.Content" xml:space="preserve">
+    <value>Ta bort profil</value>
+  </data>
+  <data name="DeviceSetupChanged" xml:space="preserve">
+    <value>Anslutna ljudenheter uppdaterade </value>
+  </data>
+  <data name="DevicesHelpfulTip1.Text" xml:space="preserve">
+    <value>1. Ange ett profilnamn</value>
+  </data>
+  <data name="DevicesHelpfulTip2.Text" xml:space="preserve">
+    <value>2. Välj enstaka eller dubbla enhetslägen</value>
+  </data>
+  <data name="DevicesHelpfulTip3.Text" xml:space="preserve">
+    <value>3. Välj högtalare och mikrofon (er)</value>
+  </data>
+  <data name="DevicesHelpfulTip4.Text" xml:space="preserve">
+    <value>4. Ställ in din profil som standard</value>
+  </data>
+  <data name="DevicesHelpfulTip5.Text" xml:space="preserve">
+    <value>5. Klicka på knappen Spara profil för att spara din profil</value>
+  </data>
+  <data name="DevicesHelpfulTips.Text" xml:space="preserve">
+    <value>Användbara tips</value>
+  </data>
+  <data name="DevicesProfileNameTextBox.PlaceholderText" xml:space="preserve">
+    <value>Profilnamn...</value>
+  </data>
+  <data name="DevicesSaveProfileBtn.Content" xml:space="preserve">
+    <value>Spara profil</value>
+  </data>
+  <data name="DevicesSetasDefault.Text" xml:space="preserve">
+    <value>Ange som standard</value>
+  </data>
+  <data name="DevicesSetProfileButton.Content" xml:space="preserve">
+    <value>Ställ in profil</value>
+  </data>
+  <data name="DevicesSetProfileText.Text" xml:space="preserve">
+    <value>Ställ in en anpassad profil?</value>
+  </data>
+  <data name="DiscardButton.Content" xml:space="preserve">
+    <value>Kasta bort</value>
+  </data>
+  <data name="DismissButton.Content" xml:space="preserve">
+    <value>Avskeda</value>
+  </data>
+  <data name="DismissText.Text" xml:space="preserve">
+    <value>Avskeda</value>
+  </data>
+  <data name="DownloadAudio.Text" xml:space="preserve">
+    <value>Ladda ner ljud</value>
+  </data>
+  <data name="DownloadCancel" xml:space="preserve">
+    <value>Nedladdningen avbröts</value>
+  </data>
+  <data name="Downloaded" xml:space="preserve">
+    <value>Hämtade</value>
+  </data>
+  <data name="DownloadError" xml:space="preserve">
+    <value>Fel uppstod</value>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>Ladda ner</value>
+  </data>
+  <data name="DownloadPaused" xml:space="preserve">
+    <value>Ladda ner pausad</value>
+  </data>
+  <data name="DualDeviceUpdated" xml:space="preserve">
+    <value>Konfigurationen av dubbla enheter har uppdaterats</value>
+  </data>
+  <data name="EnterQuestion.Text" xml:space="preserve">
+    <value>Skriv in frågan nedan</value>
+  </data>
+  <data name="ErrorDescription.Text" xml:space="preserve">
+    <value>Dina ändringar har inte sparats, vill du spara dem eller kassera?</value>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>Något gick fel.. Försök igen</value>
+  </data>
+  <data name="ErrorTitle.Text" xml:space="preserve">
+    <value>Du har ändringar som inte har sparats</value>
+  </data>
+  <data name="FeedbackEight.Text" xml:space="preserve">
+    <value>Vi fortsatte att avbryta varandra</value>
+  </data>
+  <data name="FeedbackFive.Text" xml:space="preserve">
+    <value>Jag hörde eko i samtalet</value>
+  </data>
+  <data name="FeedbackFour.Text" xml:space="preserve">
+    <value>Det plockade upp bakgrundsröster</value>
+  </data>
+  <data name="FeedbackOne.Text" xml:space="preserve">
+    <value>Det tog inte upp min röst korrekt</value>
+  </data>
+  <data name="FeedbackQuestion.Text" xml:space="preserve">
+    <value>Vad kunde ha varit bättre?</value>
+  </data>
+  <data name="FeedbackSeven.Text" xml:space="preserve">
+    <value>Sessionen avslutades oväntat</value>
+  </data>
+  <data name="FeedbackSix.Text" xml:space="preserve">
+    <value>Volymen var för låg</value>
+  </data>
+  <data name="FeedbackThanks.Text" xml:space="preserve">
+    <value>Tack för feedbacken</value>
+  </data>
+  <data name="FeedbackThree.Text" xml:space="preserve">
+    <value>Översättningstiden var för långsam</value>
+  </data>
+  <data name="FeedbackTwo.Text" xml:space="preserve">
+    <value>Det översatte mina meningar fel</value>
+  </data>
+  <data name="ForcedUpdateDialogCaptionContinuation" xml:space="preserve">
+    <value>att fungera. Programmet fungerar inte utan dessa uppdateringar.</value>
+  </data>
+  <data name="Improvement.Text" xml:space="preserve">
+    <value>Vi fortsätter att arbeta med att förbättra din upplevelse.</value>
+  </data>
+  <data name="LanguageSettingsUpdated" xml:space="preserve">
+    <value>Språkändringar uppdateras framgångsrikt</value>
+  </data>
+  <data name="NewVersionDialogDescription2" xml:space="preserve">
+    <value>och din version av</value>
+  </data>
+  <data name="NewVersionDialogDescription3" xml:space="preserve">
+    <value>kan bli ostödd.</value>
+  </data>
+  <data name="Other.Text" xml:space="preserve">
+    <value>Övriga kommentarer:</value>
+  </data>
+  <data name="PasswordUpdated" xml:space="preserve">
+    <value>Lösenordet har ändrats framgångsrikt</value>
+  </data>
+  <data name="PlaybackLanguageUpdated" xml:space="preserve">
+    <value>Standarduppspelningsspråket har ändrats framgångsrikt</value>
+  </data>
+  <data name="QuestionAdded" xml:space="preserve">
+    <value>Frågan har lagts till</value>
+  </data>
+  <data name="QuestionDeleted" xml:space="preserve">
+    <value>Frågan har tagits bort</value>
+  </data>
+  <data name="Questions.Text" xml:space="preserve">
+    <value>Frågor</value>
+  </data>
+  <data name="QuestionSettingsInstructionTwo.Text" xml:space="preserve">
+    <value>* Varje fråga måste ha en annan genväg.</value>
+  </data>
+  <data name="QuestionsValidationError.Text" xml:space="preserve">
+    <value>* Kontrollera dina valideringar och försök igen.</value>
+  </data>
+  <data name="QuickViewLanguagesUpdated" xml:space="preserve">
+    <value>Snabbvy languges uppdateras framgångsrikt</value>
+  </data>
+  <data name="SendFeedback.Content" xml:space="preserve">
+    <value>Skicka feedback</value>
+  </data>
+  <data name="SessionFeedbackPrompt" xml:space="preserve">
+    <value>Hur skulle du betygsätta din översättningssession?</value>
+  </data>
+  <data name="SessionFeedbackTitle" xml:space="preserve">
+    <value>Feedback om översättning</value>
+  </data>
+  <data name="ShortcutSuccess" xml:space="preserve">
+    <value>Genvägar för frågor har uppdaterats</value>
+  </data>
+  <data name="SingleDeviceUpdated" xml:space="preserve">
+    <value>Konfigurationen av en enskild enhet har uppdaterats</value>
+  </data>
+  <data name="StartupPageTitleDescription2.Text" xml:space="preserve">
+    <value>översättningsprogram.</value>
+  </data>
+  <data name="TimeoutUpdated" xml:space="preserve">
+    <value>Timeout uppdaterad Framgångsrikt</value>
+  </data>
+  <data name="TouchShareText" xml:space="preserve">
+    <value>Tryck på Dela</value>
+  </data>
+  <data name="TranslationLanguageUpdated" xml:space="preserve">
+    <value>Standardöversättningsspråket har ändrats framgångsrikt</value>
+  </data>
+  <data name="TranslationPlaybackUpdated" xml:space="preserve">
+    <value>Standardöversättning &amp; uppspelningsspråk har ändrats framgångsrikt</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption2" xml:space="preserve">
+    <value>att fungera. Funktioner kan sluta fungera utan föregående meddelande. Uppdatera programmet.</value>
+  </data>
+  <data name="UserFlagSwitch" xml:space="preserve">
+    <value>Användarflagga för att byta språk uppdaterat</value>
+  </data>
+</root>

@@ -1,0 +1,1192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="AppDescription" xml:space="preserve">
+    <value>تالا تاتشاب</value>
+  </data>
+  <data name="AppDisplayName" xml:space="preserve">
+    <value>تالا تاتشاب</value>
+  </data>
+  <data name="AudioDeviceSelector_MicDropdown.PlaceholderText" xml:space="preserve">
+    <value>تحديد ميكروفون</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneMic.Text" xml:space="preserve">
+    <value>ميكروفون شخص واحد</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneSpeaker.Text" xml:space="preserve">
+    <value>شخص واحد المتحدث</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoMic.Text" xml:space="preserve">
+    <value>ميكروفون الشخص الثاني</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoSpeaker.Text" xml:space="preserve">
+    <value>الشخص الثاني المتحدث</value>
+  </data>
+  <data name="AudioDeviceSelector_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>اختر مكبر صوت</value>
+  </data>
+  <data name="BluetoothPairingDialog_Description.Text" xml:space="preserve">
+    <value>تأكد من تشغيل جهازك وإمكانية اكتشافه. حدد جهازا أدناه للاتصال.</value>
+  </data>
+  <data name="BluetoothPairingDialog_Title.Text" xml:space="preserve">
+    <value>إضافة جهاز</value>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>إلغاء الأمر</value>
+  </data>
+  <data name="ChangePasscodeDialog_Confirm.Text" xml:space="preserve">
+    <value>تأكيد رمز المرور الجديد</value>
+  </data>
+  <data name="ChangePasscodeDialog_Current.Text" xml:space="preserve">
+    <value>رمز المرور الحالي</value>
+  </data>
+  <data name="ChangePasscodeDialog_New.Text" xml:space="preserve">
+    <value>رمز مرور جديد</value>
+  </data>
+  <data name="ChangePasscodeDialog_Title.Text" xml:space="preserve">
+    <value>تغيير رمز المرور</value>
+  </data>
+  <data name="Close.Content" xml:space="preserve">
+    <value>غلق</value>
+  </data>
+  <data name="ConsentDialog_Description1.Text" xml:space="preserve">
+    <value>مخاوف الخصوصية هي أولويتنا الأولى. (5) أنت توافق على شروط وأحكام سياسة الخصوصية هذه مع هاتفك المحمول أو جهازك اللوحي ، حسب الاقتضاء.</value>
+  </data>
+  <data name="ConsentDialog_Description2.Text" xml:space="preserve">
+    <value>إذا اخترت عدم السماح لنا بالوصول عندما نتلقى طلبا للموافقة (سيتم إخطار هذه الطلبات على موقع www ICTS على العنوان التالي:</value>
+  </data>
+  <data name="ConsentDialog_Description3.Text" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int</value>
+  </data>
+  <data name="ConsentDialog_Description4.Text" xml:space="preserve">
+    <value>)، ثم لا عنوان البريد الإلكتروني المقدم ولا أي معلومات شخصية أخرى يمكن أن تحدد هوية الفرد يمكن أن تأتي أيضا في حوزتنا بمجرد منح هذا الإذن.</value>
+  </data>
+  <data name="ConsentDialog_Description5.Text" xml:space="preserve">
+    <value>باستخدام أجزاء معينة: / استخدام هاتفي المحمول / الرموز - والتي قد تشمل السماح للآخرين في غرف الدردشة حول منتجات مثل</value>
+  </data>
+  <data name="ConsentDialog_HyperLink.NavigateUri" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int/</value>
+  </data>
+  <data name="ConsentDialog_Title.Text" xml:space="preserve">
+    <value>نحن نقدر خصوصيتك</value>
+  </data>
+  <data name="Dashboard_Choose_Language.Text" xml:space="preserve">
+    <value>اختر اللغة</value>
+  </data>
+  <data name="Dashboard_Hello.Text" xml:space="preserve">
+    <value>مرحبًا</value>
+  </data>
+  <data name="Dashboard_SearchBox.PlaceholderText" xml:space="preserve">
+    <value>لغة البحث</value>
+  </data>
+  <data name="Dashboard_Welcome.Text" xml:space="preserve">
+    <value>أهلًا وسهلًا</value>
+  </data>
+  <data name="DevicesErrorDialog_NoDeviceError" xml:space="preserve">
+    <value>ليس لديك جهاز (أجهزة) محفوظة. انتقل إلى الإعدادات -&gt; الأجهزة لتحديد ميكروفون ومكبر صوت ثم انقر فوق حفظ.</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Description.Text" xml:space="preserve">
+    <value>أجهزة البلوتوث المتوفرة</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_DropDown.PlaceholderText" xml:space="preserve">
+    <value>حدد جهاز بلوتوث</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Scan.Text" xml:space="preserve">
+    <value>مسح ضوئي</value>
+  </data>
+  <data name="DevicesPage_Bluetooth.Text" xml:space="preserve">
+    <value>بلوتوث</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices_Description.Text" xml:space="preserve">
+    <value>اختر جهاز الصوت الخاص بك</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices.Text" xml:space="preserve">
+    <value>أجهزة الصوت المتصلة</value>
+  </data>
+  <data name="DevicesPage_MicDropDown.PlaceholderText" xml:space="preserve">
+    <value>اختيار ميكروفون</value>
+  </data>
+  <data name="DevicesPage_Network_Description.Text" xml:space="preserve">
+    <value>الشبكات المتاحة</value>
+  </data>
+  <data name="DevicesPage_Network_DropDown.PlaceholderText" xml:space="preserve">
+    <value>اختر شبكة</value>
+  </data>
+  <data name="DevicesPage_Network.Text" xml:space="preserve">
+    <value>شبكة</value>
+  </data>
+  <data name="DevicesPage_NetworkError" xml:space="preserve">
+    <value>لم يتم تحديد شبكة. تحقق من اتصالات الشبكة.</value>
+  </data>
+  <data name="DevicesPage_PersonOne_Speaker.Text" xml:space="preserve">
+    <value>شخص واحد متحدث</value>
+  </data>
+  <data name="DevicesPage_PersonOneMic.Text" xml:space="preserve">
+    <value>ميكروفون شخص واحد</value>
+  </data>
+  <data name="DevicesPage_PersonTwo_Mic.Text" xml:space="preserve">
+    <value>ميكروفون الشخص الثاني</value>
+  </data>
+  <data name="DevicesPage_Scan" xml:space="preserve">
+    <value>مسح ضوئي</value>
+  </data>
+  <data name="DevicesPage_Scanning" xml:space="preserve">
+    <value>المسح الضوئي...</value>
+  </data>
+  <data name="DevicesPage_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>اختيار مكبر صوت</value>
+  </data>
+  <data name="DevicesPage_Status_Connect" xml:space="preserve">
+    <value>عشق</value>
+  </data>
+  <data name="DevicesPage_Status_Connected" xml:space="preserve">
+    <value>متصل</value>
+  </data>
+  <data name="DevicesPage_Status_Connecting" xml:space="preserve">
+    <value>الاتصال...</value>
+  </data>
+  <data name="DevicesPage_Status_Off" xml:space="preserve">
+    <value>قباله</value>
+  </data>
+  <data name="DevicesPage_Status_On" xml:space="preserve">
+    <value>على</value>
+  </data>
+  <data name="DevicesPager_PersonTwo_Speaker.Text" xml:space="preserve">
+    <value>الشخص الثاني المتحدث</value>
+  </data>
+  <data name="EnterPasscodeDialog_Description.Text" xml:space="preserve">
+    <value>يرجى إدخال رمز المرور الخاص بك للوصول إلى صفحة الإعدادات</value>
+  </data>
+  <data name="EnterPasscodeDialog_ForgotPasscode.Content" xml:space="preserve">
+    <value>هل نسيت رمز المرور؟</value>
+  </data>
+  <data name="EnterPasscodeDialog_InvalidPasscode.Text" xml:space="preserve">
+    <value>رمز مرور غير صالح! يرجى المحاولة مرة أخرى.</value>
+  </data>
+  <data name="EnterPasscodeDialog_Passcode.Text" xml:space="preserve">
+    <value>رمز المرور</value>
+  </data>
+  <data name="EnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>أدخل رمز المرور الخاص بك</value>
+  </data>
+  <data name="IAgree.Content" xml:space="preserve">
+    <value>أوافق</value>
+  </data>
+  <data name="InvalidLicenseDialog_Description.Text" xml:space="preserve">
+    <value>فشل التحقق من الترخيص</value>
+  </data>
+  <data name="InvalidLicenseDialog_Title.Text" xml:space="preserve">
+    <value>ترخيص غير صالح</value>
+  </data>
+  <data name="LoginFailedDialog_Button.Content" xml:space="preserve">
+    <value>الرجوع للخلف</value>
+  </data>
+  <data name="LoginFailedDialog_Description.Text" xml:space="preserve">
+    <value>فشلت محاولة تسجيل الدخول.</value>
+  </data>
+  <data name="LoginFailedDialog_Title.Text" xml:space="preserve">
+    <value>فشل تسجيل الدخول</value>
+  </data>
+  <data name="Main_Title.Text" xml:space="preserve">
+    <value>رئيسي</value>
+  </data>
+  <data name="PasswordPopup_SetupTitle.Text" xml:space="preserve">
+    <value>إعداد رمز مرور</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Description1.Text" xml:space="preserve">
+    <value>يرجى إعادة إدخال رمز المرور الخاص بك لمواصلة التحرير ...</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>أعد إدخال رمز المرور الخاص بك</value>
+  </data>
+  <data name="RenterPasscodeDialog_Description2.Text" xml:space="preserve">
+    <value>التوفير التلقائي والعودة إلى المنزل</value>
+  </data>
+  <data name="Save.Content" xml:space="preserve">
+    <value>أنقذ</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Description.Text" xml:space="preserve">
+    <value>هذه صفحة نموذجية ستعرض معلمات التنشيط إذا تم تنشيط التطبيق من Deep Linking.</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Title.Text" xml:space="preserve">
+    <value>المخططالتنشيطعينة</value>
+  </data>
+  <data name="SetPasscodeDialog_ConfirmPasscode.Text" xml:space="preserve">
+    <value>تأكيد رمز المرور الجديد </value>
+  </data>
+  <data name="SetPasscodeDialog_NewPasscode.Text" xml:space="preserve">
+    <value>رمز مرور جديد</value>
+  </data>
+  <data name="SetPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>إعداد رمز مرور</value>
+  </data>
+  <data name="Settings_About.Text" xml:space="preserve">
+    <value>حول هذا التطبيق</value>
+  </data>
+  <data name="Settings_AboutDescription.Text" xml:space="preserve">
+    <value>إعدادات نص العنصر النائب للصفحة.  يتم عرض وصف تطبيقك هنا.</value>
+  </data>
+  <data name="Settings_Personalization.Text" xml:space="preserve">
+    <value>التخصيص</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.Content" xml:space="preserve">
+    <value>بيان الخصوصية</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.NavigateUri" xml:space="preserve">
+    <value>https://YourPrivacyUrlGoesHere/</value>
+  </data>
+  <data name="Settings_Theme_Dark.Content" xml:space="preserve">
+    <value>داكن</value>
+  </data>
+  <data name="Settings_Theme_Default.Content" xml:space="preserve">
+    <value>ويندوز الافتراضي</value>
+  </data>
+  <data name="Settings_Theme_Light.Content" xml:space="preserve">
+    <value>ضوء</value>
+  </data>
+  <data name="Settings_Theme.Text" xml:space="preserve">
+    <value>اختر الموضوع</value>
+  </data>
+  <data name="Settings_Title.Text" xml:space="preserve">
+    <value>اعدادات</value>
+  </data>
+  <data name="SettingsPage_Devices" xml:space="preserve">
+    <value>الاجهزه</value>
+  </data>
+  <data name="SettingsPage_Language" xml:space="preserve">
+    <value>اللغة</value>
+  </data>
+  <data name="SettingsPage_Profile" xml:space="preserve">
+    <value>ملف تعريف</value>
+  </data>
+  <data name="SettingsPage_Questions" xml:space="preserve">
+    <value>الاسئله</value>
+  </data>
+  <data name="SettingsPage_Title" xml:space="preserve">
+    <value>اعدادات</value>
+  </data>
+  <data name="ShellView_Help" xml:space="preserve">
+    <value>تعليمات</value>
+  </data>
+  <data name="ShellView_History" xml:space="preserve">
+    <value>تاريخ</value>
+  </data>
+  <data name="ShellView_Home" xml:space="preserve">
+    <value>وطن</value>
+  </data>
+  <data name="ShellView_Settings.Text" xml:space="preserve">
+    <value>اعدادات</value>
+  </data>
+  <data name="Sign_In.Text" xml:space="preserve">
+    <value>تسجيل الدخول</value>
+  </data>
+  <data name="SignInDialog_Description.Text" xml:space="preserve">
+    <value>تواصل على الفور بلغات عالمية متعددة باستخدام جهاز جبرا الخاص بك.</value>
+  </data>
+  <data name="SignInDialog_SignInButton.Content" xml:space="preserve">
+    <value>تسجيل الدخول</value>
+  </data>
+  <data name="Translate_Button.Text" xml:space="preserve">
+    <value>ترجمة</value>
+  </data>
+  <data name="TranslationPage_EndSession.Text" xml:space="preserve">
+    <value>إنهاء الجلسة</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOn" xml:space="preserve">
+    <value>تشغيل الميكروفون</value>
+  </data>
+  <data name="TranslationPage_SpeakerOn" xml:space="preserve">
+    <value>تشغيل مكبر الصوت</value>
+  </data>
+  <data name="TranslationPage_SpeakNow.Text" xml:space="preserve">
+    <value>تحدث الآن</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>عن</value>
+  </data>
+  <data name="AboutPage_AppVersion.Text" xml:space="preserve">
+    <value>إصدار التطبيق</value>
+  </data>
+  <data name="AboutPage_CheckUpdate.Content" xml:space="preserve">
+    <value>التحقق من وجود تحديثات</value>
+  </data>
+  <data name="AboutPage_DataConsent" xml:space="preserve">
+    <value>أعطت مؤسستك الموافقة على حفظ بياناتك في السحابة.</value>
+  </data>
+  <data name="AboutPage_NoDataConsent" xml:space="preserve">
+    <value>لم تمنح مؤسستك الموافقة على حفظ بياناتك في السحابة.</value>
+  </data>
+  <data name="AboutPage_Published.Text" xml:space="preserve">
+    <value>نشرت من قبل FITTS المحدودة.</value>
+  </data>
+  <data name="AppClose_Close.Content" xml:space="preserve">
+    <value>إغلاق على أي حال</value>
+  </data>
+  <data name="AppClose_Dismiss.Content" xml:space="preserve">
+    <value>إلغاء الأمر</value>
+  </data>
+  <data name="AppClose_Warning.Text" xml:space="preserve">
+    <value>لديك جلسة قيد التقدم. يرجى إنهاء الجلسة قبل الخروج من الطلب.</value>
+  </data>
+  <data name="AppVersion.Text" xml:space="preserve">
+    <value>إصدار التطبيق</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Button.Content" xml:space="preserve">
+    <value>متابعة الجلسة</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Description.Text" xml:space="preserve">
+    <value>وستنتهي الجلسة في</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Title.Text" xml:space="preserve">
+    <value>لم يتم اكتشاف الصوت</value>
+  </data>
+  <data name="AudioPlayer_Error.Text" xml:space="preserve">
+    <value>فشل تحميل الصوت</value>
+  </data>
+  <data name="DashboardPage_DefaultLanguageError" xml:space="preserve">
+    <value>ليس لديك أي لغة ترجمة افتراضية محفوظة. انتقل إلى الإعدادات -&gt; اللغات لتحديد لغة ترجمة افتراضية ثم انقر فوق حفظ.</value>
+  </data>
+  <data name="DashboardPage_TargetLanguageError" xml:space="preserve">
+    <value>لم تقم بتحديد لغة ترجمة مستهدفة. يرجى اختيار لغة ثم النقر على ترجمة.</value>
+  </data>
+  <data name="DevicesErrorDialog_DualDeviceError" xml:space="preserve">
+    <value>لقد حددت ترجمة الجهاز المزدوج ولكن ليس لديك جهاز (أجهزة) محدد للشخص 2. انتقل إلى الإعدادات -&gt; الأجهزة لتحديد ميكروفون ومكبر صوت ثم انقر فوق حفظ.</value>
+  </data>
+  <data name="DevicesPage_Title.Text" xml:space="preserve">
+    <value>الاجهزه</value>
+  </data>
+  <data name="DevicesPage_Wifi_Password.Text" xml:space="preserve">
+    <value>أدخل كلمة المرور</value>
+  </data>
+  <data name="DevicesPage_WifiStatus.Text" xml:space="preserve">
+    <value>حالة واي فاي</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>حرر</value>
+  </data>
+  <data name="Expiry.Text" xml:space="preserve">
+    <value>انتهاء</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>ردود الفعل</value>
+  </data>
+  <data name="FeedbackMessage.Text" xml:space="preserve">
+    <value>إذا كان لديك أي ملاحظات أو استفسارات لا تتردد في الحصول على اتصال.</value>
+  </data>
+  <data name="GetInTouchButton.Text" xml:space="preserve">
+    <value>تواصل معنا</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>تعليمات</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>تاريخ</value>
+  </data>
+  <data name="History_ExportBtn.Text" xml:space="preserve">
+    <value>تصدير</value>
+  </data>
+  <data name="HistoryExportButtonTooltip.Text" xml:space="preserve">
+    <value>تصدير</value>
+  </data>
+  <data name="HistoryListColumnDate.Text" xml:space="preserve">
+    <value>تاريخ</value>
+  </data>
+  <data name="HistoryListColumnDuration.Text" xml:space="preserve">
+    <value>مدة</value>
+  </data>
+  <data name="HistoryListColumnPrimaryLanguage.Text" xml:space="preserve">
+    <value>اللغة الأساسية</value>
+  </data>
+  <data name="HistoryListColumnSecondaryLanguage.Text" xml:space="preserve">
+    <value>اللغة الثانوية</value>
+  </data>
+  <data name="HistoryListColumnSessionId.Text" xml:space="preserve">
+    <value>معرف الجلسة</value>
+  </data>
+  <data name="InitalSetup_SkipSetup.Content" xml:space="preserve">
+    <value>تخطي الإعداد</value>
+  </data>
+  <data name="InitialNetworkPopupConnectButton.Content" xml:space="preserve">
+    <value>عشق</value>
+  </data>
+  <data name="InitialSetup_DeviceSelection.Text" xml:space="preserve">
+    <value>اختيار الجهاز</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionDescription.Text" xml:space="preserve">
+    <value>إعداد جهاز الصوت الافتراضي</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneMicrophone.Text" xml:space="preserve">
+    <value>حدد الميكروفون</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneSpeaker.Text" xml:space="preserve">
+    <value>اختر المتحدث</value>
+  </data>
+  <data name="InitialSetup_FinishSetup.Content" xml:space="preserve">
+    <value>إنهاء الإعداد</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection_Description.Text" xml:space="preserve">
+    <value>إعداد لغة الترجمة الافتراضية</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection.Text" xml:space="preserve">
+    <value>اختيار اللغة</value>
+  </data>
+  <data name="InitialSetup_NetworkSelection.Text" xml:space="preserve">
+    <value>الشبكة المفضلة</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopup.Text" xml:space="preserve">
+    <value>الاتصال بالشبكة</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopupPassword.Text" xml:space="preserve">
+    <value>أدخل كلمة المرور:</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionDescription.Text" xml:space="preserve">
+    <value>اختر من بين إحدى الشبكات المتاحة</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionNoInternetConnection.Text" xml:space="preserve">
+    <value>أنت غير متصل بالإنترنت. يرجى التحقق من اتصالات الشبكة.</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionOtherNetworks.Text" xml:space="preserve">
+    <value>شبكات أخرى</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup_Description.Text" xml:space="preserve">
+    <value>إعداد رمز دخول التطبيق</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup.Text" xml:space="preserve">
+    <value>إعداد رمز المرور</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>اللغة</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage_Description.Text" xml:space="preserve">
+    <value>اختر لغة التطبيق</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage.Text" xml:space="preserve">
+    <value>لغة التطبيق</value>
+  </data>
+  <data name="LanguagesPage_AppLanguageDropdown.PlaceholderText" xml:space="preserve">
+    <value>اختيار لغة</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage_Description.Text" xml:space="preserve">
+    <value>اللغة الافتراضية التي تستخدمها</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage.Text" xml:space="preserve">
+    <value>لغتي الافتراضية</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguageDropDown.PlaceholderText" xml:space="preserve">
+    <value>اختيار لغة</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description.Text" xml:space="preserve">
+    <value>قسم المحفوظات (للترجمات متعددة الأجهزة)</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description1.Text" xml:space="preserve">
+    <value>* تقوم ترجمات جهاز واحد بتشغيل جميع الصوت بشكل افتراضي *</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage.Text" xml:space="preserve">
+    <value>لغة التشغيل الافتراضية</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguages.Text" xml:space="preserve">
+    <value>لغات العرض السريع</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguagesDropdown.PlaceholderText" xml:space="preserve">
+    <value>إضافة لغة</value>
+  </data>
+  <data name="LanguagesPage_Title.Text" xml:space="preserve">
+    <value>اللغات</value>
+  </data>
+  <data name="Licence" xml:space="preserve">
+    <value>ترخيص</value>
+  </data>
+  <data name="LicenseType.Text" xml:space="preserve">
+    <value>نوع الترخيص:</value>
+  </data>
+  <data name="NetworkConnectionError" xml:space="preserve">
+    <value>خطأ:</value>
+  </data>
+  <data name="Next.Content" xml:space="preserve">
+    <value>مقبل</value>
+  </data>
+  <data name="PasscodeError_MinimumLength" xml:space="preserve">
+    <value>يجب أن يكون الحد الأدنى لطول رمز المرور 4.</value>
+  </data>
+  <data name="PasscodeError_NotMatching" xml:space="preserve">
+    <value>رموز المرور التي تم إدخالها غير متطابقة. يرجى إعادة إدخال رموز المرور ثم المحاولة مرة أخرى.</value>
+  </data>
+  <data name="Person.Text" xml:space="preserve">
+    <value>شخص</value>
+  </data>
+  <data name="PrivacyPolicy.Text" xml:space="preserve">
+    <value>سياسة الخصوصية</value>
+  </data>
+  <data name="ProfilePage_Email_Description.Text" xml:space="preserve">
+    <value>البريد الإلكتروني الافتراضي للتصدير</value>
+  </data>
+  <data name="ProfilePage_Email.Text" xml:space="preserve">
+    <value>البريد الإلكتروني</value>
+  </data>
+  <data name="ProfilePage_Passcode_Description.Text" xml:space="preserve">
+    <value>رمز مرور التطبيق الخاص بك</value>
+  </data>
+  <data name="ProfilePage_Passcode.Text" xml:space="preserve">
+    <value>رمز المرور</value>
+  </data>
+  <data name="ProfilePage_Timeout_Description.Text" xml:space="preserve">
+    <value>تكرار قفل وضع المسؤول</value>
+  </data>
+  <data name="ProfilePage_Timeout.Text" xml:space="preserve">
+    <value>مهلة وضع المسؤول</value>
+  </data>
+  <data name="ProfilePage_TimeoutDropdown.PlaceholderText" xml:space="preserve">
+    <value>اختر وقتا</value>
+  </data>
+  <data name="ProfilePage_Title.Text" xml:space="preserve">
+    <value>ملف تعريف</value>
+  </data>
+  <data name="PublishedBy.Text" xml:space="preserve">
+    <value>نشرت من قبل</value>
+  </data>
+  <data name="ReleaseNotesMessage.Text" xml:space="preserve">
+    <value>سيتم تحديث ملاحظات الإصدار قريبا</value>
+  </data>
+  <data name="Save_Text" xml:space="preserve">
+    <value>أنقذ</value>
+  </data>
+  <data name="SessionDetailsPage_Description.Text" xml:space="preserve">
+    <value>تاريخ النسخ</value>
+  </data>
+  <data name="SessionDetailsPage_Duration.Text" xml:space="preserve">
+    <value>مدة</value>
+  </data>
+  <data name="SessionDetailsPage_SessionID.Text" xml:space="preserve">
+    <value>معرف الجلسة</value>
+  </data>
+  <data name="SessionDetailsPage_Title.Text" xml:space="preserve">
+    <value>تاريخ</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>اعدادات</value>
+  </data>
+  <data name="TermsOfUse.Text" xml:space="preserve">
+    <value>شروط الاستخدام</value>
+  </data>
+  <data name="TranslationPage_SettingUpState" xml:space="preserve">
+    <value>اعداد...</value>
+  </data>
+  <data name="TranslationPage_SpeakFast" xml:space="preserve">
+    <value>حاول التحدث بشكل أسرع قليلا للحصول على نتائج ترجمة أفضل.</value>
+  </data>
+  <data name="TranslationPage_SpeakIn" xml:space="preserve">
+    <value>تحدث في</value>
+  </data>
+  <data name="TranslationPage_SpeakSlow" xml:space="preserve">
+    <value>حاول التحدث بشكل أبطأ قليلا للحصول على نتائج ترجمة أفضل.</value>
+  </data>
+  <data name="TranslationPage_Switching" xml:space="preserve">
+    <value>التبديل</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonOne" xml:space="preserve">
+    <value>التبديل إلى الشخص 1</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonTwo" xml:space="preserve">
+    <value>التبديل إلى الشخص 2</value>
+  </data>
+  <data name="TranslationPage_TranslationReadyState" xml:space="preserve">
+    <value>تحدث الآن</value>
+  </data>
+  <data name="Website.Text" xml:space="preserve">
+    <value>الموقع الالكترونى</value>
+  </data>
+  <data name="WhatsNew" xml:space="preserve">
+    <value>ما الجديد</value>
+  </data>
+  <data name="WhatsNewInSpeechly.Text" xml:space="preserve">
+    <value>ما الجديد في</value>
+  </data>
+  <data name="AudioDevicesSelectorDualDevice.Content" xml:space="preserve">
+    <value>جهاز مزدوج</value>
+  </data>
+  <data name="AudioDevicesSelectorSingleDevice.Content" xml:space="preserve">
+    <value>جهاز واحد</value>
+  </data>
+  <data name="AutoDetectSearchCountry.PlaceholderText" xml:space="preserve">
+    <value>البحث عن البلد</value>
+  </data>
+  <data name="AutoDetectSelectLanguage.Text" xml:space="preserve">
+    <value>اختر لغتك</value>
+  </data>
+  <data name="ChatViewPersonOne" xml:space="preserve">
+    <value>الشخص الأول</value>
+  </data>
+  <data name="ChatViewPersonTwo" xml:space="preserve">
+    <value>الشخص الثاني</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionLost" xml:space="preserve">
+    <value>فقد الاتصال بالإنترنت. يرجى التحقق من اتصالك ثم المحاولة مرة أخرى.</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionUnstable" xml:space="preserve">
+    <value>اتصالك بالإنترنت بطيء. قد تواجه بعض التأخر.</value>
+  </data>
+  <data name="CustomTagSelectionTitle.Text" xml:space="preserve">
+    <value>علامات المؤسسة (اختر لإضافتها)</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.Header" xml:space="preserve">
+    <value>علامة المستخدم لتبديل اللغة</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OffContent" xml:space="preserve">
+    <value>ذوي الاحتياجات الخاصه</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OnContent" xml:space="preserve">
+    <value>تمكين</value>
+  </data>
+  <data name="DetectLanguageButton.Content" xml:space="preserve">
+    <value>اكتشاف اللغة</value>
+  </data>
+  <data name="DevicesPageNetworkSetupBluetoothStatus.Text" xml:space="preserve">
+    <value>حالة البلوتوث :</value>
+  </data>
+  <data name="DevicesPageNetworkSetupConnectAutomatically.Text" xml:space="preserve">
+    <value>الاتصال تلقائيا</value>
+  </data>
+  <data name="DevicesPageNetworkSetupWiFiStatus.Text" xml:space="preserve">
+    <value>حالة واي فاي:</value>
+  </data>
+  <data name="Dimiss.Content" xml:space="preserve">
+    <value>إلغاء الأمر</value>
+  </data>
+  <data name="Duration.Text" xml:space="preserve">
+    <value>|  مدة</value>
+  </data>
+  <data name="EmailPopup_Description.Text" xml:space="preserve">
+    <value>أدخل عنوان بريدك الإلكتروني</value>
+  </data>
+  <data name="EmailPopup_Title.Text" xml:space="preserve">
+    <value>إرسال جلستك عبر البريد الإلكتروني</value>
+  </data>
+  <data name="ForcedUpdateDialogCaption" xml:space="preserve">
+    <value>لدينا تحديثات هامة ل</value>
+  </data>
+  <data name="ForcedUpdateDialogInstallBtnText" xml:space="preserve">
+    <value>تحديث</value>
+  </data>
+  <data name="ForcedUpdateDialogTitle" xml:space="preserve">
+    <value>التحديثات الهامة</value>
+  </data>
+  <data name="GoBack.Content" xml:space="preserve">
+    <value>الرجوع للخلف</value>
+  </data>
+  <data name="HelpPageSignOut.Content" xml:space="preserve">
+    <value>تسجيل الخروج</value>
+  </data>
+  <data name="History_Export.Text" xml:space="preserve">
+    <value>إنشاء ملف...</value>
+  </data>
+  <data name="HistoryListColumnSessionName.Text" xml:space="preserve">
+    <value>اسم</value>
+  </data>
+  <data name="HistoryListColumnSynced.Text" xml:space="preserve">
+    <value>مزامن</value>
+  </data>
+  <data name="HistorySearchBox.PlaceholderText" xml:space="preserve">
+    <value>اللغة أو اسم الجلسة أو العلامات أو المعرفات</value>
+  </data>
+  <data name="HistorySearchButtonTooltip.Text" xml:space="preserve">
+    <value>بحث</value>
+  </data>
+  <data name="HistorySearchClearButtonTooltip.Text" xml:space="preserve">
+    <value>واضح</value>
+  </data>
+  <data name="HistorySearchFromDate.Header" xml:space="preserve">
+    <value>من:</value>
+  </data>
+  <data name="HistorySearchToDate.Header" xml:space="preserve">
+    <value>ل:</value>
+  </data>
+  <data name="HistoryShareButtonTooltip.Text" xml:space="preserve">
+    <value>مشاركة/إرسال</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonOne.Text" xml:space="preserve">
+    <value>الشخص 1</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonTwo.Text" xml:space="preserve">
+    <value>الشخص 2</value>
+  </data>
+  <data name="LoginPageTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NewVersionDialogCaption" xml:space="preserve">
+    <value>تثبيت إصدار تطبيق جديد من</value>
+  </data>
+  <data name="NewVersionDialogDescription" xml:space="preserve">
+    <value>ستكون الميزات الجديدة وإصلاحات الأخطاء مفقودة من </value>
+  </data>
+  <data name="NewVersionDialogInstallBtnText" xml:space="preserve">
+    <value>تثبيت إصدار جديد</value>
+  </data>
+  <data name="NewVersionDialogTitle" xml:space="preserve">
+    <value>إصدار التطبيق الجديد</value>
+  </data>
+  <data name="NextText" xml:space="preserve">
+    <value>مقبل</value>
+  </data>
+  <data name="ProfilePageEditButton.Content" xml:space="preserve">
+    <value>حرر</value>
+  </data>
+  <data name="QuestionsButton.Content" xml:space="preserve">
+    <value>انظر الأسئلة</value>
+  </data>
+  <data name="QuestionSettingsDescription.Text" xml:space="preserve">
+    <value>عرض اختصارات الأسئلة أو تعديلها</value>
+  </data>
+  <data name="QuestionSettingsInstructionOne.Text" xml:space="preserve">
+    <value>* استخدم الأرقام 1-9 لكل سؤال. لن يتم النظر في الصفر (0).</value>
+  </data>
+  <data name="QuestionSettingsInstructionThree.Text" xml:space="preserve">
+    <value>* يمكنك فقط تعيين اختصارات ل 9 أسئلة.</value>
+  </data>
+  <data name="QuestionSettingsListTitle.Text" xml:space="preserve">
+    <value>قائمة الأسئلة :</value>
+  </data>
+  <data name="ResellerEmailAddress.Text" xml:space="preserve">
+    <value>عنوان البريد الإلكتروني للموزع :</value>
+  </data>
+  <data name="ResellerName.Text" xml:space="preserve">
+    <value>اسم الموزع :</value>
+  </data>
+  <data name="SelectFlag.Text" xml:space="preserve">
+    <value>حدد علمك:</value>
+  </data>
+  <data name="Send.Content" xml:space="preserve">
+    <value>ارسل</value>
+  </data>
+  <data name="SessionDetailsPage_SessionName.Text" xml:space="preserve">
+    <value>اسم الجلسة</value>
+  </data>
+  <data name="SessionID.Text" xml:space="preserve">
+    <value>رقم الجلسة :-</value>
+  </data>
+  <data name="SessionMetadataDialog_ContinueButton.Text" xml:space="preserve">
+    <value>استمر</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTags.Text" xml:space="preserve">
+    <value>علامة (علامات) مخصصة</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>أدخل اسم العلامة هنا</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextboxHelper.Text" xml:space="preserve">
+    <value>اضغط على Enter</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTags.Text" xml:space="preserve">
+    <value>العلامة (العلامات) الافتراضية</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>أدخل القيمة هنا</value>
+  </data>
+  <data name="SessionMetadataDialog_Description.Text" xml:space="preserve">
+    <value>يتم تمييز الحقول الإلزامية ب "</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionName.Text" xml:space="preserve">
+    <value>اسم الجلسة</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionNameTextbox.PlaceholderText" xml:space="preserve">
+    <value>على سبيل المثال المريض صفر</value>
+  </data>
+  <data name="SessionMetadataDialog_Title.Text" xml:space="preserve">
+    <value>إضافة اسم جلسة وعلامات</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorActionMessage" xml:space="preserve">
+    <value>يرجى الاتصال بالمسؤول لتنشيط حسابك.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorMessage" xml:space="preserve">
+    <value>تم إلغاء تنشيط حسابك.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorActionMessage" xml:space="preserve">
+    <value>يرجى الاتصال بالمسؤول لإنشاء حسابك.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorMessage" xml:space="preserve">
+    <value>تم حذف حسابك.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorActionMessage" xml:space="preserve">
+    <value>يرجى الاتصال بالمسؤول لتمكين حسابك.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorMessage" xml:space="preserve">
+    <value>تم تعطيل حسابك.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorActionMessage" xml:space="preserve">
+    <value>يرجى الاتصال بالمسؤول لإنشاء حسابك.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorMessage" xml:space="preserve">
+    <value>ليس لديك حساب نشط.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorActionMessage" xml:space="preserve">
+    <value>يرجى الاتصال بالمسؤول لتجديد ترخيصك.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorMessage" xml:space="preserve">
+    <value>انتهت صلاحية ترخيصك.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorActionMessage" xml:space="preserve">
+    <value>يرجى الاتصال بالمسؤول لتفعيل ترخيصك.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorMessage" xml:space="preserve">
+    <value>تم إلغاء تنشيط ترخيصك.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorActionMessage" xml:space="preserve">
+    <value>يرجى الاتصال بالمشرف.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorMessage" xml:space="preserve">
+    <value>تم تعليق ترخيصك.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorActionMessage" xml:space="preserve">
+    <value>يرجى الاتصال بالمسؤول لتعيين ترخيص لك.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorMessage" xml:space="preserve">
+    <value>ليس لديك ترخيص مخصص لك.</value>
+  </data>
+  <data name="StartupPage2020.Text" xml:space="preserve">
+    <value>2021 </value>
+  </data>
+  <data name="StartupPageErrorDescription.Text" xml:space="preserve">
+    <value>حدث خطأ. يرجى التحقق من اتصالك بالإنترنت ثم المحاولة مرة أخرى.</value>
+  </data>
+  <data name="StartupPagePoweredBy.Text" xml:space="preserve">
+    <value>يعمل بواسطة </value>
+  </data>
+  <data name="StartupPageProgressDescription.Text" xml:space="preserve">
+    <value>قد يستغرق هذا بضع ثوان</value>
+  </data>
+  <data name="StartupPageRetryButton.Content" xml:space="preserve">
+    <value>اعاده المحاوله</value>
+  </data>
+  <data name="StartupPageRightsReserved.Text" xml:space="preserve">
+    <value>جميع الحقوق محفوظة.</value>
+  </data>
+  <data name="StartUpPageSettingUpMessage" xml:space="preserve">
+    <value>اعداد...</value>
+  </data>
+  <data name="StartupPageTitleDescription.Text" xml:space="preserve">
+    <value>مرحبا بكم في </value>
+  </data>
+  <data name="TranslateText" xml:space="preserve">
+    <value>ترجمة</value>
+  </data>
+  <data name="TranslationLicenceUseError" xml:space="preserve">
+    <value>ترخيصك قيد الاستخدام حاليا في جلسة عمل أخرى.</value>
+  </data>
+  <data name="TranslationLimitReachedError" xml:space="preserve">
+    <value>لقد وصلت إلى الحد الأقصى للوقت لكل جلسة. انتهاء الجلسة.</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOff" xml:space="preserve">
+    <value>إيقاف تشغيل الميكروفون</value>
+  </data>
+  <data name="TranslationPage_SpeakerOff" xml:space="preserve">
+    <value>إيقاف تشغيل مكبر الصوت</value>
+  </data>
+  <data name="TranslationTimeDepletedError" xml:space="preserve">
+    <value>لقد استنفدت محاضر الترجمة الخاصة بك. يرجى الاتصال بالمسؤول.</value>
+  </data>
+  <data name="UnsupportedVersionDialogBtntext" xml:space="preserve">
+    <value>تحديث</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption" xml:space="preserve">
+    <value>التحديثات الهامة مطلوبة ل </value>
+  </data>
+  <data name="UnsupportedVersionDialogDescription" xml:space="preserve">
+    <value>قم بتحديث تطبيقك لمتابعة الحصول على تحديثات الميزات والأمان.</value>
+  </data>
+  <data name="UnsupportedVersionDialogTitle" xml:space="preserve">
+    <value>إصدار التطبيق غير المدعوم</value>
+  </data>
+  <data name="UpdateDialogWhatsNew.Text" xml:space="preserve">
+    <value>ما الجديد؟</value>
+  </data>
+  <data name="Zoom.Text" xml:space="preserve">
+    <value>التكبير</value>
+  </data>
+  <data name="Add.Content" xml:space="preserve">
+    <value>جمع</value>
+  </data>
+  <data name="AddNewQuestion.Text" xml:space="preserve">
+    <value>إضافة سؤال جديد محدد مسبقا</value>
+  </data>
+  <data name="AddQuestion.Content" xml:space="preserve">
+    <value>إضافة سؤال</value>
+  </data>
+  <data name="ChooseLanguage.Text" xml:space="preserve">
+    <value>حدد اللغة الافتراضية</value>
+  </data>
+  <data name="CustomProfileAdded" xml:space="preserve">
+    <value>تمت إضافة اسم الملف الشخصي بنجاح.</value>
+  </data>
+  <data name="CustomProfileDeleted" xml:space="preserve">
+    <value>تم حذف الملف الشخصي بنجاح.</value>
+  </data>
+  <data name="CustomProfileInvalidName" xml:space="preserve">
+    <value>خطأ! اسم ملف تعريف غير صالح.</value>
+  </data>
+  <data name="CustomProfileNotDeleted" xml:space="preserve">
+    <value>لا يوجد ملف تعريف لحذفه.</value>
+  </data>
+  <data name="CustomProfileNotSaved" xml:space="preserve">
+    <value>خطأ! لم يتم حفظ أي ملف تعريف.</value>
+  </data>
+  <data name="CustomProfileProfileSaved" xml:space="preserve">
+    <value>تم حفظ ملف التعريف بنجاح.</value>
+  </data>
+  <data name="DataRequestMessage" xml:space="preserve">
+    <value>لم تقم بتحديد أي نص. يرجى تحديد نص لمشاركته والمحاولة مرة أخرى.</value>
+  </data>
+  <data name="DevicesAddProfileButton.Content" xml:space="preserve">
+    <value>جمع</value>
+  </data>
+  <data name="DevicesAvailableProfiles.Text" xml:space="preserve">
+    <value>الملفات الشخصية المتاحة</value>
+  </data>
+  <data name="DevicesDefaultProfile.Text" xml:space="preserve">
+    <value>الملف الشخصي الافتراضي:</value>
+  </data>
+  <data name="DevicesDeleteProfileBtn.Content" xml:space="preserve">
+    <value>حذف الملف الشخصي</value>
+  </data>
+  <data name="DeviceSetupChanged" xml:space="preserve">
+    <value>تحديث أجهزة الصوت المتصلة </value>
+  </data>
+  <data name="DevicesHelpfulTip1.Text" xml:space="preserve">
+    <value>1. تعيين اسم ملف تعريف</value>
+  </data>
+  <data name="DevicesHelpfulTip2.Text" xml:space="preserve">
+    <value>2. حدد أوضاع الجهاز الفردي أو المزدوج</value>
+  </data>
+  <data name="DevicesHelpfulTip3.Text" xml:space="preserve">
+    <value>3. حدد مكبر (مكبرات الصوت) والميكروفون (الميكروفونات)</value>
+  </data>
+  <data name="DevicesHelpfulTip4.Text" xml:space="preserve">
+    <value>4. تعيين ملف التعريف الخاص بك كافتراضي</value>
+  </data>
+  <data name="DevicesHelpfulTip5.Text" xml:space="preserve">
+    <value>5. انقر فوق الزر حفظ الملف الشخصي لحفظ ملفك الشخصي</value>
+  </data>
+  <data name="DevicesHelpfulTips.Text" xml:space="preserve">
+    <value>نصائح مفيدة</value>
+  </data>
+  <data name="DevicesProfileNameTextBox.PlaceholderText" xml:space="preserve">
+    <value>اسم الملف الشخصي...</value>
+  </data>
+  <data name="DevicesSaveProfileBtn.Content" xml:space="preserve">
+    <value>حفظ الملف الشخصي</value>
+  </data>
+  <data name="DevicesSetasDefault.Text" xml:space="preserve">
+    <value>تعيين كافتراضي</value>
+  </data>
+  <data name="DevicesSetProfileButton.Content" xml:space="preserve">
+    <value>تعيين ملف التعريف</value>
+  </data>
+  <data name="DevicesSetProfileText.Text" xml:space="preserve">
+    <value>تعيين ملف تعريف مخصص؟</value>
+  </data>
+  <data name="DiscardButton.Content" xml:space="preserve">
+    <value>اطرح</value>
+  </data>
+  <data name="DismissButton.Content" xml:space="preserve">
+    <value>أقال</value>
+  </data>
+  <data name="DismissText.Text" xml:space="preserve">
+    <value>أقال</value>
+  </data>
+  <data name="DownloadAudio.Text" xml:space="preserve">
+    <value>تحميل الصوت</value>
+  </data>
+  <data name="DownloadCancel" xml:space="preserve">
+    <value>تم إلغاء التنزيل</value>
+  </data>
+  <data name="Downloaded" xml:space="preserve">
+    <value>تحميل</value>
+  </data>
+  <data name="DownloadError" xml:space="preserve">
+    <value>حدث خطأ</value>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>تحميل</value>
+  </data>
+  <data name="DownloadPaused" xml:space="preserve">
+    <value>تحميل متوقف مؤقتا</value>
+  </data>
+  <data name="DualDeviceUpdated" xml:space="preserve">
+    <value>تم تحديث إعداد الجهاز المزدوج بنجاح</value>
+  </data>
+  <data name="EnterQuestion.Text" xml:space="preserve">
+    <value>أدخل السؤال أدناه</value>
+  </data>
+  <data name="ErrorDescription.Text" xml:space="preserve">
+    <value>لم يتم حفظ تغييراتك، هل ترغب في حفظها أو تجاهلها؟</value>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>حدث خطأ ما.. حاول مرة أخرى</value>
+  </data>
+  <data name="ErrorTitle.Text" xml:space="preserve">
+    <value>لديك تغييرات غير محفوظة</value>
+  </data>
+  <data name="FeedbackEight.Text" xml:space="preserve">
+    <value>ظللنا نقاطع بعضنا البعض</value>
+  </data>
+  <data name="FeedbackFive.Text" xml:space="preserve">
+    <value>سمعت صدى في المكالمة</value>
+  </data>
+  <data name="FeedbackFour.Text" xml:space="preserve">
+    <value>التقطت أصوات الخلفية</value>
+  </data>
+  <data name="FeedbackOne.Text" xml:space="preserve">
+    <value>لم يلتقط صوتي بشكل صحيح</value>
+  </data>
+  <data name="FeedbackQuestion.Text" xml:space="preserve">
+    <value>ما الذي كان يمكن أن يكون أفضل؟</value>
+  </data>
+  <data name="FeedbackSeven.Text" xml:space="preserve">
+    <value>انتهت الجلسة بشكل غير متوقع</value>
+  </data>
+  <data name="FeedbackSix.Text" xml:space="preserve">
+    <value>كان حجم الصوت منخفضا جدا</value>
+  </data>
+  <data name="FeedbackThanks.Text" xml:space="preserve">
+    <value>شكرا لردود الفعل</value>
+  </data>
+  <data name="FeedbackThree.Text" xml:space="preserve">
+    <value>كان وقت الترجمة بطيئا جدا</value>
+  </data>
+  <data name="FeedbackTwo.Text" xml:space="preserve">
+    <value>لقد أخطأت في ترجمة جملي</value>
+  </data>
+  <data name="ForcedUpdateDialogCaptionContinuation" xml:space="preserve">
+    <value>للعمل. لن يعمل التطبيق بدون هذه التحديثات.</value>
+  </data>
+  <data name="Improvement.Text" xml:space="preserve">
+    <value>سنواصل العمل على تحسين تجربتك.</value>
+  </data>
+  <data name="LanguageSettingsUpdated" xml:space="preserve">
+    <value>تم تحديث تغييرات اللغة بنجاح</value>
+  </data>
+  <data name="NewVersionDialogDescription2" xml:space="preserve">
+    <value>ونسختك من</value>
+  </data>
+  <data name="NewVersionDialogDescription3" xml:space="preserve">
+    <value>قد تصبح غير مدعومة.</value>
+  </data>
+  <data name="Other.Text" xml:space="preserve">
+    <value>تعليقات أخرى:</value>
+  </data>
+  <data name="PasswordUpdated" xml:space="preserve">
+    <value>تم تغيير كلمة المرور بنجاح</value>
+  </data>
+  <data name="PlaybackLanguageUpdated" xml:space="preserve">
+    <value>تم تغيير لغة التشغيل الافتراضية بنجاح</value>
+  </data>
+  <data name="QuestionAdded" xml:space="preserve">
+    <value>تمت إضافة السؤال بنجاح</value>
+  </data>
+  <data name="QuestionDeleted" xml:space="preserve">
+    <value>تم حذف السؤال بنجاح</value>
+  </data>
+  <data name="Questions.Text" xml:space="preserve">
+    <value>الاسئله</value>
+  </data>
+  <data name="QuestionSettingsInstructionTwo.Text" xml:space="preserve">
+    <value>* يجب أن يكون لكل سؤال مفتاح اختصار مختلف.</value>
+  </data>
+  <data name="QuestionsValidationError.Text" xml:space="preserve">
+    <value>* تحقق من عمليات التحقق الخاصة بك وحاول مرة أخرى.</value>
+  </data>
+  <data name="QuickViewLanguagesUpdated" xml:space="preserve">
+    <value>عرض سريع languges تم تحديثها بنجاح</value>
+  </data>
+  <data name="SendFeedback.Content" xml:space="preserve">
+    <value>إرسال ملاحظات</value>
+  </data>
+  <data name="SessionFeedbackPrompt" xml:space="preserve">
+    <value>كيف تقيم جلسة الترجمة الخاصة بك؟</value>
+  </data>
+  <data name="SessionFeedbackTitle" xml:space="preserve">
+    <value>ملاحظات الترجمة</value>
+  </data>
+  <data name="ShortcutSuccess" xml:space="preserve">
+    <value>اختصارات الأسئلة التي تم تحديثها بنجاح</value>
+  </data>
+  <data name="SingleDeviceUpdated" xml:space="preserve">
+    <value>تم تحديث إعداد جهاز واحد بنجاح</value>
+  </data>
+  <data name="StartupPageTitleDescription2.Text" xml:space="preserve">
+    <value>برامج الترجمة.</value>
+  </data>
+  <data name="TimeoutUpdated" xml:space="preserve">
+    <value>تم تحديث المهلة بنجاح</value>
+  </data>
+  <data name="TouchShareText" xml:space="preserve">
+    <value>مشاركة باللمس</value>
+  </data>
+  <data name="TranslationLanguageUpdated" xml:space="preserve">
+    <value>تغيرت لغة الترجمة الافتراضية بنجاح</value>
+  </data>
+  <data name="TranslationPlaybackUpdated" xml:space="preserve">
+    <value>تغيرت لغة الترجمة والتشغيل الافتراضية بنجاح</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption2" xml:space="preserve">
+    <value>للعمل. قد تتوقف الميزات عن العمل دون إشعار. يرجى تحديث التطبيق.</value>
+  </data>
+  <data name="UserFlagSwitch" xml:space="preserve">
+    <value>علامة المستخدم لتبديل اللغة المحدثة</value>
+  </data>
+</root>

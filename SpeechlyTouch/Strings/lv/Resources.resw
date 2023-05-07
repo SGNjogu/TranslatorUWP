@@ -1,0 +1,1192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="AppDescription" xml:space="preserve">
+    <value>TalaTouchApp</value>
+  </data>
+  <data name="AppDisplayName" xml:space="preserve">
+    <value>TalaTouchApp</value>
+  </data>
+  <data name="AudioDeviceSelector_MicDropdown.PlaceholderText" xml:space="preserve">
+    <value>Izvēlieties mikrofonu</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneMic.Text" xml:space="preserve">
+    <value>Persona Viens mikrofons</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneSpeaker.Text" xml:space="preserve">
+    <value>Persona Viens runātājs</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoMic.Text" xml:space="preserve">
+    <value>Persona Divi mikrofoni</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoSpeaker.Text" xml:space="preserve">
+    <value>Persona divi runātāji</value>
+  </data>
+  <data name="AudioDeviceSelector_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>Izvēlieties skaļruni</value>
+  </data>
+  <data name="BluetoothPairingDialog_Description.Text" xml:space="preserve">
+    <value>Pārliecinieties, vai ierīce ir ieslēgta un atklājama. Lai izveidotu savienojumu, atlasiet ierīci zemāk.</value>
+  </data>
+  <data name="BluetoothPairingDialog_Title.Text" xml:space="preserve">
+    <value>Ierīces pievienošana</value>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>Atcelt</value>
+  </data>
+  <data name="ChangePasscodeDialog_Confirm.Text" xml:space="preserve">
+    <value>Apstipriniet jaunu ieejas kodu</value>
+  </data>
+  <data name="ChangePasscodeDialog_Current.Text" xml:space="preserve">
+    <value>Pašreizējais ieejas kods</value>
+  </data>
+  <data name="ChangePasscodeDialog_New.Text" xml:space="preserve">
+    <value>Jauns ieejas kods</value>
+  </data>
+  <data name="ChangePasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Mainīt ieejas kodu</value>
+  </data>
+  <data name="Close.Content" xml:space="preserve">
+    <value>Aizvērt</value>
+  </data>
+  <data name="ConsentDialog_Description1.Text" xml:space="preserve">
+    <value>Bažas par privātumu ir mūsu prioritāte numur viens. (5) Jūs piekrītat šīs Konfidencialitātes politikas noteikumiem un nosacījumiem ar savu mobilo tālruni vai planšetdatoru, ja piemērojams.</value>
+  </data>
+  <data name="ConsentDialog_Description2.Text" xml:space="preserve">
+    <value>Ja izvēlaties neatļaut mums piekļuvi, kad saņemam piekrišanas pieprasījumu (par šādiem pieprasījumiem tiks paziņots www ICTS tīmekļa vietnē:</value>
+  </data>
+  <data name="ConsentDialog_Description3.Text" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int</value>
+  </data>
+  <data name="ConsentDialog_Description4.Text" xml:space="preserve">
+    <value>), tad pēc šādas atļaujas piešķiršanas mūsu rīcībā nevar nonākt ne norādītā e-pasta adrese, ne jebkāda cita personiska informācija, kas varētu identificēt personu.</value>
+  </data>
+  <data name="ConsentDialog_Description5.Text" xml:space="preserve">
+    <value>Izmantojot noteiktas daļas: / Mana mobilā tālruņa / ikonu izmantošana no manis puses - kas var ietvert atļauju citiem tērzētavās par tādiem produktiem kā</value>
+  </data>
+  <data name="ConsentDialog_HyperLink.NavigateUri" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int/</value>
+  </data>
+  <data name="ConsentDialog_Title.Text" xml:space="preserve">
+    <value>Mēs augstu vērtējam jūsu privātumu</value>
+  </data>
+  <data name="Dashboard_Choose_Language.Text" xml:space="preserve">
+    <value>Izvēlieties valodu</value>
+  </data>
+  <data name="Dashboard_Hello.Text" xml:space="preserve">
+    <value>Labdien</value>
+  </data>
+  <data name="Dashboard_SearchBox.PlaceholderText" xml:space="preserve">
+    <value>Meklēšanas valoda</value>
+  </data>
+  <data name="Dashboard_Welcome.Text" xml:space="preserve">
+    <value>Laipni lūdzam</value>
+  </data>
+  <data name="DevicesErrorDialog_NoDeviceError" xml:space="preserve">
+    <value>Jums nav saglabātas(-as) ierīces(-es). Dodieties uz Iestatījumi -&gt; Ierīces, lai atlasītu mikrofonu un skaļruni, pēc tam noklikšķiniet uz Saglabāt.</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Description.Text" xml:space="preserve">
+    <value>Pieejamās Bluetooth ierīces</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_DropDown.PlaceholderText" xml:space="preserve">
+    <value>Atlasiet Bluetooth ierīci</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Scan.Text" xml:space="preserve">
+    <value>Skenēšanas</value>
+  </data>
+  <data name="DevicesPage_Bluetooth.Text" xml:space="preserve">
+    <value>Bluetooth</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices_Description.Text" xml:space="preserve">
+    <value>Audioierīces izvēle</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices.Text" xml:space="preserve">
+    <value>Pievienotās audio ierīces</value>
+  </data>
+  <data name="DevicesPage_MicDropDown.PlaceholderText" xml:space="preserve">
+    <value>Izvēlieties mikrofonu</value>
+  </data>
+  <data name="DevicesPage_Network_Description.Text" xml:space="preserve">
+    <value>Pieejamie tīkli</value>
+  </data>
+  <data name="DevicesPage_Network_DropDown.PlaceholderText" xml:space="preserve">
+    <value>Izvēlieties tīklu</value>
+  </data>
+  <data name="DevicesPage_Network.Text" xml:space="preserve">
+    <value>Tīkls</value>
+  </data>
+  <data name="DevicesPage_NetworkError" xml:space="preserve">
+    <value>Nav izvēlēts tīkls. Pārbaudiet tīkla savienojumus.</value>
+  </data>
+  <data name="DevicesPage_PersonOne_Speaker.Text" xml:space="preserve">
+    <value>Persona viens runātājs</value>
+  </data>
+  <data name="DevicesPage_PersonOneMic.Text" xml:space="preserve">
+    <value>Persona viens mikrofons</value>
+  </data>
+  <data name="DevicesPage_PersonTwo_Mic.Text" xml:space="preserve">
+    <value>Persona divi mikrofoni</value>
+  </data>
+  <data name="DevicesPage_Scan" xml:space="preserve">
+    <value>Skenēšanas</value>
+  </data>
+  <data name="DevicesPage_Scanning" xml:space="preserve">
+    <value>Skenēšanas...</value>
+  </data>
+  <data name="DevicesPage_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>Izvēlieties skaļruni</value>
+  </data>
+  <data name="DevicesPage_Status_Connect" xml:space="preserve">
+    <value>Savienot</value>
+  </data>
+  <data name="DevicesPage_Status_Connected" xml:space="preserve">
+    <value>Savienots</value>
+  </data>
+  <data name="DevicesPage_Status_Connecting" xml:space="preserve">
+    <value>Savieno...</value>
+  </data>
+  <data name="DevicesPage_Status_Off" xml:space="preserve">
+    <value>PIE</value>
+  </data>
+  <data name="DevicesPage_Status_On" xml:space="preserve">
+    <value>IESLĒGTS</value>
+  </data>
+  <data name="DevicesPager_PersonTwo_Speaker.Text" xml:space="preserve">
+    <value>Persona divi runātāji</value>
+  </data>
+  <data name="EnterPasscodeDialog_Description.Text" xml:space="preserve">
+    <value>Lūdzu, ievadiet savu ieejas kodu, lai piekļūtu iestatījumu lapai</value>
+  </data>
+  <data name="EnterPasscodeDialog_ForgotPasscode.Content" xml:space="preserve">
+    <value>Aizmirsāt ieejas kodu?</value>
+  </data>
+  <data name="EnterPasscodeDialog_InvalidPasscode.Text" xml:space="preserve">
+    <value>Nederīgs ieejas kods! Lūdzu, mēģiniet vēlreiz.</value>
+  </data>
+  <data name="EnterPasscodeDialog_Passcode.Text" xml:space="preserve">
+    <value>Ieejas kods</value>
+  </data>
+  <data name="EnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Ievadiet savu ieejas kodu</value>
+  </data>
+  <data name="IAgree.Content" xml:space="preserve">
+    <value>Es piekrītu</value>
+  </data>
+  <data name="InvalidLicenseDialog_Description.Text" xml:space="preserve">
+    <value>Neizdevās pārbaudīt jūsu licenci</value>
+  </data>
+  <data name="InvalidLicenseDialog_Title.Text" xml:space="preserve">
+    <value>Nederīga licence</value>
+  </data>
+  <data name="LoginFailedDialog_Button.Content" xml:space="preserve">
+    <value>Iet atpakaļ</value>
+  </data>
+  <data name="LoginFailedDialog_Description.Text" xml:space="preserve">
+    <value>Jūsu pieteikšanās mēģinājums neizdevās.</value>
+  </data>
+  <data name="LoginFailedDialog_Title.Text" xml:space="preserve">
+    <value>Neizdevās pieteikties</value>
+  </data>
+  <data name="Main_Title.Text" xml:space="preserve">
+    <value>Galvenais</value>
+  </data>
+  <data name="PasswordPopup_SetupTitle.Text" xml:space="preserve">
+    <value>Ieejas koda iestatīšana</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Description1.Text" xml:space="preserve">
+    <value>Lūdzu, atkārtoti ievadiet savu ieejas kodu, lai turpinātu rediģēt...</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Piekļuves koda atkārtota ievadīšana</value>
+  </data>
+  <data name="RenterPasscodeDialog_Description2.Text" xml:space="preserve">
+    <value>automātiska saglabāšana un atgriešanās mājās</value>
+  </data>
+  <data name="Save.Content" xml:space="preserve">
+    <value>Glābt</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Description.Text" xml:space="preserve">
+    <value>Šis ir lapas paraugs, kurā tiks rādīti aktivizācijas parametri, ja lietotne ir aktivizēta no dziļās saites.</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Title.Text" xml:space="preserve">
+    <value>ShēmaActivationSample</value>
+  </data>
+  <data name="SetPasscodeDialog_ConfirmPasscode.Text" xml:space="preserve">
+    <value>Apstipriniet jaunu ieejas kodu </value>
+  </data>
+  <data name="SetPasscodeDialog_NewPasscode.Text" xml:space="preserve">
+    <value>Jauns ieejas kods</value>
+  </data>
+  <data name="SetPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Ieejas koda iestatīšana</value>
+  </data>
+  <data name="Settings_About.Text" xml:space="preserve">
+    <value>Par šo lietojumprogrammu</value>
+  </data>
+  <data name="Settings_AboutDescription.Text" xml:space="preserve">
+    <value>Iestatījumu lapas viettura teksts.  Jūsu lietotnes apraksts ir pieejams šeit.</value>
+  </data>
+  <data name="Settings_Personalization.Text" xml:space="preserve">
+    <value>Personalizācijas</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.Content" xml:space="preserve">
+    <value>Konfidencialitāti</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.NavigateUri" xml:space="preserve">
+    <value>https://YourPrivacyUrlGoesHere/</value>
+  </data>
+  <data name="Settings_Theme_Dark.Content" xml:space="preserve">
+    <value>Tumšs</value>
+  </data>
+  <data name="Settings_Theme_Default.Content" xml:space="preserve">
+    <value>Windows noklusējums</value>
+  </data>
+  <data name="Settings_Theme_Light.Content" xml:space="preserve">
+    <value>Gaišs</value>
+  </data>
+  <data name="Settings_Theme.Text" xml:space="preserve">
+    <value>Izvēlieties dizainu</value>
+  </data>
+  <data name="Settings_Title.Text" xml:space="preserve">
+    <value>Iestatījumus</value>
+  </data>
+  <data name="SettingsPage_Devices" xml:space="preserve">
+    <value>Ierīces</value>
+  </data>
+  <data name="SettingsPage_Language" xml:space="preserve">
+    <value>Valoda</value>
+  </data>
+  <data name="SettingsPage_Profile" xml:space="preserve">
+    <value>Profilu</value>
+  </data>
+  <data name="SettingsPage_Questions" xml:space="preserve">
+    <value>Jautājumiem</value>
+  </data>
+  <data name="SettingsPage_Title" xml:space="preserve">
+    <value>Iestatījumus</value>
+  </data>
+  <data name="ShellView_Help" xml:space="preserve">
+    <value>Palīgā</value>
+  </data>
+  <data name="ShellView_History" xml:space="preserve">
+    <value>Vēsture</value>
+  </data>
+  <data name="ShellView_Home" xml:space="preserve">
+    <value>Mājas</value>
+  </data>
+  <data name="ShellView_Settings.Text" xml:space="preserve">
+    <value>Iestatījumus</value>
+  </data>
+  <data name="Sign_In.Text" xml:space="preserve">
+    <value>Pieteikties</value>
+  </data>
+  <data name="SignInDialog_Description.Text" xml:space="preserve">
+    <value>Ar savu Jabra ierīci nekavējoties sazinieties vairākās globālās valodās.</value>
+  </data>
+  <data name="SignInDialog_SignInButton.Content" xml:space="preserve">
+    <value>Pieteikties</value>
+  </data>
+  <data name="Translate_Button.Text" xml:space="preserve">
+    <value>Tulkot</value>
+  </data>
+  <data name="TranslationPage_EndSession.Text" xml:space="preserve">
+    <value>Beigt sesiju</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOn" xml:space="preserve">
+    <value>Mikrofons ieslēgts</value>
+  </data>
+  <data name="TranslationPage_SpeakerOn" xml:space="preserve">
+    <value>Runātājs ieslēgts</value>
+  </data>
+  <data name="TranslationPage_SpeakNow.Text" xml:space="preserve">
+    <value>Runājiet tagad</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Par</value>
+  </data>
+  <data name="AboutPage_AppVersion.Text" xml:space="preserve">
+    <value>Lietojumprogrammas versija</value>
+  </data>
+  <data name="AboutPage_CheckUpdate.Content" xml:space="preserve">
+    <value>Pārbaudiet, vai nav atjauninājumu</value>
+  </data>
+  <data name="AboutPage_DataConsent" xml:space="preserve">
+    <value>Jūsu organizācija ir devusi piekrišanu jūsu datu saglabāšanai mākonī.</value>
+  </data>
+  <data name="AboutPage_NoDataConsent" xml:space="preserve">
+    <value>Jūsu organizācija nav devusi piekrišanu jūsu datu saglabāšanai mākonī.</value>
+  </data>
+  <data name="AboutPage_Published.Text" xml:space="preserve">
+    <value>Izdevējs FITTS Limited.</value>
+  </data>
+  <data name="AppClose_Close.Content" xml:space="preserve">
+    <value>Aizvērt tik un tā</value>
+  </data>
+  <data name="AppClose_Dismiss.Content" xml:space="preserve">
+    <value>Atcelt</value>
+  </data>
+  <data name="AppClose_Warning.Text" xml:space="preserve">
+    <value>Jums ir sesija, kas notiek. Lūdzu, beidziet sesiju pirms iziešanas no pieteikuma.</value>
+  </data>
+  <data name="AppVersion.Text" xml:space="preserve">
+    <value>Lietotnes versija</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Button.Content" xml:space="preserve">
+    <value>Turpināt sesiju</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Description.Text" xml:space="preserve">
+    <value>Sesija noslēgsies</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Title.Text" xml:space="preserve">
+    <value>Audio nav noteikts</value>
+  </data>
+  <data name="AudioPlayer_Error.Text" xml:space="preserve">
+    <value>Neizdevās ielādēt audio</value>
+  </data>
+  <data name="DashboardPage_DefaultLanguageError" xml:space="preserve">
+    <value>Jums nav saglabāta noklusējuma tulkošanas valoda. Dodieties uz Iestatījumi -&gt; valodas, lai atlasītu noklusējuma tulkošanas valodu, pēc tam noklikšķiniet uz Saglabāt.</value>
+  </data>
+  <data name="DashboardPage_TargetLanguageError" xml:space="preserve">
+    <value>Jūs neesat izvēlējies mērķa tulkošanas valodu. Lūdzu, izvēlieties valodu un pēc tam noklikšķiniet uz Tulkot.</value>
+  </data>
+  <data name="DevicesErrorDialog_DualDeviceError" xml:space="preserve">
+    <value>Jūs esat atlasījis divu ierīču tulkojumu, bet jums nav atlasīta(s) ierīce(s) 2. personai. Dodieties uz Iestatījumi -&gt; Ierīces, lai atlasītu mikrofonu un skaļruni, pēc tam noklikšķiniet uz Saglabāt.</value>
+  </data>
+  <data name="DevicesPage_Title.Text" xml:space="preserve">
+    <value>Ierīces</value>
+  </data>
+  <data name="DevicesPage_Wifi_Password.Text" xml:space="preserve">
+    <value>Ievadiet paroli</value>
+  </data>
+  <data name="DevicesPage_WifiStatus.Text" xml:space="preserve">
+    <value>Wi-Fi statuss</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Rediģēt</value>
+  </data>
+  <data name="Expiry.Text" xml:space="preserve">
+    <value>Termiņa beigām</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Atsauksmes</value>
+  </data>
+  <data name="FeedbackMessage.Text" xml:space="preserve">
+    <value>Ja jums ir kādas atsauksmes vai jautājumi, sazinieties ar mums.</value>
+  </data>
+  <data name="GetInTouchButton.Text" xml:space="preserve">
+    <value>Sazināties ar mums</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Palīgā</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>Vēsture</value>
+  </data>
+  <data name="History_ExportBtn.Text" xml:space="preserve">
+    <value>Eksporta</value>
+  </data>
+  <data name="HistoryExportButtonTooltip.Text" xml:space="preserve">
+    <value>Eksporta</value>
+  </data>
+  <data name="HistoryListColumnDate.Text" xml:space="preserve">
+    <value>Datums</value>
+  </data>
+  <data name="HistoryListColumnDuration.Text" xml:space="preserve">
+    <value>Ilgums</value>
+  </data>
+  <data name="HistoryListColumnPrimaryLanguage.Text" xml:space="preserve">
+    <value>Primārā valoda</value>
+  </data>
+  <data name="HistoryListColumnSecondaryLanguage.Text" xml:space="preserve">
+    <value>Sekundārā valoda</value>
+  </data>
+  <data name="HistoryListColumnSessionId.Text" xml:space="preserve">
+    <value>Sesijas ID</value>
+  </data>
+  <data name="InitalSetup_SkipSetup.Content" xml:space="preserve">
+    <value>Izlaist iestatīšanu</value>
+  </data>
+  <data name="InitialNetworkPopupConnectButton.Content" xml:space="preserve">
+    <value>Savienot</value>
+  </data>
+  <data name="InitialSetup_DeviceSelection.Text" xml:space="preserve">
+    <value>Ierīces izvēle</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionDescription.Text" xml:space="preserve">
+    <value>Noklusējuma audioierīces iestatīšana</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneMicrophone.Text" xml:space="preserve">
+    <value>Atlasiet Mikrofons</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneSpeaker.Text" xml:space="preserve">
+    <value>Atlasiet Skaļrunis</value>
+  </data>
+  <data name="InitialSetup_FinishSetup.Content" xml:space="preserve">
+    <value>Pabeigt iestatīšanu</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection_Description.Text" xml:space="preserve">
+    <value>Noklusējuma tulkošanas valodas iestatīšana</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection.Text" xml:space="preserve">
+    <value>Valodas izvēle</value>
+  </data>
+  <data name="InitialSetup_NetworkSelection.Text" xml:space="preserve">
+    <value>Vēlamais tīkls</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopup.Text" xml:space="preserve">
+    <value>Savienojuma izveide ar tīklu</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopupPassword.Text" xml:space="preserve">
+    <value>Ievadiet paroli:</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionDescription.Text" xml:space="preserve">
+    <value>Izvēlieties kādu no pieejamajiem tīkliem</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionNoInternetConnection.Text" xml:space="preserve">
+    <value>Jums nav izveidots savienojums ar internetu. Lūdzu, pārbaudiet tīkla savienojumus.</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionOtherNetworks.Text" xml:space="preserve">
+    <value>Citi tīkli</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup_Description.Text" xml:space="preserve">
+    <value>Lietotnes ieejas koda iestatīšana</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup.Text" xml:space="preserve">
+    <value>Ieejas koda iestatīšana</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Valoda</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage_Description.Text" xml:space="preserve">
+    <value>Izvēlieties lietojumprogrammas valodu</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage.Text" xml:space="preserve">
+    <value>Lietotnes valoda</value>
+  </data>
+  <data name="LanguagesPage_AppLanguageDropdown.PlaceholderText" xml:space="preserve">
+    <value>Valodas izvēle</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage_Description.Text" xml:space="preserve">
+    <value>Noklusējuma valoda, kuru izmantojat</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage.Text" xml:space="preserve">
+    <value>Mana noklusējuma valoda</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguageDropDown.PlaceholderText" xml:space="preserve">
+    <value>Valodas izvēle</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description.Text" xml:space="preserve">
+    <value>Vēstures sadaļa (vairāku ierīču tulkojumiem)</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description1.Text" xml:space="preserve">
+    <value>* Vienas ierīces tulkojumi atskaņo visu audio pēc noklusējuma *</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage.Text" xml:space="preserve">
+    <value>Noklusējuma atskaņošanas valoda</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguages.Text" xml:space="preserve">
+    <value>Ātrā skata valodas</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguagesDropdown.PlaceholderText" xml:space="preserve">
+    <value>Valodas pievienošana</value>
+  </data>
+  <data name="LanguagesPage_Title.Text" xml:space="preserve">
+    <value>Valodas</value>
+  </data>
+  <data name="Licence" xml:space="preserve">
+    <value>Licences</value>
+  </data>
+  <data name="LicenseType.Text" xml:space="preserve">
+    <value>Licences tips:</value>
+  </data>
+  <data name="NetworkConnectionError" xml:space="preserve">
+    <value>Kļūda:</value>
+  </data>
+  <data name="Next.Content" xml:space="preserve">
+    <value>Nākamo</value>
+  </data>
+  <data name="PasscodeError_MinimumLength" xml:space="preserve">
+    <value>Minimālajam ieejas koda garumam jābūt 4.</value>
+  </data>
+  <data name="PasscodeError_NotMatching" xml:space="preserve">
+    <value>Ievadītie ieejas kodi nesakrīt. Lūdzu, atkārtoti ievadiet ieejas kodus un pēc tam mēģiniet vēlreiz.</value>
+  </data>
+  <data name="Person.Text" xml:space="preserve">
+    <value>Persona</value>
+  </data>
+  <data name="PrivacyPolicy.Text" xml:space="preserve">
+    <value>Privātuma politika</value>
+  </data>
+  <data name="ProfilePage_Email_Description.Text" xml:space="preserve">
+    <value>Noklusējuma eksporta e-pasts</value>
+  </data>
+  <data name="ProfilePage_Email.Text" xml:space="preserve">
+    <value>E-pasts</value>
+  </data>
+  <data name="ProfilePage_Passcode_Description.Text" xml:space="preserve">
+    <value>Jūsu lietojumprogrammas piekļuves kods</value>
+  </data>
+  <data name="ProfilePage_Passcode.Text" xml:space="preserve">
+    <value>Ieejas kods</value>
+  </data>
+  <data name="ProfilePage_Timeout_Description.Text" xml:space="preserve">
+    <value>Administratora režīma bloķēšanas biežums</value>
+  </data>
+  <data name="ProfilePage_Timeout.Text" xml:space="preserve">
+    <value>Administratora režīma taimauts</value>
+  </data>
+  <data name="ProfilePage_TimeoutDropdown.PlaceholderText" xml:space="preserve">
+    <value>Laika izvēle</value>
+  </data>
+  <data name="ProfilePage_Title.Text" xml:space="preserve">
+    <value>Profilu</value>
+  </data>
+  <data name="PublishedBy.Text" xml:space="preserve">
+    <value>Izdevējs:</value>
+  </data>
+  <data name="ReleaseNotesMessage.Text" xml:space="preserve">
+    <value>Piezīmes par laidienu drīzumā tiks atjauninātas</value>
+  </data>
+  <data name="Save_Text" xml:space="preserve">
+    <value>Glābt</value>
+  </data>
+  <data name="SessionDetailsPage_Description.Text" xml:space="preserve">
+    <value>Transkripcijas vēsture</value>
+  </data>
+  <data name="SessionDetailsPage_Duration.Text" xml:space="preserve">
+    <value>Ilgums</value>
+  </data>
+  <data name="SessionDetailsPage_SessionID.Text" xml:space="preserve">
+    <value>Sesijas ID</value>
+  </data>
+  <data name="SessionDetailsPage_Title.Text" xml:space="preserve">
+    <value>Vēsture</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Iestatījumus</value>
+  </data>
+  <data name="TermsOfUse.Text" xml:space="preserve">
+    <value>Lietošanas noteikumi</value>
+  </data>
+  <data name="TranslationPage_SettingUpState" xml:space="preserve">
+    <value>Iestatīšana...</value>
+  </data>
+  <data name="TranslationPage_SpeakFast" xml:space="preserve">
+    <value>Mēģiniet runāt nedaudz ātrāk, lai iegūtu labākus tulkošanas rezultātus.</value>
+  </data>
+  <data name="TranslationPage_SpeakIn" xml:space="preserve">
+    <value>Runājiet iekšā</value>
+  </data>
+  <data name="TranslationPage_SpeakSlow" xml:space="preserve">
+    <value>Mēģiniet runāt nedaudz lēnāk, lai iegūtu labākus tulkošanas rezultātus.</value>
+  </data>
+  <data name="TranslationPage_Switching" xml:space="preserve">
+    <value>Pārslēgšanās</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonOne" xml:space="preserve">
+    <value>Pārslēgšanās uz 1. personu</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonTwo" xml:space="preserve">
+    <value>Pārslēgšanās uz 2. personu</value>
+  </data>
+  <data name="TranslationPage_TranslationReadyState" xml:space="preserve">
+    <value>Runājiet tūlīt</value>
+  </data>
+  <data name="Website.Text" xml:space="preserve">
+    <value>Tīmekļa vietne</value>
+  </data>
+  <data name="WhatsNew" xml:space="preserve">
+    <value>Kas jauns</value>
+  </data>
+  <data name="WhatsNewInSpeechly.Text" xml:space="preserve">
+    <value>Kas jauns</value>
+  </data>
+  <data name="AudioDevicesSelectorDualDevice.Content" xml:space="preserve">
+    <value>Divkāršā ierīce</value>
+  </data>
+  <data name="AudioDevicesSelectorSingleDevice.Content" xml:space="preserve">
+    <value>Viena ierīce</value>
+  </data>
+  <data name="AutoDetectSearchCountry.PlaceholderText" xml:space="preserve">
+    <value>Meklēt valsti</value>
+  </data>
+  <data name="AutoDetectSelectLanguage.Text" xml:space="preserve">
+    <value>Izvēlieties valodu</value>
+  </data>
+  <data name="ChatViewPersonOne" xml:space="preserve">
+    <value>Pirmā persona</value>
+  </data>
+  <data name="ChatViewPersonTwo" xml:space="preserve">
+    <value>Otrā persona</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionLost" xml:space="preserve">
+    <value>Interneta savienojums zaudēts. Lūdzu, pārbaudiet savienojumu un pēc tam mēģiniet vēlreiz.</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionUnstable" xml:space="preserve">
+    <value>Interneta savienojums ir lēns. Jums var rasties zināma kavēšanās.</value>
+  </data>
+  <data name="CustomTagSelectionTitle.Text" xml:space="preserve">
+    <value>Organizācijas tagi (atlasiet pievienošanai)</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.Header" xml:space="preserve">
+    <value>Lietotāja karodziņš, lai pārslēgtu valodu</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OffContent" xml:space="preserve">
+    <value>Atspējots</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OnContent" xml:space="preserve">
+    <value>Iespējota</value>
+  </data>
+  <data name="DetectLanguageButton.Content" xml:space="preserve">
+    <value>Noteikt valodu</value>
+  </data>
+  <data name="DevicesPageNetworkSetupBluetoothStatus.Text" xml:space="preserve">
+    <value>Bluetooth statuss :</value>
+  </data>
+  <data name="DevicesPageNetworkSetupConnectAutomatically.Text" xml:space="preserve">
+    <value>Automātiska savienojuma izveide</value>
+  </data>
+  <data name="DevicesPageNetworkSetupWiFiStatus.Text" xml:space="preserve">
+    <value>WiFi statuss :</value>
+  </data>
+  <data name="Dimiss.Content" xml:space="preserve">
+    <value>Atcelt</value>
+  </data>
+  <data name="Duration.Text" xml:space="preserve">
+    <value>|  Ilgums</value>
+  </data>
+  <data name="EmailPopup_Description.Text" xml:space="preserve">
+    <value>Ievadiet savu e-pasta adresi</value>
+  </data>
+  <data name="EmailPopup_Title.Text" xml:space="preserve">
+    <value>Sesijas nosūtīšana pa e-pastu</value>
+  </data>
+  <data name="ForcedUpdateDialogCaption" xml:space="preserve">
+    <value>Mums ir kritiski atjauninājumi</value>
+  </data>
+  <data name="ForcedUpdateDialogInstallBtnText" xml:space="preserve">
+    <value>Aktualizēt</value>
+  </data>
+  <data name="ForcedUpdateDialogTitle" xml:space="preserve">
+    <value>Kritiskie atjauninājumi</value>
+  </data>
+  <data name="GoBack.Content" xml:space="preserve">
+    <value>Iet atpakaļ</value>
+  </data>
+  <data name="HelpPageSignOut.Content" xml:space="preserve">
+    <value>Izrakstīties</value>
+  </data>
+  <data name="History_Export.Text" xml:space="preserve">
+    <value>Ģenerējot failu...</value>
+  </data>
+  <data name="HistoryListColumnSessionName.Text" xml:space="preserve">
+    <value>Vārds</value>
+  </data>
+  <data name="HistoryListColumnSynced.Text" xml:space="preserve">
+    <value>Sinhronizētas</value>
+  </data>
+  <data name="HistorySearchBox.PlaceholderText" xml:space="preserve">
+    <value>Valoda, sesijas nosaukums, tagi vai ID</value>
+  </data>
+  <data name="HistorySearchButtonTooltip.Text" xml:space="preserve">
+    <value>Meklēt</value>
+  </data>
+  <data name="HistorySearchClearButtonTooltip.Text" xml:space="preserve">
+    <value>Dzidrs</value>
+  </data>
+  <data name="HistorySearchFromDate.Header" xml:space="preserve">
+    <value>No:</value>
+  </data>
+  <data name="HistorySearchToDate.Header" xml:space="preserve">
+    <value>Līdz:</value>
+  </data>
+  <data name="HistoryShareButtonTooltip.Text" xml:space="preserve">
+    <value>Kopīgot/sūtīt</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonOne.Text" xml:space="preserve">
+    <value>1. persona</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonTwo.Text" xml:space="preserve">
+    <value>2. persona</value>
+  </data>
+  <data name="LoginPageTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NewVersionDialogCaption" xml:space="preserve">
+    <value>Instalējiet jaunu lietotnes versiju</value>
+  </data>
+  <data name="NewVersionDialogDescription" xml:space="preserve">
+    <value>Jaunu funkciju un kļūdu labojumu trūks </value>
+  </data>
+  <data name="NewVersionDialogInstallBtnText" xml:space="preserve">
+    <value>Instalējiet jaunu versiju</value>
+  </data>
+  <data name="NewVersionDialogTitle" xml:space="preserve">
+    <value>Jauna lietotnes versija</value>
+  </data>
+  <data name="NextText" xml:space="preserve">
+    <value>Nākamo</value>
+  </data>
+  <data name="ProfilePageEditButton.Content" xml:space="preserve">
+    <value>Rediģēt</value>
+  </data>
+  <data name="QuestionsButton.Content" xml:space="preserve">
+    <value>Skatīt jautājumus</value>
+  </data>
+  <data name="QuestionSettingsDescription.Text" xml:space="preserve">
+    <value>Jautājumu saīsņu skatīšana vai modificēšana</value>
+  </data>
+  <data name="QuestionSettingsInstructionOne.Text" xml:space="preserve">
+    <value>* Katram jautājumam izmantojiet skaitļus no 1 līdz 9. Nulle (0) netiks ņemta vērā.</value>
+  </data>
+  <data name="QuestionSettingsInstructionThree.Text" xml:space="preserve">
+    <value>* Saīsnes var piešķirt tikai uz 9 jautājumiem.</value>
+  </data>
+  <data name="QuestionSettingsListTitle.Text" xml:space="preserve">
+    <value>Jautājumu saraksts :</value>
+  </data>
+  <data name="ResellerEmailAddress.Text" xml:space="preserve">
+    <value>Tālākpārdevēja e-pasta adrese :</value>
+  </data>
+  <data name="ResellerName.Text" xml:space="preserve">
+    <value>Tālākpārdevēja nosaukums :</value>
+  </data>
+  <data name="SelectFlag.Text" xml:space="preserve">
+    <value>Atlasiet savu karodziņu:</value>
+  </data>
+  <data name="Send.Content" xml:space="preserve">
+    <value>Sūtīt</value>
+  </data>
+  <data name="SessionDetailsPage_SessionName.Text" xml:space="preserve">
+    <value>Sesijas nosaukums</value>
+  </data>
+  <data name="SessionID.Text" xml:space="preserve">
+    <value>Sesijas ID : -</value>
+  </data>
+  <data name="SessionMetadataDialog_ContinueButton.Text" xml:space="preserve">
+    <value>Turpināt</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTags.Text" xml:space="preserve">
+    <value>Pielāgots(-i) tags(-i)</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Ievadiet taga nosaukumu šeit</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextboxHelper.Text" xml:space="preserve">
+    <value>Nospiediet taustiņu Enter</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTags.Text" xml:space="preserve">
+    <value>Noklusējuma tags(-i)</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Šeit ievadiet vērtību</value>
+  </data>
+  <data name="SessionMetadataDialog_Description.Text" xml:space="preserve">
+    <value>Obligāti aizpildāmie lauki ir atzīmēti ar "</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionName.Text" xml:space="preserve">
+    <value>Sesijas nosaukums</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionNameTextbox.PlaceholderText" xml:space="preserve">
+    <value>piemēram, pacienta nulle</value>
+  </data>
+  <data name="SessionMetadataDialog_Title.Text" xml:space="preserve">
+    <value>Sesijas nosaukuma un atzīmju pievienošana</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorActionMessage" xml:space="preserve">
+    <value>Lūdzu, sazinieties ar administratoru, lai aktivizētu kontu.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorMessage" xml:space="preserve">
+    <value>Jūsu konts ir deaktivizēts.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorActionMessage" xml:space="preserve">
+    <value>Lūdzu, sazinieties ar administratoru, lai izveidotu kontu.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorMessage" xml:space="preserve">
+    <value>Jūsu konts ir izdzēsts.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorActionMessage" xml:space="preserve">
+    <value>Lūdzu, sazinieties ar administratoru, lai iespējotu kontu.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorMessage" xml:space="preserve">
+    <value>Jūsu konts ir atspējots.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorActionMessage" xml:space="preserve">
+    <value>Lūdzu, sazinieties ar administratoru, lai izveidotu kontu.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorMessage" xml:space="preserve">
+    <value>Jums nav aktīva Konta.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorActionMessage" xml:space="preserve">
+    <value>Lūdzu, sazinieties ar administratoru, lai atjaunotu vadītāja apliecību.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorMessage" xml:space="preserve">
+    <value>Jūsu vadītāja apliecībai ir beidzies derīguma termiņš.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorActionMessage" xml:space="preserve">
+    <value>Lūdzu, sazinieties ar administratoru, lai aktivizētu licenci.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorMessage" xml:space="preserve">
+    <value>Jūsu vadītāja apliecība ir deaktivizēta.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorActionMessage" xml:space="preserve">
+    <value>Lūdzu, sazinieties ar administratoru.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorMessage" xml:space="preserve">
+    <value>Jūsu vadītāja apliecība ir apturēta.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorActionMessage" xml:space="preserve">
+    <value>Lūdzu, sazinieties ar administratoru, lai piešķirtu jums licenci.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorMessage" xml:space="preserve">
+    <value>Jums nav piešķirta licence.</value>
+  </data>
+  <data name="StartupPage2020.Text" xml:space="preserve">
+    <value>2021 </value>
+  </data>
+  <data name="StartupPageErrorDescription.Text" xml:space="preserve">
+    <value>Radās kļūda. Lūdzu, pārbaudiet interneta savienojumu un pēc tam mēģiniet vēlreiz.</value>
+  </data>
+  <data name="StartupPagePoweredBy.Text" xml:space="preserve">
+    <value>Iedarbina </value>
+  </data>
+  <data name="StartupPageProgressDescription.Text" xml:space="preserve">
+    <value>Tas var aizņemt dažas sekundes</value>
+  </data>
+  <data name="StartupPageRetryButton.Content" xml:space="preserve">
+    <value>Mēģināt vēlreiz</value>
+  </data>
+  <data name="StartupPageRightsReserved.Text" xml:space="preserve">
+    <value>Visas tiesības aizsargātas.</value>
+  </data>
+  <data name="StartUpPageSettingUpMessage" xml:space="preserve">
+    <value>Iestatīšana...</value>
+  </data>
+  <data name="StartupPageTitleDescription.Text" xml:space="preserve">
+    <value>Laipni lūdzam </value>
+  </data>
+  <data name="TranslateText" xml:space="preserve">
+    <value>Tulkot</value>
+  </data>
+  <data name="TranslationLicenceUseError" xml:space="preserve">
+    <value>Jūsu licence pašlaik tiek izmantota citā sesijā.</value>
+  </data>
+  <data name="TranslationLimitReachedError" xml:space="preserve">
+    <value>Jūs esat sasniedzis maksimālo sesijas laika ierobežojumu. Sesijas beigas.</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOff" xml:space="preserve">
+    <value>Mikrofons izslēgts</value>
+  </data>
+  <data name="TranslationPage_SpeakerOff" xml:space="preserve">
+    <value>Skaļrunis izslēgts</value>
+  </data>
+  <data name="TranslationTimeDepletedError" xml:space="preserve">
+    <value>Jūsu tulkošanas protokoli ir izsmelti. Lūdzu, sazinieties ar administratoru.</value>
+  </data>
+  <data name="UnsupportedVersionDialogBtntext" xml:space="preserve">
+    <value>Aktualizēt</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption" xml:space="preserve">
+    <value>Kritiskie atjauninājumi ir nepieciešami: </value>
+  </data>
+  <data name="UnsupportedVersionDialogDescription" xml:space="preserve">
+    <value>Atjauniniet savu lietotni, lai turpinātu saņemt līdzekļu un drošības atjauninājumus.</value>
+  </data>
+  <data name="UnsupportedVersionDialogTitle" xml:space="preserve">
+    <value>Neatbalstīta lietotnes versija</value>
+  </data>
+  <data name="UpdateDialogWhatsNew.Text" xml:space="preserve">
+    <value>Kas jauns?</value>
+  </data>
+  <data name="Zoom.Text" xml:space="preserve">
+    <value>Tālummaiņas</value>
+  </data>
+  <data name="Add.Content" xml:space="preserve">
+    <value>Pievienot</value>
+  </data>
+  <data name="AddNewQuestion.Text" xml:space="preserve">
+    <value>Jauna iepriekš definēta jautājuma pievienošana</value>
+  </data>
+  <data name="AddQuestion.Content" xml:space="preserve">
+    <value>Pievienot jautājumu</value>
+  </data>
+  <data name="ChooseLanguage.Text" xml:space="preserve">
+    <value>Noklusējuma valodas atlasīšana</value>
+  </data>
+  <data name="CustomProfileAdded" xml:space="preserve">
+    <value>Profila nosaukums ir veiksmīgi pievienots.</value>
+  </data>
+  <data name="CustomProfileDeleted" xml:space="preserve">
+    <value>Profils veiksmīgi izdzēsts.</value>
+  </data>
+  <data name="CustomProfileInvalidName" xml:space="preserve">
+    <value>Kļūda! Nederīgs profila nosaukums.</value>
+  </data>
+  <data name="CustomProfileNotDeleted" xml:space="preserve">
+    <value>Nav dzēšama profila.</value>
+  </data>
+  <data name="CustomProfileNotSaved" xml:space="preserve">
+    <value>Kļūda! Neviens profils nav saglabāts.</value>
+  </data>
+  <data name="CustomProfileProfileSaved" xml:space="preserve">
+    <value>Profils veiksmīgi saglabāts.</value>
+  </data>
+  <data name="DataRequestMessage" xml:space="preserve">
+    <value>Jūs neesat atlasījis nevienu tekstu. Lūdzu, atlasiet tekstu, ar kuru dalīties, un mēģiniet vēlreiz.</value>
+  </data>
+  <data name="DevicesAddProfileButton.Content" xml:space="preserve">
+    <value>Pievienot</value>
+  </data>
+  <data name="DevicesAvailableProfiles.Text" xml:space="preserve">
+    <value>Pieejamie profili</value>
+  </data>
+  <data name="DevicesDefaultProfile.Text" xml:space="preserve">
+    <value>Noklusējuma profils:</value>
+  </data>
+  <data name="DevicesDeleteProfileBtn.Content" xml:space="preserve">
+    <value>Dzēst profilu</value>
+  </data>
+  <data name="DeviceSetupChanged" xml:space="preserve">
+    <value>Pievienotās audio ierīces ir atjauninātas </value>
+  </data>
+  <data name="DevicesHelpfulTip1.Text" xml:space="preserve">
+    <value>1. Iestatiet profila nosaukumu</value>
+  </data>
+  <data name="DevicesHelpfulTip2.Text" xml:space="preserve">
+    <value>2. Izvēlieties vienas vai divu ierīču režīmus</value>
+  </data>
+  <data name="DevicesHelpfulTip3.Text" xml:space="preserve">
+    <value>3. Izvēlieties skaļruni(-us) un mikrofonu(-us)</value>
+  </data>
+  <data name="DevicesHelpfulTip4.Text" xml:space="preserve">
+    <value>4. Iestatiet savu profilu kā noklusējumu</value>
+  </data>
+  <data name="DevicesHelpfulTip5.Text" xml:space="preserve">
+    <value>5. Noklikšķiniet uz pogas Saglabāt profilu, lai saglabātu savu profilu</value>
+  </data>
+  <data name="DevicesHelpfulTips.Text" xml:space="preserve">
+    <value>Noderīgi padomi</value>
+  </data>
+  <data name="DevicesProfileNameTextBox.PlaceholderText" xml:space="preserve">
+    <value>Profila nosaukums...</value>
+  </data>
+  <data name="DevicesSaveProfileBtn.Content" xml:space="preserve">
+    <value>Saglabāt profilu</value>
+  </data>
+  <data name="DevicesSetasDefault.Text" xml:space="preserve">
+    <value>Iestatīt kā noklusējumu</value>
+  </data>
+  <data name="DevicesSetProfileButton.Content" xml:space="preserve">
+    <value>Iestatīt profilu</value>
+  </data>
+  <data name="DevicesSetProfileText.Text" xml:space="preserve">
+    <value>Vai iestatīt pielāgotu profilu?</value>
+  </data>
+  <data name="DiscardButton.Content" xml:space="preserve">
+    <value>Atmest</value>
+  </data>
+  <data name="DismissButton.Content" xml:space="preserve">
+    <value>Noraidīt</value>
+  </data>
+  <data name="DismissText.Text" xml:space="preserve">
+    <value>Noraidīt</value>
+  </data>
+  <data name="DownloadAudio.Text" xml:space="preserve">
+    <value>Lejupielādēt audio</value>
+  </data>
+  <data name="DownloadCancel" xml:space="preserve">
+    <value>Lejupielāde atcelta</value>
+  </data>
+  <data name="Downloaded" xml:space="preserve">
+    <value>Lejupielādēt</value>
+  </data>
+  <data name="DownloadError" xml:space="preserve">
+    <value>Radusies kļūda</value>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>Lejupielāde</value>
+  </data>
+  <data name="DownloadPaused" xml:space="preserve">
+    <value>Lejupielādēt Apturēts</value>
+  </data>
+  <data name="DualDeviceUpdated" xml:space="preserve">
+    <value>Divu ierīču iestatīšana ir veiksmīgi atjaunināta</value>
+  </data>
+  <data name="EnterQuestion.Text" xml:space="preserve">
+    <value>Ievadiet jautājumu zemāk</value>
+  </data>
+  <data name="ErrorDescription.Text" xml:space="preserve">
+    <value>Jūsu izmaiņas nav saglabātas, vai vēlaties tās saglabāt vai atmest?</value>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>Kaut kas nogāja greizi.. mēģini vēlreiz</value>
+  </data>
+  <data name="ErrorTitle.Text" xml:space="preserve">
+    <value>Jums ir nesaglabātas izmaiņas</value>
+  </data>
+  <data name="FeedbackEight.Text" xml:space="preserve">
+    <value>Mēs turpinājām pārtraukt viens otru</value>
+  </data>
+  <data name="FeedbackFive.Text" xml:space="preserve">
+    <value>Es dzirdēju atbalsi zvanā</value>
+  </data>
+  <data name="FeedbackFour.Text" xml:space="preserve">
+    <value>Tas pacēla fona balsis</value>
+  </data>
+  <data name="FeedbackOne.Text" xml:space="preserve">
+    <value>Tas neuztvēra manu balsi pareizi</value>
+  </data>
+  <data name="FeedbackQuestion.Text" xml:space="preserve">
+    <value>Kas varēja būt labāks?</value>
+  </data>
+  <data name="FeedbackSeven.Text" xml:space="preserve">
+    <value>Sesija beidzās negaidīti</value>
+  </data>
+  <data name="FeedbackSix.Text" xml:space="preserve">
+    <value>Skaļums bija pārāk mazs</value>
+  </data>
+  <data name="FeedbackThanks.Text" xml:space="preserve">
+    <value>Paldies par atsauksmēm</value>
+  </data>
+  <data name="FeedbackThree.Text" xml:space="preserve">
+    <value>Tulkošanas laiks bija pārāk lēns</value>
+  </data>
+  <data name="FeedbackTwo.Text" xml:space="preserve">
+    <value>Tas nepareizi iztulkoja manus teikumus</value>
+  </data>
+  <data name="ForcedUpdateDialogCaptionContinuation" xml:space="preserve">
+    <value>lai darbotos. Lietojumprogramma nedarbosies bez šiem atjauninājumiem.</value>
+  </data>
+  <data name="Improvement.Text" xml:space="preserve">
+    <value>Mēs turpināsim strādāt pie jūsu pieredzes uzlabošanas.</value>
+  </data>
+  <data name="LanguageSettingsUpdated" xml:space="preserve">
+    <value>Valodas izmaiņas tiek veiksmīgi atjaunotas</value>
+  </data>
+  <data name="NewVersionDialogDescription2" xml:space="preserve">
+    <value>un jūsu versija par</value>
+  </data>
+  <data name="NewVersionDialogDescription3" xml:space="preserve">
+    <value>var kļūt neatbalstīts.</value>
+  </data>
+  <data name="Other.Text" xml:space="preserve">
+    <value>Citi komentāri:</value>
+  </data>
+  <data name="PasswordUpdated" xml:space="preserve">
+    <value>Parole tika mainīta pēkšņi</value>
+  </data>
+  <data name="PlaybackLanguageUpdated" xml:space="preserve">
+    <value>Noklusējuma atskaņošanas valoda ir mainīta pēkšņi</value>
+  </data>
+  <data name="QuestionAdded" xml:space="preserve">
+    <value>Jautājums pievienots veiksmīgi</value>
+  </data>
+  <data name="QuestionDeleted" xml:space="preserve">
+    <value>Jautājums ir veiksmīgi izdzēsts</value>
+  </data>
+  <data name="Questions.Text" xml:space="preserve">
+    <value>Jautājumiem</value>
+  </data>
+  <data name="QuestionSettingsInstructionTwo.Text" xml:space="preserve">
+    <value>* Katram jautājumam jābūt atšķirīgam īsinājumtaustiņam.</value>
+  </data>
+  <data name="QuestionsValidationError.Text" xml:space="preserve">
+    <value>* Pārbaudiet validācijas un mēģiniet vēlreiz.</value>
+  </data>
+  <data name="QuickViewLanguagesUpdated" xml:space="preserve">
+    <value>Ātrais skats languges atjaunināts Veiksmīgi</value>
+  </data>
+  <data name="SendFeedback.Content" xml:space="preserve">
+    <value>Sūtīt atsauksmes</value>
+  </data>
+  <data name="SessionFeedbackPrompt" xml:space="preserve">
+    <value>Kā jūs vērtētu savu tulkošanas sesiju?</value>
+  </data>
+  <data name="SessionFeedbackTitle" xml:space="preserve">
+    <value>Atsauksmes par tulkojumu</value>
+  </data>
+  <data name="ShortcutSuccess" xml:space="preserve">
+    <value>Jautājumu saīsnes ir veiksmīgi atjauninātas</value>
+  </data>
+  <data name="SingleDeviceUpdated" xml:space="preserve">
+    <value>Vienas ierīces iestatīšana ir veiksmīgi atjaunināta</value>
+  </data>
+  <data name="StartupPageTitleDescription2.Text" xml:space="preserve">
+    <value>tulkošanas programmatūra.</value>
+  </data>
+  <data name="TimeoutUpdated" xml:space="preserve">
+    <value>Taimauts atjaunināts Veiksmīgi</value>
+  </data>
+  <data name="TouchShareText" xml:space="preserve">
+    <value>Skārienu koplietošana</value>
+  </data>
+  <data name="TranslationLanguageUpdated" xml:space="preserve">
+    <value>Noklusējuma tulkošanas valoda ir veiksmīgi mainīta</value>
+  </data>
+  <data name="TranslationPlaybackUpdated" xml:space="preserve">
+    <value>Noklusējuma tulkošanas un atskaņošanas valoda ir veiksmīgi mainīta</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption2" xml:space="preserve">
+    <value>lai darbotos. Līdzekļi var pārtraukt darboties bez iepriekšēja brīdinājuma. Lūdzu, atjauniniet lietojumprogrammu.</value>
+  </data>
+  <data name="UserFlagSwitch" xml:space="preserve">
+    <value>Lietotāja karodziņš, lai pārslēgtu atjauninātu valodu</value>
+  </data>
+</root>

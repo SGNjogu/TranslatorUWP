@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>SpeechlyTouch.Core</RootNamespace>
+    <Configurations>Debug;Release;Debug .NET Native</Configurations>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug .NET Native|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\**" />
+    <EmbeddedResource Remove="Models\**" />
+    <None Remove="Models\**" />
+  </ItemGroup>
+
+   <ItemGroup>
+     <PackageReference Include="Google.Cloud.Speech.V1" Version="2.7.0" />
+     <PackageReference Include="Google.Cloud.Translate.V3" Version="2.4.0" />
+     <PackageReference Include="Microsoft.CognitiveServices.Speech" Version="1.23.0" />
+     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+     <PackageReference Include="Microsoft.Extensions.Http" Version="6.0.0-preview.6.21352.12" />
+     <PackageReference Include="RestSharp" Version="106.12.0" />
+     <PackageReference Include="System.Runtime" Version="4.3.1" />
+     <PackageReference Include="System.Runtime.InteropServices.WindowsRuntime" Version="4.3.0" />
+     <PackageReference Include="System.Runtime.WindowsRuntime" Version="5.0.0-preview.5.20278.1" />
+   </ItemGroup>
+
+   <ItemGroup>
+     <Reference Include="Windows">
+       <HintPath>..\Libraries\Windows.winmd</HintPath>
+       <IsWinMDFile>true</IsWinMDFile>
+     </Reference>
+   </ItemGroup>
+
+   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see https://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\Libraries\Windows.winmd')" Text="$([System.String]::Format('$(ErrorText)', '..\Libraries\Windows.winmd'))" />
+  </Target>
+</Project>

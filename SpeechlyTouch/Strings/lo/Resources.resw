@@ -1,0 +1,1192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="AppDescription" xml:space="preserve">
+    <value>TalaTouchApp</value>
+  </data>
+  <data name="AppDisplayName" xml:space="preserve">
+    <value>TalaTouchApp</value>
+  </data>
+  <data name="AudioDeviceSelector_MicDropdown.PlaceholderText" xml:space="preserve">
+    <value>ເລືອກໄມໂຄຣໂຟນ</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneMic.Text" xml:space="preserve">
+    <value>ບຸກຄົນຫນຶ່ງ ໄມໂຄຣໂຟນ</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneSpeaker.Text" xml:space="preserve">
+    <value>Person One Speaker</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoMic.Text" xml:space="preserve">
+    <value>ບຸກຄົນສອງ ໄມໂຄຣໂຟນ</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoSpeaker.Text" xml:space="preserve">
+    <value>ບຸກຄົນສອງປາໄສ</value>
+  </data>
+  <data name="AudioDeviceSelector_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>ເລືອກຜູ້ເວົ້າ</value>
+  </data>
+  <data name="BluetoothPairingDialog_Description.Text" xml:space="preserve">
+    <value>ເຮັດ ໃຫ້ ແນ່ ໃຈວ່ າ ອຸ ປະ ກອນ ຂອງ ທ່ານ ໄດ້ ຖືກ ເປີດ ແລະ ຄົ້ນ ພົບ ໄດ້ . ເລືອກອຸປະກອນຂ້າງລຸ່ມນີ້ເພື່ອເຊື່ອມຕໍ່.</value>
+  </data>
+  <data name="BluetoothPairingDialog_Title.Text" xml:space="preserve">
+    <value>ເພີ່ມອຸປະກອນ</value>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>ຍົກເລີກ</value>
+  </data>
+  <data name="ChangePasscodeDialog_Confirm.Text" xml:space="preserve">
+    <value>ຢືນຢັນລະຫັດຜ່ານໃຫມ່</value>
+  </data>
+  <data name="ChangePasscodeDialog_Current.Text" xml:space="preserve">
+    <value>ລະຫັດຜ່ານປະຈຸບັນ</value>
+  </data>
+  <data name="ChangePasscodeDialog_New.Text" xml:space="preserve">
+    <value>ລະຫັດຜ່ານໃຫມ່</value>
+  </data>
+  <data name="ChangePasscodeDialog_Title.Text" xml:space="preserve">
+    <value>ປ່ຽນລະຫັດຜ່ານ</value>
+  </data>
+  <data name="Close.Content" xml:space="preserve">
+    <value>ປິດ</value>
+  </data>
+  <data name="ConsentDialog_Description1.Text" xml:space="preserve">
+    <value>ຄວາມ ເປັນ ຫ່ວງ ເລື່ອງ ຄວາມ ເປັນ ສ່ວນ ຕົວ ເປັນ ສິ່ງ ສໍາຄັນ ອັນ ດັບ ຫນຶ່ງ ຂອງ ເຮົາ. (5) ທ່ານຍອມຮັບເງື່ອນໄຂແລະເງື່ອນໄຂຂອງນະໂຍບາຍຄວາມເປັນສ່ວນຕົວນີ້ກັບໂທລະສັບມືຖືຫຼືແທັບເລັດຂອງທ່ານ, ຕາມທີ່ໃຊ້ໄດ້.</value>
+  </data>
+  <data name="ConsentDialog_Description2.Text" xml:space="preserve">
+    <value>ຖ້າທ່ານເລືອກທີ່ຈະບໍ່ອະນຸຍາດໃຫ້ພວກເຮົາເຂົ້າເຖິງເມື່ອພວກເຮົາໄດ້ຮັບຄໍາຮ້ອງຂໍຄວາມຍິນຍອມ (ຄໍາຮ້ອງຂໍດັ່ງກ່າວຈະໄດ້ຮັບການແຈ້ງໃນເວັບໄຊ www ICTS ທີ່ :</value>
+  </data>
+  <data name="ConsentDialog_Description3.Text" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int</value>
+  </data>
+  <data name="ConsentDialog_Description4.Text" xml:space="preserve">
+    <value>), ແລ້ວ ທັງ ທີ່ ຢູ່ ອີ ເມວ ທີ່ ໄດ້ ໃຫ້ ແລະ ຂໍ້ ມູນ ສ່ວນ ຕົວ ອື່ນ ໃດ ທີ່ ສາ ມາດ ຊີ້ ບອກ ບຸກ ຄົນ ກໍ ສາ ມາດ ເຂົ້າ ມາ ເປັນ ເຈົ້າ ຂອງ ເຮົາ ໄດ້ ຄື ກັນ ເມື່ອ ໄດ້ ຮັບ ການ ອະ ນຸ ຍາດ ດັ່ງ ກ່າວ.</value>
+  </data>
+  <data name="ConsentDialog_Description5.Text" xml:space="preserve">
+    <value>ໂດຍການໃຊ້ບາງສ່ວນ: /ການນໍາໃຊ້ໂດຍຂ້າພະເຈົ້າຂອງໂທລະສັບມືຖື/Icons ຂອງຂ້າພະເຈົ້າ - ເຊິ່ງອາດຈະລວມເຖິງການອະນຸຍາດໃຫ້ຄົນອື່ນໃນຫ້ອງສົນທະນາກ່ຽວກັບຜະລິດຕະພັນເຊັ່ນ</value>
+  </data>
+  <data name="ConsentDialog_HyperLink.NavigateUri" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int/</value>
+  </data>
+  <data name="ConsentDialog_Title.Text" xml:space="preserve">
+    <value>ພວກເຮົາໃຫ້ຄຸນຄ່າຄວາມເປັນສ່ວນຕົວຂອງທ່ານ</value>
+  </data>
+  <data name="Dashboard_Choose_Language.Text" xml:space="preserve">
+    <value>ເລືອກພາສາ</value>
+  </data>
+  <data name="Dashboard_Hello.Text" xml:space="preserve">
+    <value>ສະບາຍດີ</value>
+  </data>
+  <data name="Dashboard_SearchBox.PlaceholderText" xml:space="preserve">
+    <value>ພາສາຄົ້ນຫາ</value>
+  </data>
+  <data name="Dashboard_Welcome.Text" xml:space="preserve">
+    <value>ຍິນດີຕ້ອນຮັບ</value>
+  </data>
+  <data name="DevicesErrorDialog_NoDeviceError" xml:space="preserve">
+    <value>ທ່ານບໍ່ມີອຸປະກອນທີ່ເກັບໄວ້(s). ໄປທີ່ Settings -&gt; Devices ເພື່ອຄັດເລືອກ Microphone ແລະ Speaker ແລ້ວຄລິກໃສ່ Save.</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Description.Text" xml:space="preserve">
+    <value>ອຸປະກອນ bluetooth ທີ່ມີຢູ່</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_DropDown.PlaceholderText" xml:space="preserve">
+    <value>ເລືອກອຸປະກອນ bluetooth</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Scan.Text" xml:space="preserve">
+    <value>Scan</value>
+  </data>
+  <data name="DevicesPage_Bluetooth.Text" xml:space="preserve">
+    <value>Bluetooth</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices_Description.Text" xml:space="preserve">
+    <value>ເລືອກອຸປະກອນສຽງຂອງທ່ານ</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices.Text" xml:space="preserve">
+    <value>ອຸປະກອນສຽງທີ່ເຊື່ອມຕໍ່</value>
+  </data>
+  <data name="DevicesPage_MicDropDown.PlaceholderText" xml:space="preserve">
+    <value>ເລືອກໄມໂຄຣໂຟນ</value>
+  </data>
+  <data name="DevicesPage_Network_Description.Text" xml:space="preserve">
+    <value>ເຄືອຂ່າຍທີ່ມີຢູ່</value>
+  </data>
+  <data name="DevicesPage_Network_DropDown.PlaceholderText" xml:space="preserve">
+    <value>ເລືອກເຄືອຂ່າຍ</value>
+  </data>
+  <data name="DevicesPage_Network.Text" xml:space="preserve">
+    <value>ເຄືອຂ່າຍ</value>
+  </data>
+  <data name="DevicesPage_NetworkError" xml:space="preserve">
+    <value>ບໍ່ມີການຄັດເລືອກເຄືອຂ່າຍ. ກວດສອບການເຊື່ອມຕໍ່ເຄືອຂ່າຍຂອງທ່ານ.</value>
+  </data>
+  <data name="DevicesPage_PersonOne_Speaker.Text" xml:space="preserve">
+    <value>ບຸກຄົນຫນຶ່ງຜູ້ເວົ້າ</value>
+  </data>
+  <data name="DevicesPage_PersonOneMic.Text" xml:space="preserve">
+    <value>ບຸກຄົນຫນຶ່ງ ໄມໂຄຣໂຟນ</value>
+  </data>
+  <data name="DevicesPage_PersonTwo_Mic.Text" xml:space="preserve">
+    <value>ບຸກຄົນສອງໄມໂຄຣໂຟນ</value>
+  </data>
+  <data name="DevicesPage_Scan" xml:space="preserve">
+    <value>Scan</value>
+  </data>
+  <data name="DevicesPage_Scanning" xml:space="preserve">
+    <value>Scanning ...</value>
+  </data>
+  <data name="DevicesPage_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>ເລືອກຜູ້ເວົ້າ</value>
+  </data>
+  <data name="DevicesPage_Status_Connect" xml:space="preserve">
+    <value>Connect</value>
+  </data>
+  <data name="DevicesPage_Status_Connected" xml:space="preserve">
+    <value>ຕິດຕໍ່</value>
+  </data>
+  <data name="DevicesPage_Status_Connecting" xml:space="preserve">
+    <value>ການເຊື່ອມໂຍງ ...</value>
+  </data>
+  <data name="DevicesPage_Status_Off" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="DevicesPage_Status_On" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="DevicesPager_PersonTwo_Speaker.Text" xml:space="preserve">
+    <value>ຜູ້ເວົ້າສອງຄົນ</value>
+  </data>
+  <data name="EnterPasscodeDialog_Description.Text" xml:space="preserve">
+    <value>ກະລຸນາໃສ່ລະຫັດຜ່ານຂອງທ່ານເພື່ອເຂົ້າເບິ່ງຫນ້າການຕັ້ງຄ່າ</value>
+  </data>
+  <data name="EnterPasscodeDialog_ForgotPasscode.Content" xml:space="preserve">
+    <value>ລືມPasscode?</value>
+  </data>
+  <data name="EnterPasscodeDialog_InvalidPasscode.Text" xml:space="preserve">
+    <value>ລະຫັດຜ່ານທີ່ບໍ່ຖືກຕ້ອງ! ກະລຸນາລອງອີກເທື່ອຫນຶ່ງ.</value>
+  </data>
+  <data name="EnterPasscodeDialog_Passcode.Text" xml:space="preserve">
+    <value>ລະຫັດຜ່ານ</value>
+  </data>
+  <data name="EnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>ເຂົ້າລະຫັດຜ່ານຂອງທ່ານ</value>
+  </data>
+  <data name="IAgree.Content" xml:space="preserve">
+    <value>ຂ້ອຍເຫັນດ້ວຍ</value>
+  </data>
+  <data name="InvalidLicenseDialog_Description.Text" xml:space="preserve">
+    <value>ການຢັ້ງຢືນໃບອະນຸຍາດຂອງທ່ານຫຼົ້ມແຫຼວ</value>
+  </data>
+  <data name="InvalidLicenseDialog_Title.Text" xml:space="preserve">
+    <value>ໃບອະນຸຍາດທີ່ບໍ່ຖືກຕ້ອງ</value>
+  </data>
+  <data name="LoginFailedDialog_Button.Content" xml:space="preserve">
+    <value>ກັບມາ</value>
+  </data>
+  <data name="LoginFailedDialog_Description.Text" xml:space="preserve">
+    <value>ຄວາມ ພະຍາຍາມ ໃນ ການ ເຂົ້າ ເມືອງ ຂອງ ທ່ານ ໄດ້ ລົ້ມ ເຫ ລວ.</value>
+  </data>
+  <data name="LoginFailedDialog_Title.Text" xml:space="preserve">
+    <value>Login ທີ່ຫຼົມແຫຼວ</value>
+  </data>
+  <data name="Main_Title.Text" xml:space="preserve">
+    <value>ຫຼັກ</value>
+  </data>
+  <data name="PasswordPopup_SetupTitle.Text" xml:space="preserve">
+    <value>ການຕັ້ງລະຫັດຜ່ານ</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Description1.Text" xml:space="preserve">
+    <value>ກະລຸນາໃສ່ລະຫັດຜ່ານຂອງທ່ານຄືນໃຫມ່ເພື່ອຮັກສາການແກ້ໄຂ...</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Re-enter your passcode</value>
+  </data>
+  <data name="RenterPasscodeDialog_Description2.Text" xml:space="preserve">
+    <value>ອັດຕະໂນມັດປະຢັດແລະກັບເມືອບ້ານ</value>
+  </data>
+  <data name="Save.Content" xml:space="preserve">
+    <value>ຊ່ວຍປະຢັດ</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Description.Text" xml:space="preserve">
+    <value>ນີ້ ແມ່ນ ຫນ້າ ຕົວ ຢ່າງ ທີ່ ຈະ ສະ ແດງ ໃຫ້ ເຫັນ ອຸ ປະ ກອນ ການ ກະ ທໍາ ຖ້າ ຫາກ ວ່າ app ໄດ້ ຮັບ ການ ກະ ຕຸ້ນ ຈາກ Deep Linking .</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Title.Text" xml:space="preserve">
+    <value>SchemeActivationຕົວຢ່າງ</value>
+  </data>
+  <data name="SetPasscodeDialog_ConfirmPasscode.Text" xml:space="preserve">
+    <value>ຢືນຢັນລະຫັດຜ່ານໃຫມ່ </value>
+  </data>
+  <data name="SetPasscodeDialog_NewPasscode.Text" xml:space="preserve">
+    <value>ລະຫັດຜ່ານໃຫມ່</value>
+  </data>
+  <data name="SetPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>ການຕັ້ງລະຫັດຜ່ານ</value>
+  </data>
+  <data name="Settings_About.Text" xml:space="preserve">
+    <value>ກ່ຽວກັບຄໍາຮ້ອງສະຫມັກນີ້</value>
+  </data>
+  <data name="Settings_AboutDescription.Text" xml:space="preserve">
+    <value>ຂໍ້ຄວາມທີ່ເປັນຕົວແທນຂອງຫນ້າການຕັ້ງຄ່າ.  ຄໍາບັນຍາຍapp ຂອງທ່ານໄປທີ່ນີ້.</value>
+  </data>
+  <data name="Settings_Personalization.Text" xml:space="preserve">
+    <value>ບຸກຄະລິກກະພາບ</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.Content" xml:space="preserve">
+    <value>ຄໍາຖະແຫຼງຄວາມເປັນສ່ວນຕົວ</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.NavigateUri" xml:space="preserve">
+    <value>https://YourPrivacyUrlGoesHere/</value>
+  </data>
+  <data name="Settings_Theme_Dark.Content" xml:space="preserve">
+    <value>ມືດ</value>
+  </data>
+  <data name="Settings_Theme_Default.Content" xml:space="preserve">
+    <value>ມາດຕະຖານ Windows</value>
+  </data>
+  <data name="Settings_Theme_Light.Content" xml:space="preserve">
+    <value>ແສງສະຫວ່າງ</value>
+  </data>
+  <data name="Settings_Theme.Text" xml:space="preserve">
+    <value>ເລືອກ Theme</value>
+  </data>
+  <data name="Settings_Title.Text" xml:space="preserve">
+    <value>ການຕັ້ງຄ່າ</value>
+  </data>
+  <data name="SettingsPage_Devices" xml:space="preserve">
+    <value>ອຸປະກອນ</value>
+  </data>
+  <data name="SettingsPage_Language" xml:space="preserve">
+    <value>ພາສາລາວ</value>
+  </data>
+  <data name="SettingsPage_Profile" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="SettingsPage_Questions" xml:space="preserve">
+    <value>ຄໍາຖາມ</value>
+  </data>
+  <data name="SettingsPage_Title" xml:space="preserve">
+    <value>ການຕັ້ງຄ່າ</value>
+  </data>
+  <data name="ShellView_Help" xml:space="preserve">
+    <value>ການຊ່ວຍເຫຼືອ</value>
+  </data>
+  <data name="ShellView_History" xml:space="preserve">
+    <value>ປະຫວັດຄວາມເປັນມາ</value>
+  </data>
+  <data name="ShellView_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="ShellView_Settings.Text" xml:space="preserve">
+    <value>ການຕັ້ງຄ່າ</value>
+  </data>
+  <data name="Sign_In.Text" xml:space="preserve">
+    <value>ເຂົ້າສູ່ລະບົບ</value>
+  </data>
+  <data name="SignInDialog_Description.Text" xml:space="preserve">
+    <value>ສື່ສານໃນທັນທີໃນຫຼາຍພາສາທົ່ວໂລກກັບອຸປະກອນ Jabra ຂອງທ່ານ.</value>
+  </data>
+  <data name="SignInDialog_SignInButton.Content" xml:space="preserve">
+    <value>ເຂົ້າສູ່ລະບົບ</value>
+  </data>
+  <data name="Translate_Button.Text" xml:space="preserve">
+    <value>ແປ</value>
+  </data>
+  <data name="TranslationPage_EndSession.Text" xml:space="preserve">
+    <value>ສິ້ນສຸດພາກ</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOn" xml:space="preserve">
+    <value>ໄມໂຄຣໂຟນ On</value>
+  </data>
+  <data name="TranslationPage_SpeakerOn" xml:space="preserve">
+    <value>Speaker On</value>
+  </data>
+  <data name="TranslationPage_SpeakNow.Text" xml:space="preserve">
+    <value>ເວົ້າດຽວນີ້</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>ກ່ຽວກັບ</value>
+  </data>
+  <data name="AboutPage_AppVersion.Text" xml:space="preserve">
+    <value>ສະບັບຄໍາຮ້ອງສະຫມັກ</value>
+  </data>
+  <data name="AboutPage_CheckUpdate.Content" xml:space="preserve">
+    <value>ກວດສອບການປັບປຸງ</value>
+  </data>
+  <data name="AboutPage_DataConsent" xml:space="preserve">
+    <value>ອົງການຂອງທ່ານໄດ້ໃຫ້ການຍິນຍອມເພື່ອປະຢັດຂໍ້ມູນຂອງທ່ານໃນເມກ.</value>
+  </data>
+  <data name="AboutPage_NoDataConsent" xml:space="preserve">
+    <value>ອົງກອນຂອງທ່ານບໍ່ໄດ້ໃຫ້ການຍິນຍອມເພື່ອປະຢັດຂໍ້ມູນຂອງທ່ານໃນເມກ.</value>
+  </data>
+  <data name="AboutPage_Published.Text" xml:space="preserve">
+    <value>ຈັດພິມໂດຍ FITTS ຈໍາກັດ.</value>
+  </data>
+  <data name="AppClose_Close.Content" xml:space="preserve">
+    <value>ປິດແນວໃດກໍ່ຕາມ</value>
+  </data>
+  <data name="AppClose_Dismiss.Content" xml:space="preserve">
+    <value>ຍົກເລີກ</value>
+  </data>
+  <data name="AppClose_Warning.Text" xml:space="preserve">
+    <value>ທ່ານມີກອງປະຊຸມທີ່ກໍາລັງດໍາເນີນຢູ່. ກະລຸນາສິ້ນສຸດກອງປະຊຸມກ່ອນອອກຄໍາຮ້ອງສະຫມັກ.</value>
+  </data>
+  <data name="AppVersion.Text" xml:space="preserve">
+    <value>ແອັບພລິເຄຊັນ</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Button.Content" xml:space="preserve">
+    <value>ສືບຕໍ່ກອງປະຊຸມ</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Description.Text" xml:space="preserve">
+    <value>ກອງປະຊຸມຈະສິ້ນສຸດລົງໃນ</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Title.Text" xml:space="preserve">
+    <value>Audio Not Detected</value>
+  </data>
+  <data name="AudioPlayer_Error.Text" xml:space="preserve">
+    <value>ບໍ່ສາມາດໂຫຼດສຽງໄດ້</value>
+  </data>
+  <data name="DashboardPage_DefaultLanguageError" xml:space="preserve">
+    <value>ທ່ານບໍ່ມີພາສາແປພາສາການແປມາດຕະຖານທີ່ມີການເກັບຮັກສາໄວ້. ໄປທີ່ Settings -&gt; ພາສາເພື່ອເລືອກພາສາແປມາດຕະຖານແລ້ວຄລິກໃສ່ Save.</value>
+  </data>
+  <data name="DashboardPage_TargetLanguageError" xml:space="preserve">
+    <value>ທ່ານບໍ່ໄດ້ຄັດເລືອກພາສາແປເປົ້າຫມາຍ. ກະລຸນາເລືອກພາສາແລ້ວຄລິກໃສ່ ແປ້ນພິມ.</value>
+  </data>
+  <data name="DevicesErrorDialog_DualDeviceError" xml:space="preserve">
+    <value>ທ່ານໄດ້ເລືອກເອົາການແປDual Device ແຕ່ທ່ານບໍ່ມີອຸປະກອນ(s) ທີ່ເລືອກສໍາລັບບຸກຄົນ 2. ໄປທີ່ Settings -&gt; Devices ເພື່ອຄັດເລືອກ Microphone ແລະ Speaker ແລ້ວຄລິກໃສ່ Save.</value>
+  </data>
+  <data name="DevicesPage_Title.Text" xml:space="preserve">
+    <value>ອຸປະກອນ</value>
+  </data>
+  <data name="DevicesPage_Wifi_Password.Text" xml:space="preserve">
+    <value>ເຂົ້າລະຫັດຜ່ານ</value>
+  </data>
+  <data name="DevicesPage_WifiStatus.Text" xml:space="preserve">
+    <value>ສະຖານະພາບ Wifi</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>ແກ້ໄຂ</value>
+  </data>
+  <data name="Expiry.Text" xml:space="preserve">
+    <value>ສິ້ນສຸດ</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>ຄໍາຄິດເຫັນ</value>
+  </data>
+  <data name="FeedbackMessage.Text" xml:space="preserve">
+    <value>ຖ້າ ທ່ານ ມີ ຄໍາ ຕອບ ຫຼື ຄໍາ ຖາມ ໃດໆ ບໍ່ ລັງ ເລ ໃຈ ທີ່ ຈະ ໄດ້ ຮັບ ການ ຕິດ ຕໍ່ .</value>
+  </data>
+  <data name="GetInTouchButton.Text" xml:space="preserve">
+    <value>ຕິດຕໍ່</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>ການຊ່ວຍເຫຼືອ</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>ປະຫວັດຄວາມເປັນມາ</value>
+  </data>
+  <data name="History_ExportBtn.Text" xml:space="preserve">
+    <value>ການສົ່ງອອກ</value>
+  </data>
+  <data name="HistoryExportButtonTooltip.Text" xml:space="preserve">
+    <value>ການສົ່ງອອກ</value>
+  </data>
+  <data name="HistoryListColumnDate.Text" xml:space="preserve">
+    <value>ວັນທີ</value>
+  </data>
+  <data name="HistoryListColumnDuration.Text" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="HistoryListColumnPrimaryLanguage.Text" xml:space="preserve">
+    <value>ພາສາປະຖົມ</value>
+  </data>
+  <data name="HistoryListColumnSecondaryLanguage.Text" xml:space="preserve">
+    <value>ພາສາສໍາຮອງ</value>
+  </data>
+  <data name="HistoryListColumnSessionId.Text" xml:space="preserve">
+    <value>ໄອເດຍພາກ</value>
+  </data>
+  <data name="InitalSetup_SkipSetup.Content" xml:space="preserve">
+    <value>Skip setup</value>
+  </data>
+  <data name="InitialNetworkPopupConnectButton.Content" xml:space="preserve">
+    <value>Connect</value>
+  </data>
+  <data name="InitialSetup_DeviceSelection.Text" xml:space="preserve">
+    <value>ການຄັດເລືອກອຸປະກອນ</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionDescription.Text" xml:space="preserve">
+    <value>ຕັ້ງຄ່າອຸປະກອນສຽງມາດຕະຖານຂອງທ່ານ</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneMicrophone.Text" xml:space="preserve">
+    <value>ເລືອກ Microphone</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneSpeaker.Text" xml:space="preserve">
+    <value>ເລືອກSpeaker</value>
+  </data>
+  <data name="InitialSetup_FinishSetup.Content" xml:space="preserve">
+    <value>ສໍາເລັດການຕັ້ງຄ່າ</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection_Description.Text" xml:space="preserve">
+    <value>ຕັ້ງຄ່າພາສາແປມາດຕະຖານຂອງທ່ານ</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection.Text" xml:space="preserve">
+    <value>ການຄັດເລືອກພາສາ</value>
+  </data>
+  <data name="InitialSetup_NetworkSelection.Text" xml:space="preserve">
+    <value>ເຄືອຂ່າຍທີ່ຕ້ອງການ</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopup.Text" xml:space="preserve">
+    <value>ເຊື່ອມຕໍ່ເຄືອຂ່າຍ</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopupPassword.Text" xml:space="preserve">
+    <value>ເຂົ້າລະຫັດຜ່ານ:</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionDescription.Text" xml:space="preserve">
+    <value>ເລືອກຈາກຫນຶ່ງໃນເຄືອຂ່າຍທີ່ມີຢູ່</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionNoInternetConnection.Text" xml:space="preserve">
+    <value>ທ່ານບໍ່ໄດ້ເຊື່ອມຕໍ່ກັບອິນເຕີເນັດ. ກະລຸນາກວດເບິ່ງການເຊື່ອມຕໍ່ເຄືອຂ່າຍຂອງທ່ານ.</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionOtherNetworks.Text" xml:space="preserve">
+    <value>ເຄືອຂ່າຍອື່ນໆ</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup_Description.Text" xml:space="preserve">
+    <value>ຕັ້ງລະຫັດຜ່ານແອັບພລິເຄຊັນຂອງທ່ານ</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup.Text" xml:space="preserve">
+    <value>Passcode Setup</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>ພາສາລາວ</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage_Description.Text" xml:space="preserve">
+    <value>ເລືອກພາສາສະຫມັກ</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage.Text" xml:space="preserve">
+    <value>ພາສາ App</value>
+  </data>
+  <data name="LanguagesPage_AppLanguageDropdown.PlaceholderText" xml:space="preserve">
+    <value>ເລືອກພາສາ</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage_Description.Text" xml:space="preserve">
+    <value>ພາສາມາດຕະຖານທີ່ທ່ານກໍາລັງໃຊ້</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage.Text" xml:space="preserve">
+    <value>ພາສາມາດຕະຖານຂອງຂ້ອຍ</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguageDropDown.PlaceholderText" xml:space="preserve">
+    <value>ເລືອກພາສາ</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description.Text" xml:space="preserve">
+    <value>ພາກປະຫວັດ (ສໍາລັບການແປຫຼາຍອຸປະກອນ)</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description1.Text" xml:space="preserve">
+    <value>* ການແປອຸປະກອນດຽວຫຼິ້ນສຽງທັງຫມົດຕາມມາດຕະຖານ *</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage.Text" xml:space="preserve">
+    <value>Default Playback Language</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguages.Text" xml:space="preserve">
+    <value>ພາສາທີ່ເບິ່ງໄວ</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguagesDropdown.PlaceholderText" xml:space="preserve">
+    <value>ຕື່ມພາສາ</value>
+  </data>
+  <data name="LanguagesPage_Title.Text" xml:space="preserve">
+    <value>ພາສາ</value>
+  </data>
+  <data name="Licence" xml:space="preserve">
+    <value>ໃບອະນຸຍາດ</value>
+  </data>
+  <data name="LicenseType.Text" xml:space="preserve">
+    <value>ປະເພດໃບອະນຸຍາດ:</value>
+  </data>
+  <data name="NetworkConnectionError" xml:space="preserve">
+    <value>ຂໍ້ຜິດພາດ:</value>
+  </data>
+  <data name="Next.Content" xml:space="preserve">
+    <value>ຕໍ່ໄປ</value>
+  </data>
+  <data name="PasscodeError_MinimumLength" xml:space="preserve">
+    <value>ຄວາມຍາວຕ່ໍາສຸດຂອງລະຫັດຜ່ານຄວນຈະເປັນ 4.</value>
+  </data>
+  <data name="PasscodeError_NotMatching" xml:space="preserve">
+    <value>ລະຫັດຜ່ານທີ່ເຂົ້າບໍ່ສອດຄ່ອງກັນ. ກະລຸນາໃສ່ລະຫັດຜ່ານຄືນແລ້ວລອງອີກ.</value>
+  </data>
+  <data name="Person.Text" xml:space="preserve">
+    <value>ບຸກຄົນ</value>
+  </data>
+  <data name="PrivacyPolicy.Text" xml:space="preserve">
+    <value>ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ</value>
+  </data>
+  <data name="ProfilePage_Email_Description.Text" xml:space="preserve">
+    <value>ອີເມວການສົ່ງອອກມາດຕະຖານ</value>
+  </data>
+  <data name="ProfilePage_Email.Text" xml:space="preserve">
+    <value>ອີເມລ໌</value>
+  </data>
+  <data name="ProfilePage_Passcode_Description.Text" xml:space="preserve">
+    <value>ລະຫັດຜ່ານຄໍາຮ້ອງສະຫມັກຂອງທ່ານ</value>
+  </data>
+  <data name="ProfilePage_Passcode.Text" xml:space="preserve">
+    <value>ລະຫັດຜ່ານ</value>
+  </data>
+  <data name="ProfilePage_Timeout_Description.Text" xml:space="preserve">
+    <value>ຄວາມ ຖີ່ ຂອງ ການ ລັອກ mode admin</value>
+  </data>
+  <data name="ProfilePage_Timeout.Text" xml:space="preserve">
+    <value>ການກໍານົດເວລາຂອງadmin mode</value>
+  </data>
+  <data name="ProfilePage_TimeoutDropdown.PlaceholderText" xml:space="preserve">
+    <value>ເລືອກເວລາ</value>
+  </data>
+  <data name="ProfilePage_Title.Text" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="PublishedBy.Text" xml:space="preserve">
+    <value>ຈັດພິມໂດຍ</value>
+  </data>
+  <data name="ReleaseNotesMessage.Text" xml:space="preserve">
+    <value>ບັນທຶກການອອກຈໍາຫນ່າຍຈະໄດ້ຮັບການປັບປຸງໃນໄວໆນີ້</value>
+  </data>
+  <data name="Save_Text" xml:space="preserve">
+    <value>ຊ່ວຍປະຢັດ</value>
+  </data>
+  <data name="SessionDetailsPage_Description.Text" xml:space="preserve">
+    <value>ປະຫວັດການເທຣດ</value>
+  </data>
+  <data name="SessionDetailsPage_Duration.Text" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="SessionDetailsPage_SessionID.Text" xml:space="preserve">
+    <value>ໄອເດຍພາກ</value>
+  </data>
+  <data name="SessionDetailsPage_Title.Text" xml:space="preserve">
+    <value>ປະຫວັດຄວາມເປັນມາ</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>ການຕັ້ງຄ່າ</value>
+  </data>
+  <data name="TermsOfUse.Text" xml:space="preserve">
+    <value>ເງື່ອນໄຂການນໍາໃຊ້</value>
+  </data>
+  <data name="TranslationPage_SettingUpState" xml:space="preserve">
+    <value>ການຕັ້ງຄ່າ ...</value>
+  </data>
+  <data name="TranslationPage_SpeakFast" xml:space="preserve">
+    <value>ພະຍາຍາມເວົ້າໄວຂຶ້ນຫນ້ອຍຫນຶ່ງເພື່ອຜົນການແປທີ່ດີກວ່າ.</value>
+  </data>
+  <data name="TranslationPage_SpeakIn" xml:space="preserve">
+    <value>ເວົ້າໃນ</value>
+  </data>
+  <data name="TranslationPage_SpeakSlow" xml:space="preserve">
+    <value>ພະຍາຍາມເວົ້າຊ້າລົງຫນ້ອຍຫນຶ່ງເພື່ອຜົນການແປທີ່ດີກວ່າ.</value>
+  </data>
+  <data name="TranslationPage_Switching" xml:space="preserve">
+    <value>ການປ່ຽນ</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonOne" xml:space="preserve">
+    <value>Switch to person 1</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonTwo" xml:space="preserve">
+    <value>ປ່ຽນໄປຫາຄົນ 2</value>
+  </data>
+  <data name="TranslationPage_TranslationReadyState" xml:space="preserve">
+    <value>ເວົ້າຕອນນີ້</value>
+  </data>
+  <data name="Website.Text" xml:space="preserve">
+    <value>ເວັບໄຊທ໌</value>
+  </data>
+  <data name="WhatsNew" xml:space="preserve">
+    <value>ສິ່ງໃຫມ່</value>
+  </data>
+  <data name="WhatsNewInSpeechly.Text" xml:space="preserve">
+    <value>ມີຫຍັງໃຫມ່ໃນ</value>
+  </data>
+  <data name="AudioDevicesSelectorDualDevice.Content" xml:space="preserve">
+    <value>ອຸປະກອນDual</value>
+  </data>
+  <data name="AudioDevicesSelectorSingleDevice.Content" xml:space="preserve">
+    <value>ອຸປະກອນດຽວ</value>
+  </data>
+  <data name="AutoDetectSearchCountry.PlaceholderText" xml:space="preserve">
+    <value>ປະເທດຄົ້ນຄ້ວາ</value>
+  </data>
+  <data name="AutoDetectSelectLanguage.Text" xml:space="preserve">
+    <value>ເລືອກພາສາຂອງທ່ານ</value>
+  </data>
+  <data name="ChatViewPersonOne" xml:space="preserve">
+    <value>ບຸກຄົນຫນຶ່ງ</value>
+  </data>
+  <data name="ChatViewPersonTwo" xml:space="preserve">
+    <value>ບຸກຄົນສອງ</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionLost" xml:space="preserve">
+    <value>ການເຊື່ອມຕໍ່ອິນເຕີເນັດສູນເສຍໄປ. ກະລຸນາກວດເບິ່ງການເຊື່ອມຕໍ່ແລ້ວລອງອີກເທື່ອຫນຶ່ງ.</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionUnstable" xml:space="preserve">
+    <value>ການເຊື່ອມຕໍ່ອິນເຕີເນັດຂອງທ່ານແມ່ນຊ້າ. ທ່ານອາດຈະປະສົບກັບຄວາມຊັກຊ້າບາງຢ່າງ.</value>
+  </data>
+  <data name="CustomTagSelectionTitle.Text" xml:space="preserve">
+    <value>ອົງການ Tags (ເລືອກຕື່ມ)</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.Header" xml:space="preserve">
+    <value>ທຸງຂອງຜູ້ໃຊ້ເພື່ອປ່ຽນພາສາ</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OffContent" xml:space="preserve">
+    <value>ຄົນພິການ</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OnContent" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="DetectLanguageButton.Content" xml:space="preserve">
+    <value>Detect ພາສາລາວ</value>
+  </data>
+  <data name="DevicesPageNetworkSetupBluetoothStatus.Text" xml:space="preserve">
+    <value>ສະຖານະພາບ Bluetooth :</value>
+  </data>
+  <data name="DevicesPageNetworkSetupConnectAutomatically.Text" xml:space="preserve">
+    <value>ເຊື່ອມຕໍ່ອັດຕະໂນມັດ</value>
+  </data>
+  <data name="DevicesPageNetworkSetupWiFiStatus.Text" xml:space="preserve">
+    <value>ສະຖານະພາບ WiFi :</value>
+  </data>
+  <data name="Dimiss.Content" xml:space="preserve">
+    <value>ຍົກເລີກ</value>
+  </data>
+  <data name="Duration.Text" xml:space="preserve">
+    <value>|  Duration</value>
+  </data>
+  <data name="EmailPopup_Description.Text" xml:space="preserve">
+    <value>ເຂົ້າທີ່ຢູ່ອີເມວຂອງທ່ານ</value>
+  </data>
+  <data name="EmailPopup_Title.Text" xml:space="preserve">
+    <value>ສົ່ງອີເມວພາກຂອງທ່ານ</value>
+  </data>
+  <data name="ForcedUpdateDialogCaption" xml:space="preserve">
+    <value>ພວກເຮົາມີການປັບປຸງທີ່ສໍາຄັນສໍາລັບ</value>
+  </data>
+  <data name="ForcedUpdateDialogInstallBtnText" xml:space="preserve">
+    <value>ອັບເດດ</value>
+  </data>
+  <data name="ForcedUpdateDialogTitle" xml:space="preserve">
+    <value>ການອັບເດດທີ່ສໍາຄັນ</value>
+  </data>
+  <data name="GoBack.Content" xml:space="preserve">
+    <value>ກັບມາ</value>
+  </data>
+  <data name="HelpPageSignOut.Content" xml:space="preserve">
+    <value>Sign Out</value>
+  </data>
+  <data name="History_Export.Text" xml:space="preserve">
+    <value>ການສ້າງໄຟລ໌...</value>
+  </data>
+  <data name="HistoryListColumnSessionName.Text" xml:space="preserve">
+    <value>ຊື່</value>
+  </data>
+  <data name="HistoryListColumnSynced.Text" xml:space="preserve">
+    <value>Synced</value>
+  </data>
+  <data name="HistorySearchBox.PlaceholderText" xml:space="preserve">
+    <value>ພາສາ, ຊື່ພາກ, tags ຫຼື IDs</value>
+  </data>
+  <data name="HistorySearchButtonTooltip.Text" xml:space="preserve">
+    <value>ຄົ້ນຫາ</value>
+  </data>
+  <data name="HistorySearchClearButtonTooltip.Text" xml:space="preserve">
+    <value>ແຈ້ງ</value>
+  </data>
+  <data name="HistorySearchFromDate.Header" xml:space="preserve">
+    <value>ຈາກ:</value>
+  </data>
+  <data name="HistorySearchToDate.Header" xml:space="preserve">
+    <value>ເຖິງ:</value>
+  </data>
+  <data name="HistoryShareButtonTooltip.Text" xml:space="preserve">
+    <value>ແບ່ງປັນ/ສົ່ງ</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonOne.Text" xml:space="preserve">
+    <value>ບຸກຄົນ ທີ 1</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonTwo.Text" xml:space="preserve">
+    <value>ບຸກຄົນ 2</value>
+  </data>
+  <data name="LoginPageTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NewVersionDialogCaption" xml:space="preserve">
+    <value>ຕິດຕັ້ງແອັບພລິເຄຊັນໃຫມ່ຂອງ</value>
+  </data>
+  <data name="NewVersionDialogDescription" xml:space="preserve">
+    <value>ຄຸນນະສົມບັດໃຫມ່ແລະການແກ້ໄຂbug ຈະຂາດໄປຈາກ </value>
+  </data>
+  <data name="NewVersionDialogInstallBtnText" xml:space="preserve">
+    <value>ຕິດຕັ້ງລຸ້ນໃຫມ່</value>
+  </data>
+  <data name="NewVersionDialogTitle" xml:space="preserve">
+    <value>ແອັບພລິເຄຊັນໃຫມ່</value>
+  </data>
+  <data name="NextText" xml:space="preserve">
+    <value>ຕໍ່ໄປ</value>
+  </data>
+  <data name="ProfilePageEditButton.Content" xml:space="preserve">
+    <value>ແກ້ໄຂ</value>
+  </data>
+  <data name="QuestionsButton.Content" xml:space="preserve">
+    <value>ເບິ່ງຄໍາຖາມ</value>
+  </data>
+  <data name="QuestionSettingsDescription.Text" xml:space="preserve">
+    <value>ເບິ່ງຫຼືດັດແປງຄໍາຖາມຂອງທ່ານshortcuts</value>
+  </data>
+  <data name="QuestionSettingsInstructionOne.Text" xml:space="preserve">
+    <value>* ໃຊ້ເລກ 1-9 ສໍາລັບແຕ່ລະຄໍາຖາມ. Zero (0) ຈະບໍ່ຖືກພິຈາລະນາ.</value>
+  </data>
+  <data name="QuestionSettingsInstructionThree.Text" xml:space="preserve">
+    <value>* ທ່ານສາມາດມອບຫມາຍທາງສັ້ນໃຫ້ໄດ້ພຽງ 9 ຄໍາຖາມເທົ່ານັ້ນ.</value>
+  </data>
+  <data name="QuestionSettingsListTitle.Text" xml:space="preserve">
+    <value>ລາຍການຄໍາຖາມ :</value>
+  </data>
+  <data name="ResellerEmailAddress.Text" xml:space="preserve">
+    <value>Reseller Email Address :</value>
+  </data>
+  <data name="ResellerName.Text" xml:space="preserve">
+    <value>ຊື່ຜູ້ຂາຍ :</value>
+  </data>
+  <data name="SelectFlag.Text" xml:space="preserve">
+    <value>ເລືອກທຸງຂອງທ່ານ:</value>
+  </data>
+  <data name="Send.Content" xml:space="preserve">
+    <value>ສົ່ງ</value>
+  </data>
+  <data name="SessionDetailsPage_SessionName.Text" xml:space="preserve">
+    <value>ຊື່ກອງປະຊຸມ</value>
+  </data>
+  <data name="SessionID.Text" xml:space="preserve">
+    <value>ໄອເດຍພາກວິຊາ : -</value>
+  </data>
+  <data name="SessionMetadataDialog_ContinueButton.Text" xml:space="preserve">
+    <value>ສືບຕໍ່</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTags.Text" xml:space="preserve">
+    <value>Custom Tag(s)</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>ໃສ່ຊື່ tag ທີ່ນີ້</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextboxHelper.Text" xml:space="preserve">
+    <value>Press Enter</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTags.Text" xml:space="preserve">
+    <value>Default Tag(s)</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>ເຂົ້າສູ່ມູນຄ່າທີ່ນີ້</value>
+  </data>
+  <data name="SessionMetadataDialog_Description.Text" xml:space="preserve">
+    <value>ທົ່ງນາທີ່ບັງຄັບໃຊ້ມີເຄື່ອງຫມາຍດ້ວຍ '</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionName.Text" xml:space="preserve">
+    <value>ຊື່ກອງປະຊຸມ</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionNameTextbox.PlaceholderText" xml:space="preserve">
+    <value>e.g ຄົນເຈັບ zero</value>
+  </data>
+  <data name="SessionMetadataDialog_Title.Text" xml:space="preserve">
+    <value>ຕື່ມຊື່ພາກແລະ tags</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorActionMessage" xml:space="preserve">
+    <value>ກະລຸນາຕິດຕໍ່ຜູ້ບໍລິຫານຂອງທ່ານເພື່ອເຄື່ອນໄຫວບັນຊີຂອງທ່ານ.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorMessage" xml:space="preserve">
+    <value>ບັນຊີຂອງທ່ານໄດ້ຖືກdeactivated.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorActionMessage" xml:space="preserve">
+    <value>ກະລຸນາຕິດຕໍ່ຜູ້ບໍລິຫານຂອງທ່ານເພື່ອສ້າງບັນຊີຂອງທ່ານ.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorMessage" xml:space="preserve">
+    <value>ບັນຊີຂອງທ່ານໄດ້ຖືກລຶບອອກ.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorActionMessage" xml:space="preserve">
+    <value>ກະລຸນາຕິດຕໍ່ຜູ້ບໍລິຫານຂອງທ່ານເພື່ອເຮັດໃຫ້ບັນຊີຂອງທ່ານ.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorMessage" xml:space="preserve">
+    <value>ບັນຊີຂອງທ່ານໄດ້ຖືກພິການ.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorActionMessage" xml:space="preserve">
+    <value>ກະລຸນາຕິດຕໍ່ຜູ້ບໍລິຫານຂອງທ່ານເພື່ອສ້າງບັນຊີຂອງທ່ານ.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorMessage" xml:space="preserve">
+    <value>ທ່ານບໍ່ມີບັນຊີທີ່ເຄື່ອນໄຫວ.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorActionMessage" xml:space="preserve">
+    <value>ກະລຸນາຕິດຕໍ່ຜູ້ບໍລິຫານຂອງທ່ານເພື່ອຕໍ່ອາຍຸໃບອະນຸຍາດຂອງທ່ານ.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorMessage" xml:space="preserve">
+    <value>ໃບອະນຸຍາດຂອງທ່ານໄດ້ສິ້ນສຸດລົງແລ້ວ.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorActionMessage" xml:space="preserve">
+    <value>ກະລຸນາຕິດຕໍ່ຜູ້ບໍລິຫານຂອງທ່ານເພື່ອເຄື່ອນໄຫວໃບອະນຸຍາດຂອງທ່ານ.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorMessage" xml:space="preserve">
+    <value>ໃບອະນຸຍາດຂອງທ່ານໄດ້ຖືກdeactivated.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorActionMessage" xml:space="preserve">
+    <value>ກະລຸນາຕິດຕໍ່ຜູ້ບໍລິຫານຂອງທ່ານ.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorMessage" xml:space="preserve">
+    <value>ໃບອະນຸຍາດຂອງທ່ານໄດ້ຖືກຢຸດເຊົາ.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorActionMessage" xml:space="preserve">
+    <value>ກະລຸນາຕິດຕໍ່ຜູ້ບໍລິຫານຂອງທ່ານເພື່ອມອບໃບອະນຸຍາດໃຫ້ທ່ານ.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorMessage" xml:space="preserve">
+    <value>ທ່ານບໍ່ມີໃບອະນຸຍາດທີ່ຖືກມອບຫມາຍໃຫ້ທ່ານ.</value>
+  </data>
+  <data name="StartupPage2020.Text" xml:space="preserve">
+    <value>2021 </value>
+  </data>
+  <data name="StartupPageErrorDescription.Text" xml:space="preserve">
+    <value>ເກີດຄວາມຜິດພາດ. ກະລຸນາກວດເບິ່ງການເຊື່ອມຕໍ່ອິນເຕີເນັດຂອງທ່ານແລ້ວລອງອີກເທື່ອຫນຶ່ງ.</value>
+  </data>
+  <data name="StartupPagePoweredBy.Text" xml:space="preserve">
+    <value>ຂັບເຄື່ອນໂດຍ </value>
+  </data>
+  <data name="StartupPageProgressDescription.Text" xml:space="preserve">
+    <value>ນີ້ອາດຈະໃຊ້ເວລາສອງສາມວິນາທີ</value>
+  </data>
+  <data name="StartupPageRetryButton.Content" xml:space="preserve">
+    <value>Retry</value>
+  </data>
+  <data name="StartupPageRightsReserved.Text" xml:space="preserve">
+    <value>ສິດທັງຫມົດທີ່ສະຫງວນໄວ້.</value>
+  </data>
+  <data name="StartUpPageSettingUpMessage" xml:space="preserve">
+    <value>ການຕັ້ງຄ່າ...</value>
+  </data>
+  <data name="StartupPageTitleDescription.Text" xml:space="preserve">
+    <value>ຍິນດີຕ້ອນຮັບສູ່ </value>
+  </data>
+  <data name="TranslateText" xml:space="preserve">
+    <value>ແປ</value>
+  </data>
+  <data name="TranslationLicenceUseError" xml:space="preserve">
+    <value>ໃບອະນຸຍາດຂອງທ່ານກໍາລັງໃຊ້ຢູ່ໃນອີກພາກຫນຶ່ງ.</value>
+  </data>
+  <data name="TranslationLimitReachedError" xml:space="preserve">
+    <value>ທ່ານໄດ້ເຖິງກໍານົດເວລາສູງສຸດຂອງທ່ານຕໍ່ກອງປະຊຸມ. ສິ້ນສຸດພາກ.</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOff" xml:space="preserve">
+    <value>ໄມໂຄຣໂຟນ Off</value>
+  </data>
+  <data name="TranslationPage_SpeakerOff" xml:space="preserve">
+    <value>Speaker Off</value>
+  </data>
+  <data name="TranslationTimeDepletedError" xml:space="preserve">
+    <value>ນາທີການແປຂອງທ່ານໄດ້ຫມົດໄປແລ້ວ. ກະລຸນາຕິດຕໍ່ຜູ້ບໍລິຫານຂອງທ່ານ.</value>
+  </data>
+  <data name="UnsupportedVersionDialogBtntext" xml:space="preserve">
+    <value>ອັບເດດ</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption" xml:space="preserve">
+    <value>ຈໍາ ເປັນ ຕ້ອງ ມີ ການ ອັບ ເດດ ທີ່ ສໍາ ຄັນ ສໍາ ລັບ </value>
+  </data>
+  <data name="UnsupportedVersionDialogDescription" xml:space="preserve">
+    <value>ອັບເດດແອັບຂອງທ່ານເພື່ອສືບຕໍ່ໄດ້ຮັບການປັບປຸງຄຸນນະສົມບັດແລະຄວາມປອດໄພ.</value>
+  </data>
+  <data name="UnsupportedVersionDialogTitle" xml:space="preserve">
+    <value>ແອັບພລິເຄຊັນທີ່ບໍ່ໄດ້ຮັບການສະຫນັບສະຫນູນ</value>
+  </data>
+  <data name="UpdateDialogWhatsNew.Text" xml:space="preserve">
+    <value>ມີຫຍັງໃຫມ່?</value>
+  </data>
+  <data name="Zoom.Text" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="Add.Content" xml:space="preserve">
+    <value>ຕື່ມ</value>
+  </data>
+  <data name="AddNewQuestion.Text" xml:space="preserve">
+    <value>ຕື່ມຄໍາຖາມໃຫມ່ທີ່ກໍານົດໄວ້ລ່ວງຫນ້າ</value>
+  </data>
+  <data name="AddQuestion.Content" xml:space="preserve">
+    <value>ເພີ່ມຄໍາຖາມ</value>
+  </data>
+  <data name="ChooseLanguage.Text" xml:space="preserve">
+    <value>ເລືອກພາສາມາດຕະຖານ</value>
+  </data>
+  <data name="CustomProfileAdded" xml:space="preserve">
+    <value>ຊື່ Profile added ສໍາເລັດ.</value>
+  </data>
+  <data name="CustomProfileDeleted" xml:space="preserve">
+    <value>Profile ຖືກລຶບອອກຢ່າງສໍາເລັດຜົນ.</value>
+  </data>
+  <data name="CustomProfileInvalidName" xml:space="preserve">
+    <value>ຂໍ້ຜິດພາດ! ຊື່ profile ທີ່ບໍ່ຖືກຕ້ອງ.</value>
+  </data>
+  <data name="CustomProfileNotDeleted" xml:space="preserve">
+    <value>ບໍ່ມີ profile ທີ່ຈະລຶບ.</value>
+  </data>
+  <data name="CustomProfileNotSaved" xml:space="preserve">
+    <value>ຂໍ້ຜິດພາດ! ບໍ່ມີ profile ເກັບຮັກສາໄວ້.</value>
+  </data>
+  <data name="CustomProfileProfileSaved" xml:space="preserve">
+    <value>Profile ໄດ້ເກັບຮັກສາໄວ້ຢ່າງສໍາເລັດຜົນ.</value>
+  </data>
+  <data name="DataRequestMessage" xml:space="preserve">
+    <value>ທ່ານບໍ່ໄດ້ເລືອກຂໍ້ຄວາມໃດໆ. ກະລຸນາເລືອກຂໍ້ຄວາມເພື່ອແບ່ງປັນແລະລອງອີກເທື່ອຫນຶ່ງ.</value>
+  </data>
+  <data name="DevicesAddProfileButton.Content" xml:space="preserve">
+    <value>ຕື່ມ</value>
+  </data>
+  <data name="DevicesAvailableProfiles.Text" xml:space="preserve">
+    <value>ໂປຣໄຟລ໌ທີ່ມີຢູ່</value>
+  </data>
+  <data name="DevicesDefaultProfile.Text" xml:space="preserve">
+    <value>ໂປຣໄຟລ໌ມາດຕະຖານ:</value>
+  </data>
+  <data name="DevicesDeleteProfileBtn.Content" xml:space="preserve">
+    <value>ລຶບ Profile</value>
+  </data>
+  <data name="DeviceSetupChanged" xml:space="preserve">
+    <value>ອຸປະກອນສຽງທີ່ເຊື່ອມຕໍ່ໄດ້ຮັບການປັບປຸງ </value>
+  </data>
+  <data name="DevicesHelpfulTip1.Text" xml:space="preserve">
+    <value>1. ຕັ້ງຊື່ໂປຣໄຟລ໌</value>
+  </data>
+  <data name="DevicesHelpfulTip2.Text" xml:space="preserve">
+    <value>2. ເລືອກຮູບແບບອຸປະກອນດຽວຫຼືສອງ</value>
+  </data>
+  <data name="DevicesHelpfulTip3.Text" xml:space="preserve">
+    <value>3. ເລືອກຜູ້ເວົ້າ(s) ແລະ ໄມໂຄຣໂຟນ(s)</value>
+  </data>
+  <data name="DevicesHelpfulTip4.Text" xml:space="preserve">
+    <value>4. ກໍານົດໂປຣໄຟລ໌ຂອງທ່ານໃຫ້ເປັນມາດຕະຖານ</value>
+  </data>
+  <data name="DevicesHelpfulTip5.Text" xml:space="preserve">
+    <value>5. ກົດປຸ່ມ Save Profile ເພື່ອປະຢັດໂປຣໄຟລ໌ຂອງທ່ານ</value>
+  </data>
+  <data name="DevicesHelpfulTips.Text" xml:space="preserve">
+    <value>ຄໍາແນະນໍາທີ່ເປັນປະໂຫຍດ</value>
+  </data>
+  <data name="DevicesProfileNameTextBox.PlaceholderText" xml:space="preserve">
+    <value>ຊື່ Profile...</value>
+  </data>
+  <data name="DevicesSaveProfileBtn.Content" xml:space="preserve">
+    <value>Save Profile</value>
+  </data>
+  <data name="DevicesSetasDefault.Text" xml:space="preserve">
+    <value>ຕັ້ງໄວ້ເປັນມາດຕະຖານ</value>
+  </data>
+  <data name="DevicesSetProfileButton.Content" xml:space="preserve">
+    <value>ຕັ້ງprofile</value>
+  </data>
+  <data name="DevicesSetProfileText.Text" xml:space="preserve">
+    <value>ຕັ້ງຄ່າທໍານຽມ?</value>
+  </data>
+  <data name="DiscardButton.Content" xml:space="preserve">
+    <value>ຖິ້ມ</value>
+  </data>
+  <data name="DismissButton.Content" xml:space="preserve">
+    <value>Dismiss</value>
+  </data>
+  <data name="DismissText.Text" xml:space="preserve">
+    <value>Dismiss</value>
+  </data>
+  <data name="DownloadAudio.Text" xml:space="preserve">
+    <value>ດາວໂຫລດAudio</value>
+  </data>
+  <data name="DownloadCancel" xml:space="preserve">
+    <value>ດາວໂຫລດຖືກຍົກເລີກ</value>
+  </data>
+  <data name="Downloaded" xml:space="preserve">
+    <value>ດາວໂຫລດ</value>
+  </data>
+  <data name="DownloadError" xml:space="preserve">
+    <value>ເກີດຂໍ້ຜິດພາດ</value>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>ການດາວໂຫລດ</value>
+  </data>
+  <data name="DownloadPaused" xml:space="preserve">
+    <value>ດາວໂຫລດ Paused</value>
+  </data>
+  <data name="DualDeviceUpdated" xml:space="preserve">
+    <value>ການຕັ້ງຄ່າDual Device updated ສໍາເລັດຜົນ</value>
+  </data>
+  <data name="EnterQuestion.Text" xml:space="preserve">
+    <value>ເຂົ້າສູ່ຄໍາຖາມຂ້າງລຸ່ມນີ້</value>
+  </data>
+  <data name="ErrorDescription.Text" xml:space="preserve">
+    <value>ການປ່ຽນແປງຂອງທ່ານຍັງບໍ່ໄດ້ຮັບການເກັບຮັກສາ, ທ່ານຕ້ອງການທີ່ຈະຊ່ວຍປະຢັດຫຼືຖິ້ມ?</value>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>ບາງສິ່ງບາງຢ່າງຜິດພາດ.. ລອງໃໝ່ອີກຄັ້ງ</value>
+  </data>
+  <data name="ErrorTitle.Text" xml:space="preserve">
+    <value>ທ່ານ ມີ ການ ປ່ຽນ ແປງ ທີ່ ບໍ່ ໄດ້ ຮັບ ການ ຊ່ວຍ ໃຫ້ ລອດ</value>
+  </data>
+  <data name="FeedbackEight.Text" xml:space="preserve">
+    <value>ພວກເຮົາໄດ້ແຊກແຊງກັນຢູ່ເລື້ອຍໆ</value>
+  </data>
+  <data name="FeedbackFive.Text" xml:space="preserve">
+    <value>ຂ້າພະ ເຈົ້າ ໄດ້ ຍິນ ສຽງ ດັງ ໃນ ການ ເອີ້ນ</value>
+  </data>
+  <data name="FeedbackFour.Text" xml:space="preserve">
+    <value>ມັນ ໄດ້ ຮັບ ສຽງ ພື້ນ ຖານ</value>
+  </data>
+  <data name="FeedbackOne.Text" xml:space="preserve">
+    <value>ມັນ ບໍ່ ໄດ້ ຮັບ ສຽງ ຂອງ ຂ້າ ພະ ເຈົ້າ ຢ່າງ ຖືກ ຕ້ອງ</value>
+  </data>
+  <data name="FeedbackQuestion.Text" xml:space="preserve">
+    <value>ຈະມີຫຍັງດີກວ່າ?</value>
+  </data>
+  <data name="FeedbackSeven.Text" xml:space="preserve">
+    <value>ກອງປະຊຸມໄດ້ສິ້ນສຸດລົງຢ່າງບໍ່ຄາດຄິດ</value>
+  </data>
+  <data name="FeedbackSix.Text" xml:space="preserve">
+    <value>ບໍລິມາດຕ່ໍາເກີນໄປ</value>
+  </data>
+  <data name="FeedbackThanks.Text" xml:space="preserve">
+    <value>ຂອບໃຈສໍາລັບການໃຫ້ຄໍາເຫັນ</value>
+  </data>
+  <data name="FeedbackThree.Text" xml:space="preserve">
+    <value>ເວລາແປຊ້າເກີນໄປ</value>
+  </data>
+  <data name="FeedbackTwo.Text" xml:space="preserve">
+    <value>ມັນໄດ້ແປປະໂຫຍກຂອງຂ້ອຍຜິດ</value>
+  </data>
+  <data name="ForcedUpdateDialogCaptionContinuation" xml:space="preserve">
+    <value>ເພື່ອປະຕິບັດຫນ້າທີ່. ຄໍາຮ້ອງສະຫມັກຈະບໍ່ເຮັດວຽກຖ້າບໍ່ມີການປັບປຸງເຫຼົ່ານີ້.</value>
+  </data>
+  <data name="Improvement.Text" xml:space="preserve">
+    <value>ພວກເຮົາຈະສືບຕໍ່ເຮັດວຽກໃນການປັບປຸງປະສົບການຂອງທ່ານ.</value>
+  </data>
+  <data name="LanguageSettingsUpdated" xml:space="preserve">
+    <value>ການປ່ຽນແປງພາສາupdated succesfully</value>
+  </data>
+  <data name="NewVersionDialogDescription2" xml:space="preserve">
+    <value>ແລະ ສະບັບຂອງທ່ານຂອງ</value>
+  </data>
+  <data name="NewVersionDialogDescription3" xml:space="preserve">
+    <value>ອາດຈະບໍ່ໄດ້ຮັບການສະຫນັບສະຫນູນ.</value>
+  </data>
+  <data name="Other.Text" xml:space="preserve">
+    <value>ຄໍາເຫັນອື່ນໆ:</value>
+  </data>
+  <data name="PasswordUpdated" xml:space="preserve">
+    <value>ລະຫັດປ່ຽນ Succesfully</value>
+  </data>
+  <data name="PlaybackLanguageUpdated" xml:space="preserve">
+    <value>ພາສາplayback default ໄດ້ປ່ຽນ Succesfully</value>
+  </data>
+  <data name="QuestionAdded" xml:space="preserve">
+    <value>ຄໍາ ຖາມ ທີ່ ເພີ່ມ ຂຶ້ນ ຢ່າງ ສໍາ ເລັດ ຜົນ</value>
+  </data>
+  <data name="QuestionDeleted" xml:space="preserve">
+    <value>ຄໍາ ຖາມ ລຶບ ອອກ ຢ່າງ ສໍາ ເລັດ ຜົນ</value>
+  </data>
+  <data name="Questions.Text" xml:space="preserve">
+    <value>ຄໍາຖາມ</value>
+  </data>
+  <data name="QuestionSettingsInstructionTwo.Text" xml:space="preserve">
+    <value>* ແຕ່ ລະ ຄໍາ ຖາມ ຕ້ອງ ມີ ກະ ແຈ ສັ້ນ ທີ່ ແຕກ ຕ່າງ ກັນ.</value>
+  </data>
+  <data name="QuestionsValidationError.Text" xml:space="preserve">
+    <value>* ກວດເບິ່ງການຢັ້ງຢືນຂອງທ່ານແລະພະຍາຍາມອີກເທື່ອຫນຶ່ງ.</value>
+  </data>
+  <data name="QuickViewLanguagesUpdated" xml:space="preserve">
+    <value>Quick view languges updated Succesfully</value>
+  </data>
+  <data name="SendFeedback.Content" xml:space="preserve">
+    <value>ສົ່ງFeedback</value>
+  </data>
+  <data name="SessionFeedbackPrompt" xml:space="preserve">
+    <value>ທ່ານຈະໃຫ້ຄະແນນພາກແປຂອງທ່ານແນວໃດ?</value>
+  </data>
+  <data name="SessionFeedbackTitle" xml:space="preserve">
+    <value>ຄໍາຄິດຄໍາເຫັນການແປ</value>
+  </data>
+  <data name="ShortcutSuccess" xml:space="preserve">
+    <value>ຄໍາ ຖາມ ສັ້ນ ທີ່ ຖືກ ອັບ ເດດ ຢ່າງ ສໍາ ເລັດ ຜົນ</value>
+  </data>
+  <data name="SingleDeviceUpdated" xml:space="preserve">
+    <value>ການຕັ້ງຄ່າອຸປະກອນດຽວໄດ້ຮັບການປັບປຸງຢ່າງສໍາເລັດຜົນ</value>
+  </data>
+  <data name="StartupPageTitleDescription2.Text" xml:space="preserve">
+    <value>ຊອບແວແປພາສາ.</value>
+  </data>
+  <data name="TimeoutUpdated" xml:space="preserve">
+    <value>Timeout updated Succesfully</value>
+  </data>
+  <data name="TouchShareText" xml:space="preserve">
+    <value>Touch Share</value>
+  </data>
+  <data name="TranslationLanguageUpdated" xml:space="preserve">
+    <value>ພາສາແປມາດຕະຖານໄດ້ປ່ຽນsuccesfully</value>
+  </data>
+  <data name="TranslationPlaybackUpdated" xml:space="preserve">
+    <value>ການແປDefault &amp;playback ໄດ້ປ່ຽນ succesfully</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption2" xml:space="preserve">
+    <value>ເພື່ອປະຕິບັດຫນ້າທີ່. ລັກສະນະອາດຈະເຊົາເຮັດວຽກໂດຍບໍ່ມີການແຈ້ງໃຫ້ຮູ້. ກະລຸນາປັບປຸງຄໍາຮ້ອງສະຫມັກ.</value>
+  </data>
+  <data name="UserFlagSwitch" xml:space="preserve">
+    <value>ທຸງຂອງຜູ້ໃຊ້ເພື່ອປ່ຽນພາສາupdated</value>
+  </data>
+</root>

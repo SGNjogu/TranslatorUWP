@@ -1,0 +1,278 @@
+﻿<Page
+    x:Class="SpeechlyTouch.Views.Pages.QuestionsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:extensions="using:SpeechlyTouch.Helpers"
+    xmlns:i="using:Microsoft.Xaml.Interactivity"
+    xmlns:i2="using:Microsoft.Xaml.Interactions.Core"
+    xmlns:local="using:SpeechlyTouch.Views.Pages"
+    xmlns:local1="using:SpeechlyTouch.Converters"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Background="{Binding PrimaryBackgroundColor, Source={StaticResource DynamicColors}}"
+    DataContext="{Binding OrgQuestionsViewModel, Source={StaticResource ViewModelLocator}}"
+    mc:Ignorable="d">
+    <Page.Resources>
+        <local1:IntToVisibilityConverter x:Key="IntToVisibilityConverter" />
+    </Page.Resources>
+    <ScrollViewer>
+        <Grid Padding="60,30,60,20" RowSpacing="40">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <!--  Title View  -->
+
+            <Grid Grid.Row="0">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <TextBlock
+                    x:Uid="Questions"
+                    Grid.Column="0"
+                    VerticalAlignment="Center"
+                    FontSize="20"
+                    FontWeight="SemiBold"
+                    Foreground="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}"
+                    Style="{StaticResource TextBlockStyle}" />
+
+                <!--  Save Button  -->
+
+                <StackPanel
+                    Grid.Column="1"
+                    HorizontalAlignment="Right"
+                    Orientation="Horizontal"
+                    Spacing="20">
+                    <TextBlock
+                        x:Uid="QuestionsValidationError"
+                        VerticalAlignment="Center"
+                        FontSize="16"
+                        FontStyle="Italic"
+                        FontWeight="Normal"
+                        Foreground="Red"
+                        Style="{StaticResource TextBlockStyle}"
+                        Visibility="{Binding IsVisibleValidationError}" />
+                    <Button
+                        x:Uid="Save"
+                        Padding="40,8,40,8"
+                        VerticalAlignment="Center"
+                        Background="{Binding BtnAccentColor, Source={StaticResource DynamicColors}}"
+                        Command="{Binding SaveShortCutsCommand}"
+                        CornerRadius="3"
+                        FontSize="17"
+                        FontWeight="SemiBold"
+                        Foreground="{Binding BtnAccentTextColor, Source={StaticResource DynamicColors}}"
+                        PointerEntered="Button_PointerEntered"
+                        PointerExited="Button_PointerExited"
+                        Style="{StaticResource ButtonStyle}" />
+                </StackPanel>
+
+            </Grid>
+
+            <StackPanel Grid.Row="1" Spacing="20">
+                <Grid>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*" />
+                        <ColumnDefinition Width="2*" />
+                        <ColumnDefinition Width="3*" />
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock
+                        x:Uid="QuestionSettingsListTitle"
+                        Grid.Row="0"
+                        Grid.Column="0"
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Center"
+                        FontSize="18"
+                        FontWeight="SemiBold"
+                        Foreground="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}"
+                        Style="{StaticResource TextBlockStyle}" />
+                    <TextBlock
+                        x:Uid="QuestionSettingsDescription"
+                        Grid.Row="0"
+                        Grid.Column="1"
+                        VerticalAlignment="Center"
+                        FontSize="18"
+                        FontWeight="Light"
+                        Foreground="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}"
+                        Style="{StaticResource TextBlockStyle}" />
+
+                    <StackPanel
+                        Grid.Column="2"
+                        HorizontalAlignment="Right"
+                        Orientation="Horizontal"
+                        Spacing="20">
+                        <Button
+                            x:Uid="AddQuestion"
+                            Padding="40,8,40,8"
+                            VerticalAlignment="Center"
+                            Background="{Binding PrimaryBackgroundColor, Source={StaticResource DynamicColors}}"
+                            BorderBrush="{Binding AccentColor, Source={StaticResource DynamicColors}}"
+                            Command="{Binding OpenQuestionDialogCommand}"
+                            CornerRadius="3"
+                            FontSize="17"
+                            FontWeight="SemiBold"
+                            Foreground="{Binding AccentColor, Source={StaticResource DynamicColors}}"
+                            PointerEntered="Button_PointerEntered"
+                            PointerExited="Button_PointerExited"
+                            Style="{StaticResource ButtonStyle}" />
+
+                    </StackPanel>
+
+                </Grid>
+
+                <Border BorderBrush="{Binding BorderBrush, Source={StaticResource DynamicColors}}" BorderThickness="1" />
+
+                <ListView
+                    HorizontalAlignment="Stretch"
+                    HorizontalContentAlignment="Stretch"
+                    ItemsSource="{Binding SettingsQuestions, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                    ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                    ScrollViewer.VerticalScrollBarVisibility="Disabled">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel>
+                                <Grid
+                                    Margin="10"
+                                    HorizontalAlignment="Stretch"
+                                    ColumnSpacing="20">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="50" />
+                                        <ColumnDefinition Width="Auto" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Button
+                                        Grid.Column="0"
+                                        Background="Transparent"
+                                        BorderBrush="Transparent"
+                                        Command="{Binding Source={StaticResource ViewModelLocator}, Path=OrgQuestionsViewModel.DeleteQuestionCommand}"
+                                        CommandParameter="{Binding}"
+                                        CornerRadius="15"
+                                        Visibility="{Binding QuestionType, Converter={StaticResource IntToVisibilityConverter}}">
+                                        <StackPanel>
+                                            <FontIcon
+                                                FontFamily="Segoe MDL2 Assets"
+                                                FontSize="15"
+                                                Glyph="&#xE74D;" />
+                                        </StackPanel>
+                                    </Button>
+                                    <TextBlock
+                                        Grid.Column="1"
+                                        Width="500"
+                                        MaxWidth="600"
+                                        FontWeight="Normal"
+                                        Style="{StaticResource TextBlockStyle}"
+                                        Text="{Binding Question}"
+                                        TextWrapping="WrapWholeWords" />
+                                    <StackPanel
+                                        Grid.Column="2"
+                                        HorizontalAlignment="Right"
+                                        VerticalAlignment="Center"
+                                        Orientation="Horizontal"
+                                        Spacing="5">
+                                        <Border
+                                            Padding="10,2"
+                                            Background="LightGray"
+                                            CornerRadius="5">
+                                            <TextBlock
+                                                Margin="0"
+                                                Padding="0"
+                                                HorizontalAlignment="Center"
+                                                VerticalAlignment="Center"
+                                                Style="{StaticResource TextBlockStyle}"
+                                                Text="Ctrl" />
+                                        </Border>
+                                        <TextBlock
+                                            Margin="0"
+                                            Padding="0"
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Center"
+                                            Style="{StaticResource TextBlockStyle}"
+                                            Text=" + " />
+                                        <Border
+                                            Padding="10,2"
+                                            Background="LightGray"
+                                            CornerRadius="5">
+                                            <TextBlock
+                                                Margin="0"
+                                                Padding="0"
+                                                HorizontalAlignment="Center"
+                                                VerticalAlignment="Center"
+                                                Style="{StaticResource TextBlockStyle}"
+                                                Text="Shift" />
+                                        </Border>
+                                        <TextBlock
+                                            Margin="0"
+                                            Padding="0"
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Center"
+                                            Style="{StaticResource TextBlockStyle}"
+                                            Text=" + " />
+
+                                        <TextBox
+                                            x:Name="ShortcutTextbox"
+                                            MinWidth="25"
+                                            Margin="2,0,2,0"
+                                            Padding="5,2,5,0"
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Center"
+                                            CharacterReceived="ShortcutTextbox_CharacterReceived"
+                                            CornerRadius="5"
+                                            FontSize="16"
+                                            FontWeight="SemiBold"
+                                            MaxLength="1"
+                                            Text="{Binding ShortCut, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                            TextAlignment="Start" />
+                                    </StackPanel>
+                                </Grid>
+                                <Border
+                                    Height="2"
+                                    BorderBrush="LightGray"
+                                    BorderThickness="1" />
+
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <TextBlock
+                    x:Uid="QuestionSettingsInstructionOne"
+                    Margin="0,30,0,0"
+                    VerticalAlignment="Center"
+                    FontSize="15"
+                    FontStyle="Italic"
+                    FontWeight="Normal"
+                    Foreground="Gray"
+                    Style="{StaticResource TextBlockStyle}" />
+                <TextBlock
+                    x:Uid="QuestionSettingsInstructionTwo"
+                    VerticalAlignment="Center"
+                    FontSize="15"
+                    FontStyle="Italic"
+                    FontWeight="Normal"
+                    Foreground="Gray"
+                    Style="{StaticResource TextBlockStyle}" />
+                <TextBlock
+                    x:Uid="QuestionSettingsInstructionThree"
+                    VerticalAlignment="Center"
+                    FontSize="15"
+                    FontStyle="Italic"
+                    FontWeight="Normal"
+                    Foreground="Gray"
+                    Style="{StaticResource TextBlockStyle}" />
+
+            </StackPanel>
+        </Grid>
+    </ScrollViewer>
+</Page>

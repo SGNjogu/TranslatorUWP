@@ -1,0 +1,1192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="AppDescription" xml:space="preserve">
+    <value>TalaTouchApp</value>
+  </data>
+  <data name="AppDisplayName" xml:space="preserve">
+    <value>TalaTouchApp</value>
+  </data>
+  <data name="AudioDeviceSelector_MicDropdown.PlaceholderText" xml:space="preserve">
+    <value>Ընտրեք խոսափողը</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneMic.Text" xml:space="preserve">
+    <value>Անձ մեկ միկրոֆոն</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneSpeaker.Text" xml:space="preserve">
+    <value>Անձ մեկ խոսնակ</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoMic.Text" xml:space="preserve">
+    <value>Անձ Երկու խոսափող</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoSpeaker.Text" xml:space="preserve">
+    <value>Անձ Երկախոս</value>
+  </data>
+  <data name="AudioDeviceSelector_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>Ընտրել խոսողին</value>
+  </data>
+  <data name="BluetoothPairingDialog_Description.Text" xml:space="preserve">
+    <value>Համոզվեք, որ ձեր սարքը միացված է եւ հնարավոր է հայտնաբերել: Միացնելու համար ընտրեք ներքեւում գտնվող սարքը:</value>
+  </data>
+  <data name="BluetoothPairingDialog_Title.Text" xml:space="preserve">
+    <value>Ավելացնել սարք</value>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>Չեղարկել</value>
+  </data>
+  <data name="ChangePasscodeDialog_Confirm.Text" xml:space="preserve">
+    <value>Հաստատել նոր Passcode-ը</value>
+  </data>
+  <data name="ChangePasscodeDialog_Current.Text" xml:space="preserve">
+    <value>Ընթացիկ Passcode</value>
+  </data>
+  <data name="ChangePasscodeDialog_New.Text" xml:space="preserve">
+    <value>Նոր Պասքոդ</value>
+  </data>
+  <data name="ChangePasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Փոխել Passcode</value>
+  </data>
+  <data name="Close.Content" xml:space="preserve">
+    <value>Փակ</value>
+  </data>
+  <data name="ConsentDialog_Description1.Text" xml:space="preserve">
+    <value>Գաղտնիության հետ կապված մտահոգությունները մեր թիվ մեկ առաջնահերթությունն են: 5) Դուք ընդունում եք սույն Գաղտնիության քաղաքականության պայմանները ձեր բջջային հեռախոսով կամ պլանշետով, ինչպես կիրառելի է:</value>
+  </data>
+  <data name="ConsentDialog_Description2.Text" xml:space="preserve">
+    <value>Եթե դուք նախընտրում եք թույլ չտալ մեզ մուտք գործել, երբ մենք ստանում ենք համաձայնության խնդրանք (նման խնդրանքները կտեղեկացվեն www ICTS կայքում հետեւյալ հասցեով .</value>
+  </data>
+  <data name="ConsentDialog_Description3.Text" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int</value>
+  </data>
+  <data name="ConsentDialog_Description4.Text" xml:space="preserve">
+    <value>), ապա ո՛չ տրված էլփոստի հասցեն, ո՛չ էլ որեւէ այլ անձնական տեղեկություն, որը կարող է բացահայտել տվյալ անձին, նույնպես չեն կարող մտնել մեր տիրույթ, երբ այդպիսի թույլտվություն է տրվել:</value>
+  </data>
+  <data name="ConsentDialog_Description5.Text" xml:space="preserve">
+    <value>Օգտագործելով որոշակի մասեր. /Իմ բջջային հեռախոսի/ Icons-ի օգտագործումը, որը կարող է ներառել նաեւ զրուցակցի սենյակներում ուրիշներին թույլ տալ այնպիսի ապրանքների մասին, ինչպիսիք են</value>
+  </data>
+  <data name="ConsentDialog_HyperLink.NavigateUri" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int/</value>
+  </data>
+  <data name="ConsentDialog_Title.Text" xml:space="preserve">
+    <value>Մենք գնահատում ենք Ձեր գաղտնիությունը</value>
+  </data>
+  <data name="Dashboard_Choose_Language.Text" xml:space="preserve">
+    <value>Ընտրեք լեզուն</value>
+  </data>
+  <data name="Dashboard_Hello.Text" xml:space="preserve">
+    <value>Ողջույն</value>
+  </data>
+  <data name="Dashboard_SearchBox.PlaceholderText" xml:space="preserve">
+    <value>Որոնման լեզու</value>
+  </data>
+  <data name="Dashboard_Welcome.Text" xml:space="preserve">
+    <value>Բարի գալուստ</value>
+  </data>
+  <data name="DevicesErrorDialog_NoDeviceError" xml:space="preserve">
+    <value>Դուք չունեք փրկված սարք(ներ): Գնացեք Settings -&gt; սարքերը՝ միկրոֆոն եւ Խոսնակ ընտրելու համար, այնուհետեւ սեղմեք Save-ը:</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Description.Text" xml:space="preserve">
+    <value>Առկա bluetooth սարքեր</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_DropDown.PlaceholderText" xml:space="preserve">
+    <value>Ընտրեք bluetooth սարքը</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Scan.Text" xml:space="preserve">
+    <value>Սկան</value>
+  </data>
+  <data name="DevicesPage_Bluetooth.Text" xml:space="preserve">
+    <value>Բլութութ</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices_Description.Text" xml:space="preserve">
+    <value>Ընտրեք ձեր աուդիո սարքը</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices.Text" xml:space="preserve">
+    <value>Միացված աուդիո սարքեր</value>
+  </data>
+  <data name="DevicesPage_MicDropDown.PlaceholderText" xml:space="preserve">
+    <value>Ընտրեք խոսափողը</value>
+  </data>
+  <data name="DevicesPage_Network_Description.Text" xml:space="preserve">
+    <value>Առկա ցանցեր</value>
+  </data>
+  <data name="DevicesPage_Network_DropDown.PlaceholderText" xml:space="preserve">
+    <value>Ընտրեք ցանց</value>
+  </data>
+  <data name="DevicesPage_Network.Text" xml:space="preserve">
+    <value>Ցանց</value>
+  </data>
+  <data name="DevicesPage_NetworkError" xml:space="preserve">
+    <value>Ոչ մի ցանց ընտրված չէ: Ստուգեք ձեր ցանցային կապերը:</value>
+  </data>
+  <data name="DevicesPage_PersonOne_Speaker.Text" xml:space="preserve">
+    <value>Անձ մեկ խոսող</value>
+  </data>
+  <data name="DevicesPage_PersonOneMic.Text" xml:space="preserve">
+    <value>Անձ մեկ խոսափող</value>
+  </data>
+  <data name="DevicesPage_PersonTwo_Mic.Text" xml:space="preserve">
+    <value>Անձը երկու խոսափող</value>
+  </data>
+  <data name="DevicesPage_Scan" xml:space="preserve">
+    <value>Սկան</value>
+  </data>
+  <data name="DevicesPage_Scanning" xml:space="preserve">
+    <value>Սկանավորում ...</value>
+  </data>
+  <data name="DevicesPage_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>Ընտրել խոսողին</value>
+  </data>
+  <data name="DevicesPage_Status_Connect" xml:space="preserve">
+    <value>Կապ</value>
+  </data>
+  <data name="DevicesPage_Status_Connected" xml:space="preserve">
+    <value>Կապակցված</value>
+  </data>
+  <data name="DevicesPage_Status_Connecting" xml:space="preserve">
+    <value>Միացում ...</value>
+  </data>
+  <data name="DevicesPage_Status_Off" xml:space="preserve">
+    <value>ՕՖ</value>
+  </data>
+  <data name="DevicesPage_Status_On" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="DevicesPager_PersonTwo_Speaker.Text" xml:space="preserve">
+    <value>Անձը երկու խոսող</value>
+  </data>
+  <data name="EnterPasscodeDialog_Description.Text" xml:space="preserve">
+    <value>Խնդրում ենք մուտք գործել Ձեր passcode-ը, որպեսզի մուտքագրեք կարգավորումների էջը</value>
+  </data>
+  <data name="EnterPasscodeDialog_ForgotPasscode.Content" xml:space="preserve">
+    <value>Մոռացել է Passcode?</value>
+  </data>
+  <data name="EnterPasscodeDialog_InvalidPasscode.Text" xml:space="preserve">
+    <value>Invalid Passcode! Խնդրում եմ նորից փորձեք:</value>
+  </data>
+  <data name="EnterPasscodeDialog_Passcode.Text" xml:space="preserve">
+    <value>Պասքոդ</value>
+  </data>
+  <data name="EnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Մուտքագրեք ձեր passcode</value>
+  </data>
+  <data name="IAgree.Content" xml:space="preserve">
+    <value>Համաձայն եմ</value>
+  </data>
+  <data name="InvalidLicenseDialog_Description.Text" xml:space="preserve">
+    <value>Ձեր արտոնագրի ստուգումը ձախողվեց</value>
+  </data>
+  <data name="InvalidLicenseDialog_Title.Text" xml:space="preserve">
+    <value>Անվավեր լիցե</value>
+  </data>
+  <data name="LoginFailedDialog_Button.Content" xml:space="preserve">
+    <value>Հետ գնա</value>
+  </data>
+  <data name="LoginFailedDialog_Description.Text" xml:space="preserve">
+    <value>Ձեր մուտքագրման փորձը ձախողվեց:</value>
+  </data>
+  <data name="LoginFailedDialog_Title.Text" xml:space="preserve">
+    <value>Ձախողված մուտք</value>
+  </data>
+  <data name="Main_Title.Text" xml:space="preserve">
+    <value>Գլխավոր</value>
+  </data>
+  <data name="PasswordPopup_SetupTitle.Text" xml:space="preserve">
+    <value>Passcode-ի տեղադրում</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Description1.Text" xml:space="preserve">
+    <value>Խնդրում ենք նորից մուտք գործել ձեր passcode- ը, որպեսզի շարունակեք խմբագրումը...</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Նորից մուտքագրեք ձեր անցքը</value>
+  </data>
+  <data name="RenterPasscodeDialog_Description2.Text" xml:space="preserve">
+    <value>ավտոմեքենայի խնայողությունը եւ տուն վերադառնալը</value>
+  </data>
+  <data name="Save.Content" xml:space="preserve">
+    <value>Խնայել</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Description.Text" xml:space="preserve">
+    <value>Սա նմուշային էջ է, որը ցույց կտա ակտիվացման պարամետրերը, եթե app-ն ակտիվացված է Deep Linking-ից:</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Title.Text" xml:space="preserve">
+    <value>SchemeActivationSample</value>
+  </data>
+  <data name="SetPasscodeDialog_ConfirmPasscode.Text" xml:space="preserve">
+    <value>Հաստատել նոր Passcode-ը </value>
+  </data>
+  <data name="SetPasscodeDialog_NewPasscode.Text" xml:space="preserve">
+    <value>Նոր Պասքոդ</value>
+  </data>
+  <data name="SetPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Passcode-ի տեղադրում</value>
+  </data>
+  <data name="Settings_About.Text" xml:space="preserve">
+    <value>Այս դիմումի վերաբերյալ</value>
+  </data>
+  <data name="Settings_AboutDescription.Text" xml:space="preserve">
+    <value>Settings page placeholder text.  Ձեր հավելվածի նկարագրությունը գնում է այստեղ:</value>
+  </data>
+  <data name="Settings_Personalization.Text" xml:space="preserve">
+    <value>Անհատականացում</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.Content" xml:space="preserve">
+    <value>Գաղտնիության մասին դրույթ</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.NavigateUri" xml:space="preserve">
+    <value>https://YourPrivacyUrlGoesHere/</value>
+  </data>
+  <data name="Settings_Theme_Dark.Content" xml:space="preserve">
+    <value>Դարակ</value>
+  </data>
+  <data name="Settings_Theme_Default.Content" xml:space="preserve">
+    <value>Windows-ի դեֆոլտը</value>
+  </data>
+  <data name="Settings_Theme_Light.Content" xml:space="preserve">
+    <value>Լույս</value>
+  </data>
+  <data name="Settings_Theme.Text" xml:space="preserve">
+    <value>Ընտրեք Թեմա</value>
+  </data>
+  <data name="Settings_Title.Text" xml:space="preserve">
+    <value>Պարամետրեր</value>
+  </data>
+  <data name="SettingsPage_Devices" xml:space="preserve">
+    <value>Սարքեր</value>
+  </data>
+  <data name="SettingsPage_Language" xml:space="preserve">
+    <value>Լեզու</value>
+  </data>
+  <data name="SettingsPage_Profile" xml:space="preserve">
+    <value>Պրոֆիլ</value>
+  </data>
+  <data name="SettingsPage_Questions" xml:space="preserve">
+    <value>Հարցեր</value>
+  </data>
+  <data name="SettingsPage_Title" xml:space="preserve">
+    <value>Պարամետրեր</value>
+  </data>
+  <data name="ShellView_Help" xml:space="preserve">
+    <value>Օգնություն</value>
+  </data>
+  <data name="ShellView_History" xml:space="preserve">
+    <value>Պատմություն</value>
+  </data>
+  <data name="ShellView_Home" xml:space="preserve">
+    <value>Տուն</value>
+  </data>
+  <data name="ShellView_Settings.Text" xml:space="preserve">
+    <value>Պարամետրեր</value>
+  </data>
+  <data name="Sign_In.Text" xml:space="preserve">
+    <value>Գրանցել</value>
+  </data>
+  <data name="SignInDialog_Description.Text" xml:space="preserve">
+    <value>Անմիջապես հաղորդակցվեք բազմաթիվ գլոբալ լեզուներով ձեր Jabra սարքի հետ:</value>
+  </data>
+  <data name="SignInDialog_SignInButton.Content" xml:space="preserve">
+    <value>Գրանցել</value>
+  </data>
+  <data name="Translate_Button.Text" xml:space="preserve">
+    <value>Թարգմանիր</value>
+  </data>
+  <data name="TranslationPage_EndSession.Text" xml:space="preserve">
+    <value>Ավարտեք նիստը</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOn" xml:space="preserve">
+    <value>Միկրոֆոն On</value>
+  </data>
+  <data name="TranslationPage_SpeakerOn" xml:space="preserve">
+    <value>Խոսնակ On</value>
+  </data>
+  <data name="TranslationPage_SpeakNow.Text" xml:space="preserve">
+    <value>Խոսիր հիմա</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Մասին</value>
+  </data>
+  <data name="AboutPage_AppVersion.Text" xml:space="preserve">
+    <value>Կիրառման տարբերակ</value>
+  </data>
+  <data name="AboutPage_CheckUpdate.Content" xml:space="preserve">
+    <value>Ստուգեք թարմացումները</value>
+  </data>
+  <data name="AboutPage_DataConsent" xml:space="preserve">
+    <value>Ձեր կազմակերպությունը համաձայնություն է տվել ամպի մեջ ձեր տվյալները փրկելու համար:</value>
+  </data>
+  <data name="AboutPage_NoDataConsent" xml:space="preserve">
+    <value>Ձեր կազմակերպությունը չի տվել համաձայնություն ամպի մեջ ձեր տվյալները փրկելու համար:</value>
+  </data>
+  <data name="AboutPage_Published.Text" xml:space="preserve">
+    <value>Опубликовано FITTS Limited.</value>
+  </data>
+  <data name="AppClose_Close.Content" xml:space="preserve">
+    <value>Ամեն դեպքում փակեք</value>
+  </data>
+  <data name="AppClose_Dismiss.Content" xml:space="preserve">
+    <value>Չեղարկել</value>
+  </data>
+  <data name="AppClose_Warning.Text" xml:space="preserve">
+    <value>Դուք նիստ եք անցկացնում: Խնդրում ենք մինչեւ հայտը դուրս գալը ավարտել նիստը:</value>
+  </data>
+  <data name="AppVersion.Text" xml:space="preserve">
+    <value>App տարբերակ</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Button.Content" xml:space="preserve">
+    <value>Շարունակել նիստը</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Description.Text" xml:space="preserve">
+    <value>Նիստը կավարտվի</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Title.Text" xml:space="preserve">
+    <value>Չհայտնաբերված աուդիո</value>
+  </data>
+  <data name="AudioPlayer_Error.Text" xml:space="preserve">
+    <value>Ձախողվել է բեռնել աուդիո</value>
+  </data>
+  <data name="DashboardPage_DefaultLanguageError" xml:space="preserve">
+    <value>Դուք չունեք փրկված Default Թարգմանչական լեզու: Գնալ Settings -&gt; Լեզուները ընտրել Default թարգմանական լեզուն ապա սեղմել Save- ում:</value>
+  </data>
+  <data name="DashboardPage_TargetLanguageError" xml:space="preserve">
+    <value>Դուք չեք ընտրել Թիրախային թարգմանական լեզու: Սիրով ընտրեք լեզուն հետո սեղմեք Translate- ում:</value>
+  </data>
+  <data name="DevicesErrorDialog_DualDeviceError" xml:space="preserve">
+    <value>Դուք ընտրել եք Dual Device թարգմանությունը, բայց չունեք սարք(ներ) ընտրված Person 2-ի համար: Գնացեք Settings -&gt; սարքերը՝ միկրոֆոն եւ Խոսնակ ընտրելու համար, այնուհետեւ սեղմեք Save-ը:</value>
+  </data>
+  <data name="DevicesPage_Title.Text" xml:space="preserve">
+    <value>Սարքեր</value>
+  </data>
+  <data name="DevicesPage_Wifi_Password.Text" xml:space="preserve">
+    <value>Մուտքագրեք գաղտնաբառը</value>
+  </data>
+  <data name="DevicesPage_WifiStatus.Text" xml:space="preserve">
+    <value>Wifi կարգավիճակ</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Խմբագրել</value>
+  </data>
+  <data name="Expiry.Text" xml:space="preserve">
+    <value>Ժամկետ</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Հետադարձ կապ</value>
+  </data>
+  <data name="FeedbackMessage.Text" xml:space="preserve">
+    <value>Եթե ունեք որեւէ արձագանք կամ հարցում, ապա չեք վարանում կապ հաստատել ձեզ հետ։</value>
+  </data>
+  <data name="GetInTouchButton.Text" xml:space="preserve">
+    <value>Կապ հաստատեք</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Օգնություն</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>Պատմություն</value>
+  </data>
+  <data name="History_ExportBtn.Text" xml:space="preserve">
+    <value>Արտադրություն</value>
+  </data>
+  <data name="HistoryExportButtonTooltip.Text" xml:space="preserve">
+    <value>Արտադրություն</value>
+  </data>
+  <data name="HistoryListColumnDate.Text" xml:space="preserve">
+    <value>Ամսաթիվ</value>
+  </data>
+  <data name="HistoryListColumnDuration.Text" xml:space="preserve">
+    <value>Տեւողությունը</value>
+  </data>
+  <data name="HistoryListColumnPrimaryLanguage.Text" xml:space="preserve">
+    <value>Նախնական լեզու</value>
+  </data>
+  <data name="HistoryListColumnSecondaryLanguage.Text" xml:space="preserve">
+    <value>Երկրորդական լեզու</value>
+  </data>
+  <data name="HistoryListColumnSessionId.Text" xml:space="preserve">
+    <value>Նիստի ID</value>
+  </data>
+  <data name="InitalSetup_SkipSetup.Content" xml:space="preserve">
+    <value>Skip setup</value>
+  </data>
+  <data name="InitialNetworkPopupConnectButton.Content" xml:space="preserve">
+    <value>Կապ</value>
+  </data>
+  <data name="InitialSetup_DeviceSelection.Text" xml:space="preserve">
+    <value>Սարքի ընտրություն</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionDescription.Text" xml:space="preserve">
+    <value>Տեղադրեք ձեր նախնական աուդիո սարքը</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneMicrophone.Text" xml:space="preserve">
+    <value>Ընտրեք միկրոֆոնը</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneSpeaker.Text" xml:space="preserve">
+    <value>Ընտրել խոսնակին</value>
+  </data>
+  <data name="InitialSetup_FinishSetup.Content" xml:space="preserve">
+    <value>Ավարտեք setup-ը</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection_Description.Text" xml:space="preserve">
+    <value>Տեղադրեք ձեր նախնական թարգմանական լեզուն</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection.Text" xml:space="preserve">
+    <value>Լեզվի ընտրություն</value>
+  </data>
+  <data name="InitialSetup_NetworkSelection.Text" xml:space="preserve">
+    <value>Նախընտրելի ցանց</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopup.Text" xml:space="preserve">
+    <value>Միացրեք ցանցին</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopupPassword.Text" xml:space="preserve">
+    <value>Մուտքագրեք գաղտնաբառը.</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionDescription.Text" xml:space="preserve">
+    <value>Ընտրե՛ք առկա ցանցերից մեկից</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionNoInternetConnection.Text" xml:space="preserve">
+    <value>Դուք համացանցի հետ կապ չունեք: Խնդրում ենք ստուգել ձեր ցանցային կապերը:</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionOtherNetworks.Text" xml:space="preserve">
+    <value>Այլ ցանցեր</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup_Description.Text" xml:space="preserve">
+    <value>Տեղադրեք ձեր հավելվածի passcode-ը</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup.Text" xml:space="preserve">
+    <value>Passcode Setup</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Լեզու</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage_Description.Text" xml:space="preserve">
+    <value>Ընտրեք դիմումների լեզուն</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage.Text" xml:space="preserve">
+    <value>App լեզուն</value>
+  </data>
+  <data name="LanguagesPage_AppLanguageDropdown.PlaceholderText" xml:space="preserve">
+    <value>Ընտրի՛ք լեզուն</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage_Description.Text" xml:space="preserve">
+    <value>Այն նախնական լեզուն, որով դուք օգտվում եք</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage.Text" xml:space="preserve">
+    <value>Իմ նախնական լեզուն</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguageDropDown.PlaceholderText" xml:space="preserve">
+    <value>Ընտրի՛ք լեզուն</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description.Text" xml:space="preserve">
+    <value>Պատմության բաժին (բազմաչափ սարքերի թարգմանությունների համար)</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description1.Text" xml:space="preserve">
+    <value>* single device թարգմանությունները նվագում են բոլոր աուդիոն, որպես նախնական *</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage.Text" xml:space="preserve">
+    <value>Default Playback լեզուն</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguages.Text" xml:space="preserve">
+    <value>Արագ դիտել լեզուները</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguagesDropdown.PlaceholderText" xml:space="preserve">
+    <value>Ավելացնել լեզու</value>
+  </data>
+  <data name="LanguagesPage_Title.Text" xml:space="preserve">
+    <value>Լեզուներ</value>
+  </data>
+  <data name="Licence" xml:space="preserve">
+    <value>Լիցե</value>
+  </data>
+  <data name="LicenseType.Text" xml:space="preserve">
+    <value>Լիցենզիայի տեսակը.</value>
+  </data>
+  <data name="NetworkConnectionError" xml:space="preserve">
+    <value>Սխալ.</value>
+  </data>
+  <data name="Next.Content" xml:space="preserve">
+    <value>Հաջորդը</value>
+  </data>
+  <data name="PasscodeError_MinimumLength" xml:space="preserve">
+    <value>Passcode-ի նվազագույն երկարությունը պետք է լինի 4.</value>
+  </data>
+  <data name="PasscodeError_NotMatching" xml:space="preserve">
+    <value>Մուտք գործած անցորդները չեն համապատասխանում իրար։ Բարեսրտորեն նորից մուտք գործեք անցորդները, ապա կրկին փորձեք:</value>
+  </data>
+  <data name="Person.Text" xml:space="preserve">
+    <value>Անձ</value>
+  </data>
+  <data name="PrivacyPolicy.Text" xml:space="preserve">
+    <value>Գաղտնիության քաղաքականություն</value>
+  </data>
+  <data name="ProfilePage_Email_Description.Text" xml:space="preserve">
+    <value>Նախնական արտահանման էլ.փոստ</value>
+  </data>
+  <data name="ProfilePage_Email.Text" xml:space="preserve">
+    <value>Էլ. փոստ</value>
+  </data>
+  <data name="ProfilePage_Passcode_Description.Text" xml:space="preserve">
+    <value>Ձեր դիմումի passcode</value>
+  </data>
+  <data name="ProfilePage_Passcode.Text" xml:space="preserve">
+    <value>Պասքոդ</value>
+  </data>
+  <data name="ProfilePage_Timeout_Description.Text" xml:space="preserve">
+    <value>Հաճախություն admin mode lock</value>
+  </data>
+  <data name="ProfilePage_Timeout.Text" xml:space="preserve">
+    <value>Admin mode timeout</value>
+  </data>
+  <data name="ProfilePage_TimeoutDropdown.PlaceholderText" xml:space="preserve">
+    <value>Ժամանակ ընտրի՛ր</value>
+  </data>
+  <data name="ProfilePage_Title.Text" xml:space="preserve">
+    <value>Պրոֆիլ</value>
+  </data>
+  <data name="PublishedBy.Text" xml:space="preserve">
+    <value>Հրապարակված է՝</value>
+  </data>
+  <data name="ReleaseNotesMessage.Text" xml:space="preserve">
+    <value>Ազատման նոտաները շուտով կթարմացվեն</value>
+  </data>
+  <data name="Save_Text" xml:space="preserve">
+    <value>Խնայել</value>
+  </data>
+  <data name="SessionDetailsPage_Description.Text" xml:space="preserve">
+    <value>Տրանսցեպցիայի պատմություն</value>
+  </data>
+  <data name="SessionDetailsPage_Duration.Text" xml:space="preserve">
+    <value>Տեւողությունը</value>
+  </data>
+  <data name="SessionDetailsPage_SessionID.Text" xml:space="preserve">
+    <value>Նիստի ID</value>
+  </data>
+  <data name="SessionDetailsPage_Title.Text" xml:space="preserve">
+    <value>Պատմություն</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Պարամետրեր</value>
+  </data>
+  <data name="TermsOfUse.Text" xml:space="preserve">
+    <value>Օգտագործման պայմաններ</value>
+  </data>
+  <data name="TranslationPage_SettingUpState" xml:space="preserve">
+    <value>Ամրագրել ...</value>
+  </data>
+  <data name="TranslationPage_SpeakFast" xml:space="preserve">
+    <value>Փորձեք մի քիչ ավելի արագ խոսել թարգմանության ավելի լավ արդյունքների համար:</value>
+  </data>
+  <data name="TranslationPage_SpeakIn" xml:space="preserve">
+    <value>Խոսիր</value>
+  </data>
+  <data name="TranslationPage_SpeakSlow" xml:space="preserve">
+    <value>Փորձիր մի քիչ դանդաղ խոսել թարգմանության ավելի լավ արդյունքների համար։</value>
+  </data>
+  <data name="TranslationPage_Switching" xml:space="preserve">
+    <value>Սվիչինգ</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonOne" xml:space="preserve">
+    <value>Անցնել անձի 1</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonTwo" xml:space="preserve">
+    <value>Անցնել անձի 2</value>
+  </data>
+  <data name="TranslationPage_TranslationReadyState" xml:space="preserve">
+    <value>Խոսեք հիմա</value>
+  </data>
+  <data name="Website.Text" xml:space="preserve">
+    <value>Վեբ կայք</value>
+  </data>
+  <data name="WhatsNew" xml:space="preserve">
+    <value>Ինչ է նորը</value>
+  </data>
+  <data name="WhatsNewInSpeechly.Text" xml:space="preserve">
+    <value>Ինչ նոր է</value>
+  </data>
+  <data name="AudioDevicesSelectorDualDevice.Content" xml:space="preserve">
+    <value>Երկակի սարք</value>
+  </data>
+  <data name="AudioDevicesSelectorSingleDevice.Content" xml:space="preserve">
+    <value>Միակ սարք</value>
+  </data>
+  <data name="AutoDetectSearchCountry.PlaceholderText" xml:space="preserve">
+    <value>Որոնողական երկիր</value>
+  </data>
+  <data name="AutoDetectSelectLanguage.Text" xml:space="preserve">
+    <value>Ընտրեք ձեր լեզուն</value>
+  </data>
+  <data name="ChatViewPersonOne" xml:space="preserve">
+    <value>Անձ մեկ</value>
+  </data>
+  <data name="ChatViewPersonTwo" xml:space="preserve">
+    <value>Անձ երկ</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionLost" xml:space="preserve">
+    <value>Համացանցային կապը կորել է: Բարիությամբ ստուգեք ձեզ կապը, ապա փորձեք կրկին:</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionUnstable" xml:space="preserve">
+    <value>Ձեր համացանցային կապը դանդաղ է: Գուցե որոշ հետաձգումներ զգաս ։</value>
+  </data>
+  <data name="CustomTagSelectionTitle.Text" xml:space="preserve">
+    <value>Կազմակերպության Tags (ընտրել ավելացնել)</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.Header" xml:space="preserve">
+    <value>Օգտագործողի դրոշը լեզուն փոխելու համար</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OffContent" xml:space="preserve">
+    <value>Հաշմանդամ</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OnContent" xml:space="preserve">
+    <value>Հնարավորություն</value>
+  </data>
+  <data name="DetectLanguageButton.Content" xml:space="preserve">
+    <value>Բացահայտեք լեզուն</value>
+  </data>
+  <data name="DevicesPageNetworkSetupBluetoothStatus.Text" xml:space="preserve">
+    <value>Bluetooth կարգավիճակ .</value>
+  </data>
+  <data name="DevicesPageNetworkSetupConnectAutomatically.Text" xml:space="preserve">
+    <value>Միացրեք ավտոմատ կերպով</value>
+  </data>
+  <data name="DevicesPageNetworkSetupWiFiStatus.Text" xml:space="preserve">
+    <value>WiFi կարգավիճակ .</value>
+  </data>
+  <data name="Dimiss.Content" xml:space="preserve">
+    <value>Չեղարկել</value>
+  </data>
+  <data name="Duration.Text" xml:space="preserve">
+    <value>|  Տեւողությունը</value>
+  </data>
+  <data name="EmailPopup_Description.Text" xml:space="preserve">
+    <value>Մուտքագրեք ձեր էլփոստի հասցեն</value>
+  </data>
+  <data name="EmailPopup_Title.Text" xml:space="preserve">
+    <value>Էլեկտրոնային փոստով ուղարկեք ձեր նիստը</value>
+  </data>
+  <data name="ForcedUpdateDialogCaption" xml:space="preserve">
+    <value>Մենք ունենք քննադատական թարմացումներ</value>
+  </data>
+  <data name="ForcedUpdateDialogInstallBtnText" xml:space="preserve">
+    <value>Թարմացում</value>
+  </data>
+  <data name="ForcedUpdateDialogTitle" xml:space="preserve">
+    <value>Կրիտիկական թարմացումներ</value>
+  </data>
+  <data name="GoBack.Content" xml:space="preserve">
+    <value>Հետ գնա</value>
+  </data>
+  <data name="HelpPageSignOut.Content" xml:space="preserve">
+    <value>Նշեք դուրս</value>
+  </data>
+  <data name="History_Export.Text" xml:space="preserve">
+    <value>Գեներացնող ֆայլ...</value>
+  </data>
+  <data name="HistoryListColumnSessionName.Text" xml:space="preserve">
+    <value>Անուն</value>
+  </data>
+  <data name="HistoryListColumnSynced.Text" xml:space="preserve">
+    <value>Սինկեդ</value>
+  </data>
+  <data name="HistorySearchBox.PlaceholderText" xml:space="preserve">
+    <value>Լեզու, նիստի անվանումը, թեգերը կամ ԻԴ-ները</value>
+  </data>
+  <data name="HistorySearchButtonTooltip.Text" xml:space="preserve">
+    <value>Որոնում</value>
+  </data>
+  <data name="HistorySearchClearButtonTooltip.Text" xml:space="preserve">
+    <value>Քլիր</value>
+  </data>
+  <data name="HistorySearchFromDate.Header" xml:space="preserve">
+    <value>From:</value>
+  </data>
+  <data name="HistorySearchToDate.Header" xml:space="preserve">
+    <value>To:</value>
+  </data>
+  <data name="HistoryShareButtonTooltip.Text" xml:space="preserve">
+    <value>Կիսվեք/ուղարկեք</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonOne.Text" xml:space="preserve">
+    <value>Անձ 1</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonTwo.Text" xml:space="preserve">
+    <value>Անձ 2</value>
+  </data>
+  <data name="LoginPageTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NewVersionDialogCaption" xml:space="preserve">
+    <value>Տեղադրել նոր հավելվածային տարբերակի</value>
+  </data>
+  <data name="NewVersionDialogDescription" xml:space="preserve">
+    <value>Նոր առանձնահատկություններից եւ խայթոցների ֆիքսումից կկորցնեն </value>
+  </data>
+  <data name="NewVersionDialogInstallBtnText" xml:space="preserve">
+    <value>Նոր տարբերակի տեղադրում</value>
+  </data>
+  <data name="NewVersionDialogTitle" xml:space="preserve">
+    <value>App-ի նոր տարբերակը</value>
+  </data>
+  <data name="NextText" xml:space="preserve">
+    <value>Հաջորդը</value>
+  </data>
+  <data name="ProfilePageEditButton.Content" xml:space="preserve">
+    <value>Խմբագրել</value>
+  </data>
+  <data name="QuestionsButton.Content" xml:space="preserve">
+    <value>Տե՛ս հարցեր</value>
+  </data>
+  <data name="QuestionSettingsDescription.Text" xml:space="preserve">
+    <value>Դիտել կամ փոփոխել Ձեր հարցման կարճ կետերը</value>
+  </data>
+  <data name="QuestionSettingsInstructionOne.Text" xml:space="preserve">
+    <value>* Յուրաքանչյուր հարցի համար օգտագործեք 1-9 թվերը: Զրո (0) չի դիտարկվի:</value>
+  </data>
+  <data name="QuestionSettingsInstructionThree.Text" xml:space="preserve">
+    <value>* Դուք կարող եք միայն կարճ ժամկետներում նշանակել 9 հարց:</value>
+  </data>
+  <data name="QuestionSettingsListTitle.Text" xml:space="preserve">
+    <value>Հարցերի ցանկ .</value>
+  </data>
+  <data name="ResellerEmailAddress.Text" xml:space="preserve">
+    <value>Reseller էլփոստի հասցեն .</value>
+  </data>
+  <data name="ResellerName.Text" xml:space="preserve">
+    <value>Ռեսելլեր անուն :</value>
+  </data>
+  <data name="SelectFlag.Text" xml:space="preserve">
+    <value>Ընտրեք ձեր դրոշը.</value>
+  </data>
+  <data name="Send.Content" xml:space="preserve">
+    <value>Ուղարկել</value>
+  </data>
+  <data name="SessionDetailsPage_SessionName.Text" xml:space="preserve">
+    <value>Նիստի անվանումը</value>
+  </data>
+  <data name="SessionID.Text" xml:space="preserve">
+    <value>Նիստի ID : - -</value>
+  </data>
+  <data name="SessionMetadataDialog_ContinueButton.Text" xml:space="preserve">
+    <value>Շարունակել</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTags.Text" xml:space="preserve">
+    <value>Custom Tag(ներ)</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Տեգի անունը մտեք այստեղ</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextboxHelper.Text" xml:space="preserve">
+    <value>Սեղմեք Enter</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTags.Text" xml:space="preserve">
+    <value>Դեֆոլտ Tag(ներ)</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Մուտքագրեք արժեքը այստեղ</value>
+  </data>
+  <data name="SessionMetadataDialog_Description.Text" xml:space="preserve">
+    <value>Պարտադիր դաշտերը նշված են '</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionName.Text" xml:space="preserve">
+    <value>Նիստի անվանումը</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionNameTextbox.PlaceholderText" xml:space="preserve">
+    <value>e.g հիվանդը զրո</value>
+  </data>
+  <data name="SessionMetadataDialog_Title.Text" xml:space="preserve">
+    <value>Ավելացնել նիստի անվանումը եւ տեգերը</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorActionMessage" xml:space="preserve">
+    <value>Ձեր հաշիվը ակտիվացնելու համար խնդրում ենք կապվել Ձեր ադմինիստրատորի հետ:</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorMessage" xml:space="preserve">
+    <value>Ձեր հաշիվն անջատվել է:</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorActionMessage" xml:space="preserve">
+    <value>Ձեր հաշիվը ստեղծելու համար խնդրում ենք կապվել Ձեր ադմինիստրատորի հետ:</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorMessage" xml:space="preserve">
+    <value>Ձեր հաշիվը ջնջվել է:</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorActionMessage" xml:space="preserve">
+    <value>Խնդրում ենք կապ հաստատել Ձեր ադմինիստրատորի հետ՝ Ձեր հաշիվը հնարավորություն տալու համար:</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorMessage" xml:space="preserve">
+    <value>Ձեր հաշիվը հաշմանդամ է դարձել:</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorActionMessage" xml:space="preserve">
+    <value>Ձեր հաշիվը ստեղծելու համար խնդրում ենք կապվել Ձեր ադմինիստրատորի հետ:</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorMessage" xml:space="preserve">
+    <value>Դուք չունեք ակտիվային հաշիվ:</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorActionMessage" xml:space="preserve">
+    <value>Խնդրում ենք կապ հաստատել Ձեր ադմինիստրատորի հետ՝ ձեր արտոնագիրը նորացնելու համար:</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorMessage" xml:space="preserve">
+    <value>Ձեր արտոնագրի ժամկետը լրացել է:</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorActionMessage" xml:space="preserve">
+    <value>Խնդրում ենք կապ հաստատել Ձեր ադմինիստրատորի հետ՝ ձեր արտոնագիրն ակտիվացնելու համար:</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorMessage" xml:space="preserve">
+    <value>Ձեր արտոնագիրն անջատվել է:</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorActionMessage" xml:space="preserve">
+    <value>Խնդրում ենք կապ հաստատել Ձեր ադմինիստրատորի հետ:</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorMessage" xml:space="preserve">
+    <value>Ձեր արտոնագիրը դադարեցվել է:</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorActionMessage" xml:space="preserve">
+    <value>Խնդրում ենք կապ հաստատել Ձեր ադմինիստրատորի հետ, որպեսզի ձեզ համար արտոնագիր նշանակվի:</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorMessage" xml:space="preserve">
+    <value>Դուք չունեք ձեզ տրված արտոնագիր:</value>
+  </data>
+  <data name="StartupPage2020.Text" xml:space="preserve">
+    <value>2021 </value>
+  </data>
+  <data name="StartupPageErrorDescription.Text" xml:space="preserve">
+    <value>Սխալ է տեղի ունեցել. Խնդրում ենք ստուգել Ձեր ինտերնետ կապը այնուհետեւ կրկին փորձեք:</value>
+  </data>
+  <data name="StartupPagePoweredBy.Text" xml:space="preserve">
+    <value>Սնուցվում է </value>
+  </data>
+  <data name="StartupPageProgressDescription.Text" xml:space="preserve">
+    <value>Սա կարող է տեւել մի քանի վայրկյան</value>
+  </data>
+  <data name="StartupPageRetryButton.Content" xml:space="preserve">
+    <value>Ռետրի</value>
+  </data>
+  <data name="StartupPageRightsReserved.Text" xml:space="preserve">
+    <value>Բոլոր իրավունքները պաշտպանված են:</value>
+  </data>
+  <data name="StartUpPageSettingUpMessage" xml:space="preserve">
+    <value>Ամրագրել...</value>
+  </data>
+  <data name="StartupPageTitleDescription.Text" xml:space="preserve">
+    <value>Բարի գալուստ </value>
+  </data>
+  <data name="TranslateText" xml:space="preserve">
+    <value>Թարգմանիր</value>
+  </data>
+  <data name="TranslationLicenceUseError" xml:space="preserve">
+    <value>Ձեր արտոնագիրը ներկայումս օգտագործվում է մեկ այլ նիստում:</value>
+  </data>
+  <data name="TranslationLimitReachedError" xml:space="preserve">
+    <value>Դուք հասել եք ձեր առավելագույն ժամկետին մեկ նիստի ընթացքում: Ավարտվող նիստ:</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOff" xml:space="preserve">
+    <value>Միկրոֆոն Off</value>
+  </data>
+  <data name="TranslationPage_SpeakerOff" xml:space="preserve">
+    <value>Խոսնակ Off</value>
+  </data>
+  <data name="TranslationTimeDepletedError" xml:space="preserve">
+    <value>Ձեր թարգմանական րոպեները սպառվել են։ Սիրով կապ հաստատեք ձեր ադմինիստրատորի հետ:</value>
+  </data>
+  <data name="UnsupportedVersionDialogBtntext" xml:space="preserve">
+    <value>Թարմացում</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption" xml:space="preserve">
+    <value>Կրիտիկական թարմացումները անհրաժեշտ են </value>
+  </data>
+  <data name="UnsupportedVersionDialogDescription" xml:space="preserve">
+    <value>Թարմացրեք ձեր հավելվածը, որպեսզի շարունակեք ստանալ առանձնահատկություններ եւ անվտանգության թարմացումներ:</value>
+  </data>
+  <data name="UnsupportedVersionDialogTitle" xml:space="preserve">
+    <value>Չապահովված App տարբերակ</value>
+  </data>
+  <data name="UpdateDialogWhatsNew.Text" xml:space="preserve">
+    <value>Ի՞նչ է նորը...</value>
+  </data>
+  <data name="Zoom.Text" xml:space="preserve">
+    <value>Զովք</value>
+  </data>
+  <data name="Add.Content" xml:space="preserve">
+    <value>Ավելացնել</value>
+  </data>
+  <data name="AddNewQuestion.Text" xml:space="preserve">
+    <value>Ավելացնել նախապես որոշված նոր հարց</value>
+  </data>
+  <data name="AddQuestion.Content" xml:space="preserve">
+    <value>Ավելացնել հարցումը</value>
+  </data>
+  <data name="ChooseLanguage.Text" xml:space="preserve">
+    <value>Ընտրեք նախնական լեզուն</value>
+  </data>
+  <data name="CustomProfileAdded" xml:space="preserve">
+    <value>Պրոֆիլային անունը ավելացվել է հաջողությամբ:</value>
+  </data>
+  <data name="CustomProfileDeleted" xml:space="preserve">
+    <value>Պրոֆիլը ջնջվել է հաջողությամբ:</value>
+  </data>
+  <data name="CustomProfileInvalidName" xml:space="preserve">
+    <value>Սխալ! Invalid profile անուն:</value>
+  </data>
+  <data name="CustomProfileNotDeleted" xml:space="preserve">
+    <value>Ջնջելու ոչ մի պրոֆիլ:</value>
+  </data>
+  <data name="CustomProfileNotSaved" xml:space="preserve">
+    <value>Սխալ! Ոչ մի անձնական տվյալներ չեն պահպանվել։</value>
+  </data>
+  <data name="CustomProfileProfileSaved" xml:space="preserve">
+    <value>Պրոֆիլը հաջողությամբ փրկեց:</value>
+  </data>
+  <data name="DataRequestMessage" xml:space="preserve">
+    <value>Դուք ոչ մի տեքստ չեք ընտրել: Խնդրում ենք ընտրել տեքստը կիսվելու եւ կրկին փորձելու համար:</value>
+  </data>
+  <data name="DevicesAddProfileButton.Content" xml:space="preserve">
+    <value>Ավելացնել</value>
+  </data>
+  <data name="DevicesAvailableProfiles.Text" xml:space="preserve">
+    <value>Առկա պրոֆիլներ</value>
+  </data>
+  <data name="DevicesDefaultProfile.Text" xml:space="preserve">
+    <value>Նախնական պրոֆիլ.</value>
+  </data>
+  <data name="DevicesDeleteProfileBtn.Content" xml:space="preserve">
+    <value>Ջնջել պրոֆիլը</value>
+  </data>
+  <data name="DeviceSetupChanged" xml:space="preserve">
+    <value>Միացված աուդիո սարքերը թարմացվում են </value>
+  </data>
+  <data name="DevicesHelpfulTip1.Text" xml:space="preserve">
+    <value>1. Սահմանել պրոֆիլային անվանումը</value>
+  </data>
+  <data name="DevicesHelpfulTip2.Text" xml:space="preserve">
+    <value>2. Ընտրեք մեկ կամ կրկնակի սարքավորման ռեժիմները</value>
+  </data>
+  <data name="DevicesHelpfulTip3.Text" xml:space="preserve">
+    <value>3. Ընտրել խոսնակ(ներ) եւ խոսափող(ներ)</value>
+  </data>
+  <data name="DevicesHelpfulTip4.Text" xml:space="preserve">
+    <value>4. Ձեր պրոֆիլը սահմանել որպես դեֆոլտի</value>
+  </data>
+  <data name="DevicesHelpfulTip5.Text" xml:space="preserve">
+    <value>5. Սեղմեք Save Profile կոճակը ձեր պրոֆիլը փրկելու համար</value>
+  </data>
+  <data name="DevicesHelpfulTips.Text" xml:space="preserve">
+    <value>Օգտակար խորհուրդներ</value>
+  </data>
+  <data name="DevicesProfileNameTextBox.PlaceholderText" xml:space="preserve">
+    <value>Պրոֆիլի անվանումը...</value>
+  </data>
+  <data name="DevicesSaveProfileBtn.Content" xml:space="preserve">
+    <value>Պահպանել պրոֆիլը</value>
+  </data>
+  <data name="DevicesSetasDefault.Text" xml:space="preserve">
+    <value>Սահմանել որպես նախապատվություն</value>
+  </data>
+  <data name="DevicesSetProfileButton.Content" xml:space="preserve">
+    <value>Սահմանել պրոֆիլը</value>
+  </data>
+  <data name="DevicesSetProfileText.Text" xml:space="preserve">
+    <value>Սահմանե՞լ է արդյոք սովորական պրոֆիլը:</value>
+  </data>
+  <data name="DiscardButton.Content" xml:space="preserve">
+    <value>Դիսքարդ</value>
+  </data>
+  <data name="DismissButton.Content" xml:space="preserve">
+    <value>Հեռացում</value>
+  </data>
+  <data name="DismissText.Text" xml:space="preserve">
+    <value>Հեռացում</value>
+  </data>
+  <data name="DownloadAudio.Text" xml:space="preserve">
+    <value>Ներբեռնել Audio</value>
+  </data>
+  <data name="DownloadCancel" xml:space="preserve">
+    <value>Ներբեռնումը կասեցված է</value>
+  </data>
+  <data name="Downloaded" xml:space="preserve">
+    <value>Ներբեռնել</value>
+  </data>
+  <data name="DownloadError" xml:space="preserve">
+    <value>Սխալ է կատարվել</value>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>Ներբեռնել</value>
+  </data>
+  <data name="DownloadPaused" xml:space="preserve">
+    <value>Ներբեռնել Paused</value>
+  </data>
+  <data name="DualDeviceUpdated" xml:space="preserve">
+    <value>Dual Device setup-ը հաջողությամբ թարմացվել է</value>
+  </data>
+  <data name="EnterQuestion.Text" xml:space="preserve">
+    <value>Ստորեւ հարց գրեք</value>
+  </data>
+  <data name="ErrorDescription.Text" xml:space="preserve">
+    <value>Ձեր փոփոխությունները չեն խնայվել, ցանկանո՞ւմ եք դրանք փրկել, թե՞ դեն նետել:</value>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>Ինչ-որ բան սխալվեց. Կրկին փորձիր</value>
+  </data>
+  <data name="ErrorTitle.Text" xml:space="preserve">
+    <value>Դուք չունեք չփոխված փոփոխություններ</value>
+  </data>
+  <data name="FeedbackEight.Text" xml:space="preserve">
+    <value>Մենք անընդհատ ընդհատում էինք իրար</value>
+  </data>
+  <data name="FeedbackFive.Text" xml:space="preserve">
+    <value>Կանչի մեջ արձագանք լսեցի</value>
+  </data>
+  <data name="FeedbackFour.Text" xml:space="preserve">
+    <value>Այն վերցրեց ֆոնային ձայները,</value>
+  </data>
+  <data name="FeedbackOne.Text" xml:space="preserve">
+    <value>Ճիշտ չընթաց ձայնս,</value>
+  </data>
+  <data name="FeedbackQuestion.Text" xml:space="preserve">
+    <value>Ի՞նչը կարող էր ավելի լավը լինել:</value>
+  </data>
+  <data name="FeedbackSeven.Text" xml:space="preserve">
+    <value>Նիստը անսպասելի ավարտվեց</value>
+  </data>
+  <data name="FeedbackSix.Text" xml:space="preserve">
+    <value>Ծավալը չափազանց ցածր էր</value>
+  </data>
+  <data name="FeedbackThanks.Text" xml:space="preserve">
+    <value>Շնորհակալություն արձագանքի համար</value>
+  </data>
+  <data name="FeedbackThree.Text" xml:space="preserve">
+    <value>Թարգմանության ժամանակը շատ դանդաղ էր</value>
+  </data>
+  <data name="FeedbackTwo.Text" xml:space="preserve">
+    <value>Այն մշուշեց իմ նախադասությունները,</value>
+  </data>
+  <data name="ForcedUpdateDialogCaptionContinuation" xml:space="preserve">
+    <value>ֆունկցիային: Դիմումը չի աշխատի առանց այս թարմացումների:</value>
+  </data>
+  <data name="Improvement.Text" xml:space="preserve">
+    <value>Մենք կշարունակենք աշխատել Ձեր փորձի բարելավման վրա:</value>
+  </data>
+  <data name="LanguageSettingsUpdated" xml:space="preserve">
+    <value>Լեզվի փոփոխությունները թարմացվում են succesfully</value>
+  </data>
+  <data name="NewVersionDialogDescription2" xml:space="preserve">
+    <value>եւ ձեր տարբերակի</value>
+  </data>
+  <data name="NewVersionDialogDescription3" xml:space="preserve">
+    <value>կարող է դառնալ չապահովված:</value>
+  </data>
+  <data name="Other.Text" xml:space="preserve">
+    <value>Այլ մեկնաբանություններ.</value>
+  </data>
+  <data name="PasswordUpdated" xml:space="preserve">
+    <value>Գաղտնաբառը փոփոխվել է Succesfully</value>
+  </data>
+  <data name="PlaybackLanguageUpdated" xml:space="preserve">
+    <value>Նախնական նվագարկման լեզուն փոխվել է Succesfully</value>
+  </data>
+  <data name="QuestionAdded" xml:space="preserve">
+    <value>Հարցումը հաջողությամբ ավելացվել է</value>
+  </data>
+  <data name="QuestionDeleted" xml:space="preserve">
+    <value>Հարցը հաջողությամբ ջնջվեց</value>
+  </data>
+  <data name="Questions.Text" xml:space="preserve">
+    <value>Հարցեր</value>
+  </data>
+  <data name="QuestionSettingsInstructionTwo.Text" xml:space="preserve">
+    <value>* Յուրաքանչյուր հարց պետք է ունենա մեկ այլ կարճ բանալի:</value>
+  </data>
+  <data name="QuestionsValidationError.Text" xml:space="preserve">
+    <value>* Ստուգեք ձեր հիմնավորումները եւ կրկին փորձեք:</value>
+  </data>
+  <data name="QuickViewLanguagesUpdated" xml:space="preserve">
+    <value>Արագ դիտել languges թարմացված Succesfully</value>
+  </data>
+  <data name="SendFeedback.Content" xml:space="preserve">
+    <value>Ուղարկել Feedback</value>
+  </data>
+  <data name="SessionFeedbackPrompt" xml:space="preserve">
+    <value>Ինչպե՞ս կգնահատեք ձեր թարգմանչական նիստը։</value>
+  </data>
+  <data name="SessionFeedbackTitle" xml:space="preserve">
+    <value>Թարգմանչական հետադարձ կապ</value>
+  </data>
+  <data name="ShortcutSuccess" xml:space="preserve">
+    <value>Հարցերի կարճացումները հաջողությամբ թարմացվում են</value>
+  </data>
+  <data name="SingleDeviceUpdated" xml:space="preserve">
+    <value>Single Device setup-ը հաջողությամբ թարմացվել է</value>
+  </data>
+  <data name="StartupPageTitleDescription2.Text" xml:space="preserve">
+    <value>թարգմանական ծրագրային ապահովում:</value>
+  </data>
+  <data name="TimeoutUpdated" xml:space="preserve">
+    <value>Timeout թարմացված Succesfully</value>
+  </data>
+  <data name="TouchShareText" xml:space="preserve">
+    <value>Touch կիսել</value>
+  </data>
+  <data name="TranslationLanguageUpdated" xml:space="preserve">
+    <value>Նախնական թարգմանչական լեզուն փոխվել է</value>
+  </data>
+  <data name="TranslationPlaybackUpdated" xml:space="preserve">
+    <value>Նախնական թարգմանությունը &amp; playback լեզուն փոխվել է succesfully</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption2" xml:space="preserve">
+    <value>ֆունկցիային: Առանձնահատկությունները կարող են դադարել աշխատել առանց ծանուցման։ Խնդրում ենք թարմացնել դիմումը:</value>
+  </data>
+  <data name="UserFlagSwitch" xml:space="preserve">
+    <value>Օգտագործողի դրոշը՝ լեզուն թարմացնելու համար</value>
+  </data>
+</root>

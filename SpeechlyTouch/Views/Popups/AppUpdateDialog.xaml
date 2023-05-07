@@ -1,0 +1,152 @@
+﻿<ContentDialog
+    x:Class="SpeechlyTouch.Views.Popups.AppUpdateDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:SpeechlyTouch.Views.Popups"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    DataContext="{Binding AppUpdateViewModel, Source={StaticResource ViewModelLocator}}"
+    Loaded="ContentDialog_Loaded"
+    mc:Ignorable="d">
+
+    <Grid
+        Width="500"
+        Height="auto"
+        Margin="0"
+        Padding="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" HorizontalAlignment="Center">
+            <TextBlock
+                Margin="8,0"
+                FontSize="20"
+                FontWeight="Normal"
+                HorizontalTextAlignment="Center"
+                Style="{StaticResource TextBlockStyle}"
+                Text="{Binding DialogTitle}" />
+            <Border
+                Height="1"
+                Margin="0,10,0,0"
+                BorderBrush="LightGray"
+                BorderThickness="5" />
+        </StackPanel>
+        <ScrollViewer Grid.Row="1" Height="350">
+            <StackPanel>
+                <Image
+                    Height="45"
+                    Margin="0,30,0,5"
+                    HorizontalAlignment="Center"
+                    Source="/Assets/VersionLogo.png" />
+                <StackPanel
+                    Width="480"
+                    Padding="0"
+                    Spacing="10">
+                    <TextBlock
+                        Margin="0,15,0,0"
+                        FontSize="18"
+                        FontWeight="SemiLight"
+                        HorizontalTextAlignment="Center"
+                        Style="{StaticResource TextBlockStyle}"
+                        Text="{Binding DialogCaption}"
+                        TextWrapping="Wrap" />
+                    <TextBlock
+                        Margin="0,10,0,0"
+                        FontSize="17"
+                        FontWeight="SemiLight"
+                        HorizontalTextAlignment="Center"
+                        Style="{StaticResource TextBlockStyle}"
+                        Text="{Binding DialogDescription}"
+                        TextWrapping="Wrap" />
+                </StackPanel>
+                <StackPanel
+                    Margin="20,10,0,0"
+                    HorizontalAlignment="Center"
+                    Visibility="{Binding IsVisibleReleaseNotes}">
+                    <TextBlock
+                        x:Uid="UpdateDialogWhatsNew"
+                        Margin="0,20,0,0"
+                        FontSize="14"
+                        FontWeight="Normal"
+                        HorizontalTextAlignment="Center"
+                        Style="{StaticResource TextBlockStyle}"
+                        TextDecorations="Underline"
+                        TextWrapping="Wrap" />
+                    <TextBlock
+                        Margin="0,10,0,10"
+                        FontSize="14"
+                        FontWeight="SemiBold"
+                        HorizontalTextAlignment="Center"
+                        Style="{StaticResource TextBlockStyle}"
+                        Text="{Binding ReleaseDate}"
+                        TextWrapping="Wrap" />
+                    <ListView
+                        Margin="0,5,0,10"
+                        HorizontalAlignment="Center"
+                        HorizontalContentAlignment="Center"
+                        ItemsSource="{Binding ReleaseNotes}"
+                        SelectionMode="None">
+                        <ListView.ItemContainerStyle>
+                            <Style TargetType="ListViewItem">
+                                <Setter Property="MinHeight" Value="20" />
+                                <Setter Property="HorizontalContentAlignment" Value="Center" />
+                            </Style>
+                        </ListView.ItemContainerStyle>
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock
+                                    HorizontalAlignment="Center"
+                                    FontSize="17"
+                                    FontWeight="SemiLight"
+                                    HorizontalTextAlignment="Center"
+                                    Style="{StaticResource TextBlockStyle}"
+                                    Text="{Binding}"
+                                    TextWrapping="Wrap" />
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+
+        <StackPanel
+            Grid.Row="2"
+            Margin="0,20,0,50"
+            HorizontalAlignment="Center"
+            Orientation="Horizontal"
+            Spacing="0">
+            <Button
+                Margin="0,0,80,0"
+                Padding="15,2,15,3"
+                Background="White"
+                Command="{Binding DismissCommand}"
+                Content="Dismiss"
+                CornerRadius="1"
+                FontSize="15"
+                FontWeight="Normal"
+                PointerEntered="Button_PointerEntered"
+                PointerExited="Button_PointerExited"
+                Style="{StaticResource ButtonStyle}"
+                Visibility="{Binding DismissBtnVisibility}" />
+            <Button
+                Margin="0"
+                Padding="15,2,15,3"
+                VerticalContentAlignment="Center"
+                Background="{StaticResource AccentColor}"
+                BorderBrush="{StaticResource AccentColor}"
+                Command="{Binding InstallCommand}"
+                Content="{Binding InstallButtonText}"
+                CornerRadius="1"
+                FontSize="15"
+                FontWeight="Medium"
+                Foreground="White"
+                PointerEntered="Button_PointerEntered"
+                PointerExited="Button_PointerExited"
+                Style="{StaticResource ButtonStyle}" />
+        </StackPanel>
+
+    </Grid>
+</ContentDialog>

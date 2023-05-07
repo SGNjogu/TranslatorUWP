@@ -1,0 +1,38 @@
+﻿<Page
+    x:Class="SpeechlyTouch.Views.Pages.HistoryPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:Core="using:Microsoft.Xaml.Interactions.Core"
+    xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:dataprimitives="using:Microsoft.Toolkit.Uwp.UI.Controls.Primitives"
+    xmlns:interactivity="using:Microsoft.Xaml.Interactivity"
+    xmlns:local="using:SpeechlyTouch.Views.Pages"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:sessionHistory="using:SpeechlyTouch.Views.ContentControls.SessionHistory"
+    xmlns:viewmodels="using:SpeechlyTouch.ViewModels"
+    xmlns:x1="using:System"
+    Background="{Binding PrimaryBackgroundColor, Source={StaticResource DynamicColors}}"
+    DataContext="{Binding HistoryViewModel, Source={StaticResource ViewModelLocator}}"
+    Loaded="Page_Loaded"
+    NavigationCacheMode="Enabled"
+    mc:Ignorable="d">
+
+    <Grid Background="{Binding PrimaryBackgroundColor, Source={StaticResource DynamicColors}}">
+
+        <!--  Sections List Section  -->
+
+        <Frame
+            x:Name="contentFrame"
+            Background="{Binding PrimaryBackgroundColor, Source={StaticResource DynamicColors}}"
+            Visibility="{Binding IsVisibleHistorySection}" />
+        <TextBlock
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Foreground="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}"
+            Style="{StaticResource TextBlockStyle}"
+            Text="This section has been disabled by your organization."
+            Visibility="{Binding IsVisibleHistoryNotEnabledMessage}" />
+
+    </Grid>
+</Page>

@@ -1,0 +1,1619 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppDisplayName" xml:space="preserve">
+    <value>TalaTouchApp</value>
+    <comment>Application display name</comment>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>TalaTouchApp</value>
+    <comment>Application description</comment>
+  </data>
+  <data name="Main_Title.Text" xml:space="preserve">
+    <value>Main</value>
+    <comment>Page title for MainPage</comment>
+  </data>
+  <data name="Settings_Theme.Text" xml:space="preserve">
+    <value>Choose Theme</value>
+    <comment>Choose theme text for Settings</comment>
+  </data>
+  <data name="Settings_Theme_Dark.Content" xml:space="preserve">
+    <value>Dark</value>
+    <comment>Dark theme text for Settings</comment>
+  </data>
+  <data name="Settings_Theme_Default.Content" xml:space="preserve">
+    <value>Windows default</value>
+    <comment>Windows default theme text for Settings</comment>
+  </data>
+  <data name="Settings_Theme_Light.Content" xml:space="preserve">
+    <value>Light</value>
+    <comment>Light theme text for Settings</comment>
+  </data>
+  <data name="Settings_About.Text" xml:space="preserve">
+    <value>About this application</value>
+    <comment>About this application title for Settings</comment>
+  </data>
+  <data name="Settings_AboutDescription.Text" xml:space="preserve">
+    <value>Settings page placeholder text.  Your app description goes here.</value>
+    <comment>About this application description for Settings</comment>
+  </data>
+  <data name="Settings_PrivacyTermsLink.Content" xml:space="preserve">
+    <value>Privacy Statement</value>
+    <comment>Privacy Statement link content for Settings</comment>
+  </data>
+  <data name="Settings_PrivacyTermsLink.NavigateUri" xml:space="preserve">
+    <value>https://YourPrivacyUrlGoesHere/</value>
+    <comment>Here is your Privacy Statement url for Settings</comment>
+  </data>
+  <data name="Settings_Personalization.Text" xml:space="preserve">
+    <value>Personalization</value>
+    <comment>Personalization text for Settings</comment>
+  </data>
+  <data name="Settings_Title.Text" xml:space="preserve">
+    <value>Settings</value>
+    <comment>Page title for SettingsPage</comment>
+  </data>
+  <data name="SchemeActivationSamplePage_Title.Text" xml:space="preserve">
+    <value>SchemeActivationSample</value>
+    <comment>Page Title for URI Scheme Example</comment>
+  </data>
+  <data name="SchemeActivationSamplePage_Description.Text" xml:space="preserve">
+    <value>This is a sample page that will show activation parameters if the app is activated from Deep Linking.</value>
+    <comment>Description text for SchemeActivationSamplePage</comment>
+  </data>
+  <data name="Dashboard_Choose_Language.Text" xml:space="preserve">
+    <value>Choose Language</value>
+    <comment>Dashboard Choose Language Text</comment>
+  </data>
+  <data name="Dashboard_Hello.Text" xml:space="preserve">
+    <value>Hello</value>
+    <comment>Dashboard Hello Text</comment>
+  </data>
+  <data name="Translate_Button.Text" xml:space="preserve">
+    <value>Translate</value>
+    <comment>Translate Button Text</comment>
+  </data>
+  <data name="Dashboard_Welcome.Text" xml:space="preserve">
+    <value>Welcome</value>
+    <comment>Dashboard Welcom Text</comment>
+  </data>
+  <data name="Dashboard_SearchBox.PlaceholderText" xml:space="preserve">
+    <value>Search Language</value>
+    <comment>Dashboard searchbox placeholder text</comment>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>Cancel</value>
+    <comment>Cancel Text on Buttons</comment>
+  </data>
+  <data name="Close.Content" xml:space="preserve">
+    <value>Close</value>
+    <comment>Close Text on Buttons</comment>
+  </data>
+  <data name="InvalidLicenseDialog_Description.Text" xml:space="preserve">
+    <value>Your licence verification failed</value>
+    <comment>Invalid License Description</comment>
+  </data>
+  <data name="InvalidLicenseDialog_Title.Text" xml:space="preserve">
+    <value>Invalid Licence</value>
+    <comment>Invalid License Title</comment>
+  </data>
+  <data name="LoginFailedDialog_Button.Content" xml:space="preserve">
+    <value>Go Back</value>
+    <comment>Failed Login Dialog Button Content</comment>
+  </data>
+  <data name="LoginFailedDialog_Description.Text" xml:space="preserve">
+    <value>Your login attempt failed.</value>
+    <comment>Login Failed Dialog Description</comment>
+  </data>
+  <data name="LoginFailedDialog_Title.Text" xml:space="preserve">
+    <value>Failed Login</value>
+    <comment>Failed Login title text</comment>
+  </data>
+  <data name="PasswordPopup_SetupTitle.Text" xml:space="preserve">
+    <value>Setup a Passcode</value>
+    <comment>First Password Popup Title (Before setting up a Passcode)</comment>
+  </data>
+  <data name="Save.Content" xml:space="preserve">
+    <value>Save</value>
+    <comment>Save Text on Buttons</comment>
+  </data>
+  <data name="SignInDialog_Description.Text" xml:space="preserve">
+    <value>Instantly communicate in multiple global languages with your Jabra device.</value>
+    <comment>Sign In Popup Description</comment>
+  </data>
+  <data name="SignInDialog_SignInButton.Content" xml:space="preserve">
+    <value>Sign In</value>
+    <comment>Sign In button text</comment>
+  </data>
+  <data name="Sign_In.Text" xml:space="preserve">
+    <value>Sign In</value>
+    <comment>Sign In Text</comment>
+  </data>
+  <data name="AudioDeviceSelector_MicDropdown.PlaceholderText" xml:space="preserve">
+    <value>Select a microphone</value>
+    <comment>AudioDeviceSelector Mic Dropdown PlaceholderText</comment>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneMic.Text" xml:space="preserve">
+    <value>Person One Microphone</value>
+    <comment>AudioDeviceSelector Person One Mic Text</comment>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneSpeaker.Text" xml:space="preserve">
+    <value>Person One Speaker</value>
+    <comment>AudioDeviceSelector Person One Speaker Text</comment>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoMic.Text" xml:space="preserve">
+    <value>Person Two Microphone</value>
+    <comment>AudioDeviceSelector Person Two Mic Text</comment>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoSpeaker.Text" xml:space="preserve">
+    <value>Person Two Speaker</value>
+    <comment>AudioDeviceSelector Person Two Speaker Text</comment>
+  </data>
+  <data name="AudioDeviceSelector_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>Select a speaker</value>
+    <comment>AudioDeviceSelector Speaker Dropdown PlaceholderText</comment>
+  </data>
+  <data name="BluetoothPairingDialog_Description.Text" xml:space="preserve">
+    <value>Make sure your device is turned on and discoverable. Select a device below to connect.</value>
+    <comment>BluetoothPairingDialog Description Text</comment>
+  </data>
+  <data name="BluetoothPairingDialog_Title.Text" xml:space="preserve">
+    <value>Add a device</value>
+    <comment>BluetoothPairingDialog Title Text</comment>
+  </data>
+  <data name="ChangePasscodeDialog_Confirm.Text" xml:space="preserve">
+    <value>Confirm New Passcode</value>
+    <comment>ChangePasscodeDialog Confirm Passcode Text</comment>
+  </data>
+  <data name="ChangePasscodeDialog_Current.Text" xml:space="preserve">
+    <value>Current Passcode</value>
+    <comment>ChangePasscodeDialog Current Passcode Text</comment>
+  </data>
+  <data name="ChangePasscodeDialog_New.Text" xml:space="preserve">
+    <value>New Passcode</value>
+    <comment>ChangePasscodeDialog New Passcode Text</comment>
+  </data>
+  <data name="ChangePasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Change Passcode</value>
+    <comment>ChangePascode Dialog Title</comment>
+  </data>
+  <data name="ConsentDialog_Description1.Text" xml:space="preserve">
+    <value>Privacy concerns is our number one priority. (5) You accept the terms and conditions of this Privacy Policy with your mobile phone or tablet, as applicable.</value>
+    <comment>Consent Dialog Description</comment>
+  </data>
+  <data name="ConsentDialog_Description2.Text" xml:space="preserve">
+    <value>If you choose not to allow us access when we receive a request for consent (such requests will be notified on www ICTS website at :</value>
+    <comment>Consent Dialog Description</comment>
+  </data>
+  <data name="ConsentDialog_Description3.Text" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int</value>
+    <comment>Consent Dialog Description</comment>
+  </data>
+  <data name="ConsentDialog_Description4.Text" xml:space="preserve">
+    <value>), then neither the email address provided nor any other personal information that could identify an individual can also come into our possession once such permission has been granted.</value>
+    <comment>Consent Dialog Description</comment>
+  </data>
+  <data name="ConsentDialog_Description5.Text" xml:space="preserve">
+    <value>By using certain parts: /The use by me of my Mobile Phone/Icons - which may include allowing others in chat rooms about products like</value>
+    <comment>Consent Dialog Description</comment>
+  </data>
+  <data name="ConsentDialog_HyperLink.NavigateUri" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int/</value>
+    <comment>Consent Dialog Hyperlink</comment>
+  </data>
+  <data name="ConsentDialog_Title.Text" xml:space="preserve">
+    <value>We Value Your Privacy</value>
+    <comment>Consent Dialog Title</comment>
+  </data>
+  <data name="DevicesErrorDialog_NoDeviceError" xml:space="preserve">
+    <value>You have no saved device(s). Go to Settings -&gt; Devices to select a Microphone and a Speaker then click on Save.</value>
+    <comment>No Devices Selected/Saved Error</comment>
+  </data>
+  <data name="EnterPasscodeDialog_Description.Text" xml:space="preserve">
+    <value>Please enter your passcode to access the settings page</value>
+    <comment>EnterPasscodeDialog Description</comment>
+  </data>
+  <data name="EnterPasscodeDialog_ForgotPasscode.Content" xml:space="preserve">
+    <value>Forgot Passcode?</value>
+    <comment>EnterPasscodeDialog Forgot Passcode Text</comment>
+  </data>
+  <data name="EnterPasscodeDialog_InvalidPasscode.Text" xml:space="preserve">
+    <value>Invalid Passcode! Please try again.</value>
+    <comment>EnterPasscodeDialog Invalid Passcode Error Text</comment>
+  </data>
+  <data name="EnterPasscodeDialog_Passcode.Text" xml:space="preserve">
+    <value>Passcode</value>
+    <comment>EnterPasscodeDialog Passocde Text</comment>
+  </data>
+  <data name="EnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Enter your passcode</value>
+    <comment>EnterPasscodeDialog Title Text</comment>
+  </data>
+  <data name="IAgree.Content" xml:space="preserve">
+    <value>I Agree</value>
+    <comment>I Agree Text on Buttons</comment>
+  </data>
+  <data name="ReEnterPasscodeDialog_Description1.Text" xml:space="preserve">
+    <value>Please re-enter your passcode to keep editing...</value>
+    <comment>ReEnter Passcode Dialog Description</comment>
+  </data>
+  <data name="ReEnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Re-enter your passcode</value>
+    <comment>ReEnter Passcode Dialog Title</comment>
+  </data>
+  <data name="RenterPasscodeDialog_Description2.Text" xml:space="preserve">
+    <value>auto saving and going back home</value>
+    <comment>ReEnter Passcode Dialog Description</comment>
+  </data>
+  <data name="SetPasscodeDialog_ConfirmPasscode.Text" xml:space="preserve">
+    <value>Confirm New Passcode </value>
+    <comment>Set Passcode Dialog Confirm Passcode </comment>
+  </data>
+  <data name="SetPasscodeDialog_NewPasscode.Text" xml:space="preserve">
+    <value>New Passcode</value>
+    <comment>Set Passcode Dialog New Password Text</comment>
+  </data>
+  <data name="SetPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Setup a Passcode</value>
+    <comment>Set Passcode Dialog Titile</comment>
+  </data>
+  <data name="SettingsPage_Devices" xml:space="preserve">
+    <value>Devices</value>
+    <comment>SettingsPage Devices Text</comment>
+  </data>
+  <data name="SettingsPage_Language" xml:space="preserve">
+    <value>Language</value>
+    <comment>SettingsPage Language Text</comment>
+  </data>
+  <data name="SettingsPage_Profile" xml:space="preserve">
+    <value>Profile</value>
+    <comment>SettingsPage Profile Text</comment>
+  </data>
+  <data name="SettingsPage_Questions" xml:space="preserve">
+    <value>Questions</value>
+    <comment>SettingsPage Questions Text</comment>
+  </data>
+  <data name="SettingsPage_Title" xml:space="preserve">
+    <value>Settings</value>
+    <comment>SettingsPage Title Text</comment>
+  </data>
+  <data name="ShellView_Help" xml:space="preserve">
+    <value>Help</value>
+    <comment>ShellView Help Text</comment>
+  </data>
+  <data name="ShellView_History" xml:space="preserve">
+    <value>History</value>
+    <comment>ShellView History Text</comment>
+  </data>
+  <data name="ShellView_Home" xml:space="preserve">
+    <value>Home</value>
+    <comment>ShellView Home Text</comment>
+  </data>
+  <data name="ShellView_Settings.Text" xml:space="preserve">
+    <value>Settings</value>
+    <comment>ShellView Settings Text</comment>
+  </data>
+  <data name="TranslationPage_EndSession.Text" xml:space="preserve">
+    <value>End the session</value>
+    <comment>TransltionPage End Session Text</comment>
+  </data>
+  <data name="TranslationPage_SpeakerOn" xml:space="preserve">
+    <value>Speaker On</value>
+    <comment>TranslationPage Speaker On Text</comment>
+  </data>
+  <data name="TranslationPage_MicrophoneOn" xml:space="preserve">
+    <value>Microphone On</value>
+    <comment>TranslationPage Microphone On Text</comment>
+  </data>
+  <data name="TranslationPage_SpeakNow.Text" xml:space="preserve">
+    <value>Speak Now</value>
+    <comment>TranslationPage SpeakNow Text</comment>
+  </data>
+  <data name="DevicesPager_PersonTwo_Speaker.Text" xml:space="preserve">
+    <value>Person two speaker</value>
+    <comment>Devices Page Person Two Speaker</comment>
+  </data>
+  <data name="DevicesPage_Bluetooth.Text" xml:space="preserve">
+    <value>Bluetooth</value>
+    <comment>Devices Page Bluetooth Text</comment>
+  </data>
+  <data name="DevicesPage_Bluetooth_Description.Text" xml:space="preserve">
+    <value>Available bluetooth devices</value>
+    <comment>Devices Page Bluetooth Description</comment>
+  </data>
+  <data name="DevicesPage_Bluetooth_DropDown.PlaceholderText" xml:space="preserve">
+    <value>Select bluetooth device</value>
+    <comment>Devices Page Bluetooth Dropdown PlaceholderText</comment>
+  </data>
+  <data name="DevicesPage_Bluetooth_Scan.Text" xml:space="preserve">
+    <value>Scan</value>
+    <comment>Devices Page Scan</comment>
+  </data>
+  <data name="DevicesPage_ConnectedDevices.Text" xml:space="preserve">
+    <value>Connected Audio Devices</value>
+    <comment>DevicesPage Connected Audio Devices Text</comment>
+  </data>
+  <data name="DevicesPage_ConnectedDevices_Description.Text" xml:space="preserve">
+    <value>Choose your  audio device</value>
+    <comment>DevicesPage Connected Devices Description</comment>
+  </data>
+  <data name="DevicesPage_MicDropDown.PlaceholderText" xml:space="preserve">
+    <value>Pick a microphone</value>
+    <comment>Devices Page Mic Dropdown Placeholder</comment>
+  </data>
+  <data name="DevicesPage_Network.Text" xml:space="preserve">
+    <value>Network</value>
+    <comment>Devices Page Network </comment>
+  </data>
+  <data name="DevicesPage_NetworkError" xml:space="preserve">
+    <value>No network selected. Check your network connections.</value>
+    <comment>DevicesPage NetworkError</comment>
+  </data>
+  <data name="DevicesPage_Network_Description.Text" xml:space="preserve">
+    <value>Available networks</value>
+    <comment>Devices Page Network Description</comment>
+  </data>
+  <data name="DevicesPage_Network_DropDown.PlaceholderText" xml:space="preserve">
+    <value>Choose a network</value>
+    <comment>Devices Page Network Dropdown Placeholder </comment>
+  </data>
+  <data name="DevicesPage_PersonOneMic.Text" xml:space="preserve">
+    <value>Person one microphone</value>
+    <comment>Devices Page Person One Microphone</comment>
+  </data>
+  <data name="DevicesPage_PersonOne_Speaker.Text" xml:space="preserve">
+    <value>Person one speaker</value>
+    <comment>Devices Page Person One Speaker</comment>
+  </data>
+  <data name="DevicesPage_PersonTwo_Mic.Text" xml:space="preserve">
+    <value>Person two microphone</value>
+    <comment>Devices Page Person Two Microphone</comment>
+  </data>
+  <data name="DevicesPage_Scan" xml:space="preserve">
+    <value>Scan</value>
+    <comment>Devices Page Scan</comment>
+  </data>
+  <data name="DevicesPage_Scanning" xml:space="preserve">
+    <value>Scanning ...</value>
+    <comment>Devices Page Scanning</comment>
+  </data>
+  <data name="DevicesPage_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>Pick a speaker</value>
+    <comment>Devices Page Speaker Dropdown Placeholder</comment>
+  </data>
+  <data name="DevicesPage_Status_Connect" xml:space="preserve">
+    <value>Connect</value>
+    <comment>DevicesPage Status Connect</comment>
+  </data>
+  <data name="DevicesPage_Status_Connected" xml:space="preserve">
+    <value>Connected</value>
+    <comment>DevicesPage Status Connected</comment>
+  </data>
+  <data name="DevicesPage_Status_Connecting" xml:space="preserve">
+    <value>Connecting ...</value>
+    <comment>DevicesPage Status Connecting</comment>
+  </data>
+  <data name="DevicesPage_Status_Off" xml:space="preserve">
+    <value>OFF</value>
+    <comment>Devices Page Off Status</comment>
+  </data>
+  <data name="DevicesPage_Status_On" xml:space="preserve">
+    <value>ON</value>
+    <comment>Devices Page On Status</comment>
+  </data>
+  <data name="DevicesPage_Title.Text" xml:space="preserve">
+    <value>Devices</value>
+    <comment>DevicesPage Title Text</comment>
+  </data>
+  <data name="DevicesPage_WifiStatus.Text" xml:space="preserve">
+    <value>Wifi status</value>
+    <comment>Devices Page Wifi Status</comment>
+  </data>
+  <data name="DevicesPage_Wifi_Password.Text" xml:space="preserve">
+    <value>Enter Password</value>
+    <comment>DevicesPage Wifi Password Text</comment>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
+    <comment>Edit Text on Buttons</comment>
+  </data>
+  <data name="LanguagesPage_AppLanguage.Text" xml:space="preserve">
+    <value>App Language</value>
+    <comment>LanguagesPage App Language Text</comment>
+  </data>
+  <data name="LanguagesPage_AppLanguageDropdown.PlaceholderText" xml:space="preserve">
+    <value>Pick a language</value>
+    <comment>LanguagesPage App Language Dropdown PlaceholderText</comment>
+  </data>
+  <data name="LanguagesPage_AppLanguage_Description.Text" xml:space="preserve">
+    <value>Choose Application Language</value>
+    <comment>LanguagesPage App Language Description</comment>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage.Text" xml:space="preserve">
+    <value>My default language</value>
+    <comment>LanguagesPage Default Language Text</comment>
+  </data>
+  <data name="LanguagesPage_DefaultLanguageDropDown.PlaceholderText" xml:space="preserve">
+    <value>Pick a language</value>
+    <comment>LanguagesPage Default Language Dropdown PlaceholderText</comment>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage_Description.Text" xml:space="preserve">
+    <value>The default language you are using</value>
+    <comment>LanguagesPage Default Language Description</comment>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguages.Text" xml:space="preserve">
+    <value>Quick view Languages</value>
+    <comment>LanguagesPage Quick View Languages Text</comment>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguagesDropdown.PlaceholderText" xml:space="preserve">
+    <value>Add a language</value>
+    <comment>LanguagesPage Quick View Languages Dropdown Placeholder Text</comment>
+  </data>
+  <data name="LanguagesPage_Title.Text" xml:space="preserve">
+    <value>Languages</value>
+    <comment>LanguagesPage Title Text</comment>
+  </data>
+  <data name="ProfilePage_Email.Text" xml:space="preserve">
+    <value>Email</value>
+    <comment>ProfilePage Email Text</comment>
+  </data>
+  <data name="ProfilePage_Email_Description.Text" xml:space="preserve">
+    <value>Default export email</value>
+    <comment>ProfilePage Email Description</comment>
+  </data>
+  <data name="ProfilePage_Passcode.Text" xml:space="preserve">
+    <value>Passcode</value>
+    <comment>ProfilePage Passcode Text</comment>
+  </data>
+  <data name="ProfilePage_Passcode_Description.Text" xml:space="preserve">
+    <value>Your application passcode</value>
+    <comment>ProfilePage Passcode Description Text</comment>
+  </data>
+  <data name="ProfilePage_Timeout.Text" xml:space="preserve">
+    <value>Admin mode timeout</value>
+    <comment>ProfilePage Timeout Text</comment>
+  </data>
+  <data name="ProfilePage_TimeoutDropdown.PlaceholderText" xml:space="preserve">
+    <value>Pick a time</value>
+    <comment>ProfilePage Timeout Dropdown Placeholder Text</comment>
+  </data>
+  <data name="ProfilePage_Timeout_Description.Text" xml:space="preserve">
+    <value>Frequency of admin mode lock</value>
+    <comment>ProfilePage Timeout Description</comment>
+  </data>
+  <data name="ProfilePage_Title.Text" xml:space="preserve">
+    <value>Profile</value>
+    <comment>ProfilePage Title Text</comment>
+  </data>
+  <data name="Save_Text" xml:space="preserve">
+    <value>Save</value>
+    <comment>Save Text (from code behind)</comment>
+  </data>
+  <data name="DashboardPage_DefaultLanguageError" xml:space="preserve">
+    <value>You have no saved Default Translation Language. Go to Settings -&gt; Languages to select a Default Translation Language then click on Save.</value>
+  </data>
+  <data name="DashboardPage_TargetLanguageError" xml:space="preserve">
+    <value>You have not selected a Target Translation Language. Kindly select a language then click on Translate.</value>
+    <comment>DashboardPage TargetLanguageError</comment>
+  </data>
+  <data name="SessionDetailsPage_Description.Text" xml:space="preserve">
+    <value>Transcription History</value>
+    <comment>Session Details Page Description</comment>
+  </data>
+  <data name="SessionDetailsPage_Duration.Text" xml:space="preserve">
+    <value>Duration</value>
+    <comment>Session Details Page Duration</comment>
+  </data>
+  <data name="SessionDetailsPage_SessionID.Text" xml:space="preserve">
+    <value>Session ID</value>
+    <comment>Session DetailsPage SessionID</comment>
+  </data>
+  <data name="SessionDetailsPage_Title.Text" xml:space="preserve">
+    <value>History</value>
+    <comment>Session Details Title</comment>
+  </data>
+  <data name="AudioPlayer_Error.Text" xml:space="preserve">
+    <value>Failed to load audio</value>
+    <comment>AudioPlayer Error Text</comment>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Language</value>
+    <comment>Language</comment>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage.Text" xml:space="preserve">
+    <value>Default Playback Language</value>
+    <comment>LanguagesPage Default Playback Language Title</comment>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description.Text" xml:space="preserve">
+    <value>History section (for multi-device translations)</value>
+    <comment>LanguagesPage Default Playback Language Description</comment>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description1.Text" xml:space="preserve">
+    <value>* single device translations play all audio as default *</value>
+    <comment>LanguagesPage Default Playback Language Description</comment>
+  </data>
+  <data name="AudioNotDetectedDialog_Button.Content" xml:space="preserve">
+    <value>Continue Session</value>
+    <comment>Audio Not Detected Dialog Button Text</comment>
+  </data>
+  <data name="AudioNotDetectedDialog_Description.Text" xml:space="preserve">
+    <value>The session will end in</value>
+    <comment>Audio Not Detected Dialog Description</comment>
+  </data>
+  <data name="AudioNotDetectedDialog_Title.Text" xml:space="preserve">
+    <value>Audio Not Detected</value>
+    <comment>Audio Not Detected Dialog Title</comment>
+  </data>
+  <data name="Person.Text" xml:space="preserve">
+    <value>Person</value>
+  </data>
+  <data name="TranslationPage_SpeakFast" xml:space="preserve">
+    <value>Try speaking a bit faster for better translation results.</value>
+    <comment>TranslationPage Speak Fast</comment>
+  </data>
+  <data name="TranslationPage_SpeakSlow" xml:space="preserve">
+    <value>Try speaking a bit slower for better translation results.</value>
+    <comment>TranslationPage Speak Slow Text</comment>
+  </data>
+  <data name="History_ExportBtn.Text" xml:space="preserve">
+    <value>Export</value>
+    <comment>History Page Export Button Text</comment>
+  </data>
+  <data name="TranslationPage_SettingUpState" xml:space="preserve">
+    <value>Setting up ...</value>
+    <comment>TranslationPage Setting Up State</comment>
+  </data>
+  <data name="TranslationPage_SpeakIn" xml:space="preserve">
+    <value>Speak in</value>
+    <comment>TranslationPage Speak In Text</comment>
+  </data>
+  <data name="TranslationPage_Switching" xml:space="preserve">
+    <value>Switching</value>
+    <comment>TranslationPage Switching Text</comment>
+  </data>
+  <data name="TranslationPage_SwitchToPersonOne" xml:space="preserve">
+    <value>Switch to person 1</value>
+    <comment>TranslationPage Switch To Person One Text</comment>
+  </data>
+  <data name="TranslationPage_SwitchToPersonTwo" xml:space="preserve">
+    <value>Switch to person 2</value>
+    <comment>TranslationPage Switch To Person One Text</comment>
+  </data>
+  <data name="TranslationPage_TranslationReadyState" xml:space="preserve">
+    <value>Speak now</value>
+    <comment>TranslationPage Translation Ready State</comment>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Help</value>
+    <comment>Help</comment>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>History</value>
+    <comment>History</comment>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>About</value>
+    <comment>About</comment>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Feedback</value>
+    <comment>Feedback</comment>
+  </data>
+  <data name="Licence" xml:space="preserve">
+    <value>Licence</value>
+    <comment>Licence</comment>
+  </data>
+  <data name="WhatsNew" xml:space="preserve">
+    <value>What's New</value>
+    <comment>What's New</comment>
+  </data>
+  <data name="InitalSetup_SkipSetup.Content" xml:space="preserve">
+    <value>Skip setup</value>
+    <comment>InitalSetup Skip Setup Content</comment>
+  </data>
+  <data name="InitialSetup_FinishSetup.Content" xml:space="preserve">
+    <value>Finish setup</value>
+    <comment>InitialSetup Finish Setup Button Content</comment>
+  </data>
+  <data name="InitialSetup_LanguageSelection.Text" xml:space="preserve">
+    <value>Language Selection</value>
+    <comment>InitialSetup Language Selection Text</comment>
+  </data>
+  <data name="InitialSetup_LanguageSelection_Description.Text" xml:space="preserve">
+    <value>Set up your default translation language</value>
+    <comment>InitialSetup Language Selection Description Text</comment>
+  </data>
+  <data name="InitialSetup_PasscodeSetup.Text" xml:space="preserve">
+    <value>Passcode Setup</value>
+    <comment>InitialSetup Passcode Setup Text</comment>
+  </data>
+  <data name="InitialSetup_PasscodeSetup_Description.Text" xml:space="preserve">
+    <value>Setup your app passcode</value>
+    <comment>InitialSetup PasscodeSetup Description Text</comment>
+  </data>
+  <data name="Next.Content" xml:space="preserve">
+    <value>Next</value>
+    <comment>Next Button Content</comment>
+  </data>
+  <data name="PasscodeError_MinimumLength" xml:space="preserve">
+    <value>Minimum length of passcode should be 4.</value>
+    <comment>Passcode Minimum Length Error</comment>
+  </data>
+  <data name="PasscodeError_NotMatching" xml:space="preserve">
+    <value>The passcodes entered do not match. Kindly re-enter the passcodes then try again.</value>
+    <comment>Passcodes Not Matching Error</comment>
+  </data>
+  <data name="InitialSetup_DeviceSelection.Text" xml:space="preserve">
+    <value>Device Selection</value>
+    <comment>Intial Device Setup Text</comment>
+  </data>
+  <data name="InitialSetup_DeviceSelectionDescription.Text" xml:space="preserve">
+    <value>Set up your default audio device</value>
+    <comment>Initial Device Setup Description Text</comment>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneMicrophone.Text" xml:space="preserve">
+    <value>Select Microphone</value>
+    <comment>Initial Device Setup Select Person One Microphone Text</comment>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneSpeaker.Text" xml:space="preserve">
+    <value>Select Speaker</value>
+    <comment>Initial Device Setup Select Person One SpeakerText</comment>
+  </data>
+  <data name="InitialSetup_NetworkSelection.Text" xml:space="preserve">
+    <value>Preferred network</value>
+    <comment>Initial NetworkSetup Text</comment>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopup.Text" xml:space="preserve">
+    <value>Connect to Network</value>
+    <comment>Initial Network Setup Connect Popup Text</comment>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopupPassword.Text" xml:space="preserve">
+    <value>Enter Password:</value>
+    <comment>Initial Network Setup Connect Popup Password Text</comment>
+  </data>
+  <data name="InitialSetup_NetworkSelectionDescription.Text" xml:space="preserve">
+    <value>Choose from one of the available networks</value>
+    <comment>Initial Network Setup Description Text</comment>
+  </data>
+  <data name="InitialSetup_NetworkSelectionNoInternetConnection.Text" xml:space="preserve">
+    <value>You are not connected to the internet. Please check your network connections.</value>
+    <comment>Initial Network Setup No Internet Connection Text</comment>
+  </data>
+  <data name="InitialSetup_NetworkSelectionOtherNetworks.Text" xml:space="preserve">
+    <value>Other Networks</value>
+    <comment>Initial Network Setup Other Networks Text</comment>
+  </data>
+  <data name="NetworkConnectionError" xml:space="preserve">
+    <value>Error:</value>
+    <comment>Network Connection Error</comment>
+  </data>
+  <data name="AppVersion.Text" xml:space="preserve">
+    <value>App version</value>
+    <comment>App Version Text</comment>
+  </data>
+  <data name="PublishedBy.Text" xml:space="preserve">
+    <value>Published by</value>
+    <comment>Published By Text</comment>
+  </data>
+  <data name="ReleaseNotesMessage.Text" xml:space="preserve">
+    <value>Release notes will be updated soon</value>
+    <comment>Release notes update message</comment>
+  </data>
+  <data name="WhatsNewInSpeechly.Text" xml:space="preserve">
+    <value>What's new in</value>
+    <comment>What's New In Tala Text</comment>
+  </data>
+  <data name="AboutPage_AppVersion.Text" xml:space="preserve">
+    <value>Application Version</value>
+    <comment>AboutPage Application Version</comment>
+  </data>
+  <data name="AboutPage_CheckUpdate.Content" xml:space="preserve">
+    <value>Check for updates</value>
+    <comment>AboutPage Check for Update Button Content</comment>
+  </data>
+  <data name="AboutPage_DataConsent" xml:space="preserve">
+    <value>Your organisation has given consent to save your data in the cloud.</value>
+    <comment>AboutPage Data Consent Status</comment>
+  </data>
+  <data name="AboutPage_NoDataConsent" xml:space="preserve">
+    <value>Your organisation has not given consent to save your data in the cloud.</value>
+    <comment>AboutPage Data Consent Status</comment>
+  </data>
+  <data name="AboutPage_Published.Text" xml:space="preserve">
+    <value>Published by FITTS Limited.</value>
+    <comment>AboutPage Published Text</comment>
+  </data>
+  <data name="PrivacyPolicy.Text" xml:space="preserve">
+    <value>Privacy Policy</value>
+    <comment>Privacy Policy</comment>
+  </data>
+  <data name="TermsOfUse.Text" xml:space="preserve">
+    <value>Terms of Use</value>
+    <comment>Terms of Use</comment>
+  </data>
+  <data name="Website.Text" xml:space="preserve">
+    <value>Website</value>
+    <comment>Website</comment>
+  </data>
+  <data name="Expiry.Text" xml:space="preserve">
+    <value>Expiry</value>
+    <comment>Expiry</comment>
+  </data>
+  <data name="FeedbackMessage.Text" xml:space="preserve">
+    <value>If you have any feedback or queries do not hesitate to get in touch.</value>
+    <comment>Feedback Message text</comment>
+  </data>
+  <data name="GetInTouchButton.Text" xml:space="preserve">
+    <value>Get in touch</value>
+    <comment>Get In Touch Button Text</comment>
+  </data>
+  <data name="InitialNetworkPopupConnectButton.Content" xml:space="preserve">
+    <value>Connect</value>
+    <comment>Initial Network Setup Connect Button Content</comment>
+  </data>
+  <data name="LicenseType.Text" xml:space="preserve">
+    <value>License Type:</value>
+    <comment>License Type Text</comment>
+  </data>
+  <data name="DevicesErrorDialog_DualDeviceError" xml:space="preserve">
+    <value>You've selected Dual Device translation but you do not have a device(s) selected for Person 2. Go to Settings -&gt; Devices to select a Microphone and a Speaker then click on Save.</value>
+    <comment>DevicesErrorDialog Dual Device Error</comment>
+  </data>
+  <data name="AppClose_Close.Content" xml:space="preserve">
+    <value>Close Anyway</value>
+    <comment>AppClose Close Content</comment>
+  </data>
+  <data name="AppClose_Dismiss.Content" xml:space="preserve">
+    <value>Cancel</value>
+    <comment>AppClose Dismiss Content</comment>
+  </data>
+  <data name="AppClose_Warning.Text" xml:space="preserve">
+    <value>You have a session in progress. Please end the session before exiting the application.</value>
+    <comment>AppClose Warning Text</comment>
+  </data>
+  <data name="HistoryExportButtonTooltip.Text" xml:space="preserve">
+    <value>Export</value>
+    <comment>History Export Button Tooltip Text</comment>
+  </data>
+  <data name="HistoryListColumnDate.Text" xml:space="preserve">
+    <value>Date</value>
+    <comment>History List Date Column Title</comment>
+  </data>
+  <data name="HistoryListColumnDuration.Text" xml:space="preserve">
+    <value>Duration</value>
+    <comment>History List Duration Column Title</comment>
+  </data>
+  <data name="HistoryListColumnPrimaryLanguage.Text" xml:space="preserve">
+    <value>Primary Language</value>
+    <comment>History List Primary Language Column Title</comment>
+  </data>
+  <data name="HistoryListColumnSecondaryLanguage.Text" xml:space="preserve">
+    <value>Secondary Language</value>
+    <comment>History List Secondary Language Column Title</comment>
+  </data>
+  <data name="HistoryListColumnSessionId.Text" xml:space="preserve">
+    <value>Session ID</value>
+    <comment>History List Session Id Column Title</comment>
+  </data>
+  <data name="HistoryListColumnSynced.Text" xml:space="preserve">
+    <value>Synced</value>
+    <comment>History List Synced Column Title</comment>
+  </data>
+  <data name="HistorySearchBox.PlaceholderText" xml:space="preserve">
+    <value>Language, session name, tags or IDs</value>
+    <comment>History Page Search Box Placeholder Text</comment>
+  </data>
+  <data name="HistorySearchButtonTooltip.Text" xml:space="preserve">
+    <value>Search</value>
+    <comment>History Search Button Tooltip Text</comment>
+  </data>
+  <data name="HistorySearchClearButtonTooltip.Text" xml:space="preserve">
+    <value>Clear</value>
+    <comment>History Search Clear Button Tooltip Text</comment>
+  </data>
+  <data name="HistorySearchFromDate.Header" xml:space="preserve">
+    <value>From:</value>
+    <comment>History Search From Date</comment>
+  </data>
+  <data name="HistorySearchToDate.Header" xml:space="preserve">
+    <value>To:</value>
+    <comment>History Search ToDate</comment>
+  </data>
+  <data name="HistoryShareButtonTooltip.Text" xml:space="preserve">
+    <value>Share/Send</value>
+    <comment>History Export Share Tooltip Text</comment>
+  </data>
+  <data name="History_Export.Text" xml:space="preserve">
+    <value>Generating file...</value>
+    <comment>History Export Text</comment>
+  </data>
+  <data name="ConenctivityStatus_ConnectionLost" xml:space="preserve">
+    <value>Internet connection lost. Kindly check you connection then try again.</value>
+    <comment>ConnectionLost Text</comment>
+  </data>
+  <data name="ConenctivityStatus_ConnectionUnstable" xml:space="preserve">
+    <value>Your internet connection is slow. You may experience some lag.</value>
+    <comment>ConnectionUnstable Text</comment>
+  </data>
+  <data name="SessionMetadataDialog_ContinueButton.Text" xml:space="preserve">
+    <value>Continue</value>
+    <comment>Session Metadata Dialog Continue Button Text</comment>
+  </data>
+  <data name="SessionMetadataDialog_CustomTags.Text" xml:space="preserve">
+    <value>Custom Tag(s)</value>
+    <comment>Session Metadata Dialog CustomTags Text</comment>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Enter tag name here</value>
+    <comment>Session Metadata Dialog Custom Tags Textbox Placeholder Text</comment>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTags.Text" xml:space="preserve">
+    <value>Default Tag(s)</value>
+    <comment>Session Metadata Dialog Default Tags Text</comment>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Enter value here</value>
+    <comment>Session Metadata Dialog Default Tags Textbox Placeholder Text</comment>
+  </data>
+  <data name="SessionMetadataDialog_Description.Text" xml:space="preserve">
+    <value>Mandatory fields are marked with '</value>
+    <comment>Session Metadata Dialog Description Text</comment>
+  </data>
+  <data name="SessionMetadataDialog_SessionName.Text" xml:space="preserve">
+    <value>Session Name</value>
+    <comment>Session Metadata Dialog Session Name Text</comment>
+  </data>
+  <data name="SessionMetadataDialog_SessionNameTextbox.PlaceholderText" xml:space="preserve">
+    <value>e.g patient zero</value>
+    <comment>Session Metadata Dialog Session Name Textbox Placeholder Text</comment>
+  </data>
+  <data name="SessionMetadataDialog_Title.Text" xml:space="preserve">
+    <value>Add a session name and tags</value>
+    <comment>Session Metadata Dialog Title</comment>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextboxHelper.Text" xml:space="preserve">
+    <value>Press Enter</value>
+    <comment>Session Metadata Dialog Custom Tags Textbox Helper Text</comment>
+  </data>
+  <data name="HistoryListColumnSessionName.Text" xml:space="preserve">
+    <value>Name</value>
+    <comment>History List Column Session Name Header Text</comment>
+  </data>
+  <data name="SessionDetailsPage_SessionName.Text" xml:space="preserve">
+    <value>Session Name</value>
+    <comment>Session Details Page Session Name Text</comment>
+  </data>
+  <data name="ResellerEmailAddress.Text" xml:space="preserve">
+    <value>Reseller Email Address :</value>
+    <comment>Help Section Reseller Email Address</comment>
+  </data>
+  <data name="ResellerName.Text" xml:space="preserve">
+    <value>Reseller Name :</value>
+    <comment>Help Section Reseller Name</comment>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorActionMessage" xml:space="preserve">
+    <value>Please contact your administrator to activate your account.</value>
+    <comment>Login Failed TalaAccountIsDeactivated Error Action Message</comment>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorMessage" xml:space="preserve">
+    <value>Your account has been deactivated.</value>
+    <comment>Login Failed TalaAccountIsDeactivated Error Message</comment>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorActionMessage" xml:space="preserve">
+    <value>Please contact your administrator to create your account.</value>
+    <comment>Login Failed TalaAccountIsDeleted Error Action Message</comment>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorMessage" xml:space="preserve">
+    <value>Your account has been deleted.</value>
+    <comment>Login Failed TalaAccountIsDeleted Error Message</comment>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorActionMessage" xml:space="preserve">
+    <value>Please contact your administrator to enable your account.</value>
+    <comment>Login Failed TalaAccountIsDisabled Error Action Message</comment>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorMessage" xml:space="preserve">
+    <value>Your account has been disabled.</value>
+    <comment>Login Failed TalaAccountIsDisabled Error Message</comment>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorActionMessage" xml:space="preserve">
+    <value>Please contact your administrator to create your account.</value>
+    <comment>Login Failed TalaAccountNotFound Error Action Message</comment>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorMessage" xml:space="preserve">
+    <value>You do not have an active Account.</value>
+    <comment>Login Failed TalaAccountNotFound Error Message</comment>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorActionMessage" xml:space="preserve">
+    <value>Please contact your administrator to renew your licence.</value>
+    <comment>Invalid License LicenseIsExpired Error Action Message</comment>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorMessage" xml:space="preserve">
+    <value>Your licence has expired.</value>
+    <comment>Invalid License LicenseIsExpired Error Message</comment>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorActionMessage" xml:space="preserve">
+    <value>Please contact your administrator to activate your licence.</value>
+    <comment>Invalid License LicenseIsInactive Error Action Message</comment>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorMessage" xml:space="preserve">
+    <value>Your licence has been deactivated.</value>
+    <comment>Invalid License LicenseIsInactive Error Message</comment>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorActionMessage" xml:space="preserve">
+    <value>Please contact your administrator.</value>
+    <comment>Invalid License LicenseIsSuspended Error Action Message</comment>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorMessage" xml:space="preserve">
+    <value>Your licence has been suspended.</value>
+    <comment>Invalid License LicenseIsSuspended Error Message</comment>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorActionMessage" xml:space="preserve">
+    <value>Please contact your administrator to assign a licence to you.</value>
+    <comment>Invalid License LicenseNotFound Error Action Message</comment>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorMessage" xml:space="preserve">
+    <value>You do not have a licence assigned to you.</value>
+    <comment>Invalid License LicenseNotFound Error Message</comment>
+  </data>
+  <data name="TranslationPage_SpeakerOff" xml:space="preserve">
+    <value>Speaker Off</value>
+    <comment>TranslationPage Speaker Off Text</comment>
+  </data>
+  <data name="TranslationPage_MicrophoneOff" xml:space="preserve">
+    <value>Microphone Off</value>
+    <comment>TranslationPage Microphone Off Text</comment>
+  </data>
+  <data name="ForcedUpdateDialogCaption" xml:space="preserve">
+    <value>We have critical updates for</value>
+    <comment>Forced Update Dialog Caption</comment>
+  </data>
+  <data name="ForcedUpdateDialogInstallBtnText" xml:space="preserve">
+    <value>Update</value>
+    <comment>Forced Update Dialog Install Button Text</comment>
+  </data>
+  <data name="ForcedUpdateDialogTitle" xml:space="preserve">
+    <value>Critical Updates</value>
+    <comment>Forced Update Dialog Title</comment>
+  </data>
+  <data name="NewVersionDialogCaption" xml:space="preserve">
+    <value>Install new app version of</value>
+    <comment>New Version Dialog Caption</comment>
+  </data>
+  <data name="NewVersionDialogDescription" xml:space="preserve">
+    <value>New features and bug fixes will be missing from </value>
+    <comment>New Version Dialog Description</comment>
+  </data>
+  <data name="NewVersionDialogInstallBtnText" xml:space="preserve">
+    <value>Install New Version</value>
+    <comment>New Version Dialog Install Button Text</comment>
+  </data>
+  <data name="NewVersionDialogTitle" xml:space="preserve">
+    <value>New App Version</value>
+    <comment>New Version Dialog Title</comment>
+  </data>
+  <data name="UnsupportedVersionDialogBtntext" xml:space="preserve">
+    <value>Update</value>
+    <comment>Unsupported Version Dialog Button Text</comment>
+  </data>
+  <data name="UnsupportedVersionDialogCaption" xml:space="preserve">
+    <value>Critical updates are required for </value>
+    <comment>Unsupported Version Dialog Caption</comment>
+  </data>
+  <data name="UnsupportedVersionDialogDescription" xml:space="preserve">
+    <value>Update your app to continue getting feature and security updates.</value>
+    <comment>Unsupported Version Dialog Description</comment>
+  </data>
+  <data name="UnsupportedVersionDialogTitle" xml:space="preserve">
+    <value>Unsupported App Version</value>
+    <comment>Unsupported Version Dialog Title</comment>
+  </data>
+  <data name="UpdateDialogWhatsNew.Text" xml:space="preserve">
+    <value>What's new?</value>
+    <comment>Update Dialogs What's New Text</comment>
+  </data>
+  <data name="CustomTagSelectionTitle.Text" xml:space="preserve">
+    <value>Organization Tags (select to add)</value>
+    <comment>Custom Tag Selection Title Text</comment>
+  </data>
+  <data name="AudioDevicesSelectorDualDevice.Content" xml:space="preserve">
+    <value>Dual Device</value>
+    <comment>Audio Devices Selector Dual Device Content</comment>
+  </data>
+  <data name="AudioDevicesSelectorSingleDevice.Content" xml:space="preserve">
+    <value>Single Device</value>
+    <comment>Audio Devices Selector Single Device Content</comment>
+  </data>
+  <data name="ChatViewPersonOne" xml:space="preserve">
+    <value>Person One</value>
+    <comment>Chat View Person One Bubble Header</comment>
+  </data>
+  <data name="ChatViewPersonTwo" xml:space="preserve">
+    <value>Person Two</value>
+    <comment>Chat View Person Two Bubble Header</comment>
+  </data>
+  <data name="DevicesPageNetworkSetupBluetoothStatus.Text" xml:space="preserve">
+    <value>Bluetooth status :</value>
+    <comment>Devices Page Network Setup Bluetooth Status Text</comment>
+  </data>
+  <data name="DevicesPageNetworkSetupConnectAutomatically.Text" xml:space="preserve">
+    <value>Connect Automatically</value>
+    <comment>Devices Page Network Setup Connect Automatically Text</comment>
+  </data>
+  <data name="DevicesPageNetworkSetupWiFiStatus.Text" xml:space="preserve">
+    <value>WiFi status :</value>
+    <comment>Devices Page Network Setup Wifi Status Text</comment>
+  </data>
+  <data name="HelpPageSignOut.Content" xml:space="preserve">
+    <value>Sign Out</value>
+    <comment>Help Page Sign Out Button Content</comment>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonOne.Text" xml:space="preserve">
+    <value>Person 1</value>
+    <comment>Device Selection Person One</comment>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonTwo.Text" xml:space="preserve">
+    <value>Person 2</value>
+    <comment>Device Selection Person Two</comment>
+  </data>
+  <data name="ProfilePageEditButton.Content" xml:space="preserve">
+    <value>Edit</value>
+    <comment>Profile Page Edit Button Content</comment>
+  </data>
+  <data name="LoginPageTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="StartupPage2020.Text" xml:space="preserve">
+    <value>2021 </value>
+    <comment>Startup Page 2020 Text</comment>
+  </data>
+  <data name="StartupPageErrorDescription.Text" xml:space="preserve">
+    <value>An error occurred. Please check your Internet Connection then try again.</value>
+    <comment>Startup Page Error Description Text</comment>
+  </data>
+  <data name="StartupPagePoweredBy.Text" xml:space="preserve">
+    <value>Powered by </value>
+    <comment>Startup Page Powered By Text</comment>
+  </data>
+  <data name="StartupPageProgressDescription.Text" xml:space="preserve">
+    <value>This might take a few seconds</value>
+    <comment>Startup Page Progress Description Text</comment>
+  </data>
+  <data name="StartupPageRetryButton.Content" xml:space="preserve">
+    <value>Retry</value>
+    <comment>Startup Page Retry Button Content</comment>
+  </data>
+  <data name="StartupPageRightsReserved.Text" xml:space="preserve">
+    <value>All rights reserved.</value>
+    <comment>Startup Page All Rights Reserved Text</comment>
+  </data>
+  <data name="StartUpPageSettingUpMessage" xml:space="preserve">
+    <value>Setting up...</value>
+    <comment>Startup Page Setting Up Message Text</comment>
+  </data>
+  <data name="StartupPageTitleDescription.Text" xml:space="preserve">
+    <value>Welcome to </value>
+    <comment>Startup Page Title Description Text</comment>
+  </data>
+  <data name="Dimiss.Content" xml:space="preserve">
+    <value>Cancel</value>
+    <comment>Dimiss Button Content</comment>
+  </data>
+  <data name="EmailPopup_Description.Text" xml:space="preserve">
+    <value>Enter your email address</value>
+    <comment>EmailPopup Description Text</comment>
+  </data>
+  <data name="EmailPopup_Title.Text" xml:space="preserve">
+    <value>Email your session</value>
+    <comment>EmailPopup Title Text</comment>
+  </data>
+  <data name="Send.Content" xml:space="preserve">
+    <value>Send</value>
+    <comment>Send Button Content</comment>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.Header" xml:space="preserve">
+    <value>User flag to switch language</value>
+    <comment>Default App Language Toggle Switch Header Text</comment>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OffContent" xml:space="preserve">
+    <value>Disabled</value>
+    <comment>Default App Language Toggle Switch OffContentText</comment>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OnContent" xml:space="preserve">
+    <value>Enabled</value>
+    <comment>Default App Language Toggle Switch OnContent Text</comment>
+  </data>
+  <data name="TranslationLicenceUseError" xml:space="preserve">
+    <value>Your licence is currently in use in another session.</value>
+    <comment>Translation Licence Concurrent Use Error Message</comment>
+  </data>
+  <data name="TranslationLimitReachedError" xml:space="preserve">
+    <value>You have reached your maximum time limit per session. Ending session.</value>
+    <comment>Translation Error Time Limit Reached Error Message</comment>
+  </data>
+  <data name="TranslationTimeDepletedError" xml:space="preserve">
+    <value>Your translation minutes have been depleted. Kindly contact your administrator.</value>
+    <comment>Translation Error Time Depleted Error Message</comment>
+  </data>
+  <data name="DetectLanguageButton.Content" xml:space="preserve">
+    <value>Detect Language</value>
+    <comment>Auto detect language button </comment>
+  </data>
+  <data name="AutoDetectSearchCountry.PlaceholderText" xml:space="preserve">
+    <value>Search country</value>
+    <comment>Auto detect search country placeholder</comment>
+  </data>
+  <data name="AutoDetectSelectLanguage.Text" xml:space="preserve">
+    <value>Select your language</value>
+    <comment>Auto detect select language</comment>
+  </data>
+  <data name="GoBack.Content" xml:space="preserve">
+    <value>Go Back</value>
+    <comment>Go back button text</comment>
+  </data>
+  <data name="NextText" xml:space="preserve">
+    <value>Next</value>
+    <comment>Auto detect dialog next button text</comment>
+  </data>
+  <data name="SelectFlag.Text" xml:space="preserve">
+    <value>Select your flag:</value>
+    <comment>Detect language select flag text</comment>
+  </data>
+  <data name="TranslateText" xml:space="preserve">
+    <value>Translate</value>
+    <comment>Auto detect dialog translate button text</comment>
+  </data>
+  <data name="Duration.Text" xml:space="preserve">
+    <value>|  Duration</value>
+    <comment>Duration text</comment>
+  </data>
+  <data name="QuestionsButton.Content" xml:space="preserve">
+    <value>See Questions</value>
+    <comment>Translation page questions button</comment>
+  </data>
+  <data name="SessionID.Text" xml:space="preserve">
+    <value>Session ID : -</value>
+    <comment>Session ID text</comment>
+  </data>
+  <data name="Zoom.Text" xml:space="preserve">
+    <value>Zoom</value>
+    <comment>Zoom text</comment>
+  </data>
+  <data name="QuestionSettingsDescription.Text" xml:space="preserve">
+    <value>View or modify your question shortcuts</value>
+    <comment>Settings Questions section description text</comment>
+  </data>
+  <data name="QuestionSettingsListTitle.Text" xml:space="preserve">
+    <value>Questions List :</value>
+    <comment>Settings Questions section list title text</comment>
+  </data>
+  <data name="QuestionSettingsInstructionOne.Text" xml:space="preserve">
+    <value>* Use numbers 1-9 for each question. Zero (0) will not be considered.</value>
+    <comment>Settings Questions First Instruction</comment>
+  </data>
+  <data name="QuestionSettingsInstructionThree.Text" xml:space="preserve">
+    <value>* You can only assign shortcuts to 9 questions.</value>
+    <comment>Settings Questions Third Instruction</comment>
+  </data>
+  <data name="QuestionSettingsInstructionTwo.Text" xml:space="preserve">
+    <value>* Each question must have a different shortcut key.</value>
+    <comment>Settings Questions Second Instruction</comment>
+  </data>
+  <data name="Questions.Text" xml:space="preserve">
+    <value>Questions</value>
+    <comment>Questions Text</comment>
+  </data>
+  <data name="QuestionsValidationError.Text" xml:space="preserve">
+    <value>* Check your validations and try again.</value>
+    <comment>Questions Validation Error Text</comment>
+  </data>
+  <data name="DataRequestMessage" xml:space="preserve">
+    <value>You have not selected any text. Please select text to share and try again.</value>
+    <comment>Data request error message</comment>
+  </data>
+  <data name="ForcedUpdateDialogCaptionContinuation" xml:space="preserve">
+    <value>to function.The application will not work without these updates.</value>
+    <comment>Forced Update Dialog Caption</comment>
+  </data>
+  <data name="NewVersionDialogDescription2" xml:space="preserve">
+    <value>and your version of</value>
+    <comment>New Version Dialog Description continuation</comment>
+  </data>
+  <data name="NewVersionDialogDescription3" xml:space="preserve">
+    <value>may become unsupported.</value>
+    <comment>New Version Dialog Description continuation</comment>
+  </data>
+  <data name="StartupPageTitleDescription2.Text" xml:space="preserve">
+    <value>translation software.</value>
+    <comment>Startup Page Title Description Text continuation</comment>
+  </data>
+  <data name="TouchShareText" xml:space="preserve">
+    <value>Touch Share</value>
+    <comment>Touch share text</comment>
+  </data>
+  <data name="UnsupportedVersionDialogCaption2" xml:space="preserve">
+    <value>to function. Features may stop working without notice. Please update the application.</value>
+    <comment>Unsupported Version Dialog Caption</comment>
+  </data>
+  <data name="DismissText.Text" xml:space="preserve">
+    <value>Dismiss</value>
+    <comment>Dismiss Text</comment>
+  </data>
+  <data name="FeedbackEight.Text" xml:space="preserve">
+    <value>We kept interrupting each other</value>
+    <comment>Feedback question</comment>
+  </data>
+  <data name="FeedbackFive.Text" xml:space="preserve">
+    <value>I heard echo in the call</value>
+    <comment>Feedback question</comment>
+  </data>
+  <data name="FeedbackFour.Text" xml:space="preserve">
+    <value>It picked up background voices</value>
+    <comment>Feedback question</comment>
+  </data>
+  <data name="FeedbackOne.Text" xml:space="preserve">
+    <value>It didn't pick up my voice correctly</value>
+    <comment>Feedback question</comment>
+  </data>
+  <data name="FeedbackQuestion.Text" xml:space="preserve">
+    <value>What could've been better?</value>
+    <comment>Feedback question</comment>
+  </data>
+  <data name="FeedbackSeven.Text" xml:space="preserve">
+    <value>The session ended unexpectedly</value>
+    <comment>Feedback question</comment>
+  </data>
+  <data name="FeedbackSix.Text" xml:space="preserve">
+    <value>The volume was too low</value>
+    <comment>Feedback question</comment>
+  </data>
+  <data name="FeedbackThanks.Text" xml:space="preserve">
+    <value>Thanks for the feedback</value>
+    <comment>Feedback thanks</comment>
+  </data>
+  <data name="FeedbackThree.Text" xml:space="preserve">
+    <value>The translation time was too slow</value>
+    <comment>Feedback question</comment>
+  </data>
+  <data name="SessionFeedbackTitle" xml:space="preserve">
+    <value>Translation Feedback</value>
+    <comment>FeedbackTitle</comment>
+  </data>
+  <data name="FeedbackTwo.Text" xml:space="preserve">
+    <value>It mistranslated my sentences</value>
+    <comment>Feedback question</comment>
+  </data>
+  <data name="Improvement.Text" xml:space="preserve">
+    <value>We'll keep working on improving your experience.</value>
+    <comment>Feedback text</comment>
+  </data>
+  <data name="Other.Text" xml:space="preserve">
+    <value>Other Comments:</value>
+    <comment>Other comments feedback</comment>
+  </data>
+  <data name="SessionFeedbackPrompt" xml:space="preserve">
+    <value>How would you rate your translation session?</value>
+    <comment>Initial feedback prompt</comment>
+  </data>
+  <data name="SendFeedback.Content" xml:space="preserve">
+    <value>Send Feedback</value>
+    <comment>Feedback button</comment>
+  </data>
+  <data name="DismissButton.Content" xml:space="preserve">
+    <value>Dismiss</value>
+    <comment>Dismiss button text</comment>
+  </data>
+  <data name="DiscardButton.Content" xml:space="preserve">
+    <value>Discard</value>
+    <comment>Discard button text</comment>
+  </data>
+  <data name="DualDeviceUpdated" xml:space="preserve">
+    <value>Dual Device setup updated successfully</value>
+    <comment>Dual device success message</comment>
+  </data>
+  <data name="ErrorDescription.Text" xml:space="preserve">
+    <value>Your changes haven't been saved, do you wish to save them or discard?</value>
+    <comment>Error dialog text</comment>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>Something went wrong..try again</value>
+    <comment>Error text</comment>
+  </data>
+  <data name="ErrorTitle.Text" xml:space="preserve">
+    <value>You have unsaved changes</value>
+    <comment>Error dialog text</comment>
+  </data>
+  <data name="LanguageSettingsUpdated" xml:space="preserve">
+    <value>Language changes updated succesfully</value>
+    <comment>Language changes success message</comment>
+  </data>
+  <data name="PasswordUpdated" xml:space="preserve">
+    <value>Password Changed Succesfully</value>
+    <comment>Password updated successfully</comment>
+  </data>
+  <data name="PlaybackLanguageUpdated" xml:space="preserve">
+    <value>Default playback language changed Succesfully</value>
+    <comment>Playback language success message</comment>
+  </data>
+  <data name="QuickViewLanguagesUpdated" xml:space="preserve">
+    <value>Quick view languges updated Succesfully</value>
+    <comment>Quick view languages success message</comment>
+  </data>
+  <data name="ShortcutSuccess" xml:space="preserve">
+    <value>Questions shortcuts updated successfully</value>
+    <comment>Success text</comment>
+  </data>
+  <data name="SingleDeviceUpdated" xml:space="preserve">
+    <value>Single Device setup updated successfully</value>
+    <comment>Single device success message</comment>
+  </data>
+  <data name="TimeoutUpdated" xml:space="preserve">
+    <value>Timeout updated Succesfully</value>
+    <comment>Admin mode time out updated</comment>
+  </data>
+  <data name="TranslationLanguageUpdated" xml:space="preserve">
+    <value>Default translation language changed succesfully</value>
+    <comment>Translation language success message</comment>
+  </data>
+  <data name="TranslationPlaybackUpdated" xml:space="preserve">
+    <value>Default translation &amp; playback language changed succesfully</value>
+    <comment>Language changes success message</comment>
+  </data>
+  <data name="DeviceSetupChanged" xml:space="preserve">
+    <value>Connected audio devices updated </value>
+    <comment>Dual and Single device setup selection changed</comment>
+  </data>
+  <data name="UserFlagSwitch" xml:space="preserve">
+    <value>User flag to switch language updated</value>
+    <comment>User flag to switch language toggled text</comment>
+  </data>
+  <data name="DevicesAddProfileButton.Content" xml:space="preserve">
+    <value>Add</value>
+    <comment>Devices Add Profile Button Content</comment>
+  </data>
+  <data name="DevicesAvailableProfiles.Text" xml:space="preserve">
+    <value>Available profiles</value>
+    <comment>Devices available profiles text</comment>
+  </data>
+  <data name="DevicesDefaultProfile.Text" xml:space="preserve">
+    <value>Default profile:</value>
+    <comment>Devices default profile text</comment>
+  </data>
+  <data name="DevicesDeleteProfileBtn.Content" xml:space="preserve">
+    <value>Delete Profile</value>
+    <comment>Delete profile button content</comment>
+  </data>
+  <data name="DevicesHelpfulTip1.Text" xml:space="preserve">
+    <value>1. Set a profile name</value>
+    <comment>Helpful tips 1</comment>
+  </data>
+  <data name="DevicesHelpfulTip2.Text" xml:space="preserve">
+    <value>2. Select single or dual device modes</value>
+    <comment>Helpful tips 2</comment>
+  </data>
+  <data name="DevicesHelpfulTip3.Text" xml:space="preserve">
+    <value>3. Select speaker(s) and microphone(s)</value>
+    <comment>Helpful tips 3</comment>
+  </data>
+  <data name="DevicesHelpfulTip4.Text" xml:space="preserve">
+    <value>4. Set your profile as default</value>
+    <comment>Helpful tips 4</comment>
+  </data>
+  <data name="DevicesHelpfulTip5.Text" xml:space="preserve">
+    <value>5. Click the Save Profile button to save your profile</value>
+    <comment>Helpful tips 5</comment>
+  </data>
+  <data name="DevicesHelpfulTips.Text" xml:space="preserve">
+    <value>Helpful tips</value>
+    <comment>Devices helpful tips text</comment>
+  </data>
+  <data name="DevicesProfileNameTextBox.PlaceholderText" xml:space="preserve">
+    <value>Profile name...</value>
+    <comment>Devices Profile Textbox Placeholder text</comment>
+  </data>
+  <data name="DevicesSaveProfileBtn.Content" xml:space="preserve">
+    <value>Save Profile</value>
+    <comment>Save profile button content</comment>
+  </data>
+  <data name="DevicesSetasDefault.Text" xml:space="preserve">
+    <value>Set as default</value>
+    <comment>Set as default text</comment>
+  </data>
+  <data name="DevicesSetProfileButton.Content" xml:space="preserve">
+    <value>Set profile</value>
+    <comment>Devices Set Profile Button Content</comment>
+  </data>
+  <data name="DevicesSetProfileText.Text" xml:space="preserve">
+    <value>Set a custom profile?</value>
+    <comment>Devices set custom profile text</comment>
+  </data>
+  <data name="CustomProfileAdded" xml:space="preserve">
+    <value>Profile name added successfully.</value>
+  </data>
+  <data name="CustomProfileDeleted" xml:space="preserve">
+    <value>Profile deleted successfully.</value>
+  </data>
+  <data name="CustomProfileInvalidName" xml:space="preserve">
+    <value>Error! Invalid profile name.</value>
+  </data>
+  <data name="CustomProfileNotDeleted" xml:space="preserve">
+    <value>No profile to delete.</value>
+  </data>
+  <data name="CustomProfileNotSaved" xml:space="preserve">
+    <value>Error! No profile saved.</value>
+  </data>
+  <data name="CustomProfileProfileSaved" xml:space="preserve">
+    <value>Profile saved successfully.</value>
+  </data>
+  <data name="DownloadAudio.Text" xml:space="preserve">
+    <value>Download Audio</value>
+    <comment>Download Audio text</comment>
+  </data>
+  <data name="DownloadCancel" xml:space="preserve">
+    <value>Download canceled</value>
+    <comment>Audio download canceled  text</comment>
+  </data>
+  <data name="Downloaded" xml:space="preserve">
+    <value>Downloaded</value>
+    <comment>Audio file downloaded  text</comment>
+  </data>
+  <data name="DownloadError" xml:space="preserve">
+    <value>Error Occured</value>
+    <comment>Audio Download Error  text</comment>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>Downloading</value>
+    <comment>Audio Download Error  text</comment>
+  </data>
+  <data name="DownloadPaused" xml:space="preserve">
+    <value>Download Paused</value>
+    <comment>Audio download paused  text</comment>
+  </data>
+  <data name="Add.Content" xml:space="preserve">
+    <value>Add</value>
+    <comment>Add text</comment>
+  </data>
+  <data name="AddNewQuestion.Text" xml:space="preserve">
+    <value>Add new pre-defined question</value>
+    <comment>New question dialog text</comment>
+  </data>
+  <data name="AddQuestion.Content" xml:space="preserve">
+    <value>Add Question</value>
+    <comment>Add Question text</comment>
+  </data>
+  <data name="ChooseLanguage.Text" xml:space="preserve">
+    <value>Select the default language</value>
+    <comment>New question dialog text</comment>
+  </data>
+  <data name="EnterQuestion.Text" xml:space="preserve">
+    <value>Enter question below</value>
+    <comment>New question dialog text</comment>
+  </data>
+  <data name="QuestionAdded" xml:space="preserve">
+    <value>Question Added Successfully</value>
+    <comment>Question Added Successfully</comment>
+  </data>
+  <data name="QuestionDeleted" xml:space="preserve">
+    <value>Question Deleted Successfully</value>
+    <comment>Question Deleted Successfully</comment>
+  </data>
+</root>

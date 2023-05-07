@@ -1,0 +1,1192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="AppDescription" xml:space="preserve">
+    <value>ΤαλατούχΑπ</value>
+  </data>
+  <data name="AppDisplayName" xml:space="preserve">
+    <value>ΤαλατούχΑπ</value>
+  </data>
+  <data name="AudioDeviceSelector_MicDropdown.PlaceholderText" xml:space="preserve">
+    <value>Επιλέξτε ένα μικρόφωνο</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneMic.Text" xml:space="preserve">
+    <value>Άτομο Ένα Μικρόφωνο</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneSpeaker.Text" xml:space="preserve">
+    <value>Άτομο ένας ομιλητής</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoMic.Text" xml:space="preserve">
+    <value>Άτομο Δύο Μικρόφωνο</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoSpeaker.Text" xml:space="preserve">
+    <value>Πρόσωπο δύο ομιλητής</value>
+  </data>
+  <data name="AudioDeviceSelector_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>Επιλέξτε ηχείο</value>
+  </data>
+  <data name="BluetoothPairingDialog_Description.Text" xml:space="preserve">
+    <value>Βεβαιωθείτε ότι η συσκευή σας είναι ενεργοποιημένη και ανιχνεύσιμη. Επιλέξτε μια συσκευή παρακάτω για να συνδεθείτε.</value>
+  </data>
+  <data name="BluetoothPairingDialog_Title.Text" xml:space="preserve">
+    <value>Προσθήκη συσκευής</value>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>Ακυρώνω</value>
+  </data>
+  <data name="ChangePasscodeDialog_Confirm.Text" xml:space="preserve">
+    <value>Επιβεβαίωση νέου κωδικού πρόσβασης</value>
+  </data>
+  <data name="ChangePasscodeDialog_Current.Text" xml:space="preserve">
+    <value>Τρέχων κωδικός πρόσβασης</value>
+  </data>
+  <data name="ChangePasscodeDialog_New.Text" xml:space="preserve">
+    <value>Νέος κωδικός πρόσβασης</value>
+  </data>
+  <data name="ChangePasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Αλλαγή κωδικού πρόσβασης</value>
+  </data>
+  <data name="Close.Content" xml:space="preserve">
+    <value>Κλείνω</value>
+  </data>
+  <data name="ConsentDialog_Description1.Text" xml:space="preserve">
+    <value>Οι ανησυχίες για την προστασία της ιδιωτικής ζωής είναι η νούμερο ένα προτεραιότητά μας. (5) Αποδέχεστε τους όρους και τις προϋποθέσεις της παρούσας Πολιτικής Απορρήτου με το κινητό τηλέφωνο ή το tablet σας, κατά περίπτωση.</value>
+  </data>
+  <data name="ConsentDialog_Description2.Text" xml:space="preserve">
+    <value>Εάν επιλέξετε να μην μας επιτρέψετε την πρόσβαση όταν λάβουμε αίτημα συγκατάθεσης (τέτοια αιτήματα θα κοινοποιούνται στον ιστότοπο www ICTS στη διεύθυνση:</value>
+  </data>
+  <data name="ConsentDialog_Description3.Text" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int</value>
+  </data>
+  <data name="ConsentDialog_Description4.Text" xml:space="preserve">
+    <value>), τότε ούτε η παρεχόμενη διεύθυνση ηλεκτρονικού ταχυδρομείου ούτε οποιεσδήποτε άλλες προσωπικές πληροφορίες που θα μπορούσαν να ταυτοποιήσουν ένα άτομο μπορούν επίσης να περιέλθουν στην κατοχή μας μόλις χορηγηθεί αυτή η άδεια.</value>
+  </data>
+  <data name="ConsentDialog_Description5.Text" xml:space="preserve">
+    <value>Με τη χρήση ορισμένων τμημάτων: / Η χρήση από εμένα του κινητού μου τηλεφώνου / Εικονίδια - τα οποία μπορεί να περιλαμβάνουν το να επιτρέπονται άλλοι σε δωμάτια συνομιλίας σχετικά με προϊόντα όπως</value>
+  </data>
+  <data name="ConsentDialog_HyperLink.NavigateUri" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int/</value>
+  </data>
+  <data name="ConsentDialog_Title.Text" xml:space="preserve">
+    <value>Εκτιμούμε το απόρρητό σας</value>
+  </data>
+  <data name="Dashboard_Choose_Language.Text" xml:space="preserve">
+    <value>Επιλέξτε Γλώσσα</value>
+  </data>
+  <data name="Dashboard_Hello.Text" xml:space="preserve">
+    <value>Γεια σας</value>
+  </data>
+  <data name="Dashboard_SearchBox.PlaceholderText" xml:space="preserve">
+    <value>Γλώσσα αναζήτησης</value>
+  </data>
+  <data name="Dashboard_Welcome.Text" xml:space="preserve">
+    <value>Καλώς ήρθες</value>
+  </data>
+  <data name="DevicesErrorDialog_NoDeviceError" xml:space="preserve">
+    <value>Δεν έχετε αποθηκευμένες συσκευές. Μεταβείτε στις Ρυθμίσεις -&gt; Συσκευές για να επιλέξετε μικρόφωνο και ηχείο και, στη συνέχεια, κάντε κλικ στο Αποθήκευση.</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Description.Text" xml:space="preserve">
+    <value>Διαθέσιμες συσκευές bluetooth</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_DropDown.PlaceholderText" xml:space="preserve">
+    <value>Επιλέξτε συσκευή bluetooth</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Scan.Text" xml:space="preserve">
+    <value>Σάρωση</value>
+  </data>
+  <data name="DevicesPage_Bluetooth.Text" xml:space="preserve">
+    <value>Ππχ</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices_Description.Text" xml:space="preserve">
+    <value>Επιλέξτε τη συσκευή ήχου σας</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices.Text" xml:space="preserve">
+    <value>Συνδεδεμένες συσκευές ήχου</value>
+  </data>
+  <data name="DevicesPage_MicDropDown.PlaceholderText" xml:space="preserve">
+    <value>Επιλέξτε ένα μικρόφωνο</value>
+  </data>
+  <data name="DevicesPage_Network_Description.Text" xml:space="preserve">
+    <value>Διαθέσιμα δίκτυα</value>
+  </data>
+  <data name="DevicesPage_Network_DropDown.PlaceholderText" xml:space="preserve">
+    <value>Επιλέξτε ένα δίκτυο</value>
+  </data>
+  <data name="DevicesPage_Network.Text" xml:space="preserve">
+    <value>Δίκτυο</value>
+  </data>
+  <data name="DevicesPage_NetworkError" xml:space="preserve">
+    <value>Δεν έχει επιλεγεί δίκτυο. Ελέγξτε τις συνδέσεις δικτύου σας.</value>
+  </data>
+  <data name="DevicesPage_PersonOne_Speaker.Text" xml:space="preserve">
+    <value>Άτομο ένας ομιλητής</value>
+  </data>
+  <data name="DevicesPage_PersonOneMic.Text" xml:space="preserve">
+    <value>Άτομο ένα μικρόφωνο</value>
+  </data>
+  <data name="DevicesPage_PersonTwo_Mic.Text" xml:space="preserve">
+    <value>Άτομο δύο μικρόφωνο</value>
+  </data>
+  <data name="DevicesPage_Scan" xml:space="preserve">
+    <value>Σάρωση</value>
+  </data>
+  <data name="DevicesPage_Scanning" xml:space="preserve">
+    <value>Σάρωση...</value>
+  </data>
+  <data name="DevicesPage_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>Επιλέξτε ένα ηχείο</value>
+  </data>
+  <data name="DevicesPage_Status_Connect" xml:space="preserve">
+    <value>Συνδέω</value>
+  </data>
+  <data name="DevicesPage_Status_Connected" xml:space="preserve">
+    <value>Συνεχόμενος</value>
+  </data>
+  <data name="DevicesPage_Status_Connecting" xml:space="preserve">
+    <value>Σύνδεση...</value>
+  </data>
+  <data name="DevicesPage_Status_Off" xml:space="preserve">
+    <value>ΑΠΌ</value>
+  </data>
+  <data name="DevicesPage_Status_On" xml:space="preserve">
+    <value>ΕΠΊ</value>
+  </data>
+  <data name="DevicesPager_PersonTwo_Speaker.Text" xml:space="preserve">
+    <value>Πρόσωπο δύο ομιλητής</value>
+  </data>
+  <data name="EnterPasscodeDialog_Description.Text" xml:space="preserve">
+    <value>Εισαγάγετε τον κωδικό πρόσβασής σας για να αποκτήσετε πρόσβαση στη σελίδα ρυθμίσεων</value>
+  </data>
+  <data name="EnterPasscodeDialog_ForgotPasscode.Content" xml:space="preserve">
+    <value>Ξεχάσατε τον κωδικό πρόσβασης;</value>
+  </data>
+  <data name="EnterPasscodeDialog_InvalidPasscode.Text" xml:space="preserve">
+    <value>Μη έγκυρος κωδικός πρόσβασης! Παρακαλώ προσπαθήστε ξανά.</value>
+  </data>
+  <data name="EnterPasscodeDialog_Passcode.Text" xml:space="preserve">
+    <value>Κωδικός πρόσβασης</value>
+  </data>
+  <data name="EnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Εισαγάγετε τον κωδικό πρόσβασής σας</value>
+  </data>
+  <data name="IAgree.Content" xml:space="preserve">
+    <value>Συμφωνώ</value>
+  </data>
+  <data name="InvalidLicenseDialog_Description.Text" xml:space="preserve">
+    <value>Η επαλήθευση της άδειας χρήσης απέτυχε</value>
+  </data>
+  <data name="InvalidLicenseDialog_Title.Text" xml:space="preserve">
+    <value>Μη έγκυρη άδεια χρήσης</value>
+  </data>
+  <data name="LoginFailedDialog_Button.Content" xml:space="preserve">
+    <value>Πήγαινε πίσω</value>
+  </data>
+  <data name="LoginFailedDialog_Description.Text" xml:space="preserve">
+    <value>Η προσπάθεια σύνδεσής σας απέτυχε.</value>
+  </data>
+  <data name="LoginFailedDialog_Title.Text" xml:space="preserve">
+    <value>Αποτυχημένη σύνδεση</value>
+  </data>
+  <data name="Main_Title.Text" xml:space="preserve">
+    <value>Κύριος</value>
+  </data>
+  <data name="PasswordPopup_SetupTitle.Text" xml:space="preserve">
+    <value>Ρύθμιση κωδικού πρόσβασης</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Description1.Text" xml:space="preserve">
+    <value>Εισαγάγετε ξανά τον κωδικό πρόσβασής σας για να συνεχίσετε την επεξεργασία...</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Εισαγάγετε ξανά τον κωδικό πρόσβασής σας</value>
+  </data>
+  <data name="RenterPasscodeDialog_Description2.Text" xml:space="preserve">
+    <value>αυτόματη αποθήκευση και επιστροφή στο σπίτι</value>
+  </data>
+  <data name="Save.Content" xml:space="preserve">
+    <value>Σώζω</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Description.Text" xml:space="preserve">
+    <value>Αυτό είναι ένα δείγμα σελίδας που θα εμφανίζει παραμέτρους ενεργοποίησης εάν η εφαρμογή είναι ενεργοποιημένη από το Deep Linking.</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Title.Text" xml:space="preserve">
+    <value>ΣχέδιοΕφαρμογή</value>
+  </data>
+  <data name="SetPasscodeDialog_ConfirmPasscode.Text" xml:space="preserve">
+    <value>Επιβεβαίωση νέου κωδικού πρόσβασης </value>
+  </data>
+  <data name="SetPasscodeDialog_NewPasscode.Text" xml:space="preserve">
+    <value>Νέος κωδικός πρόσβασης</value>
+  </data>
+  <data name="SetPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Ρύθμιση κωδικού πρόσβασης</value>
+  </data>
+  <data name="Settings_About.Text" xml:space="preserve">
+    <value>Σχετικά με αυτήν την εφαρμογή</value>
+  </data>
+  <data name="Settings_AboutDescription.Text" xml:space="preserve">
+    <value>Ρυθμίσεις κειμένου κράτησης θέσης σελίδας.  Η περιγραφή της εφαρμογής σας πηγαίνει εδώ.</value>
+  </data>
+  <data name="Settings_Personalization.Text" xml:space="preserve">
+    <value>Εξατομίκευση</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.Content" xml:space="preserve">
+    <value>Δήλωση προστασίας προσωπικών δεδομένων</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.NavigateUri" xml:space="preserve">
+    <value>https://YourPrivacyUrlGoesHere/</value>
+  </data>
+  <data name="Settings_Theme_Dark.Content" xml:space="preserve">
+    <value>Σκοτεινός</value>
+  </data>
+  <data name="Settings_Theme_Default.Content" xml:space="preserve">
+    <value>Προεπιλογή των Windows</value>
+  </data>
+  <data name="Settings_Theme_Light.Content" xml:space="preserve">
+    <value>Φως</value>
+  </data>
+  <data name="Settings_Theme.Text" xml:space="preserve">
+    <value>Επιλέξτε Θέμα</value>
+  </data>
+  <data name="Settings_Title.Text" xml:space="preserve">
+    <value>Ρυθμίσεις</value>
+  </data>
+  <data name="SettingsPage_Devices" xml:space="preserve">
+    <value>Συσκευές</value>
+  </data>
+  <data name="SettingsPage_Language" xml:space="preserve">
+    <value>Γλώσσα</value>
+  </data>
+  <data name="SettingsPage_Profile" xml:space="preserve">
+    <value>Προφίλ</value>
+  </data>
+  <data name="SettingsPage_Questions" xml:space="preserve">
+    <value>Ερωτήσεις</value>
+  </data>
+  <data name="SettingsPage_Title" xml:space="preserve">
+    <value>Ρυθμίσεις</value>
+  </data>
+  <data name="ShellView_Help" xml:space="preserve">
+    <value>Βοήθεια</value>
+  </data>
+  <data name="ShellView_History" xml:space="preserve">
+    <value>Ιστορία</value>
+  </data>
+  <data name="ShellView_Home" xml:space="preserve">
+    <value>Σπίτι</value>
+  </data>
+  <data name="ShellView_Settings.Text" xml:space="preserve">
+    <value>Ρυθμίσεις</value>
+  </data>
+  <data name="Sign_In.Text" xml:space="preserve">
+    <value>Είσοδος</value>
+  </data>
+  <data name="SignInDialog_Description.Text" xml:space="preserve">
+    <value>Επικοινωνήστε άμεσα σε πολλές παγκόσμιες γλώσσες με τη συσκευή Jabra.</value>
+  </data>
+  <data name="SignInDialog_SignInButton.Content" xml:space="preserve">
+    <value>Είσοδος</value>
+  </data>
+  <data name="Translate_Button.Text" xml:space="preserve">
+    <value>Μεταφράζω</value>
+  </data>
+  <data name="TranslationPage_EndSession.Text" xml:space="preserve">
+    <value>Τερματισμός της περιόδου λειτουργίας</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOn" xml:space="preserve">
+    <value>Μικρόφωνο ενεργοποιημένο</value>
+  </data>
+  <data name="TranslationPage_SpeakerOn" xml:space="preserve">
+    <value>Ομιλητής στις</value>
+  </data>
+  <data name="TranslationPage_SpeakNow.Text" xml:space="preserve">
+    <value>Μιλήστε τώρα</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Περίπου</value>
+  </data>
+  <data name="AboutPage_AppVersion.Text" xml:space="preserve">
+    <value>Έκδοση εφαρμογής</value>
+  </data>
+  <data name="AboutPage_CheckUpdate.Content" xml:space="preserve">
+    <value>Έλεγχος για ενημερώσεις</value>
+  </data>
+  <data name="AboutPage_DataConsent" xml:space="preserve">
+    <value>Ο οργανισμός σας έχει δώσει τη συγκατάθεσή του για την αποθήκευση των δεδομένων σας στο cloud.</value>
+  </data>
+  <data name="AboutPage_NoDataConsent" xml:space="preserve">
+    <value>Ο οργανισμός σας δεν έχει δώσει τη συγκατάθεσή του για την αποθήκευση των δεδομένων σας στο cloud.</value>
+  </data>
+  <data name="AboutPage_Published.Text" xml:space="preserve">
+    <value>Εκδίδεται από ΦΙΤΣ Λίμιτεδ.</value>
+  </data>
+  <data name="AppClose_Close.Content" xml:space="preserve">
+    <value>Κλείστε ούτως ή άλλως</value>
+  </data>
+  <data name="AppClose_Dismiss.Content" xml:space="preserve">
+    <value>Ακυρώνω</value>
+  </data>
+  <data name="AppClose_Warning.Text" xml:space="preserve">
+    <value>Έχετε μια συνεδρία σε εξέλιξη. Τερματίστε τη συνεδρία πριν βγείτε από την εφαρμογή.</value>
+  </data>
+  <data name="AppVersion.Text" xml:space="preserve">
+    <value>Έκδοση εφαρμογής</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Button.Content" xml:space="preserve">
+    <value>Συνέχεια συνεδρίας</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Description.Text" xml:space="preserve">
+    <value>Η συνεδρία θα ολοκληρωθεί σε</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Title.Text" xml:space="preserve">
+    <value>Ο ήχος δεν εντοπίστηκε</value>
+  </data>
+  <data name="AudioPlayer_Error.Text" xml:space="preserve">
+    <value>Αποτυχία φόρτωσης ήχου</value>
+  </data>
+  <data name="DashboardPage_DefaultLanguageError" xml:space="preserve">
+    <value>Δεν έχετε αποθηκεύσει την προεπιλεγμένη γλώσσα μετάφρασης. Μεταβείτε στις Ρυθμίσεις -&gt; γλώσσες για να επιλέξετε μια προεπιλεγμένη γλώσσα μετάφρασης και, στη συνέχεια, κάντε κλικ στο Αποθήκευση.</value>
+  </data>
+  <data name="DashboardPage_TargetLanguageError" xml:space="preserve">
+    <value>Δεν έχετε επιλέξει γλώσσα μετάφρασης προορισμού. Επιλέξτε μια γλώσσα και, στη συνέχεια, κάντε κλικ στο Μετάφραση.</value>
+  </data>
+  <data name="DevicesErrorDialog_DualDeviceError" xml:space="preserve">
+    <value>Έχετε επιλέξει Μετάφραση διπλής συσκευής, αλλά δεν έχετε επιλέξει συσκευή για το Άτομο 2. Μεταβείτε στις Ρυθμίσεις -&gt; Συσκευές για να επιλέξετε μικρόφωνο και ηχείο και, στη συνέχεια, κάντε κλικ στο Αποθήκευση.</value>
+  </data>
+  <data name="DevicesPage_Title.Text" xml:space="preserve">
+    <value>Συσκευές</value>
+  </data>
+  <data name="DevicesPage_Wifi_Password.Text" xml:space="preserve">
+    <value>Εισαγωγή κωδικού πρόσβασης</value>
+  </data>
+  <data name="DevicesPage_WifiStatus.Text" xml:space="preserve">
+    <value>Κατάσταση Wi-Fi</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Επεξεργασία</value>
+  </data>
+  <data name="Expiry.Text" xml:space="preserve">
+    <value>Λήξης</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Ανάδραση</value>
+  </data>
+  <data name="FeedbackMessage.Text" xml:space="preserve">
+    <value>Εάν έχετε οποιαδήποτε σχόλια ή απορίες, μην διστάσετε να επικοινωνήσετε μαζί μας.</value>
+  </data>
+  <data name="GetInTouchButton.Text" xml:space="preserve">
+    <value>Επικοινωνήστε μαζί μας</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Βοήθεια</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>Ιστορία</value>
+  </data>
+  <data name="History_ExportBtn.Text" xml:space="preserve">
+    <value>Εξαγωγή</value>
+  </data>
+  <data name="HistoryExportButtonTooltip.Text" xml:space="preserve">
+    <value>Εξαγωγή</value>
+  </data>
+  <data name="HistoryListColumnDate.Text" xml:space="preserve">
+    <value>Ημερομηνία</value>
+  </data>
+  <data name="HistoryListColumnDuration.Text" xml:space="preserve">
+    <value>Διάρκεια</value>
+  </data>
+  <data name="HistoryListColumnPrimaryLanguage.Text" xml:space="preserve">
+    <value>Κύρια γλώσσα</value>
+  </data>
+  <data name="HistoryListColumnSecondaryLanguage.Text" xml:space="preserve">
+    <value>Δευτερεύουσα γλώσσα</value>
+  </data>
+  <data name="HistoryListColumnSessionId.Text" xml:space="preserve">
+    <value>Αναγνωριστικό περιόδου σύνδεσης</value>
+  </data>
+  <data name="InitalSetup_SkipSetup.Content" xml:space="preserve">
+    <value>Παράλειψη ρύθμισης</value>
+  </data>
+  <data name="InitialNetworkPopupConnectButton.Content" xml:space="preserve">
+    <value>Συνδέω</value>
+  </data>
+  <data name="InitialSetup_DeviceSelection.Text" xml:space="preserve">
+    <value>Επιλογή συσκευής</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionDescription.Text" xml:space="preserve">
+    <value>Ρύθμιση της προεπιλεγμένης συσκευής ήχου</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneMicrophone.Text" xml:space="preserve">
+    <value>Επιλέξτε Μικρόφωνο</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneSpeaker.Text" xml:space="preserve">
+    <value>Επιλέξτε Ηχείο</value>
+  </data>
+  <data name="InitialSetup_FinishSetup.Content" xml:space="preserve">
+    <value>Ολοκληρώστε τη ρύθμιση</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection_Description.Text" xml:space="preserve">
+    <value>Ρύθμιση της προεπιλεγμένης γλώσσας μετάφρασης</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection.Text" xml:space="preserve">
+    <value>Επιλογή Γλώσσας</value>
+  </data>
+  <data name="InitialSetup_NetworkSelection.Text" xml:space="preserve">
+    <value>Προτιμώμενο δίκτυο</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopup.Text" xml:space="preserve">
+    <value>Σύνδεση στο δίκτυο</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopupPassword.Text" xml:space="preserve">
+    <value>Εισάγετε τον κωδικό πρόσβασης:</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionDescription.Text" xml:space="preserve">
+    <value>Επιλέξτε ένα από τα διαθέσιμα δίκτυα</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionNoInternetConnection.Text" xml:space="preserve">
+    <value>Δεν είστε συνδεδεμένοι στο διαδίκτυο. Ελέγξτε τις συνδέσεις δικτύου σας.</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionOtherNetworks.Text" xml:space="preserve">
+    <value>Άλλα Δίκτυα</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup_Description.Text" xml:space="preserve">
+    <value>Ρύθμιση του κωδικού πρόσβασης της εφαρμογής σας</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup.Text" xml:space="preserve">
+    <value>Ρύθμιση κωδικού πρόσβασης</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Γλώσσα</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage_Description.Text" xml:space="preserve">
+    <value>Επιλέξτε Γλώσσα Εφαρμογής</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage.Text" xml:space="preserve">
+    <value>Γλώσσα εφαρμογής</value>
+  </data>
+  <data name="LanguagesPage_AppLanguageDropdown.PlaceholderText" xml:space="preserve">
+    <value>Επιλέξτε μια γλώσσα</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage_Description.Text" xml:space="preserve">
+    <value>Η προεπιλεγμένη γλώσσα που χρησιμοποιείτε</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage.Text" xml:space="preserve">
+    <value>Η προεπιλεγμένη γλώσσα μου</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguageDropDown.PlaceholderText" xml:space="preserve">
+    <value>Επιλέξτε μια γλώσσα</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description.Text" xml:space="preserve">
+    <value>Ενότητα ιστορικού (για μεταφράσεις πολλαπλών συσκευών)</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description1.Text" xml:space="preserve">
+    <value>* Οι μεταφράσεις μίας συσκευής αναπαράγουν όλο τον ήχο ως προεπιλογή *</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage.Text" xml:space="preserve">
+    <value>Προεπιλεγμένη γλώσσα αναπαραγωγής</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguages.Text" xml:space="preserve">
+    <value>Γλώσσες γρήγορης προβολής</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguagesDropdown.PlaceholderText" xml:space="preserve">
+    <value>Προσθήκη γλώσσας</value>
+  </data>
+  <data name="LanguagesPage_Title.Text" xml:space="preserve">
+    <value>Γλώσσες</value>
+  </data>
+  <data name="Licence" xml:space="preserve">
+    <value>Άδεια</value>
+  </data>
+  <data name="LicenseType.Text" xml:space="preserve">
+    <value>Τύπος άδειας χρήσης:</value>
+  </data>
+  <data name="NetworkConnectionError" xml:space="preserve">
+    <value>Λάθος:</value>
+  </data>
+  <data name="Next.Content" xml:space="preserve">
+    <value>Επόμενος</value>
+  </data>
+  <data name="PasscodeError_MinimumLength" xml:space="preserve">
+    <value>Το ελάχιστο μήκος κωδικού πρόσβασης πρέπει να είναι 4.</value>
+  </data>
+  <data name="PasscodeError_NotMatching" xml:space="preserve">
+    <value>Οι κωδικοί πρόσβασης που εισάγονται δεν ταιριάζουν. Εισαγάγετε ξανά τους κωδικούς πρόσβασης και, στη συνέχεια, προσπαθήστε ξανά.</value>
+  </data>
+  <data name="Person.Text" xml:space="preserve">
+    <value>Άτομο</value>
+  </data>
+  <data name="PrivacyPolicy.Text" xml:space="preserve">
+    <value>Πολιτική Απορρήτου</value>
+  </data>
+  <data name="ProfilePage_Email_Description.Text" xml:space="preserve">
+    <value>Προεπιλεγμένο μήνυμα ηλεκτρονικού ταχυδρομείου εξαγωγής</value>
+  </data>
+  <data name="ProfilePage_Email.Text" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="ProfilePage_Passcode_Description.Text" xml:space="preserve">
+    <value>Ο κωδικός πρόσβασης της αίτησής σας</value>
+  </data>
+  <data name="ProfilePage_Passcode.Text" xml:space="preserve">
+    <value>Κωδικός πρόσβασης</value>
+  </data>
+  <data name="ProfilePage_Timeout_Description.Text" xml:space="preserve">
+    <value>Συχνότητα κλειδώματος λειτουργίας διαχειριστή</value>
+  </data>
+  <data name="ProfilePage_Timeout.Text" xml:space="preserve">
+    <value>Λήξη χρονικού ορίου λειτουργίας διαχειριστή</value>
+  </data>
+  <data name="ProfilePage_TimeoutDropdown.PlaceholderText" xml:space="preserve">
+    <value>Επιλέξτε ώρα</value>
+  </data>
+  <data name="ProfilePage_Title.Text" xml:space="preserve">
+    <value>Προφίλ</value>
+  </data>
+  <data name="PublishedBy.Text" xml:space="preserve">
+    <value>Δημοσιεύθηκε από</value>
+  </data>
+  <data name="ReleaseNotesMessage.Text" xml:space="preserve">
+    <value>Οι σημειώσεις έκδοσης θα ενημερωθούν σύντομα</value>
+  </data>
+  <data name="Save_Text" xml:space="preserve">
+    <value>Σώζω</value>
+  </data>
+  <data name="SessionDetailsPage_Description.Text" xml:space="preserve">
+    <value>Ιστορικό μεταγραφής</value>
+  </data>
+  <data name="SessionDetailsPage_Duration.Text" xml:space="preserve">
+    <value>Διάρκεια</value>
+  </data>
+  <data name="SessionDetailsPage_SessionID.Text" xml:space="preserve">
+    <value>Αναγνωριστικό περιόδου σύνδεσης</value>
+  </data>
+  <data name="SessionDetailsPage_Title.Text" xml:space="preserve">
+    <value>Ιστορία</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Ρυθμίσεις</value>
+  </data>
+  <data name="TermsOfUse.Text" xml:space="preserve">
+    <value>Όροι Χρήσης</value>
+  </data>
+  <data name="TranslationPage_SettingUpState" xml:space="preserve">
+    <value>Ρύθμιση...</value>
+  </data>
+  <data name="TranslationPage_SpeakFast" xml:space="preserve">
+    <value>Δοκιμάστε να μιλάτε λίγο πιο γρήγορα για καλύτερα αποτελέσματα μετάφρασης.</value>
+  </data>
+  <data name="TranslationPage_SpeakIn" xml:space="preserve">
+    <value>Μιλήστε σε</value>
+  </data>
+  <data name="TranslationPage_SpeakSlow" xml:space="preserve">
+    <value>Δοκιμάστε να μιλάτε λίγο πιο αργά για καλύτερα αποτελέσματα μετάφρασης.</value>
+  </data>
+  <data name="TranslationPage_Switching" xml:space="preserve">
+    <value>Κρυσταλλοτρίοδος</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonOne" xml:space="preserve">
+    <value>Μετάβαση στο άτομο 1</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonTwo" xml:space="preserve">
+    <value>Μετάβαση στο άτομο 2</value>
+  </data>
+  <data name="TranslationPage_TranslationReadyState" xml:space="preserve">
+    <value>Μιλήστε τώρα</value>
+  </data>
+  <data name="Website.Text" xml:space="preserve">
+    <value>Ιστοσελίδα</value>
+  </data>
+  <data name="WhatsNew" xml:space="preserve">
+    <value>Τι νέο υπάρχει</value>
+  </data>
+  <data name="WhatsNewInSpeechly.Text" xml:space="preserve">
+    <value>Τι νέο υπάρχει στο</value>
+  </data>
+  <data name="AudioDevicesSelectorDualDevice.Content" xml:space="preserve">
+    <value>Διπλή συσκευή</value>
+  </data>
+  <data name="AudioDevicesSelectorSingleDevice.Content" xml:space="preserve">
+    <value>Μία συσκευή</value>
+  </data>
+  <data name="AutoDetectSearchCountry.PlaceholderText" xml:space="preserve">
+    <value>Αναζήτηση χώρας</value>
+  </data>
+  <data name="AutoDetectSelectLanguage.Text" xml:space="preserve">
+    <value>Επιλέξτε τη γλώσσα σας</value>
+  </data>
+  <data name="ChatViewPersonOne" xml:space="preserve">
+    <value>Άτομο Ένα</value>
+  </data>
+  <data name="ChatViewPersonTwo" xml:space="preserve">
+    <value>Άτομο Δεύτερο</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionLost" xml:space="preserve">
+    <value>Απώλεια σύνδεσης στο Διαδίκτυο. Ελέγξτε τη σύνδεσή σας και προσπαθήστε ξανά.</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionUnstable" xml:space="preserve">
+    <value>Η σύνδεσή σας στο διαδίκτυο είναι αργή. Μπορεί να αντιμετωπίσετε κάποια καθυστέρηση.</value>
+  </data>
+  <data name="CustomTagSelectionTitle.Text" xml:space="preserve">
+    <value>Ετικέτες οργανισμού (επιλέξτε για προσθήκη)</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.Header" xml:space="preserve">
+    <value>Σημαία χρήστη για αλλαγή γλώσσας</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OffContent" xml:space="preserve">
+    <value>Ανάπηρος</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OnContent" xml:space="preserve">
+    <value>Ενεργοποιημένη</value>
+  </data>
+  <data name="DetectLanguageButton.Content" xml:space="preserve">
+    <value>Ανίχνευση γλώσσας</value>
+  </data>
+  <data name="DevicesPageNetworkSetupBluetoothStatus.Text" xml:space="preserve">
+    <value>Κατάσταση Bluetooth:</value>
+  </data>
+  <data name="DevicesPageNetworkSetupConnectAutomatically.Text" xml:space="preserve">
+    <value>Αυτόματη σύνδεση</value>
+  </data>
+  <data name="DevicesPageNetworkSetupWiFiStatus.Text" xml:space="preserve">
+    <value>Κατάσταση WiFi:</value>
+  </data>
+  <data name="Dimiss.Content" xml:space="preserve">
+    <value>Ακυρώνω</value>
+  </data>
+  <data name="Duration.Text" xml:space="preserve">
+    <value>|  Διάρκεια</value>
+  </data>
+  <data name="EmailPopup_Description.Text" xml:space="preserve">
+    <value>Εισαγάγετε τη διεύθυνση ηλεκτρονικού ταχυδρομείου σας</value>
+  </data>
+  <data name="EmailPopup_Title.Text" xml:space="preserve">
+    <value>Αποστολή της περιόδου λειτουργίας σας μέσω ηλεκτρονικού ταχυδρομείου</value>
+  </data>
+  <data name="ForcedUpdateDialogCaption" xml:space="preserve">
+    <value>Έχουμε κρίσιμες ενημερώσεις για</value>
+  </data>
+  <data name="ForcedUpdateDialogInstallBtnText" xml:space="preserve">
+    <value>Ενημερώνω</value>
+  </data>
+  <data name="ForcedUpdateDialogTitle" xml:space="preserve">
+    <value>Κρίσιμες ενημερώσεις</value>
+  </data>
+  <data name="GoBack.Content" xml:space="preserve">
+    <value>Πήγαινε πίσω</value>
+  </data>
+  <data name="HelpPageSignOut.Content" xml:space="preserve">
+    <value>Αποσύνδεση</value>
+  </data>
+  <data name="History_Export.Text" xml:space="preserve">
+    <value>Δημιουργία αρχείου...</value>
+  </data>
+  <data name="HistoryListColumnSessionName.Text" xml:space="preserve">
+    <value>Όνομα</value>
+  </data>
+  <data name="HistoryListColumnSynced.Text" xml:space="preserve">
+    <value>Συγχρονισμένες</value>
+  </data>
+  <data name="HistorySearchBox.PlaceholderText" xml:space="preserve">
+    <value>Γλώσσα, όνομα περιόδου λειτουργίας, ετικέτες ή αναγνωριστικά</value>
+  </data>
+  <data name="HistorySearchButtonTooltip.Text" xml:space="preserve">
+    <value>Αναζήτηση</value>
+  </data>
+  <data name="HistorySearchClearButtonTooltip.Text" xml:space="preserve">
+    <value>Σαφής</value>
+  </data>
+  <data name="HistorySearchFromDate.Header" xml:space="preserve">
+    <value>Από:</value>
+  </data>
+  <data name="HistorySearchToDate.Header" xml:space="preserve">
+    <value>Προς:</value>
+  </data>
+  <data name="HistoryShareButtonTooltip.Text" xml:space="preserve">
+    <value>Κοινή χρήση/αποστολή</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonOne.Text" xml:space="preserve">
+    <value>Άτομο 1</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonTwo.Text" xml:space="preserve">
+    <value>Άτομο 2</value>
+  </data>
+  <data name="LoginPageTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NewVersionDialogCaption" xml:space="preserve">
+    <value>Εγκατάσταση νέας έκδοσης εφαρμογής του</value>
+  </data>
+  <data name="NewVersionDialogDescription" xml:space="preserve">
+    <value>Νέες δυνατότητες και διορθώσεις σφαλμάτων θα λείπουν από </value>
+  </data>
+  <data name="NewVersionDialogInstallBtnText" xml:space="preserve">
+    <value>Εγκατάσταση νέας έκδοσης</value>
+  </data>
+  <data name="NewVersionDialogTitle" xml:space="preserve">
+    <value>Νέα έκδοση εφαρμογής</value>
+  </data>
+  <data name="NextText" xml:space="preserve">
+    <value>Επόμενος</value>
+  </data>
+  <data name="ProfilePageEditButton.Content" xml:space="preserve">
+    <value>Επεξεργασία</value>
+  </data>
+  <data name="QuestionsButton.Content" xml:space="preserve">
+    <value>Δείτε ερωτήσεις</value>
+  </data>
+  <data name="QuestionSettingsDescription.Text" xml:space="preserve">
+    <value>Προβολή ή τροποποίηση των συντομεύσεων των ερωτήσεών σας</value>
+  </data>
+  <data name="QuestionSettingsInstructionOne.Text" xml:space="preserve">
+    <value>* Χρησιμοποιήστε τους αριθμούς 1-9 για κάθε ερώτηση. Το μηδέν (0) δεν θα ληφθεί υπόψη.</value>
+  </data>
+  <data name="QuestionSettingsInstructionThree.Text" xml:space="preserve">
+    <value>* Μπορείτε να αντιστοιχίσετε συντομεύσεις μόνο σε 9 ερωτήσεις.</value>
+  </data>
+  <data name="QuestionSettingsListTitle.Text" xml:space="preserve">
+    <value>Λίστα Ερωτήσεων :</value>
+  </data>
+  <data name="ResellerEmailAddress.Text" xml:space="preserve">
+    <value>Διεύθυνση ηλεκτρονικού ταχυδρομείου μεταπωλητή:</value>
+  </data>
+  <data name="ResellerName.Text" xml:space="preserve">
+    <value>Όνομα Μεταπωλητή :</value>
+  </data>
+  <data name="SelectFlag.Text" xml:space="preserve">
+    <value>Επιλέξτε τη σημαία σας:</value>
+  </data>
+  <data name="Send.Content" xml:space="preserve">
+    <value>Αποστέλλω</value>
+  </data>
+  <data name="SessionDetailsPage_SessionName.Text" xml:space="preserve">
+    <value>Όνομα περιόδου λειτουργίας</value>
+  </data>
+  <data name="SessionID.Text" xml:space="preserve">
+    <value>Αναγνωριστικό συνεδρίας : -</value>
+  </data>
+  <data name="SessionMetadataDialog_ContinueButton.Text" xml:space="preserve">
+    <value>Συνεχίζω</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTags.Text" xml:space="preserve">
+    <value>Προσαρμοσμένες ετικέτες</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Εισαγάγετε το όνομα της ετικέτας εδώ</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextboxHelper.Text" xml:space="preserve">
+    <value>Πατήστε Enter</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTags.Text" xml:space="preserve">
+    <value>Προεπιλεγμένες ετικέτες</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Εισαγάγετε την τιμή εδώ</value>
+  </data>
+  <data name="SessionMetadataDialog_Description.Text" xml:space="preserve">
+    <value>Τα υποχρεωτικά πεδία σημειώνονται με '</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionName.Text" xml:space="preserve">
+    <value>Όνομα περιόδου λειτουργίας</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionNameTextbox.PlaceholderText" xml:space="preserve">
+    <value>π.χ. ασθενής μηδέν</value>
+  </data>
+  <data name="SessionMetadataDialog_Title.Text" xml:space="preserve">
+    <value>Προσθήκη ονόματος και ετικετών περιόδου λειτουργίας</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorActionMessage" xml:space="preserve">
+    <value>Επικοινωνήστε με το διαχειριστή σας για να ενεργοποιήσετε το λογαριασμό σας.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorMessage" xml:space="preserve">
+    <value>Ο λογαριασμός σας έχει απενεργοποιηθεί.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorActionMessage" xml:space="preserve">
+    <value>Επικοινωνήστε με τον διαχειριστή σας για να δημιουργήσετε τον λογαριασμό σας.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorMessage" xml:space="preserve">
+    <value>Ο λογαριασμός σας έχει διαγραφεί.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorActionMessage" xml:space="preserve">
+    <value>Επικοινωνήστε με το διαχειριστή σας για να ενεργοποιήσετε το λογαριασμό σας.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorMessage" xml:space="preserve">
+    <value>Ο λογαριασμός σας έχει απενεργοποιηθεί.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorActionMessage" xml:space="preserve">
+    <value>Επικοινωνήστε με τον διαχειριστή σας για να δημιουργήσετε τον λογαριασμό σας.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorMessage" xml:space="preserve">
+    <value>Δεν έχετε ενεργό Λογαριασμό.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorActionMessage" xml:space="preserve">
+    <value>Επικοινωνήστε με το διαχειριστή σας για να ανανεώσετε την άδεια χρήσης σας.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorMessage" xml:space="preserve">
+    <value>Η άδειά σας έχει λήξει.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorActionMessage" xml:space="preserve">
+    <value>Επικοινωνήστε με το διαχειριστή σας για να ενεργοποιήσετε την άδεια χρήσης σας.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorMessage" xml:space="preserve">
+    <value>Η άδειά σας έχει απενεργοποιηθεί.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorActionMessage" xml:space="preserve">
+    <value>Επικοινωνήστε με το διαχειριστή σας.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorMessage" xml:space="preserve">
+    <value>Η άδειά σας έχει ανασταλεί.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorActionMessage" xml:space="preserve">
+    <value>Επικοινωνήστε με το διαχειριστή σας για να σας εκχωρήσει μια άδεια χρήσης.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorMessage" xml:space="preserve">
+    <value>Δεν σας έχει εκχωρηθεί άδεια χρήσης.</value>
+  </data>
+  <data name="StartupPage2020.Text" xml:space="preserve">
+    <value>2021 </value>
+  </data>
+  <data name="StartupPageErrorDescription.Text" xml:space="preserve">
+    <value>Παρουσιάστηκε σφάλμα. Ελέγξτε τη σύνδεσή σας στο Internet και, στη συνέχεια, προσπαθήστε ξανά.</value>
+  </data>
+  <data name="StartupPagePoweredBy.Text" xml:space="preserve">
+    <value>Υποστηρίζεται από </value>
+  </data>
+  <data name="StartupPageProgressDescription.Text" xml:space="preserve">
+    <value>Αυτό μπορεί να διαρκέσει μερικά δευτερόλεπτα</value>
+  </data>
+  <data name="StartupPageRetryButton.Content" xml:space="preserve">
+    <value>Επανάληψη</value>
+  </data>
+  <data name="StartupPageRightsReserved.Text" xml:space="preserve">
+    <value>Με την επιφύλαξη παντός δικαιώματος.</value>
+  </data>
+  <data name="StartUpPageSettingUpMessage" xml:space="preserve">
+    <value>Ρύθμιση...</value>
+  </data>
+  <data name="StartupPageTitleDescription.Text" xml:space="preserve">
+    <value>Καλωσήρθατε στο </value>
+  </data>
+  <data name="TranslateText" xml:space="preserve">
+    <value>Μεταφράζω</value>
+  </data>
+  <data name="TranslationLicenceUseError" xml:space="preserve">
+    <value>Η άδεια χρήσης σας χρησιμοποιείται αυτήν τη στιγμή σε άλλη περίοδο λειτουργίας.</value>
+  </data>
+  <data name="TranslationLimitReachedError" xml:space="preserve">
+    <value>Έχετε συμπληρώσει το μέγιστο χρονικό όριο ανά συνεδρία. Λήξη συνεδρίας.</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOff" xml:space="preserve">
+    <value>Μικρόφωνο απενεργοποιημένο</value>
+  </data>
+  <data name="TranslationPage_SpeakerOff" xml:space="preserve">
+    <value>Ηχείο απενεργοποιημένο</value>
+  </data>
+  <data name="TranslationTimeDepletedError" xml:space="preserve">
+    <value>Τα πρακτικά της μετάφρασής σας έχουν εξαντληθεί. Επικοινωνήστε με τον διαχειριστή σας.</value>
+  </data>
+  <data name="UnsupportedVersionDialogBtntext" xml:space="preserve">
+    <value>Ενημερώνω</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption" xml:space="preserve">
+    <value>Απαιτούνται κρίσιμες ενημερώσεις για </value>
+  </data>
+  <data name="UnsupportedVersionDialogDescription" xml:space="preserve">
+    <value>Ενημερώστε την εφαρμογή σας για να συνεχίσετε να λαμβάνετε ενημερώσεις δυνατοτήτων και ασφάλειας.</value>
+  </data>
+  <data name="UnsupportedVersionDialogTitle" xml:space="preserve">
+    <value>Μη υποστηριζόμενη έκδοση εφαρμογής</value>
+  </data>
+  <data name="UpdateDialogWhatsNew.Text" xml:space="preserve">
+    <value>Τι νέο υπάρχει?</value>
+  </data>
+  <data name="Zoom.Text" xml:space="preserve">
+    <value>Μεγένθυνση</value>
+  </data>
+  <data name="Add.Content" xml:space="preserve">
+    <value>Προσθέτω</value>
+  </data>
+  <data name="AddNewQuestion.Text" xml:space="preserve">
+    <value>Προσθήκη νέας προκαθορισμένης ερώτησης</value>
+  </data>
+  <data name="AddQuestion.Content" xml:space="preserve">
+    <value>Προσθήκη ερώτησης</value>
+  </data>
+  <data name="ChooseLanguage.Text" xml:space="preserve">
+    <value>Επιλέξτε την προεπιλεγμένη γλώσσα</value>
+  </data>
+  <data name="CustomProfileAdded" xml:space="preserve">
+    <value>Το όνομα προφίλ προστέθηκε με επιτυχία.</value>
+  </data>
+  <data name="CustomProfileDeleted" xml:space="preserve">
+    <value>Το προφίλ διαγράφηκε με επιτυχία.</value>
+  </data>
+  <data name="CustomProfileInvalidName" xml:space="preserve">
+    <value>Λάθος! Μη έγκυρο όνομα προφίλ.</value>
+  </data>
+  <data name="CustomProfileNotDeleted" xml:space="preserve">
+    <value>Δεν υπάρχει προφίλ για διαγραφή.</value>
+  </data>
+  <data name="CustomProfileNotSaved" xml:space="preserve">
+    <value>Λάθος! Δεν έχει αποθηκευτεί προφίλ.</value>
+  </data>
+  <data name="CustomProfileProfileSaved" xml:space="preserve">
+    <value>Το προφίλ αποθηκεύτηκε με επιτυχία.</value>
+  </data>
+  <data name="DataRequestMessage" xml:space="preserve">
+    <value>Δεν έχετε επιλέξει κείμενο. Επιλέξτε κείμενο για κοινή χρήση και προσπαθήστε ξανά.</value>
+  </data>
+  <data name="DevicesAddProfileButton.Content" xml:space="preserve">
+    <value>Προσθέτω</value>
+  </data>
+  <data name="DevicesAvailableProfiles.Text" xml:space="preserve">
+    <value>Διαθέσιμα προφίλ</value>
+  </data>
+  <data name="DevicesDefaultProfile.Text" xml:space="preserve">
+    <value>Προεπιλεγμένο προφίλ:</value>
+  </data>
+  <data name="DevicesDeleteProfileBtn.Content" xml:space="preserve">
+    <value>Διαγραφή προφίλ</value>
+  </data>
+  <data name="DeviceSetupChanged" xml:space="preserve">
+    <value>Οι συνδεδεμένες συσκευές ήχου ενημερώθηκαν </value>
+  </data>
+  <data name="DevicesHelpfulTip1.Text" xml:space="preserve">
+    <value>1. Ορίστε ένα όνομα προφίλ</value>
+  </data>
+  <data name="DevicesHelpfulTip2.Text" xml:space="preserve">
+    <value>2. Επιλέξτε λειτουργίες μονής ή διπλής συσκευής</value>
+  </data>
+  <data name="DevicesHelpfulTip3.Text" xml:space="preserve">
+    <value>3. Επιλέξτε ηχεία και μικρόφωνα</value>
+  </data>
+  <data name="DevicesHelpfulTip4.Text" xml:space="preserve">
+    <value>4. Ορίστε το προφίλ σας ως προεπιλεγμένο</value>
+  </data>
+  <data name="DevicesHelpfulTip5.Text" xml:space="preserve">
+    <value>5. Κάντε κλικ στο κουμπί Αποθήκευση προφίλ για να αποθηκεύσετε το προφίλ σας</value>
+  </data>
+  <data name="DevicesHelpfulTips.Text" xml:space="preserve">
+    <value>Χρήσιμες συμβουλές</value>
+  </data>
+  <data name="DevicesProfileNameTextBox.PlaceholderText" xml:space="preserve">
+    <value>Όνομα προφίλ...</value>
+  </data>
+  <data name="DevicesSaveProfileBtn.Content" xml:space="preserve">
+    <value>Αποθήκευση προφίλ</value>
+  </data>
+  <data name="DevicesSetasDefault.Text" xml:space="preserve">
+    <value>Ορισμός ως προεπιλογής</value>
+  </data>
+  <data name="DevicesSetProfileButton.Content" xml:space="preserve">
+    <value>Ορισμός προφίλ</value>
+  </data>
+  <data name="DevicesSetProfileText.Text" xml:space="preserve">
+    <value>Ορίστε ένα προσαρμοσμένο προφίλ;</value>
+  </data>
+  <data name="DiscardButton.Content" xml:space="preserve">
+    <value>Απορρίπτω</value>
+  </data>
+  <data name="DismissButton.Content" xml:space="preserve">
+    <value>Απολύω</value>
+  </data>
+  <data name="DismissText.Text" xml:space="preserve">
+    <value>Απολύω</value>
+  </data>
+  <data name="DownloadAudio.Text" xml:space="preserve">
+    <value>Λήψη ήχου</value>
+  </data>
+  <data name="DownloadCancel" xml:space="preserve">
+    <value>Η λήψη ακυρώθηκε</value>
+  </data>
+  <data name="Downloaded" xml:space="preserve">
+    <value>Κατεβάσει</value>
+  </data>
+  <data name="DownloadError" xml:space="preserve">
+    <value>Παρουσιάστηκε σφάλμα</value>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>Κατέβασμα</value>
+  </data>
+  <data name="DownloadPaused" xml:space="preserve">
+    <value>Λήψη σε παύση</value>
+  </data>
+  <data name="DualDeviceUpdated" xml:space="preserve">
+    <value>Η ρύθμιση διπλής συσκευής ενημερώθηκε με επιτυχία</value>
+  </data>
+  <data name="EnterQuestion.Text" xml:space="preserve">
+    <value>Εισαγάγετε την ερώτηση παρακάτω</value>
+  </data>
+  <data name="ErrorDescription.Text" xml:space="preserve">
+    <value>Οι αλλαγές σας δεν έχουν αποθηκευτεί, θέλετε να τις αποθηκεύσετε ή να τις απορρίψετε;</value>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>Κάτι πήγε στραβά.. Δοκίμασε ξανά</value>
+  </data>
+  <data name="ErrorTitle.Text" xml:space="preserve">
+    <value>Έχετε μη αποθηκευμένες αλλαγές</value>
+  </data>
+  <data name="FeedbackEight.Text" xml:space="preserve">
+    <value>Συνεχίζαμε να διακόπτουμε ο ένας τον άλλον</value>
+  </data>
+  <data name="FeedbackFive.Text" xml:space="preserve">
+    <value>Άκουσα ηχώ στην κλήση</value>
+  </data>
+  <data name="FeedbackFour.Text" xml:space="preserve">
+    <value>Πήρε φωνές φόντου</value>
+  </data>
+  <data name="FeedbackOne.Text" xml:space="preserve">
+    <value>Δεν πήρε σωστά τη φωνή μου</value>
+  </data>
+  <data name="FeedbackQuestion.Text" xml:space="preserve">
+    <value>Τι θα μπορούσε να ήταν καλύτερο;</value>
+  </data>
+  <data name="FeedbackSeven.Text" xml:space="preserve">
+    <value>Η συνεδρία έληξε απροσδόκητα</value>
+  </data>
+  <data name="FeedbackSix.Text" xml:space="preserve">
+    <value>Η ένταση ήταν πολύ χαμηλή</value>
+  </data>
+  <data name="FeedbackThanks.Text" xml:space="preserve">
+    <value>Ευχαριστώ για τα σχόλια</value>
+  </data>
+  <data name="FeedbackThree.Text" xml:space="preserve">
+    <value>Ο χρόνος μετάφρασης ήταν πολύ αργός</value>
+  </data>
+  <data name="FeedbackTwo.Text" xml:space="preserve">
+    <value>Μετέφρασε λανθασμένα τις προτάσεις μου</value>
+  </data>
+  <data name="ForcedUpdateDialogCaptionContinuation" xml:space="preserve">
+    <value>για να λειτουργήσει. Η εφαρμογή δεν θα λειτουργήσει χωρίς αυτές τις ενημερώσεις.</value>
+  </data>
+  <data name="Improvement.Text" xml:space="preserve">
+    <value>Θα συνεχίσουμε να εργαζόμαστε για τη βελτίωση της εμπειρίας σας.</value>
+  </data>
+  <data name="LanguageSettingsUpdated" xml:space="preserve">
+    <value>Οι γλωσσικές αλλαγές ενημερώνονται με επιτυχία</value>
+  </data>
+  <data name="NewVersionDialogDescription2" xml:space="preserve">
+    <value>και τη δική σας εκδοχή του</value>
+  </data>
+  <data name="NewVersionDialogDescription3" xml:space="preserve">
+    <value>μπορεί να μην υποστηρίζεται.</value>
+  </data>
+  <data name="Other.Text" xml:space="preserve">
+    <value>Λοιπά Σχόλια:</value>
+  </data>
+  <data name="PasswordUpdated" xml:space="preserve">
+    <value>Ο κωδικός πρόσβασης άλλαξε με επιτυχία</value>
+  </data>
+  <data name="PlaybackLanguageUpdated" xml:space="preserve">
+    <value>Η προεπιλεγμένη γλώσσα αναπαραγωγής άλλαξε με επιτυχία</value>
+  </data>
+  <data name="QuestionAdded" xml:space="preserve">
+    <value>Η ερώτηση προστέθηκε με επιτυχία</value>
+  </data>
+  <data name="QuestionDeleted" xml:space="preserve">
+    <value>Η ερώτηση διαγράφηκε με επιτυχία</value>
+  </data>
+  <data name="Questions.Text" xml:space="preserve">
+    <value>Ερωτήσεις</value>
+  </data>
+  <data name="QuestionSettingsInstructionTwo.Text" xml:space="preserve">
+    <value>* Κάθε ερώτηση πρέπει να έχει διαφορετικό πλήκτρο συντόμευσης.</value>
+  </data>
+  <data name="QuestionsValidationError.Text" xml:space="preserve">
+    <value>* Ελέγξτε τις επικυρώσεις σας και προσπαθήστε ξανά.</value>
+  </data>
+  <data name="QuickViewLanguagesUpdated" xml:space="preserve">
+    <value>Οι γλώσσες γρήγορης προβολής ενημερώνονται με επιτυχία</value>
+  </data>
+  <data name="SendFeedback.Content" xml:space="preserve">
+    <value>Αποστολή σχολίων</value>
+  </data>
+  <data name="SessionFeedbackPrompt" xml:space="preserve">
+    <value>Πώς θα αξιολογούσατε τη μεταφραστική σας συνεδρία;</value>
+  </data>
+  <data name="SessionFeedbackTitle" xml:space="preserve">
+    <value>Σχόλια μετάφρασης</value>
+  </data>
+  <data name="ShortcutSuccess" xml:space="preserve">
+    <value>Ερωτήσεις συντομεύσεις ενημερώθηκε με επιτυχία</value>
+  </data>
+  <data name="SingleDeviceUpdated" xml:space="preserve">
+    <value>Η ρύθμιση μίας συσκευής ενημερώθηκε με επιτυχία</value>
+  </data>
+  <data name="StartupPageTitleDescription2.Text" xml:space="preserve">
+    <value>λογισμικό μετάφρασης.</value>
+  </data>
+  <data name="TimeoutUpdated" xml:space="preserve">
+    <value>Το χρονικό όριο ενημερώνεται με επιτυχία</value>
+  </data>
+  <data name="TouchShareText" xml:space="preserve">
+    <value>Αγγίξτε Κοινή χρήση</value>
+  </data>
+  <data name="TranslationLanguageUpdated" xml:space="preserve">
+    <value>Η προεπιλεγμένη γλώσσα μετάφρασης άλλαξε με επιτυχία</value>
+  </data>
+  <data name="TranslationPlaybackUpdated" xml:space="preserve">
+    <value>Η προεπιλεγμένη γλώσσα μετάφρασης και αναπαραγωγής άλλαξε με επιτυχία</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption2" xml:space="preserve">
+    <value>για να λειτουργήσει. Οι λειτουργίες ενδέχεται να σταματήσουν να λειτουργούν χωρίς προειδοποίηση. Ενημερώστε την εφαρμογή.</value>
+  </data>
+  <data name="UserFlagSwitch" xml:space="preserve">
+    <value>Ενημερωμένη σημαία χρήστη για αλλαγή γλώσσας</value>
+  </data>
+</root>

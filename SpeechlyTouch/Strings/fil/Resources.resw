@@ -1,0 +1,1192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="AppDescription" xml:space="preserve">
+    <value>TalaTouchApp</value>
+  </data>
+  <data name="AppDisplayName" xml:space="preserve">
+    <value>TalaTouchApp</value>
+  </data>
+  <data name="AudioDeviceSelector_MicDropdown.PlaceholderText" xml:space="preserve">
+    <value>Pumili ng mikropono</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneMic.Text" xml:space="preserve">
+    <value>Person One Mikropono</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneSpeaker.Text" xml:space="preserve">
+    <value>Persona Isang Tagapagsalita</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoMic.Text" xml:space="preserve">
+    <value>Taong Dalawang Mikropono</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoSpeaker.Text" xml:space="preserve">
+    <value>Tagapagsalita ng Tao Dalawang Tao</value>
+  </data>
+  <data name="AudioDeviceSelector_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>Pumili ng isang tagapagsalita</value>
+  </data>
+  <data name="BluetoothPairingDialog_Description.Text" xml:space="preserve">
+    <value>Tiyaking nakabukas ang iyong aparato at natutuklasan. Pumili ng device sa ibaba para kumonekta.</value>
+  </data>
+  <data name="BluetoothPairingDialog_Title.Text" xml:space="preserve">
+    <value>Magdagdag ng device</value>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>Kanselahin</value>
+  </data>
+  <data name="ChangePasscodeDialog_Confirm.Text" xml:space="preserve">
+    <value>Kumpirmahin ang Bagong Passcode</value>
+  </data>
+  <data name="ChangePasscodeDialog_Current.Text" xml:space="preserve">
+    <value>Kasalukuyang Passcode</value>
+  </data>
+  <data name="ChangePasscodeDialog_New.Text" xml:space="preserve">
+    <value>Bagong Passcode</value>
+  </data>
+  <data name="ChangePasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Baguhin ang Passcode</value>
+  </data>
+  <data name="Close.Content" xml:space="preserve">
+    <value>Isara ang</value>
+  </data>
+  <data name="ConsentDialog_Description1.Text" xml:space="preserve">
+    <value>Ang mga alalahanin sa privacy ay ang aming numero unong prayoridad. (5) Tinatanggap mo ang mga tuntunin at kundisyon ng Patakaran sa Pagkapribado na ito sa iyong mobile phone o tablet, kung naaangkop.</value>
+  </data>
+  <data name="ConsentDialog_Description2.Text" xml:space="preserve">
+    <value>Kung pipiliin mong huwag payagan kaming ma access kapag nakatanggap kami ng kahilingan para sa pahintulot (ang mga naturang kahilingan ay aabisuhan sa www ICTS website sa :</value>
+  </data>
+  <data name="ConsentDialog_Description3.Text" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int</value>
+  </data>
+  <data name="ConsentDialog_Description4.Text" xml:space="preserve">
+    <value>), pagkatapos ay hindi ang email address na ibinigay o anumang iba pang personal na impormasyon na maaaring tukuyin ang isang indibidwal ay maaari ring dumating sa aming pag aari sa sandaling ang naturang pahintulot ay ipinagkaloob.</value>
+  </data>
+  <data name="ConsentDialog_Description5.Text" xml:space="preserve">
+    <value>Sa pamamagitan ng paggamit ng ilang mga bahagi: /Ang paggamit sa pamamagitan ng sa akin ng aking Mobile Phone / Icon - na maaaring isama ang pagpapahintulot sa iba sa mga chat room tungkol sa mga produkto tulad ng</value>
+  </data>
+  <data name="ConsentDialog_HyperLink.NavigateUri" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int/</value>
+  </data>
+  <data name="ConsentDialog_Title.Text" xml:space="preserve">
+    <value>Pinahahalagahan namin ang Iyong Privacy</value>
+  </data>
+  <data name="Dashboard_Choose_Language.Text" xml:space="preserve">
+    <value>Pumili ng Wika</value>
+  </data>
+  <data name="Dashboard_Hello.Text" xml:space="preserve">
+    <value>Hello po</value>
+  </data>
+  <data name="Dashboard_SearchBox.PlaceholderText" xml:space="preserve">
+    <value>Wika ng Paghahanap</value>
+  </data>
+  <data name="Dashboard_Welcome.Text" xml:space="preserve">
+    <value>Maligayang pagdating</value>
+  </data>
+  <data name="DevicesErrorDialog_NoDeviceError" xml:space="preserve">
+    <value>Wala kang (mga) na-save na device. Pumunta sa Mga Setting -&gt; Mga Device para pumili ng Mikropono at Speaker pagkatapos ay mag-click sa I-save.</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Description.Text" xml:space="preserve">
+    <value>Magagamit na mga aparatong bluetooth</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_DropDown.PlaceholderText" xml:space="preserve">
+    <value>Piliin ang bluetooth device</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Scan.Text" xml:space="preserve">
+    <value>Mag-scan</value>
+  </data>
+  <data name="DevicesPage_Bluetooth.Text" xml:space="preserve">
+    <value>Bluetooth</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices_Description.Text" xml:space="preserve">
+    <value>Piliin ang iyong audio device</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices.Text" xml:space="preserve">
+    <value>Mga Nakakonektang Audio Device</value>
+  </data>
+  <data name="DevicesPage_MicDropDown.PlaceholderText" xml:space="preserve">
+    <value>Pumili ng mikropono</value>
+  </data>
+  <data name="DevicesPage_Network_Description.Text" xml:space="preserve">
+    <value>Magagamit na mga network</value>
+  </data>
+  <data name="DevicesPage_Network_DropDown.PlaceholderText" xml:space="preserve">
+    <value>Pumili ng network</value>
+  </data>
+  <data name="DevicesPage_Network.Text" xml:space="preserve">
+    <value>Network</value>
+  </data>
+  <data name="DevicesPage_NetworkError" xml:space="preserve">
+    <value>Walang network na napili. Suriin ang iyong mga koneksyon sa network.</value>
+  </data>
+  <data name="DevicesPage_PersonOne_Speaker.Text" xml:space="preserve">
+    <value>Person one speaker</value>
+  </data>
+  <data name="DevicesPage_PersonOneMic.Text" xml:space="preserve">
+    <value>Taong isang mikropono</value>
+  </data>
+  <data name="DevicesPage_PersonTwo_Mic.Text" xml:space="preserve">
+    <value>Taong dalawang mikropono</value>
+  </data>
+  <data name="DevicesPage_Scan" xml:space="preserve">
+    <value>Mag-scan</value>
+  </data>
+  <data name="DevicesPage_Scanning" xml:space="preserve">
+    <value>Pag scan ...</value>
+  </data>
+  <data name="DevicesPage_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>Pumili ng isang tagapagsalita</value>
+  </data>
+  <data name="DevicesPage_Status_Connect" xml:space="preserve">
+    <value>Kumonekta</value>
+  </data>
+  <data name="DevicesPage_Status_Connected" xml:space="preserve">
+    <value>Nakakonekta</value>
+  </data>
+  <data name="DevicesPage_Status_Connecting" xml:space="preserve">
+    <value>Pagkonekta ...</value>
+  </data>
+  <data name="DevicesPage_Status_Off" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="DevicesPage_Status_On" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="DevicesPager_PersonTwo_Speaker.Text" xml:space="preserve">
+    <value>Persona dalawang tagapagsalita</value>
+  </data>
+  <data name="EnterPasscodeDialog_Description.Text" xml:space="preserve">
+    <value>Ipasok lamang ang iyong passcode upang ma access ang pahina ng mga setting</value>
+  </data>
+  <data name="EnterPasscodeDialog_ForgotPasscode.Content" xml:space="preserve">
+    <value>Nakalimutan mo ba ang Passcode?</value>
+  </data>
+  <data name="EnterPasscodeDialog_InvalidPasscode.Text" xml:space="preserve">
+    <value>Imbalidong Passcode! Try mo na lang ulit.</value>
+  </data>
+  <data name="EnterPasscodeDialog_Passcode.Text" xml:space="preserve">
+    <value>Passcode</value>
+  </data>
+  <data name="EnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Ipasok ang iyong passcode</value>
+  </data>
+  <data name="IAgree.Content" xml:space="preserve">
+    <value>agree ako dun</value>
+  </data>
+  <data name="InvalidLicenseDialog_Description.Text" xml:space="preserve">
+    <value>Nabigo ang iyong pag verify ng lisensya</value>
+  </data>
+  <data name="InvalidLicenseDialog_Title.Text" xml:space="preserve">
+    <value>Imbalidong Lisensya</value>
+  </data>
+  <data name="LoginFailedDialog_Button.Content" xml:space="preserve">
+    <value>Bumalik ka na</value>
+  </data>
+  <data name="LoginFailedDialog_Description.Text" xml:space="preserve">
+    <value>Nabigo ang iyong pagtatangka sa pag login.</value>
+  </data>
+  <data name="LoginFailedDialog_Title.Text" xml:space="preserve">
+    <value>Nabigo ang Pag-login</value>
+  </data>
+  <data name="Main_Title.Text" xml:space="preserve">
+    <value>Pangunahing</value>
+  </data>
+  <data name="PasswordPopup_SetupTitle.Text" xml:space="preserve">
+    <value>Pag setup ng isang Passcode</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Description1.Text" xml:space="preserve">
+    <value>Ipasok muli ang iyong passcode upang patuloy na i edit...</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Ipasok muli ang iyong passcode</value>
+  </data>
+  <data name="RenterPasscodeDialog_Description2.Text" xml:space="preserve">
+    <value>auto pag save at pag uwi sa bahay</value>
+  </data>
+  <data name="Save.Content" xml:space="preserve">
+    <value>Mag-ipon</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Description.Text" xml:space="preserve">
+    <value>Ito ay isang sample na pahina na magpapakita ng mga parameter ng pag activate kung ang app ay na activate mula sa Deep Linking.</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Title.Text" xml:space="preserve">
+    <value>SchemeActivationSample</value>
+  </data>
+  <data name="SetPasscodeDialog_ConfirmPasscode.Text" xml:space="preserve">
+    <value>Kumpirmahin ang Bagong Passcode </value>
+  </data>
+  <data name="SetPasscodeDialog_NewPasscode.Text" xml:space="preserve">
+    <value>Bagong Passcode</value>
+  </data>
+  <data name="SetPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Pag setup ng isang Passcode</value>
+  </data>
+  <data name="Settings_About.Text" xml:space="preserve">
+    <value>Tungkol sa application na ito</value>
+  </data>
+  <data name="Settings_AboutDescription.Text" xml:space="preserve">
+    <value>Mga setting page placeholder text.  Ang iyong paglalarawan ng app ay napupunta dito.</value>
+  </data>
+  <data name="Settings_Personalization.Text" xml:space="preserve">
+    <value>Personalisasyon</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.Content" xml:space="preserve">
+    <value>Pahayag sa Pagkapribado</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.NavigateUri" xml:space="preserve">
+    <value>https://YourPrivacyUrlGoesHere/</value>
+  </data>
+  <data name="Settings_Theme_Dark.Content" xml:space="preserve">
+    <value>Madilim</value>
+  </data>
+  <data name="Settings_Theme_Default.Content" xml:space="preserve">
+    <value>Default ng Windows</value>
+  </data>
+  <data name="Settings_Theme_Light.Content" xml:space="preserve">
+    <value>Liwanag</value>
+  </data>
+  <data name="Settings_Theme.Text" xml:space="preserve">
+    <value>Pumili ng Tema</value>
+  </data>
+  <data name="Settings_Title.Text" xml:space="preserve">
+    <value>Mga Setting</value>
+  </data>
+  <data name="SettingsPage_Devices" xml:space="preserve">
+    <value>Mga Device</value>
+  </data>
+  <data name="SettingsPage_Language" xml:space="preserve">
+    <value>Wika</value>
+  </data>
+  <data name="SettingsPage_Profile" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="SettingsPage_Questions" xml:space="preserve">
+    <value>Mga Tanong</value>
+  </data>
+  <data name="SettingsPage_Title" xml:space="preserve">
+    <value>Mga Setting</value>
+  </data>
+  <data name="ShellView_Help" xml:space="preserve">
+    <value>Tulong</value>
+  </data>
+  <data name="ShellView_History" xml:space="preserve">
+    <value>Kasaysayan</value>
+  </data>
+  <data name="ShellView_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="ShellView_Settings.Text" xml:space="preserve">
+    <value>Mga Setting</value>
+  </data>
+  <data name="Sign_In.Text" xml:space="preserve">
+    <value>Mag-sign In</value>
+  </data>
+  <data name="SignInDialog_Description.Text" xml:space="preserve">
+    <value>Agad na makipag usap sa maraming mga pandaigdigang wika sa iyong Jabra device.</value>
+  </data>
+  <data name="SignInDialog_SignInButton.Content" xml:space="preserve">
+    <value>Mag-sign In</value>
+  </data>
+  <data name="Translate_Button.Text" xml:space="preserve">
+    <value>Isalin</value>
+  </data>
+  <data name="TranslationPage_EndSession.Text" xml:space="preserve">
+    <value>Tapusin ang sesyon</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOn" xml:space="preserve">
+    <value>Mikropono Sa</value>
+  </data>
+  <data name="TranslationPage_SpeakerOn" xml:space="preserve">
+    <value>Tagapagsalita Tungkol sa</value>
+  </data>
+  <data name="TranslationPage_SpeakNow.Text" xml:space="preserve">
+    <value>Magsalita Ngayon</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Tungkol sa</value>
+  </data>
+  <data name="AboutPage_AppVersion.Text" xml:space="preserve">
+    <value>Bersyon ng Application</value>
+  </data>
+  <data name="AboutPage_CheckUpdate.Content" xml:space="preserve">
+    <value>Tingnan ang mga update</value>
+  </data>
+  <data name="AboutPage_DataConsent" xml:space="preserve">
+    <value>Nagbigay ng pahintulot ang iyong organisasyon na i-save ang iyong data sa ulap.</value>
+  </data>
+  <data name="AboutPage_NoDataConsent" xml:space="preserve">
+    <value>Hindi nagbigay ng pahintulot ang iyong organisasyon na i-save ang iyong data sa ulap.</value>
+  </data>
+  <data name="AboutPage_Published.Text" xml:space="preserve">
+    <value>Inilathala ng FITTS Limited.</value>
+  </data>
+  <data name="AppClose_Close.Content" xml:space="preserve">
+    <value>Close pa rin</value>
+  </data>
+  <data name="AppClose_Dismiss.Content" xml:space="preserve">
+    <value>Kanselahin</value>
+  </data>
+  <data name="AppClose_Warning.Text" xml:space="preserve">
+    <value>May session ka na ginagawa. Tapusin muna ang session bago lumabas ng application.</value>
+  </data>
+  <data name="AppVersion.Text" xml:space="preserve">
+    <value>Bersyon ng app</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Button.Content" xml:space="preserve">
+    <value>Magpatuloy sa Session</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Description.Text" xml:space="preserve">
+    <value>Ang sesyon ay magtatapos sa</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Title.Text" xml:space="preserve">
+    <value>Hindi Natukoy ang Audio</value>
+  </data>
+  <data name="AudioPlayer_Error.Text" xml:space="preserve">
+    <value>Nabigo sa pag-load ng audio</value>
+  </data>
+  <data name="DashboardPage_DefaultLanguageError" xml:space="preserve">
+    <value>Wala kang naka save na Default na Pagsasalin Wika. Pumunta sa Mga Setting -&gt; Languages para pumili ng Default Translation Language pagkatapos ay mag-click sa I-save.</value>
+  </data>
+  <data name="DashboardPage_TargetLanguageError" xml:space="preserve">
+    <value>Wala kang piniling Target Translation Language. Mabait na pumili ng isang wika pagkatapos ay mag click sa Isalin.</value>
+  </data>
+  <data name="DevicesErrorDialog_DualDeviceError" xml:space="preserve">
+    <value>Pinili mo ang pagsasalin ng Dual Device ngunit wala kang (mga) aparato na pinili para sa Tao 2. Pumunta sa Mga Setting -&gt; Mga Device para pumili ng Mikropono at Speaker pagkatapos ay mag-click sa I-save.</value>
+  </data>
+  <data name="DevicesPage_Title.Text" xml:space="preserve">
+    <value>Mga Device</value>
+  </data>
+  <data name="DevicesPage_Wifi_Password.Text" xml:space="preserve">
+    <value>Ipasok ang Password</value>
+  </data>
+  <data name="DevicesPage_WifiStatus.Text" xml:space="preserve">
+    <value>Katayuan ng wifi</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>I-edit</value>
+  </data>
+  <data name="Expiry.Text" xml:space="preserve">
+    <value>Pag-expire</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Feedback</value>
+  </data>
+  <data name="FeedbackMessage.Text" xml:space="preserve">
+    <value>Kung mayroon kang anumang feedback o mga query huwag mag atubiling makipag ugnay.</value>
+  </data>
+  <data name="GetInTouchButton.Text" xml:space="preserve">
+    <value>Makipag ugnayan sa</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Tulong</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>Kasaysayan</value>
+  </data>
+  <data name="History_ExportBtn.Text" xml:space="preserve">
+    <value>I-export ang</value>
+  </data>
+  <data name="HistoryExportButtonTooltip.Text" xml:space="preserve">
+    <value>I-export ang</value>
+  </data>
+  <data name="HistoryListColumnDate.Text" xml:space="preserve">
+    <value>Petsa</value>
+  </data>
+  <data name="HistoryListColumnDuration.Text" xml:space="preserve">
+    <value>Tagal ng panahon</value>
+  </data>
+  <data name="HistoryListColumnPrimaryLanguage.Text" xml:space="preserve">
+    <value>Pangunahing Wika</value>
+  </data>
+  <data name="HistoryListColumnSecondaryLanguage.Text" xml:space="preserve">
+    <value>Ikalawang Wika</value>
+  </data>
+  <data name="HistoryListColumnSessionId.Text" xml:space="preserve">
+    <value>Session ID</value>
+  </data>
+  <data name="InitalSetup_SkipSetup.Content" xml:space="preserve">
+    <value>Laktawan ang pag setup</value>
+  </data>
+  <data name="InitialNetworkPopupConnectButton.Content" xml:space="preserve">
+    <value>Kumonekta</value>
+  </data>
+  <data name="InitialSetup_DeviceSelection.Text" xml:space="preserve">
+    <value>Pagpili ng Device</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionDescription.Text" xml:space="preserve">
+    <value>I set up ang iyong default na audio device</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneMicrophone.Text" xml:space="preserve">
+    <value>Piliin ang Mikropono</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneSpeaker.Text" xml:space="preserve">
+    <value>Piliin ang Speaker</value>
+  </data>
+  <data name="InitialSetup_FinishSetup.Content" xml:space="preserve">
+    <value>Tapos na ang setup</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection_Description.Text" xml:space="preserve">
+    <value>I-set up ang iyong default na wika ng pagsasalin</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection.Text" xml:space="preserve">
+    <value>Pagpili ng Wika</value>
+  </data>
+  <data name="InitialSetup_NetworkSelection.Text" xml:space="preserve">
+    <value>Mas gusto ang network</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopup.Text" xml:space="preserve">
+    <value>Kumonekta sa Network</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopupPassword.Text" xml:space="preserve">
+    <value>Ipasok ang Password:</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionDescription.Text" xml:space="preserve">
+    <value>Pumili mula sa isa sa mga magagamit na network</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionNoInternetConnection.Text" xml:space="preserve">
+    <value>Hindi ka nakakonekta sa internet. Mangyaring suriin ang iyong mga koneksyon sa network.</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionOtherNetworks.Text" xml:space="preserve">
+    <value>Iba pang mga Network</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup_Description.Text" xml:space="preserve">
+    <value>Pag setup ng passcode ng iyong app</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup.Text" xml:space="preserve">
+    <value>Passcode Setup</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Wika</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage_Description.Text" xml:space="preserve">
+    <value>Pumili ng Application Language</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage.Text" xml:space="preserve">
+    <value>Wika ng App</value>
+  </data>
+  <data name="LanguagesPage_AppLanguageDropdown.PlaceholderText" xml:space="preserve">
+    <value>Pumili ng wika</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage_Description.Text" xml:space="preserve">
+    <value>Ang default na wika na ginagamit mo</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage.Text" xml:space="preserve">
+    <value>Ang default na wika ko</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguageDropDown.PlaceholderText" xml:space="preserve">
+    <value>Pumili ng wika</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description.Text" xml:space="preserve">
+    <value>History section (para sa mga pagsasalin ng maraming aparato)</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description1.Text" xml:space="preserve">
+    <value>* Mga Pagsasalin ng Single Device Play ang Lahat ng Audio bilang Default *</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage.Text" xml:space="preserve">
+    <value>Default na Wika ng Pag playback</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguages.Text" xml:space="preserve">
+    <value>Quick view Mga wika</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguagesDropdown.PlaceholderText" xml:space="preserve">
+    <value>Magdagdag ng wika</value>
+  </data>
+  <data name="LanguagesPage_Title.Text" xml:space="preserve">
+    <value>Mga Wika</value>
+  </data>
+  <data name="Licence" xml:space="preserve">
+    <value>Lisensya</value>
+  </data>
+  <data name="LicenseType.Text" xml:space="preserve">
+    <value>Uri ng Lisensya:</value>
+  </data>
+  <data name="NetworkConnectionError" xml:space="preserve">
+    <value>Error:</value>
+  </data>
+  <data name="Next.Content" xml:space="preserve">
+    <value>Susunod</value>
+  </data>
+  <data name="PasscodeError_MinimumLength" xml:space="preserve">
+    <value>Minimum na haba ng passcode ay dapat na 4.</value>
+  </data>
+  <data name="PasscodeError_NotMatching" xml:space="preserve">
+    <value>Ang mga passcode na ipinasok ay hindi tumutugma. Mabait na ipasok muli ang mga passcode pagkatapos ay subukang muli.</value>
+  </data>
+  <data name="Person.Text" xml:space="preserve">
+    <value>Tao na tao</value>
+  </data>
+  <data name="PrivacyPolicy.Text" xml:space="preserve">
+    <value>Patakaran sa Pagkapribado</value>
+  </data>
+  <data name="ProfilePage_Email_Description.Text" xml:space="preserve">
+    <value>Default na email sa pag export</value>
+  </data>
+  <data name="ProfilePage_Email.Text" xml:space="preserve">
+    <value>Mag-email</value>
+  </data>
+  <data name="ProfilePage_Passcode_Description.Text" xml:space="preserve">
+    <value>Ang passcode ng iyong application</value>
+  </data>
+  <data name="ProfilePage_Passcode.Text" xml:space="preserve">
+    <value>Passcode</value>
+  </data>
+  <data name="ProfilePage_Timeout_Description.Text" xml:space="preserve">
+    <value>Dalas ng admin mode lock</value>
+  </data>
+  <data name="ProfilePage_Timeout.Text" xml:space="preserve">
+    <value>Admin mode timeout</value>
+  </data>
+  <data name="ProfilePage_TimeoutDropdown.PlaceholderText" xml:space="preserve">
+    <value>Pumili ng isang oras</value>
+  </data>
+  <data name="ProfilePage_Title.Text" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="PublishedBy.Text" xml:space="preserve">
+    <value>Nai publish sa pamamagitan ng</value>
+  </data>
+  <data name="ReleaseNotesMessage.Text" xml:space="preserve">
+    <value>Ang mga tala ng paglabas ay maa update sa lalong madaling panahon</value>
+  </data>
+  <data name="Save_Text" xml:space="preserve">
+    <value>Mag-ipon</value>
+  </data>
+  <data name="SessionDetailsPage_Description.Text" xml:space="preserve">
+    <value>Kasaysayan ng Transcription</value>
+  </data>
+  <data name="SessionDetailsPage_Duration.Text" xml:space="preserve">
+    <value>Tagal ng panahon</value>
+  </data>
+  <data name="SessionDetailsPage_SessionID.Text" xml:space="preserve">
+    <value>Session ID</value>
+  </data>
+  <data name="SessionDetailsPage_Title.Text" xml:space="preserve">
+    <value>Kasaysayan</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Mga Setting</value>
+  </data>
+  <data name="TermsOfUse.Text" xml:space="preserve">
+    <value>Mga Tuntunin sa Paggamit</value>
+  </data>
+  <data name="TranslationPage_SettingUpState" xml:space="preserve">
+    <value>Pag set up ng ...</value>
+  </data>
+  <data name="TranslationPage_SpeakFast" xml:space="preserve">
+    <value>Subukan ang pagsasalita ng isang bit mas mabilis para sa mas mahusay na mga resulta ng pagsasalin.</value>
+  </data>
+  <data name="TranslationPage_SpeakIn" xml:space="preserve">
+    <value>Magsalita ka sa</value>
+  </data>
+  <data name="TranslationPage_SpeakSlow" xml:space="preserve">
+    <value>Subukang magsalita nang mas mabagal para sa mas mahusay na mga resulta ng pagsasalin.</value>
+  </data>
+  <data name="TranslationPage_Switching" xml:space="preserve">
+    <value>Paglipat ng</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonOne" xml:space="preserve">
+    <value>Lumipat sa tao 1</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonTwo" xml:space="preserve">
+    <value>Lumipat sa tao 2</value>
+  </data>
+  <data name="TranslationPage_TranslationReadyState" xml:space="preserve">
+    <value>Magsalita ka na ngayon</value>
+  </data>
+  <data name="Website.Text" xml:space="preserve">
+    <value>Website</value>
+  </data>
+  <data name="WhatsNew" xml:space="preserve">
+    <value>Ano ang Bago</value>
+  </data>
+  <data name="WhatsNewInSpeechly.Text" xml:space="preserve">
+    <value>Ano ang bago sa</value>
+  </data>
+  <data name="AudioDevicesSelectorDualDevice.Content" xml:space="preserve">
+    <value>Dual Device</value>
+  </data>
+  <data name="AudioDevicesSelectorSingleDevice.Content" xml:space="preserve">
+    <value>Single Device</value>
+  </data>
+  <data name="AutoDetectSearchCountry.PlaceholderText" xml:space="preserve">
+    <value>Maghanap ng bansa</value>
+  </data>
+  <data name="AutoDetectSelectLanguage.Text" xml:space="preserve">
+    <value>Piliin ang iyong wika</value>
+  </data>
+  <data name="ChatViewPersonOne" xml:space="preserve">
+    <value>Tao Isa</value>
+  </data>
+  <data name="ChatViewPersonTwo" xml:space="preserve">
+    <value>Persona Dalawang</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionLost" xml:space="preserve">
+    <value>Nawala ang koneksyon sa Internet. Kindly check mo connection then try mo ulit.</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionUnstable" xml:space="preserve">
+    <value>Mabagal ang internet connection mo. Maaari kang makaranas ng ilang lag.</value>
+  </data>
+  <data name="CustomTagSelectionTitle.Text" xml:space="preserve">
+    <value>Mga Tag ng Organisasyon (piliin upang idagdag)</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.Header" xml:space="preserve">
+    <value>Flag ng gumagamit upang lumipat ng wika</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OffContent" xml:space="preserve">
+    <value>Hindi pinagana</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OnContent" xml:space="preserve">
+    <value>Pinagana</value>
+  </data>
+  <data name="DetectLanguageButton.Content" xml:space="preserve">
+    <value>Tuklasin ang Wika</value>
+  </data>
+  <data name="DevicesPageNetworkSetupBluetoothStatus.Text" xml:space="preserve">
+    <value>Katayuan ng Bluetooth :</value>
+  </data>
+  <data name="DevicesPageNetworkSetupConnectAutomatically.Text" xml:space="preserve">
+    <value>Awtomatikong Kumonekta</value>
+  </data>
+  <data name="DevicesPageNetworkSetupWiFiStatus.Text" xml:space="preserve">
+    <value>Katayuan ng WiFi :</value>
+  </data>
+  <data name="Dimiss.Content" xml:space="preserve">
+    <value>Kanselahin</value>
+  </data>
+  <data name="Duration.Text" xml:space="preserve">
+    <value>|  Tagal ng panahon</value>
+  </data>
+  <data name="EmailPopup_Description.Text" xml:space="preserve">
+    <value>Ipasok ang iyong email address</value>
+  </data>
+  <data name="EmailPopup_Title.Text" xml:space="preserve">
+    <value>Mag email sa iyong session</value>
+  </data>
+  <data name="ForcedUpdateDialogCaption" xml:space="preserve">
+    <value>Mayroon kaming mga kritikal na update para sa</value>
+  </data>
+  <data name="ForcedUpdateDialogInstallBtnText" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="ForcedUpdateDialogTitle" xml:space="preserve">
+    <value>Mga Kritikal na Update</value>
+  </data>
+  <data name="GoBack.Content" xml:space="preserve">
+    <value>Bumalik ka na</value>
+  </data>
+  <data name="HelpPageSignOut.Content" xml:space="preserve">
+    <value>Mag-sign Out</value>
+  </data>
+  <data name="History_Export.Text" xml:space="preserve">
+    <value>Pagbuo ng file...</value>
+  </data>
+  <data name="HistoryListColumnSessionName.Text" xml:space="preserve">
+    <value>Pangalan</value>
+  </data>
+  <data name="HistoryListColumnSynced.Text" xml:space="preserve">
+    <value>Naka-sync na</value>
+  </data>
+  <data name="HistorySearchBox.PlaceholderText" xml:space="preserve">
+    <value>Wika, pangalan ng session, mga tag o ID</value>
+  </data>
+  <data name="HistorySearchButtonTooltip.Text" xml:space="preserve">
+    <value>Maghanap</value>
+  </data>
+  <data name="HistorySearchClearButtonTooltip.Text" xml:space="preserve">
+    <value>Malinaw na</value>
+  </data>
+  <data name="HistorySearchFromDate.Header" xml:space="preserve">
+    <value>Mula sa:</value>
+  </data>
+  <data name="HistorySearchToDate.Header" xml:space="preserve">
+    <value>Sa:</value>
+  </data>
+  <data name="HistoryShareButtonTooltip.Text" xml:space="preserve">
+    <value>Ibahagi/Ipadala</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonOne.Text" xml:space="preserve">
+    <value>Tao 1</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonTwo.Text" xml:space="preserve">
+    <value>Tao 2</value>
+  </data>
+  <data name="LoginPageTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NewVersionDialogCaption" xml:space="preserve">
+    <value>Mag install ng bagong bersyon ng app ng</value>
+  </data>
+  <data name="NewVersionDialogDescription" xml:space="preserve">
+    <value>Ang mga bagong tampok at pag aayos ng bug ay mawawala mula sa </value>
+  </data>
+  <data name="NewVersionDialogInstallBtnText" xml:space="preserve">
+    <value>Mag-install ng Bagong Bersyon</value>
+  </data>
+  <data name="NewVersionDialogTitle" xml:space="preserve">
+    <value>Bagong Bersyon ng App</value>
+  </data>
+  <data name="NextText" xml:space="preserve">
+    <value>Susunod</value>
+  </data>
+  <data name="ProfilePageEditButton.Content" xml:space="preserve">
+    <value>I-edit</value>
+  </data>
+  <data name="QuestionsButton.Content" xml:space="preserve">
+    <value>Tingnan sa mga Tanong</value>
+  </data>
+  <data name="QuestionSettingsDescription.Text" xml:space="preserve">
+    <value>Tingnan o baguhin ang iyong mga shortcut sa tanong</value>
+  </data>
+  <data name="QuestionSettingsInstructionOne.Text" xml:space="preserve">
+    <value>* Gamitin ang mga numero 1-9 para sa bawat tanong. Hindi isasaalang alang ang zero (0).</value>
+  </data>
+  <data name="QuestionSettingsInstructionThree.Text" xml:space="preserve">
+    <value>* Maaari ka lamang mag-assign ng mga shortcut sa 9 na tanong.</value>
+  </data>
+  <data name="QuestionSettingsListTitle.Text" xml:space="preserve">
+    <value>Listahan ng mga Tanong :</value>
+  </data>
+  <data name="ResellerEmailAddress.Text" xml:space="preserve">
+    <value>Email Address ng Reseller :</value>
+  </data>
+  <data name="ResellerName.Text" xml:space="preserve">
+    <value>Pangalan ng Reseller :</value>
+  </data>
+  <data name="SelectFlag.Text" xml:space="preserve">
+    <value>Piliin ang iyong bandila:</value>
+  </data>
+  <data name="Send.Content" xml:space="preserve">
+    <value>Ipadala ang</value>
+  </data>
+  <data name="SessionDetailsPage_SessionName.Text" xml:space="preserve">
+    <value>Pangalan ng Sesyon</value>
+  </data>
+  <data name="SessionID.Text" xml:space="preserve">
+    <value>Session ID : -</value>
+  </data>
+  <data name="SessionMetadataDialog_ContinueButton.Text" xml:space="preserve">
+    <value>Magpatuloy</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTags.Text" xml:space="preserve">
+    <value>Pasadyang (mga) Tag</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Ipasok ang pangalan ng tag dito</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextboxHelper.Text" xml:space="preserve">
+    <value>Pindutin ang Enter</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTags.Text" xml:space="preserve">
+    <value>(Mga) Default na Tag</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Ipasok ang halaga dito</value>
+  </data>
+  <data name="SessionMetadataDialog_Description.Text" xml:space="preserve">
+    <value>Ang mga mandatory field ay minarkahan ng '</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionName.Text" xml:space="preserve">
+    <value>Pangalan ng Sesyon</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionNameTextbox.PlaceholderText" xml:space="preserve">
+    <value>e.g pasyente zero</value>
+  </data>
+  <data name="SessionMetadataDialog_Title.Text" xml:space="preserve">
+    <value>Magdagdag ng isang pangalan ng session at mga tag</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorActionMessage" xml:space="preserve">
+    <value>Mangyaring kontakin ang iyong administrator upang i-activate ang iyong account.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorMessage" xml:space="preserve">
+    <value>Deactivated na ang account mo.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorActionMessage" xml:space="preserve">
+    <value>Mangyaring kontakin ang iyong administrator upang lumikha ng iyong account.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorMessage" xml:space="preserve">
+    <value>Nabura na ang account mo.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorActionMessage" xml:space="preserve">
+    <value>Mangyaring kontakin ang iyong administrator para paganahin ang iyong account.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorMessage" xml:space="preserve">
+    <value>Hindi pinagana ang iyong account.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorActionMessage" xml:space="preserve">
+    <value>Mangyaring kontakin ang iyong administrator upang lumikha ng iyong account.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorMessage" xml:space="preserve">
+    <value>Wala kang aktibong Account.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorActionMessage" xml:space="preserve">
+    <value>Mangyaring makipag ugnay sa iyong administrator upang i renew ang iyong lisensya.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorMessage" xml:space="preserve">
+    <value>Nag expire na ang licence mo.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorActionMessage" xml:space="preserve">
+    <value>Mangyaring kontakin ang iyong administrator upang i-activate ang iyong lisensya.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorMessage" xml:space="preserve">
+    <value>Deactivated na ang licence mo.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorActionMessage" xml:space="preserve">
+    <value>Mangyaring kontakin ang iyong administrator.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorMessage" xml:space="preserve">
+    <value>Suspendido na ang lisensya mo.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorActionMessage" xml:space="preserve">
+    <value>Mangyaring kontakin ang iyong administrator upang magtalaga ng lisensya sa iyo.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorMessage" xml:space="preserve">
+    <value>Wala kang nakatalagang lisensya sa iyo.</value>
+  </data>
+  <data name="StartupPage2020.Text" xml:space="preserve">
+    <value>2021 </value>
+  </data>
+  <data name="StartupPageErrorDescription.Text" xml:space="preserve">
+    <value>May nangyaring error. Paki check ang iyong Internet Connection pagkatapos ay subukang muli.</value>
+  </data>
+  <data name="StartupPagePoweredBy.Text" xml:space="preserve">
+    <value>Pinapatakbo ng </value>
+  </data>
+  <data name="StartupPageProgressDescription.Text" xml:space="preserve">
+    <value>Maaaring tumagal ito ng ilang segundo</value>
+  </data>
+  <data name="StartupPageRetryButton.Content" xml:space="preserve">
+    <value>Subukang muli</value>
+  </data>
+  <data name="StartupPageRightsReserved.Text" xml:space="preserve">
+    <value>Lahat ng karapatan ay nakalaan.</value>
+  </data>
+  <data name="StartUpPageSettingUpMessage" xml:space="preserve">
+    <value>Nagse-set up ng...</value>
+  </data>
+  <data name="StartupPageTitleDescription.Text" xml:space="preserve">
+    <value>Maligayang pagdating sa </value>
+  </data>
+  <data name="TranslateText" xml:space="preserve">
+    <value>Isalin</value>
+  </data>
+  <data name="TranslationLicenceUseError" xml:space="preserve">
+    <value>Ang iyong lisensya ay kasalukuyang ginagamit sa ibang sesyon.</value>
+  </data>
+  <data name="TranslationLimitReachedError" xml:space="preserve">
+    <value>Naabot mo na ang iyong maximum na limitasyon ng oras sa bawat session. Pagtatapos ng sesyon.</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOff" xml:space="preserve">
+    <value>Nakapatay ang Mikropono</value>
+  </data>
+  <data name="TranslationPage_SpeakerOff" xml:space="preserve">
+    <value>Naka-off ang Speaker</value>
+  </data>
+  <data name="TranslationTimeDepletedError" xml:space="preserve">
+    <value>Naubos na ang mga minuto ng iyong pagsasalin. Mabait na kontakin ang iyong administrator.</value>
+  </data>
+  <data name="UnsupportedVersionDialogBtntext" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption" xml:space="preserve">
+    <value>Kailangan ang mga kritikal na update para sa </value>
+  </data>
+  <data name="UnsupportedVersionDialogDescription" xml:space="preserve">
+    <value>Update ang iyong app upang magpatuloy sa pagkuha ng tampok at mga update sa seguridad.</value>
+  </data>
+  <data name="UnsupportedVersionDialogTitle" xml:space="preserve">
+    <value>Hindi suportadong Bersyon ng App</value>
+  </data>
+  <data name="UpdateDialogWhatsNew.Text" xml:space="preserve">
+    <value>Ano po ba ang bago</value>
+  </data>
+  <data name="Zoom.Text" xml:space="preserve">
+    <value>Mag-zoom</value>
+  </data>
+  <data name="Add.Content" xml:space="preserve">
+    <value>Magdagdag ng</value>
+  </data>
+  <data name="AddNewQuestion.Text" xml:space="preserve">
+    <value>Magdagdag ng bagong paunang natukoy na tanong</value>
+  </data>
+  <data name="AddQuestion.Content" xml:space="preserve">
+    <value>Magdagdag ng Tanong</value>
+  </data>
+  <data name="ChooseLanguage.Text" xml:space="preserve">
+    <value>Piliin ang default na wika</value>
+  </data>
+  <data name="CustomProfileAdded" xml:space="preserve">
+    <value>Matagumpay na idinagdag ang pangalan ng profile.</value>
+  </data>
+  <data name="CustomProfileDeleted" xml:space="preserve">
+    <value>Matagumpay na tinanggal ang profile.</value>
+  </data>
+  <data name="CustomProfileInvalidName" xml:space="preserve">
+    <value>Mali! Imbalidong pangalan ng profile.</value>
+  </data>
+  <data name="CustomProfileNotDeleted" xml:space="preserve">
+    <value>Walang profile na mabubura.</value>
+  </data>
+  <data name="CustomProfileNotSaved" xml:space="preserve">
+    <value>Mali! Walang profile na nai-save.</value>
+  </data>
+  <data name="CustomProfileProfileSaved" xml:space="preserve">
+    <value>Matagumpay na na-save ang profile.</value>
+  </data>
+  <data name="DataRequestMessage" xml:space="preserve">
+    <value>Wala kang piniling anumang teksto. Pumili lamang ng tekstong ibabahagi at subukang muli.</value>
+  </data>
+  <data name="DevicesAddProfileButton.Content" xml:space="preserve">
+    <value>Magdagdag ng</value>
+  </data>
+  <data name="DevicesAvailableProfiles.Text" xml:space="preserve">
+    <value>Magagamit na mga profile</value>
+  </data>
+  <data name="DevicesDefaultProfile.Text" xml:space="preserve">
+    <value>Default na profile:</value>
+  </data>
+  <data name="DevicesDeleteProfileBtn.Content" xml:space="preserve">
+    <value>Tanggalin ang Profile</value>
+  </data>
+  <data name="DeviceSetupChanged" xml:space="preserve">
+    <value>Na update ang mga konektadong audio device </value>
+  </data>
+  <data name="DevicesHelpfulTip1.Text" xml:space="preserve">
+    <value>1. Magtakda ng pangalan ng profile</value>
+  </data>
+  <data name="DevicesHelpfulTip2.Text" xml:space="preserve">
+    <value>2. Pumili ng mga single o dual device mode</value>
+  </data>
+  <data name="DevicesHelpfulTip3.Text" xml:space="preserve">
+    <value>3. Pumili ng (mga) tagapagsalita at (mga) mikropono</value>
+  </data>
+  <data name="DevicesHelpfulTip4.Text" xml:space="preserve">
+    <value>4. itakda ang iyong profile bilang default</value>
+  </data>
+  <data name="DevicesHelpfulTip5.Text" xml:space="preserve">
+    <value>5. click ang Save Profile button para i-save ang iyong profile</value>
+  </data>
+  <data name="DevicesHelpfulTips.Text" xml:space="preserve">
+    <value>Mga helpful tips</value>
+  </data>
+  <data name="DevicesProfileNameTextBox.PlaceholderText" xml:space="preserve">
+    <value>Pangalan ng profile...</value>
+  </data>
+  <data name="DevicesSaveProfileBtn.Content" xml:space="preserve">
+    <value>I-save ang Profile</value>
+  </data>
+  <data name="DevicesSetasDefault.Text" xml:space="preserve">
+    <value>Itakda bilang default</value>
+  </data>
+  <data name="DevicesSetProfileButton.Content" xml:space="preserve">
+    <value>Itakda ang profile</value>
+  </data>
+  <data name="DevicesSetProfileText.Text" xml:space="preserve">
+    <value>Magtakda ng pasadyang profile?</value>
+  </data>
+  <data name="DiscardButton.Content" xml:space="preserve">
+    <value>Itapon na ang</value>
+  </data>
+  <data name="DismissButton.Content" xml:space="preserve">
+    <value>Iwaksi ang</value>
+  </data>
+  <data name="DismissText.Text" xml:space="preserve">
+    <value>Iwaksi ang</value>
+  </data>
+  <data name="DownloadAudio.Text" xml:space="preserve">
+    <value>Mag-download ng Audio</value>
+  </data>
+  <data name="DownloadCancel" xml:space="preserve">
+    <value>Kinansela ang pag download</value>
+  </data>
+  <data name="Downloaded" xml:space="preserve">
+    <value>Nai-download</value>
+  </data>
+  <data name="DownloadError" xml:space="preserve">
+    <value>May Nangyaring Mali</value>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>Pag-download</value>
+  </data>
+  <data name="DownloadPaused" xml:space="preserve">
+    <value>I-download ang Pag-pause</value>
+  </data>
+  <data name="DualDeviceUpdated" xml:space="preserve">
+    <value>Matagumpay na na update ang pag setup ng Dual Device</value>
+  </data>
+  <data name="EnterQuestion.Text" xml:space="preserve">
+    <value>Ipasok ang tanong sa ibaba</value>
+  </data>
+  <data name="ErrorDescription.Text" xml:space="preserve">
+    <value>Hindi pa nai-save ang mga pagbabago mo, nais mo bang i-save ang mga ito o itapon?</value>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>May nangyaring mali.. try mo ulit</value>
+  </data>
+  <data name="ErrorTitle.Text" xml:space="preserve">
+    <value>Mayroon kang mga hindi na-save na pagbabago</value>
+  </data>
+  <data name="FeedbackEight.Text" xml:space="preserve">
+    <value>Patuloy kaming nag abala sa isa't isa</value>
+  </data>
+  <data name="FeedbackFive.Text" xml:space="preserve">
+    <value>Narinig ko echo sa tawag</value>
+  </data>
+  <data name="FeedbackFour.Text" xml:space="preserve">
+    <value>Pinulot nito ang mga boses sa background</value>
+  </data>
+  <data name="FeedbackOne.Text" xml:space="preserve">
+    <value>Hindi nito nakuha ng tama ang boses ko</value>
+  </data>
+  <data name="FeedbackQuestion.Text" xml:space="preserve">
+    <value>Ano kaya ang mas maganda</value>
+  </data>
+  <data name="FeedbackSeven.Text" xml:space="preserve">
+    <value>Hindi inaasahang natapos ang sesyon</value>
+  </data>
+  <data name="FeedbackSix.Text" xml:space="preserve">
+    <value>Ang dami ay masyadong mababa</value>
+  </data>
+  <data name="FeedbackThanks.Text" xml:space="preserve">
+    <value>Salamat sa feedback</value>
+  </data>
+  <data name="FeedbackThree.Text" xml:space="preserve">
+    <value>Masyadong mabagal ang oras ng pagsasalin</value>
+  </data>
+  <data name="FeedbackTwo.Text" xml:space="preserve">
+    <value>Mali ang pagsasalin nito sa aking mga pangungusap</value>
+  </data>
+  <data name="ForcedUpdateDialogCaptionContinuation" xml:space="preserve">
+    <value>upang gumana. Ang application ay hindi gagana nang walang mga update na ito.</value>
+  </data>
+  <data name="Improvement.Text" xml:space="preserve">
+    <value>Patuloy kaming magtatrabaho sa pagpapabuti ng iyong karanasan.</value>
+  </data>
+  <data name="LanguageSettingsUpdated" xml:space="preserve">
+    <value>Mga pagbabago sa wika updated succesfully</value>
+  </data>
+  <data name="NewVersionDialogDescription2" xml:space="preserve">
+    <value>at ang version mo ng</value>
+  </data>
+  <data name="NewVersionDialogDescription3" xml:space="preserve">
+    <value>maaaring maging hindi suportado.</value>
+  </data>
+  <data name="Other.Text" xml:space="preserve">
+    <value>Iba pang mga Komento:</value>
+  </data>
+  <data name="PasswordUpdated" xml:space="preserve">
+    <value>Binago ang Password Succesfully</value>
+  </data>
+  <data name="PlaybackLanguageUpdated" xml:space="preserve">
+    <value>Binago ang default na wika ng pag playback Succesfully</value>
+  </data>
+  <data name="QuestionAdded" xml:space="preserve">
+    <value>Matagumpay na Idinagdag ang Tanong</value>
+  </data>
+  <data name="QuestionDeleted" xml:space="preserve">
+    <value>Matagumpay na Natanggal ang Tanong</value>
+  </data>
+  <data name="Questions.Text" xml:space="preserve">
+    <value>Mga Tanong</value>
+  </data>
+  <data name="QuestionSettingsInstructionTwo.Text" xml:space="preserve">
+    <value>* Ang bawat tanong ay kailangang may iba't ibang shortcut key.</value>
+  </data>
+  <data name="QuestionsValidationError.Text" xml:space="preserve">
+    <value>* Suriin ang iyong mga validation at subukang muli.</value>
+  </data>
+  <data name="QuickViewLanguagesUpdated" xml:space="preserve">
+    <value>Mabilis na tingnan ang mga languges na update Succesfully</value>
+  </data>
+  <data name="SendFeedback.Content" xml:space="preserve">
+    <value>Magpadala ng Feedback</value>
+  </data>
+  <data name="SessionFeedbackPrompt" xml:space="preserve">
+    <value>Paano mo ibibigay ang iyong pagsasalin?</value>
+  </data>
+  <data name="SessionFeedbackTitle" xml:space="preserve">
+    <value>Feedback sa Pagsasalin</value>
+  </data>
+  <data name="ShortcutSuccess" xml:space="preserve">
+    <value>Matagumpay na na update ang mga shortcut ng mga tanong</value>
+  </data>
+  <data name="SingleDeviceUpdated" xml:space="preserve">
+    <value>Matagumpay na na update ang pag setup ng Single Device</value>
+  </data>
+  <data name="StartupPageTitleDescription2.Text" xml:space="preserve">
+    <value>software ng pagsasalin.</value>
+  </data>
+  <data name="TimeoutUpdated" xml:space="preserve">
+    <value>Timeout updated Succesfully</value>
+  </data>
+  <data name="TouchShareText" xml:space="preserve">
+    <value>Touch Share</value>
+  </data>
+  <data name="TranslationLanguageUpdated" xml:space="preserve">
+    <value>Ang default na wika ng pagsasalin ay nagbago nang succesfully</value>
+  </data>
+  <data name="TranslationPlaybackUpdated" xml:space="preserve">
+    <value>Default translation &amp; playback wika nagbago succesfully</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption2" xml:space="preserve">
+    <value>upang gumana. Ang mga tampok ay maaaring tumigil sa pagtatrabaho nang walang abiso. Update na lang po ang application.</value>
+  </data>
+  <data name="UserFlagSwitch" xml:space="preserve">
+    <value>Flag ng gumagamit upang lumipat ng wika na update</value>
+  </data>
+</root>

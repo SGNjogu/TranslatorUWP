@@ -1,0 +1,1192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="AppDescription" xml:space="preserve">
+    <value>TalaTouchApp</value>
+  </data>
+  <data name="AppDisplayName" xml:space="preserve">
+    <value>TalaTouchApp</value>
+  </data>
+  <data name="AudioDeviceSelector_MicDropdown.PlaceholderText" xml:space="preserve">
+    <value>Válasszon ki egy mikrofont</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneMic.Text" xml:space="preserve">
+    <value>Személy egy mikrofon</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneSpeaker.Text" xml:space="preserve">
+    <value>Személy egy hangszóró</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoMic.Text" xml:space="preserve">
+    <value>Személy két mikrofon</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoSpeaker.Text" xml:space="preserve">
+    <value>Személy két hangszóró</value>
+  </data>
+  <data name="AudioDeviceSelector_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>Válasszon hangszórót</value>
+  </data>
+  <data name="BluetoothPairingDialog_Description.Text" xml:space="preserve">
+    <value>Győződjön meg arról, hogy az eszköz be van kapcsolva, és észlelhető. Válasszon ki egy eszközt alább a csatlakozáshoz.</value>
+  </data>
+  <data name="BluetoothPairingDialog_Title.Text" xml:space="preserve">
+    <value>Eszköz hozzáadása</value>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>Érvénytelenít</value>
+  </data>
+  <data name="ChangePasscodeDialog_Confirm.Text" xml:space="preserve">
+    <value>Új jelkód megerősítése</value>
+  </data>
+  <data name="ChangePasscodeDialog_Current.Text" xml:space="preserve">
+    <value>Aktuális jelszó</value>
+  </data>
+  <data name="ChangePasscodeDialog_New.Text" xml:space="preserve">
+    <value>Új jelszó</value>
+  </data>
+  <data name="ChangePasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Jelszó módosítása</value>
+  </data>
+  <data name="Close.Content" xml:space="preserve">
+    <value>Bezár</value>
+  </data>
+  <data name="ConsentDialog_Description1.Text" xml:space="preserve">
+    <value>Az adatvédelmi aggályok az első számú prioritásunk. (5) Ön elfogadja a jelen Adatvédelmi szabályzat feltételeit mobiltelefonjával vagy táblagépével, az esettől függően.</value>
+  </data>
+  <data name="ConsentDialog_Description2.Text" xml:space="preserve">
+    <value>Ha úgy dönt, hogy nem engedélyezi számunkra a hozzáférést, amikor hozzájárulási kérelmet kapunk (az ilyen kérelmekről a www ICTS weboldalán értesítjük a következő címen:</value>
+  </data>
+  <data name="ConsentDialog_Description3.Text" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int</value>
+  </data>
+  <data name="ConsentDialog_Description4.Text" xml:space="preserve">
+    <value>), akkor sem a megadott e-mail cím, sem más személyes adat, amely azonosíthatná az egyént, szintén a birtokunkba kerülhet, miután megadták az engedélyt.</value>
+  </data>
+  <data name="ConsentDialog_Description5.Text" xml:space="preserve">
+    <value>Bizonyos részek használatával: /A mobiltelefonom / ikonjaim használata - amely magában foglalhatja azt is, hogy másokat is beengedek a csevegőszobákba olyan termékekről, mint például</value>
+  </data>
+  <data name="ConsentDialog_HyperLink.NavigateUri" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int/</value>
+  </data>
+  <data name="ConsentDialog_Title.Text" xml:space="preserve">
+    <value>Nagyra értékeljük az Ön adatainak védelmét</value>
+  </data>
+  <data name="Dashboard_Choose_Language.Text" xml:space="preserve">
+    <value>Válasszon nyelvet</value>
+  </data>
+  <data name="Dashboard_Hello.Text" xml:space="preserve">
+    <value>Üdvözlöm</value>
+  </data>
+  <data name="Dashboard_SearchBox.PlaceholderText" xml:space="preserve">
+    <value>Keresési nyelv</value>
+  </data>
+  <data name="Dashboard_Welcome.Text" xml:space="preserve">
+    <value>Isten hozott</value>
+  </data>
+  <data name="DevicesErrorDialog_NoDeviceError" xml:space="preserve">
+    <value>Nincs mentett eszköze(i). Lépjen a Beállítások -&gt; eszközök menüpontra a mikrofon és a hangszóró kiválasztásához, majd kattintson a Mentés gombra.</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Description.Text" xml:space="preserve">
+    <value>Elérhető bluetooth-eszközök</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_DropDown.PlaceholderText" xml:space="preserve">
+    <value>Válassza ki a bluetooth eszközt</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Scan.Text" xml:space="preserve">
+    <value>Átkutat</value>
+  </data>
+  <data name="DevicesPage_Bluetooth.Text" xml:space="preserve">
+    <value>Bluetooth-kapcsolat</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices_Description.Text" xml:space="preserve">
+    <value>Válassza ki a hangeszközt</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices.Text" xml:space="preserve">
+    <value>Csatlakoztatott audioeszközök</value>
+  </data>
+  <data name="DevicesPage_MicDropDown.PlaceholderText" xml:space="preserve">
+    <value>Válasszon mikrofont</value>
+  </data>
+  <data name="DevicesPage_Network_Description.Text" xml:space="preserve">
+    <value>Elérhető hálózatok</value>
+  </data>
+  <data name="DevicesPage_Network_DropDown.PlaceholderText" xml:space="preserve">
+    <value>Válasszon hálózatot</value>
+  </data>
+  <data name="DevicesPage_Network.Text" xml:space="preserve">
+    <value>Hálózat</value>
+  </data>
+  <data name="DevicesPage_NetworkError" xml:space="preserve">
+    <value>Nincs kiválasztva hálózat. Ellenőrizze a hálózati kapcsolatokat.</value>
+  </data>
+  <data name="DevicesPage_PersonOne_Speaker.Text" xml:space="preserve">
+    <value>Személy egy hangszóró</value>
+  </data>
+  <data name="DevicesPage_PersonOneMic.Text" xml:space="preserve">
+    <value>Személy egy mikrofon</value>
+  </data>
+  <data name="DevicesPage_PersonTwo_Mic.Text" xml:space="preserve">
+    <value>Személy két mikrofon</value>
+  </data>
+  <data name="DevicesPage_Scan" xml:space="preserve">
+    <value>Átkutat</value>
+  </data>
+  <data name="DevicesPage_Scanning" xml:space="preserve">
+    <value>Szkennelés...</value>
+  </data>
+  <data name="DevicesPage_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>Válasszon hangszórót</value>
+  </data>
+  <data name="DevicesPage_Status_Connect" xml:space="preserve">
+    <value>Összeköt</value>
+  </data>
+  <data name="DevicesPage_Status_Connected" xml:space="preserve">
+    <value>Összekapcsolt</value>
+  </data>
+  <data name="DevicesPage_Status_Connecting" xml:space="preserve">
+    <value>Csatlakozó...</value>
+  </data>
+  <data name="DevicesPage_Status_Off" xml:space="preserve">
+    <value>KI</value>
+  </data>
+  <data name="DevicesPage_Status_On" xml:space="preserve">
+    <value>RA</value>
+  </data>
+  <data name="DevicesPager_PersonTwo_Speaker.Text" xml:space="preserve">
+    <value>Személy két beszélő</value>
+  </data>
+  <data name="EnterPasscodeDialog_Description.Text" xml:space="preserve">
+    <value>Kérjük, adja meg jelszavát a beállítások oldal eléréséhez</value>
+  </data>
+  <data name="EnterPasscodeDialog_ForgotPasscode.Content" xml:space="preserve">
+    <value>Elfelejtette a jelszót?</value>
+  </data>
+  <data name="EnterPasscodeDialog_InvalidPasscode.Text" xml:space="preserve">
+    <value>Érvénytelen jelszó! Kérjük, próbálja újra.</value>
+  </data>
+  <data name="EnterPasscodeDialog_Passcode.Text" xml:space="preserve">
+    <value>PIN-kód</value>
+  </data>
+  <data name="EnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Írja be a jelkódot</value>
+  </data>
+  <data name="IAgree.Content" xml:space="preserve">
+    <value>Egyetértek</value>
+  </data>
+  <data name="InvalidLicenseDialog_Description.Text" xml:space="preserve">
+    <value>A licenc ellenőrzése sikertelen</value>
+  </data>
+  <data name="InvalidLicenseDialog_Title.Text" xml:space="preserve">
+    <value>Érvénytelen engedély</value>
+  </data>
+  <data name="LoginFailedDialog_Button.Content" xml:space="preserve">
+    <value>Menj vissza</value>
+  </data>
+  <data name="LoginFailedDialog_Description.Text" xml:space="preserve">
+    <value>A bejelentkezési kísérlet sikertelen volt.</value>
+  </data>
+  <data name="LoginFailedDialog_Title.Text" xml:space="preserve">
+    <value>Sikertelen bejelentkezés</value>
+  </data>
+  <data name="Main_Title.Text" xml:space="preserve">
+    <value>Fő</value>
+  </data>
+  <data name="PasswordPopup_SetupTitle.Text" xml:space="preserve">
+    <value>Állítson be egy jelszót</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Description1.Text" xml:space="preserve">
+    <value>Kérjük, adja meg újra a jelszavát a szerkesztés folytatásához...</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Írja be újra a jelkódot</value>
+  </data>
+  <data name="RenterPasscodeDialog_Description2.Text" xml:space="preserve">
+    <value>automatikus mentés és hazatérés</value>
+  </data>
+  <data name="Save.Content" xml:space="preserve">
+    <value>Megment</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Description.Text" xml:space="preserve">
+    <value>Ez egy mintaoldal, amely aktiválási paramétereket jelenít meg, ha az alkalmazás a mélyhivatkozásból van aktiválva.</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Title.Text" xml:space="preserve">
+    <value>SchemeActivationSample</value>
+  </data>
+  <data name="SetPasscodeDialog_ConfirmPasscode.Text" xml:space="preserve">
+    <value>Új jelkód megerősítése </value>
+  </data>
+  <data name="SetPasscodeDialog_NewPasscode.Text" xml:space="preserve">
+    <value>Új jelszó</value>
+  </data>
+  <data name="SetPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Állítson be egy jelszót</value>
+  </data>
+  <data name="Settings_About.Text" xml:space="preserve">
+    <value>Az alkalmazásról</value>
+  </data>
+  <data name="Settings_AboutDescription.Text" xml:space="preserve">
+    <value>Beállítások oldal helyőrző szövege.  Az alkalmazás leírása itt található.</value>
+  </data>
+  <data name="Settings_Personalization.Text" xml:space="preserve">
+    <value>Személyre</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.Content" xml:space="preserve">
+    <value>Adatvédelmi nyilatkozat</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.NavigateUri" xml:space="preserve">
+    <value>https://YourPrivacyUrlGoesHere/</value>
+  </data>
+  <data name="Settings_Theme_Dark.Content" xml:space="preserve">
+    <value>Sötét</value>
+  </data>
+  <data name="Settings_Theme_Default.Content" xml:space="preserve">
+    <value>Windows alapértelmezett</value>
+  </data>
+  <data name="Settings_Theme_Light.Content" xml:space="preserve">
+    <value>Fény</value>
+  </data>
+  <data name="Settings_Theme.Text" xml:space="preserve">
+    <value>Válasszon témát</value>
+  </data>
+  <data name="Settings_Title.Text" xml:space="preserve">
+    <value>Beállítások</value>
+  </data>
+  <data name="SettingsPage_Devices" xml:space="preserve">
+    <value>Eszközök</value>
+  </data>
+  <data name="SettingsPage_Language" xml:space="preserve">
+    <value>Nyelv</value>
+  </data>
+  <data name="SettingsPage_Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="SettingsPage_Questions" xml:space="preserve">
+    <value>Kérdések</value>
+  </data>
+  <data name="SettingsPage_Title" xml:space="preserve">
+    <value>Beállítások</value>
+  </data>
+  <data name="ShellView_Help" xml:space="preserve">
+    <value>Segítség</value>
+  </data>
+  <data name="ShellView_History" xml:space="preserve">
+    <value>Történelem</value>
+  </data>
+  <data name="ShellView_Home" xml:space="preserve">
+    <value>Otthon</value>
+  </data>
+  <data name="ShellView_Settings.Text" xml:space="preserve">
+    <value>Beállítások</value>
+  </data>
+  <data name="Sign_In.Text" xml:space="preserve">
+    <value>Bejelentkezés</value>
+  </data>
+  <data name="SignInDialog_Description.Text" xml:space="preserve">
+    <value>Azonnal kommunikálhat több globális nyelven Jabra készülékével.</value>
+  </data>
+  <data name="SignInDialog_SignInButton.Content" xml:space="preserve">
+    <value>Bejelentkezés</value>
+  </data>
+  <data name="Translate_Button.Text" xml:space="preserve">
+    <value>Fordít</value>
+  </data>
+  <data name="TranslationPage_EndSession.Text" xml:space="preserve">
+    <value>A munkamenet befejezése</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOn" xml:space="preserve">
+    <value>Mikrofon bekapcsolva</value>
+  </data>
+  <data name="TranslationPage_SpeakerOn" xml:space="preserve">
+    <value>Hangszóró bekapcsolva</value>
+  </data>
+  <data name="TranslationPage_SpeakNow.Text" xml:space="preserve">
+    <value>Beszéljen most</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Körülbelül</value>
+  </data>
+  <data name="AboutPage_AppVersion.Text" xml:space="preserve">
+    <value>Alkalmazás verziója</value>
+  </data>
+  <data name="AboutPage_CheckUpdate.Content" xml:space="preserve">
+    <value>Frissítések keresése</value>
+  </data>
+  <data name="AboutPage_DataConsent" xml:space="preserve">
+    <value>Szervezete hozzájárult ahhoz, hogy adatait a felhőbe mentse.</value>
+  </data>
+  <data name="AboutPage_NoDataConsent" xml:space="preserve">
+    <value>Szervezete nem járult hozzá ahhoz, hogy adatait a felhőbe mentse.</value>
+  </data>
+  <data name="AboutPage_Published.Text" xml:space="preserve">
+    <value>Kiadja a FITTS Limited.</value>
+  </data>
+  <data name="AppClose_Close.Content" xml:space="preserve">
+    <value>Bezárás mindenképpen</value>
+  </data>
+  <data name="AppClose_Dismiss.Content" xml:space="preserve">
+    <value>Érvénytelenít</value>
+  </data>
+  <data name="AppClose_Warning.Text" xml:space="preserve">
+    <value>Folyamatban van egy munkamenet. Kérjük, fejezze be a munkamenetet, mielőtt kilépne az alkalmazásból.</value>
+  </data>
+  <data name="AppVersion.Text" xml:space="preserve">
+    <value>Alkalmazás verziója</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Button.Content" xml:space="preserve">
+    <value>Munkamenet folytatása</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Description.Text" xml:space="preserve">
+    <value>A munkamenet a következővel ér véget:</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Title.Text" xml:space="preserve">
+    <value>A hang nem észlelhető</value>
+  </data>
+  <data name="AudioPlayer_Error.Text" xml:space="preserve">
+    <value>Nem sikerült betölteni a hangot</value>
+  </data>
+  <data name="DashboardPage_DefaultLanguageError" xml:space="preserve">
+    <value>Nincs mentett alapértelmezett fordítási nyelve. Lépjen a Beállítások -&gt; nyelvek menüpontra az alapértelmezett fordítási nyelv kiválasztásához, majd kattintson a Mentés gombra.</value>
+  </data>
+  <data name="DashboardPage_TargetLanguageError" xml:space="preserve">
+    <value>Nem választott célfordítási nyelvet. Kérjük, válasszon ki egy nyelvet, majd kattintson a Fordítás gombra.</value>
+  </data>
+  <data name="DevicesErrorDialog_DualDeviceError" xml:space="preserve">
+    <value>Kiválasztotta a Kettős eszköz fordítást, de nincs kiválasztva eszköz(ök) a Személy 2-höz. Lépjen a Beállítások -&gt; eszközök menüpontra a mikrofon és a hangszóró kiválasztásához, majd kattintson a Mentés gombra.</value>
+  </data>
+  <data name="DevicesPage_Title.Text" xml:space="preserve">
+    <value>Eszközök</value>
+  </data>
+  <data name="DevicesPage_Wifi_Password.Text" xml:space="preserve">
+    <value>Írja be a jelszót</value>
+  </data>
+  <data name="DevicesPage_WifiStatus.Text" xml:space="preserve">
+    <value>Wifi állapot</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Szerkeszt</value>
+  </data>
+  <data name="Expiry.Text" xml:space="preserve">
+    <value>Lejárat</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Visszacsatolás</value>
+  </data>
+  <data name="FeedbackMessage.Text" xml:space="preserve">
+    <value>Ha bármilyen visszajelzése vagy kérdése van, ne habozzon kapcsolatba lépni velünk.</value>
+  </data>
+  <data name="GetInTouchButton.Text" xml:space="preserve">
+    <value>Vegye fel velünk a kapcsolatot</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Segítség</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>Történelem</value>
+  </data>
+  <data name="History_ExportBtn.Text" xml:space="preserve">
+    <value>Kivitel</value>
+  </data>
+  <data name="HistoryExportButtonTooltip.Text" xml:space="preserve">
+    <value>Kivitel</value>
+  </data>
+  <data name="HistoryListColumnDate.Text" xml:space="preserve">
+    <value>Dátum</value>
+  </data>
+  <data name="HistoryListColumnDuration.Text" xml:space="preserve">
+    <value>Időtartam</value>
+  </data>
+  <data name="HistoryListColumnPrimaryLanguage.Text" xml:space="preserve">
+    <value>Elsődleges nyelv</value>
+  </data>
+  <data name="HistoryListColumnSecondaryLanguage.Text" xml:space="preserve">
+    <value>Másodlagos nyelv</value>
+  </data>
+  <data name="HistoryListColumnSessionId.Text" xml:space="preserve">
+    <value>Munkamenet-azonosító</value>
+  </data>
+  <data name="InitalSetup_SkipSetup.Content" xml:space="preserve">
+    <value>A beállítás kihagyása</value>
+  </data>
+  <data name="InitialNetworkPopupConnectButton.Content" xml:space="preserve">
+    <value>Összeköt</value>
+  </data>
+  <data name="InitialSetup_DeviceSelection.Text" xml:space="preserve">
+    <value>Eszköz kiválasztása</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionDescription.Text" xml:space="preserve">
+    <value>Az alapértelmezett hangeszköz beállítása</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneMicrophone.Text" xml:space="preserve">
+    <value>Válassza a Mikrofon lehetőséget</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneSpeaker.Text" xml:space="preserve">
+    <value>Válassza a Hangszóró lehetőséget</value>
+  </data>
+  <data name="InitialSetup_FinishSetup.Content" xml:space="preserve">
+    <value>A beállítás befejezése</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection_Description.Text" xml:space="preserve">
+    <value>Az alapértelmezett fordítási nyelv beállítása</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection.Text" xml:space="preserve">
+    <value>Nyelv kiválasztása</value>
+  </data>
+  <data name="InitialSetup_NetworkSelection.Text" xml:space="preserve">
+    <value>Előnyben részesített hálózat</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopup.Text" xml:space="preserve">
+    <value>Csatlakozás a hálózathoz</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopupPassword.Text" xml:space="preserve">
+    <value>Jelszó megadása:</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionDescription.Text" xml:space="preserve">
+    <value>Válasszon az elérhető hálózatok közül</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionNoInternetConnection.Text" xml:space="preserve">
+    <value>Nem csatlakozik az internethez. Kérjük, ellenőrizze a hálózati kapcsolatokat.</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionOtherNetworks.Text" xml:space="preserve">
+    <value>Egyéb hálózatok</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup_Description.Text" xml:space="preserve">
+    <value>Az alkalmazás jelkódjának beállítása</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup.Text" xml:space="preserve">
+    <value>PIN-kód beállítása</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Nyelv</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage_Description.Text" xml:space="preserve">
+    <value>Válassza ki az alkalmazás nyelvét</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage.Text" xml:space="preserve">
+    <value>Alkalmazás nyelve</value>
+  </data>
+  <data name="LanguagesPage_AppLanguageDropdown.PlaceholderText" xml:space="preserve">
+    <value>Válasszon nyelvet</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage_Description.Text" xml:space="preserve">
+    <value>A használt alapértelmezett nyelv</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage.Text" xml:space="preserve">
+    <value>Alapértelmezett nyelv</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguageDropDown.PlaceholderText" xml:space="preserve">
+    <value>Válasszon nyelvet</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description.Text" xml:space="preserve">
+    <value>Előzmények szakasz (többeszközös fordításokhoz)</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description1.Text" xml:space="preserve">
+    <value>* Az egyeszközös fordítások az összes hangot alapértelmezettként játsszák le *</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage.Text" xml:space="preserve">
+    <value>Alapértelmezett lejátszási nyelv</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguages.Text" xml:space="preserve">
+    <value>Nyelvek gyorsnézete</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguagesDropdown.PlaceholderText" xml:space="preserve">
+    <value>Nyelv hozzáadása</value>
+  </data>
+  <data name="LanguagesPage_Title.Text" xml:space="preserve">
+    <value>Nyelvek</value>
+  </data>
+  <data name="Licence" xml:space="preserve">
+    <value>Engedély</value>
+  </data>
+  <data name="LicenseType.Text" xml:space="preserve">
+    <value>Licenc típusa:</value>
+  </data>
+  <data name="NetworkConnectionError" xml:space="preserve">
+    <value>Hiba:</value>
+  </data>
+  <data name="Next.Content" xml:space="preserve">
+    <value>Következő</value>
+  </data>
+  <data name="PasscodeError_MinimumLength" xml:space="preserve">
+    <value>A jelkód minimális hosszának 4-nek kell lennie.</value>
+  </data>
+  <data name="PasscodeError_NotMatching" xml:space="preserve">
+    <value>A megadott jelkódok nem egyeznek. Kérjük, adja meg újra a jelkódokat, majd próbálkozzon újra.</value>
+  </data>
+  <data name="Person.Text" xml:space="preserve">
+    <value>Személy</value>
+  </data>
+  <data name="PrivacyPolicy.Text" xml:space="preserve">
+    <value>Adatvédelem</value>
+  </data>
+  <data name="ProfilePage_Email_Description.Text" xml:space="preserve">
+    <value>E-mail alapértelmezett exportálása</value>
+  </data>
+  <data name="ProfilePage_Email.Text" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="ProfilePage_Passcode_Description.Text" xml:space="preserve">
+    <value>Az alkalmazás PIN-kódja</value>
+  </data>
+  <data name="ProfilePage_Passcode.Text" xml:space="preserve">
+    <value>PIN-kód</value>
+  </data>
+  <data name="ProfilePage_Timeout_Description.Text" xml:space="preserve">
+    <value>A rendszergazdai mód zárolásának gyakorisága</value>
+  </data>
+  <data name="ProfilePage_Timeout.Text" xml:space="preserve">
+    <value>Rendszergazdai mód időtúllépése</value>
+  </data>
+  <data name="ProfilePage_TimeoutDropdown.PlaceholderText" xml:space="preserve">
+    <value>Válasszon időpontot</value>
+  </data>
+  <data name="ProfilePage_Title.Text" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="PublishedBy.Text" xml:space="preserve">
+    <value>Közzétette:</value>
+  </data>
+  <data name="ReleaseNotesMessage.Text" xml:space="preserve">
+    <value>A kibocsátási megjegyzések hamarosan frissülnek</value>
+  </data>
+  <data name="Save_Text" xml:space="preserve">
+    <value>Megment</value>
+  </data>
+  <data name="SessionDetailsPage_Description.Text" xml:space="preserve">
+    <value>Átírási előzmények</value>
+  </data>
+  <data name="SessionDetailsPage_Duration.Text" xml:space="preserve">
+    <value>Időtartam</value>
+  </data>
+  <data name="SessionDetailsPage_SessionID.Text" xml:space="preserve">
+    <value>Munkamenet-azonosító</value>
+  </data>
+  <data name="SessionDetailsPage_Title.Text" xml:space="preserve">
+    <value>Történelem</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Beállítások</value>
+  </data>
+  <data name="TermsOfUse.Text" xml:space="preserve">
+    <value>Használati feltételek</value>
+  </data>
+  <data name="TranslationPage_SettingUpState" xml:space="preserve">
+    <value>Beállítása...</value>
+  </data>
+  <data name="TranslationPage_SpeakFast" xml:space="preserve">
+    <value>Próbáljon meg egy kicsit gyorsabban beszélni a jobb fordítási eredmények érdekében.</value>
+  </data>
+  <data name="TranslationPage_SpeakIn" xml:space="preserve">
+    <value>Beszéljen</value>
+  </data>
+  <data name="TranslationPage_SpeakSlow" xml:space="preserve">
+    <value>Próbáljon meg egy kicsit lassabban beszélni a jobb fordítási eredmények érdekében.</value>
+  </data>
+  <data name="TranslationPage_Switching" xml:space="preserve">
+    <value>Tranzisztor</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonOne" xml:space="preserve">
+    <value>Váltás 1. személyre</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonTwo" xml:space="preserve">
+    <value>Váltás 2. személyre</value>
+  </data>
+  <data name="TranslationPage_TranslationReadyState" xml:space="preserve">
+    <value>Beszéljen most</value>
+  </data>
+  <data name="Website.Text" xml:space="preserve">
+    <value>Weboldal</value>
+  </data>
+  <data name="WhatsNew" xml:space="preserve">
+    <value>Mi újság</value>
+  </data>
+  <data name="WhatsNewInSpeechly.Text" xml:space="preserve">
+    <value>Újdonságok</value>
+  </data>
+  <data name="AudioDevicesSelectorDualDevice.Content" xml:space="preserve">
+    <value>Kettős eszköz</value>
+  </data>
+  <data name="AudioDevicesSelectorSingleDevice.Content" xml:space="preserve">
+    <value>Egyetlen eszköz</value>
+  </data>
+  <data name="AutoDetectSearchCountry.PlaceholderText" xml:space="preserve">
+    <value>Ország keresése</value>
+  </data>
+  <data name="AutoDetectSelectLanguage.Text" xml:space="preserve">
+    <value>Válassza ki a nyelvet</value>
+  </data>
+  <data name="ChatViewPersonOne" xml:space="preserve">
+    <value>Egy személy</value>
+  </data>
+  <data name="ChatViewPersonTwo" xml:space="preserve">
+    <value>Második személy</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionLost" xml:space="preserve">
+    <value>Megszakadt az internetkapcsolat. Kérjük, ellenőrizze a kapcsolatot, majd próbálja újra.</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionUnstable" xml:space="preserve">
+    <value>Lassú az internetkapcsolat. Előfordulhat, hogy némi késést tapasztal.</value>
+  </data>
+  <data name="CustomTagSelectionTitle.Text" xml:space="preserve">
+    <value>Szervezeti címkék (válassza ki a hozzáadáshoz)</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.Header" xml:space="preserve">
+    <value>Felhasználói jelző a nyelvváltáshoz</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OffContent" xml:space="preserve">
+    <value>Fogyatékos</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OnContent" xml:space="preserve">
+    <value>Engedélyezve</value>
+  </data>
+  <data name="DetectLanguageButton.Content" xml:space="preserve">
+    <value>Nyelv észlelése</value>
+  </data>
+  <data name="DevicesPageNetworkSetupBluetoothStatus.Text" xml:space="preserve">
+    <value>Bluetooth állapot:</value>
+  </data>
+  <data name="DevicesPageNetworkSetupConnectAutomatically.Text" xml:space="preserve">
+    <value>Automatikus csatlakozás</value>
+  </data>
+  <data name="DevicesPageNetworkSetupWiFiStatus.Text" xml:space="preserve">
+    <value>WiFi állapot:</value>
+  </data>
+  <data name="Dimiss.Content" xml:space="preserve">
+    <value>Érvénytelenít</value>
+  </data>
+  <data name="Duration.Text" xml:space="preserve">
+    <value>|  Időtartam</value>
+  </data>
+  <data name="EmailPopup_Description.Text" xml:space="preserve">
+    <value>Add meg az e-mail címedet</value>
+  </data>
+  <data name="EmailPopup_Title.Text" xml:space="preserve">
+    <value>A munkamenet e-mailben való elküldése</value>
+  </data>
+  <data name="ForcedUpdateDialogCaption" xml:space="preserve">
+    <value>Kritikus fontosságú frissítéseink vannak a következőkhöz:</value>
+  </data>
+  <data name="ForcedUpdateDialogInstallBtnText" xml:space="preserve">
+    <value>Frissít</value>
+  </data>
+  <data name="ForcedUpdateDialogTitle" xml:space="preserve">
+    <value>Kritikus frissítések</value>
+  </data>
+  <data name="GoBack.Content" xml:space="preserve">
+    <value>Menj vissza</value>
+  </data>
+  <data name="HelpPageSignOut.Content" xml:space="preserve">
+    <value>Kijelentkezés</value>
+  </data>
+  <data name="History_Export.Text" xml:space="preserve">
+    <value>Fájl generálása...</value>
+  </data>
+  <data name="HistoryListColumnSessionName.Text" xml:space="preserve">
+    <value>Név</value>
+  </data>
+  <data name="HistoryListColumnSynced.Text" xml:space="preserve">
+    <value>Szinkronizálva</value>
+  </data>
+  <data name="HistorySearchBox.PlaceholderText" xml:space="preserve">
+    <value>Nyelv, munkamenet neve, címkék vagy azonosítók</value>
+  </data>
+  <data name="HistorySearchButtonTooltip.Text" xml:space="preserve">
+    <value>Keresés</value>
+  </data>
+  <data name="HistorySearchClearButtonTooltip.Text" xml:space="preserve">
+    <value>Világos</value>
+  </data>
+  <data name="HistorySearchFromDate.Header" xml:space="preserve">
+    <value>Tól:</value>
+  </data>
+  <data name="HistorySearchToDate.Header" xml:space="preserve">
+    <value>Hoz:</value>
+  </data>
+  <data name="HistoryShareButtonTooltip.Text" xml:space="preserve">
+    <value>Megosztás/Küldés</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonOne.Text" xml:space="preserve">
+    <value>Személy 1</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonTwo.Text" xml:space="preserve">
+    <value>Személy 2</value>
+  </data>
+  <data name="LoginPageTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NewVersionDialogCaption" xml:space="preserve">
+    <value>Telepítse az új alkalmazásverziót</value>
+  </data>
+  <data name="NewVersionDialogDescription" xml:space="preserve">
+    <value>Az új funkciók és hibajavítások hiányozni fognak </value>
+  </data>
+  <data name="NewVersionDialogInstallBtnText" xml:space="preserve">
+    <value>Új verzió telepítése</value>
+  </data>
+  <data name="NewVersionDialogTitle" xml:space="preserve">
+    <value>Új alkalmazásverzió</value>
+  </data>
+  <data name="NextText" xml:space="preserve">
+    <value>Következő</value>
+  </data>
+  <data name="ProfilePageEditButton.Content" xml:space="preserve">
+    <value>Szerkeszt</value>
+  </data>
+  <data name="QuestionsButton.Content" xml:space="preserve">
+    <value>Lásd a kérdéseket</value>
+  </data>
+  <data name="QuestionSettingsDescription.Text" xml:space="preserve">
+    <value>A kérdés parancsikonjainak megtekintése vagy módosítása</value>
+  </data>
+  <data name="QuestionSettingsInstructionOne.Text" xml:space="preserve">
+    <value>* Minden kérdéshez használjon 1-től 9-ig terjedő számokat. A nulla (0) nem kerül figyelembe.</value>
+  </data>
+  <data name="QuestionSettingsInstructionThree.Text" xml:space="preserve">
+    <value>* Csak 9 kérdéshez rendelhet parancsikonokat.</value>
+  </data>
+  <data name="QuestionSettingsListTitle.Text" xml:space="preserve">
+    <value>Kérdések listája :</value>
+  </data>
+  <data name="ResellerEmailAddress.Text" xml:space="preserve">
+    <value>Viszonteladói e-mail-cím :</value>
+  </data>
+  <data name="ResellerName.Text" xml:space="preserve">
+    <value>Viszonteladó neve :</value>
+  </data>
+  <data name="SelectFlag.Text" xml:space="preserve">
+    <value>Válassza ki a zászlót:</value>
+  </data>
+  <data name="Send.Content" xml:space="preserve">
+    <value>Küld</value>
+  </data>
+  <data name="SessionDetailsPage_SessionName.Text" xml:space="preserve">
+    <value>Munkamenet neve</value>
+  </data>
+  <data name="SessionID.Text" xml:space="preserve">
+    <value>Munkamenet azonosítója : -</value>
+  </data>
+  <data name="SessionMetadataDialog_ContinueButton.Text" xml:space="preserve">
+    <value>Folytatódik</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTags.Text" xml:space="preserve">
+    <value>Egyéni címke(k)</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Ide írja be a címke nevét</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextboxHelper.Text" xml:space="preserve">
+    <value>Nyomja meg az Enter billentyűt</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTags.Text" xml:space="preserve">
+    <value>Alapértelmezett címke(k)</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Itt adja meg az értéket</value>
+  </data>
+  <data name="SessionMetadataDialog_Description.Text" xml:space="preserve">
+    <value>A kötelezően kitöltendő mezőket ' jelöli</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionName.Text" xml:space="preserve">
+    <value>Munkamenet neve</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionNameTextbox.PlaceholderText" xml:space="preserve">
+    <value>pl. beteg nulla</value>
+  </data>
+  <data name="SessionMetadataDialog_Title.Text" xml:space="preserve">
+    <value>Munkamenet nevének és címkéinek hozzáadása</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorActionMessage" xml:space="preserve">
+    <value>Kérjük, lépjen kapcsolatba a rendszergazdával a fiók aktiválásához.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorMessage" xml:space="preserve">
+    <value>A fiókodat deaktiváltuk.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorActionMessage" xml:space="preserve">
+    <value>Kérjük, lépjen kapcsolatba a rendszergazdával a fiók létrehozásához.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorMessage" xml:space="preserve">
+    <value>A fiókodat töröltük.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorActionMessage" xml:space="preserve">
+    <value>Kérjük, lépjen kapcsolatba a rendszergazdával a fiók engedélyezéséhez.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorMessage" xml:space="preserve">
+    <value>A fiókodat letiltottuk.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorActionMessage" xml:space="preserve">
+    <value>Kérjük, lépjen kapcsolatba a rendszergazdával a fiók létrehozásához.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorMessage" xml:space="preserve">
+    <value>Nincs aktív Fiókja.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorActionMessage" xml:space="preserve">
+    <value>A licenc megújításához forduljon a rendszergazdához.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorMessage" xml:space="preserve">
+    <value>A jogosítványa lejárt.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorActionMessage" xml:space="preserve">
+    <value>Kérjük, lépjen kapcsolatba a rendszergazdával a licenc aktiválásához.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorMessage" xml:space="preserve">
+    <value>A jogosítványát deaktiváltuk.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorActionMessage" xml:space="preserve">
+    <value>Forduljon a rendszergazdához.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorMessage" xml:space="preserve">
+    <value>A jogosítványát felfüggesztettük.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorActionMessage" xml:space="preserve">
+    <value>Kérjük, lépjen kapcsolatba a rendszergazdával, és rendeljen hozzá licencet.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorMessage" xml:space="preserve">
+    <value>Nincs Önhöz rendelt licenc.</value>
+  </data>
+  <data name="StartupPage2020.Text" xml:space="preserve">
+    <value>2021 </value>
+  </data>
+  <data name="StartupPageErrorDescription.Text" xml:space="preserve">
+    <value>Hiba történt. Kérjük, ellenőrizze az internetkapcsolatot, majd próbálkozzon újra.</value>
+  </data>
+  <data name="StartupPagePoweredBy.Text" xml:space="preserve">
+    <value>Energiával ellátja </value>
+  </data>
+  <data name="StartupPageProgressDescription.Text" xml:space="preserve">
+    <value>Ez eltarthat néhány másodpercig</value>
+  </data>
+  <data name="StartupPageRetryButton.Content" xml:space="preserve">
+    <value>Újra</value>
+  </data>
+  <data name="StartupPageRightsReserved.Text" xml:space="preserve">
+    <value>Minden jog fenntartva.</value>
+  </data>
+  <data name="StartUpPageSettingUpMessage" xml:space="preserve">
+    <value>Beállítása...</value>
+  </data>
+  <data name="StartupPageTitleDescription.Text" xml:space="preserve">
+    <value>Üdvözöljük a </value>
+  </data>
+  <data name="TranslateText" xml:space="preserve">
+    <value>Fordít</value>
+  </data>
+  <data name="TranslationLicenceUseError" xml:space="preserve">
+    <value>A licenc jelenleg egy másik munkamenetben van használatban.</value>
+  </data>
+  <data name="TranslationLimitReachedError" xml:space="preserve">
+    <value>Elérte a munkamenetenkénti maximális időkorlátot. Befejező munkamenet.</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOff" xml:space="preserve">
+    <value>Mikrofon kikapcsolva</value>
+  </data>
+  <data name="TranslationPage_SpeakerOff" xml:space="preserve">
+    <value>Hangszóró kikapcsolva</value>
+  </data>
+  <data name="TranslationTimeDepletedError" xml:space="preserve">
+    <value>A fordítási jegyzőkönyvek kimerültek. Kérjük, forduljon a rendszergazdához.</value>
+  </data>
+  <data name="UnsupportedVersionDialogBtntext" xml:space="preserve">
+    <value>Frissít</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption" xml:space="preserve">
+    <value>Kritikus frissítésekre van szükség a következőkhöz: </value>
+  </data>
+  <data name="UnsupportedVersionDialogDescription" xml:space="preserve">
+    <value>Frissítse az alkalmazást, hogy továbbra is megkapja a funkció- és biztonsági frissítéseket.</value>
+  </data>
+  <data name="UnsupportedVersionDialogTitle" xml:space="preserve">
+    <value>Nem támogatott alkalmazásverzió</value>
+  </data>
+  <data name="UpdateDialogWhatsNew.Text" xml:space="preserve">
+    <value>Mi újság?</value>
+  </data>
+  <data name="Zoom.Text" xml:space="preserve">
+    <value>Búg</value>
+  </data>
+  <data name="Add.Content" xml:space="preserve">
+    <value>Hozzáad</value>
+  </data>
+  <data name="AddNewQuestion.Text" xml:space="preserve">
+    <value>Új, előre definiált kérdés hozzáadása</value>
+  </data>
+  <data name="AddQuestion.Content" xml:space="preserve">
+    <value>Kérdés hozzáadása</value>
+  </data>
+  <data name="ChooseLanguage.Text" xml:space="preserve">
+    <value>Válassza ki az alapértelmezett nyelvet</value>
+  </data>
+  <data name="CustomProfileAdded" xml:space="preserve">
+    <value>A profilnév hozzáadása sikeresen megtörtént.</value>
+  </data>
+  <data name="CustomProfileDeleted" xml:space="preserve">
+    <value>A profil sikeresen törölve lett.</value>
+  </data>
+  <data name="CustomProfileInvalidName" xml:space="preserve">
+    <value>Hiba! Érvénytelen profilnév.</value>
+  </data>
+  <data name="CustomProfileNotDeleted" xml:space="preserve">
+    <value>Nincs törölhető profil.</value>
+  </data>
+  <data name="CustomProfileNotSaved" xml:space="preserve">
+    <value>Hiba! Nincs mentett profil.</value>
+  </data>
+  <data name="CustomProfileProfileSaved" xml:space="preserve">
+    <value>A profil sikeresen mentésre került.</value>
+  </data>
+  <data name="DataRequestMessage" xml:space="preserve">
+    <value>Nem jelölt ki szöveget. Kérjük, válassza ki a megosztani kívánt szöveget, és próbálja újra.</value>
+  </data>
+  <data name="DevicesAddProfileButton.Content" xml:space="preserve">
+    <value>Hozzáad</value>
+  </data>
+  <data name="DevicesAvailableProfiles.Text" xml:space="preserve">
+    <value>Elérhető profilok</value>
+  </data>
+  <data name="DevicesDefaultProfile.Text" xml:space="preserve">
+    <value>Alapértelmezett profil:</value>
+  </data>
+  <data name="DevicesDeleteProfileBtn.Content" xml:space="preserve">
+    <value>Profil törlése</value>
+  </data>
+  <data name="DeviceSetupChanged" xml:space="preserve">
+    <value>Csatlakoztatott hangeszközök frissítve </value>
+  </data>
+  <data name="DevicesHelpfulTip1.Text" xml:space="preserve">
+    <value>1. Állítson be egy profilnevet</value>
+  </data>
+  <data name="DevicesHelpfulTip2.Text" xml:space="preserve">
+    <value>2. Válasszon egy- vagy kéteszköz-módot</value>
+  </data>
+  <data name="DevicesHelpfulTip3.Text" xml:space="preserve">
+    <value>3. Válassza ki a hangszóró(ka)t és a mikrofon(oka)t</value>
+  </data>
+  <data name="DevicesHelpfulTip4.Text" xml:space="preserve">
+    <value>4. Állítsa be profilját alapértelmezettként</value>
+  </data>
+  <data name="DevicesHelpfulTip5.Text" xml:space="preserve">
+    <value>5. Kattintson a Profil mentése gombra a profil mentéséhez</value>
+  </data>
+  <data name="DevicesHelpfulTips.Text" xml:space="preserve">
+    <value>Hasznos tippek</value>
+  </data>
+  <data name="DevicesProfileNameTextBox.PlaceholderText" xml:space="preserve">
+    <value>Profil neve...</value>
+  </data>
+  <data name="DevicesSaveProfileBtn.Content" xml:space="preserve">
+    <value>Profil mentése</value>
+  </data>
+  <data name="DevicesSetasDefault.Text" xml:space="preserve">
+    <value>Beállítás alapértelmezettként</value>
+  </data>
+  <data name="DevicesSetProfileButton.Content" xml:space="preserve">
+    <value>Profil beállítása</value>
+  </data>
+  <data name="DevicesSetProfileText.Text" xml:space="preserve">
+    <value>Egyéni profilt állít be?</value>
+  </data>
+  <data name="DiscardButton.Content" xml:space="preserve">
+    <value>Eldob</value>
+  </data>
+  <data name="DismissButton.Content" xml:space="preserve">
+    <value>Elbocsát</value>
+  </data>
+  <data name="DismissText.Text" xml:space="preserve">
+    <value>Elbocsát</value>
+  </data>
+  <data name="DownloadAudio.Text" xml:space="preserve">
+    <value>Audio letöltése</value>
+  </data>
+  <data name="DownloadCancel" xml:space="preserve">
+    <value>A letöltés megszakítva</value>
+  </data>
+  <data name="Downloaded" xml:space="preserve">
+    <value>Letöltött</value>
+  </data>
+  <data name="DownloadError" xml:space="preserve">
+    <value>Hiba történt</value>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>Letöltés</value>
+  </data>
+  <data name="DownloadPaused" xml:space="preserve">
+    <value>Letöltés szüneteltetve</value>
+  </data>
+  <data name="DualDeviceUpdated" xml:space="preserve">
+    <value>A kettős eszköz beállítása sikeresen frissült</value>
+  </data>
+  <data name="EnterQuestion.Text" xml:space="preserve">
+    <value>Írja be az alábbi kérdést</value>
+  </data>
+  <data name="ErrorDescription.Text" xml:space="preserve">
+    <value>A módosításokat nem mentette el, el szeretné menteni vagy el szeretné dobni?</value>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>Valami nem stimmelt.. próbáld újra</value>
+  </data>
+  <data name="ErrorTitle.Text" xml:space="preserve">
+    <value>Nem mentett módosításai vannak</value>
+  </data>
+  <data name="FeedbackEight.Text" xml:space="preserve">
+    <value>Folyton félbeszakítottuk egymást</value>
+  </data>
+  <data name="FeedbackFive.Text" xml:space="preserve">
+    <value>Visszhangot hallottam a hívásban</value>
+  </data>
+  <data name="FeedbackFour.Text" xml:space="preserve">
+    <value>Felvette a háttérhangokat</value>
+  </data>
+  <data name="FeedbackOne.Text" xml:space="preserve">
+    <value>Nem vette fel megfelelően a hangomat</value>
+  </data>
+  <data name="FeedbackQuestion.Text" xml:space="preserve">
+    <value>Mi lehetett volna jobb?</value>
+  </data>
+  <data name="FeedbackSeven.Text" xml:space="preserve">
+    <value>Az ülés váratlanul ért véget</value>
+  </data>
+  <data name="FeedbackSix.Text" xml:space="preserve">
+    <value>A hangerő túl alacsony volt</value>
+  </data>
+  <data name="FeedbackThanks.Text" xml:space="preserve">
+    <value>Köszönöm a visszajelzést</value>
+  </data>
+  <data name="FeedbackThree.Text" xml:space="preserve">
+    <value>A fordítási idő túl lassú volt</value>
+  </data>
+  <data name="FeedbackTwo.Text" xml:space="preserve">
+    <value>Félrefordította a mondataimat</value>
+  </data>
+  <data name="ForcedUpdateDialogCaptionContinuation" xml:space="preserve">
+    <value>működni. Az alkalmazás nem fog működni ezen frissítések nélkül.</value>
+  </data>
+  <data name="Improvement.Text" xml:space="preserve">
+    <value>Továbbra is azon dolgozunk, hogy javítsuk a felhasználói élményt.</value>
+  </data>
+  <data name="LanguageSettingsUpdated" xml:space="preserve">
+    <value>A nyelvi változások sikeresen frissültek</value>
+  </data>
+  <data name="NewVersionDialogDescription2" xml:space="preserve">
+    <value>és az Ön verziója</value>
+  </data>
+  <data name="NewVersionDialogDescription3" xml:space="preserve">
+    <value>lehet, hogy nem támogatott.</value>
+  </data>
+  <data name="Other.Text" xml:space="preserve">
+    <value>Egyéb megjegyzések:</value>
+  </data>
+  <data name="PasswordUpdated" xml:space="preserve">
+    <value>A jelszó sikeresen megváltozott</value>
+  </data>
+  <data name="PlaybackLanguageUpdated" xml:space="preserve">
+    <value>Az alapértelmezett lejátszási nyelv sikeresen megváltozott</value>
+  </data>
+  <data name="QuestionAdded" xml:space="preserve">
+    <value>Kérdés hozzáadva sikeresen</value>
+  </data>
+  <data name="QuestionDeleted" xml:space="preserve">
+    <value>A kérdés sikeresen törölve</value>
+  </data>
+  <data name="Questions.Text" xml:space="preserve">
+    <value>Kérdések</value>
+  </data>
+  <data name="QuestionSettingsInstructionTwo.Text" xml:space="preserve">
+    <value>* Minden kérdésnek más gyorsbillentyűvel kell rendelkeznie.</value>
+  </data>
+  <data name="QuestionsValidationError.Text" xml:space="preserve">
+    <value>* Ellenőrizze az ellenőrzéseket, és próbálkozzon újra.</value>
+  </data>
+  <data name="QuickViewLanguagesUpdated" xml:space="preserve">
+    <value>A gyorsnézeti languges sikeresen frissült</value>
+  </data>
+  <data name="SendFeedback.Content" xml:space="preserve">
+    <value>Visszajelzés küldése</value>
+  </data>
+  <data name="SessionFeedbackPrompt" xml:space="preserve">
+    <value>Hogyan értékelné a fordítási munkamenetet?</value>
+  </data>
+  <data name="SessionFeedbackTitle" xml:space="preserve">
+    <value>Fordítási visszajelzés</value>
+  </data>
+  <data name="ShortcutSuccess" xml:space="preserve">
+    <value>A kérdések parancsikonjai sikeresen frissültek</value>
+  </data>
+  <data name="SingleDeviceUpdated" xml:space="preserve">
+    <value>Az egyeszközös beállítás sikeresen frissült</value>
+  </data>
+  <data name="StartupPageTitleDescription2.Text" xml:space="preserve">
+    <value>Fordítószoftver.</value>
+  </data>
+  <data name="TimeoutUpdated" xml:space="preserve">
+    <value>Az időtúllépés sikeresen frissült</value>
+  </data>
+  <data name="TouchShareText" xml:space="preserve">
+    <value>Érintse meg a Megosztás lehetőséget</value>
+  </data>
+  <data name="TranslationLanguageUpdated" xml:space="preserve">
+    <value>Az alapértelmezett fordítási nyelv sikeresen megváltozott</value>
+  </data>
+  <data name="TranslationPlaybackUpdated" xml:space="preserve">
+    <value>Az alapértelmezett fordítási és lejátszási nyelv sikeresen megváltozott</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption2" xml:space="preserve">
+    <value>működni. A funkciók előzetes értesítés nélkül leállhatnak. Kérjük, frissítse az alkalmazást.</value>
+  </data>
+  <data name="UserFlagSwitch" xml:space="preserve">
+    <value>Felhasználói jelző a frissített nyelv közötti váltáshoz</value>
+  </data>
+</root>

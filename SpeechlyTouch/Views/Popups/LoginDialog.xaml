@@ -1,0 +1,105 @@
+﻿<ContentDialog
+    x:Class="SpeechlyTouch.Views.Popups.LoginDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:SpeechlyTouch.Views.Popups"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    HorizontalContentAlignment="Stretch"
+    VerticalContentAlignment="Stretch"
+    Background="{Binding PrimaryBackgroundColor, Mode=TwoWay, Source={StaticResource DynamicColors}}"
+    DataContext="{Binding LoginViewModel, Source={StaticResource ViewModelLocator}}"
+    mc:Ignorable="d">
+
+    <Grid
+        Height="auto"
+        Padding="20"
+        HorizontalAlignment="Center"
+        VerticalAlignment="Center"
+        Background="{Binding PrimaryBackgroundColor, Mode=TwoWay, Source={StaticResource DynamicColors}}"
+        RowSpacing="30">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" HorizontalAlignment="Center">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*" />
+                <ColumnDefinition Width="2*" />
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <Image
+                    Width="500"
+                    Margin="10"
+                    Source="/Assets/LoginPic.png"
+                    Stretch="UniformToFill" />
+            </Grid>
+            <Grid
+                Grid.Column="1"
+                Margin="10,20,10,10"
+                VerticalAlignment="Stretch">
+                <StackPanel Padding="0,20" Spacing="25">
+                    <TextBlock
+                        x:Uid="Sign_In"
+                        HorizontalAlignment="Left"
+                        FontSize="28"
+                        FontWeight="Normal"
+                        Foreground="{Binding PrimaryTextColor, Source={StaticResource DynamicColors}}"
+                        Style="{StaticResource TextBlockStyle}" />
+                    <Border
+                        Margin="0,5,210,0"
+                        BorderBrush="{StaticResource BorderColor}"
+                        BorderThickness="1" />
+                    <TextBlock
+                        x:Uid="SignInDialog_Description"
+                        MaxWidth="330"
+                        Margin="0,15,13,0"
+                        HorizontalAlignment="Center"
+                        FontSize="23"
+                        FontWeight="Normal"
+                        Foreground="{Binding PrimaryTextColor, Source={StaticResource DynamicColors}}"
+                        Style="{StaticResource TextBlockStyle}"
+                        TextWrapping="Wrap" />
+                    <Button
+                        x:Uid="SignInDialog_SignInButton"
+                        Margin="0,25,0,0"
+                        Padding="40,2,40,5"
+                        HorizontalAlignment="Left"
+                        Background="{Binding BtnAccentColor, Mode=TwoWay, Source={StaticResource DynamicColors}}"
+                        Command="{Binding SignInCommand}"
+                        CornerRadius="2"
+                        FontSize="18"
+                        FontWeight="Medium"
+                        Foreground="{Binding BtnAccentTextColor, Mode=TwoWay, Source={StaticResource DynamicColors}}"
+                        PointerEntered="Button_PointerEntered"
+                        PointerExited="Button_PointerExited"
+                        Style="{StaticResource ButtonStyle}" />
+                </StackPanel>
+                <Grid Grid.Column="1" Visibility="{Binding ProgressRingVisibility}">
+                    <Border Background="{Binding PrimaryBackgroundColor, Mode=TwoWay, Source={StaticResource DynamicColors}}" Opacity="0.8" />
+                    <ProgressRing
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        FontSize="30"
+                        Foreground="{Binding AccentColor, Mode=TwoWay, Source={StaticResource DynamicColors}}"
+                        IsActive="True" />
+                    <ProgressRing />
+                </Grid>
+            </Grid>
+        </Grid>
+        <StackPanel Grid.Row="1" HorizontalAlignment="Center">
+            <TextBlock
+                HorizontalAlignment="Center"
+                FontSize="18"
+                FontWeight="SemiLight"
+                Foreground="{Binding PrimaryTextColor, Source={StaticResource DynamicColors}}"
+                Style="{StaticResource TextBlockStyle}">
+                <Run x:Uid="StartupPage2020" />
+                <Run Text="Tala." />
+                <Run x:Uid="StartupPageRightsReserved" />
+            </TextBlock>
+            
+        </StackPanel>
+    </Grid>
+</ContentDialog>

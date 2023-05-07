@@ -1,0 +1,1192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="AppDescription" xml:space="preserve">
+    <value>טאלה טאצ'אפ</value>
+  </data>
+  <data name="AppDisplayName" xml:space="preserve">
+    <value>טאלה טאצ'אפ</value>
+  </data>
+  <data name="AudioDeviceSelector_MicDropdown.PlaceholderText" xml:space="preserve">
+    <value>בחר מיקרופון</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneMic.Text" xml:space="preserve">
+    <value>אדם מיקרופון אחד</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneSpeaker.Text" xml:space="preserve">
+    <value>אדם דובר אחד</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoMic.Text" xml:space="preserve">
+    <value>אדם שני מיקרופון</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoSpeaker.Text" xml:space="preserve">
+    <value>אדם שני דובר</value>
+  </data>
+  <data name="AudioDeviceSelector_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>בחר רמקול</value>
+  </data>
+  <data name="BluetoothPairingDialog_Description.Text" xml:space="preserve">
+    <value>ודא שההתקן שלך מופעל וניתן לגילוי. בחר מכשיר להלן כדי להתחבר.</value>
+  </data>
+  <data name="BluetoothPairingDialog_Title.Text" xml:space="preserve">
+    <value>הוספת התקן</value>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>ביטל</value>
+  </data>
+  <data name="ChangePasscodeDialog_Confirm.Text" xml:space="preserve">
+    <value>אשר קוד גישה חדש</value>
+  </data>
+  <data name="ChangePasscodeDialog_Current.Text" xml:space="preserve">
+    <value>קוד גישה נוכחי</value>
+  </data>
+  <data name="ChangePasscodeDialog_New.Text" xml:space="preserve">
+    <value>קוד גישה חדש</value>
+  </data>
+  <data name="ChangePasscodeDialog_Title.Text" xml:space="preserve">
+    <value>שינוי קוד גישה</value>
+  </data>
+  <data name="Close.Content" xml:space="preserve">
+    <value>קרוב</value>
+  </data>
+  <data name="ConsentDialog_Description1.Text" xml:space="preserve">
+    <value>חששות בנוגע לפרטיות הם בראש סדר העדיפויות שלנו. (5) אתה מקבל את התנאים וההתניות של מדיניות פרטיות זו באמצעות הטלפון הנייד או הטאבלט שלך, לפי העניין.</value>
+  </data>
+  <data name="ConsentDialog_Description2.Text" xml:space="preserve">
+    <value>אם תבחר שלא לאפשר לנו גישה כאשר אנו מקבלים בקשה להסכמה (בקשות כאלה יקבלו הודעה באתר האינטרנט של www ICTS בכתובת:</value>
+  </data>
+  <data name="ConsentDialog_Description3.Text" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int</value>
+  </data>
+  <data name="ConsentDialog_Description4.Text" xml:space="preserve">
+    <value>), ואז לא כתובת הדוא"ל שסופקה ולא כל מידע אישי אחר שיכול לזהות אדם יכול גם לבוא לידיעתנו לאחר מתן אישור כזה.</value>
+  </data>
+  <data name="ConsentDialog_Description5.Text" xml:space="preserve">
+    <value>על ידי שימוש בחלקים מסוימים: /השימוש שלי בטלפון הנייד שלי / סמלים - אשר עשוי לכלול התרת אחרים בחדרי צ'אט על מוצרים כמו</value>
+  </data>
+  <data name="ConsentDialog_HyperLink.NavigateUri" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int/</value>
+  </data>
+  <data name="ConsentDialog_Title.Text" xml:space="preserve">
+    <value>אנו מעריכים את פרטיותך</value>
+  </data>
+  <data name="Dashboard_Choose_Language.Text" xml:space="preserve">
+    <value>בחר שפה</value>
+  </data>
+  <data name="Dashboard_Hello.Text" xml:space="preserve">
+    <value>שלום</value>
+  </data>
+  <data name="Dashboard_SearchBox.PlaceholderText" xml:space="preserve">
+    <value>שפת חיפוש</value>
+  </data>
+  <data name="Dashboard_Welcome.Text" xml:space="preserve">
+    <value>ברוך הבא</value>
+  </data>
+  <data name="DevicesErrorDialog_NoDeviceError" xml:space="preserve">
+    <value>אין לך התקנים שמורים. עבור אל הגדרות -&gt; התקנים כדי לבחור מיקרופון ורמקול ולאחר מכן לחץ על שמור.</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Description.Text" xml:space="preserve">
+    <value>התקני Bluetooth זמינים</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_DropDown.PlaceholderText" xml:space="preserve">
+    <value>בחר התקן Bluetooth</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Scan.Text" xml:space="preserve">
+    <value>סרק</value>
+  </data>
+  <data name="DevicesPage_Bluetooth.Text" xml:space="preserve">
+    <value>בלוטות'</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices_Description.Text" xml:space="preserve">
+    <value>בחירת התקן השמע שלך</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices.Text" xml:space="preserve">
+    <value>התקני שמע מחוברים</value>
+  </data>
+  <data name="DevicesPage_MicDropDown.PlaceholderText" xml:space="preserve">
+    <value>בחר מיקרופון</value>
+  </data>
+  <data name="DevicesPage_Network_Description.Text" xml:space="preserve">
+    <value>רשתות זמינות</value>
+  </data>
+  <data name="DevicesPage_Network_DropDown.PlaceholderText" xml:space="preserve">
+    <value>בחר רשת</value>
+  </data>
+  <data name="DevicesPage_Network.Text" xml:space="preserve">
+    <value>רשת</value>
+  </data>
+  <data name="DevicesPage_NetworkError" xml:space="preserve">
+    <value>לא נבחרה רשת. בדוק את חיבורי הרשת שלך.</value>
+  </data>
+  <data name="DevicesPage_PersonOne_Speaker.Text" xml:space="preserve">
+    <value>אדם דובר אחד</value>
+  </data>
+  <data name="DevicesPage_PersonOneMic.Text" xml:space="preserve">
+    <value>אדם עם מיקרופון אחד</value>
+  </data>
+  <data name="DevicesPage_PersonTwo_Mic.Text" xml:space="preserve">
+    <value>אדם שני מיקרופון</value>
+  </data>
+  <data name="DevicesPage_Scan" xml:space="preserve">
+    <value>סרק</value>
+  </data>
+  <data name="DevicesPage_Scanning" xml:space="preserve">
+    <value>סריקה...</value>
+  </data>
+  <data name="DevicesPage_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>בחר רמקול</value>
+  </data>
+  <data name="DevicesPage_Status_Connect" xml:space="preserve">
+    <value>התחבר</value>
+  </data>
+  <data name="DevicesPage_Status_Connected" xml:space="preserve">
+    <value>מחובר</value>
+  </data>
+  <data name="DevicesPage_Status_Connecting" xml:space="preserve">
+    <value>חיבור...</value>
+  </data>
+  <data name="DevicesPage_Status_Off" xml:space="preserve">
+    <value>כבוי</value>
+  </data>
+  <data name="DevicesPage_Status_On" xml:space="preserve">
+    <value>הלאה</value>
+  </data>
+  <data name="DevicesPager_PersonTwo_Speaker.Text" xml:space="preserve">
+    <value>אדם שני דובר</value>
+  </data>
+  <data name="EnterPasscodeDialog_Description.Text" xml:space="preserve">
+    <value>הזן את קוד הגישה שלך כדי לגשת לדף ההגדרות</value>
+  </data>
+  <data name="EnterPasscodeDialog_ForgotPasscode.Content" xml:space="preserve">
+    <value>שכחת את קוד הגישה?</value>
+  </data>
+  <data name="EnterPasscodeDialog_InvalidPasscode.Text" xml:space="preserve">
+    <value>קוד גישה לא חוקי! נסה שוב.</value>
+  </data>
+  <data name="EnterPasscodeDialog_Passcode.Text" xml:space="preserve">
+    <value>קוד סיסמה</value>
+  </data>
+  <data name="EnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>הזינו את קוד הגישה</value>
+  </data>
+  <data name="IAgree.Content" xml:space="preserve">
+    <value>אני מסכים</value>
+  </data>
+  <data name="InvalidLicenseDialog_Description.Text" xml:space="preserve">
+    <value>אימות הרישיון שלך נכשל</value>
+  </data>
+  <data name="InvalidLicenseDialog_Title.Text" xml:space="preserve">
+    <value>רישיון לא חוקי</value>
+  </data>
+  <data name="LoginFailedDialog_Button.Content" xml:space="preserve">
+    <value>תחזור</value>
+  </data>
+  <data name="LoginFailedDialog_Description.Text" xml:space="preserve">
+    <value>ניסיון ההתחברות שלך נכשל.</value>
+  </data>
+  <data name="LoginFailedDialog_Title.Text" xml:space="preserve">
+    <value>כניסה כושלת</value>
+  </data>
+  <data name="Main_Title.Text" xml:space="preserve">
+    <value>ראשי</value>
+  </data>
+  <data name="PasswordPopup_SetupTitle.Text" xml:space="preserve">
+    <value>הגדרת קוד גישה</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Description1.Text" xml:space="preserve">
+    <value>הזן מחדש את קוד הגישה שלך כדי להמשיך לערוך...</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>הזינו מחדש את קוד הגישה</value>
+  </data>
+  <data name="RenterPasscodeDialog_Description2.Text" xml:space="preserve">
+    <value>שמירה אוטומטית וחזרה הביתה</value>
+  </data>
+  <data name="Save.Content" xml:space="preserve">
+    <value>שמר</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Description.Text" xml:space="preserve">
+    <value>זהו דף לדוגמה שיציג פרמטרי הפעלה אם היישום מופעל מקישור עמוק.</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Title.Text" xml:space="preserve">
+    <value>SchemeActivationSample</value>
+  </data>
+  <data name="SetPasscodeDialog_ConfirmPasscode.Text" xml:space="preserve">
+    <value>אשר קוד גישה חדש </value>
+  </data>
+  <data name="SetPasscodeDialog_NewPasscode.Text" xml:space="preserve">
+    <value>קוד גישה חדש</value>
+  </data>
+  <data name="SetPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>הגדרת קוד גישה</value>
+  </data>
+  <data name="Settings_About.Text" xml:space="preserve">
+    <value>אודות יישום זה</value>
+  </data>
+  <data name="Settings_AboutDescription.Text" xml:space="preserve">
+    <value>הגדרות טקסט מציין מיקום של עמוד.  תיאור האפליקציה שלך עובר לכאן.</value>
+  </data>
+  <data name="Settings_Personalization.Text" xml:space="preserve">
+    <value>התאמה אישית</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.Content" xml:space="preserve">
+    <value>הצהרת פרטיות</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.NavigateUri" xml:space="preserve">
+    <value>https://YourPrivacyUrlGoesHere/</value>
+  </data>
+  <data name="Settings_Theme_Dark.Content" xml:space="preserve">
+    <value>חשוך</value>
+  </data>
+  <data name="Settings_Theme_Default.Content" xml:space="preserve">
+    <value>ברירת מחדל של Windows</value>
+  </data>
+  <data name="Settings_Theme_Light.Content" xml:space="preserve">
+    <value>אור</value>
+  </data>
+  <data name="Settings_Theme.Text" xml:space="preserve">
+    <value>בחר ערכת נושא</value>
+  </data>
+  <data name="Settings_Title.Text" xml:space="preserve">
+    <value>הגדרות</value>
+  </data>
+  <data name="SettingsPage_Devices" xml:space="preserve">
+    <value>התקנים</value>
+  </data>
+  <data name="SettingsPage_Language" xml:space="preserve">
+    <value>שפה</value>
+  </data>
+  <data name="SettingsPage_Profile" xml:space="preserve">
+    <value>פרופיל</value>
+  </data>
+  <data name="SettingsPage_Questions" xml:space="preserve">
+    <value>שאלות</value>
+  </data>
+  <data name="SettingsPage_Title" xml:space="preserve">
+    <value>הגדרות</value>
+  </data>
+  <data name="ShellView_Help" xml:space="preserve">
+    <value>עזרה</value>
+  </data>
+  <data name="ShellView_History" xml:space="preserve">
+    <value>היסטוריה</value>
+  </data>
+  <data name="ShellView_Home" xml:space="preserve">
+    <value>הביתה</value>
+  </data>
+  <data name="ShellView_Settings.Text" xml:space="preserve">
+    <value>הגדרות</value>
+  </data>
+  <data name="Sign_In.Text" xml:space="preserve">
+    <value>הירשם</value>
+  </data>
+  <data name="SignInDialog_Description.Text" xml:space="preserve">
+    <value>תקשר באופן מיידי במספר שפות גלובליות באמצעות מכשיר Jabra שלך.</value>
+  </data>
+  <data name="SignInDialog_SignInButton.Content" xml:space="preserve">
+    <value>הירשם</value>
+  </data>
+  <data name="Translate_Button.Text" xml:space="preserve">
+    <value>תרגם</value>
+  </data>
+  <data name="TranslationPage_EndSession.Text" xml:space="preserve">
+    <value>סיום ההפעלה</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOn" xml:space="preserve">
+    <value>מיקרופון מופעל</value>
+  </data>
+  <data name="TranslationPage_SpeakerOn" xml:space="preserve">
+    <value>רמקול מופעל</value>
+  </data>
+  <data name="TranslationPage_SpeakNow.Text" xml:space="preserve">
+    <value>דברו עכשיו</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>על</value>
+  </data>
+  <data name="AboutPage_AppVersion.Text" xml:space="preserve">
+    <value>גרסת היישום</value>
+  </data>
+  <data name="AboutPage_CheckUpdate.Content" xml:space="preserve">
+    <value>בדוק אם קיימים עדכונים</value>
+  </data>
+  <data name="AboutPage_DataConsent" xml:space="preserve">
+    <value>הארגון שלך נתן את הסכמתו לשמירת הנתונים שלך בענן.</value>
+  </data>
+  <data name="AboutPage_NoDataConsent" xml:space="preserve">
+    <value>הארגון שלך לא נתן את הסכמתו לשמירת הנתונים שלך בענן.</value>
+  </data>
+  <data name="AboutPage_Published.Text" xml:space="preserve">
+    <value>פורסם על ידי FITTS בע"מ.</value>
+  </data>
+  <data name="AppClose_Close.Content" xml:space="preserve">
+    <value>סגור בכל מקרה</value>
+  </data>
+  <data name="AppClose_Dismiss.Content" xml:space="preserve">
+    <value>ביטל</value>
+  </data>
+  <data name="AppClose_Warning.Text" xml:space="preserve">
+    <value>יש לך סשן בעיצומו. אנא סיים את ההפעלה לפני היציאה מהיישום.</value>
+  </data>
+  <data name="AppVersion.Text" xml:space="preserve">
+    <value>גרסת האפליקציה</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Button.Content" xml:space="preserve">
+    <value>המשך הפעלה</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Description.Text" xml:space="preserve">
+    <value>המפגש יסתיים ב</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Title.Text" xml:space="preserve">
+    <value>השמע לא זוהה</value>
+  </data>
+  <data name="AudioPlayer_Error.Text" xml:space="preserve">
+    <value>טעינת השמע נכשלה</value>
+  </data>
+  <data name="DashboardPage_DefaultLanguageError" xml:space="preserve">
+    <value>לא שמרת את שפת התרגום המוגדרת כברירת מחדל. עבור אל הגדרות -&gt; שפות כדי לבחור שפת תרגום המהווה ברירת מחדל ולאחר מכן לחץ על שמור.</value>
+  </data>
+  <data name="DashboardPage_TargetLanguageError" xml:space="preserve">
+    <value>לא בחרת שפת תרגום יעד. אנא בחר שפה ולאחר מכן לחץ על תרגם.</value>
+  </data>
+  <data name="DevicesErrorDialog_DualDeviceError" xml:space="preserve">
+    <value>בחרת תרגום מכשירים כפולים אך לא בחרת מכשיר (ים) עבור אדם 2. עבור אל הגדרות -&gt; התקנים כדי לבחור מיקרופון ורמקול ולאחר מכן לחץ על שמור.</value>
+  </data>
+  <data name="DevicesPage_Title.Text" xml:space="preserve">
+    <value>התקנים</value>
+  </data>
+  <data name="DevicesPage_Wifi_Password.Text" xml:space="preserve">
+    <value>הזן סיסמה</value>
+  </data>
+  <data name="DevicesPage_WifiStatus.Text" xml:space="preserve">
+    <value>סטטוס WiFi</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>עריכה</value>
+  </data>
+  <data name="Expiry.Text" xml:space="preserve">
+    <value>תפוגה</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>משוב</value>
+  </data>
+  <data name="FeedbackMessage.Text" xml:space="preserve">
+    <value>אם יש לך משוב או שאילתות אל תהסס ליצור קשר.</value>
+  </data>
+  <data name="GetInTouchButton.Text" xml:space="preserve">
+    <value>צור קשר</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>עזרה</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>היסטוריה</value>
+  </data>
+  <data name="History_ExportBtn.Text" xml:space="preserve">
+    <value>ייצא</value>
+  </data>
+  <data name="HistoryExportButtonTooltip.Text" xml:space="preserve">
+    <value>ייצא</value>
+  </data>
+  <data name="HistoryListColumnDate.Text" xml:space="preserve">
+    <value>תמר</value>
+  </data>
+  <data name="HistoryListColumnDuration.Text" xml:space="preserve">
+    <value>משך</value>
+  </data>
+  <data name="HistoryListColumnPrimaryLanguage.Text" xml:space="preserve">
+    <value>שפה ראשית</value>
+  </data>
+  <data name="HistoryListColumnSecondaryLanguage.Text" xml:space="preserve">
+    <value>שפה משנית</value>
+  </data>
+  <data name="HistoryListColumnSessionId.Text" xml:space="preserve">
+    <value>מזהה הפעלה</value>
+  </data>
+  <data name="InitalSetup_SkipSetup.Content" xml:space="preserve">
+    <value>דלג על ההגדרה</value>
+  </data>
+  <data name="InitialNetworkPopupConnectButton.Content" xml:space="preserve">
+    <value>התחבר</value>
+  </data>
+  <data name="InitialSetup_DeviceSelection.Text" xml:space="preserve">
+    <value>בחירת מכשיר</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionDescription.Text" xml:space="preserve">
+    <value>הגדרת התקן השמע המוגדר כברירת מחדל</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneMicrophone.Text" xml:space="preserve">
+    <value>בחר מיקרופון</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneSpeaker.Text" xml:space="preserve">
+    <value>בחר רמקול</value>
+  </data>
+  <data name="InitialSetup_FinishSetup.Content" xml:space="preserve">
+    <value>סיים את ההתקנה</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection_Description.Text" xml:space="preserve">
+    <value>הגדרת שפת התרגום המוגדרת כברירת מחדל</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection.Text" xml:space="preserve">
+    <value>בחירת שפה</value>
+  </data>
+  <data name="InitialSetup_NetworkSelection.Text" xml:space="preserve">
+    <value>רשת מועדפת</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopup.Text" xml:space="preserve">
+    <value>התחברות לרשת</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopupPassword.Text" xml:space="preserve">
+    <value>הזן סיסמה:</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionDescription.Text" xml:space="preserve">
+    <value>בחר מתוך אחת מהרשתות הזמינות</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionNoInternetConnection.Text" xml:space="preserve">
+    <value>אינך מחובר לאינטרנט. בדוק את חיבורי הרשת שלך.</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionOtherNetworks.Text" xml:space="preserve">
+    <value>רשתות אחרות</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup_Description.Text" xml:space="preserve">
+    <value>הגדרת קוד הסיסמה של האפליקציה</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup.Text" xml:space="preserve">
+    <value>הגדרת קוד גישה</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>שפה</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage_Description.Text" xml:space="preserve">
+    <value>בחר שפת יישום</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage.Text" xml:space="preserve">
+    <value>שפת האפליקציה</value>
+  </data>
+  <data name="LanguagesPage_AppLanguageDropdown.PlaceholderText" xml:space="preserve">
+    <value>בחר שפה</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage_Description.Text" xml:space="preserve">
+    <value>שפת ברירת המחדל שבה אתה משתמש</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage.Text" xml:space="preserve">
+    <value>שפת ברירת המחדל שלי</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguageDropDown.PlaceholderText" xml:space="preserve">
+    <value>בחר שפה</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description.Text" xml:space="preserve">
+    <value>מקטע היסטוריה (עבור תרגומים מרובי מכשירים)</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description1.Text" xml:space="preserve">
+    <value>* תרגומים למכשיר יחיד מנגנים את כל השמע כברירת מחדל *</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage.Text" xml:space="preserve">
+    <value>שפת הפעלה המוגדרת כברירת מחדל</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguages.Text" xml:space="preserve">
+    <value>שפות תצוגה מהירה</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguagesDropdown.PlaceholderText" xml:space="preserve">
+    <value>הוספת שפה</value>
+  </data>
+  <data name="LanguagesPage_Title.Text" xml:space="preserve">
+    <value>שפות</value>
+  </data>
+  <data name="Licence" xml:space="preserve">
+    <value>רישיון</value>
+  </data>
+  <data name="LicenseType.Text" xml:space="preserve">
+    <value>סוג רישיון:</value>
+  </data>
+  <data name="NetworkConnectionError" xml:space="preserve">
+    <value>שגיאה:</value>
+  </data>
+  <data name="Next.Content" xml:space="preserve">
+    <value>הבא</value>
+  </data>
+  <data name="PasscodeError_MinimumLength" xml:space="preserve">
+    <value>האורך המינימלי של קוד הגישה צריך להיות 4.</value>
+  </data>
+  <data name="PasscodeError_NotMatching" xml:space="preserve">
+    <value>קודי הגישה שהוזנו אינם תואמים. הזן מחדש את קודי הגישה ולאחר מכן נסה שוב.</value>
+  </data>
+  <data name="Person.Text" xml:space="preserve">
+    <value>אדם</value>
+  </data>
+  <data name="PrivacyPolicy.Text" xml:space="preserve">
+    <value>מדיניות פרטיות</value>
+  </data>
+  <data name="ProfilePage_Email_Description.Text" xml:space="preserve">
+    <value>ברירת מחדל לייצוא דואר אלקטרוני</value>
+  </data>
+  <data name="ProfilePage_Email.Text" xml:space="preserve">
+    <value>דואר אלקטרוני</value>
+  </data>
+  <data name="ProfilePage_Passcode_Description.Text" xml:space="preserve">
+    <value>קוד הגישה של הבקשה שלך</value>
+  </data>
+  <data name="ProfilePage_Passcode.Text" xml:space="preserve">
+    <value>קוד סיסמה</value>
+  </data>
+  <data name="ProfilePage_Timeout_Description.Text" xml:space="preserve">
+    <value>תדירות נעילת מצב ניהול</value>
+  </data>
+  <data name="ProfilePage_Timeout.Text" xml:space="preserve">
+    <value>פסק זמן של מצב ניהול</value>
+  </data>
+  <data name="ProfilePage_TimeoutDropdown.PlaceholderText" xml:space="preserve">
+    <value>בחר שעה</value>
+  </data>
+  <data name="ProfilePage_Title.Text" xml:space="preserve">
+    <value>פרופיל</value>
+  </data>
+  <data name="PublishedBy.Text" xml:space="preserve">
+    <value>פורסם על ידי</value>
+  </data>
+  <data name="ReleaseNotesMessage.Text" xml:space="preserve">
+    <value>הערות המוצר יעודכנו בקרוב</value>
+  </data>
+  <data name="Save_Text" xml:space="preserve">
+    <value>שמר</value>
+  </data>
+  <data name="SessionDetailsPage_Description.Text" xml:space="preserve">
+    <value>היסטוריית תמלול</value>
+  </data>
+  <data name="SessionDetailsPage_Duration.Text" xml:space="preserve">
+    <value>משך</value>
+  </data>
+  <data name="SessionDetailsPage_SessionID.Text" xml:space="preserve">
+    <value>מזהה הפעלה</value>
+  </data>
+  <data name="SessionDetailsPage_Title.Text" xml:space="preserve">
+    <value>היסטוריה</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>הגדרות</value>
+  </data>
+  <data name="TermsOfUse.Text" xml:space="preserve">
+    <value>תנאי שימוש</value>
+  </data>
+  <data name="TranslationPage_SettingUpState" xml:space="preserve">
+    <value>הגדרת ...</value>
+  </data>
+  <data name="TranslationPage_SpeakFast" xml:space="preserve">
+    <value>נסה לדבר קצת יותר מהר לקבלת תוצאות תרגום טובות יותר.</value>
+  </data>
+  <data name="TranslationPage_SpeakIn" xml:space="preserve">
+    <value>דבר ב</value>
+  </data>
+  <data name="TranslationPage_SpeakSlow" xml:space="preserve">
+    <value>נסה לדבר קצת יותר לאט לקבלת תוצאות תרגום טובות יותר.</value>
+  </data>
+  <data name="TranslationPage_Switching" xml:space="preserve">
+    <value>מיתוג</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonOne" xml:space="preserve">
+    <value>מעבר לאדם 1</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonTwo" xml:space="preserve">
+    <value>מעבר לאדם 2</value>
+  </data>
+  <data name="TranslationPage_TranslationReadyState" xml:space="preserve">
+    <value>דברו עכשיו</value>
+  </data>
+  <data name="Website.Text" xml:space="preserve">
+    <value>אתר אישי</value>
+  </data>
+  <data name="WhatsNew" xml:space="preserve">
+    <value>מה חדש</value>
+  </data>
+  <data name="WhatsNewInSpeechly.Text" xml:space="preserve">
+    <value>מה חדש ב-</value>
+  </data>
+  <data name="AudioDevicesSelectorDualDevice.Content" xml:space="preserve">
+    <value>מכשיר כפול</value>
+  </data>
+  <data name="AudioDevicesSelectorSingleDevice.Content" xml:space="preserve">
+    <value>מכשיר יחיד</value>
+  </data>
+  <data name="AutoDetectSearchCountry.PlaceholderText" xml:space="preserve">
+    <value>חפש מדינה</value>
+  </data>
+  <data name="AutoDetectSelectLanguage.Text" xml:space="preserve">
+    <value>בחר את השפה שלך</value>
+  </data>
+  <data name="ChatViewPersonOne" xml:space="preserve">
+    <value>אדם ראשון</value>
+  </data>
+  <data name="ChatViewPersonTwo" xml:space="preserve">
+    <value>אדם שני</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionLost" xml:space="preserve">
+    <value>החיבור לאינטרנט אבד. אנא בדוק את החיבור שלך ולאחר מכן נסה שוב.</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionUnstable" xml:space="preserve">
+    <value>חיבור האינטרנט שלך איטי. ייתכן שתיתקל בפיגור מסוים.</value>
+  </data>
+  <data name="CustomTagSelectionTitle.Text" xml:space="preserve">
+    <value>תגיות ארגון (בחר כדי להוסיף)</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.Header" xml:space="preserve">
+    <value>דגל משתמש להחלפת שפה</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OffContent" xml:space="preserve">
+    <value>נכים</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OnContent" xml:space="preserve">
+    <value>מופעלת</value>
+  </data>
+  <data name="DetectLanguageButton.Content" xml:space="preserve">
+    <value>זיהוי שפה</value>
+  </data>
+  <data name="DevicesPageNetworkSetupBluetoothStatus.Text" xml:space="preserve">
+    <value>סטטוס בלוטות' :</value>
+  </data>
+  <data name="DevicesPageNetworkSetupConnectAutomatically.Text" xml:space="preserve">
+    <value>התחבר באופן אוטומטי</value>
+  </data>
+  <data name="DevicesPageNetworkSetupWiFiStatus.Text" xml:space="preserve">
+    <value>מצב WiFi :</value>
+  </data>
+  <data name="Dimiss.Content" xml:space="preserve">
+    <value>ביטל</value>
+  </data>
+  <data name="Duration.Text" xml:space="preserve">
+    <value>|  משך</value>
+  </data>
+  <data name="EmailPopup_Description.Text" xml:space="preserve">
+    <value>הזן את כתובת הדוא"ל שלך</value>
+  </data>
+  <data name="EmailPopup_Title.Text" xml:space="preserve">
+    <value>שלח את ההפעלה בדואר אלקטרוני</value>
+  </data>
+  <data name="ForcedUpdateDialogCaption" xml:space="preserve">
+    <value>יש לנו עדכונים קריטיים עבור</value>
+  </data>
+  <data name="ForcedUpdateDialogInstallBtnText" xml:space="preserve">
+    <value>עדכון</value>
+  </data>
+  <data name="ForcedUpdateDialogTitle" xml:space="preserve">
+    <value>עדכונים קריטיים</value>
+  </data>
+  <data name="GoBack.Content" xml:space="preserve">
+    <value>תחזור</value>
+  </data>
+  <data name="HelpPageSignOut.Content" xml:space="preserve">
+    <value>התנתקות</value>
+  </data>
+  <data name="History_Export.Text" xml:space="preserve">
+    <value>יצירת קובץ...</value>
+  </data>
+  <data name="HistoryListColumnSessionName.Text" xml:space="preserve">
+    <value>שם</value>
+  </data>
+  <data name="HistoryListColumnSynced.Text" xml:space="preserve">
+    <value>המסונכרנת</value>
+  </data>
+  <data name="HistorySearchBox.PlaceholderText" xml:space="preserve">
+    <value>שפה, שם הפעלה, תגים או מזהים</value>
+  </data>
+  <data name="HistorySearchButtonTooltip.Text" xml:space="preserve">
+    <value>חיפוש</value>
+  </data>
+  <data name="HistorySearchClearButtonTooltip.Text" xml:space="preserve">
+    <value>צלול</value>
+  </data>
+  <data name="HistorySearchFromDate.Header" xml:space="preserve">
+    <value>מ:</value>
+  </data>
+  <data name="HistorySearchToDate.Header" xml:space="preserve">
+    <value>ל:</value>
+  </data>
+  <data name="HistoryShareButtonTooltip.Text" xml:space="preserve">
+    <value>שיתוף/שליחה</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonOne.Text" xml:space="preserve">
+    <value>אדם 1</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonTwo.Text" xml:space="preserve">
+    <value>אדם 2</value>
+  </data>
+  <data name="LoginPageTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NewVersionDialogCaption" xml:space="preserve">
+    <value>התקנת גירסת יישום חדשה של</value>
+  </data>
+  <data name="NewVersionDialogDescription" xml:space="preserve">
+    <value>תכונות חדשות ותיקוני באגים יחסרו ב </value>
+  </data>
+  <data name="NewVersionDialogInstallBtnText" xml:space="preserve">
+    <value>התקן גרסה חדשה</value>
+  </data>
+  <data name="NewVersionDialogTitle" xml:space="preserve">
+    <value>גרסת אפליקציה חדשה</value>
+  </data>
+  <data name="NextText" xml:space="preserve">
+    <value>הבא</value>
+  </data>
+  <data name="ProfilePageEditButton.Content" xml:space="preserve">
+    <value>עריכה</value>
+  </data>
+  <data name="QuestionsButton.Content" xml:space="preserve">
+    <value>ראה שאלות</value>
+  </data>
+  <data name="QuestionSettingsDescription.Text" xml:space="preserve">
+    <value>הצגה או שינוי של קיצורי הדרך של השאלות שלך</value>
+  </data>
+  <data name="QuestionSettingsInstructionOne.Text" xml:space="preserve">
+    <value>* השתמשו במספרים 1-9 לכל שאלה. אפס (0) לא ייחשב.</value>
+  </data>
+  <data name="QuestionSettingsInstructionThree.Text" xml:space="preserve">
+    <value>* ניתן להקצות קיצורי דרך ל-9 שאלות בלבד.</value>
+  </data>
+  <data name="QuestionSettingsListTitle.Text" xml:space="preserve">
+    <value>רשימת שאלות :</value>
+  </data>
+  <data name="ResellerEmailAddress.Text" xml:space="preserve">
+    <value>כתובת דוא"ל של המשווק :</value>
+  </data>
+  <data name="ResellerName.Text" xml:space="preserve">
+    <value>שם המשווק :</value>
+  </data>
+  <data name="SelectFlag.Text" xml:space="preserve">
+    <value>בחר את הדגל שלך:</value>
+  </data>
+  <data name="Send.Content" xml:space="preserve">
+    <value>שלח</value>
+  </data>
+  <data name="SessionDetailsPage_SessionName.Text" xml:space="preserve">
+    <value>שם הפעלה</value>
+  </data>
+  <data name="SessionID.Text" xml:space="preserve">
+    <value>מזהה הפעלה : -</value>
+  </data>
+  <data name="SessionMetadataDialog_ContinueButton.Text" xml:space="preserve">
+    <value>נמשך</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTags.Text" xml:space="preserve">
+    <value>תגיות מותאמות אישית</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>הזן את שם התג כאן</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextboxHelper.Text" xml:space="preserve">
+    <value>הקש Enter</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTags.Text" xml:space="preserve">
+    <value>תגי ברירת מחדל</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>הזן ערך כאן</value>
+  </data>
+  <data name="SessionMetadataDialog_Description.Text" xml:space="preserve">
+    <value>שדות חובה מסומנים ב- '</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionName.Text" xml:space="preserve">
+    <value>שם הפעלה</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionNameTextbox.PlaceholderText" xml:space="preserve">
+    <value>לדוגמה, אפס מטופלים</value>
+  </data>
+  <data name="SessionMetadataDialog_Title.Text" xml:space="preserve">
+    <value>הוספת שם הפעלה ותגיות</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorActionMessage" xml:space="preserve">
+    <value>פנה למנהל המערכת כדי להפעיל את חשבונך.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorMessage" xml:space="preserve">
+    <value>החשבון שלך הושבת.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorActionMessage" xml:space="preserve">
+    <value>פנה למנהל המערכת כדי ליצור את החשבון שלך.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorMessage" xml:space="preserve">
+    <value>החשבון שלך נמחק.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorActionMessage" xml:space="preserve">
+    <value>פנה למנהל המערכת כדי להפוך את החשבון שלך לזמין.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorMessage" xml:space="preserve">
+    <value>החשבון שלך הושבת.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorActionMessage" xml:space="preserve">
+    <value>פנה למנהל המערכת כדי ליצור את החשבון שלך.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorMessage" xml:space="preserve">
+    <value>אין לך חשבון פעיל.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorActionMessage" xml:space="preserve">
+    <value>פנה למנהל המערכת כדי לחדש את הרישיון.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorMessage" xml:space="preserve">
+    <value>תוקף הרישיון שלך פג.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorActionMessage" xml:space="preserve">
+    <value>פנה למנהל המערכת כדי להפעיל את הרישיון.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorMessage" xml:space="preserve">
+    <value>הרישיון שלך בוטל.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorActionMessage" xml:space="preserve">
+    <value>פנה אל מנהל המערכת שלך.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorMessage" xml:space="preserve">
+    <value>הרישיון שלך הותלה.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorActionMessage" xml:space="preserve">
+    <value>פנה למנהל המערכת כדי להקצות לך רשיון.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorMessage" xml:space="preserve">
+    <value>לא הוקצה לך רשיון.</value>
+  </data>
+  <data name="StartupPage2020.Text" xml:space="preserve">
+    <value>2021 </value>
+  </data>
+  <data name="StartupPageErrorDescription.Text" xml:space="preserve">
+    <value>אירעה שגיאה. בדוק את חיבור האינטרנט שלך ולאחר מכן נסה שוב.</value>
+  </data>
+  <data name="StartupPagePoweredBy.Text" xml:space="preserve">
+    <value>באמצעות </value>
+  </data>
+  <data name="StartupPageProgressDescription.Text" xml:space="preserve">
+    <value>פעולה זו עשויה להימשך מספר שניות</value>
+  </data>
+  <data name="StartupPageRetryButton.Content" xml:space="preserve">
+    <value>נסה שנית</value>
+  </data>
+  <data name="StartupPageRightsReserved.Text" xml:space="preserve">
+    <value>כל הזכויות שמורות.</value>
+  </data>
+  <data name="StartUpPageSettingUpMessage" xml:space="preserve">
+    <value>הגדרת...</value>
+  </data>
+  <data name="StartupPageTitleDescription.Text" xml:space="preserve">
+    <value>ברוכים הבאים ל </value>
+  </data>
+  <data name="TranslateText" xml:space="preserve">
+    <value>תרגם</value>
+  </data>
+  <data name="TranslationLicenceUseError" xml:space="preserve">
+    <value>הרישיון שלך נמצא כעת בשימוש בהפעלה אחרת.</value>
+  </data>
+  <data name="TranslationLimitReachedError" xml:space="preserve">
+    <value>הגעת למגבלת הזמן המרבית שלך לכל הפעלה. מפגש סיום.</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOff" xml:space="preserve">
+    <value>מיקרופון כבוי</value>
+  </data>
+  <data name="TranslationPage_SpeakerOff" xml:space="preserve">
+    <value>רמקול כבוי</value>
+  </data>
+  <data name="TranslationTimeDepletedError" xml:space="preserve">
+    <value>דקות התרגום שלך אזלו. אנא צור קשר עם מנהל המערכת שלך.</value>
+  </data>
+  <data name="UnsupportedVersionDialogBtntext" xml:space="preserve">
+    <value>עדכון</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption" xml:space="preserve">
+    <value>נדרשים עדכונים קריטיים עבור </value>
+  </data>
+  <data name="UnsupportedVersionDialogDescription" xml:space="preserve">
+    <value>עדכן את האפליקציה כדי להמשיך לקבל עדכוני תכונות ואבטחה.</value>
+  </data>
+  <data name="UnsupportedVersionDialogTitle" xml:space="preserve">
+    <value>גרסת אפליקציה שאינה נתמכת</value>
+  </data>
+  <data name="UpdateDialogWhatsNew.Text" xml:space="preserve">
+    <value>מה חדש?</value>
+  </data>
+  <data name="Zoom.Text" xml:space="preserve">
+    <value>זום</value>
+  </data>
+  <data name="Add.Content" xml:space="preserve">
+    <value>הוסף</value>
+  </data>
+  <data name="AddNewQuestion.Text" xml:space="preserve">
+    <value>הוספת שאלה חדשה מוגדרת מראש</value>
+  </data>
+  <data name="AddQuestion.Content" xml:space="preserve">
+    <value>הוסף שאלה</value>
+  </data>
+  <data name="ChooseLanguage.Text" xml:space="preserve">
+    <value>בחר את שפת ברירת המחדל</value>
+  </data>
+  <data name="CustomProfileAdded" xml:space="preserve">
+    <value>שם הפרופיל נוסף בהצלחה.</value>
+  </data>
+  <data name="CustomProfileDeleted" xml:space="preserve">
+    <value>הפרופיל נמחק בהצלחה.</value>
+  </data>
+  <data name="CustomProfileInvalidName" xml:space="preserve">
+    <value>שגיאה! שם פרופיל לא חוקי.</value>
+  </data>
+  <data name="CustomProfileNotDeleted" xml:space="preserve">
+    <value>אין פרופיל למחיקה.</value>
+  </data>
+  <data name="CustomProfileNotSaved" xml:space="preserve">
+    <value>שגיאה! לא נשמר פרופיל.</value>
+  </data>
+  <data name="CustomProfileProfileSaved" xml:space="preserve">
+    <value>הפרופיל נשמר בהצלחה.</value>
+  </data>
+  <data name="DataRequestMessage" xml:space="preserve">
+    <value>לא בחרת טקסט כלשהו. בחר טקסט לשיתוף ונסה שוב.</value>
+  </data>
+  <data name="DevicesAddProfileButton.Content" xml:space="preserve">
+    <value>הוסף</value>
+  </data>
+  <data name="DevicesAvailableProfiles.Text" xml:space="preserve">
+    <value>פרופילים זמינים</value>
+  </data>
+  <data name="DevicesDefaultProfile.Text" xml:space="preserve">
+    <value>פרופיל ברירת מחדל:</value>
+  </data>
+  <data name="DevicesDeleteProfileBtn.Content" xml:space="preserve">
+    <value>מחק פרופיל</value>
+  </data>
+  <data name="DeviceSetupChanged" xml:space="preserve">
+    <value>התקני שמע מחוברים מעודכנים </value>
+  </data>
+  <data name="DevicesHelpfulTip1.Text" xml:space="preserve">
+    <value>1. הגדר שם פרופיל</value>
+  </data>
+  <data name="DevicesHelpfulTip2.Text" xml:space="preserve">
+    <value>2. בחר מצבי התקן יחיד או כפול</value>
+  </data>
+  <data name="DevicesHelpfulTip3.Text" xml:space="preserve">
+    <value>3. בחר רמקולים ומיקרופונים</value>
+  </data>
+  <data name="DevicesHelpfulTip4.Text" xml:space="preserve">
+    <value>4. הגדר את הפרופיל שלך כברירת מחדל</value>
+  </data>
+  <data name="DevicesHelpfulTip5.Text" xml:space="preserve">
+    <value>5. לחץ על שמור פרופיל כפתור לשמירת הפרופיל שלך</value>
+  </data>
+  <data name="DevicesHelpfulTips.Text" xml:space="preserve">
+    <value>טיפים מועילים</value>
+  </data>
+  <data name="DevicesProfileNameTextBox.PlaceholderText" xml:space="preserve">
+    <value>שם פרופיל...</value>
+  </data>
+  <data name="DevicesSaveProfileBtn.Content" xml:space="preserve">
+    <value>שמור פרופיל</value>
+  </data>
+  <data name="DevicesSetasDefault.Text" xml:space="preserve">
+    <value>הגדר כברירת מחדל</value>
+  </data>
+  <data name="DevicesSetProfileButton.Content" xml:space="preserve">
+    <value>הגדרת פרופיל</value>
+  </data>
+  <data name="DevicesSetProfileText.Text" xml:space="preserve">
+    <value>להגדיר פרופיל מותאם אישית?</value>
+  </data>
+  <data name="DiscardButton.Content" xml:space="preserve">
+    <value>זרק</value>
+  </data>
+  <data name="DismissButton.Content" xml:space="preserve">
+    <value>בטל</value>
+  </data>
+  <data name="DismissText.Text" xml:space="preserve">
+    <value>בטל</value>
+  </data>
+  <data name="DownloadAudio.Text" xml:space="preserve">
+    <value>הורד אודיו</value>
+  </data>
+  <data name="DownloadCancel" xml:space="preserve">
+    <value>ההורדה בוטלה</value>
+  </data>
+  <data name="Downloaded" xml:space="preserve">
+    <value>שהורדו</value>
+  </data>
+  <data name="DownloadError" xml:space="preserve">
+    <value>אירעה שגיאה</value>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>הורדת</value>
+  </data>
+  <data name="DownloadPaused" xml:space="preserve">
+    <value>הורד מושהה</value>
+  </data>
+  <data name="DualDeviceUpdated" xml:space="preserve">
+    <value>הגדרת המכשיר הכפול עודכנה בהצלחה</value>
+  </data>
+  <data name="EnterQuestion.Text" xml:space="preserve">
+    <value>הזן שאלה למטה</value>
+  </data>
+  <data name="ErrorDescription.Text" xml:space="preserve">
+    <value>השינויים שלך לא נשמרו, האם ברצונך לשמור אותם או לבטלם?</value>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>משהו השתבש. נסה שוב</value>
+  </data>
+  <data name="ErrorTitle.Text" xml:space="preserve">
+    <value>יש לך שינויים שלא נשמרו</value>
+  </data>
+  <data name="FeedbackEight.Text" xml:space="preserve">
+    <value>המשכנו להפריע אחד לשני</value>
+  </data>
+  <data name="FeedbackFive.Text" xml:space="preserve">
+    <value>שמעתי הד בשיחה</value>
+  </data>
+  <data name="FeedbackFour.Text" xml:space="preserve">
+    <value>הוא קלט קולות רקע</value>
+  </data>
+  <data name="FeedbackOne.Text" xml:space="preserve">
+    <value>זה לא קלט את הקול שלי כמו שצריך</value>
+  </data>
+  <data name="FeedbackQuestion.Text" xml:space="preserve">
+    <value>מה יכול היה להיות טוב יותר?</value>
+  </data>
+  <data name="FeedbackSeven.Text" xml:space="preserve">
+    <value>הפגישה הסתיימה במפתיע</value>
+  </data>
+  <data name="FeedbackSix.Text" xml:space="preserve">
+    <value>עוצמת הקול הייתה נמוכה מדי</value>
+  </data>
+  <data name="FeedbackThanks.Text" xml:space="preserve">
+    <value>תודה על המשוב</value>
+  </data>
+  <data name="FeedbackThree.Text" xml:space="preserve">
+    <value>זמן התרגום היה איטי מדי</value>
+  </data>
+  <data name="FeedbackTwo.Text" xml:space="preserve">
+    <value>זה טעה במשפטים שלי</value>
+  </data>
+  <data name="ForcedUpdateDialogCaptionContinuation" xml:space="preserve">
+    <value>כדי לתפקד. היישום לא יפעל ללא עדכונים אלה.</value>
+  </data>
+  <data name="Improvement.Text" xml:space="preserve">
+    <value>אנו נמשיך לעבוד על שיפור החוויה שלך.</value>
+  </data>
+  <data name="LanguageSettingsUpdated" xml:space="preserve">
+    <value>שינויי שפה מתעדכנים בהצלחה</value>
+  </data>
+  <data name="NewVersionDialogDescription2" xml:space="preserve">
+    <value>והגרסה שלך ל</value>
+  </data>
+  <data name="NewVersionDialogDescription3" xml:space="preserve">
+    <value>עלול להפוך ללא נתמך.</value>
+  </data>
+  <data name="Other.Text" xml:space="preserve">
+    <value>תגובות נוספות:</value>
+  </data>
+  <data name="PasswordUpdated" xml:space="preserve">
+    <value>הסיסמה שונתה בהצלחה</value>
+  </data>
+  <data name="PlaybackLanguageUpdated" xml:space="preserve">
+    <value>שפת ההפעלה המוגדרת כברירת מחדל השתנתה בהצלחה</value>
+  </data>
+  <data name="QuestionAdded" xml:space="preserve">
+    <value>השאלה נוספה בהצלחה</value>
+  </data>
+  <data name="QuestionDeleted" xml:space="preserve">
+    <value>השאלה נמחקה בהצלחה</value>
+  </data>
+  <data name="Questions.Text" xml:space="preserve">
+    <value>שאלות</value>
+  </data>
+  <data name="QuestionSettingsInstructionTwo.Text" xml:space="preserve">
+    <value>* לכל שאלה חייב להיות מקש קיצור שונה.</value>
+  </data>
+  <data name="QuestionsValidationError.Text" xml:space="preserve">
+    <value>* בדוק את האימותים שלך ונסה שוב.</value>
+  </data>
+  <data name="QuickViewLanguagesUpdated" xml:space="preserve">
+    <value>תצוגה מהירה מעודכנת בהצלחה</value>
+  </data>
+  <data name="SendFeedback.Content" xml:space="preserve">
+    <value>שלח משוב</value>
+  </data>
+  <data name="SessionFeedbackPrompt" xml:space="preserve">
+    <value>איך היית מדרג את פגישת התרגום שלך?</value>
+  </data>
+  <data name="SessionFeedbackTitle" xml:space="preserve">
+    <value>משוב תרגום</value>
+  </data>
+  <data name="ShortcutSuccess" xml:space="preserve">
+    <value>קיצורי דרך לשאלות עודכנו בהצלחה</value>
+  </data>
+  <data name="SingleDeviceUpdated" xml:space="preserve">
+    <value>הגדרת מכשיר יחיד עודכנה בהצלחה</value>
+  </data>
+  <data name="StartupPageTitleDescription2.Text" xml:space="preserve">
+    <value>תוכנת תרגום.</value>
+  </data>
+  <data name="TimeoutUpdated" xml:space="preserve">
+    <value>פסק זמן מעודכן בהצלחה</value>
+  </data>
+  <data name="TouchShareText" xml:space="preserve">
+    <value>שיתוף מגע</value>
+  </data>
+  <data name="TranslationLanguageUpdated" xml:space="preserve">
+    <value>שפת התרגום המוגדרת כברירת מחדל השתנתה בהצלחה</value>
+  </data>
+  <data name="TranslationPlaybackUpdated" xml:space="preserve">
+    <value>שפת ברירת המחדל של התרגום וההשמעה השתנתה בהצלחה</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption2" xml:space="preserve">
+    <value>כדי לתפקד. התכונות עשויות להפסיק לפעול ללא הודעה מוקדמת. אנא עדכן את היישום.</value>
+  </data>
+  <data name="UserFlagSwitch" xml:space="preserve">
+    <value>דגל המשתמש להחלפת שפה מעודכן</value>
+  </data>
+</root>

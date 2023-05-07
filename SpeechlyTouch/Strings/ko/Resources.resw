@@ -1,0 +1,1192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="AppDescription" xml:space="preserve">
+    <value>탈라터치앱</value>
+  </data>
+  <data name="AppDisplayName" xml:space="preserve">
+    <value>탈라터치앱</value>
+  </data>
+  <data name="AudioDeviceSelector_MicDropdown.PlaceholderText" xml:space="preserve">
+    <value>마이크 선택</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneMic.Text" xml:space="preserve">
+    <value>사람 1 마이크</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneSpeaker.Text" xml:space="preserve">
+    <value>사람 1 스피커</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoMic.Text" xml:space="preserve">
+    <value>사람 2 마이크</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoSpeaker.Text" xml:space="preserve">
+    <value>사람 2 스피커</value>
+  </data>
+  <data name="AudioDeviceSelector_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>스피커 선택</value>
+  </data>
+  <data name="BluetoothPairingDialog_Description.Text" xml:space="preserve">
+    <value>장치가 켜져 있고 검색 가능한지 확인합니다. 아래에서 연결할 장치를 선택하십시오.</value>
+  </data>
+  <data name="BluetoothPairingDialog_Title.Text" xml:space="preserve">
+    <value>장치 추가</value>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="ChangePasscodeDialog_Confirm.Text" xml:space="preserve">
+    <value>새 암호 확인</value>
+  </data>
+  <data name="ChangePasscodeDialog_Current.Text" xml:space="preserve">
+    <value>현재 암호</value>
+  </data>
+  <data name="ChangePasscodeDialog_New.Text" xml:space="preserve">
+    <value>새 암호</value>
+  </data>
+  <data name="ChangePasscodeDialog_Title.Text" xml:space="preserve">
+    <value>비밀번호 변경</value>
+  </data>
+  <data name="Close.Content" xml:space="preserve">
+    <value>닫다</value>
+  </data>
+  <data name="ConsentDialog_Description1.Text" xml:space="preserve">
+    <value>개인 정보 보호 문제는 우리의 최우선 순위입니다. (5) 귀하는 해당되는 경우 휴대 전화 또는 태블릿으로 본 개인 정보 보호 정책의 이용 약관에 동의합니다.</value>
+  </data>
+  <data name="ConsentDialog_Description2.Text" xml:space="preserve">
+    <value>동의 요청을받을 때 액세스를 허용하지 않기로 선택한 경우 (이러한 요청은 www ICTS 웹 사이트에 통보됩니다.</value>
+  </data>
+  <data name="ConsentDialog_Description3.Text" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int</value>
+  </data>
+  <data name="ConsentDialog_Description4.Text" xml:space="preserve">
+    <value>), 제공된 이메일 주소나 개인을 식별할 수 있는 기타 개인 정보도 일단 허가되면 당사가 소유할 수 없습니다.</value>
+  </data>
+  <data name="ConsentDialog_Description5.Text" xml:space="preserve">
+    <value>특정 부분을 사용하여 : / 내 휴대 전화 / 아이콘의 나에 의한 사용 - 다음과 같은 제품에 대해 대화방에서 다른 사람을 허용하는 것을 포함 할 수 있습니다.</value>
+  </data>
+  <data name="ConsentDialog_HyperLink.NavigateUri" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int/</value>
+  </data>
+  <data name="ConsentDialog_Title.Text" xml:space="preserve">
+    <value>우리는 귀하의 개인 정보를 소중하게 생각합니다</value>
+  </data>
+  <data name="Dashboard_Choose_Language.Text" xml:space="preserve">
+    <value>언어 선택</value>
+  </data>
+  <data name="Dashboard_Hello.Text" xml:space="preserve">
+    <value>안녕하세요</value>
+  </data>
+  <data name="Dashboard_SearchBox.PlaceholderText" xml:space="preserve">
+    <value>언어 검색</value>
+  </data>
+  <data name="Dashboard_Welcome.Text" xml:space="preserve">
+    <value>환영</value>
+  </data>
+  <data name="DevicesErrorDialog_NoDeviceError" xml:space="preserve">
+    <value>저장된 장치가 없습니다. 설정 - &gt; 장치로 이동하여 마이크와 스피커를 선택한 다음 저장을 클릭하십시오.</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Description.Text" xml:space="preserve">
+    <value>사용 가능한 블루투스 장치</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_DropDown.PlaceholderText" xml:space="preserve">
+    <value>블루투스 장치 선택</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Scan.Text" xml:space="preserve">
+    <value>스캔하다</value>
+  </data>
+  <data name="DevicesPage_Bluetooth.Text" xml:space="preserve">
+    <value>블루투스</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices_Description.Text" xml:space="preserve">
+    <value>오디오 장치 선택</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices.Text" xml:space="preserve">
+    <value>연결된 오디오 장치</value>
+  </data>
+  <data name="DevicesPage_MicDropDown.PlaceholderText" xml:space="preserve">
+    <value>마이크 선택</value>
+  </data>
+  <data name="DevicesPage_Network_Description.Text" xml:space="preserve">
+    <value>사용 가능한 네트워크</value>
+  </data>
+  <data name="DevicesPage_Network_DropDown.PlaceholderText" xml:space="preserve">
+    <value>네트워크 선택</value>
+  </data>
+  <data name="DevicesPage_Network.Text" xml:space="preserve">
+    <value>네트워크</value>
+  </data>
+  <data name="DevicesPage_NetworkError" xml:space="preserve">
+    <value>선택한 네트워크가 없습니다. 네트워크 연결을 확인하십시오.</value>
+  </data>
+  <data name="DevicesPage_PersonOne_Speaker.Text" xml:space="preserve">
+    <value>한 사람 한 명의 스피커</value>
+  </data>
+  <data name="DevicesPage_PersonOneMic.Text" xml:space="preserve">
+    <value>사람 1 마이크</value>
+  </data>
+  <data name="DevicesPage_PersonTwo_Mic.Text" xml:space="preserve">
+    <value>사람 2 마이크</value>
+  </data>
+  <data name="DevicesPage_Scan" xml:space="preserve">
+    <value>스캔하다</value>
+  </data>
+  <data name="DevicesPage_Scanning" xml:space="preserve">
+    <value>스캔...</value>
+  </data>
+  <data name="DevicesPage_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>스피커 선택</value>
+  </data>
+  <data name="DevicesPage_Status_Connect" xml:space="preserve">
+    <value>연결하다</value>
+  </data>
+  <data name="DevicesPage_Status_Connected" xml:space="preserve">
+    <value>연결</value>
+  </data>
+  <data name="DevicesPage_Status_Connecting" xml:space="preserve">
+    <value>연결...</value>
+  </data>
+  <data name="DevicesPage_Status_Off" xml:space="preserve">
+    <value>끄기</value>
+  </data>
+  <data name="DevicesPage_Status_On" xml:space="preserve">
+    <value>에</value>
+  </data>
+  <data name="DevicesPager_PersonTwo_Speaker.Text" xml:space="preserve">
+    <value>사람 2 스피커</value>
+  </data>
+  <data name="EnterPasscodeDialog_Description.Text" xml:space="preserve">
+    <value>설정 페이지에 액세스하려면 암호를 입력하십시오.</value>
+  </data>
+  <data name="EnterPasscodeDialog_ForgotPasscode.Content" xml:space="preserve">
+    <value>암호를 잊으셨습니까?</value>
+  </data>
+  <data name="EnterPasscodeDialog_InvalidPasscode.Text" xml:space="preserve">
+    <value>잘못된 암호! 다시 시도하십시오.</value>
+  </data>
+  <data name="EnterPasscodeDialog_Passcode.Text" xml:space="preserve">
+    <value>패스코드</value>
+  </data>
+  <data name="EnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>비밀번호 입력</value>
+  </data>
+  <data name="IAgree.Content" xml:space="preserve">
+    <value>동의해요</value>
+  </data>
+  <data name="InvalidLicenseDialog_Description.Text" xml:space="preserve">
+    <value>라이선스 확인 실패</value>
+  </data>
+  <data name="InvalidLicenseDialog_Title.Text" xml:space="preserve">
+    <value>유효하지 않은 라이선스</value>
+  </data>
+  <data name="LoginFailedDialog_Button.Content" xml:space="preserve">
+    <value>돌아 가</value>
+  </data>
+  <data name="LoginFailedDialog_Description.Text" xml:space="preserve">
+    <value>로그인 시도가 실패했습니다.</value>
+  </data>
+  <data name="LoginFailedDialog_Title.Text" xml:space="preserve">
+    <value>로그인 실패</value>
+  </data>
+  <data name="Main_Title.Text" xml:space="preserve">
+    <value>주요한</value>
+  </data>
+  <data name="PasswordPopup_SetupTitle.Text" xml:space="preserve">
+    <value>암호 설정</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Description1.Text" xml:space="preserve">
+    <value>계속 편집하려면 암호를 다시 입력하십시오...</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>비밀번호 재입력</value>
+  </data>
+  <data name="RenterPasscodeDialog_Description2.Text" xml:space="preserve">
+    <value>자동 저장 및 집으로 돌아가기</value>
+  </data>
+  <data name="Save.Content" xml:space="preserve">
+    <value>구해내다</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Description.Text" xml:space="preserve">
+    <value>이 페이지는 앱이 딥링킹에서 활성화된 경우 활성화 매개 변수를 표시하는 샘플 페이지입니다.</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Title.Text" xml:space="preserve">
+    <value>구성표 활성화 샘플</value>
+  </data>
+  <data name="SetPasscodeDialog_ConfirmPasscode.Text" xml:space="preserve">
+    <value>새 암호 확인 </value>
+  </data>
+  <data name="SetPasscodeDialog_NewPasscode.Text" xml:space="preserve">
+    <value>새 암호</value>
+  </data>
+  <data name="SetPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>암호 설정</value>
+  </data>
+  <data name="Settings_About.Text" xml:space="preserve">
+    <value>이 응용 프로그램에 대해</value>
+  </data>
+  <data name="Settings_AboutDescription.Text" xml:space="preserve">
+    <value>설정 페이지 자리 표시자 텍스트.  앱 설명은 여기로 이동합니다.</value>
+  </data>
+  <data name="Settings_Personalization.Text" xml:space="preserve">
+    <value>개인화</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.Content" xml:space="preserve">
+    <value>개인정보취급방침</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.NavigateUri" xml:space="preserve">
+    <value>https://YourPrivacyUrlGoesHere/</value>
+  </data>
+  <data name="Settings_Theme_Dark.Content" xml:space="preserve">
+    <value>어둠</value>
+  </data>
+  <data name="Settings_Theme_Default.Content" xml:space="preserve">
+    <value>윈도우 기본값</value>
+  </data>
+  <data name="Settings_Theme_Light.Content" xml:space="preserve">
+    <value>광</value>
+  </data>
+  <data name="Settings_Theme.Text" xml:space="preserve">
+    <value>테마 선택</value>
+  </data>
+  <data name="Settings_Title.Text" xml:space="preserve">
+    <value>설정</value>
+  </data>
+  <data name="SettingsPage_Devices" xml:space="preserve">
+    <value>장치</value>
+  </data>
+  <data name="SettingsPage_Language" xml:space="preserve">
+    <value>언어</value>
+  </data>
+  <data name="SettingsPage_Profile" xml:space="preserve">
+    <value>윤곽</value>
+  </data>
+  <data name="SettingsPage_Questions" xml:space="preserve">
+    <value>질문</value>
+  </data>
+  <data name="SettingsPage_Title" xml:space="preserve">
+    <value>설정</value>
+  </data>
+  <data name="ShellView_Help" xml:space="preserve">
+    <value>도움말</value>
+  </data>
+  <data name="ShellView_History" xml:space="preserve">
+    <value>역사</value>
+  </data>
+  <data name="ShellView_Home" xml:space="preserve">
+    <value>집</value>
+  </data>
+  <data name="ShellView_Settings.Text" xml:space="preserve">
+    <value>설정</value>
+  </data>
+  <data name="Sign_In.Text" xml:space="preserve">
+    <value>서명하세요</value>
+  </data>
+  <data name="SignInDialog_Description.Text" xml:space="preserve">
+    <value>Jabra 장치로 여러 글로벌 언어로 즉시 통신하십시오.</value>
+  </data>
+  <data name="SignInDialog_SignInButton.Content" xml:space="preserve">
+    <value>서명하세요</value>
+  </data>
+  <data name="Translate_Button.Text" xml:space="preserve">
+    <value>번역하기</value>
+  </data>
+  <data name="TranslationPage_EndSession.Text" xml:space="preserve">
+    <value>세션 종료</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOn" xml:space="preserve">
+    <value>마이크 켜기</value>
+  </data>
+  <data name="TranslationPage_SpeakerOn" xml:space="preserve">
+    <value>스피커 켜기</value>
+  </data>
+  <data name="TranslationPage_SpeakNow.Text" xml:space="preserve">
+    <value>지금 말하기</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>약</value>
+  </data>
+  <data name="AboutPage_AppVersion.Text" xml:space="preserve">
+    <value>응용 프로그램 버전</value>
+  </data>
+  <data name="AboutPage_CheckUpdate.Content" xml:space="preserve">
+    <value>업데이트 확인</value>
+  </data>
+  <data name="AboutPage_DataConsent" xml:space="preserve">
+    <value>조직에서 데이터를 클라우드에 저장하는 데 동의했습니다.</value>
+  </data>
+  <data name="AboutPage_NoDataConsent" xml:space="preserve">
+    <value>조직에서 데이터를 클라우드에 저장하는 데 동의하지 않았습니다.</value>
+  </data>
+  <data name="AboutPage_Published.Text" xml:space="preserve">
+    <value>FITTS Limited에서 발행했습니다.</value>
+  </data>
+  <data name="AppClose_Close.Content" xml:space="preserve">
+    <value>어쨌든 닫기</value>
+  </data>
+  <data name="AppClose_Dismiss.Content" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="AppClose_Warning.Text" xml:space="preserve">
+    <value>진행 중인 세션이 있습니다. 응용 프로그램을 종료하기 전에 세션을 종료하십시오.</value>
+  </data>
+  <data name="AppVersion.Text" xml:space="preserve">
+    <value>앱 버전</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Button.Content" xml:space="preserve">
+    <value>세션 계속</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Description.Text" xml:space="preserve">
+    <value>세션은 다음으로 종료됩니다.</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Title.Text" xml:space="preserve">
+    <value>오디오가 감지되지 않음</value>
+  </data>
+  <data name="AudioPlayer_Error.Text" xml:space="preserve">
+    <value>오디오를 로드하지 못했습니다.</value>
+  </data>
+  <data name="DashboardPage_DefaultLanguageError" xml:space="preserve">
+    <value>저장된 기본 번역 언어가 없습니다. 설정 - &gt; 언어로 이동하여 기본 번역 언어를 선택한 다음 저장을 클릭하십시오.</value>
+  </data>
+  <data name="DashboardPage_TargetLanguageError" xml:space="preserve">
+    <value>대상 번역 언어를 선택하지 않았습니다. 언어를 선택한 다음 번역을 클릭하십시오.</value>
+  </data>
+  <data name="DevicesErrorDialog_DualDeviceError" xml:space="preserve">
+    <value>이중 장치 번역을 선택했지만 사용자 2에 대해 선택한 장치가 없습니다. 설정 - &gt; 장치로 이동하여 마이크와 스피커를 선택한 다음 저장을 클릭하십시오.</value>
+  </data>
+  <data name="DevicesPage_Title.Text" xml:space="preserve">
+    <value>장치</value>
+  </data>
+  <data name="DevicesPage_Wifi_Password.Text" xml:space="preserve">
+    <value>비밀번호 입력</value>
+  </data>
+  <data name="DevicesPage_WifiStatus.Text" xml:space="preserve">
+    <value>와이파이 상태</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>편집하다</value>
+  </data>
+  <data name="Expiry.Text" xml:space="preserve">
+    <value>만료</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>피드백</value>
+  </data>
+  <data name="FeedbackMessage.Text" xml:space="preserve">
+    <value>피드백이나 질문이 있으시면 주저하지 말고 연락하십시오.</value>
+  </data>
+  <data name="GetInTouchButton.Text" xml:space="preserve">
+    <value>연락하기</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>도움말</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>역사</value>
+  </data>
+  <data name="History_ExportBtn.Text" xml:space="preserve">
+    <value>수출</value>
+  </data>
+  <data name="HistoryExportButtonTooltip.Text" xml:space="preserve">
+    <value>수출</value>
+  </data>
+  <data name="HistoryListColumnDate.Text" xml:space="preserve">
+    <value>날짜</value>
+  </data>
+  <data name="HistoryListColumnDuration.Text" xml:space="preserve">
+    <value>기간</value>
+  </data>
+  <data name="HistoryListColumnPrimaryLanguage.Text" xml:space="preserve">
+    <value>기본 언어</value>
+  </data>
+  <data name="HistoryListColumnSecondaryLanguage.Text" xml:space="preserve">
+    <value>보조 언어</value>
+  </data>
+  <data name="HistoryListColumnSessionId.Text" xml:space="preserve">
+    <value>세션 ID</value>
+  </data>
+  <data name="InitalSetup_SkipSetup.Content" xml:space="preserve">
+    <value>설정 건너뛰기</value>
+  </data>
+  <data name="InitialNetworkPopupConnectButton.Content" xml:space="preserve">
+    <value>연결하다</value>
+  </data>
+  <data name="InitialSetup_DeviceSelection.Text" xml:space="preserve">
+    <value>장치 선택</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionDescription.Text" xml:space="preserve">
+    <value>기본 오디오 장치 설정</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneMicrophone.Text" xml:space="preserve">
+    <value>마이크 선택</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneSpeaker.Text" xml:space="preserve">
+    <value>스피커 선택</value>
+  </data>
+  <data name="InitialSetup_FinishSetup.Content" xml:space="preserve">
+    <value>설정 완료</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection_Description.Text" xml:space="preserve">
+    <value>기본 번역 언어 설정</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection.Text" xml:space="preserve">
+    <value>언어 선택</value>
+  </data>
+  <data name="InitialSetup_NetworkSelection.Text" xml:space="preserve">
+    <value>기본 설정 네트워크</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopup.Text" xml:space="preserve">
+    <value>네트워크에 연결</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopupPassword.Text" xml:space="preserve">
+    <value>비밀번호 입력:</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionDescription.Text" xml:space="preserve">
+    <value>사용 가능한 네트워크 중 하나 선택</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionNoInternetConnection.Text" xml:space="preserve">
+    <value>인터넷에 연결되어 있지 않습니다. 네트워크 연결을 확인하십시오.</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionOtherNetworks.Text" xml:space="preserve">
+    <value>다른 네트워크</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup_Description.Text" xml:space="preserve">
+    <value>앱 암호 설정</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup.Text" xml:space="preserve">
+    <value>암호 설정</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>언어</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage_Description.Text" xml:space="preserve">
+    <value>응용 프로그램 언어 선택</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage.Text" xml:space="preserve">
+    <value>앱 언어</value>
+  </data>
+  <data name="LanguagesPage_AppLanguageDropdown.PlaceholderText" xml:space="preserve">
+    <value>언어 선택</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage_Description.Text" xml:space="preserve">
+    <value>사용 중인 기본 언어</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage.Text" xml:space="preserve">
+    <value>내 기본 언어</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguageDropDown.PlaceholderText" xml:space="preserve">
+    <value>언어 선택</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description.Text" xml:space="preserve">
+    <value>기록 섹션(다중 장치 번역용)</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description1.Text" xml:space="preserve">
+    <value>* 단일 장치 번역은 모든 오디오를 기본값으로 재생합니다.</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage.Text" xml:space="preserve">
+    <value>기본 재생 언어</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguages.Text" xml:space="preserve">
+    <value>빠른 보기 언어</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguagesDropdown.PlaceholderText" xml:space="preserve">
+    <value>언어 추가</value>
+  </data>
+  <data name="LanguagesPage_Title.Text" xml:space="preserve">
+    <value>언어들</value>
+  </data>
+  <data name="Licence" xml:space="preserve">
+    <value>라이센스</value>
+  </data>
+  <data name="LicenseType.Text" xml:space="preserve">
+    <value>라이센스 유형:</value>
+  </data>
+  <data name="NetworkConnectionError" xml:space="preserve">
+    <value>오류:</value>
+  </data>
+  <data name="Next.Content" xml:space="preserve">
+    <value>다음</value>
+  </data>
+  <data name="PasscodeError_MinimumLength" xml:space="preserve">
+    <value>암호의 최소 길이는 4여야 합니다.</value>
+  </data>
+  <data name="PasscodeError_NotMatching" xml:space="preserve">
+    <value>입력한 암호가 일치하지 않습니다. 암호를 다시 입력 한 다음 다시 시도하십시오.</value>
+  </data>
+  <data name="Person.Text" xml:space="preserve">
+    <value>사람</value>
+  </data>
+  <data name="PrivacyPolicy.Text" xml:space="preserve">
+    <value>개인 정보 정책</value>
+  </data>
+  <data name="ProfilePage_Email_Description.Text" xml:space="preserve">
+    <value>기본 내보내기 이메일</value>
+  </data>
+  <data name="ProfilePage_Email.Text" xml:space="preserve">
+    <value>이메일</value>
+  </data>
+  <data name="ProfilePage_Passcode_Description.Text" xml:space="preserve">
+    <value>응용 프로그램 암호</value>
+  </data>
+  <data name="ProfilePage_Passcode.Text" xml:space="preserve">
+    <value>패스코드</value>
+  </data>
+  <data name="ProfilePage_Timeout_Description.Text" xml:space="preserve">
+    <value>관리자 모드 잠금 빈도</value>
+  </data>
+  <data name="ProfilePage_Timeout.Text" xml:space="preserve">
+    <value>관리자 모드 시간 초과</value>
+  </data>
+  <data name="ProfilePage_TimeoutDropdown.PlaceholderText" xml:space="preserve">
+    <value>시간 선택</value>
+  </data>
+  <data name="ProfilePage_Title.Text" xml:space="preserve">
+    <value>윤곽</value>
+  </data>
+  <data name="PublishedBy.Text" xml:space="preserve">
+    <value>발행</value>
+  </data>
+  <data name="ReleaseNotesMessage.Text" xml:space="preserve">
+    <value>릴리스 노트는 곧 업데이트됩니다.</value>
+  </data>
+  <data name="Save_Text" xml:space="preserve">
+    <value>구해내다</value>
+  </data>
+  <data name="SessionDetailsPage_Description.Text" xml:space="preserve">
+    <value>전사 기록</value>
+  </data>
+  <data name="SessionDetailsPage_Duration.Text" xml:space="preserve">
+    <value>기간</value>
+  </data>
+  <data name="SessionDetailsPage_SessionID.Text" xml:space="preserve">
+    <value>세션 ID</value>
+  </data>
+  <data name="SessionDetailsPage_Title.Text" xml:space="preserve">
+    <value>역사</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>설정</value>
+  </data>
+  <data name="TermsOfUse.Text" xml:space="preserve">
+    <value>이용 약관</value>
+  </data>
+  <data name="TranslationPage_SettingUpState" xml:space="preserve">
+    <value>설정 중 ...</value>
+  </data>
+  <data name="TranslationPage_SpeakFast" xml:space="preserve">
+    <value>더 나은 번역 결과를 위해 조금 더 빨리 말하십시오.</value>
+  </data>
+  <data name="TranslationPage_SpeakIn" xml:space="preserve">
+    <value>발언하기</value>
+  </data>
+  <data name="TranslationPage_SpeakSlow" xml:space="preserve">
+    <value>더 나은 번역 결과를 위해 조금 느리게 말하십시오.</value>
+  </data>
+  <data name="TranslationPage_Switching" xml:space="preserve">
+    <value>트랜지스터</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonOne" xml:space="preserve">
+    <value>사람 1로 전환</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonTwo" xml:space="preserve">
+    <value>사람 2로 전환</value>
+  </data>
+  <data name="TranslationPage_TranslationReadyState" xml:space="preserve">
+    <value>지금 말하기</value>
+  </data>
+  <data name="Website.Text" xml:space="preserve">
+    <value>웹 사이트</value>
+  </data>
+  <data name="WhatsNew" xml:space="preserve">
+    <value>새로운 기능</value>
+  </data>
+  <data name="WhatsNewInSpeechly.Text" xml:space="preserve">
+    <value>새로운 기능</value>
+  </data>
+  <data name="AudioDevicesSelectorDualDevice.Content" xml:space="preserve">
+    <value>듀얼 장치</value>
+  </data>
+  <data name="AudioDevicesSelectorSingleDevice.Content" xml:space="preserve">
+    <value>단일 장치</value>
+  </data>
+  <data name="AutoDetectSearchCountry.PlaceholderText" xml:space="preserve">
+    <value>국가 검색</value>
+  </data>
+  <data name="AutoDetectSelectLanguage.Text" xml:space="preserve">
+    <value>언어 선택</value>
+  </data>
+  <data name="ChatViewPersonOne" xml:space="preserve">
+    <value>사람 1</value>
+  </data>
+  <data name="ChatViewPersonTwo" xml:space="preserve">
+    <value>사람 2</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionLost" xml:space="preserve">
+    <value>인터넷 연결이 끊어졌습니다. 연결을 확인한 다음 다시 시도하십시오.</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionUnstable" xml:space="preserve">
+    <value>인터넷 연결이 느립니다. 약간의 지연이 발생할 수 있습니다.</value>
+  </data>
+  <data name="CustomTagSelectionTitle.Text" xml:space="preserve">
+    <value>조직 태그(추가하려면 선택)</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.Header" xml:space="preserve">
+    <value>언어 전환을 위한 사용자 플래그</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OffContent" xml:space="preserve">
+    <value>비활성화</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OnContent" xml:space="preserve">
+    <value>사용</value>
+  </data>
+  <data name="DetectLanguageButton.Content" xml:space="preserve">
+    <value>언어 감지</value>
+  </data>
+  <data name="DevicesPageNetworkSetupBluetoothStatus.Text" xml:space="preserve">
+    <value>블루투스 상태 :</value>
+  </data>
+  <data name="DevicesPageNetworkSetupConnectAutomatically.Text" xml:space="preserve">
+    <value>자동 연결</value>
+  </data>
+  <data name="DevicesPageNetworkSetupWiFiStatus.Text" xml:space="preserve">
+    <value>와이파이 상태 :</value>
+  </data>
+  <data name="Dimiss.Content" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="Duration.Text" xml:space="preserve">
+    <value>|  기간</value>
+  </data>
+  <data name="EmailPopup_Description.Text" xml:space="preserve">
+    <value>이메일 주소를 입력하세요</value>
+  </data>
+  <data name="EmailPopup_Title.Text" xml:space="preserve">
+    <value>세션을 이메일로 보내기</value>
+  </data>
+  <data name="ForcedUpdateDialogCaption" xml:space="preserve">
+    <value>다음에 대한 중요한 업데이트가 있습니다.</value>
+  </data>
+  <data name="ForcedUpdateDialogInstallBtnText" xml:space="preserve">
+    <value>업데이트</value>
+  </data>
+  <data name="ForcedUpdateDialogTitle" xml:space="preserve">
+    <value>중요 업데이트</value>
+  </data>
+  <data name="GoBack.Content" xml:space="preserve">
+    <value>돌아 가</value>
+  </data>
+  <data name="HelpPageSignOut.Content" xml:space="preserve">
+    <value>로그아웃</value>
+  </data>
+  <data name="History_Export.Text" xml:space="preserve">
+    <value>파일 생성 중...</value>
+  </data>
+  <data name="HistoryListColumnSessionName.Text" xml:space="preserve">
+    <value>이름</value>
+  </data>
+  <data name="HistoryListColumnSynced.Text" xml:space="preserve">
+    <value>동기화</value>
+  </data>
+  <data name="HistorySearchBox.PlaceholderText" xml:space="preserve">
+    <value>언어, 세션 이름, 태그 또는 ID</value>
+  </data>
+  <data name="HistorySearchButtonTooltip.Text" xml:space="preserve">
+    <value>검색</value>
+  </data>
+  <data name="HistorySearchClearButtonTooltip.Text" xml:space="preserve">
+    <value>맑다</value>
+  </data>
+  <data name="HistorySearchFromDate.Header" xml:space="preserve">
+    <value>보낸 사람:</value>
+  </data>
+  <data name="HistorySearchToDate.Header" xml:space="preserve">
+    <value>받는 사람:</value>
+  </data>
+  <data name="HistoryShareButtonTooltip.Text" xml:space="preserve">
+    <value>공유/보내기</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonOne.Text" xml:space="preserve">
+    <value>사람 1</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonTwo.Text" xml:space="preserve">
+    <value>사람 2</value>
+  </data>
+  <data name="LoginPageTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NewVersionDialogCaption" xml:space="preserve">
+    <value>새 앱 버전 설치</value>
+  </data>
+  <data name="NewVersionDialogDescription" xml:space="preserve">
+    <value>새로운 기능 및 버그 수정이 누락됩니다. </value>
+  </data>
+  <data name="NewVersionDialogInstallBtnText" xml:space="preserve">
+    <value>새 버전 설치</value>
+  </data>
+  <data name="NewVersionDialogTitle" xml:space="preserve">
+    <value>새 앱 버전</value>
+  </data>
+  <data name="NextText" xml:space="preserve">
+    <value>다음</value>
+  </data>
+  <data name="ProfilePageEditButton.Content" xml:space="preserve">
+    <value>편집하다</value>
+  </data>
+  <data name="QuestionsButton.Content" xml:space="preserve">
+    <value>질문 보기</value>
+  </data>
+  <data name="QuestionSettingsDescription.Text" xml:space="preserve">
+    <value>질문 바로가기 보기 또는 수정</value>
+  </data>
+  <data name="QuestionSettingsInstructionOne.Text" xml:space="preserve">
+    <value>* 각 질문에 숫자 1-9를 사용하십시오. 영(0)은 고려되지 않습니다.</value>
+  </data>
+  <data name="QuestionSettingsInstructionThree.Text" xml:space="preserve">
+    <value>* 9개의 질문에만 바로가기를 할당할 수 있습니다.</value>
+  </data>
+  <data name="QuestionSettingsListTitle.Text" xml:space="preserve">
+    <value>질문 목록 :</value>
+  </data>
+  <data name="ResellerEmailAddress.Text" xml:space="preserve">
+    <value>리셀러 이메일 주소 :</value>
+  </data>
+  <data name="ResellerName.Text" xml:space="preserve">
+    <value>리셀러 이름 :</value>
+  </data>
+  <data name="SelectFlag.Text" xml:space="preserve">
+    <value>플래그 선택:</value>
+  </data>
+  <data name="Send.Content" xml:space="preserve">
+    <value>보내기</value>
+  </data>
+  <data name="SessionDetailsPage_SessionName.Text" xml:space="preserve">
+    <value>세션 이름</value>
+  </data>
+  <data name="SessionID.Text" xml:space="preserve">
+    <value>세션 ID : -</value>
+  </data>
+  <data name="SessionMetadataDialog_ContinueButton.Text" xml:space="preserve">
+    <value>계속하다</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTags.Text" xml:space="preserve">
+    <value>사용자 지정 태그</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>여기에 태그 이름 입력</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextboxHelper.Text" xml:space="preserve">
+    <value>엔터 키를 치시오</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTags.Text" xml:space="preserve">
+    <value>기본 태그</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>여기에 값 입력</value>
+  </data>
+  <data name="SessionMetadataDialog_Description.Text" xml:space="preserve">
+    <value>필수 필드는 '</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionName.Text" xml:space="preserve">
+    <value>세션 이름</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionNameTextbox.PlaceholderText" xml:space="preserve">
+    <value>예: 환자 0</value>
+  </data>
+  <data name="SessionMetadataDialog_Title.Text" xml:space="preserve">
+    <value>세션 이름 및 태그 추가</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorActionMessage" xml:space="preserve">
+    <value>관리자에게 문의하여 계정을 활성화하십시오.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorMessage" xml:space="preserve">
+    <value>계정이 비활성화되었습니다.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorActionMessage" xml:space="preserve">
+    <value>관리자에게 문의하여 계정을 만드십시오.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorMessage" xml:space="preserve">
+    <value>계정이 삭제되었습니다.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorActionMessage" xml:space="preserve">
+    <value>관리자에게 문의하여 계정을 활성화하십시오.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorMessage" xml:space="preserve">
+    <value>계정이 비활성화되었습니다.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorActionMessage" xml:space="preserve">
+    <value>관리자에게 문의하여 계정을 만드십시오.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorMessage" xml:space="preserve">
+    <value>활성 계정이 없습니다.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorActionMessage" xml:space="preserve">
+    <value>관리자에게 문의하여 라이센스를 갱신하십시오.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorMessage" xml:space="preserve">
+    <value>라이센스가 만료되었습니다.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorActionMessage" xml:space="preserve">
+    <value>관리자에게 문의하여 라이선스를 활성화하십시오.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorMessage" xml:space="preserve">
+    <value>라이선스가 비활성화되었습니다.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorActionMessage" xml:space="preserve">
+    <value>관리자에게 문의하십시오.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorMessage" xml:space="preserve">
+    <value>라이센스가 정지되었습니다.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorActionMessage" xml:space="preserve">
+    <value>관리자에게 문의하여 라이선스를 할당하십시오.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorMessage" xml:space="preserve">
+    <value>할당된 라이선스가 없습니다.</value>
+  </data>
+  <data name="StartupPage2020.Text" xml:space="preserve">
+    <value>2021 </value>
+  </data>
+  <data name="StartupPageErrorDescription.Text" xml:space="preserve">
+    <value>오류가 발생했습니다. 인터넷 연결을 확인한 다음 다시 시도하십시오.</value>
+  </data>
+  <data name="StartupPagePoweredBy.Text" xml:space="preserve">
+    <value>동력으로 </value>
+  </data>
+  <data name="StartupPageProgressDescription.Text" xml:space="preserve">
+    <value>이 작업은 몇 초 정도 걸릴 수 있습니다.</value>
+  </data>
+  <data name="StartupPageRetryButton.Content" xml:space="preserve">
+    <value>재시도</value>
+  </data>
+  <data name="StartupPageRightsReserved.Text" xml:space="preserve">
+    <value>모든 권리 보유.</value>
+  </data>
+  <data name="StartUpPageSettingUpMessage" xml:space="preserve">
+    <value>설정 중...</value>
+  </data>
+  <data name="StartupPageTitleDescription.Text" xml:space="preserve">
+    <value>에 오신 것을 환영합니다 </value>
+  </data>
+  <data name="TranslateText" xml:space="preserve">
+    <value>번역하기</value>
+  </data>
+  <data name="TranslationLicenceUseError" xml:space="preserve">
+    <value>라이선스가 현재 다른 세션에서 사용 중입니다.</value>
+  </data>
+  <data name="TranslationLimitReachedError" xml:space="preserve">
+    <value>세션당 최대 시간 제한에 도달했습니다. 세션 종료.</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOff" xml:space="preserve">
+    <value>마이크 끄기</value>
+  </data>
+  <data name="TranslationPage_SpeakerOff" xml:space="preserve">
+    <value>스피커 끄기</value>
+  </data>
+  <data name="TranslationTimeDepletedError" xml:space="preserve">
+    <value>번역 시간이 소진되었습니다. 관리자에게 문의하십시오.</value>
+  </data>
+  <data name="UnsupportedVersionDialogBtntext" xml:space="preserve">
+    <value>업데이트</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption" xml:space="preserve">
+    <value>중요 업데이트가 필요합니다. </value>
+  </data>
+  <data name="UnsupportedVersionDialogDescription" xml:space="preserve">
+    <value>기능 및 보안 업데이트를 계속 받으려면 앱을 업데이트하세요.</value>
+  </data>
+  <data name="UnsupportedVersionDialogTitle" xml:space="preserve">
+    <value>지원되지 않는 앱 버전</value>
+  </data>
+  <data name="UpdateDialogWhatsNew.Text" xml:space="preserve">
+    <value>새로운 기능</value>
+  </data>
+  <data name="Zoom.Text" xml:space="preserve">
+    <value>급상승</value>
+  </data>
+  <data name="Add.Content" xml:space="preserve">
+    <value>더하다</value>
+  </data>
+  <data name="AddNewQuestion.Text" xml:space="preserve">
+    <value>미리 정의된 새 질문 추가</value>
+  </data>
+  <data name="AddQuestion.Content" xml:space="preserve">
+    <value>질문 추가</value>
+  </data>
+  <data name="ChooseLanguage.Text" xml:space="preserve">
+    <value>기본 언어 선택</value>
+  </data>
+  <data name="CustomProfileAdded" xml:space="preserve">
+    <value>프로필 이름이 성공적으로 추가되었습니다.</value>
+  </data>
+  <data name="CustomProfileDeleted" xml:space="preserve">
+    <value>프로필이 성공적으로 삭제되었습니다.</value>
+  </data>
+  <data name="CustomProfileInvalidName" xml:space="preserve">
+    <value>오류! 잘못된 프로필 이름입니다.</value>
+  </data>
+  <data name="CustomProfileNotDeleted" xml:space="preserve">
+    <value>삭제할 프로필이 없습니다.</value>
+  </data>
+  <data name="CustomProfileNotSaved" xml:space="preserve">
+    <value>오류! 저장된 프로필이 없습니다.</value>
+  </data>
+  <data name="CustomProfileProfileSaved" xml:space="preserve">
+    <value>프로필이 성공적으로 저장되었습니다.</value>
+  </data>
+  <data name="DataRequestMessage" xml:space="preserve">
+    <value>텍스트를 선택하지 않았습니다. 공유할 텍스트를 선택하고 다시 시도하십시오.</value>
+  </data>
+  <data name="DevicesAddProfileButton.Content" xml:space="preserve">
+    <value>더하다</value>
+  </data>
+  <data name="DevicesAvailableProfiles.Text" xml:space="preserve">
+    <value>사용 가능한 프로필</value>
+  </data>
+  <data name="DevicesDefaultProfile.Text" xml:space="preserve">
+    <value>기본 프로필:</value>
+  </data>
+  <data name="DevicesDeleteProfileBtn.Content" xml:space="preserve">
+    <value>프로필 삭제</value>
+  </data>
+  <data name="DeviceSetupChanged" xml:space="preserve">
+    <value>연결된 오디오 장치 업데이트 </value>
+  </data>
+  <data name="DevicesHelpfulTip1.Text" xml:space="preserve">
+    <value>1. 프로필 이름 설정</value>
+  </data>
+  <data name="DevicesHelpfulTip2.Text" xml:space="preserve">
+    <value>2. 단일 또는 이중 장치 모드 선택</value>
+  </data>
+  <data name="DevicesHelpfulTip3.Text" xml:space="preserve">
+    <value>3. 스피커와 마이크를 선택합니다.</value>
+  </data>
+  <data name="DevicesHelpfulTip4.Text" xml:space="preserve">
+    <value>4. 프로필을 기본값으로 설정</value>
+  </data>
+  <data name="DevicesHelpfulTip5.Text" xml:space="preserve">
+    <value>5. 프로필 저장 버튼을 클릭하여 프로필을 저장합니다.</value>
+  </data>
+  <data name="DevicesHelpfulTips.Text" xml:space="preserve">
+    <value>유용한 팁</value>
+  </data>
+  <data name="DevicesProfileNameTextBox.PlaceholderText" xml:space="preserve">
+    <value>프로필 이름...</value>
+  </data>
+  <data name="DevicesSaveProfileBtn.Content" xml:space="preserve">
+    <value>프로필 저장</value>
+  </data>
+  <data name="DevicesSetasDefault.Text" xml:space="preserve">
+    <value>기본값으로 설정</value>
+  </data>
+  <data name="DevicesSetProfileButton.Content" xml:space="preserve">
+    <value>프로필 설정</value>
+  </data>
+  <data name="DevicesSetProfileText.Text" xml:space="preserve">
+    <value>사용자 지정 프로필을 설정하시겠습니까?</value>
+  </data>
+  <data name="DiscardButton.Content" xml:space="preserve">
+    <value>버리다</value>
+  </data>
+  <data name="DismissButton.Content" xml:space="preserve">
+    <value>해고하다</value>
+  </data>
+  <data name="DismissText.Text" xml:space="preserve">
+    <value>해고하다</value>
+  </data>
+  <data name="DownloadAudio.Text" xml:space="preserve">
+    <value>오디오 다운로드</value>
+  </data>
+  <data name="DownloadCancel" xml:space="preserve">
+    <value>다운로드 취소됨</value>
+  </data>
+  <data name="Downloaded" xml:space="preserve">
+    <value>다운로드</value>
+  </data>
+  <data name="DownloadError" xml:space="preserve">
+    <value>오류 발생</value>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>다운로드</value>
+  </data>
+  <data name="DownloadPaused" xml:space="preserve">
+    <value>다운로드 일시 중지됨</value>
+  </data>
+  <data name="DualDeviceUpdated" xml:space="preserve">
+    <value>이중 장치 설정이 성공적으로 업데이트되었습니다.</value>
+  </data>
+  <data name="EnterQuestion.Text" xml:space="preserve">
+    <value>아래에 질문을 입력하세요</value>
+  </data>
+  <data name="ErrorDescription.Text" xml:space="preserve">
+    <value>변경 내용이 저장되지 않은 경우 저장하시겠습니까, 아니면 삭제하시겠습니까?</value>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>문제가 발생했습니다. . . 다시 한 번 시도해 보세요</value>
+  </data>
+  <data name="ErrorTitle.Text" xml:space="preserve">
+    <value>저장되지 않은 변경 사항이 있습니다.</value>
+  </data>
+  <data name="FeedbackEight.Text" xml:space="preserve">
+    <value>우린 계속 서로를 방해해</value>
+  </data>
+  <data name="FeedbackFive.Text" xml:space="preserve">
+    <value>통화에서 메아리가 들렸습니다.</value>
+  </data>
+  <data name="FeedbackFour.Text" xml:space="preserve">
+    <value>배경 음성을 포착했습니다.</value>
+  </data>
+  <data name="FeedbackOne.Text" xml:space="preserve">
+    <value>내 목소리가 제대로 들리지 않았다</value>
+  </data>
+  <data name="FeedbackQuestion.Text" xml:space="preserve">
+    <value>무엇이 더 좋았을까요?</value>
+  </data>
+  <data name="FeedbackSeven.Text" xml:space="preserve">
+    <value>세션이 예기치 않게 종료되었습니다.</value>
+  </data>
+  <data name="FeedbackSix.Text" xml:space="preserve">
+    <value>볼륨이 너무 낮았습니다.</value>
+  </data>
+  <data name="FeedbackThanks.Text" xml:space="preserve">
+    <value>의견을 보내 주셔서 감사합니다.</value>
+  </data>
+  <data name="FeedbackThree.Text" xml:space="preserve">
+    <value>번역 시간이 너무 느렸습니다.</value>
+  </data>
+  <data name="FeedbackTwo.Text" xml:space="preserve">
+    <value>내 문장을 잘못 번역했습니다.</value>
+  </data>
+  <data name="ForcedUpdateDialogCaptionContinuation" xml:space="preserve">
+    <value>기능합니다. 이러한 업데이트 없이는 응용 프로그램이 작동하지 않습니다.</value>
+  </data>
+  <data name="Improvement.Text" xml:space="preserve">
+    <value>우리는 귀하의 경험을 개선하기 위해 계속 노력할 것입니다.</value>
+  </data>
+  <data name="LanguageSettingsUpdated" xml:space="preserve">
+    <value>언어 변경이 성공적으로 업데이트되었습니다.</value>
+  </data>
+  <data name="NewVersionDialogDescription2" xml:space="preserve">
+    <value>및 귀하의 버전</value>
+  </data>
+  <data name="NewVersionDialogDescription3" xml:space="preserve">
+    <value>지원되지 않을 수 있습니다.</value>
+  </data>
+  <data name="Other.Text" xml:space="preserve">
+    <value>기타 의견:</value>
+  </data>
+  <data name="PasswordUpdated" xml:space="preserve">
+    <value>비밀번호가 성공적으로 변경되었습니다.</value>
+  </data>
+  <data name="PlaybackLanguageUpdated" xml:space="preserve">
+    <value>기본 재생 언어가 성공적으로 변경됨</value>
+  </data>
+  <data name="QuestionAdded" xml:space="preserve">
+    <value>질문이 성공적으로 추가되었습니다.</value>
+  </data>
+  <data name="QuestionDeleted" xml:space="preserve">
+    <value>질문이 성공적으로 삭제되었습니다.</value>
+  </data>
+  <data name="Questions.Text" xml:space="preserve">
+    <value>질문</value>
+  </data>
+  <data name="QuestionSettingsInstructionTwo.Text" xml:space="preserve">
+    <value>* 각 질문에는 다른 바로 가기 키가 있어야 합니다.</value>
+  </data>
+  <data name="QuestionsValidationError.Text" xml:space="preserve">
+    <value>* 유효성 검사를 확인하고 다시 시도하십시오.</value>
+  </data>
+  <data name="QuickViewLanguagesUpdated" xml:space="preserve">
+    <value>빠른보기 언어가 성공적으로 업데이트되었습니다.</value>
+  </data>
+  <data name="SendFeedback.Content" xml:space="preserve">
+    <value>피드백 보내기</value>
+  </data>
+  <data name="SessionFeedbackPrompt" xml:space="preserve">
+    <value>번역 세션을 어떻게 평가 하시겠습니까?</value>
+  </data>
+  <data name="SessionFeedbackTitle" xml:space="preserve">
+    <value>번역 피드백</value>
+  </data>
+  <data name="ShortcutSuccess" xml:space="preserve">
+    <value>질문 바로 가기가 성공적으로 업데이트되었습니다.</value>
+  </data>
+  <data name="SingleDeviceUpdated" xml:space="preserve">
+    <value>단일 장치 설정이 성공적으로 업데이트되었습니다.</value>
+  </data>
+  <data name="StartupPageTitleDescription2.Text" xml:space="preserve">
+    <value>번역 소프트웨어.</value>
+  </data>
+  <data name="TimeoutUpdated" xml:space="preserve">
+    <value>시간 초과가 성공적으로 업데이트됨</value>
+  </data>
+  <data name="TouchShareText" xml:space="preserve">
+    <value>터치 공유</value>
+  </data>
+  <data name="TranslationLanguageUpdated" xml:space="preserve">
+    <value>기본 번역 언어가 성공적으로 변경되었습니다.</value>
+  </data>
+  <data name="TranslationPlaybackUpdated" xml:space="preserve">
+    <value>기본 번역 및 재생 언어가 성공적으로 변경되었습니다.</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption2" xml:space="preserve">
+    <value>기능합니다. 예고 없이 기능이 작동하지 않을 수 있습니다. 응용 프로그램을 업데이트하십시오.</value>
+  </data>
+  <data name="UserFlagSwitch" xml:space="preserve">
+    <value>언어 전환을 위한 사용자 플래그가 업데이트됨</value>
+  </data>
+</root>

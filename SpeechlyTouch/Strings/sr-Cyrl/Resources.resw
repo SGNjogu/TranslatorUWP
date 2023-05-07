@@ -1,0 +1,1192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="AppDescription" xml:space="preserve">
+    <value>ТалаТоуцхАпп</value>
+  </data>
+  <data name="AppDisplayName" xml:space="preserve">
+    <value>ТалаТоуцхАпп</value>
+  </data>
+  <data name="AudioDeviceSelector_MicDropdown.PlaceholderText" xml:space="preserve">
+    <value>Избор микрофона</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneMic.Text" xml:space="preserve">
+    <value>Микрофон особе један</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneSpeaker.Text" xml:space="preserve">
+    <value>Говорник особе један</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoMic.Text" xml:space="preserve">
+    <value>Микрофон особе два</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoSpeaker.Text" xml:space="preserve">
+    <value>Говорник друге особе</value>
+  </data>
+  <data name="AudioDeviceSelector_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>Избор звучника</value>
+  </data>
+  <data name="BluetoothPairingDialog_Description.Text" xml:space="preserve">
+    <value>Уверите се да је уређај укључен и видљив. Изаберите доле наведени уређај за повезивање.</value>
+  </data>
+  <data name="BluetoothPairingDialog_Title.Text" xml:space="preserve">
+    <value>Додавање уређаја</value>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>Откажи</value>
+  </data>
+  <data name="ChangePasscodeDialog_Confirm.Text" xml:space="preserve">
+    <value>Потврда новог кода за пролаз</value>
+  </data>
+  <data name="ChangePasscodeDialog_Current.Text" xml:space="preserve">
+    <value>Тренутни код за пролаз</value>
+  </data>
+  <data name="ChangePasscodeDialog_New.Text" xml:space="preserve">
+    <value>Нови код за пролаз</value>
+  </data>
+  <data name="ChangePasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Промени шифру за пролаз</value>
+  </data>
+  <data name="Close.Content" xml:space="preserve">
+    <value>Затворите</value>
+  </data>
+  <data name="ConsentDialog_Description1.Text" xml:space="preserve">
+    <value>Брига о приватности је наш приоритет број један. (5 ) Прихватате одредбе и услове ове Политике приватности мобилним телефоном или таблетом, као што је применљиво.</value>
+  </data>
+  <data name="ConsentDialog_Description2.Text" xml:space="preserve">
+    <value>Уколико одаберете да нам не дозволите приступ када добијемо захтев за сагласност (такви захтеви ће бити обавештени на www ИЦТС сајту на адреси:</value>
+  </data>
+  <data name="ConsentDialog_Description3.Text" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int</value>
+  </data>
+  <data name="ConsentDialog_Description4.Text" xml:space="preserve">
+    <value>), онда ни наведена е-адреса нити било које друге личне информације које би могле да идентификују појединца такође не могу да дођу у наш посед када таква дозвола буде одобрена.</value>
+  </data>
+  <data name="ConsentDialog_Description5.Text" xml:space="preserve">
+    <value>Коришћењем одређених делова: /Употреба мог Мобилног телефона/Икона - што може укључивати дозвољавање другима у цхат собама о производима као што су</value>
+  </data>
+  <data name="ConsentDialog_HyperLink.NavigateUri" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int/</value>
+  </data>
+  <data name="ConsentDialog_Title.Text" xml:space="preserve">
+    <value>Ценимо Вашу приватност</value>
+  </data>
+  <data name="Dashboard_Choose_Language.Text" xml:space="preserve">
+    <value>Одабери језик</value>
+  </data>
+  <data name="Dashboard_Hello.Text" xml:space="preserve">
+    <value>Здраво</value>
+  </data>
+  <data name="Dashboard_SearchBox.PlaceholderText" xml:space="preserve">
+    <value>Језик претраге</value>
+  </data>
+  <data name="Dashboard_Welcome.Text" xml:space="preserve">
+    <value>Добродошли</value>
+  </data>
+  <data name="DevicesErrorDialog_NoDeviceError" xml:space="preserve">
+    <value>Немате сачуване уређаје. Идите на подешавања -&gt; да бисте изабрали микрофон и звучник, а затим кликните на дугме Сачувај.</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Description.Text" xml:space="preserve">
+    <value>Доступни блуетоотх уређаји</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_DropDown.PlaceholderText" xml:space="preserve">
+    <value>Избор Блуетоотх уређаја</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Scan.Text" xml:space="preserve">
+    <value>Скенирање</value>
+  </data>
+  <data name="DevicesPage_Bluetooth.Text" xml:space="preserve">
+    <value>Блуетоотх</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices_Description.Text" xml:space="preserve">
+    <value>Одаберите аудио уређај</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices.Text" xml:space="preserve">
+    <value>Повезани аудио уређаји</value>
+  </data>
+  <data name="DevicesPage_MicDropDown.PlaceholderText" xml:space="preserve">
+    <value>Избор микрофона</value>
+  </data>
+  <data name="DevicesPage_Network_Description.Text" xml:space="preserve">
+    <value>Доступне мреже</value>
+  </data>
+  <data name="DevicesPage_Network_DropDown.PlaceholderText" xml:space="preserve">
+    <value>Одаберите мрежу</value>
+  </data>
+  <data name="DevicesPage_Network.Text" xml:space="preserve">
+    <value>Мрежне</value>
+  </data>
+  <data name="DevicesPage_NetworkError" xml:space="preserve">
+    <value>Ниједна мрежа није изабрана. Проверите мрежне везе.</value>
+  </data>
+  <data name="DevicesPage_PersonOne_Speaker.Text" xml:space="preserve">
+    <value>Особа један звучник</value>
+  </data>
+  <data name="DevicesPage_PersonOneMic.Text" xml:space="preserve">
+    <value>Особа један микрофон</value>
+  </data>
+  <data name="DevicesPage_PersonTwo_Mic.Text" xml:space="preserve">
+    <value>Особа два микрофона</value>
+  </data>
+  <data name="DevicesPage_Scan" xml:space="preserve">
+    <value>Скенирање</value>
+  </data>
+  <data name="DevicesPage_Scanning" xml:space="preserve">
+    <value>Скенирање...</value>
+  </data>
+  <data name="DevicesPage_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>Избор звучника</value>
+  </data>
+  <data name="DevicesPage_Status_Connect" xml:space="preserve">
+    <value>Повезивање</value>
+  </data>
+  <data name="DevicesPage_Status_Connected" xml:space="preserve">
+    <value>Повезан са</value>
+  </data>
+  <data name="DevicesPage_Status_Connecting" xml:space="preserve">
+    <value>Повезивање...</value>
+  </data>
+  <data name="DevicesPage_Status_Off" xml:space="preserve">
+    <value>ИСКЉУЧЕНО</value>
+  </data>
+  <data name="DevicesPage_Status_On" xml:space="preserve">
+    <value>НА</value>
+  </data>
+  <data name="DevicesPager_PersonTwo_Speaker.Text" xml:space="preserve">
+    <value>Особа два звучника</value>
+  </data>
+  <data name="EnterPasscodeDialog_Description.Text" xml:space="preserve">
+    <value>Унесите шифру за пролаз да бисте приступили страници са поставкама</value>
+  </data>
+  <data name="EnterPasscodeDialog_ForgotPasscode.Content" xml:space="preserve">
+    <value>Заборавио си пассцоде?</value>
+  </data>
+  <data name="EnterPasscodeDialog_InvalidPasscode.Text" xml:space="preserve">
+    <value>Неважећи кôд за пролаз! Покушајте поново.</value>
+  </data>
+  <data name="EnterPasscodeDialog_Passcode.Text" xml:space="preserve">
+    <value>Код за пролаз</value>
+  </data>
+  <data name="EnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Унесите шифру за пролаз</value>
+  </data>
+  <data name="IAgree.Content" xml:space="preserve">
+    <value>Слажем се</value>
+  </data>
+  <data name="InvalidLicenseDialog_Description.Text" xml:space="preserve">
+    <value>Провера лиценце није успела</value>
+  </data>
+  <data name="InvalidLicenseDialog_Title.Text" xml:space="preserve">
+    <value>Неважећа лиценца</value>
+  </data>
+  <data name="LoginFailedDialog_Button.Content" xml:space="preserve">
+    <value>Врати се</value>
+  </data>
+  <data name="LoginFailedDialog_Description.Text" xml:space="preserve">
+    <value>Ваш покушај пријављивања није успео.</value>
+  </data>
+  <data name="LoginFailedDialog_Title.Text" xml:space="preserve">
+    <value>Неуспело пријављивање</value>
+  </data>
+  <data name="Main_Title.Text" xml:space="preserve">
+    <value>Главни</value>
+  </data>
+  <data name="PasswordPopup_SetupTitle.Text" xml:space="preserve">
+    <value>Подешавање кода за пролаз</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Description1.Text" xml:space="preserve">
+    <value>Поново унесите шифру за пролаз да бисте наставили да уређујете...</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Поново унесите шифру за пролаз</value>
+  </data>
+  <data name="RenterPasscodeDialog_Description2.Text" xml:space="preserve">
+    <value>аутоматско чување и повратак кући</value>
+  </data>
+  <data name="Save.Content" xml:space="preserve">
+    <value>Сачувај</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Description.Text" xml:space="preserve">
+    <value>Ово је пробна страница која ће показати параметре активације ако је апликација активирана из "Дубоког повезивања".</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Title.Text" xml:space="preserve">
+    <value>СцхемеАцтиватионСампле</value>
+  </data>
+  <data name="SetPasscodeDialog_ConfirmPasscode.Text" xml:space="preserve">
+    <value>Потврда новог кода за пролаз </value>
+  </data>
+  <data name="SetPasscodeDialog_NewPasscode.Text" xml:space="preserve">
+    <value>Нови код за пролаз</value>
+  </data>
+  <data name="SetPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Подешавање кода за пролаз</value>
+  </data>
+  <data name="Settings_About.Text" xml:space="preserve">
+    <value>Основни подаци о овој апликацији</value>
+  </data>
+  <data name="Settings_AboutDescription.Text" xml:space="preserve">
+    <value>Текст чувара места странице са поставкама.  Твој опис апликације иде овде.</value>
+  </data>
+  <data name="Settings_Personalization.Text" xml:space="preserve">
+    <value>Персонализација</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.Content" xml:space="preserve">
+    <value>Изјава о приватности</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.NavigateUri" xml:space="preserve">
+    <value>https://YourPrivacyUrlGoesHere/</value>
+  </data>
+  <data name="Settings_Theme_Dark.Content" xml:space="preserve">
+    <value>Мраино</value>
+  </data>
+  <data name="Settings_Theme_Default.Content" xml:space="preserve">
+    <value>Подразумевани wиндоwс</value>
+  </data>
+  <data name="Settings_Theme_Light.Content" xml:space="preserve">
+    <value>Светло</value>
+  </data>
+  <data name="Settings_Theme.Text" xml:space="preserve">
+    <value>Одабери тему</value>
+  </data>
+  <data name="Settings_Title.Text" xml:space="preserve">
+    <value>Поставке</value>
+  </data>
+  <data name="SettingsPage_Devices" xml:space="preserve">
+    <value>Уређаји</value>
+  </data>
+  <data name="SettingsPage_Language" xml:space="preserve">
+    <value>Језик</value>
+  </data>
+  <data name="SettingsPage_Profile" xml:space="preserve">
+    <value>Профил</value>
+  </data>
+  <data name="SettingsPage_Questions" xml:space="preserve">
+    <value>Питања</value>
+  </data>
+  <data name="SettingsPage_Title" xml:space="preserve">
+    <value>Поставке</value>
+  </data>
+  <data name="ShellView_Help" xml:space="preserve">
+    <value>Помоћ</value>
+  </data>
+  <data name="ShellView_History" xml:space="preserve">
+    <value>Историја</value>
+  </data>
+  <data name="ShellView_Home" xml:space="preserve">
+    <value>Кужи</value>
+  </data>
+  <data name="ShellView_Settings.Text" xml:space="preserve">
+    <value>Поставке</value>
+  </data>
+  <data name="Sign_In.Text" xml:space="preserve">
+    <value>Упиши се</value>
+  </data>
+  <data name="SignInDialog_Description.Text" xml:space="preserve">
+    <value>Тренутно комуницирајте на више глобалних језика помоћу јабра уређаја.</value>
+  </data>
+  <data name="SignInDialog_SignInButton.Content" xml:space="preserve">
+    <value>Упиши се</value>
+  </data>
+  <data name="Translate_Button.Text" xml:space="preserve">
+    <value>Превести</value>
+  </data>
+  <data name="TranslationPage_EndSession.Text" xml:space="preserve">
+    <value>Заврши сесију</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOn" xml:space="preserve">
+    <value>Укључен микрофон</value>
+  </data>
+  <data name="TranslationPage_SpeakerOn" xml:space="preserve">
+    <value>Звучник на</value>
+  </data>
+  <data name="TranslationPage_SpeakNow.Text" xml:space="preserve">
+    <value>Говори сада</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>О</value>
+  </data>
+  <data name="AboutPage_AppVersion.Text" xml:space="preserve">
+    <value>Верзија апликације</value>
+  </data>
+  <data name="AboutPage_CheckUpdate.Content" xml:space="preserve">
+    <value>Провера да ли постоје исправке</value>
+  </data>
+  <data name="AboutPage_DataConsent" xml:space="preserve">
+    <value>Ваша организација је дала сагласност за чување података у облаку.</value>
+  </data>
+  <data name="AboutPage_NoDataConsent" xml:space="preserve">
+    <value>Ваша организација није дала сагласност за чување података у облаку.</value>
+  </data>
+  <data name="AboutPage_Published.Text" xml:space="preserve">
+    <value>Објавио ФИТТС Лимитед.</value>
+  </data>
+  <data name="AppClose_Close.Content" xml:space="preserve">
+    <value>Ипак затвори</value>
+  </data>
+  <data name="AppClose_Dismiss.Content" xml:space="preserve">
+    <value>Откажи</value>
+  </data>
+  <data name="AppClose_Warning.Text" xml:space="preserve">
+    <value>У току је сесија. Завршите сесију пре изласка из апликације.</value>
+  </data>
+  <data name="AppVersion.Text" xml:space="preserve">
+    <value>Верзија апликације</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Button.Content" xml:space="preserve">
+    <value>Настави сесију</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Description.Text" xml:space="preserve">
+    <value>Седница ће се завршити</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Title.Text" xml:space="preserve">
+    <value>Звук није откривен</value>
+  </data>
+  <data name="AudioPlayer_Error.Text" xml:space="preserve">
+    <value>Учитавање звука није успело</value>
+  </data>
+  <data name="DashboardPage_DefaultLanguageError" xml:space="preserve">
+    <value>Нема сачуваног подразумеваног језика превођења. Идите на Сеттингс -&gt; лангуагес да бисте изабрали подразумевани језик превођења, а затим кликните на дугме Сачувај.</value>
+  </data>
+  <data name="DashboardPage_TargetLanguageError" xml:space="preserve">
+    <value>Нисте изабрали циљни језик превођења. Љубазно изаберите језик, а затим кликните на дугме "Преведи".</value>
+  </data>
+  <data name="DevicesErrorDialog_DualDeviceError" xml:space="preserve">
+    <value>Изабрали сте превођење двојног уређаја, али немате изабране уређаје за особу 2. Идите на подешавања -&gt; да бисте изабрали микрофон и звучник, а затим кликните на дугме Сачувај.</value>
+  </data>
+  <data name="DevicesPage_Title.Text" xml:space="preserve">
+    <value>Уређаји</value>
+  </data>
+  <data name="DevicesPage_Wifi_Password.Text" xml:space="preserve">
+    <value>Унесите лозинку</value>
+  </data>
+  <data name="DevicesPage_WifiStatus.Text" xml:space="preserve">
+    <value>WиФи статус</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Уређивање</value>
+  </data>
+  <data name="Expiry.Text" xml:space="preserve">
+    <value>Рок важења</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Повратне информације</value>
+  </data>
+  <data name="FeedbackMessage.Text" xml:space="preserve">
+    <value>Ако имате било какве повратне информације или упите, не устручавајте се да дођете у контакт.</value>
+  </data>
+  <data name="GetInTouchButton.Text" xml:space="preserve">
+    <value>Да ли сте у контакту</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Помоћ</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>Историја</value>
+  </data>
+  <data name="History_ExportBtn.Text" xml:space="preserve">
+    <value>Извоз</value>
+  </data>
+  <data name="HistoryExportButtonTooltip.Text" xml:space="preserve">
+    <value>Извоз</value>
+  </data>
+  <data name="HistoryListColumnDate.Text" xml:space="preserve">
+    <value>Датум</value>
+  </data>
+  <data name="HistoryListColumnDuration.Text" xml:space="preserve">
+    <value>Трајање</value>
+  </data>
+  <data name="HistoryListColumnPrimaryLanguage.Text" xml:space="preserve">
+    <value>Примарни језик</value>
+  </data>
+  <data name="HistoryListColumnSecondaryLanguage.Text" xml:space="preserve">
+    <value>Секундарни језик</value>
+  </data>
+  <data name="HistoryListColumnSessionId.Text" xml:space="preserve">
+    <value>ИД сесије</value>
+  </data>
+  <data name="InitalSetup_SkipSetup.Content" xml:space="preserve">
+    <value>Прескочи инсталацију</value>
+  </data>
+  <data name="InitialNetworkPopupConnectButton.Content" xml:space="preserve">
+    <value>Повезивање</value>
+  </data>
+  <data name="InitialSetup_DeviceSelection.Text" xml:space="preserve">
+    <value>Избор уређаја</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionDescription.Text" xml:space="preserve">
+    <value>Подешавање подразумеваног аудио уређаја</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneMicrophone.Text" xml:space="preserve">
+    <value>Избор микрофона</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneSpeaker.Text" xml:space="preserve">
+    <value>Избор звучника</value>
+  </data>
+  <data name="InitialSetup_FinishSetup.Content" xml:space="preserve">
+    <value>Заврши инсталацију</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection_Description.Text" xml:space="preserve">
+    <value>Подешавање подразумеваног језика превођења</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection.Text" xml:space="preserve">
+    <value>Избор језика</value>
+  </data>
+  <data name="InitialSetup_NetworkSelection.Text" xml:space="preserve">
+    <value>Жељена мрежа</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopup.Text" xml:space="preserve">
+    <value>Повежи се са мрежом</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopupPassword.Text" xml:space="preserve">
+    <value>Унесите лозинку:</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionDescription.Text" xml:space="preserve">
+    <value>Одаберите једну од доступних мрежа</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionNoInternetConnection.Text" xml:space="preserve">
+    <value>Нисте повезани са Интернетом. Проверите мрежне везе.</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionOtherNetworks.Text" xml:space="preserve">
+    <value>Остале мреже</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup_Description.Text" xml:space="preserve">
+    <value>Подешавање кода за пролаз апликације</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup.Text" xml:space="preserve">
+    <value>Подешавање кода за пролаз</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Језик</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage_Description.Text" xml:space="preserve">
+    <value>Одаберите језик апликације</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage.Text" xml:space="preserve">
+    <value>Језик апликације</value>
+  </data>
+  <data name="LanguagesPage_AppLanguageDropdown.PlaceholderText" xml:space="preserve">
+    <value>Избор језика</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage_Description.Text" xml:space="preserve">
+    <value>Подразумевани језик који користите</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage.Text" xml:space="preserve">
+    <value>Мој подразумевани језик</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguageDropDown.PlaceholderText" xml:space="preserve">
+    <value>Избор језика</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description.Text" xml:space="preserve">
+    <value>Одељак "Историја" (за преводе са више уређаја)</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description1.Text" xml:space="preserve">
+    <value>* преводи једног уређаја репродукују сав звук као подразумевани *</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage.Text" xml:space="preserve">
+    <value>Подразумевани језик репродукције</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguages.Text" xml:space="preserve">
+    <value>Језици брзог приказа</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguagesDropdown.PlaceholderText" xml:space="preserve">
+    <value>Додавање језика</value>
+  </data>
+  <data name="LanguagesPage_Title.Text" xml:space="preserve">
+    <value>Језика</value>
+  </data>
+  <data name="Licence" xml:space="preserve">
+    <value>Дозволу</value>
+  </data>
+  <data name="LicenseType.Text" xml:space="preserve">
+    <value>Тип лиценце:</value>
+  </data>
+  <data name="NetworkConnectionError" xml:space="preserve">
+    <value>Грешка:</value>
+  </data>
+  <data name="Next.Content" xml:space="preserve">
+    <value>Следежи</value>
+  </data>
+  <data name="PasscodeError_MinimumLength" xml:space="preserve">
+    <value>Минимална дужина кода за пролаз треба да буде 4.</value>
+  </data>
+  <data name="PasscodeError_NotMatching" xml:space="preserve">
+    <value>Унети кодови се не подударају. Љубазно поново унесите кодове за пролаз, а затим покушајте поново.</value>
+  </data>
+  <data name="Person.Text" xml:space="preserve">
+    <value>Особа</value>
+  </data>
+  <data name="PrivacyPolicy.Text" xml:space="preserve">
+    <value>Политика приватности</value>
+  </data>
+  <data name="ProfilePage_Email_Description.Text" xml:space="preserve">
+    <value>Подразумевана е-пошта за извоз</value>
+  </data>
+  <data name="ProfilePage_Email.Text" xml:space="preserve">
+    <value>Е-пошта</value>
+  </data>
+  <data name="ProfilePage_Passcode_Description.Text" xml:space="preserve">
+    <value>Ваш код за пролаз апликације</value>
+  </data>
+  <data name="ProfilePage_Passcode.Text" xml:space="preserve">
+    <value>Код за пролаз</value>
+  </data>
+  <data name="ProfilePage_Timeout_Description.Text" xml:space="preserve">
+    <value>Учесталост закључавања администраторског режима</value>
+  </data>
+  <data name="ProfilePage_Timeout.Text" xml:space="preserve">
+    <value>Временско време у администраторског режима</value>
+  </data>
+  <data name="ProfilePage_TimeoutDropdown.PlaceholderText" xml:space="preserve">
+    <value>Изаберите време</value>
+  </data>
+  <data name="ProfilePage_Title.Text" xml:space="preserve">
+    <value>Профил</value>
+  </data>
+  <data name="PublishedBy.Text" xml:space="preserve">
+    <value>Објавио</value>
+  </data>
+  <data name="ReleaseNotesMessage.Text" xml:space="preserve">
+    <value>Напомене уз издање ће ускоро бити ажуриране</value>
+  </data>
+  <data name="Save_Text" xml:space="preserve">
+    <value>Сачувај</value>
+  </data>
+  <data name="SessionDetailsPage_Description.Text" xml:space="preserve">
+    <value>Историја транскрипције</value>
+  </data>
+  <data name="SessionDetailsPage_Duration.Text" xml:space="preserve">
+    <value>Трајање</value>
+  </data>
+  <data name="SessionDetailsPage_SessionID.Text" xml:space="preserve">
+    <value>ИД сесије</value>
+  </data>
+  <data name="SessionDetailsPage_Title.Text" xml:space="preserve">
+    <value>Историја</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Поставке</value>
+  </data>
+  <data name="TermsOfUse.Text" xml:space="preserve">
+    <value>Услови коришћења</value>
+  </data>
+  <data name="TranslationPage_SettingUpState" xml:space="preserve">
+    <value>Подешавање ...</value>
+  </data>
+  <data name="TranslationPage_SpeakFast" xml:space="preserve">
+    <value>Покушајте да говорите мало брже за боље резултате превођења.</value>
+  </data>
+  <data name="TranslationPage_SpeakIn" xml:space="preserve">
+    <value>Говорите у</value>
+  </data>
+  <data name="TranslationPage_SpeakSlow" xml:space="preserve">
+    <value>Покушајте да говорите мало спорије за боље резултате превођења.</value>
+  </data>
+  <data name="TranslationPage_Switching" xml:space="preserve">
+    <value>Пребацивање</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonOne" xml:space="preserve">
+    <value>Пребацивање на особу 1</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonTwo" xml:space="preserve">
+    <value>Пребаци се на особу 2</value>
+  </data>
+  <data name="TranslationPage_TranslationReadyState" xml:space="preserve">
+    <value>Говори сада</value>
+  </data>
+  <data name="Website.Text" xml:space="preserve">
+    <value>Wеб локација</value>
+  </data>
+  <data name="WhatsNew" xml:space="preserve">
+    <value>Шта је ново</value>
+  </data>
+  <data name="WhatsNewInSpeechly.Text" xml:space="preserve">
+    <value>Шта има ново у</value>
+  </data>
+  <data name="AudioDevicesSelectorDualDevice.Content" xml:space="preserve">
+    <value>Двоструки уређај</value>
+  </data>
+  <data name="AudioDevicesSelectorSingleDevice.Content" xml:space="preserve">
+    <value>Један уређај</value>
+  </data>
+  <data name="AutoDetectSearchCountry.PlaceholderText" xml:space="preserve">
+    <value>Претражи земљу</value>
+  </data>
+  <data name="AutoDetectSelectLanguage.Text" xml:space="preserve">
+    <value>Изаберите језик</value>
+  </data>
+  <data name="ChatViewPersonOne" xml:space="preserve">
+    <value>Особа 1</value>
+  </data>
+  <data name="ChatViewPersonTwo" xml:space="preserve">
+    <value>Особа два</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionLost" xml:space="preserve">
+    <value>Интернет веза је изгубљена. Љубазно проверите везу, а затим покушајте поново.</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionUnstable" xml:space="preserve">
+    <value>Интернет веза вам је спора. Можда ћете искусити неко заостајање.</value>
+  </data>
+  <data name="CustomTagSelectionTitle.Text" xml:space="preserve">
+    <value>Ознаке организације (изаберите да додате)</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.Header" xml:space="preserve">
+    <value>Корисничка заставица за пребацивање језика</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OffContent" xml:space="preserve">
+    <value>Онемогућен</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OnContent" xml:space="preserve">
+    <value>Омогућен</value>
+  </data>
+  <data name="DetectLanguageButton.Content" xml:space="preserve">
+    <value>Откриј језик</value>
+  </data>
+  <data name="DevicesPageNetworkSetupBluetoothStatus.Text" xml:space="preserve">
+    <value>Блуетоотх статус :</value>
+  </data>
+  <data name="DevicesPageNetworkSetupConnectAutomatically.Text" xml:space="preserve">
+    <value>Аутоматски се повежи</value>
+  </data>
+  <data name="DevicesPageNetworkSetupWiFiStatus.Text" xml:space="preserve">
+    <value>WиФи статус :</value>
+  </data>
+  <data name="Dimiss.Content" xml:space="preserve">
+    <value>Откажи</value>
+  </data>
+  <data name="Duration.Text" xml:space="preserve">
+    <value>|  Трајање</value>
+  </data>
+  <data name="EmailPopup_Description.Text" xml:space="preserve">
+    <value>Унесите своју емаил адресу</value>
+  </data>
+  <data name="EmailPopup_Title.Text" xml:space="preserve">
+    <value>Пошаљите сесију е-поштом</value>
+  </data>
+  <data name="ForcedUpdateDialogCaption" xml:space="preserve">
+    <value>Имамо критичне исправке за</value>
+  </data>
+  <data name="ForcedUpdateDialogInstallBtnText" xml:space="preserve">
+    <value>Ажурирање</value>
+  </data>
+  <data name="ForcedUpdateDialogTitle" xml:space="preserve">
+    <value>Критичне исправке</value>
+  </data>
+  <data name="GoBack.Content" xml:space="preserve">
+    <value>Врати се</value>
+  </data>
+  <data name="HelpPageSignOut.Content" xml:space="preserve">
+    <value>Одјави се</value>
+  </data>
+  <data name="History_Export.Text" xml:space="preserve">
+    <value>Генерисање датотеке...</value>
+  </data>
+  <data name="HistoryListColumnSessionName.Text" xml:space="preserve">
+    <value>Име</value>
+  </data>
+  <data name="HistoryListColumnSynced.Text" xml:space="preserve">
+    <value>Синхронизовани</value>
+  </data>
+  <data name="HistorySearchBox.PlaceholderText" xml:space="preserve">
+    <value>Језик , име сесије, ознаке или ИД-ове</value>
+  </data>
+  <data name="HistorySearchButtonTooltip.Text" xml:space="preserve">
+    <value>Претраге</value>
+  </data>
+  <data name="HistorySearchClearButtonTooltip.Text" xml:space="preserve">
+    <value>Опозовите избор</value>
+  </data>
+  <data name="HistorySearchFromDate.Header" xml:space="preserve">
+    <value>Из:</value>
+  </data>
+  <data name="HistorySearchToDate.Header" xml:space="preserve">
+    <value>Да:</value>
+  </data>
+  <data name="HistoryShareButtonTooltip.Text" xml:space="preserve">
+    <value>Дељење/слање</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonOne.Text" xml:space="preserve">
+    <value>Особа 1</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonTwo.Text" xml:space="preserve">
+    <value>Особа 2</value>
+  </data>
+  <data name="LoginPageTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NewVersionDialogCaption" xml:space="preserve">
+    <value>Инсталирање нове верзије апликације</value>
+  </data>
+  <data name="NewVersionDialogDescription" xml:space="preserve">
+    <value>Нове функције и исправке грешака ће недостајати </value>
+  </data>
+  <data name="NewVersionDialogInstallBtnText" xml:space="preserve">
+    <value>Инсталирај нову верзију</value>
+  </data>
+  <data name="NewVersionDialogTitle" xml:space="preserve">
+    <value>Нова верзија апликације</value>
+  </data>
+  <data name="NextText" xml:space="preserve">
+    <value>Следежи</value>
+  </data>
+  <data name="ProfilePageEditButton.Content" xml:space="preserve">
+    <value>Уређивање</value>
+  </data>
+  <data name="QuestionsButton.Content" xml:space="preserve">
+    <value>Погледајте питања</value>
+  </data>
+  <data name="QuestionSettingsDescription.Text" xml:space="preserve">
+    <value>Приказивање или мењање пречица са питањем</value>
+  </data>
+  <data name="QuestionSettingsInstructionOne.Text" xml:space="preserve">
+    <value>* Користите бројеве 1-9 за свако питање. Нула (0) неће бити у разматрању.</value>
+  </data>
+  <data name="QuestionSettingsInstructionThree.Text" xml:space="preserve">
+    <value>* Пречице можете доделити само на 9 питања.</value>
+  </data>
+  <data name="QuestionSettingsListTitle.Text" xml:space="preserve">
+    <value>Листа питања :</value>
+  </data>
+  <data name="ResellerEmailAddress.Text" xml:space="preserve">
+    <value>Адреса е-поште продавца :</value>
+  </data>
+  <data name="ResellerName.Text" xml:space="preserve">
+    <value>Име продавца :</value>
+  </data>
+  <data name="SelectFlag.Text" xml:space="preserve">
+    <value>Изаберите заставицу:</value>
+  </data>
+  <data name="Send.Content" xml:space="preserve">
+    <value>Пољаљи</value>
+  </data>
+  <data name="SessionDetailsPage_SessionName.Text" xml:space="preserve">
+    <value>Име сесије</value>
+  </data>
+  <data name="SessionID.Text" xml:space="preserve">
+    <value>ИД сесије : -</value>
+  </data>
+  <data name="SessionMetadataDialog_ContinueButton.Text" xml:space="preserve">
+    <value>Наставите</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTags.Text" xml:space="preserve">
+    <value>Прилагођене ознаке</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Овде унесите име ознаке</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextboxHelper.Text" xml:space="preserve">
+    <value>Притисните тастер Ентер</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTags.Text" xml:space="preserve">
+    <value>Подразумеване ознаке</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Овде унесите вредност</value>
+  </data>
+  <data name="SessionMetadataDialog_Description.Text" xml:space="preserve">
+    <value>Обавезна поља су означена са '</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionName.Text" xml:space="preserve">
+    <value>Име сесије</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionNameTextbox.PlaceholderText" xml:space="preserve">
+    <value>нпр . нулти пацијент</value>
+  </data>
+  <data name="SessionMetadataDialog_Title.Text" xml:space="preserve">
+    <value>Додавање имена сесије и ознака</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorActionMessage" xml:space="preserve">
+    <value>Обратите се администратору да бисте активирали налог.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorMessage" xml:space="preserve">
+    <value>Ваш налог је деактивиран.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorActionMessage" xml:space="preserve">
+    <value>Обратите се администратору да бисте креирали налог.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorMessage" xml:space="preserve">
+    <value>Ваш налог је избрисан.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorActionMessage" xml:space="preserve">
+    <value>Обратите се администратору да бисте омогућили налог.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorMessage" xml:space="preserve">
+    <value>Ваш налог је онемогућен.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorActionMessage" xml:space="preserve">
+    <value>Обратите се администратору да бисте креирали налог.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorMessage" xml:space="preserve">
+    <value>Немате активан налог.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorActionMessage" xml:space="preserve">
+    <value>Обратите се администратору да бисте обновили дозволу.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorMessage" xml:space="preserve">
+    <value>Дозвола ти је истекла.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorActionMessage" xml:space="preserve">
+    <value>Обратите се администратору да бисте активирали дозволу.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorMessage" xml:space="preserve">
+    <value>Ваша дозвола је деактивирана.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorActionMessage" xml:space="preserve">
+    <value>Обратите се администратору.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorMessage" xml:space="preserve">
+    <value>Ваша дозвола је суспендована.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorActionMessage" xml:space="preserve">
+    <value>Обратите се администратору да вам додели дозволу.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorMessage" xml:space="preserve">
+    <value>Немате додељену дозволу.</value>
+  </data>
+  <data name="StartupPage2020.Text" xml:space="preserve">
+    <value>2021 </value>
+  </data>
+  <data name="StartupPageErrorDescription.Text" xml:space="preserve">
+    <value>Дошло је до грешке. Проверите Интернет везу, а затим покушајте поново.</value>
+  </data>
+  <data name="StartupPagePoweredBy.Text" xml:space="preserve">
+    <value>Оснажен </value>
+  </data>
+  <data name="StartupPageProgressDescription.Text" xml:space="preserve">
+    <value>Ово може потрајати неколико секунди</value>
+  </data>
+  <data name="StartupPageRetryButton.Content" xml:space="preserve">
+    <value>Понови</value>
+  </data>
+  <data name="StartupPageRightsReserved.Text" xml:space="preserve">
+    <value>Сва права задржана.</value>
+  </data>
+  <data name="StartUpPageSettingUpMessage" xml:space="preserve">
+    <value>Подешавање...</value>
+  </data>
+  <data name="StartupPageTitleDescription.Text" xml:space="preserve">
+    <value>Добродошао у </value>
+  </data>
+  <data name="TranslateText" xml:space="preserve">
+    <value>Превести</value>
+  </data>
+  <data name="TranslationLicenceUseError" xml:space="preserve">
+    <value>Ваша дозвола је тренутно у употреби у другој сесији.</value>
+  </data>
+  <data name="TranslationLimitReachedError" xml:space="preserve">
+    <value>Достигли сте максимално временско ограничење по сесији. Завршетак сесије.</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOff" xml:space="preserve">
+    <value>Микрофон искључен</value>
+  </data>
+  <data name="TranslationPage_SpeakerOff" xml:space="preserve">
+    <value>Звучник искључен</value>
+  </data>
+  <data name="TranslationTimeDepletedError" xml:space="preserve">
+    <value>Твоји преводилачки минути су исцрпљени. Љубазно се обратите администратору.</value>
+  </data>
+  <data name="UnsupportedVersionDialogBtntext" xml:space="preserve">
+    <value>Ажурирање</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption" xml:space="preserve">
+    <value>Критичне исправке су потребне за </value>
+  </data>
+  <data name="UnsupportedVersionDialogDescription" xml:space="preserve">
+    <value>Ажурирајте апликацију да бисте наставили да добијате функције и безбедносне исправке.</value>
+  </data>
+  <data name="UnsupportedVersionDialogTitle" xml:space="preserve">
+    <value>Неподржана верзија апликације</value>
+  </data>
+  <data name="UpdateDialogWhatsNew.Text" xml:space="preserve">
+    <value>Шта је ново?</value>
+  </data>
+  <data name="Zoom.Text" xml:space="preserve">
+    <value>Зумирање</value>
+  </data>
+  <data name="Add.Content" xml:space="preserve">
+    <value>Додати</value>
+  </data>
+  <data name="AddNewQuestion.Text" xml:space="preserve">
+    <value>Додавање новог унапред дефинисаног питања</value>
+  </data>
+  <data name="AddQuestion.Content" xml:space="preserve">
+    <value>Додај питање</value>
+  </data>
+  <data name="ChooseLanguage.Text" xml:space="preserve">
+    <value>Избор подразумеваног језика</value>
+  </data>
+  <data name="CustomProfileAdded" xml:space="preserve">
+    <value>Име профила је успешно додато.</value>
+  </data>
+  <data name="CustomProfileDeleted" xml:space="preserve">
+    <value>Профил је успешно избрисан.</value>
+  </data>
+  <data name="CustomProfileInvalidName" xml:space="preserve">
+    <value>Грешка! Неважеће име профила.</value>
+  </data>
+  <data name="CustomProfileNotDeleted" xml:space="preserve">
+    <value>Нема профила за брисање.</value>
+  </data>
+  <data name="CustomProfileNotSaved" xml:space="preserve">
+    <value>Грешка! Није сачуван профил.</value>
+  </data>
+  <data name="CustomProfileProfileSaved" xml:space="preserve">
+    <value>Профил је успешно сачуван.</value>
+  </data>
+  <data name="DataRequestMessage" xml:space="preserve">
+    <value>Нисте изабрали ниједан текст. Изаберите текст који желите да делите и покушајте поново.</value>
+  </data>
+  <data name="DevicesAddProfileButton.Content" xml:space="preserve">
+    <value>Додати</value>
+  </data>
+  <data name="DevicesAvailableProfiles.Text" xml:space="preserve">
+    <value>Доступни профили</value>
+  </data>
+  <data name="DevicesDefaultProfile.Text" xml:space="preserve">
+    <value>Подразумевани профил:</value>
+  </data>
+  <data name="DevicesDeleteProfileBtn.Content" xml:space="preserve">
+    <value>Избриши профил</value>
+  </data>
+  <data name="DeviceSetupChanged" xml:space="preserve">
+    <value>Ажурирани повезани аудио уређаји </value>
+  </data>
+  <data name="DevicesHelpfulTip1.Text" xml:space="preserve">
+    <value>1 . Поставите име профила</value>
+  </data>
+  <data name="DevicesHelpfulTip2.Text" xml:space="preserve">
+    <value>2 . Изаберите режиме појединачних или двоструких уређаја</value>
+  </data>
+  <data name="DevicesHelpfulTip3.Text" xml:space="preserve">
+    <value>3 . Изаберите звучнике и микрофоне</value>
+  </data>
+  <data name="DevicesHelpfulTip4.Text" xml:space="preserve">
+    <value>4 . Поставите профил као подразумевани</value>
+  </data>
+  <data name="DevicesHelpfulTip5.Text" xml:space="preserve">
+    <value>5 . Кликните на дугме "Сачувај профил" да бисте сачували профил</value>
+  </data>
+  <data name="DevicesHelpfulTips.Text" xml:space="preserve">
+    <value>Корисни савети</value>
+  </data>
+  <data name="DevicesProfileNameTextBox.PlaceholderText" xml:space="preserve">
+    <value>Име профила...</value>
+  </data>
+  <data name="DevicesSaveProfileBtn.Content" xml:space="preserve">
+    <value>Сачувај профил</value>
+  </data>
+  <data name="DevicesSetasDefault.Text" xml:space="preserve">
+    <value>Постави као подразумевано</value>
+  </data>
+  <data name="DevicesSetProfileButton.Content" xml:space="preserve">
+    <value>Постављање профила</value>
+  </data>
+  <data name="DevicesSetProfileText.Text" xml:space="preserve">
+    <value>Поставите прилагођени профил?</value>
+  </data>
+  <data name="DiscardButton.Content" xml:space="preserve">
+    <value>Одбаци</value>
+  </data>
+  <data name="DismissButton.Content" xml:space="preserve">
+    <value>Отпусти</value>
+  </data>
+  <data name="DismissText.Text" xml:space="preserve">
+    <value>Отпусти</value>
+  </data>
+  <data name="DownloadAudio.Text" xml:space="preserve">
+    <value>Преузми аудио запис</value>
+  </data>
+  <data name="DownloadCancel" xml:space="preserve">
+    <value>Преузимање је отказано</value>
+  </data>
+  <data name="Downloaded" xml:space="preserve">
+    <value>Преузете</value>
+  </data>
+  <data name="DownloadError" xml:space="preserve">
+    <value>Дошло је до грешке</value>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>Преузимање</value>
+  </data>
+  <data name="DownloadPaused" xml:space="preserve">
+    <value>Преузимање је паузирано</value>
+  </data>
+  <data name="DualDeviceUpdated" xml:space="preserve">
+    <value>Успешно ажурирано подешавање двојног уређаја</value>
+  </data>
+  <data name="EnterQuestion.Text" xml:space="preserve">
+    <value>Унесите питање испод</value>
+  </data>
+  <data name="ErrorDescription.Text" xml:space="preserve">
+    <value>Промене нису сачуване, желите ли да их сачувате или одбаците?</value>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>Несто је кренуло наопако.. Покушај поново</value>
+  </data>
+  <data name="ErrorTitle.Text" xml:space="preserve">
+    <value>Имаш несачуване промене</value>
+  </data>
+  <data name="FeedbackEight.Text" xml:space="preserve">
+    <value>Стално смо прекидали једно друго</value>
+  </data>
+  <data name="FeedbackFive.Text" xml:space="preserve">
+    <value>Чуо сам ехо у позиву</value>
+  </data>
+  <data name="FeedbackFour.Text" xml:space="preserve">
+    <value>Покупио је позадинске гласове</value>
+  </data>
+  <data name="FeedbackOne.Text" xml:space="preserve">
+    <value>Није ми добро подигао глас</value>
+  </data>
+  <data name="FeedbackQuestion.Text" xml:space="preserve">
+    <value>Љта је могло бити боље?</value>
+  </data>
+  <data name="FeedbackSeven.Text" xml:space="preserve">
+    <value>Сесија је неочекивано завршена</value>
+  </data>
+  <data name="FeedbackSix.Text" xml:space="preserve">
+    <value>Јачина звука је била прениска</value>
+  </data>
+  <data name="FeedbackThanks.Text" xml:space="preserve">
+    <value>Хвала на повратним информацијама</value>
+  </data>
+  <data name="FeedbackThree.Text" xml:space="preserve">
+    <value>Време превођења је било преспоро</value>
+  </data>
+  <data name="FeedbackTwo.Text" xml:space="preserve">
+    <value>Погрешно ми је изречене казне</value>
+  </data>
+  <data name="ForcedUpdateDialogCaptionContinuation" xml:space="preserve">
+    <value>да би функционисало. Апликација неће радити без ових исправки.</value>
+  </data>
+  <data name="Improvement.Text" xml:space="preserve">
+    <value>Наставићемо да радимо на побољшању вашег искуства.</value>
+  </data>
+  <data name="LanguageSettingsUpdated" xml:space="preserve">
+    <value>Промене језика су редовно ажуриране</value>
+  </data>
+  <data name="NewVersionDialogDescription2" xml:space="preserve">
+    <value>и твоју верзију</value>
+  </data>
+  <data name="NewVersionDialogDescription3" xml:space="preserve">
+    <value>може постати неподржан.</value>
+  </data>
+  <data name="Other.Text" xml:space="preserve">
+    <value>Остали коментари:</value>
+  </data>
+  <data name="PasswordUpdated" xml:space="preserve">
+    <value>Лозинка је у потпуности промењена</value>
+  </data>
+  <data name="PlaybackLanguageUpdated" xml:space="preserve">
+    <value>Подразумевани језик репродукције је у потпуности промењен</value>
+  </data>
+  <data name="QuestionAdded" xml:space="preserve">
+    <value>Питање је успешно додато</value>
+  </data>
+  <data name="QuestionDeleted" xml:space="preserve">
+    <value>Питање је успешно избрисано</value>
+  </data>
+  <data name="Questions.Text" xml:space="preserve">
+    <value>Питања</value>
+  </data>
+  <data name="QuestionSettingsInstructionTwo.Text" xml:space="preserve">
+    <value>* Свако питање мора да има различиту тастерску пречицу.</value>
+  </data>
+  <data name="QuestionsValidationError.Text" xml:space="preserve">
+    <value>* Проверите провере ваљаности и покушајте поново.</value>
+  </data>
+  <data name="QuickViewLanguagesUpdated" xml:space="preserve">
+    <value>Лангугес брзог приказа је ажуриран суццесфуллy</value>
+  </data>
+  <data name="SendFeedback.Content" xml:space="preserve">
+    <value>Пошаљи повратне информације</value>
+  </data>
+  <data name="SessionFeedbackPrompt" xml:space="preserve">
+    <value>Како бисте оценили сесију превођења?</value>
+  </data>
+  <data name="SessionFeedbackTitle" xml:space="preserve">
+    <value>Повратне информације о превођењу</value>
+  </data>
+  <data name="ShortcutSuccess" xml:space="preserve">
+    <value>Пречице за питања су успешно ажуриране</value>
+  </data>
+  <data name="SingleDeviceUpdated" xml:space="preserve">
+    <value>Инсталација једног уређаја је успешно ажурирана</value>
+  </data>
+  <data name="StartupPageTitleDescription2.Text" xml:space="preserve">
+    <value>софтвер за превођење.</value>
+  </data>
+  <data name="TimeoutUpdated" xml:space="preserve">
+    <value>Временско време је ажурирано у потпуности</value>
+  </data>
+  <data name="TouchShareText" xml:space="preserve">
+    <value>Дељење додиром</value>
+  </data>
+  <data name="TranslationLanguageUpdated" xml:space="preserve">
+    <value>Подразумевани језик превођења је у потпуности промењен</value>
+  </data>
+  <data name="TranslationPlaybackUpdated" xml:space="preserve">
+    <value>Подразумевани превод &amp; језик репродукције су се променили у потпуности</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption2" xml:space="preserve">
+    <value>да би функционисало. Функције могу престати да раде без претходне најаве. Ажурирајте апликацију.</value>
+  </data>
+  <data name="UserFlagSwitch" xml:space="preserve">
+    <value>Корисничка заставица за пребацивање ажурираног језика</value>
+  </data>
+</root>

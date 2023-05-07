@@ -1,0 +1,81 @@
+﻿<Page
+    x:Class="SpeechlyTouch.Views.Pages.FeedbackPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:SpeechlyTouch.Views.Pages"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Background="{Binding PrimaryBackgroundColor, Source={StaticResource DynamicColors}}"
+    DataContext="{Binding FeedbackViewModel, Source={StaticResource ViewModelLocator}}"
+    mc:Ignorable="d">
+
+    <Grid
+        Width="350"
+        Margin="0,60,0,0"
+        HorizontalAlignment="Center"
+        VerticalAlignment="Stretch">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Image
+            Grid.Row="0"
+            Width="80"
+            Height="80"
+            Source="/Assets/helpLogo.png"
+            Stretch="Uniform" />
+
+        <TextBlock
+            x:Uid="FeedbackMessage"
+            Grid.Row="1"
+            VerticalAlignment="Center"
+            FontSize="16"
+            FontWeight="SemiBold"
+            Foreground="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}"
+            Style="{StaticResource TextBlockStyle}"
+            TextAlignment="Center"
+            TextWrapping="Wrap" />
+
+        <HyperlinkButton
+            Grid.Row="2"
+            Margin="0,0,0,0"
+            Padding="10,2,10,2"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Bottom"
+            Background="Transparent"
+            BorderBrush="{Binding BtnAccentColor, Source={StaticResource DynamicColors}}"
+            BorderThickness="1"
+            CornerRadius="3"
+            Foreground="{Binding BtnAccentTextColor, Source={StaticResource DynamicColors}}"
+            NavigateUri="https://forms.office.com/Pages/ResponsePage.aspx?id=d14g-cUG-U-gVJe_Gj00dBGhqSccpxVFrAal71GS1VdURFdNN0JUTjRLQVExVDZHQlJYVzRZNlRHQS4u">
+
+            <HyperlinkButton.Content>
+                <controls:DockPanel Background="Transparent">
+                    <FontIcon
+                        Margin="20,0"
+                        HorizontalAlignment="Center"
+                        FontFamily="{StaticResource SymbolThemeFontFamily}"
+                        FontSize="40"
+                        FontWeight="Light"
+                        Foreground="{Binding AccentColor, Source={StaticResource DynamicColors}}"
+                        Glyph="&#xE724;"
+                        HighContrastAdjustment="None" />
+
+                    <TextBlock
+                        x:Uid="GetInTouchButton"
+                        Margin="0,0,20,0"
+                        VerticalAlignment="Center"
+                        FontSize="20"
+                        FontWeight="SemiBold"
+                        Foreground="{Binding AccentColor, Source={StaticResource DynamicColors}}" />
+                </controls:DockPanel>
+
+            </HyperlinkButton.Content>
+        </HyperlinkButton>
+
+    </Grid>
+</Page>

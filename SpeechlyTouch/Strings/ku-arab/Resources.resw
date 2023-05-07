@@ -1,0 +1,1192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="AppDescription" xml:space="preserve">
+    <value>تالاتۆچپ</value>
+  </data>
+  <data name="AppDisplayName" xml:space="preserve">
+    <value>تالاتۆچپ</value>
+  </data>
+  <data name="AudioDeviceSelector_MicDropdown.PlaceholderText" xml:space="preserve">
+    <value>مایکرۆفۆنێک دیاریبکە</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneMic.Text" xml:space="preserve">
+    <value>کەسی یەک مایکرۆفۆن</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneSpeaker.Text" xml:space="preserve">
+    <value>کەسی یەک قسەکەر</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoMic.Text" xml:space="preserve">
+    <value>کەسی دوو مایکرۆفۆن</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoSpeaker.Text" xml:space="preserve">
+    <value>کەسی دوو قسەکەر</value>
+  </data>
+  <data name="AudioDeviceSelector_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>بڵندگۆیەک دیاریبکە</value>
+  </data>
+  <data name="BluetoothPairingDialog_Description.Text" xml:space="preserve">
+    <value>دڵنیابە لەوەی ئامێرەکەت هەڵکراوە و دەدۆزرێتەوە. ئامێرێک دیاریبکە لە خوارەوە بۆ گرێدان.</value>
+  </data>
+  <data name="BluetoothPairingDialog_Title.Text" xml:space="preserve">
+    <value>زیادکردنی ئامێرێک</value>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>هەڵوەشاندنەوه</value>
+  </data>
+  <data name="ChangePasscodeDialog_Confirm.Text" xml:space="preserve">
+    <value>پشتڕاستکردنەوەی پاسکۆدی نوێ</value>
+  </data>
+  <data name="ChangePasscodeDialog_Current.Text" xml:space="preserve">
+    <value>پاسکۆدی ئێستا</value>
+  </data>
+  <data name="ChangePasscodeDialog_New.Text" xml:space="preserve">
+    <value>پاسکۆدی نوێ</value>
+  </data>
+  <data name="ChangePasscodeDialog_Title.Text" xml:space="preserve">
+    <value>گۆڕینی پاسکۆد</value>
+  </data>
+  <data name="Close.Content" xml:space="preserve">
+    <value>داخستن</value>
+  </data>
+  <data name="ConsentDialog_Description1.Text" xml:space="preserve">
+    <value>خەمی تایبەتێتی یەکەم لەپێشینمانە. (5) مەرجەکان و مەرجەکانی سیاسەتی ئەم تایبەتمەندیە قبوڵ دەکەیت لەگەڵ مۆبایلەکەت یان تابلێتەکەت، وەک کارپێکراو.</value>
+  </data>
+  <data name="ConsentDialog_Description2.Text" xml:space="preserve">
+    <value>ئەگەر تۆ هەڵیبژێریت کە ڕێگە بە ئێمە نەدەیت دەستگەیشتنمان هەبێت کاتێک داواکاریەک وەردەگرین بۆ ڕەزامەندی (ئەم جۆرە داواکاریانە ئاگادار دەکرێنەوە لەسەر ماڵپەڕی www ICTS لە :</value>
+  </data>
+  <data name="ConsentDialog_Description3.Text" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int</value>
+  </data>
+  <data name="ConsentDialog_Description4.Text" xml:space="preserve">
+    <value>پاشان نە ناونیشانی ئیمەیڵ دابین کراوە و نە هیچ زانیاریەکی کەسی تر کە بتوانێت تاکێک بناسێتەوە هەروەها ناتوانێت بێتە ناو موڵکەکەمان کاتێک مۆڵەتی لەم شێوەیە دراوە.</value>
+  </data>
+  <data name="ConsentDialog_Description5.Text" xml:space="preserve">
+    <value>بە بەکارهێنانی هەندێک بەش: /بەکارهێنانی من لە مۆبایلەکەم/ ئایکۆنەکان - کە لەوانەیە ڕێگەدان بە کەسانی تر بگرێتەوە لە ژووری چات کردن دەربارەی بەرهەمەکانی وەک</value>
+  </data>
+  <data name="ConsentDialog_HyperLink.NavigateUri" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int/</value>
+  </data>
+  <data name="ConsentDialog_Title.Text" xml:space="preserve">
+    <value>ئێمە تایبەتمەندیەکەت بە بەها دەگرین</value>
+  </data>
+  <data name="Dashboard_Choose_Language.Text" xml:space="preserve">
+    <value>زمان هەڵبژێرە</value>
+  </data>
+  <data name="Dashboard_Hello.Text" xml:space="preserve">
+    <value>سڵاو</value>
+  </data>
+  <data name="Dashboard_SearchBox.PlaceholderText" xml:space="preserve">
+    <value>زمانی گەڕان</value>
+  </data>
+  <data name="Dashboard_Welcome.Text" xml:space="preserve">
+    <value>بەخێربێیت</value>
+  </data>
+  <data name="DevicesErrorDialog_NoDeviceError" xml:space="preserve">
+    <value>هیچ ئامێر(ەکان) پاشەکەوتکراوت نییە. بڕۆ بۆ ڕێکبەندەکان - &gt; ئامێرەکان بۆ هەڵبژاردنی مایکرۆفۆن و قسەکەر پاشان کرتە بکە لەسەر هەڵگرتن.</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Description.Text" xml:space="preserve">
+    <value>ئامێرەکانی Bluetooth بەردەست</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_DropDown.PlaceholderText" xml:space="preserve">
+    <value>ئامێری Bluetooth دیاریبکە</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Scan.Text" xml:space="preserve">
+    <value>سکان</value>
+  </data>
+  <data name="DevicesPage_Bluetooth.Text" xml:space="preserve">
+    <value>Bluetooth</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices_Description.Text" xml:space="preserve">
+    <value>ئامێری دەنگەکەت هەڵبژێرە</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices.Text" xml:space="preserve">
+    <value>ئامێرەکانی دەنگی گرێدراو</value>
+  </data>
+  <data name="DevicesPage_MicDropDown.PlaceholderText" xml:space="preserve">
+    <value>مایکرۆفۆنێک هەڵبژێرە</value>
+  </data>
+  <data name="DevicesPage_Network_Description.Text" xml:space="preserve">
+    <value>تۆڕە بەردەستەکان</value>
+  </data>
+  <data name="DevicesPage_Network_DropDown.PlaceholderText" xml:space="preserve">
+    <value>تۆڕێک هەڵبژێرە</value>
+  </data>
+  <data name="DevicesPage_Network.Text" xml:space="preserve">
+    <value>تۆڕ</value>
+  </data>
+  <data name="DevicesPage_NetworkError" xml:space="preserve">
+    <value>هیچ تۆڕێک دیاری نەکراوە. گرێدانەکانی تۆڕەکەت بپشکنە.</value>
+  </data>
+  <data name="DevicesPage_PersonOne_Speaker.Text" xml:space="preserve">
+    <value>کەسێک یەک قسەکەر</value>
+  </data>
+  <data name="DevicesPage_PersonOneMic.Text" xml:space="preserve">
+    <value>کەسی یەک مایکرۆفۆن</value>
+  </data>
+  <data name="DevicesPage_PersonTwo_Mic.Text" xml:space="preserve">
+    <value>کەسی دوو مایکرۆفۆن</value>
+  </data>
+  <data name="DevicesPage_Scan" xml:space="preserve">
+    <value>سکان</value>
+  </data>
+  <data name="DevicesPage_Scanning" xml:space="preserve">
+    <value>سکان کردن...</value>
+  </data>
+  <data name="DevicesPage_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>بڵندگۆیەک هەڵبژێرە</value>
+  </data>
+  <data name="DevicesPage_Status_Connect" xml:space="preserve">
+    <value>گرێدان</value>
+  </data>
+  <data name="DevicesPage_Status_Connected" xml:space="preserve">
+    <value>بەستراوە</value>
+  </data>
+  <data name="DevicesPage_Status_Connecting" xml:space="preserve">
+    <value>پەیوەندی کردن ...</value>
+  </data>
+  <data name="DevicesPage_Status_Off" xml:space="preserve">
+    <value>کوژاوەتەوە</value>
+  </data>
+  <data name="DevicesPage_Status_On" xml:space="preserve">
+    <value>لەسەر</value>
+  </data>
+  <data name="DevicesPager_PersonTwo_Speaker.Text" xml:space="preserve">
+    <value>کەسی دوو قسەکەر</value>
+  </data>
+  <data name="EnterPasscodeDialog_Description.Text" xml:space="preserve">
+    <value>تکایە پاسکۆدەکەت تێبنووسە بۆ چوونە ژورەوەی لاپەڕەی ڕێکبەندەکان</value>
+  </data>
+  <data name="EnterPasscodeDialog_ForgotPasscode.Content" xml:space="preserve">
+    <value>پاسکۆدەکە لەبیرچووە؟</value>
+  </data>
+  <data name="EnterPasscodeDialog_InvalidPasscode.Text" xml:space="preserve">
+    <value>پاسکۆد نادروستە! تکایە دووبارە هەوڵ بدە.</value>
+  </data>
+  <data name="EnterPasscodeDialog_Passcode.Text" xml:space="preserve">
+    <value>پاسکۆد</value>
+  </data>
+  <data name="EnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>داخڵکردنی پاسکۆدەکەت</value>
+  </data>
+  <data name="IAgree.Content" xml:space="preserve">
+    <value>ڕازیم</value>
+  </data>
+  <data name="InvalidLicenseDialog_Description.Text" xml:space="preserve">
+    <value>سەلماندنی مۆڵەتەکەت شکستی هێنا</value>
+  </data>
+  <data name="InvalidLicenseDialog_Title.Text" xml:space="preserve">
+    <value>مۆڵەتی نادروست</value>
+  </data>
+  <data name="LoginFailedDialog_Button.Content" xml:space="preserve">
+    <value>بگەڕێوە</value>
+  </data>
+  <data name="LoginFailedDialog_Description.Text" xml:space="preserve">
+    <value>هەوڵی چوونەژوورەوەت سەرکەوتوو نەبوو.</value>
+  </data>
+  <data name="LoginFailedDialog_Title.Text" xml:space="preserve">
+    <value>چوونەژوورەوەی سەرکەوتوو نەبوو</value>
+  </data>
+  <data name="Main_Title.Text" xml:space="preserve">
+    <value>سەرەکی</value>
+  </data>
+  <data name="PasswordPopup_SetupTitle.Text" xml:space="preserve">
+    <value>دامەزراندنی پاسکۆد</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Description1.Text" xml:space="preserve">
+    <value>تکایە جارێکی تر پاسکۆدەکەت بنووسەوە بۆ ئەوەی بەردەوام بیت لە بژارکردن...</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>دووبارە داخڵکردنی پاسکۆدەکەت</value>
+  </data>
+  <data name="RenterPasscodeDialog_Description2.Text" xml:space="preserve">
+    <value>پاشەکەوتکردنی خۆکار و گەڕانەوە بۆ ماڵەوە</value>
+  </data>
+  <data name="Save.Content" xml:space="preserve">
+    <value>هەڵگرتن</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Description.Text" xml:space="preserve">
+    <value>ئەمە لاپەڕەیەکی نموونەیە کە پارامیتەرەکانی چالاککردن نیشان دەدات ئەگەر کاربەرنامەیەکە چالاک بکرێت لە لینککردنی دیپ.</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Title.Text" xml:space="preserve">
+    <value>سکیم ئەکتیتیڤیشن سەمپل</value>
+  </data>
+  <data name="SetPasscodeDialog_ConfirmPasscode.Text" xml:space="preserve">
+    <value>پشتڕاستکردنەوەی پاسکۆدی نوێ </value>
+  </data>
+  <data name="SetPasscodeDialog_NewPasscode.Text" xml:space="preserve">
+    <value>پاسکۆدی نوێ</value>
+  </data>
+  <data name="SetPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>دامەزراندنی پاسکۆد</value>
+  </data>
+  <data name="Settings_About.Text" xml:space="preserve">
+    <value>دەربارەی ئەم کاربەرنامەیە</value>
+  </data>
+  <data name="Settings_AboutDescription.Text" xml:space="preserve">
+    <value>دەقی پلەیسهۆڵدەری لاپەڕەی ڕێکبەندەکان.  وەسفی کاربەرنامەکەت دەچێتە ئێرە.</value>
+  </data>
+  <data name="Settings_Personalization.Text" xml:space="preserve">
+    <value>بەکەسیکردن</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.Content" xml:space="preserve">
+    <value>بەیاننامەی تایبەتمەندیەکان</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.NavigateUri" xml:space="preserve">
+    <value>https://YourPrivacyUrlGoesHere/</value>
+  </data>
+  <data name="Settings_Theme_Dark.Content" xml:space="preserve">
+    <value>تۆخ</value>
+  </data>
+  <data name="Settings_Theme_Default.Content" xml:space="preserve">
+    <value>گریمانەی Windows</value>
+  </data>
+  <data name="Settings_Theme_Light.Content" xml:space="preserve">
+    <value>ڕوناکی</value>
+  </data>
+  <data name="Settings_Theme.Text" xml:space="preserve">
+    <value>ثیم هەڵبژێرە</value>
+  </data>
+  <data name="Settings_Title.Text" xml:space="preserve">
+    <value>ڕێکبەندەکان</value>
+  </data>
+  <data name="SettingsPage_Devices" xml:space="preserve">
+    <value>ئامێرەکان</value>
+  </data>
+  <data name="SettingsPage_Language" xml:space="preserve">
+    <value>زمان</value>
+  </data>
+  <data name="SettingsPage_Profile" xml:space="preserve">
+    <value>پرۆفایل</value>
+  </data>
+  <data name="SettingsPage_Questions" xml:space="preserve">
+    <value>پرسیارەکان</value>
+  </data>
+  <data name="SettingsPage_Title" xml:space="preserve">
+    <value>ڕێکبەندەکان</value>
+  </data>
+  <data name="ShellView_Help" xml:space="preserve">
+    <value>یارمەتی</value>
+  </data>
+  <data name="ShellView_History" xml:space="preserve">
+    <value>مێژوو</value>
+  </data>
+  <data name="ShellView_Home" xml:space="preserve">
+    <value>ماڵەوە</value>
+  </data>
+  <data name="ShellView_Settings.Text" xml:space="preserve">
+    <value>ڕێکبەندەکان</value>
+  </data>
+  <data name="Sign_In.Text" xml:space="preserve">
+    <value>چوونەژوورەوە</value>
+  </data>
+  <data name="SignInDialog_Description.Text" xml:space="preserve">
+    <value>دەستبەجێ پەیوەندی بکە بە چەندین زمانی جیهانی لەگەڵ ئامێری جەبراکەت.</value>
+  </data>
+  <data name="SignInDialog_SignInButton.Content" xml:space="preserve">
+    <value>چوونەژوورەوە</value>
+  </data>
+  <data name="Translate_Button.Text" xml:space="preserve">
+    <value>وەرگێڕان</value>
+  </data>
+  <data name="TranslationPage_EndSession.Text" xml:space="preserve">
+    <value>کۆتایی هێنان بە دانیشتنەکە</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOn" xml:space="preserve">
+    <value>مایکرۆفۆن لەسەر</value>
+  </data>
+  <data name="TranslationPage_SpeakerOn" xml:space="preserve">
+    <value>قسەکەر لەسەر</value>
+  </data>
+  <data name="TranslationPage_SpeakNow.Text" xml:space="preserve">
+    <value>ئێستا قسە بکە</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>دەربارەی</value>
+  </data>
+  <data name="AboutPage_AppVersion.Text" xml:space="preserve">
+    <value>وەشانی بەرجەستەکراو</value>
+  </data>
+  <data name="AboutPage_CheckUpdate.Content" xml:space="preserve">
+    <value>پشکنینی نوێکردنەوەکان</value>
+  </data>
+  <data name="AboutPage_DataConsent" xml:space="preserve">
+    <value>ڕێکخراوەکەت ڕەزامەندی دەربڕیوە بۆ پاراستنی داتاکەت لە هەوردا.</value>
+  </data>
+  <data name="AboutPage_NoDataConsent" xml:space="preserve">
+    <value>ڕێکخراوەکەت ڕەزامەندی نەداوە بۆ پاشەکەوت کردنی داتاکانت لە هەوردا.</value>
+  </data>
+  <data name="AboutPage_Published.Text" xml:space="preserve">
+    <value>بڵاوکراوە لەلایەن FITTS سنووردار.</value>
+  </data>
+  <data name="AppClose_Close.Content" xml:space="preserve">
+    <value>هەرچۆنێک بێت دابخە</value>
+  </data>
+  <data name="AppClose_Dismiss.Content" xml:space="preserve">
+    <value>هەڵوەشاندنەوه</value>
+  </data>
+  <data name="AppClose_Warning.Text" xml:space="preserve">
+    <value>تۆ دانیشتنێکت هەیە لە پێشدا. تکایە کۆتایی بە دانیشتنەکە بهێنە پێش دەرچوون لە کاربەرنامە.</value>
+  </data>
+  <data name="AppVersion.Text" xml:space="preserve">
+    <value>وەشانی کاربەرنامە</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Button.Content" xml:space="preserve">
+    <value>بەردەوامبوون لە کۆبوونەوە</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Description.Text" xml:space="preserve">
+    <value>دانیشتنەکە کۆتایی دێت لە</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Title.Text" xml:space="preserve">
+    <value>دەنگ نەدۆزرایەوە</value>
+  </data>
+  <data name="AudioPlayer_Error.Text" xml:space="preserve">
+    <value>لە بارکردنی دەنگ سەرکەوتوو نەبوو</value>
+  </data>
+  <data name="DashboardPage_DefaultLanguageError" xml:space="preserve">
+    <value>تۆ هیچ زمانێکی وەرگێڕانی گریمانەیی خەزنکراوت نیە. بڕۆ بۆ ڕێکبەندەکان -&gt; زمانەکان بۆ دیاریکردنی زمانی وەرگێڕانی گریمانەیی و پاشان کرتە بکە لەسەر هەڵگرتن.</value>
+  </data>
+  <data name="DashboardPage_TargetLanguageError" xml:space="preserve">
+    <value>تۆ زمانێکی وەرگێڕانی ئامانجت دیاری نەکردووە. بە میهرەبانی زمانێک دیاریبکە و پاشان کرتە بکە لەسەر وەرگێڕان.</value>
+  </data>
+  <data name="DevicesErrorDialog_DualDeviceError" xml:space="preserve">
+    <value>تۆ وەرگێڕانی ئامێری دووانیت هەڵبژاردووە بەڵام ئامێرت نییە بۆ کەسی 2. بڕۆ بۆ ڕێکبەندەکان - &gt; ئامێرەکان بۆ هەڵبژاردنی مایکرۆفۆن و قسەکەر پاشان کرتە بکە لەسەر هەڵگرتن.</value>
+  </data>
+  <data name="DevicesPage_Title.Text" xml:space="preserve">
+    <value>ئامێرەکان</value>
+  </data>
+  <data name="DevicesPage_Wifi_Password.Text" xml:space="preserve">
+    <value>نهێنوشە تێبنووسە</value>
+  </data>
+  <data name="DevicesPage_WifiStatus.Text" xml:space="preserve">
+    <value>دۆخی Wifi</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>بژارکردن</value>
+  </data>
+  <data name="Expiry.Text" xml:space="preserve">
+    <value>بەسەرچوو</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>کاردانەوە</value>
+  </data>
+  <data name="FeedbackMessage.Text" xml:space="preserve">
+    <value>ئەگەر تۆ هیچ کاردانەوە یان پرسیارێکت هەیە دوودڵی مەکە لە پەیوەندی کردن.</value>
+  </data>
+  <data name="GetInTouchButton.Text" xml:space="preserve">
+    <value>دەست بخە ناو پەیوەندیەوە</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>یارمەتی</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>مێژوو</value>
+  </data>
+  <data name="History_ExportBtn.Text" xml:space="preserve">
+    <value>ناردن</value>
+  </data>
+  <data name="HistoryExportButtonTooltip.Text" xml:space="preserve">
+    <value>ناردن</value>
+  </data>
+  <data name="HistoryListColumnDate.Text" xml:space="preserve">
+    <value>بەروار</value>
+  </data>
+  <data name="HistoryListColumnDuration.Text" xml:space="preserve">
+    <value>ماوە</value>
+  </data>
+  <data name="HistoryListColumnPrimaryLanguage.Text" xml:space="preserve">
+    <value>زمانی سەرەتایی</value>
+  </data>
+  <data name="HistoryListColumnSecondaryLanguage.Text" xml:space="preserve">
+    <value>زمانی دووەمی</value>
+  </data>
+  <data name="HistoryListColumnSessionId.Text" xml:space="preserve">
+    <value>ناسنامەی کۆبوونەوە</value>
+  </data>
+  <data name="InitalSetup_SkipSetup.Content" xml:space="preserve">
+    <value>دانانەکە بپەڕێنە</value>
+  </data>
+  <data name="InitialNetworkPopupConnectButton.Content" xml:space="preserve">
+    <value>گرێدان</value>
+  </data>
+  <data name="InitialSetup_DeviceSelection.Text" xml:space="preserve">
+    <value>دەستنیشانکردنی ئامێر</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionDescription.Text" xml:space="preserve">
+    <value>ئامێرە دەنگیە گریمانەییەکەت ڕێک بخە</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneMicrophone.Text" xml:space="preserve">
+    <value>مایکرۆفۆن دیاریبکە</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneSpeaker.Text" xml:space="preserve">
+    <value>بڵندگۆ دیاریبکە</value>
+  </data>
+  <data name="InitialSetup_FinishSetup.Content" xml:space="preserve">
+    <value>کۆتایی هێنان بە جێگیرکردن</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection_Description.Text" xml:space="preserve">
+    <value>زمانی وەرگێڕانی گریمانەیی خۆت ڕێک بخە</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection.Text" xml:space="preserve">
+    <value>دەستنیشانکردنی زمان</value>
+  </data>
+  <data name="InitialSetup_NetworkSelection.Text" xml:space="preserve">
+    <value>تۆڕی پەسەندکراو</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopup.Text" xml:space="preserve">
+    <value>پەیوەندی بکە بە تۆڕەوە</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopupPassword.Text" xml:space="preserve">
+    <value>نهێنوشە تێبنووسە:</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionDescription.Text" xml:space="preserve">
+    <value>هەڵبژێرە لە یەکێک لە تۆڕە بەردەستەکان</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionNoInternetConnection.Text" xml:space="preserve">
+    <value>تۆ پەیوەندیت بە ئینتەرنێتەوە نیە. تکایە گرێدانەکانی تۆڕەکەت بپشکنە.</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionOtherNetworks.Text" xml:space="preserve">
+    <value>تۆڕەکانی تر</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup_Description.Text" xml:space="preserve">
+    <value>دامەزراندنی پاسکۆدی کاربەرنامە</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup.Text" xml:space="preserve">
+    <value>دامەزراندنی پاسکۆد</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>زمان</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage_Description.Text" xml:space="preserve">
+    <value>زمانی بەرجەستەکراو هەڵبژێرە</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage.Text" xml:space="preserve">
+    <value>زمانی کاربەرنامە</value>
+  </data>
+  <data name="LanguagesPage_AppLanguageDropdown.PlaceholderText" xml:space="preserve">
+    <value>زمانێک هەڵبژێرە</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage_Description.Text" xml:space="preserve">
+    <value>ئەو زمانە بنەڕەتەی کە تۆ بەکاری دەهێنیت</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage.Text" xml:space="preserve">
+    <value>زمانی گریمانەیی من</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguageDropDown.PlaceholderText" xml:space="preserve">
+    <value>زمانێک هەڵبژێرە</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description.Text" xml:space="preserve">
+    <value>بەشی مێژوو (بۆ وەرگێڕانی فرە ئامێر)</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description1.Text" xml:space="preserve">
+    <value>* وەرگێڕانی تاکە ئامێر هەموو دەنگەکان وەک گریمانەیی پەخش دەکەن *</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage.Text" xml:space="preserve">
+    <value>زمانی پەخشکردنی گریمانەیی</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguages.Text" xml:space="preserve">
+    <value>زمانەکانی بینینی خێرا</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguagesDropdown.PlaceholderText" xml:space="preserve">
+    <value>زمانێک زیاد بکە</value>
+  </data>
+  <data name="LanguagesPage_Title.Text" xml:space="preserve">
+    <value>زمانەکان</value>
+  </data>
+  <data name="Licence" xml:space="preserve">
+    <value>مۆڵەت</value>
+  </data>
+  <data name="LicenseType.Text" xml:space="preserve">
+    <value>جۆری مۆڵەت:</value>
+  </data>
+  <data name="NetworkConnectionError" xml:space="preserve">
+    <value>هەڵە:</value>
+  </data>
+  <data name="Next.Content" xml:space="preserve">
+    <value>دواتر</value>
+  </data>
+  <data name="PasscodeError_MinimumLength" xml:space="preserve">
+    <value>کەمترین درێژی پاسکۆد دەبێت 4 بێت.</value>
+  </data>
+  <data name="PasscodeError_NotMatching" xml:space="preserve">
+    <value>پاسکۆدەکان کە تێنووس کراون هاوچەشن نین. بە میهرەبانی دووبارە داخڵکردنی پاسکۆدەکان پاشان دووبارە هەوڵدەوە.</value>
+  </data>
+  <data name="Person.Text" xml:space="preserve">
+    <value>کەس</value>
+  </data>
+  <data name="PrivacyPolicy.Text" xml:space="preserve">
+    <value>سیاسەتی تایبەتێتی</value>
+  </data>
+  <data name="ProfilePage_Email_Description.Text" xml:space="preserve">
+    <value>ئیمەیڵی هەناردەکردنی بنەڕەت</value>
+  </data>
+  <data name="ProfilePage_Email.Text" xml:space="preserve">
+    <value>ئیمەیڵ</value>
+  </data>
+  <data name="ProfilePage_Passcode_Description.Text" xml:space="preserve">
+    <value>پاسکۆدی بەرجەستەکراوەکەت</value>
+  </data>
+  <data name="ProfilePage_Passcode.Text" xml:space="preserve">
+    <value>پاسکۆد</value>
+  </data>
+  <data name="ProfilePage_Timeout_Description.Text" xml:space="preserve">
+    <value>فرێکانسی قوفڵی مۆدی بەڕێوەبەر</value>
+  </data>
+  <data name="ProfilePage_Timeout.Text" xml:space="preserve">
+    <value>کاتی کاتی مۆدی بەڕێوەبەر</value>
+  </data>
+  <data name="ProfilePage_TimeoutDropdown.PlaceholderText" xml:space="preserve">
+    <value>کاتێک هەڵبژێرە</value>
+  </data>
+  <data name="ProfilePage_Title.Text" xml:space="preserve">
+    <value>پرۆفایل</value>
+  </data>
+  <data name="PublishedBy.Text" xml:space="preserve">
+    <value>بڵاوکراوەتەوە لەلایەن</value>
+  </data>
+  <data name="ReleaseNotesMessage.Text" xml:space="preserve">
+    <value>تێبینیەکانی بڵاوکردنەوە بەزوویی نوێ دەکرێنەوە</value>
+  </data>
+  <data name="Save_Text" xml:space="preserve">
+    <value>هەڵگرتن</value>
+  </data>
+  <data name="SessionDetailsPage_Description.Text" xml:space="preserve">
+    <value>مێژووی نوسین</value>
+  </data>
+  <data name="SessionDetailsPage_Duration.Text" xml:space="preserve">
+    <value>ماوە</value>
+  </data>
+  <data name="SessionDetailsPage_SessionID.Text" xml:space="preserve">
+    <value>ناسنامەی کۆبوونەوە</value>
+  </data>
+  <data name="SessionDetailsPage_Title.Text" xml:space="preserve">
+    <value>مێژوو</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>ڕێکبەندەکان</value>
+  </data>
+  <data name="TermsOfUse.Text" xml:space="preserve">
+    <value>مەرجەکانی بەکارهێنان</value>
+  </data>
+  <data name="TranslationPage_SettingUpState" xml:space="preserve">
+    <value>ئامادەکردنی ...</value>
+  </data>
+  <data name="TranslationPage_SpeakFast" xml:space="preserve">
+    <value>هەوڵ بدە کەمێک خێراتر قسە بکەیت بۆ ئەنجامەکانی وەرگێڕانی باشتر.</value>
+  </data>
+  <data name="TranslationPage_SpeakIn" xml:space="preserve">
+    <value>قسە بکە لە</value>
+  </data>
+  <data name="TranslationPage_SpeakSlow" xml:space="preserve">
+    <value>هەوڵ بدە کەمێک خاوتر قسەبکەیت بۆ ئەنجامی باشتری وەرگێڕان.</value>
+  </data>
+  <data name="TranslationPage_Switching" xml:space="preserve">
+    <value>گۆڕین</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonOne" xml:space="preserve">
+    <value>گۆڕین بۆ کەسی 1</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonTwo" xml:space="preserve">
+    <value>گۆڕین بۆ کەسی 2</value>
+  </data>
+  <data name="TranslationPage_TranslationReadyState" xml:space="preserve">
+    <value>ئێستا قسە بکە</value>
+  </data>
+  <data name="Website.Text" xml:space="preserve">
+    <value>وێب سایت</value>
+  </data>
+  <data name="WhatsNew" xml:space="preserve">
+    <value>چی نوێیە</value>
+  </data>
+  <data name="WhatsNewInSpeechly.Text" xml:space="preserve">
+    <value>چی نوێیە لە</value>
+  </data>
+  <data name="AudioDevicesSelectorDualDevice.Content" xml:space="preserve">
+    <value>ئامێری دووانی</value>
+  </data>
+  <data name="AudioDevicesSelectorSingleDevice.Content" xml:space="preserve">
+    <value>تاکە ئامێر</value>
+  </data>
+  <data name="AutoDetectSearchCountry.PlaceholderText" xml:space="preserve">
+    <value>وڵاتی گەڕان</value>
+  </data>
+  <data name="AutoDetectSelectLanguage.Text" xml:space="preserve">
+    <value>زمانەکەت دیاریبکە</value>
+  </data>
+  <data name="ChatViewPersonOne" xml:space="preserve">
+    <value>کەسی یەکەم</value>
+  </data>
+  <data name="ChatViewPersonTwo" xml:space="preserve">
+    <value>کەسی دوو</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionLost" xml:space="preserve">
+    <value>گرێدانی ئینتەرنێت ون بوو. بە میهرەبانییەوە گرێدانەکەت بپشکنە و پاشان دووبارە هەوڵ بدە.</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionUnstable" xml:space="preserve">
+    <value>پەیوەندی ئینتەرنێتەکەت خاوە. لەوانەیە تۆ هەندێ لە لێشکان ئەزموون بکەیت.</value>
+  </data>
+  <data name="CustomTagSelectionTitle.Text" xml:space="preserve">
+    <value>تاگەکانی ڕێکخراو (هەڵبژێرە بۆ زیادکردن)</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.Header" xml:space="preserve">
+    <value>ئاڵای بەکارهێنەر بۆ گۆڕینی زمان</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OffContent" xml:space="preserve">
+    <value>لە کارخراوە</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OnContent" xml:space="preserve">
+    <value>چالاککراوە</value>
+  </data>
+  <data name="DetectLanguageButton.Content" xml:space="preserve">
+    <value>دۆزینەوەی زمان</value>
+  </data>
+  <data name="DevicesPageNetworkSetupBluetoothStatus.Text" xml:space="preserve">
+    <value>دۆخی Bluetooth :</value>
+  </data>
+  <data name="DevicesPageNetworkSetupConnectAutomatically.Text" xml:space="preserve">
+    <value>گرێدان بە ئۆتۆماتیکی</value>
+  </data>
+  <data name="DevicesPageNetworkSetupWiFiStatus.Text" xml:space="preserve">
+    <value>دۆخی WiFi :</value>
+  </data>
+  <data name="Dimiss.Content" xml:space="preserve">
+    <value>هەڵوەشاندنەوه</value>
+  </data>
+  <data name="Duration.Text" xml:space="preserve">
+    <value>|  ماوە</value>
+  </data>
+  <data name="EmailPopup_Description.Text" xml:space="preserve">
+    <value>ناونیشانی ئیمەیڵەکەت تێبنووسە</value>
+  </data>
+  <data name="EmailPopup_Title.Text" xml:space="preserve">
+    <value>ئیمەیلی دانیشتنەکەت بکە</value>
+  </data>
+  <data name="ForcedUpdateDialogCaption" xml:space="preserve">
+    <value>نوێکردنەوە گرنگەکانمان هەیە بۆ</value>
+  </data>
+  <data name="ForcedUpdateDialogInstallBtnText" xml:space="preserve">
+    <value>نوێکردنەوە</value>
+  </data>
+  <data name="ForcedUpdateDialogTitle" xml:space="preserve">
+    <value>نوێکردنەوە گرنگەکان</value>
+  </data>
+  <data name="GoBack.Content" xml:space="preserve">
+    <value>بگەڕێوە</value>
+  </data>
+  <data name="HelpPageSignOut.Content" xml:space="preserve">
+    <value>چوونە دەرەوە</value>
+  </data>
+  <data name="History_Export.Text" xml:space="preserve">
+    <value>درووستکردنی فایلەکە</value>
+  </data>
+  <data name="HistoryListColumnSessionName.Text" xml:space="preserve">
+    <value>ناو</value>
+  </data>
+  <data name="HistoryListColumnSynced.Text" xml:space="preserve">
+    <value>هاوکاتکراو</value>
+  </data>
+  <data name="HistorySearchBox.PlaceholderText" xml:space="preserve">
+    <value>زمان، ناوی کۆبوونەوە، تاگەکان یان ئای دیەکان</value>
+  </data>
+  <data name="HistorySearchButtonTooltip.Text" xml:space="preserve">
+    <value>گەڕان</value>
+  </data>
+  <data name="HistorySearchClearButtonTooltip.Text" xml:space="preserve">
+    <value>سڕینەوە</value>
+  </data>
+  <data name="HistorySearchFromDate.Header" xml:space="preserve">
+    <value>لە:</value>
+  </data>
+  <data name="HistorySearchToDate.Header" xml:space="preserve">
+    <value>بۆ:</value>
+  </data>
+  <data name="HistoryShareButtonTooltip.Text" xml:space="preserve">
+    <value>هاوبەشکردن/ناردن</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonOne.Text" xml:space="preserve">
+    <value>کەسی 1</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonTwo.Text" xml:space="preserve">
+    <value>کەسی 2</value>
+  </data>
+  <data name="LoginPageTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NewVersionDialogCaption" xml:space="preserve">
+    <value>دامەزراندنی وەشانی کاربەرنامەی نوێ لە</value>
+  </data>
+  <data name="NewVersionDialogDescription" xml:space="preserve">
+    <value>تایبەتمەندیە نوێکان و چاککردنی مێروولە ون دەبن لە </value>
+  </data>
+  <data name="NewVersionDialogInstallBtnText" xml:space="preserve">
+    <value>دامەزراندنی وەشانی نوێ</value>
+  </data>
+  <data name="NewVersionDialogTitle" xml:space="preserve">
+    <value>وەشانی کاربەرنامەی نوێ</value>
+  </data>
+  <data name="NextText" xml:space="preserve">
+    <value>دواتر</value>
+  </data>
+  <data name="ProfilePageEditButton.Content" xml:space="preserve">
+    <value>بژارکردن</value>
+  </data>
+  <data name="QuestionsButton.Content" xml:space="preserve">
+    <value>بینینی پرسیارەکان</value>
+  </data>
+  <data name="QuestionSettingsDescription.Text" xml:space="preserve">
+    <value>کورتەڕێکانی پرسیارەکەت ببینە یان هەمواری بکە</value>
+  </data>
+  <data name="QuestionSettingsInstructionOne.Text" xml:space="preserve">
+    <value>* ژمارەی 1-9 بەکاربهێنە بۆ هەر پرسیارێک. سفر (0) ڕەچاو ناکرێت.</value>
+  </data>
+  <data name="QuestionSettingsInstructionThree.Text" xml:space="preserve">
+    <value>* دەتوانیت تەنها کورتەڕێکان دیاری بکەیت بۆ 9 پرسیار.</value>
+  </data>
+  <data name="QuestionSettingsListTitle.Text" xml:space="preserve">
+    <value>لیستی پرسیارەکان :</value>
+  </data>
+  <data name="ResellerEmailAddress.Text" xml:space="preserve">
+    <value>ناونیشانی ئیمەیڵی دووبارە ناردنەوە :</value>
+  </data>
+  <data name="ResellerName.Text" xml:space="preserve">
+    <value>ناوی فرۆشیار :</value>
+  </data>
+  <data name="SelectFlag.Text" xml:space="preserve">
+    <value>نیشانەکەت دیاریبکە:</value>
+  </data>
+  <data name="Send.Content" xml:space="preserve">
+    <value>ناردن</value>
+  </data>
+  <data name="SessionDetailsPage_SessionName.Text" xml:space="preserve">
+    <value>ناوی کۆبوونەوە</value>
+  </data>
+  <data name="SessionID.Text" xml:space="preserve">
+    <value>ناسنامەی کۆبوونەوە : -</value>
+  </data>
+  <data name="SessionMetadataDialog_ContinueButton.Text" xml:space="preserve">
+    <value>بەردەوامبە</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTags.Text" xml:space="preserve">
+    <value>تاگی تایبەتمەند</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>ناوی تاگ لێرە تێبنووسە</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextboxHelper.Text" xml:space="preserve">
+    <value>داخڵکردنی تێنووس دابگرە</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTags.Text" xml:space="preserve">
+    <value>تاگی بنەڕەت</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>بەها لێرە تێبنووسە</value>
+  </data>
+  <data name="SessionMetadataDialog_Description.Text" xml:space="preserve">
+    <value>خانە زۆرەملێەکان نیشانکراون لەگەڵ '</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionName.Text" xml:space="preserve">
+    <value>ناوی کۆبوونەوە</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionNameTextbox.PlaceholderText" xml:space="preserve">
+    <value>وەک نەخۆش سفر</value>
+  </data>
+  <data name="SessionMetadataDialog_Title.Text" xml:space="preserve">
+    <value>زیادکردنی ناوی دانیشتن و تاگەکان</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorActionMessage" xml:space="preserve">
+    <value>تکایە پەیوەندی بە بەڕێوەبەرەکەتەوە بکە بۆ چالاککردنی ئەژمێرەکەت.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorMessage" xml:space="preserve">
+    <value>ئەژمێرەکەت لەکارخراوە.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorActionMessage" xml:space="preserve">
+    <value>تکایە پەیوەندی بکە بە سەرپەرشتیارەکەت بۆ دروستکردنی ئەژمێرەکەت.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorMessage" xml:space="preserve">
+    <value>ئەژمێرەکەت سڕایەوە.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorActionMessage" xml:space="preserve">
+    <value>تکایە پەیوەندی بکە بە سەرپەرشتیارەکەت بۆ چالاککردنی ئەژمێرەکەت.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorMessage" xml:space="preserve">
+    <value>ئەژمێرەکەت لە کارخراوە.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorActionMessage" xml:space="preserve">
+    <value>تکایە پەیوەندی بکە بە سەرپەرشتیارەکەت بۆ دروستکردنی ئەژمێرەکەت.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorMessage" xml:space="preserve">
+    <value>ئەژمێرێکی چالاکت نیە.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorActionMessage" xml:space="preserve">
+    <value>تکایە پەیوەندی بە بەڕێوەبەرەکەتەوە بکە بۆ نوێکردنەوەی مۆڵەتەکەت.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorMessage" xml:space="preserve">
+    <value>مۆڵەتەکەت بەسەرچووە.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorActionMessage" xml:space="preserve">
+    <value>تکایە پەیوەندی بە بەڕێوەبەرەکەتەوە بکە بۆ چالاککردنی مۆڵەتەکەت.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorMessage" xml:space="preserve">
+    <value>مۆڵەتەکەت لەکارخراوە.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorActionMessage" xml:space="preserve">
+    <value>تکایە پەیوەندی بە بەڕێوەبەرەکەتەوە بکە.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorMessage" xml:space="preserve">
+    <value>مۆڵەتەکەت ڕاگیراوە.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorActionMessage" xml:space="preserve">
+    <value>تکایە پەیوەندی بە بەڕێوەبەرەکەتەوە بکە بۆ تەرخانکردنی مۆڵەتێک بۆ تۆ.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorMessage" xml:space="preserve">
+    <value>تۆ مۆڵەتت نیە بۆ تۆ.</value>
+  </data>
+  <data name="StartupPage2020.Text" xml:space="preserve">
+    <value>2021 </value>
+  </data>
+  <data name="StartupPageErrorDescription.Text" xml:space="preserve">
+    <value>هەڵەیەک ڕوویدا. تکایە پەیوەندی ئینتەرنێتەکەت بپشکنە و پاشان دووبارە هەوڵدەوە.</value>
+  </data>
+  <data name="StartupPagePoweredBy.Text" xml:space="preserve">
+    <value>پاڵپشتی دەکرێت لەلایەن </value>
+  </data>
+  <data name="StartupPageProgressDescription.Text" xml:space="preserve">
+    <value>ئەمە لەوانەیە چەند چرکەیەک بخایەنێت</value>
+  </data>
+  <data name="StartupPageRetryButton.Content" xml:space="preserve">
+    <value>دووبارە هەوڵ بدە</value>
+  </data>
+  <data name="StartupPageRightsReserved.Text" xml:space="preserve">
+    <value>هەموو مافەکان پارێزراون.</value>
+  </data>
+  <data name="StartUpPageSettingUpMessage" xml:space="preserve">
+    <value>ڕێکبکە</value>
+  </data>
+  <data name="StartupPageTitleDescription.Text" xml:space="preserve">
+    <value>بەخێربێیت بۆ </value>
+  </data>
+  <data name="TranslateText" xml:space="preserve">
+    <value>وەرگێڕان</value>
+  </data>
+  <data name="TranslationLicenceUseError" xml:space="preserve">
+    <value>مۆڵەتەکەت لە ئێستادا لە دانیشتنێکی تردا لە کاردایە.</value>
+  </data>
+  <data name="TranslationLimitReachedError" xml:space="preserve">
+    <value>تۆ گەیشتوویتە زۆرترین کات بۆ هەر دانیشتنێک. کۆتایی هێنان بە کۆبوونەوە.</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOff" xml:space="preserve">
+    <value>مایکرۆفۆن کوژاوەتەوە</value>
+  </data>
+  <data name="TranslationPage_SpeakerOff" xml:space="preserve">
+    <value>قسەکەر کوژاوەتەوە</value>
+  </data>
+  <data name="TranslationTimeDepletedError" xml:space="preserve">
+    <value>خولەکەکانی وەرگێڕانەکەت کەم کراوەتەوە. بە میهرەبانییەوە پەیوەندی بە بەڕێوەبەرەکەتەوە بکە.</value>
+  </data>
+  <data name="UnsupportedVersionDialogBtntext" xml:space="preserve">
+    <value>نوێکردنەوە</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption" xml:space="preserve">
+    <value>نوێکردنەوە گرنگەکان پێویستە بۆ </value>
+  </data>
+  <data name="UnsupportedVersionDialogDescription" xml:space="preserve">
+    <value>نوێکردنەوەی کاربەرنامەکەت بۆ بەردەوامبوون لە دەستکەوتنی تایبەتمەندی و نوێکردنەوەی ئاسایش.</value>
+  </data>
+  <data name="UnsupportedVersionDialogTitle" xml:space="preserve">
+    <value>وەشانی کاربەرنامەی پشتگیری نەکراو</value>
+  </data>
+  <data name="UpdateDialogWhatsNew.Text" xml:space="preserve">
+    <value>چی نوێیە؟</value>
+  </data>
+  <data name="Zoom.Text" xml:space="preserve">
+    <value>زووم</value>
+  </data>
+  <data name="Add.Content" xml:space="preserve">
+    <value>زیادکردن</value>
+  </data>
+  <data name="AddNewQuestion.Text" xml:space="preserve">
+    <value>زیادکردنی پرسیارێکی نوێ لە پێش پێناسەکراو</value>
+  </data>
+  <data name="AddQuestion.Content" xml:space="preserve">
+    <value>زیادکردنی پرسیار</value>
+  </data>
+  <data name="ChooseLanguage.Text" xml:space="preserve">
+    <value>زمانی بنەڕەت دیاریبکە</value>
+  </data>
+  <data name="CustomProfileAdded" xml:space="preserve">
+    <value>ناوی پرۆفایل بەسەرکەوتوویی زیادکرا.</value>
+  </data>
+  <data name="CustomProfileDeleted" xml:space="preserve">
+    <value>پرۆفایل بەسەرکەوتوویی سڕایەوە.</value>
+  </data>
+  <data name="CustomProfileInvalidName" xml:space="preserve">
+    <value>هەڵە! ناوی پرۆفایلی نادروستە.</value>
+  </data>
+  <data name="CustomProfileNotDeleted" xml:space="preserve">
+    <value>هیچ پرۆفایلێک نیە بۆ سڕینەوە.</value>
+  </data>
+  <data name="CustomProfileNotSaved" xml:space="preserve">
+    <value>هەڵە! هیچ پرۆفایلێک پاشەکەوت نەکرا.</value>
+  </data>
+  <data name="CustomProfileProfileSaved" xml:space="preserve">
+    <value>پرۆفایل بەسەرکەوتوویی پاشەکەوت کرا.</value>
+  </data>
+  <data name="DataRequestMessage" xml:space="preserve">
+    <value>هیچ دەقێکت دیاری نەکردووە. تکایە دەق دیاریبکە بۆ هاوبەشکردن و دووبارە هەوڵدەوە.</value>
+  </data>
+  <data name="DevicesAddProfileButton.Content" xml:space="preserve">
+    <value>زیادکردن</value>
+  </data>
+  <data name="DevicesAvailableProfiles.Text" xml:space="preserve">
+    <value>پرۆفایلی بەردەست</value>
+  </data>
+  <data name="DevicesDefaultProfile.Text" xml:space="preserve">
+    <value>پرۆفایلی نموونەیی:</value>
+  </data>
+  <data name="DevicesDeleteProfileBtn.Content" xml:space="preserve">
+    <value>سڕینەوەی پرۆفایل</value>
+  </data>
+  <data name="DeviceSetupChanged" xml:space="preserve">
+    <value>ئامێرە دەنگیە گرێدراوەکان نوێکرایەوە </value>
+  </data>
+  <data name="DevicesHelpfulTip1.Text" xml:space="preserve">
+    <value>1. دانانی ناوی پرۆفایل</value>
+  </data>
+  <data name="DevicesHelpfulTip2.Text" xml:space="preserve">
+    <value>2. دۆخی ئامێرێکی تاک یان دووانی دیاریبکە</value>
+  </data>
+  <data name="DevicesHelpfulTip3.Text" xml:space="preserve">
+    <value>3. هەڵبژاردنی قسەکەر(ەکان) و مایکرۆفۆن(ەکان)</value>
+  </data>
+  <data name="DevicesHelpfulTip4.Text" xml:space="preserve">
+    <value>4. پرۆفایلەکەت وەک گریمانەیی دابنێ</value>
+  </data>
+  <data name="DevicesHelpfulTip5.Text" xml:space="preserve">
+    <value>5. کرتە بکە لەسەر دوگمەی خزنکردنی پرۆفایل بۆ پاراستنی پرۆفایلەکەت</value>
+  </data>
+  <data name="DevicesHelpfulTips.Text" xml:space="preserve">
+    <value>ئامۆژگاریە یارمەتیدەرەکان</value>
+  </data>
+  <data name="DevicesProfileNameTextBox.PlaceholderText" xml:space="preserve">
+    <value>ناوی پرۆفایل</value>
+  </data>
+  <data name="DevicesSaveProfileBtn.Content" xml:space="preserve">
+    <value>پرۆفایل بپارێزە</value>
+  </data>
+  <data name="DevicesSetasDefault.Text" xml:space="preserve">
+    <value>وەک گریمانەیی دابنێ</value>
+  </data>
+  <data name="DevicesSetProfileButton.Content" xml:space="preserve">
+    <value>پرۆفایل دابنێ</value>
+  </data>
+  <data name="DevicesSetProfileText.Text" xml:space="preserve">
+    <value>پرۆفایلێکی تایبەت ڕێک بخە؟</value>
+  </data>
+  <data name="DiscardButton.Content" xml:space="preserve">
+    <value>وەلاوەنانی</value>
+  </data>
+  <data name="DismissButton.Content" xml:space="preserve">
+    <value>لادان</value>
+  </data>
+  <data name="DismissText.Text" xml:space="preserve">
+    <value>لادان</value>
+  </data>
+  <data name="DownloadAudio.Text" xml:space="preserve">
+    <value>داگرتنی دەنگ</value>
+  </data>
+  <data name="DownloadCancel" xml:space="preserve">
+    <value>داگرتن هەڵوەشێنرایەوە</value>
+  </data>
+  <data name="Downloaded" xml:space="preserve">
+    <value>دابەزێنراوە</value>
+  </data>
+  <data name="DownloadError" xml:space="preserve">
+    <value>هەڵە ڕوویدا</value>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>داگرتن</value>
+  </data>
+  <data name="DownloadPaused" xml:space="preserve">
+    <value>داگرتن وەستاوە</value>
+  </data>
+  <data name="DualDeviceUpdated" xml:space="preserve">
+    <value>دامەزراندنی ئامێری دووانی بە سەرکەوتوویی نوێکرایەوە</value>
+  </data>
+  <data name="EnterQuestion.Text" xml:space="preserve">
+    <value>پرسیار لە خوارەوە تێبنووسە</value>
+  </data>
+  <data name="ErrorDescription.Text" xml:space="preserve">
+    <value>گۆڕانکاریەکانت پاشەکەوت نەکراوە، ئایا دەتەوێت پاشەکەوتیان بکەیت یان فڕێی بدەیت؟</value>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>شتێکی هەڵە ڕوویدا. دووبارە تاقی بکەوە</value>
+  </data>
+  <data name="ErrorTitle.Text" xml:space="preserve">
+    <value>تۆ گۆڕانکاری نەگیراوت هەیە</value>
+  </data>
+  <data name="FeedbackEight.Text" xml:space="preserve">
+    <value>بەردەوام یەکترمان دەپچڕێنین</value>
+  </data>
+  <data name="FeedbackFive.Text" xml:space="preserve">
+    <value>گوێم لە دەنگدانەوەی پەیوەندیەکە بوو</value>
+  </data>
+  <data name="FeedbackFour.Text" xml:space="preserve">
+    <value>دەنگی باکگراوندی هەڵگرت</value>
+  </data>
+  <data name="FeedbackOne.Text" xml:space="preserve">
+    <value>دەنگی منم بە دروستی هەڵنەگرت</value>
+  </data>
+  <data name="FeedbackQuestion.Text" xml:space="preserve">
+    <value>چی باشتر دەبوو؟</value>
+  </data>
+  <data name="FeedbackSeven.Text" xml:space="preserve">
+    <value>دانیشتنەکە بە شێوەیەکی چاوەڕوان نەکراو کۆتایی هات</value>
+  </data>
+  <data name="FeedbackSix.Text" xml:space="preserve">
+    <value>قەبارەکە زۆر کەم بوو</value>
+  </data>
+  <data name="FeedbackThanks.Text" xml:space="preserve">
+    <value>سوپاس بۆ کاردانەوەکە</value>
+  </data>
+  <data name="FeedbackThree.Text" xml:space="preserve">
+    <value>کاتی وەرگێڕان زۆر هێواش بوو</value>
+  </data>
+  <data name="FeedbackTwo.Text" xml:space="preserve">
+    <value>ڕستەکانم بە هەڵە دەگێڕایەوە</value>
+  </data>
+  <data name="ForcedUpdateDialogCaptionContinuation" xml:space="preserve">
+    <value>بۆ کارکردن. کاربەرنامە بەبێ ئەم نوێکردنەوە کار ناکات.</value>
+  </data>
+  <data name="Improvement.Text" xml:space="preserve">
+    <value>ئێمە بەردەوام دەبین لە کارکردن لەسەر باشترکردنی ئەزموونەکەت.</value>
+  </data>
+  <data name="LanguageSettingsUpdated" xml:space="preserve">
+    <value>گۆڕانکاریەکانی زمان بە سەرکەوتوویی نوێکرایەوە</value>
+  </data>
+  <data name="NewVersionDialogDescription2" xml:space="preserve">
+    <value>وە وەشانەکەت لە</value>
+  </data>
+  <data name="NewVersionDialogDescription3" xml:space="preserve">
+    <value>لەوانەیە بێ پشتیوانی بێت</value>
+  </data>
+  <data name="Other.Text" xml:space="preserve">
+    <value>لێدوانەکانی تر:</value>
+  </data>
+  <data name="PasswordUpdated" xml:space="preserve">
+    <value>پاسۆردەکە بە سەرکەوتوویی گۆڕا</value>
+  </data>
+  <data name="PlaybackLanguageUpdated" xml:space="preserve">
+    <value>زمانی پەخشکردنی گریمانەیی بە سوکانی گۆڕا</value>
+  </data>
+  <data name="QuestionAdded" xml:space="preserve">
+    <value>پرسیار بە سەرکەوتوویی زێدەکرا</value>
+  </data>
+  <data name="QuestionDeleted" xml:space="preserve">
+    <value>پرسیارەکە بە سەرکەوتوویی سڕایەوە</value>
+  </data>
+  <data name="Questions.Text" xml:space="preserve">
+    <value>پرسیارەکان</value>
+  </data>
+  <data name="QuestionSettingsInstructionTwo.Text" xml:space="preserve">
+    <value>* هەر پرسیارێک دەبێت کلیلی کورتەڕێی جیاواز هەبێت.</value>
+  </data>
+  <data name="QuestionsValidationError.Text" xml:space="preserve">
+    <value>* ڕاستکردنەوەکانت بپشکنە و دووبارە هەوڵ بدە.</value>
+  </data>
+  <data name="QuickViewLanguagesUpdated" xml:space="preserve">
+    <value>دیمەنی خێرای لانگگس بە سەرکەوتوویی نوێکرایەوە</value>
+  </data>
+  <data name="SendFeedback.Content" xml:space="preserve">
+    <value>ناردنی کاردانەوە</value>
+  </data>
+  <data name="SessionFeedbackPrompt" xml:space="preserve">
+    <value>چۆن دەتوانیت ڕێژەی دانیشتنی وەرگێڕانەکەت بدەیت؟</value>
+  </data>
+  <data name="SessionFeedbackTitle" xml:space="preserve">
+    <value>کاردانەوەکانی وەرگێڕان</value>
+  </data>
+  <data name="ShortcutSuccess" xml:space="preserve">
+    <value>کورتەڕێی پرسیارەکان بە سەرکەوتوویی نوێکرایەوە</value>
+  </data>
+  <data name="SingleDeviceUpdated" xml:space="preserve">
+    <value>دامەزراندنی تاکە ئامێر بە سەرکەوتوویی نوێکرایەوە</value>
+  </data>
+  <data name="StartupPageTitleDescription2.Text" xml:space="preserve">
+    <value>سۆفتوێری وەرگێڕان</value>
+  </data>
+  <data name="TimeoutUpdated" xml:space="preserve">
+    <value>کاتئاوت بە سەرکەوتوویی نوێکرایەوە</value>
+  </data>
+  <data name="TouchShareText" xml:space="preserve">
+    <value>هاوبەشی کردنی لەمسی</value>
+  </data>
+  <data name="TranslationLanguageUpdated" xml:space="preserve">
+    <value>زمانی وەرگێڕانی بنەڕەت بە سەرکەوتوویی گۆڕا</value>
+  </data>
+  <data name="TranslationPlaybackUpdated" xml:space="preserve">
+    <value>وەرگێڕانی گریمانەیی &amp; زمانی پەخشکردن بە سەرکەوتوویی گۆڕا</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption2" xml:space="preserve">
+    <value>بۆ کارکردن. تایبەتمەندیەکان لەوانەیە بەبێ ئاگاداری کارەکە بوەستێنن. تکایە بەرنامەکە نوێ بکەرەوە.</value>
+  </data>
+  <data name="UserFlagSwitch" xml:space="preserve">
+    <value>ئاڵای بەکارهێنەر بۆ گۆڕینی زمان نوێکرایەوە</value>
+  </data>
+</root>

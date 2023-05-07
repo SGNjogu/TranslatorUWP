@@ -1,0 +1,1192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="AppDescription" xml:space="preserve">
+    <value>TalaTouchApp</value>
+  </data>
+  <data name="AppDisplayName" xml:space="preserve">
+    <value>TalaTouchApp</value>
+  </data>
+  <data name="AudioDeviceSelector_MicDropdown.PlaceholderText" xml:space="preserve">
+    <value>माइक्रोफ़ोन का चयन करें</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneMic.Text" xml:space="preserve">
+    <value>व्यक्ति एक माइक्रोफोन</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneSpeaker.Text" xml:space="preserve">
+    <value>व्यक्ति एक अध्यक्ष</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoMic.Text" xml:space="preserve">
+    <value>व्यक्ति दो माइक्रोफोन</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoSpeaker.Text" xml:space="preserve">
+    <value>व्यक्ति दो स्पीकर</value>
+  </data>
+  <data name="AudioDeviceSelector_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>एक वक्ता का चयन करें</value>
+  </data>
+  <data name="BluetoothPairingDialog_Description.Text" xml:space="preserve">
+    <value>सुनिश्चित करें कि आपका डिवाइस चालू और खोज योग्य है। कनेक्ट करने के लिए नीचे किसी डिवाइस का चयन करें.</value>
+  </data>
+  <data name="BluetoothPairingDialog_Title.Text" xml:space="preserve">
+    <value>कोई डिवाइस जोड़ें</value>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>रद्द करना</value>
+  </data>
+  <data name="ChangePasscodeDialog_Confirm.Text" xml:space="preserve">
+    <value>नए पासकोड की पुष्टि करें</value>
+  </data>
+  <data name="ChangePasscodeDialog_Current.Text" xml:space="preserve">
+    <value>वर्तमान Passcode</value>
+  </data>
+  <data name="ChangePasscodeDialog_New.Text" xml:space="preserve">
+    <value>नया Passcode</value>
+  </data>
+  <data name="ChangePasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Passcode बदलें</value>
+  </data>
+  <data name="Close.Content" xml:space="preserve">
+    <value>बंद करना</value>
+  </data>
+  <data name="ConsentDialog_Description1.Text" xml:space="preserve">
+    <value>गोपनीयता चिंताएं हमारी पहली प्राथमिकता हैं। (5) आप लागू होने के अनुसार अपने मोबाइल फोन या टैबलेट के साथ इस गोपनीयता नीति के नियमों और शर्तों को स्वीकार करते हैं।</value>
+  </data>
+  <data name="ConsentDialog_Description2.Text" xml:space="preserve">
+    <value>यदि आप सहमति के लिए अनुरोध प्राप्त होने पर हमें एक्सेस की अनुमति नहीं देना चुनते हैं (ऐसे अनुरोधों को www ICTS वेबसाइट पर अधिसूचित किया जाएगा:</value>
+  </data>
+  <data name="ConsentDialog_Description3.Text" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int</value>
+  </data>
+  <data name="ConsentDialog_Description4.Text" xml:space="preserve">
+    <value>), फिर न तो प्रदान किया गया ईमेल पता और न ही कोई अन्य व्यक्तिगत जानकारी जो किसी व्यक्ति की पहचान कर सकती है, इस तरह की अनुमति दिए जाने के बाद हमारे कब्जे में आ सकती है।</value>
+  </data>
+  <data name="ConsentDialog_Description5.Text" xml:space="preserve">
+    <value>कुछ हिस्सों का उपयोग करके: / मेरे द्वारा मेरे मोबाइल फोन / आइकन का उपयोग - जिसमें उत्पादों के बारे में चैट रूम में दूसरों को अनुमति देना शामिल हो सकता है</value>
+  </data>
+  <data name="ConsentDialog_HyperLink.NavigateUri" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int/</value>
+  </data>
+  <data name="ConsentDialog_Title.Text" xml:space="preserve">
+    <value>हम आपकी गोपनीयता को महत्व देते हैं</value>
+  </data>
+  <data name="Dashboard_Choose_Language.Text" xml:space="preserve">
+    <value>भाषा चुनें</value>
+  </data>
+  <data name="Dashboard_Hello.Text" xml:space="preserve">
+    <value>नमस्कार</value>
+  </data>
+  <data name="Dashboard_SearchBox.PlaceholderText" xml:space="preserve">
+    <value>खोज भाषा</value>
+  </data>
+  <data name="Dashboard_Welcome.Text" xml:space="preserve">
+    <value>स्वागत है</value>
+  </data>
+  <data name="DevicesErrorDialog_NoDeviceError" xml:space="preserve">
+    <value>आपके पास कोई सहेजा गया डिवाइस नहीं है। माइक्रोफ़ोन और स्पीकर का चयन करने के लिए सेटिंग्स -&gt; डिवाइस पर जाएं और फिर सहेजें पर क्लिक करें।</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Description.Text" xml:space="preserve">
+    <value>उपलब्ध ब्लूटूथ डिवाइस</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_DropDown.PlaceholderText" xml:space="preserve">
+    <value>ब्लूटूथ डिवाइस का चयन करें</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Scan.Text" xml:space="preserve">
+    <value>स्कैन</value>
+  </data>
+  <data name="DevicesPage_Bluetooth.Text" xml:space="preserve">
+    <value>ब्लूटूथ</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices_Description.Text" xml:space="preserve">
+    <value>अपना ऑडियो डिवाइस चुनें</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices.Text" xml:space="preserve">
+    <value>कनेक्टेड ऑडियो डिवाइस</value>
+  </data>
+  <data name="DevicesPage_MicDropDown.PlaceholderText" xml:space="preserve">
+    <value>एक माइक्रोफ़ोन चुनें</value>
+  </data>
+  <data name="DevicesPage_Network_Description.Text" xml:space="preserve">
+    <value>उपलब्ध नेटवर्क</value>
+  </data>
+  <data name="DevicesPage_Network_DropDown.PlaceholderText" xml:space="preserve">
+    <value>कोई नेटवर्क चुनें</value>
+  </data>
+  <data name="DevicesPage_Network.Text" xml:space="preserve">
+    <value>नेटवर्क</value>
+  </data>
+  <data name="DevicesPage_NetworkError" xml:space="preserve">
+    <value>कोई नेटवर्क चयनित नहीं है. अपने नेटवर्क कनेक्शन की जाँच करें।</value>
+  </data>
+  <data name="DevicesPage_PersonOne_Speaker.Text" xml:space="preserve">
+    <value>व्यक्ति एक वक्ता</value>
+  </data>
+  <data name="DevicesPage_PersonOneMic.Text" xml:space="preserve">
+    <value>व्यक्ति एक माइक्रोफोन</value>
+  </data>
+  <data name="DevicesPage_PersonTwo_Mic.Text" xml:space="preserve">
+    <value>व्यक्ति दो माइक्रोफोन</value>
+  </data>
+  <data name="DevicesPage_Scan" xml:space="preserve">
+    <value>स्कैन</value>
+  </data>
+  <data name="DevicesPage_Scanning" xml:space="preserve">
+    <value>स्कैनिंग।।।</value>
+  </data>
+  <data name="DevicesPage_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>एक वक्ता चुनें</value>
+  </data>
+  <data name="DevicesPage_Status_Connect" xml:space="preserve">
+    <value>जोड़ना</value>
+  </data>
+  <data name="DevicesPage_Status_Connected" xml:space="preserve">
+    <value>जुड़ा</value>
+  </data>
+  <data name="DevicesPage_Status_Connecting" xml:space="preserve">
+    <value>जोड़ने।।।</value>
+  </data>
+  <data name="DevicesPage_Status_Off" xml:space="preserve">
+    <value>बंद</value>
+  </data>
+  <data name="DevicesPage_Status_On" xml:space="preserve">
+    <value>पर</value>
+  </data>
+  <data name="DevicesPager_PersonTwo_Speaker.Text" xml:space="preserve">
+    <value>व्यक्ति दो वक्ता</value>
+  </data>
+  <data name="EnterPasscodeDialog_Description.Text" xml:space="preserve">
+    <value>सेटिंग्स पृष्ठ तक पहुँचने के लिए कृपया अपना पासकोड दर्ज करें</value>
+  </data>
+  <data name="EnterPasscodeDialog_ForgotPasscode.Content" xml:space="preserve">
+    <value>पासकोड भूल गए?</value>
+  </data>
+  <data name="EnterPasscodeDialog_InvalidPasscode.Text" xml:space="preserve">
+    <value>अमान्य पासकोड! कृपया पुन: प्रयास करें.</value>
+  </data>
+  <data name="EnterPasscodeDialog_Passcode.Text" xml:space="preserve">
+    <value>Passcode</value>
+  </data>
+  <data name="EnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>अपना पासकोड दर्ज करें</value>
+  </data>
+  <data name="IAgree.Content" xml:space="preserve">
+    <value>मैं सहमत हूँ</value>
+  </data>
+  <data name="InvalidLicenseDialog_Description.Text" xml:space="preserve">
+    <value>आपका लाइसेंस सत्यापन विफल रहा</value>
+  </data>
+  <data name="InvalidLicenseDialog_Title.Text" xml:space="preserve">
+    <value>अमान्य लाइसेंस</value>
+  </data>
+  <data name="LoginFailedDialog_Button.Content" xml:space="preserve">
+    <value>पस जाओ</value>
+  </data>
+  <data name="LoginFailedDialog_Description.Text" xml:space="preserve">
+    <value>आपका लॉगिन प्रयास विफल रहा.</value>
+  </data>
+  <data name="LoginFailedDialog_Title.Text" xml:space="preserve">
+    <value>असफल लॉगिन</value>
+  </data>
+  <data name="Main_Title.Text" xml:space="preserve">
+    <value>मुख्य</value>
+  </data>
+  <data name="PasswordPopup_SetupTitle.Text" xml:space="preserve">
+    <value>पासकोड सेटअप करें</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Description1.Text" xml:space="preserve">
+    <value>संपादन जारी रखने के लिए कृपया अपना पासकोड पुन: दर्ज करें...</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>अपना पासकोड पुन: दर्ज करें</value>
+  </data>
+  <data name="RenterPasscodeDialog_Description2.Text" xml:space="preserve">
+    <value>ऑटो बचत और घर वापस जाना</value>
+  </data>
+  <data name="Save.Content" xml:space="preserve">
+    <value>रक्षा कर</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Description.Text" xml:space="preserve">
+    <value>यह एक नमूना पृष्ठ है जो डीप लिंकिंग से ऐप सक्रिय होने पर सक्रियण पैरामीटर दिखाएगा।</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Title.Text" xml:space="preserve">
+    <value>SchemeActivationS नमूना</value>
+  </data>
+  <data name="SetPasscodeDialog_ConfirmPasscode.Text" xml:space="preserve">
+    <value>नए पासकोड की पुष्टि करें </value>
+  </data>
+  <data name="SetPasscodeDialog_NewPasscode.Text" xml:space="preserve">
+    <value>नया Passcode</value>
+  </data>
+  <data name="SetPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>पासकोड सेटअप करें</value>
+  </data>
+  <data name="Settings_About.Text" xml:space="preserve">
+    <value>इस एप्लिकेशन के बारे में</value>
+  </data>
+  <data name="Settings_AboutDescription.Text" xml:space="preserve">
+    <value>सेटिंग्स पृष्ठ प्लेसहोल्डर पाठ.  आपका ऐप विवरण यहाँ जाता है.</value>
+  </data>
+  <data name="Settings_Personalization.Text" xml:space="preserve">
+    <value>वैयक्तिकरण</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.Content" xml:space="preserve">
+    <value>गोपनीयता कथन</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.NavigateUri" xml:space="preserve">
+    <value>https://YourPrivacyUrlGoesHere/</value>
+  </data>
+  <data name="Settings_Theme_Dark.Content" xml:space="preserve">
+    <value>अंधेरा</value>
+  </data>
+  <data name="Settings_Theme_Default.Content" xml:space="preserve">
+    <value>Windows डिफ़ॉल्ट</value>
+  </data>
+  <data name="Settings_Theme_Light.Content" xml:space="preserve">
+    <value>प्रकाश</value>
+  </data>
+  <data name="Settings_Theme.Text" xml:space="preserve">
+    <value>विषयवस्तु चुनें</value>
+  </data>
+  <data name="Settings_Title.Text" xml:space="preserve">
+    <value>सेटिंग्स</value>
+  </data>
+  <data name="SettingsPage_Devices" xml:space="preserve">
+    <value>उपकरणों</value>
+  </data>
+  <data name="SettingsPage_Language" xml:space="preserve">
+    <value>भाषा</value>
+  </data>
+  <data name="SettingsPage_Profile" xml:space="preserve">
+    <value>रूपरेखा</value>
+  </data>
+  <data name="SettingsPage_Questions" xml:space="preserve">
+    <value>सवाल</value>
+  </data>
+  <data name="SettingsPage_Title" xml:space="preserve">
+    <value>सेटिंग्स</value>
+  </data>
+  <data name="ShellView_Help" xml:space="preserve">
+    <value>मदद</value>
+  </data>
+  <data name="ShellView_History" xml:space="preserve">
+    <value>इतिहास</value>
+  </data>
+  <data name="ShellView_Home" xml:space="preserve">
+    <value>घर</value>
+  </data>
+  <data name="ShellView_Settings.Text" xml:space="preserve">
+    <value>सेटिंग्स</value>
+  </data>
+  <data name="Sign_In.Text" xml:space="preserve">
+    <value>साइन इन करें</value>
+  </data>
+  <data name="SignInDialog_Description.Text" xml:space="preserve">
+    <value>अपने जबरा डिवाइस के साथ तुरंत कई वैश्विक भाषाओं में संवाद करें।</value>
+  </data>
+  <data name="SignInDialog_SignInButton.Content" xml:space="preserve">
+    <value>साइन इन करें</value>
+  </data>
+  <data name="Translate_Button.Text" xml:space="preserve">
+    <value>अनुवाद करना</value>
+  </data>
+  <data name="TranslationPage_EndSession.Text" xml:space="preserve">
+    <value>सत्र समाप्त करें</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOn" xml:space="preserve">
+    <value>माइक्रोफोन चालू</value>
+  </data>
+  <data name="TranslationPage_SpeakerOn" xml:space="preserve">
+    <value>स्पीकर</value>
+  </data>
+  <data name="TranslationPage_SpeakNow.Text" xml:space="preserve">
+    <value>अभी बोलिए</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>करीबन</value>
+  </data>
+  <data name="AboutPage_AppVersion.Text" xml:space="preserve">
+    <value>अनुप्रयोग संस्करण</value>
+  </data>
+  <data name="AboutPage_CheckUpdate.Content" xml:space="preserve">
+    <value>अद्यतनों की जाँच करें</value>
+  </data>
+  <data name="AboutPage_DataConsent" xml:space="preserve">
+    <value>आपके संगठन ने क्लाउड में आपके डेटा को सहेजने के लिए सहमति दी है।</value>
+  </data>
+  <data name="AboutPage_NoDataConsent" xml:space="preserve">
+    <value>आपके संगठन ने क्लाउड में आपके डेटा को सहेजने के लिए सहमति नहीं दी है.</value>
+  </data>
+  <data name="AboutPage_Published.Text" xml:space="preserve">
+    <value>FITTS Limited द्वारा प्रकाशित.</value>
+  </data>
+  <data name="AppClose_Close.Content" xml:space="preserve">
+    <value>वैसे भी बंद करो</value>
+  </data>
+  <data name="AppClose_Dismiss.Content" xml:space="preserve">
+    <value>रद्द करना</value>
+  </data>
+  <data name="AppClose_Warning.Text" xml:space="preserve">
+    <value>आपके पास एक सत्र प्रगति पर है। कृपया अनुप्रयोग से बाहर निकलने से पहले सत्र समाप्त करें.</value>
+  </data>
+  <data name="AppVersion.Text" xml:space="preserve">
+    <value>ऐप संस्करण</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Button.Content" xml:space="preserve">
+    <value>सत्र जारी रखें</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Description.Text" xml:space="preserve">
+    <value>सत्र कब समाप्त होगा?</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Title.Text" xml:space="preserve">
+    <value>ऑडियो का पता नहीं चला</value>
+  </data>
+  <data name="AudioPlayer_Error.Text" xml:space="preserve">
+    <value>ऑडियो लोड करने में विफल</value>
+  </data>
+  <data name="DashboardPage_DefaultLanguageError" xml:space="preserve">
+    <value>आपके पास कोई सहेजी गई डिफ़ॉल्ट अनुवाद भाषा नहीं है. डिफ़ॉल्ट अनुवाद भाषा का चयन करने के लिए सेटिंग्स -&gt; भाषाओं पर जाएं और फिर सहेजें पर क्लिक करें।</value>
+  </data>
+  <data name="DashboardPage_TargetLanguageError" xml:space="preserve">
+    <value>आपने किसी लक्ष्य अनुवाद भाषा का चयन नहीं किया है. कृपया एक भाषा का चयन करें और फिर अनुवाद पर क्लिक करें।</value>
+  </data>
+  <data name="DevicesErrorDialog_DualDeviceError" xml:space="preserve">
+    <value>आपने दोहरे डिवाइस अनुवाद का चयन किया है, लेकिन आपके पास व्यक्ति 2 के लिए चयनित डिवाइस नहीं है. माइक्रोफ़ोन और स्पीकर का चयन करने के लिए सेटिंग्स -&gt; डिवाइस पर जाएं और फिर सहेजें पर क्लिक करें।</value>
+  </data>
+  <data name="DevicesPage_Title.Text" xml:space="preserve">
+    <value>उपकरणों</value>
+  </data>
+  <data name="DevicesPage_Wifi_Password.Text" xml:space="preserve">
+    <value>पासवर्ड दर्ज करें</value>
+  </data>
+  <data name="DevicesPage_WifiStatus.Text" xml:space="preserve">
+    <value>वाईफ़ाई स्थिति</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>संपादन करना</value>
+  </data>
+  <data name="Expiry.Text" xml:space="preserve">
+    <value>समाप्ति</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>प्रतिपुष्टि</value>
+  </data>
+  <data name="FeedbackMessage.Text" xml:space="preserve">
+    <value>यदि आपके पास कोई प्रतिक्रिया या प्रश्न हैं, तो संपर्क करने में संकोच न करें।</value>
+  </data>
+  <data name="GetInTouchButton.Text" xml:space="preserve">
+    <value>संपर्क में रहें</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>मदद</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>इतिहास</value>
+  </data>
+  <data name="History_ExportBtn.Text" xml:space="preserve">
+    <value>निर्यात</value>
+  </data>
+  <data name="HistoryExportButtonTooltip.Text" xml:space="preserve">
+    <value>निर्यात</value>
+  </data>
+  <data name="HistoryListColumnDate.Text" xml:space="preserve">
+    <value>खजूर</value>
+  </data>
+  <data name="HistoryListColumnDuration.Text" xml:space="preserve">
+    <value>अवधि</value>
+  </data>
+  <data name="HistoryListColumnPrimaryLanguage.Text" xml:space="preserve">
+    <value>प्राथमिक भाषा</value>
+  </data>
+  <data name="HistoryListColumnSecondaryLanguage.Text" xml:space="preserve">
+    <value>माध्यमिक भाषा</value>
+  </data>
+  <data name="HistoryListColumnSessionId.Text" xml:space="preserve">
+    <value>सत्र ID</value>
+  </data>
+  <data name="InitalSetup_SkipSetup.Content" xml:space="preserve">
+    <value>सेटअप छोड़ें</value>
+  </data>
+  <data name="InitialNetworkPopupConnectButton.Content" xml:space="preserve">
+    <value>जोड़ना</value>
+  </data>
+  <data name="InitialSetup_DeviceSelection.Text" xml:space="preserve">
+    <value>डिवाइस का चयन</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionDescription.Text" xml:space="preserve">
+    <value>अपना डिफ़ॉल्ट ऑडियो डिवाइस सेट करें</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneMicrophone.Text" xml:space="preserve">
+    <value>माइक्रोफ़ोन का चयन करें</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneSpeaker.Text" xml:space="preserve">
+    <value>स्पीकर का चयन करें</value>
+  </data>
+  <data name="InitialSetup_FinishSetup.Content" xml:space="preserve">
+    <value>सेटअप समाप्त करें</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection_Description.Text" xml:space="preserve">
+    <value>अपनी डिफ़ॉल्ट अनुवाद भाषा सेट अप करें</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection.Text" xml:space="preserve">
+    <value>भाषा का चयन</value>
+  </data>
+  <data name="InitialSetup_NetworkSelection.Text" xml:space="preserve">
+    <value>पसंदीदा नेटवर्क</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopup.Text" xml:space="preserve">
+    <value>नेटवर्क से कनेक्ट करें</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopupPassword.Text" xml:space="preserve">
+    <value>पासवर्ड दर्ज करें:</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionDescription.Text" xml:space="preserve">
+    <value>उपलब्ध नेटवर्क में से किसी एक को चुनें</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionNoInternetConnection.Text" xml:space="preserve">
+    <value>आप इंटरनेट से कनेक्ट डे नहीं हैं। कृपया अपने नेटवर्क कनेक्शन की जाँच करें.</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionOtherNetworks.Text" xml:space="preserve">
+    <value>अन्य नेटवर्क</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup_Description.Text" xml:space="preserve">
+    <value>अपना ऐप्लिकेशन पासकोड सेटअप करें</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup.Text" xml:space="preserve">
+    <value>Passcode सेटअप</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>भाषा</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage_Description.Text" xml:space="preserve">
+    <value>अनुप्रयोग भाषा चुनें</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage.Text" xml:space="preserve">
+    <value>अनुप्रयोग भाषा</value>
+  </data>
+  <data name="LanguagesPage_AppLanguageDropdown.PlaceholderText" xml:space="preserve">
+    <value>कोई भाषा चुनें</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage_Description.Text" xml:space="preserve">
+    <value>आपके द्वारा उपयोग की जा रही डिफ़ॉल्ट भाषा</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage.Text" xml:space="preserve">
+    <value>मेरी डिफ़ॉल्ट भाषा</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguageDropDown.PlaceholderText" xml:space="preserve">
+    <value>कोई भाषा चुनें</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description.Text" xml:space="preserve">
+    <value>इतिहास अनुभाग (बहु-डिवाइस अनुवाद के लिए)</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description1.Text" xml:space="preserve">
+    <value>* एकल डिवाइस अनुवाद डिफ़ॉल्ट के रूप में सभी ऑडियो चलाते हैं *</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage.Text" xml:space="preserve">
+    <value>डिफ़ॉल्ट प्लेबैक भाषा</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguages.Text" xml:space="preserve">
+    <value>त्वरित दृश्य भाषाएँ</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguagesDropdown.PlaceholderText" xml:space="preserve">
+    <value>कोई भाषा जोड़ें</value>
+  </data>
+  <data name="LanguagesPage_Title.Text" xml:space="preserve">
+    <value>भाषाओं</value>
+  </data>
+  <data name="Licence" xml:space="preserve">
+    <value>लाइसेंस</value>
+  </data>
+  <data name="LicenseType.Text" xml:space="preserve">
+    <value>लाइसेंस प्रकार:</value>
+  </data>
+  <data name="NetworkConnectionError" xml:space="preserve">
+    <value>भूल:</value>
+  </data>
+  <data name="Next.Content" xml:space="preserve">
+    <value>अगला</value>
+  </data>
+  <data name="PasscodeError_MinimumLength" xml:space="preserve">
+    <value>पासकोड की न्यूनतम लंबाई 4 होनी चाहिए।</value>
+  </data>
+  <data name="PasscodeError_NotMatching" xml:space="preserve">
+    <value>दर्ज किए गए पासकोड मेल नहीं खाते. कृपया पासकोड पुन: दर्ज करें और फिर पुन: प्रयास करें.</value>
+  </data>
+  <data name="Person.Text" xml:space="preserve">
+    <value>व्यक्ति</value>
+  </data>
+  <data name="PrivacyPolicy.Text" xml:space="preserve">
+    <value>गोपनीयता नीति</value>
+  </data>
+  <data name="ProfilePage_Email_Description.Text" xml:space="preserve">
+    <value>डिफ़ॉल्ट निर्यात ईमेल</value>
+  </data>
+  <data name="ProfilePage_Email.Text" xml:space="preserve">
+    <value>ईमेल</value>
+  </data>
+  <data name="ProfilePage_Passcode_Description.Text" xml:space="preserve">
+    <value>आपका आवेदन पासकोड</value>
+  </data>
+  <data name="ProfilePage_Passcode.Text" xml:space="preserve">
+    <value>Passcode</value>
+  </data>
+  <data name="ProfilePage_Timeout_Description.Text" xml:space="preserve">
+    <value>व्यवस्थापक मोड लॉक की आवृत्ति</value>
+  </data>
+  <data name="ProfilePage_Timeout.Text" xml:space="preserve">
+    <value>व्यवस्थापक मोड टाइमआउट</value>
+  </data>
+  <data name="ProfilePage_TimeoutDropdown.PlaceholderText" xml:space="preserve">
+    <value>एक समय चुनें</value>
+  </data>
+  <data name="ProfilePage_Title.Text" xml:space="preserve">
+    <value>रूपरेखा</value>
+  </data>
+  <data name="PublishedBy.Text" xml:space="preserve">
+    <value>द्वारा प्रकाशित</value>
+  </data>
+  <data name="ReleaseNotesMessage.Text" xml:space="preserve">
+    <value>रिलीज नोट्स जल्द ही अपडेट किए जाएंगे</value>
+  </data>
+  <data name="Save_Text" xml:space="preserve">
+    <value>रक्षा कर</value>
+  </data>
+  <data name="SessionDetailsPage_Description.Text" xml:space="preserve">
+    <value>प्रतिलेखन इतिहास</value>
+  </data>
+  <data name="SessionDetailsPage_Duration.Text" xml:space="preserve">
+    <value>अवधि</value>
+  </data>
+  <data name="SessionDetailsPage_SessionID.Text" xml:space="preserve">
+    <value>सत्र ID</value>
+  </data>
+  <data name="SessionDetailsPage_Title.Text" xml:space="preserve">
+    <value>इतिहास</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>सेटिंग्स</value>
+  </data>
+  <data name="TermsOfUse.Text" xml:space="preserve">
+    <value>उपयोग की शर्तें</value>
+  </data>
+  <data name="TranslationPage_SettingUpState" xml:space="preserve">
+    <value>स्थापना।।।</value>
+  </data>
+  <data name="TranslationPage_SpeakFast" xml:space="preserve">
+    <value>बेहतर अनुवाद परिणामों के लिए थोड़ा तेजी से बोलने का प्रयास करें।</value>
+  </data>
+  <data name="TranslationPage_SpeakIn" xml:space="preserve">
+    <value>अंदर बोलें</value>
+  </data>
+  <data name="TranslationPage_SpeakSlow" xml:space="preserve">
+    <value>बेहतर अनुवाद परिणामों के लिए थोड़ा धीमा बोलने का प्रयास करें।</value>
+  </data>
+  <data name="TranslationPage_Switching" xml:space="preserve">
+    <value>स्विचन</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonOne" xml:space="preserve">
+    <value>व्यक्ति 1 पर स्विच करें</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonTwo" xml:space="preserve">
+    <value>व्यक्ति 2 पर स्विच करें</value>
+  </data>
+  <data name="TranslationPage_TranslationReadyState" xml:space="preserve">
+    <value>अभी बोलिए</value>
+  </data>
+  <data name="Website.Text" xml:space="preserve">
+    <value>वेबसाइट</value>
+  </data>
+  <data name="WhatsNew" xml:space="preserve">
+    <value>नया क्या है</value>
+  </data>
+  <data name="WhatsNewInSpeechly.Text" xml:space="preserve">
+    <value>नया क्या है</value>
+  </data>
+  <data name="AudioDevicesSelectorDualDevice.Content" xml:space="preserve">
+    <value>दोहरी डिवाइस</value>
+  </data>
+  <data name="AudioDevicesSelectorSingleDevice.Content" xml:space="preserve">
+    <value>एकल डिवाइस</value>
+  </data>
+  <data name="AutoDetectSearchCountry.PlaceholderText" xml:space="preserve">
+    <value>खोज देश</value>
+  </data>
+  <data name="AutoDetectSelectLanguage.Text" xml:space="preserve">
+    <value>अपनी भाषा का चयन करें</value>
+  </data>
+  <data name="ChatViewPersonOne" xml:space="preserve">
+    <value>व्यक्ति एक</value>
+  </data>
+  <data name="ChatViewPersonTwo" xml:space="preserve">
+    <value>व्यक्ति दो</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionLost" xml:space="preserve">
+    <value>इंटरनेट कनेक्शन खो गया. कृपया अपने कनेक्शन की जाँच करें और फिर पुन: प्रयास करें.</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionUnstable" xml:space="preserve">
+    <value>आपका इंटरनेट कनेक्शन धीमा है। आप कुछ अंतराल का अनुभव कर सकते हैं।</value>
+  </data>
+  <data name="CustomTagSelectionTitle.Text" xml:space="preserve">
+    <value>संगठन टैग (जोड़ने के लिए चयन करें)</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.Header" xml:space="preserve">
+    <value>भाषा बदलने के लिए उपयोगकर्ता ध्वज</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OffContent" xml:space="preserve">
+    <value>विकलांग</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OnContent" xml:space="preserve">
+    <value>सक्षम</value>
+  </data>
+  <data name="DetectLanguageButton.Content" xml:space="preserve">
+    <value>भाषा का पता लगाएं</value>
+  </data>
+  <data name="DevicesPageNetworkSetupBluetoothStatus.Text" xml:space="preserve">
+    <value>ब्लूटूथ की स्थिति:</value>
+  </data>
+  <data name="DevicesPageNetworkSetupConnectAutomatically.Text" xml:space="preserve">
+    <value>स्वचालित रूप से कनेक्ट करें</value>
+  </data>
+  <data name="DevicesPageNetworkSetupWiFiStatus.Text" xml:space="preserve">
+    <value>वाईफ़ाई स्थिति:</value>
+  </data>
+  <data name="Dimiss.Content" xml:space="preserve">
+    <value>रद्द करना</value>
+  </data>
+  <data name="Duration.Text" xml:space="preserve">
+    <value>|  अवधि</value>
+  </data>
+  <data name="EmailPopup_Description.Text" xml:space="preserve">
+    <value>अपना ईमेल पता दर्ज करें</value>
+  </data>
+  <data name="EmailPopup_Title.Text" xml:space="preserve">
+    <value>अपने सत्र को ईमेल करें</value>
+  </data>
+  <data name="ForcedUpdateDialogCaption" xml:space="preserve">
+    <value>हमारे पास महत्वपूर्ण अपडेट हैं</value>
+  </data>
+  <data name="ForcedUpdateDialogInstallBtnText" xml:space="preserve">
+    <value>आधुनिकीकरणअ</value>
+  </data>
+  <data name="ForcedUpdateDialogTitle" xml:space="preserve">
+    <value>महत्वपूर्ण अद्यतन</value>
+  </data>
+  <data name="GoBack.Content" xml:space="preserve">
+    <value>पस जाओ</value>
+  </data>
+  <data name="HelpPageSignOut.Content" xml:space="preserve">
+    <value>साइन आउट करें</value>
+  </data>
+  <data name="History_Export.Text" xml:space="preserve">
+    <value>फ़ाइल जनरेट करना...</value>
+  </data>
+  <data name="HistoryListColumnSessionName.Text" xml:space="preserve">
+    <value>नाम</value>
+  </data>
+  <data name="HistoryListColumnSynced.Text" xml:space="preserve">
+    <value>सिंक्रनाइज़</value>
+  </data>
+  <data name="HistorySearchBox.PlaceholderText" xml:space="preserve">
+    <value>भाषा, सत्र का नाम, टैग या आईडी</value>
+  </data>
+  <data name="HistorySearchButtonTooltip.Text" xml:space="preserve">
+    <value>ढूँढ</value>
+  </data>
+  <data name="HistorySearchClearButtonTooltip.Text" xml:space="preserve">
+    <value>स्पष्ट</value>
+  </data>
+  <data name="HistorySearchFromDate.Header" xml:space="preserve">
+    <value>से:</value>
+  </data>
+  <data name="HistorySearchToDate.Header" xml:space="preserve">
+    <value>तक:</value>
+  </data>
+  <data name="HistoryShareButtonTooltip.Text" xml:space="preserve">
+    <value>साझा करें/ भेजें</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonOne.Text" xml:space="preserve">
+    <value>व्यक्ति 1</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonTwo.Text" xml:space="preserve">
+    <value>व्यक्ति 2</value>
+  </data>
+  <data name="LoginPageTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NewVersionDialogCaption" xml:space="preserve">
+    <value>का नया ऐप संस्करण स्थापित करें</value>
+  </data>
+  <data name="NewVersionDialogDescription" xml:space="preserve">
+    <value>नई सुविधाएँ और बग फिक्स से गायब हो जाएगा </value>
+  </data>
+  <data name="NewVersionDialogInstallBtnText" xml:space="preserve">
+    <value>नया संस्करण स्थापित करें</value>
+  </data>
+  <data name="NewVersionDialogTitle" xml:space="preserve">
+    <value>नया अनुप्रयोग संस्करण</value>
+  </data>
+  <data name="NextText" xml:space="preserve">
+    <value>अगला</value>
+  </data>
+  <data name="ProfilePageEditButton.Content" xml:space="preserve">
+    <value>संपादन करना</value>
+  </data>
+  <data name="QuestionsButton.Content" xml:space="preserve">
+    <value>प्रश्न देखें</value>
+  </data>
+  <data name="QuestionSettingsDescription.Text" xml:space="preserve">
+    <value>अपने प्रश्न शॉर्टकट देखें या संशोधित करें</value>
+  </data>
+  <data name="QuestionSettingsInstructionOne.Text" xml:space="preserve">
+    <value>* प्रत्येक प्रश्न के लिए संख्या 1-9 का उपयोग करें। शून्य (0) पर विचार नहीं किया जाएगा।</value>
+  </data>
+  <data name="QuestionSettingsInstructionThree.Text" xml:space="preserve">
+    <value>* आप केवल 9 प्रश्नों के शॉर्टकट असाइन कर सकते हैं।</value>
+  </data>
+  <data name="QuestionSettingsListTitle.Text" xml:space="preserve">
+    <value>प्रश्न सूची:</value>
+  </data>
+  <data name="ResellerEmailAddress.Text" xml:space="preserve">
+    <value>पुनर्विक्रेता ईमेल पता:</value>
+  </data>
+  <data name="ResellerName.Text" xml:space="preserve">
+    <value>पुनर्विक्रेता का नाम :</value>
+  </data>
+  <data name="SelectFlag.Text" xml:space="preserve">
+    <value>अपने ध्वज का चयन करें:</value>
+  </data>
+  <data name="Send.Content" xml:space="preserve">
+    <value>भेजना</value>
+  </data>
+  <data name="SessionDetailsPage_SessionName.Text" xml:space="preserve">
+    <value>सत्र का नाम</value>
+  </data>
+  <data name="SessionID.Text" xml:space="preserve">
+    <value>सत्र आईडी:-</value>
+  </data>
+  <data name="SessionMetadataDialog_ContinueButton.Text" xml:space="preserve">
+    <value>जारी रखना</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTags.Text" xml:space="preserve">
+    <value>कस्टम टैग(ओं)</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>यहाँ टैग नाम दर्ज करें</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextboxHelper.Text" xml:space="preserve">
+    <value>Enter दबाएँ</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTags.Text" xml:space="preserve">
+    <value>डिफ़ॉल्ट टैग(ओं)</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>यहाँ मान दर्ज करें</value>
+  </data>
+  <data name="SessionMetadataDialog_Description.Text" xml:space="preserve">
+    <value>अनिवार्य फ़ील्ड के साथ चिह्नित किया गया है '</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionName.Text" xml:space="preserve">
+    <value>सत्र का नाम</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionNameTextbox.PlaceholderText" xml:space="preserve">
+    <value>उदाहरण के लिए रोगी शून्य</value>
+  </data>
+  <data name="SessionMetadataDialog_Title.Text" xml:space="preserve">
+    <value>सत्र का नाम और टैग जोड़ें</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorActionMessage" xml:space="preserve">
+    <value>कृपया अपना खाता सक्रिय करने के लिए अपने व्यवस्थापक से संपर्क करें.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorMessage" xml:space="preserve">
+    <value>आपका खाता निष्क्रिय कर दिया गया है.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorActionMessage" xml:space="preserve">
+    <value>कृपया अपना खाता बनाने के लिए अपने व्यवस्थापक से संपर्क करें.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorMessage" xml:space="preserve">
+    <value>आपका खाता हटा दिया गया है.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorActionMessage" xml:space="preserve">
+    <value>कृपया अपना खाता सक्षम करने के लिए अपने व्यवस्थापक से संपर्क करें.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorMessage" xml:space="preserve">
+    <value>आपका खाता अक्षम कर दिया गया है.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorActionMessage" xml:space="preserve">
+    <value>कृपया अपना खाता बनाने के लिए अपने व्यवस्थापक से संपर्क करें.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorMessage" xml:space="preserve">
+    <value>आपके पास कोई सक्रिय खाता नहीं है.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorActionMessage" xml:space="preserve">
+    <value>कृपया अपना लाइसेंस नवीनीकृत करने के लिए अपने व्यवस्थापक से संपर्क करें.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorMessage" xml:space="preserve">
+    <value>आपके लाइसेंस की समय सीमा समाप्त हो गई है.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorActionMessage" xml:space="preserve">
+    <value>कृपया अपना लाइसेंस सक्रिय करने के लिए अपने व्यवस्थापक से संपर्क करें.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorMessage" xml:space="preserve">
+    <value>आपका लाइसेंस निष्क्रिय कर दिया गया है.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorActionMessage" xml:space="preserve">
+    <value>कृपया अपने व्यवस्थापक से संपर्क करें.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorMessage" xml:space="preserve">
+    <value>आपका लाइसेंस निलंबित कर दिया गया है।</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorActionMessage" xml:space="preserve">
+    <value>आपको लाइसेंस असाइन करने के लिए कृपया अपने व्यवस्थापक से संपर्क करें.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorMessage" xml:space="preserve">
+    <value>आपके पास लाइसेंस नहीं है।</value>
+  </data>
+  <data name="StartupPage2020.Text" xml:space="preserve">
+    <value>2021 </value>
+  </data>
+  <data name="StartupPageErrorDescription.Text" xml:space="preserve">
+    <value>कोई त्रुटि उत्पन्न हुई. कृपया अपने इंटरनेट कनेक्शन की जाँच करें तब पुन: प्रयास करें.</value>
+  </data>
+  <data name="StartupPagePoweredBy.Text" xml:space="preserve">
+    <value>इसके द्वारा संचालित </value>
+  </data>
+  <data name="StartupPageProgressDescription.Text" xml:space="preserve">
+    <value>इसमें कुछ सेकंड लग सकते हैं</value>
+  </data>
+  <data name="StartupPageRetryButton.Content" xml:space="preserve">
+    <value>पुनर्प्रयास</value>
+  </data>
+  <data name="StartupPageRightsReserved.Text" xml:space="preserve">
+    <value>सभी अधिकार सुरक्षित.</value>
+  </data>
+  <data name="StartUpPageSettingUpMessage" xml:space="preserve">
+    <value>स्थापना।।।</value>
+  </data>
+  <data name="StartupPageTitleDescription.Text" xml:space="preserve">
+    <value>में आपका स्वागत है </value>
+  </data>
+  <data name="TranslateText" xml:space="preserve">
+    <value>अनुवाद करना</value>
+  </data>
+  <data name="TranslationLicenceUseError" xml:space="preserve">
+    <value>आपका लाइसेंस वर्तमान में किसी अन्य सत्र में उपयोग में है।</value>
+  </data>
+  <data name="TranslationLimitReachedError" xml:space="preserve">
+    <value>आप प्रति सत्र अपनी अधिकतम समय सीमा तक पहुंच गए हैं। सत्र की समाप्ति।</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOff" xml:space="preserve">
+    <value>माइक्रोफोन बंद</value>
+  </data>
+  <data name="TranslationPage_SpeakerOff" xml:space="preserve">
+    <value>स्पीकर ऑफ</value>
+  </data>
+  <data name="TranslationTimeDepletedError" xml:space="preserve">
+    <value>आपके अनुवाद के मिनट कम हो गए हैं. कृपया अपने व्यवस्थापक से संपर्क करें.</value>
+  </data>
+  <data name="UnsupportedVersionDialogBtntext" xml:space="preserve">
+    <value>आधुनिकीकरणअ</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption" xml:space="preserve">
+    <value>के लिए महत्वपूर्ण अद्यतन आवश्यक हैं </value>
+  </data>
+  <data name="UnsupportedVersionDialogDescription" xml:space="preserve">
+    <value>सुविधा और सुरक्षा अपडेट प्राप्त करना जारी रखने के लिए अपने ऐप को अपडेट करें।</value>
+  </data>
+  <data name="UnsupportedVersionDialogTitle" xml:space="preserve">
+    <value>असमर्थित ऐप संस्करण</value>
+  </data>
+  <data name="UpdateDialogWhatsNew.Text" xml:space="preserve">
+    <value>नया क्या है?</value>
+  </data>
+  <data name="Zoom.Text" xml:space="preserve">
+    <value>ज़ूम</value>
+  </data>
+  <data name="Add.Content" xml:space="preserve">
+    <value>जोड़ना</value>
+  </data>
+  <data name="AddNewQuestion.Text" xml:space="preserve">
+    <value>नया पूर्व-निर्धारित प्रश्न जोड़ें</value>
+  </data>
+  <data name="AddQuestion.Content" xml:space="preserve">
+    <value>प्रश्न जोड़ें</value>
+  </data>
+  <data name="ChooseLanguage.Text" xml:space="preserve">
+    <value>डिफ़ॉल्ट भाषा का चयन करें</value>
+  </data>
+  <data name="CustomProfileAdded" xml:space="preserve">
+    <value>प्रोफ़ाइल नाम सफलतापूर्वक जोड़ा गया.</value>
+  </data>
+  <data name="CustomProfileDeleted" xml:space="preserve">
+    <value>प्रोफ़ाइल सफलतापूर्वक हटा दी गई.</value>
+  </data>
+  <data name="CustomProfileInvalidName" xml:space="preserve">
+    <value>भूल! अमान्य प्रोफ़ाइल नाम.</value>
+  </data>
+  <data name="CustomProfileNotDeleted" xml:space="preserve">
+    <value>हटाने के लिए कोई प्रोफ़ाइल नहीं.</value>
+  </data>
+  <data name="CustomProfileNotSaved" xml:space="preserve">
+    <value>भूल! कोई प्रोफ़ाइल नहीं सहेजी गई.</value>
+  </data>
+  <data name="CustomProfileProfileSaved" xml:space="preserve">
+    <value>प्रोफ़ाइल सफलतापूर्वक सहेजी गई.</value>
+  </data>
+  <data name="DataRequestMessage" xml:space="preserve">
+    <value>आपने किसी पाठ का चयन नहीं किया है. कृपया साझा करने के लिए पाठ का चयन करें और पुन: प्रयास करें.</value>
+  </data>
+  <data name="DevicesAddProfileButton.Content" xml:space="preserve">
+    <value>जोड़ना</value>
+  </data>
+  <data name="DevicesAvailableProfiles.Text" xml:space="preserve">
+    <value>उपलब्ध प्रोफ़ाइल</value>
+  </data>
+  <data name="DevicesDefaultProfile.Text" xml:space="preserve">
+    <value>डिफ़ॉल्ट प्रोफ़ाइल:</value>
+  </data>
+  <data name="DevicesDeleteProfileBtn.Content" xml:space="preserve">
+    <value>प्रोफ़ाइल हटाएँ</value>
+  </data>
+  <data name="DeviceSetupChanged" xml:space="preserve">
+    <value>कनेक्टेड ऑडियो डिवाइस अद्यतन किए गए </value>
+  </data>
+  <data name="DevicesHelpfulTip1.Text" xml:space="preserve">
+    <value>1. एक प्रोफ़ाइल नाम सेट करें</value>
+  </data>
+  <data name="DevicesHelpfulTip2.Text" xml:space="preserve">
+    <value>2. एकल या दोहरे डिवाइस मोड का चयन करें</value>
+  </data>
+  <data name="DevicesHelpfulTip3.Text" xml:space="preserve">
+    <value>3. स्पीकर (ओं) और माइक्रोफ़ोन (ओं) का चयन करें</value>
+  </data>
+  <data name="DevicesHelpfulTip4.Text" xml:space="preserve">
+    <value>4. अपनी प्रोफ़ाइल डिफ़ॉल्ट के रूप में सेट करें</value>
+  </data>
+  <data name="DevicesHelpfulTip5.Text" xml:space="preserve">
+    <value>5. अपनी प्रोफ़ाइल सहेजने के लिए प्रोफ़ाइल सहेजें बटन पर क्लिक करें</value>
+  </data>
+  <data name="DevicesHelpfulTips.Text" xml:space="preserve">
+    <value>उपयोगी टिप्स</value>
+  </data>
+  <data name="DevicesProfileNameTextBox.PlaceholderText" xml:space="preserve">
+    <value>प्रोफ़ाइल नाम...</value>
+  </data>
+  <data name="DevicesSaveProfileBtn.Content" xml:space="preserve">
+    <value>प्रोफ़ाइल सहेजें</value>
+  </data>
+  <data name="DevicesSetasDefault.Text" xml:space="preserve">
+    <value>डिफ़ॉल्ट के रूप में सेट करें</value>
+  </data>
+  <data name="DevicesSetProfileButton.Content" xml:space="preserve">
+    <value>प्रोफ़ाइल सेट करें</value>
+  </data>
+  <data name="DevicesSetProfileText.Text" xml:space="preserve">
+    <value>कस्टम प्रोफ़ाइल सेट करें?</value>
+  </data>
+  <data name="DiscardButton.Content" xml:space="preserve">
+    <value>फेंक देना</value>
+  </data>
+  <data name="DismissButton.Content" xml:space="preserve">
+    <value>हटा</value>
+  </data>
+  <data name="DismissText.Text" xml:space="preserve">
+    <value>हटा</value>
+  </data>
+  <data name="DownloadAudio.Text" xml:space="preserve">
+    <value>ऑडियो डाउनलोड करें</value>
+  </data>
+  <data name="DownloadCancel" xml:space="preserve">
+    <value>डाउनलोड रद्द कर दिया गया</value>
+  </data>
+  <data name="Downloaded" xml:space="preserve">
+    <value>डाउनलोड</value>
+  </data>
+  <data name="DownloadError" xml:space="preserve">
+    <value>त्रुटि उत्पन्न हुई</value>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>डाउनलोड</value>
+  </data>
+  <data name="DownloadPaused" xml:space="preserve">
+    <value>डाउनलोड रोक दिया गया</value>
+  </data>
+  <data name="DualDeviceUpdated" xml:space="preserve">
+    <value>डुअल डिवाइस सेटअप सफलतापूर्वक अद्यतन किया गया</value>
+  </data>
+  <data name="EnterQuestion.Text" xml:space="preserve">
+    <value>नीचे प्रश्न दर्ज करें</value>
+  </data>
+  <data name="ErrorDescription.Text" xml:space="preserve">
+    <value>आपके परिवर्तन सहेजे नहीं गए हैं, क्या आप उन्हें सहेजना चाहते हैं या छोड़ना चाहते हैं?</value>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>कुछ गलत हो गया.. फिर कोशिश करो</value>
+  </data>
+  <data name="ErrorTitle.Text" xml:space="preserve">
+    <value>आपके पास बिना सहेजे गए परिवर्तन हैं</value>
+  </data>
+  <data name="FeedbackEight.Text" xml:space="preserve">
+    <value>हम एक-दूसरे को टोकने लगे</value>
+  </data>
+  <data name="FeedbackFive.Text" xml:space="preserve">
+    <value>मैंने कॉल में गूंज सुनी</value>
+  </data>
+  <data name="FeedbackFour.Text" xml:space="preserve">
+    <value>इसने पृष्ठभूमि की आवाज़ें उठाईं</value>
+  </data>
+  <data name="FeedbackOne.Text" xml:space="preserve">
+    <value>इसने मेरी आवाज सही ढंग से नहीं उठाई</value>
+  </data>
+  <data name="FeedbackQuestion.Text" xml:space="preserve">
+    <value>क्या बेहतर हो सकता था?</value>
+  </data>
+  <data name="FeedbackSeven.Text" xml:space="preserve">
+    <value>सत्र अप्रत्याशित रूप से समाप्त हुआ</value>
+  </data>
+  <data name="FeedbackSix.Text" xml:space="preserve">
+    <value>मात्रा बहुत कम थी</value>
+  </data>
+  <data name="FeedbackThanks.Text" xml:space="preserve">
+    <value>प्रतिक्रिया के लिए धन्यवाद</value>
+  </data>
+  <data name="FeedbackThree.Text" xml:space="preserve">
+    <value>अनुवाद का समय बहुत धीमा था</value>
+  </data>
+  <data name="FeedbackTwo.Text" xml:space="preserve">
+    <value>इसने मेरे वाक्यों का गलत अनुवाद किया</value>
+  </data>
+  <data name="ForcedUpdateDialogCaptionContinuation" xml:space="preserve">
+    <value>कार्य करने के लिए। आवेदन इन अद्यतनों के बिना काम नहीं करेगा।</value>
+  </data>
+  <data name="Improvement.Text" xml:space="preserve">
+    <value>हम आपके अनुभव को बेहतर बनाने पर काम करना जारी रखेंगे।</value>
+  </data>
+  <data name="LanguageSettingsUpdated" xml:space="preserve">
+    <value>भाषा परिवर्तन सफलतापूर्वक अद्यतन किए गए</value>
+  </data>
+  <data name="NewVersionDialogDescription2" xml:space="preserve">
+    <value>और आपका संस्करण</value>
+  </data>
+  <data name="NewVersionDialogDescription3" xml:space="preserve">
+    <value>असमर्थित हो सकता है।</value>
+  </data>
+  <data name="Other.Text" xml:space="preserve">
+    <value>अन्य टिप्पणियाँ:</value>
+  </data>
+  <data name="PasswordUpdated" xml:space="preserve">
+    <value>पासवर्ड सफलतापूर्वक बदला गया</value>
+  </data>
+  <data name="PlaybackLanguageUpdated" xml:space="preserve">
+    <value>डिफ़ॉल्ट प्लेबैक भाषा सफलतापूर्वक बदल गई</value>
+  </data>
+  <data name="QuestionAdded" xml:space="preserve">
+    <value>प्रश्न सफलतापूर्वक जोड़ा गया</value>
+  </data>
+  <data name="QuestionDeleted" xml:space="preserve">
+    <value>प्रश्न सफलतापूर्वक हटाया गया</value>
+  </data>
+  <data name="Questions.Text" xml:space="preserve">
+    <value>सवाल</value>
+  </data>
+  <data name="QuestionSettingsInstructionTwo.Text" xml:space="preserve">
+    <value>* प्रत्येक प्रश्न में एक अलग शॉर्टकट कुंजी होनी चाहिए।</value>
+  </data>
+  <data name="QuestionsValidationError.Text" xml:space="preserve">
+    <value>* अपने सत्यापन की जाँच करें और पुन: प्रयास करें.</value>
+  </data>
+  <data name="QuickViewLanguagesUpdated" xml:space="preserve">
+    <value>त्वरित दृश्य लैंगुग्स सफलतापूर्वक अपडेट किए गए</value>
+  </data>
+  <data name="SendFeedback.Content" xml:space="preserve">
+    <value>फ़ीडबैक भेजें</value>
+  </data>
+  <data name="SessionFeedbackPrompt" xml:space="preserve">
+    <value>आप अपने अनुवाद सत्र को कैसे रेट करेंगे?</value>
+  </data>
+  <data name="SessionFeedbackTitle" xml:space="preserve">
+    <value>अनुवाद प्रतिक्रिया</value>
+  </data>
+  <data name="ShortcutSuccess" xml:space="preserve">
+    <value>प्रश्न शॉर्टकट सफलतापूर्वक अद्यतन किए गए</value>
+  </data>
+  <data name="SingleDeviceUpdated" xml:space="preserve">
+    <value>एकल डिवाइस सेटअप सफलतापूर्वक अद्यतन किया गया</value>
+  </data>
+  <data name="StartupPageTitleDescription2.Text" xml:space="preserve">
+    <value>अनुवाद सॉफ्टवेयर.</value>
+  </data>
+  <data name="TimeoutUpdated" xml:space="preserve">
+    <value>टाइमआउट सफलतापूर्वक अपडेट किया गया</value>
+  </data>
+  <data name="TouchShareText" xml:space="preserve">
+    <value>स्पर्श साझा करें</value>
+  </data>
+  <data name="TranslationLanguageUpdated" xml:space="preserve">
+    <value>डिफ़ॉल्ट अनुवाद भाषा सफलतापूर्वक बदल गई</value>
+  </data>
+  <data name="TranslationPlaybackUpdated" xml:space="preserve">
+    <value>डिफ़ॉल्ट अनुवाद और प्लेबैक भाषा सफलतापूर्वक बदल गई</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption2" xml:space="preserve">
+    <value>कार्य करने के लिए। सुविधाएँ बिना सूचना के काम करना बंद कर सकती हैं. कृपया अनुप्रयोग अद्यतन करें।</value>
+  </data>
+  <data name="UserFlagSwitch" xml:space="preserve">
+    <value>भाषा को अपडेट करने के लिए उपयोगकर्ता ध्वज</value>
+  </data>
+</root>

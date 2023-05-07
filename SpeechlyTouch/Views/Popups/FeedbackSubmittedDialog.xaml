@@ -1,0 +1,74 @@
+﻿<ContentDialog
+    x:Class="SpeechlyTouch.Views.Popups.FeedbackSubmittedDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SpeechlyTouch.Views.Popups"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    
+    DataContext="{Binding FeedbackSubmittedViewModel, Source={StaticResource ViewModelLocator}}">
+
+    <Grid>
+        <Grid
+            Width="380"
+            Height="230"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="2*" />
+            </Grid.RowDefinitions>
+
+            <TextBlock
+                x:Uid="FeedbackThanks"
+                Grid.Row="0"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                FontSize="16"
+                FontWeight="SemiBold"
+                Foreground="#05154a" />
+
+            <TextBlock
+                x:Uid="Improvement"
+                Grid.Row="1"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                FontSize="14"
+                Foreground="#05154a"
+                TextAlignment="Center" />
+
+            <Image
+                Grid.Row="2"
+                Height="40"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Center"
+                Source="/Assets/helpLogo.png" />
+
+            <Button
+                x:Name="CloseFeedbackSubmittedPopup"
+                Grid.Row="3"
+                Height="30"
+                Padding="40,2,40,5"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Background="{Binding BtnAccentColor, Mode=TwoWay, Source={StaticResource DynamicColors}}"
+                BorderThickness="0"
+                Command="{Binding DismissFeedbackCommand}"
+                CornerRadius="2"
+                FontSize="13"
+                FontWeight="Medium"
+                Foreground="White"
+                Style="{StaticResource ButtonStyle}">
+                <TextBlock
+                    x:Uid="DismissText"
+                    Margin="0"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    FontSize="15"
+                    FontWeight="SemiBold" />
+            </Button>
+        </Grid>
+    </Grid>
+</ContentDialog>

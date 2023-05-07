@@ -1,0 +1,1192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="AppDescription" xml:space="preserve">
+    <value>TalaTouchApp</value>
+  </data>
+  <data name="AppDisplayName" xml:space="preserve">
+    <value>TalaTouchApp</value>
+  </data>
+  <data name="AudioDeviceSelector_MicDropdown.PlaceholderText" xml:space="preserve">
+    <value>Kies 'n mikrofoon</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneMic.Text" xml:space="preserve">
+    <value>Persoon Een Mikrofoon</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneSpeaker.Text" xml:space="preserve">
+    <value>Persoon Een Spreker</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoMic.Text" xml:space="preserve">
+    <value>Persoon Twee Mikrofoon</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoSpeaker.Text" xml:space="preserve">
+    <value>Persoon Twee Spreker</value>
+  </data>
+  <data name="AudioDeviceSelector_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>Kies 'n luidspreker</value>
+  </data>
+  <data name="BluetoothPairingDialog_Description.Text" xml:space="preserve">
+    <value>Maak seker jou toestel is aangeskakel en ontdekbaar. Kies 'n toestel hieronder om aan te sluit.</value>
+  </data>
+  <data name="BluetoothPairingDialog_Title.Text" xml:space="preserve">
+    <value>Voeg 'n toestel by</value>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>Kanselleer</value>
+  </data>
+  <data name="ChangePasscodeDialog_Confirm.Text" xml:space="preserve">
+    <value>Bevestig nuwe wagwoord</value>
+  </data>
+  <data name="ChangePasscodeDialog_Current.Text" xml:space="preserve">
+    <value>Huidige wagwoord</value>
+  </data>
+  <data name="ChangePasscodeDialog_New.Text" xml:space="preserve">
+    <value>Nuwe wagwoord</value>
+  </data>
+  <data name="ChangePasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Verander wagwoord</value>
+  </data>
+  <data name="Close.Content" xml:space="preserve">
+    <value>Sluit</value>
+  </data>
+  <data name="ConsentDialog_Description1.Text" xml:space="preserve">
+    <value>Privaatheidskwessies is ons nommer een prioriteit. (5) Jy aanvaar die bepalings en voorwaardes van hierdie Privaatheidsbeleid met jou selfoon of tablet, soos van toepassing.</value>
+  </data>
+  <data name="ConsentDialog_Description2.Text" xml:space="preserve">
+    <value>As jy kies om ons nie toegang te gee wanneer ons 'n versoek om toestemming ontvang nie (sulke versoeke sal in kennis gestel word op www ICTS webwerf by :</value>
+  </data>
+  <data name="ConsentDialog_Description3.Text" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int</value>
+  </data>
+  <data name="ConsentDialog_Description4.Text" xml:space="preserve">
+    <value>), dan kan nie die e-posadres wat verskaf word of enige ander persoonlike inligting wat 'n individu kan identifiseer, ook in ons besit kom sodra sodanige toestemming verleen is nie.</value>
+  </data>
+  <data name="ConsentDialog_Description5.Text" xml:space="preserve">
+    <value>Deur sekere dele te gebruik: / Die gebruik deur my van my selfoon / ikone - wat kan insluit om ander in kletskamers toe te laat oor produkte soos</value>
+  </data>
+  <data name="ConsentDialog_HyperLink.NavigateUri" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int/</value>
+  </data>
+  <data name="ConsentDialog_Title.Text" xml:space="preserve">
+    <value>Ons waardeer jou privaatheid</value>
+  </data>
+  <data name="Dashboard_Choose_Language.Text" xml:space="preserve">
+    <value>Kies Taal</value>
+  </data>
+  <data name="Dashboard_Hello.Text" xml:space="preserve">
+    <value>Hallo</value>
+  </data>
+  <data name="Dashboard_SearchBox.PlaceholderText" xml:space="preserve">
+    <value>Soek taal</value>
+  </data>
+  <data name="Dashboard_Welcome.Text" xml:space="preserve">
+    <value>Welkom</value>
+  </data>
+  <data name="DevicesErrorDialog_NoDeviceError" xml:space="preserve">
+    <value>U het geen gestoorde toestel (s) nie. Gaan na Instellings -&gt; Toestelle om 'n mikrofoon en 'n luidspreker te kies en klik dan op Stoor.</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Description.Text" xml:space="preserve">
+    <value>Beskikbare Bluetooth-toestelle</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_DropDown.PlaceholderText" xml:space="preserve">
+    <value>Kies Bluetooth-toestel</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Scan.Text" xml:space="preserve">
+    <value>Skandeer</value>
+  </data>
+  <data name="DevicesPage_Bluetooth.Text" xml:space="preserve">
+    <value>Bluetooth</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices_Description.Text" xml:space="preserve">
+    <value>Kies u klanktoestel</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices.Text" xml:space="preserve">
+    <value>Gekoppelde klanktoestelle</value>
+  </data>
+  <data name="DevicesPage_MicDropDown.PlaceholderText" xml:space="preserve">
+    <value>Kies 'n mikrofoon</value>
+  </data>
+  <data name="DevicesPage_Network_Description.Text" xml:space="preserve">
+    <value>Beskikbare netwerke</value>
+  </data>
+  <data name="DevicesPage_Network_DropDown.PlaceholderText" xml:space="preserve">
+    <value>Kies 'n netwerk</value>
+  </data>
+  <data name="DevicesPage_Network.Text" xml:space="preserve">
+    <value>Netwerk</value>
+  </data>
+  <data name="DevicesPage_NetworkError" xml:space="preserve">
+    <value>Geen netwerk gekies nie. Gaan jou netwerkverbindings na.</value>
+  </data>
+  <data name="DevicesPage_PersonOne_Speaker.Text" xml:space="preserve">
+    <value>Persoon een spreker</value>
+  </data>
+  <data name="DevicesPage_PersonOneMic.Text" xml:space="preserve">
+    <value>Persoon een mikrofoon</value>
+  </data>
+  <data name="DevicesPage_PersonTwo_Mic.Text" xml:space="preserve">
+    <value>Persoon twee mikrofoon</value>
+  </data>
+  <data name="DevicesPage_Scan" xml:space="preserve">
+    <value>Skandeer</value>
+  </data>
+  <data name="DevicesPage_Scanning" xml:space="preserve">
+    <value>Skandeer...</value>
+  </data>
+  <data name="DevicesPage_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>Kies 'n spreker</value>
+  </data>
+  <data name="DevicesPage_Status_Connect" xml:space="preserve">
+    <value>Koppel</value>
+  </data>
+  <data name="DevicesPage_Status_Connected" xml:space="preserve">
+    <value>Gekoppel</value>
+  </data>
+  <data name="DevicesPage_Status_Connecting" xml:space="preserve">
+    <value>Koppel tans...</value>
+  </data>
+  <data name="DevicesPage_Status_Off" xml:space="preserve">
+    <value>AF</value>
+  </data>
+  <data name="DevicesPage_Status_On" xml:space="preserve">
+    <value>OP</value>
+  </data>
+  <data name="DevicesPager_PersonTwo_Speaker.Text" xml:space="preserve">
+    <value>Persoon twee spreker</value>
+  </data>
+  <data name="EnterPasscodeDialog_Description.Text" xml:space="preserve">
+    <value>Voer asseblief jou wagwoord in om toegang tot die instellingsbladsy te kry</value>
+  </data>
+  <data name="EnterPasscodeDialog_ForgotPasscode.Content" xml:space="preserve">
+    <value>Wagwoord vergeet?</value>
+  </data>
+  <data name="EnterPasscodeDialog_InvalidPasscode.Text" xml:space="preserve">
+    <value>Ongeldige wagwoord! Probeer asseblief weer.</value>
+  </data>
+  <data name="EnterPasscodeDialog_Passcode.Text" xml:space="preserve">
+    <value>Wagwoord</value>
+  </data>
+  <data name="EnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Voer u wagwoord in</value>
+  </data>
+  <data name="IAgree.Content" xml:space="preserve">
+    <value>Ek stem saam</value>
+  </data>
+  <data name="InvalidLicenseDialog_Description.Text" xml:space="preserve">
+    <value>Jou lisensieverifikasie het misluk</value>
+  </data>
+  <data name="InvalidLicenseDialog_Title.Text" xml:space="preserve">
+    <value>Ongeldige lisensie</value>
+  </data>
+  <data name="LoginFailedDialog_Button.Content" xml:space="preserve">
+    <value>Gaan terug</value>
+  </data>
+  <data name="LoginFailedDialog_Description.Text" xml:space="preserve">
+    <value>Jou aanmeldpoging het misluk.</value>
+  </data>
+  <data name="LoginFailedDialog_Title.Text" xml:space="preserve">
+    <value>Mislukte aanmelding</value>
+  </data>
+  <data name="Main_Title.Text" xml:space="preserve">
+    <value>Belangrikste</value>
+  </data>
+  <data name="PasswordPopup_SetupTitle.Text" xml:space="preserve">
+    <value>Stel 'n wagwoord op</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Description1.Text" xml:space="preserve">
+    <value>Voer asseblief weer jou wagwoord in om aan te hou redigeer ...</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Voer u wagwoord weer in</value>
+  </data>
+  <data name="RenterPasscodeDialog_Description2.Text" xml:space="preserve">
+    <value>motorbesparing en teruggaan huis toe</value>
+  </data>
+  <data name="Save.Content" xml:space="preserve">
+    <value>Stoor</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Description.Text" xml:space="preserve">
+    <value>Dit is 'n voorbeeldbladsy wat aktiveringsparameters sal toon as die app vanaf Deep Linking geaktiveer word.</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Title.Text" xml:space="preserve">
+    <value>SchemeActivationSample</value>
+  </data>
+  <data name="SetPasscodeDialog_ConfirmPasscode.Text" xml:space="preserve">
+    <value>Bevestig nuwe wagwoord </value>
+  </data>
+  <data name="SetPasscodeDialog_NewPasscode.Text" xml:space="preserve">
+    <value>Nuwe wagwoord</value>
+  </data>
+  <data name="SetPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Stel 'n wagwoord op</value>
+  </data>
+  <data name="Settings_About.Text" xml:space="preserve">
+    <value>Oor hierdie aansoek</value>
+  </data>
+  <data name="Settings_AboutDescription.Text" xml:space="preserve">
+    <value>Instellings bladsy plekhouer teks.  Jou programbeskrywing gaan hierheen.</value>
+  </data>
+  <data name="Settings_Personalization.Text" xml:space="preserve">
+    <value>Verpersoonliking</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.Content" xml:space="preserve">
+    <value>Privaatheid Verklaring</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.NavigateUri" xml:space="preserve">
+    <value>https://YourPrivacyUrlGoesHere/</value>
+  </data>
+  <data name="Settings_Theme_Dark.Content" xml:space="preserve">
+    <value>Donker</value>
+  </data>
+  <data name="Settings_Theme_Default.Content" xml:space="preserve">
+    <value>Windows standaard</value>
+  </data>
+  <data name="Settings_Theme_Light.Content" xml:space="preserve">
+    <value>Lig</value>
+  </data>
+  <data name="Settings_Theme.Text" xml:space="preserve">
+    <value>Kies tema</value>
+  </data>
+  <data name="Settings_Title.Text" xml:space="preserve">
+    <value>Instellings</value>
+  </data>
+  <data name="SettingsPage_Devices" xml:space="preserve">
+    <value>Toestelle</value>
+  </data>
+  <data name="SettingsPage_Language" xml:space="preserve">
+    <value>Taal</value>
+  </data>
+  <data name="SettingsPage_Profile" xml:space="preserve">
+    <value>Profiel</value>
+  </data>
+  <data name="SettingsPage_Questions" xml:space="preserve">
+    <value>Vrae</value>
+  </data>
+  <data name="SettingsPage_Title" xml:space="preserve">
+    <value>Instellings</value>
+  </data>
+  <data name="ShellView_Help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="ShellView_History" xml:space="preserve">
+    <value>Geskiedenis</value>
+  </data>
+  <data name="ShellView_Home" xml:space="preserve">
+    <value>Huis</value>
+  </data>
+  <data name="ShellView_Settings.Text" xml:space="preserve">
+    <value>Instellings</value>
+  </data>
+  <data name="Sign_In.Text" xml:space="preserve">
+    <value>Teken aan</value>
+  </data>
+  <data name="SignInDialog_Description.Text" xml:space="preserve">
+    <value>Kommunikeer onmiddellik in verskeie globale tale met jou Jabra-toestel.</value>
+  </data>
+  <data name="SignInDialog_SignInButton.Content" xml:space="preserve">
+    <value>Teken aan</value>
+  </data>
+  <data name="Translate_Button.Text" xml:space="preserve">
+    <value>Vertaal</value>
+  </data>
+  <data name="TranslationPage_EndSession.Text" xml:space="preserve">
+    <value>Beëindig die sessie</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOn" xml:space="preserve">
+    <value>Mikrofoon aan</value>
+  </data>
+  <data name="TranslationPage_SpeakerOn" xml:space="preserve">
+    <value>Spreker Aan</value>
+  </data>
+  <data name="TranslationPage_SpeakNow.Text" xml:space="preserve">
+    <value>Praat nou</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Oor</value>
+  </data>
+  <data name="AboutPage_AppVersion.Text" xml:space="preserve">
+    <value>Aansoek weergawe</value>
+  </data>
+  <data name="AboutPage_CheckUpdate.Content" xml:space="preserve">
+    <value>Kyk vir opdaterings</value>
+  </data>
+  <data name="AboutPage_DataConsent" xml:space="preserve">
+    <value>Jou organisasie het toestemming gegee om jou data in die wolk te stoor.</value>
+  </data>
+  <data name="AboutPage_NoDataConsent" xml:space="preserve">
+    <value>Jou organisasie het nie toestemming gegee om jou data in die wolk te stoor nie.</value>
+  </data>
+  <data name="AboutPage_Published.Text" xml:space="preserve">
+    <value>Uitgegee deur FITTS Beperk.</value>
+  </data>
+  <data name="AppClose_Close.Content" xml:space="preserve">
+    <value>Maak in elk geval toe</value>
+  </data>
+  <data name="AppClose_Dismiss.Content" xml:space="preserve">
+    <value>Kanselleer</value>
+  </data>
+  <data name="AppClose_Warning.Text" xml:space="preserve">
+    <value>Jy het 'n sessie aan die gang. Beëindig die sessie voordat u die aansoek verlaat.</value>
+  </data>
+  <data name="AppVersion.Text" xml:space="preserve">
+    <value>Program weergawe</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Button.Content" xml:space="preserve">
+    <value>Gaan voort met sessie</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Description.Text" xml:space="preserve">
+    <value>Die sessie sal eindig in</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Title.Text" xml:space="preserve">
+    <value>Klank nie opgespoor nie</value>
+  </data>
+  <data name="AudioPlayer_Error.Text" xml:space="preserve">
+    <value>Kon nie klank laai nie</value>
+  </data>
+  <data name="DashboardPage_DefaultLanguageError" xml:space="preserve">
+    <value>U het geen gestoorde standaardvertalingstaal nie. Gaan na Instellings -&gt; Tale om 'n standaard vertaaltaal te kies en klik dan op Stoor.</value>
+  </data>
+  <data name="DashboardPage_TargetLanguageError" xml:space="preserve">
+    <value>Jy het nie 'n Teikenvertaaltaal gekies nie. Kies asseblief 'n taal en klik dan op Translate.</value>
+  </data>
+  <data name="DevicesErrorDialog_DualDeviceError" xml:space="preserve">
+    <value>Jy het Dual Device-vertaling gekies, maar jy het nie 'n toestel(e) wat vir Persoon 2 gekies is nie. Gaan na Instellings -&gt; Toestelle om 'n mikrofoon en 'n luidspreker te kies en klik dan op Stoor.</value>
+  </data>
+  <data name="DevicesPage_Title.Text" xml:space="preserve">
+    <value>Toestelle</value>
+  </data>
+  <data name="DevicesPage_Wifi_Password.Text" xml:space="preserve">
+    <value>Voer wagwoord in</value>
+  </data>
+  <data name="DevicesPage_WifiStatus.Text" xml:space="preserve">
+    <value>Wifi-status</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Redigeer</value>
+  </data>
+  <data name="Expiry.Text" xml:space="preserve">
+    <value>Verstryking</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Terugvoer</value>
+  </data>
+  <data name="FeedbackMessage.Text" xml:space="preserve">
+    <value>As u enige terugvoer of navrae het, moet asseblief nie huiwer om kontak te maak nie.</value>
+  </data>
+  <data name="GetInTouchButton.Text" xml:space="preserve">
+    <value>Kontak my</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>Geskiedenis</value>
+  </data>
+  <data name="History_ExportBtn.Text" xml:space="preserve">
+    <value>Uitvoer</value>
+  </data>
+  <data name="HistoryExportButtonTooltip.Text" xml:space="preserve">
+    <value>Uitvoer</value>
+  </data>
+  <data name="HistoryListColumnDate.Text" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="HistoryListColumnDuration.Text" xml:space="preserve">
+    <value>Duur</value>
+  </data>
+  <data name="HistoryListColumnPrimaryLanguage.Text" xml:space="preserve">
+    <value>Primêre taal</value>
+  </data>
+  <data name="HistoryListColumnSecondaryLanguage.Text" xml:space="preserve">
+    <value>Sekondêre taal</value>
+  </data>
+  <data name="HistoryListColumnSessionId.Text" xml:space="preserve">
+    <value>Sessie ID</value>
+  </data>
+  <data name="InitalSetup_SkipSetup.Content" xml:space="preserve">
+    <value>Slaan die opstelling oor</value>
+  </data>
+  <data name="InitialNetworkPopupConnectButton.Content" xml:space="preserve">
+    <value>Koppel</value>
+  </data>
+  <data name="InitialSetup_DeviceSelection.Text" xml:space="preserve">
+    <value>Toestel seleksie</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionDescription.Text" xml:space="preserve">
+    <value>Stel u standaard klanktoestel op</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneMicrophone.Text" xml:space="preserve">
+    <value>Kies mikrofoon</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneSpeaker.Text" xml:space="preserve">
+    <value>Kies Speaker</value>
+  </data>
+  <data name="InitialSetup_FinishSetup.Content" xml:space="preserve">
+    <value>Voltooi die opstelling</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection_Description.Text" xml:space="preserve">
+    <value>Stel u standaard vertaaltaal op</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection.Text" xml:space="preserve">
+    <value>Taalkeuse</value>
+  </data>
+  <data name="InitialSetup_NetworkSelection.Text" xml:space="preserve">
+    <value>Voorkeur netwerk</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopup.Text" xml:space="preserve">
+    <value>Koppel aan netwerk</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopupPassword.Text" xml:space="preserve">
+    <value>Voer wagwoord in:</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionDescription.Text" xml:space="preserve">
+    <value>Kies uit een van die beskikbare netwerke</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionNoInternetConnection.Text" xml:space="preserve">
+    <value>Jy is nie aan die internet gekoppel nie. Gaan asseblief jou netwerkverbindings na.</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionOtherNetworks.Text" xml:space="preserve">
+    <value>Ander netwerke</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup_Description.Text" xml:space="preserve">
+    <value>Stel jou programwagwoord op</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup.Text" xml:space="preserve">
+    <value>Wagwoord-opstelling</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Taal</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage_Description.Text" xml:space="preserve">
+    <value>Kies Toepassingstaal</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage.Text" xml:space="preserve">
+    <value>App Taal</value>
+  </data>
+  <data name="LanguagesPage_AppLanguageDropdown.PlaceholderText" xml:space="preserve">
+    <value>Kies 'n taal</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage_Description.Text" xml:space="preserve">
+    <value>Die standaardtaal wat u gebruik</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage.Text" xml:space="preserve">
+    <value>My verstektaal</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguageDropDown.PlaceholderText" xml:space="preserve">
+    <value>Kies 'n taal</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description.Text" xml:space="preserve">
+    <value>Geskiedenis afdeling (vir multi-toestel vertalings)</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description1.Text" xml:space="preserve">
+    <value>* Enkeltoestelvertalings speel alle klank as standaard *</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage.Text" xml:space="preserve">
+    <value>Standaard afspeeltaal</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguages.Text" xml:space="preserve">
+    <value>Vinnige aansig Tale</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguagesDropdown.PlaceholderText" xml:space="preserve">
+    <value>Voeg 'n taal by</value>
+  </data>
+  <data name="LanguagesPage_Title.Text" xml:space="preserve">
+    <value>Tale</value>
+  </data>
+  <data name="Licence" xml:space="preserve">
+    <value>Lisensie</value>
+  </data>
+  <data name="LicenseType.Text" xml:space="preserve">
+    <value>Lisensie tipe:</value>
+  </data>
+  <data name="NetworkConnectionError" xml:space="preserve">
+    <value>Fout:</value>
+  </data>
+  <data name="Next.Content" xml:space="preserve">
+    <value>Volgende</value>
+  </data>
+  <data name="PasscodeError_MinimumLength" xml:space="preserve">
+    <value>Minimum lengte van wagwoord moet 4 wees.</value>
+  </data>
+  <data name="PasscodeError_NotMatching" xml:space="preserve">
+    <value>Die ingevoerde wagwoorde stem nie ooreen nie. Voer asseblief weer die wagwoord in en probeer dan weer.</value>
+  </data>
+  <data name="Person.Text" xml:space="preserve">
+    <value>Persoon</value>
+  </data>
+  <data name="PrivacyPolicy.Text" xml:space="preserve">
+    <value>Privaatheidsbeleid</value>
+  </data>
+  <data name="ProfilePage_Email_Description.Text" xml:space="preserve">
+    <value>Standaard uitvoer e-pos</value>
+  </data>
+  <data name="ProfilePage_Email.Text" xml:space="preserve">
+    <value>E-pos</value>
+  </data>
+  <data name="ProfilePage_Passcode_Description.Text" xml:space="preserve">
+    <value>Jou aansoek se wagwoord</value>
+  </data>
+  <data name="ProfilePage_Passcode.Text" xml:space="preserve">
+    <value>Wagwoord</value>
+  </data>
+  <data name="ProfilePage_Timeout_Description.Text" xml:space="preserve">
+    <value>Frekwensie van admin modus slot</value>
+  </data>
+  <data name="ProfilePage_Timeout.Text" xml:space="preserve">
+    <value>Admin modus time-out</value>
+  </data>
+  <data name="ProfilePage_TimeoutDropdown.PlaceholderText" xml:space="preserve">
+    <value>Kies 'n tyd</value>
+  </data>
+  <data name="ProfilePage_Title.Text" xml:space="preserve">
+    <value>Profiel</value>
+  </data>
+  <data name="PublishedBy.Text" xml:space="preserve">
+    <value>Uitgegee deur</value>
+  </data>
+  <data name="ReleaseNotesMessage.Text" xml:space="preserve">
+    <value>Vrystellingsnotas sal binnekort opgedateer word</value>
+  </data>
+  <data name="Save_Text" xml:space="preserve">
+    <value>Stoor</value>
+  </data>
+  <data name="SessionDetailsPage_Description.Text" xml:space="preserve">
+    <value>Transkripsie geskiedenis</value>
+  </data>
+  <data name="SessionDetailsPage_Duration.Text" xml:space="preserve">
+    <value>Duur</value>
+  </data>
+  <data name="SessionDetailsPage_SessionID.Text" xml:space="preserve">
+    <value>Sessie ID</value>
+  </data>
+  <data name="SessionDetailsPage_Title.Text" xml:space="preserve">
+    <value>Geskiedenis</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Instellings</value>
+  </data>
+  <data name="TermsOfUse.Text" xml:space="preserve">
+    <value>Gebruiksvoorwaardes</value>
+  </data>
+  <data name="TranslationPage_SettingUpState" xml:space="preserve">
+    <value>Die opstel van ...</value>
+  </data>
+  <data name="TranslationPage_SpeakFast" xml:space="preserve">
+    <value>Probeer 'n bietjie vinniger praat vir beter vertaalresultate.</value>
+  </data>
+  <data name="TranslationPage_SpeakIn" xml:space="preserve">
+    <value>Praat in</value>
+  </data>
+  <data name="TranslationPage_SpeakSlow" xml:space="preserve">
+    <value>Probeer 'n bietjie stadiger praat vir beter vertaalresultate.</value>
+  </data>
+  <data name="TranslationPage_Switching" xml:space="preserve">
+    <value>Skakel</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonOne" xml:space="preserve">
+    <value>Skakel oor na persoon 1</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonTwo" xml:space="preserve">
+    <value>Skakel oor na persoon 2</value>
+  </data>
+  <data name="TranslationPage_TranslationReadyState" xml:space="preserve">
+    <value>Praat nou</value>
+  </data>
+  <data name="Website.Text" xml:space="preserve">
+    <value>Webwerf</value>
+  </data>
+  <data name="WhatsNew" xml:space="preserve">
+    <value>Wat is nuut</value>
+  </data>
+  <data name="WhatsNewInSpeechly.Text" xml:space="preserve">
+    <value>Wat is nuut in</value>
+  </data>
+  <data name="AudioDevicesSelectorDualDevice.Content" xml:space="preserve">
+    <value>Dubbele toestel</value>
+  </data>
+  <data name="AudioDevicesSelectorSingleDevice.Content" xml:space="preserve">
+    <value>Enkele toestel</value>
+  </data>
+  <data name="AutoDetectSearchCountry.PlaceholderText" xml:space="preserve">
+    <value>Soek land</value>
+  </data>
+  <data name="AutoDetectSelectLanguage.Text" xml:space="preserve">
+    <value>Kies jou taal</value>
+  </data>
+  <data name="ChatViewPersonOne" xml:space="preserve">
+    <value>Persoon Een</value>
+  </data>
+  <data name="ChatViewPersonTwo" xml:space="preserve">
+    <value>Persoon Twee</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionLost" xml:space="preserve">
+    <value>Internetverbinding verloor. Kontroleer asseblief u verbinding en probeer dan weer.</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionUnstable" xml:space="preserve">
+    <value>Jou internetverbinding is stadig. U kan 'n mate van vertraging ervaar.</value>
+  </data>
+  <data name="CustomTagSelectionTitle.Text" xml:space="preserve">
+    <value>Organisasie Tags (kies om by te voeg)</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.Header" xml:space="preserve">
+    <value>Gebruikersvlag om van taal te verander</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OffContent" xml:space="preserve">
+    <value>Gedeaktiveer</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OnContent" xml:space="preserve">
+    <value>Geaktiveer</value>
+  </data>
+  <data name="DetectLanguageButton.Content" xml:space="preserve">
+    <value>Bespeur taal</value>
+  </data>
+  <data name="DevicesPageNetworkSetupBluetoothStatus.Text" xml:space="preserve">
+    <value>Bluetooth status :</value>
+  </data>
+  <data name="DevicesPageNetworkSetupConnectAutomatically.Text" xml:space="preserve">
+    <value>Koppel outomaties</value>
+  </data>
+  <data name="DevicesPageNetworkSetupWiFiStatus.Text" xml:space="preserve">
+    <value>WiFi-status:</value>
+  </data>
+  <data name="Dimiss.Content" xml:space="preserve">
+    <value>Kanselleer</value>
+  </data>
+  <data name="Duration.Text" xml:space="preserve">
+    <value>|  Duur</value>
+  </data>
+  <data name="EmailPopup_Description.Text" xml:space="preserve">
+    <value>Voer jou e-posadres in</value>
+  </data>
+  <data name="EmailPopup_Title.Text" xml:space="preserve">
+    <value>E-pos jou sessie</value>
+  </data>
+  <data name="ForcedUpdateDialogCaption" xml:space="preserve">
+    <value>Ons het kritieke opdaterings vir</value>
+  </data>
+  <data name="ForcedUpdateDialogInstallBtnText" xml:space="preserve">
+    <value>Bywerking</value>
+  </data>
+  <data name="ForcedUpdateDialogTitle" xml:space="preserve">
+    <value>Kritiese opdaterings</value>
+  </data>
+  <data name="GoBack.Content" xml:space="preserve">
+    <value>Gaan terug</value>
+  </data>
+  <data name="HelpPageSignOut.Content" xml:space="preserve">
+    <value>Teken uit</value>
+  </data>
+  <data name="History_Export.Text" xml:space="preserve">
+    <value>Genereer lêer ...</value>
+  </data>
+  <data name="HistoryListColumnSessionName.Text" xml:space="preserve">
+    <value>Naam</value>
+  </data>
+  <data name="HistoryListColumnSynced.Text" xml:space="preserve">
+    <value>Gesinkroniseer</value>
+  </data>
+  <data name="HistorySearchBox.PlaceholderText" xml:space="preserve">
+    <value>Taal, sessienaam, etikette of ID's</value>
+  </data>
+  <data name="HistorySearchButtonTooltip.Text" xml:space="preserve">
+    <value>Soek</value>
+  </data>
+  <data name="HistorySearchClearButtonTooltip.Text" xml:space="preserve">
+    <value>Duidelik</value>
+  </data>
+  <data name="HistorySearchFromDate.Header" xml:space="preserve">
+    <value>Van:</value>
+  </data>
+  <data name="HistorySearchToDate.Header" xml:space="preserve">
+    <value>Om:</value>
+  </data>
+  <data name="HistoryShareButtonTooltip.Text" xml:space="preserve">
+    <value>Deel / stuur</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonOne.Text" xml:space="preserve">
+    <value>Persoon 1</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonTwo.Text" xml:space="preserve">
+    <value>Persoon 2</value>
+  </data>
+  <data name="LoginPageTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NewVersionDialogCaption" xml:space="preserve">
+    <value>Installeer nuwe programweergawe van</value>
+  </data>
+  <data name="NewVersionDialogDescription" xml:space="preserve">
+    <value>Nuwe funksies en foutoplossings sal ontbreek </value>
+  </data>
+  <data name="NewVersionDialogInstallBtnText" xml:space="preserve">
+    <value>Installeer nuwe weergawe</value>
+  </data>
+  <data name="NewVersionDialogTitle" xml:space="preserve">
+    <value>Nuwe programweergawe</value>
+  </data>
+  <data name="NextText" xml:space="preserve">
+    <value>Volgende</value>
+  </data>
+  <data name="ProfilePageEditButton.Content" xml:space="preserve">
+    <value>Redigeer</value>
+  </data>
+  <data name="QuestionsButton.Content" xml:space="preserve">
+    <value>Sien vrae</value>
+  </data>
+  <data name="QuestionSettingsDescription.Text" xml:space="preserve">
+    <value>Bekyk of verander jou vraagkortpaaie</value>
+  </data>
+  <data name="QuestionSettingsInstructionOne.Text" xml:space="preserve">
+    <value>* Gebruik nommers 1-9 vir elke vraag. Nul (0) sal nie oorweeg word nie.</value>
+  </data>
+  <data name="QuestionSettingsInstructionThree.Text" xml:space="preserve">
+    <value>* U kan slegs kortpaaie aan 9 vrae toewys.</value>
+  </data>
+  <data name="QuestionSettingsListTitle.Text" xml:space="preserve">
+    <value>Vrae lys :</value>
+  </data>
+  <data name="ResellerEmailAddress.Text" xml:space="preserve">
+    <value>Reseller E-posadres :</value>
+  </data>
+  <data name="ResellerName.Text" xml:space="preserve">
+    <value>Reseller Naam :</value>
+  </data>
+  <data name="SelectFlag.Text" xml:space="preserve">
+    <value>Kies jou vlag:</value>
+  </data>
+  <data name="Send.Content" xml:space="preserve">
+    <value>Stuur</value>
+  </data>
+  <data name="SessionDetailsPage_SessionName.Text" xml:space="preserve">
+    <value>Sessie Naam</value>
+  </data>
+  <data name="SessionID.Text" xml:space="preserve">
+    <value>Sessie ID : -</value>
+  </data>
+  <data name="SessionMetadataDialog_ContinueButton.Text" xml:space="preserve">
+    <value>Voortgaan</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTags.Text" xml:space="preserve">
+    <value>Pasgemaakte tag (s)</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Voer die naam hier in</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextboxHelper.Text" xml:space="preserve">
+    <value>Druk Enter</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTags.Text" xml:space="preserve">
+    <value>Standaard tag (s)</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Voer waarde hier in</value>
+  </data>
+  <data name="SessionMetadataDialog_Description.Text" xml:space="preserve">
+    <value>Verpligte velde is gemerk met '</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionName.Text" xml:space="preserve">
+    <value>Sessie Naam</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionNameTextbox.PlaceholderText" xml:space="preserve">
+    <value>bv pasiënt nul</value>
+  </data>
+  <data name="SessionMetadataDialog_Title.Text" xml:space="preserve">
+    <value>Voeg 'n sessienaam en etikette by</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorActionMessage" xml:space="preserve">
+    <value>Kontak asseblief jou administrateur om jou rekening te aktiveer.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorMessage" xml:space="preserve">
+    <value>Jou rekening is gedeaktiveer.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorActionMessage" xml:space="preserve">
+    <value>Kontak asseblief jou administrateur om jou rekening te skep.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorMessage" xml:space="preserve">
+    <value>Jou rekening is uitgevee.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorActionMessage" xml:space="preserve">
+    <value>Kontak asseblief jou administrateur om jou rekening in te skakel.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorMessage" xml:space="preserve">
+    <value>Jou rekening is gedeaktiveer.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorActionMessage" xml:space="preserve">
+    <value>Kontak asseblief jou administrateur om jou rekening te skep.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorMessage" xml:space="preserve">
+    <value>U het nie 'n aktiewe rekening nie.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorActionMessage" xml:space="preserve">
+    <value>Kontak asseblief jou administrateur om jou lisensie te hernu.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorMessage" xml:space="preserve">
+    <value>Jou lisensie het verval.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorActionMessage" xml:space="preserve">
+    <value>Kontak asseblief jou administrateur om jou lisensie te aktiveer.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorMessage" xml:space="preserve">
+    <value>Jou lisensie is gedeaktiveer.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorActionMessage" xml:space="preserve">
+    <value>Kontak asseblief u administrateur.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorMessage" xml:space="preserve">
+    <value>Jou lisensie is opgeskort.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorActionMessage" xml:space="preserve">
+    <value>Kontak asseblief jou administrateur om 'n lisensie aan jou toe te ken.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorMessage" xml:space="preserve">
+    <value>Jy het nie 'n lisensie wat aan jou toegewys is nie.</value>
+  </data>
+  <data name="StartupPage2020.Text" xml:space="preserve">
+    <value>2021 </value>
+  </data>
+  <data name="StartupPageErrorDescription.Text" xml:space="preserve">
+    <value>'N Fout het voorgekom. Gaan asseblief jou internetverbinding na en probeer dan weer.</value>
+  </data>
+  <data name="StartupPagePoweredBy.Text" xml:space="preserve">
+    <value>Aangevuur deur </value>
+  </data>
+  <data name="StartupPageProgressDescription.Text" xml:space="preserve">
+    <value>Dit kan 'n paar sekondes duur</value>
+  </data>
+  <data name="StartupPageRetryButton.Content" xml:space="preserve">
+    <value>Probeer</value>
+  </data>
+  <data name="StartupPageRightsReserved.Text" xml:space="preserve">
+    <value>Alle regte voorbehou.</value>
+  </data>
+  <data name="StartUpPageSettingUpMessage" xml:space="preserve">
+    <value>Die opstel van ...</value>
+  </data>
+  <data name="StartupPageTitleDescription.Text" xml:space="preserve">
+    <value>Welkom by </value>
+  </data>
+  <data name="TranslateText" xml:space="preserve">
+    <value>Vertaal</value>
+  </data>
+  <data name="TranslationLicenceUseError" xml:space="preserve">
+    <value>Jou lisensie word tans in 'n ander sessie gebruik.</value>
+  </data>
+  <data name="TranslationLimitReachedError" xml:space="preserve">
+    <value>Jy het jou maksimum tydsbeperking per sessie bereik. Einde sessie.</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOff" xml:space="preserve">
+    <value>Mikrofoon af</value>
+  </data>
+  <data name="TranslationPage_SpeakerOff" xml:space="preserve">
+    <value>Speaker af</value>
+  </data>
+  <data name="TranslationTimeDepletedError" xml:space="preserve">
+    <value>Jou vertaalnotules is uitgeput. Kontak asseblief u administrateur.</value>
+  </data>
+  <data name="UnsupportedVersionDialogBtntext" xml:space="preserve">
+    <value>Bywerking</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption" xml:space="preserve">
+    <value>Kritiese opdaterings is nodig vir </value>
+  </data>
+  <data name="UnsupportedVersionDialogDescription" xml:space="preserve">
+    <value>Dateer jou program op om voort te gaan om kenmerk- en sekuriteitsopdaterings te kry.</value>
+  </data>
+  <data name="UnsupportedVersionDialogTitle" xml:space="preserve">
+    <value>Programweergawe wat nie ondersteun word nie</value>
+  </data>
+  <data name="UpdateDialogWhatsNew.Text" xml:space="preserve">
+    <value>Wat is nuut?</value>
+  </data>
+  <data name="Zoom.Text" xml:space="preserve">
+    <value>Zoem</value>
+  </data>
+  <data name="Add.Content" xml:space="preserve">
+    <value>Voeg</value>
+  </data>
+  <data name="AddNewQuestion.Text" xml:space="preserve">
+    <value>Voeg nuwe vooraf gedefinieerde vraag by</value>
+  </data>
+  <data name="AddQuestion.Content" xml:space="preserve">
+    <value>Voeg vraag by</value>
+  </data>
+  <data name="ChooseLanguage.Text" xml:space="preserve">
+    <value>Kies die standaardtaal</value>
+  </data>
+  <data name="CustomProfileAdded" xml:space="preserve">
+    <value>Profielnaam suksesvol bygevoeg.</value>
+  </data>
+  <data name="CustomProfileDeleted" xml:space="preserve">
+    <value>Profiel is suksesvol uitgevee.</value>
+  </data>
+  <data name="CustomProfileInvalidName" xml:space="preserve">
+    <value>Fout! Ongeldige profielnaam.</value>
+  </data>
+  <data name="CustomProfileNotDeleted" xml:space="preserve">
+    <value>Geen profiel om uit te vee nie.</value>
+  </data>
+  <data name="CustomProfileNotSaved" xml:space="preserve">
+    <value>Fout! Geen profiel gestoor nie.</value>
+  </data>
+  <data name="CustomProfileProfileSaved" xml:space="preserve">
+    <value>Profiel suksesvol gestoor.</value>
+  </data>
+  <data name="DataRequestMessage" xml:space="preserve">
+    <value>U het geen teks gekies nie. Kies asseblief teks om te deel en probeer weer.</value>
+  </data>
+  <data name="DevicesAddProfileButton.Content" xml:space="preserve">
+    <value>Voeg</value>
+  </data>
+  <data name="DevicesAvailableProfiles.Text" xml:space="preserve">
+    <value>Beskikbare profiele</value>
+  </data>
+  <data name="DevicesDefaultProfile.Text" xml:space="preserve">
+    <value>Standaard profiel:</value>
+  </data>
+  <data name="DevicesDeleteProfileBtn.Content" xml:space="preserve">
+    <value>Vee profiel uit</value>
+  </data>
+  <data name="DeviceSetupChanged" xml:space="preserve">
+    <value>Gekoppelde klanktoestelle opgedateer </value>
+  </data>
+  <data name="DevicesHelpfulTip1.Text" xml:space="preserve">
+    <value>1. Stel 'n profielnaam op</value>
+  </data>
+  <data name="DevicesHelpfulTip2.Text" xml:space="preserve">
+    <value>2. Kies enkel- of dubbele toestelmodusse</value>
+  </data>
+  <data name="DevicesHelpfulTip3.Text" xml:space="preserve">
+    <value>3. Kies luidspreker (s) en mikrofoon (s)</value>
+  </data>
+  <data name="DevicesHelpfulTip4.Text" xml:space="preserve">
+    <value>4. Stel jou profiel as verstek</value>
+  </data>
+  <data name="DevicesHelpfulTip5.Text" xml:space="preserve">
+    <value>5. Klik op die Stoor profiel-knoppie om u profiel te stoor</value>
+  </data>
+  <data name="DevicesHelpfulTips.Text" xml:space="preserve">
+    <value>Nuttige wenke</value>
+  </data>
+  <data name="DevicesProfileNameTextBox.PlaceholderText" xml:space="preserve">
+    <value>Profiel naam...</value>
+  </data>
+  <data name="DevicesSaveProfileBtn.Content" xml:space="preserve">
+    <value>Stoor profiel</value>
+  </data>
+  <data name="DevicesSetasDefault.Text" xml:space="preserve">
+    <value>Stel as standaard</value>
+  </data>
+  <data name="DevicesSetProfileButton.Content" xml:space="preserve">
+    <value>Stel profiel</value>
+  </data>
+  <data name="DevicesSetProfileText.Text" xml:space="preserve">
+    <value>Stel 'n pasgemaakte profiel op?</value>
+  </data>
+  <data name="DiscardButton.Content" xml:space="preserve">
+    <value>Gooi</value>
+  </data>
+  <data name="DismissButton.Content" xml:space="preserve">
+    <value>Ontslaan</value>
+  </data>
+  <data name="DismissText.Text" xml:space="preserve">
+    <value>Ontslaan</value>
+  </data>
+  <data name="DownloadAudio.Text" xml:space="preserve">
+    <value>Laai klank af</value>
+  </data>
+  <data name="DownloadCancel" xml:space="preserve">
+    <value>Laai gekanselleer af</value>
+  </data>
+  <data name="Downloaded" xml:space="preserve">
+    <value>Afgelaai</value>
+  </data>
+  <data name="DownloadError" xml:space="preserve">
+    <value>Fout het voorgekom</value>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>Laai tans</value>
+  </data>
+  <data name="DownloadPaused" xml:space="preserve">
+    <value>Laai onderbreek af</value>
+  </data>
+  <data name="DualDeviceUpdated" xml:space="preserve">
+    <value>Opstel van dubbele toestelle is suksesvol opgedateer</value>
+  </data>
+  <data name="EnterQuestion.Text" xml:space="preserve">
+    <value>Voer die vraag hieronder in</value>
+  </data>
+  <data name="ErrorDescription.Text" xml:space="preserve">
+    <value>Jou veranderinge is nie gestoor nie, wil jy dit stoor of weggooi?</value>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>Iets het verkeerd geloop.. Probeer weer</value>
+  </data>
+  <data name="ErrorTitle.Text" xml:space="preserve">
+    <value>Jy het ongeredde veranderinge</value>
+  </data>
+  <data name="FeedbackEight.Text" xml:space="preserve">
+    <value>Ons het mekaar bly onderbreek</value>
+  </data>
+  <data name="FeedbackFive.Text" xml:space="preserve">
+    <value>Ek het eggo in die oproep gehoor</value>
+  </data>
+  <data name="FeedbackFour.Text" xml:space="preserve">
+    <value>Dit het agtergrondstemme opgetel</value>
+  </data>
+  <data name="FeedbackOne.Text" xml:space="preserve">
+    <value>Dit het nie my stem reg opgetel nie</value>
+  </data>
+  <data name="FeedbackQuestion.Text" xml:space="preserve">
+    <value>Wat kon beter gewees het?</value>
+  </data>
+  <data name="FeedbackSeven.Text" xml:space="preserve">
+    <value>Die sessie het onverwags geëindig</value>
+  </data>
+  <data name="FeedbackSix.Text" xml:space="preserve">
+    <value>Die volume was te laag</value>
+  </data>
+  <data name="FeedbackThanks.Text" xml:space="preserve">
+    <value>Dankie vir die terugvoer</value>
+  </data>
+  <data name="FeedbackThree.Text" xml:space="preserve">
+    <value>Die vertaaltyd was te stadig</value>
+  </data>
+  <data name="FeedbackTwo.Text" xml:space="preserve">
+    <value>Dit het my sinne verkeerd vertaal</value>
+  </data>
+  <data name="ForcedUpdateDialogCaptionContinuation" xml:space="preserve">
+    <value>om te funksioneer. Die toepassing sal nie werk sonder hierdie opdaterings nie.</value>
+  </data>
+  <data name="Improvement.Text" xml:space="preserve">
+    <value>Ons sal aanhou werk om jou ervaring te verbeter.</value>
+  </data>
+  <data name="LanguageSettingsUpdated" xml:space="preserve">
+    <value>Taalveranderings word suksesvol bygewerk</value>
+  </data>
+  <data name="NewVersionDialogDescription2" xml:space="preserve">
+    <value>en jou weergawe van</value>
+  </data>
+  <data name="NewVersionDialogDescription3" xml:space="preserve">
+    <value>kan nie ondersteun word nie.</value>
+  </data>
+  <data name="Other.Text" xml:space="preserve">
+    <value>Ander opmerkings:</value>
+  </data>
+  <data name="PasswordUpdated" xml:space="preserve">
+    <value>wagwoord succesfully verander</value>
+  </data>
+  <data name="PlaybackLanguageUpdated" xml:space="preserve">
+    <value>Standaard afspeeltaal het Succesfully verander</value>
+  </data>
+  <data name="QuestionAdded" xml:space="preserve">
+    <value>Vraag suksesvol bygevoeg</value>
+  </data>
+  <data name="QuestionDeleted" xml:space="preserve">
+    <value>Vraag suksesvol uitgevee</value>
+  </data>
+  <data name="Questions.Text" xml:space="preserve">
+    <value>Vrae</value>
+  </data>
+  <data name="QuestionSettingsInstructionTwo.Text" xml:space="preserve">
+    <value>* Elke vraag moet 'n ander kortpadsleutel hê.</value>
+  </data>
+  <data name="QuestionsValidationError.Text" xml:space="preserve">
+    <value>* Gaan jou validerings na en probeer weer.</value>
+  </data>
+  <data name="QuickViewLanguagesUpdated" xml:space="preserve">
+    <value>Vinnige aansig languges opgedateer Succesfully</value>
+  </data>
+  <data name="SendFeedback.Content" xml:space="preserve">
+    <value>Stuur terugvoer</value>
+  </data>
+  <data name="SessionFeedbackPrompt" xml:space="preserve">
+    <value>Hoe sou jy jou vertaalsessie beoordeel?</value>
+  </data>
+  <data name="SessionFeedbackTitle" xml:space="preserve">
+    <value>Terugvoer oor vertaling</value>
+  </data>
+  <data name="ShortcutSuccess" xml:space="preserve">
+    <value>Vrae kortpaaie suksesvol opgedateer</value>
+  </data>
+  <data name="SingleDeviceUpdated" xml:space="preserve">
+    <value>Enkeltoestelopstelling suksesvol opgedateer</value>
+  </data>
+  <data name="StartupPageTitleDescription2.Text" xml:space="preserve">
+    <value>vertaalprogrammatuur.</value>
+  </data>
+  <data name="TimeoutUpdated" xml:space="preserve">
+    <value>Time-out het Succesfully opgedateer</value>
+  </data>
+  <data name="TouchShareText" xml:space="preserve">
+    <value>Raak deel</value>
+  </data>
+  <data name="TranslationLanguageUpdated" xml:space="preserve">
+    <value>Standaard vertaaltaal het suksesvol verander</value>
+  </data>
+  <data name="TranslationPlaybackUpdated" xml:space="preserve">
+    <value>Standaardvertaling en afspeeltaal het suksesvol verander</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption2" xml:space="preserve">
+    <value>om te funksioneer. Funksies kan ophou werk sonder kennisgewing. Dateer asseblief die aansoek op.</value>
+  </data>
+  <data name="UserFlagSwitch" xml:space="preserve">
+    <value>Gebruikersvlag om taal opgedateer te verander</value>
+  </data>
+</root>

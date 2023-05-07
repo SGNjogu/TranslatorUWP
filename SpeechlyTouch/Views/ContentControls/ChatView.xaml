@@ -1,0 +1,272 @@
+﻿<UserControl
+    x:Class="SpeechlyTouch.Views.ContentControls.ChatView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:audioPlayer="using:SpeechlyTouch.Views.ContentControls.Player"
+    xmlns:chatViews="using:SpeechlyTouch.Views.ContentControls.Chat"
+    xmlns:contentControls="using:SpeechlyTouch.Views.ContentControls"
+    xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:SpeechlyTouch.Views.ContentControls"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Background="{Binding PrimaryBackgroundColor, Source={StaticResource DynamicColors}}"
+    DataContext="{Binding ChatViewModel, Source={StaticResource ViewModelLocator}}"
+    Loaded="UserControl_Loaded"
+    mc:Ignorable="d">
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <Style x:Key="ListViewItemStretchStyle" TargetType="ListViewItem">
+                <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+            </Style>
+            <DataTemplate x:Key="PersonOneChatView">
+                <chatViews:PersonOne />
+            </DataTemplate>
+            <DataTemplate x:Key="PersonTwoChatView">
+                <chatViews:PersonTwo />
+            </DataTemplate>
+            <chatViews:ChatTemplateSelector
+                x:Key="ChatDataTemplateSelector"
+                PersonOne="{StaticResource PersonOneChatView}"
+                PersonTwo="{StaticResource PersonTwoChatView}" />
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+    <Grid x:Name="mainGrid">
+
+        <contentControls:PageBackground Opacity="0.7" />
+
+        <Grid>
+            <Grid RowSpacing="0">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <ListView
+                    x:Name="listView"
+                    Grid.Row="0"
+                    HorizontalAlignment="Stretch"
+                    HorizontalContentAlignment="Stretch"
+                    Holding="ListView_Holding"
+                    IsHoldingEnabled="True"
+                    ItemContainerStyle="{StaticResource ListViewItemStretchStyle}"
+                    ItemTemplateSelector="{StaticResource ChatDataTemplateSelector}"
+                    ItemsSource="{Binding Chats}"
+                    RightTapped="ListView_RightTapped"
+                    ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                    ScrollViewer.HorizontalScrollMode="Disabled"
+                    ScrollViewer.VerticalScrollBarVisibility="Hidden"
+                    ScrollViewer.VerticalScrollMode="Auto"
+                    SelectionMode="None"
+                    SizeChanged="Chats_SizeChanged"
+                    Style="{StaticResource ListViewStyle}">
+                    <ListView.Resources>
+                        <MenuFlyout x:Name="menuFlyout">
+                            <MenuFlyout.Items>
+                                <MenuFlyoutItem
+                                    x:Name="Copy"
+                                    Click="Copy_Click"
+                                    Icon="Copy"
+                                    Text="Copy"
+                                    Visibility="{Binding CopyAllAndShareVisibility}" />
+                                <MenuFlyoutItem
+                                    Click="Share_Click"
+                                    Text="Share"
+                                    Visibility="{Binding CopyAllAndShareVisibility}">
+                                    <MenuFlyoutItem.Icon>
+                                        <FontIcon Glyph="&#xE72D;" />
+                                    </MenuFlyoutItem.Icon>
+                                </MenuFlyoutItem>
+                            </MenuFlyout.Items>
+                        </MenuFlyout>
+                    </ListView.Resources>
+                </ListView>
+
+                <Grid Grid.Row="1" Visibility="{Binding AudioPlayerVisibility}">
+                    <audioPlayer:AudioPlayer />
+                </Grid>
+
+            </Grid>
+
+            <controls:DockPanel HorizontalAlignment="Right" VerticalAlignment="Top">
+
+                <Button
+                    Width="42"
+                    Height="42"
+                    Padding="0"
+                    Background="Transparent"
+                    BorderBrush="{Binding AccentColor, Source={StaticResource DynamicColors}}"
+                    BorderThickness="0"
+                    Command="{Binding ShareAllCommand}"
+                    CornerRadius="20"
+                    PointerEntered="Button_PointerEntered"
+                    PointerExited="Button_PointerExited"
+                    Style="{StaticResource ButtonStyle}"
+                    Visibility="{Binding CopyAllAndShareVisibility}">
+                    <Button.Content>
+                        <Grid>
+                            <Border
+                                Width="36"
+                                Height="36"
+                                Background="{Binding PrimaryBackgroundColor, Source={StaticResource DynamicColors}}"
+                                BorderBrush="{Binding AccentColor, Source={StaticResource DynamicColors}}"
+                                BorderThickness="1.5"
+                                CornerRadius="18" />
+                            <FontIcon
+                                Grid.Column="0"
+                                FontFamily="{StaticResource SymbolThemeFontFamily}"
+                                FontSize="18"
+                                Foreground="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}"
+                                Glyph="&#xE72D;"
+                                HighContrastAdjustment="None" />
+                        </Grid>
+                    </Button.Content>
+                </Button>
+
+                <Button
+                    Width="42"
+                    Height="42"
+                    Padding="0"
+                    Background="Transparent"
+                    BorderBrush="{Binding AccentColor, Source={StaticResource DynamicColors}}"
+                    BorderThickness="0"
+                    Command="{Binding CopyAllCommand}"
+                    CornerRadius="20"
+                    PointerEntered="Button_PointerEntered"
+                    PointerExited="Button_PointerExited"
+                    Style="{StaticResource ButtonStyle}"
+                    Visibility="{Binding CopyAllAndShareVisibility}">
+                    <Button.Content>
+                        <Grid>
+                            <Border
+                                Width="36"
+                                Height="36"
+                                Background="{Binding PrimaryBackgroundColor, Source={StaticResource DynamicColors}}"
+                                BorderBrush="{Binding AccentColor, Source={StaticResource DynamicColors}}"
+                                BorderThickness="1.5"
+                                CornerRadius="18" />
+                            <FontIcon
+                                Grid.Column="0"
+                                FontFamily="{StaticResource SymbolThemeFontFamily}"
+                                FontSize="18"
+                                Foreground="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}"
+                                Glyph="&#xE8C8;"
+                                HighContrastAdjustment="None" />
+                        </Grid>
+                    </Button.Content>
+                </Button>
+
+                <Button
+                    Width="42"
+                    Height="42"
+                    Padding="0"
+                    Background="Transparent"
+                    BorderBrush="{Binding AccentColor, Source={StaticResource DynamicColors}}"
+                    BorderThickness="0"
+                    Click="ImmersiveRead"
+                    CornerRadius="20"
+                    PointerEntered="Button_PointerEntered"
+                    PointerExited="Button_PointerExited"
+                    Style="{StaticResource ButtonStyle}">
+                    <Button.Content>
+                        <Grid>
+                            <Border
+                                Width="36"
+                                Height="36"
+                                Background="{Binding PrimaryBackgroundColor, Source={StaticResource DynamicColors}}"
+                                BorderBrush="{Binding AccentColor, Source={StaticResource DynamicColors}}"
+                                BorderThickness="1.5"
+                                CornerRadius="18" />
+                            <Image
+                                Width="20"
+                                Height="20"
+                                Source="/Assets/immersive-reader.png" />
+                        </Grid>
+                    </Button.Content>
+                </Button>
+
+                <StackPanel Orientation="Horizontal" Spacing="5">
+
+                    <Button
+                        Width="42"
+                        Height="42"
+                        Padding="0"
+                        Background="Transparent"
+                        BorderBrush="{Binding AccentColor, Source={StaticResource DynamicColors}}"
+                        BorderThickness="0"
+                        Command="{Binding ZoomOut}"
+                        CornerRadius="20"
+                        PointerEntered="Button_PointerEntered"
+                        PointerExited="Button_PointerExited"
+                        Style="{StaticResource ButtonStyle}">
+                        <Button.Content>
+                            <Grid>
+                                <Border
+                                    Width="36"
+                                    Height="36"
+                                    Background="{Binding PrimaryBackgroundColor, Source={StaticResource DynamicColors}}"
+                                    BorderBrush="{Binding AccentColor, Source={StaticResource DynamicColors}}"
+                                    BorderThickness="1.5"
+                                    CornerRadius="18" />
+                                <FontIcon
+                                    Grid.Column="0"
+                                    FontFamily="{StaticResource SymbolThemeFontFamily}"
+                                    FontSize="18"
+                                    Foreground="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}"
+                                    Glyph="&#xE949;"
+                                    HighContrastAdjustment="None" />
+                            </Grid>
+                        </Button.Content>
+                    </Button>
+
+                    <TextBlock
+                        x:Uid="Zoom"
+                        VerticalAlignment="Center"
+                        Foreground="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}"
+                        Style="{StaticResource TextBlockStyle}"
+                        />
+
+                    <Button
+                        Width="42"
+                        Height="42"
+                        Padding="0"
+                        Background="Transparent"
+                        BorderBrush="{Binding AccentColor, Source={StaticResource DynamicColors}}"
+                        BorderThickness="0"
+                        Command="{Binding ZoomIn}"
+                        CornerRadius="20"
+                        PointerEntered="Button_PointerEntered"
+                        PointerExited="Button_PointerExited"
+                        Style="{StaticResource ButtonStyle}">
+                        <Button.Content>
+                            <Grid>
+                                <Border
+                                    Width="36"
+                                    Height="36"
+                                    Background="{Binding PrimaryBackgroundColor, Source={StaticResource DynamicColors}}"
+                                    BorderBrush="{Binding AccentColor, Source={StaticResource DynamicColors}}"
+                                    BorderThickness="1.5"
+                                    CornerRadius="18" />
+                                <FontIcon
+                                    Grid.Column="0"
+                                    FontFamily="{StaticResource SymbolThemeFontFamily}"
+                                    FontSize="18"
+                                    Foreground="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}"
+                                    Glyph="&#xE948;"
+                                    HighContrastAdjustment="None" />
+                            </Grid>
+                        </Button.Content>
+                    </Button>
+
+                </StackPanel>
+
+            </controls:DockPanel>
+        </Grid>
+
+        <Grid x:Name="grdBrowser" x:FieldModifier="public" />
+
+    </Grid>
+
+</UserControl>

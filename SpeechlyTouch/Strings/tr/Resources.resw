@@ -1,0 +1,1192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="AppDescription" xml:space="preserve">
+    <value>TalaTouchApp</value>
+  </data>
+  <data name="AppDisplayName" xml:space="preserve">
+    <value>TalaTouchApp</value>
+  </data>
+  <data name="AudioDeviceSelector_MicDropdown.PlaceholderText" xml:space="preserve">
+    <value>Bir mikrofon seçin</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneMic.Text" xml:space="preserve">
+    <value>Bir Kişi Mikrofonu</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneSpeaker.Text" xml:space="preserve">
+    <value>Kişi Bir Konuşmacı</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoMic.Text" xml:space="preserve">
+    <value>İki Kişilik Mikrofon</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoSpeaker.Text" xml:space="preserve">
+    <value>İki Kişilik Konuşmacı</value>
+  </data>
+  <data name="AudioDeviceSelector_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>Bir hoparlör seçin</value>
+  </data>
+  <data name="BluetoothPairingDialog_Description.Text" xml:space="preserve">
+    <value>Aygıtınızın açık ve bulunabilir olduğundan emin olun. Bağlanmak için aşağıdan bir cihaz seçin.</value>
+  </data>
+  <data name="BluetoothPairingDialog_Title.Text" xml:space="preserve">
+    <value>Cihaz ekleme</value>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="ChangePasscodeDialog_Confirm.Text" xml:space="preserve">
+    <value>Yeni Şifreyi Onayla</value>
+  </data>
+  <data name="ChangePasscodeDialog_Current.Text" xml:space="preserve">
+    <value>Geçerli Şifre</value>
+  </data>
+  <data name="ChangePasscodeDialog_New.Text" xml:space="preserve">
+    <value>Yeni Şifre</value>
+  </data>
+  <data name="ChangePasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Parolayı Değiştir</value>
+  </data>
+  <data name="Close.Content" xml:space="preserve">
+    <value>Kapatmak</value>
+  </data>
+  <data name="ConsentDialog_Description1.Text" xml:space="preserve">
+    <value>Gizlilik endişeleri bir numaralı önceliğimizdir. (5) Bu Gizlilik Politikasının hüküm ve koşullarını uygun olduğu şekilde cep telefonunuz veya tabletinizle kabul edersiniz.</value>
+  </data>
+  <data name="ConsentDialog_Description2.Text" xml:space="preserve">
+    <value>Bir onay talebi aldığımızda erişmemize izin vermemeyi seçerseniz (bu tür talepler www ICTS web sitesinde aşağıdaki adresten bildirilecektir:</value>
+  </data>
+  <data name="ConsentDialog_Description3.Text" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int</value>
+  </data>
+  <data name="ConsentDialog_Description4.Text" xml:space="preserve">
+    <value>), o zaman ne verilen e-posta adresi ne de bir kişiyi tanımlayabilecek diğer kişisel bilgiler, böyle bir izin verildikten sonra elimize geçemez.</value>
+  </data>
+  <data name="ConsentDialog_Description5.Text" xml:space="preserve">
+    <value>Belirli bölümleri kullanarak: / Cep Telefonumun / Simgelerimin benim tarafımdan kullanımı - bu, sohbet odalarında başkalarının aşağıdaki gibi ürünler hakkında kullanılmasına izin vermeyi içerebilir</value>
+  </data>
+  <data name="ConsentDialog_HyperLink.NavigateUri" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int/</value>
+  </data>
+  <data name="ConsentDialog_Title.Text" xml:space="preserve">
+    <value>Gizliliğinize Değer Veriyoruz</value>
+  </data>
+  <data name="Dashboard_Choose_Language.Text" xml:space="preserve">
+    <value>Dil Seçiniz</value>
+  </data>
+  <data name="Dashboard_Hello.Text" xml:space="preserve">
+    <value>Merhaba</value>
+  </data>
+  <data name="Dashboard_SearchBox.PlaceholderText" xml:space="preserve">
+    <value>Arama Dili</value>
+  </data>
+  <data name="Dashboard_Welcome.Text" xml:space="preserve">
+    <value>Hoş geldin</value>
+  </data>
+  <data name="DevicesErrorDialog_NoDeviceError" xml:space="preserve">
+    <value>Kayıtlı cihaz(lar)ınız yok. Bir Mikrofon ve Hoparlör seçmek için Ayarlar -&gt; Cihazlar'a gidin ve ardından Kaydet'e tıklayın.</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Description.Text" xml:space="preserve">
+    <value>Mevcut bluetooth cihazları</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_DropDown.PlaceholderText" xml:space="preserve">
+    <value>Bluetooth cihazını seçin</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Scan.Text" xml:space="preserve">
+    <value>Taramak</value>
+  </data>
+  <data name="DevicesPage_Bluetooth.Text" xml:space="preserve">
+    <value>Bluetooth (Şifonu</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices_Description.Text" xml:space="preserve">
+    <value>Ses cihazınızı seçin</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices.Text" xml:space="preserve">
+    <value>Bağlı Ses Cihazları</value>
+  </data>
+  <data name="DevicesPage_MicDropDown.PlaceholderText" xml:space="preserve">
+    <value>Bir mikrofon seçin</value>
+  </data>
+  <data name="DevicesPage_Network_Description.Text" xml:space="preserve">
+    <value>Kullanılabilir ağlar</value>
+  </data>
+  <data name="DevicesPage_Network_DropDown.PlaceholderText" xml:space="preserve">
+    <value>Bir ağ seçin</value>
+  </data>
+  <data name="DevicesPage_Network.Text" xml:space="preserve">
+    <value>Ağ</value>
+  </data>
+  <data name="DevicesPage_NetworkError" xml:space="preserve">
+    <value>Ağ seçilmedi. Ağ bağlantılarınızı denetleyin.</value>
+  </data>
+  <data name="DevicesPage_PersonOne_Speaker.Text" xml:space="preserve">
+    <value>Bir konuşmacı kişi</value>
+  </data>
+  <data name="DevicesPage_PersonOneMic.Text" xml:space="preserve">
+    <value>Bir kişi mikrofonu</value>
+  </data>
+  <data name="DevicesPage_PersonTwo_Mic.Text" xml:space="preserve">
+    <value>İkinci kişi mikrofonu</value>
+  </data>
+  <data name="DevicesPage_Scan" xml:space="preserve">
+    <value>Taramak</value>
+  </data>
+  <data name="DevicesPage_Scanning" xml:space="preserve">
+    <value>Tarama...</value>
+  </data>
+  <data name="DevicesPage_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>Bir hoparlör seçin</value>
+  </data>
+  <data name="DevicesPage_Status_Connect" xml:space="preserve">
+    <value>Bağlamak</value>
+  </data>
+  <data name="DevicesPage_Status_Connected" xml:space="preserve">
+    <value>Bağlandı</value>
+  </data>
+  <data name="DevicesPage_Status_Connecting" xml:space="preserve">
+    <value>Bağlanma...</value>
+  </data>
+  <data name="DevicesPage_Status_Off" xml:space="preserve">
+    <value>KAPALI</value>
+  </data>
+  <data name="DevicesPage_Status_On" xml:space="preserve">
+    <value>ÜZERİNDE</value>
+  </data>
+  <data name="DevicesPager_PersonTwo_Speaker.Text" xml:space="preserve">
+    <value>İkinci konuşmacı kişi</value>
+  </data>
+  <data name="EnterPasscodeDialog_Description.Text" xml:space="preserve">
+    <value>Ayarlar sayfasına erişmek için lütfen şifrenizi girin</value>
+  </data>
+  <data name="EnterPasscodeDialog_ForgotPasscode.Content" xml:space="preserve">
+    <value>Şifrenizi mi unuttunuz?</value>
+  </data>
+  <data name="EnterPasscodeDialog_InvalidPasscode.Text" xml:space="preserve">
+    <value>Geçersiz Şifre! Lütfen tekrar deneyin.</value>
+  </data>
+  <data name="EnterPasscodeDialog_Passcode.Text" xml:space="preserve">
+    <value>Şifre</value>
+  </data>
+  <data name="EnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Parolanızı girin</value>
+  </data>
+  <data name="IAgree.Content" xml:space="preserve">
+    <value>Kabul Ediyorum</value>
+  </data>
+  <data name="InvalidLicenseDialog_Description.Text" xml:space="preserve">
+    <value>Lisans doğrulamanız başarısız oldu</value>
+  </data>
+  <data name="InvalidLicenseDialog_Title.Text" xml:space="preserve">
+    <value>Geçersiz Lisans</value>
+  </data>
+  <data name="LoginFailedDialog_Button.Content" xml:space="preserve">
+    <value>Geri Git</value>
+  </data>
+  <data name="LoginFailedDialog_Description.Text" xml:space="preserve">
+    <value>Oturum açma girişiminiz başarısız oldu.</value>
+  </data>
+  <data name="LoginFailedDialog_Title.Text" xml:space="preserve">
+    <value>Başarısız Oturum Açma</value>
+  </data>
+  <data name="Main_Title.Text" xml:space="preserve">
+    <value>Ana</value>
+  </data>
+  <data name="PasswordPopup_SetupTitle.Text" xml:space="preserve">
+    <value>Parola ayarlama</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Description1.Text" xml:space="preserve">
+    <value>Düzenlemeye devam etmek için lütfen şifrenizi tekrar girin...</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Parolanızı yeniden girin</value>
+  </data>
+  <data name="RenterPasscodeDialog_Description2.Text" xml:space="preserve">
+    <value>otomatik kaydetme ve eve dönme</value>
+  </data>
+  <data name="Save.Content" xml:space="preserve">
+    <value>Kurtarmak</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Description.Text" xml:space="preserve">
+    <value>Bu, uygulama Deep Linking'den etkinleştirilirse etkinleştirme parametrelerini gösteren örnek bir sayfadır.</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Title.Text" xml:space="preserve">
+    <value>SchemeActivationSample</value>
+  </data>
+  <data name="SetPasscodeDialog_ConfirmPasscode.Text" xml:space="preserve">
+    <value>Yeni Şifreyi Onayla </value>
+  </data>
+  <data name="SetPasscodeDialog_NewPasscode.Text" xml:space="preserve">
+    <value>Yeni Şifre</value>
+  </data>
+  <data name="SetPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Parola ayarlama</value>
+  </data>
+  <data name="Settings_About.Text" xml:space="preserve">
+    <value>Bu uygulama hakkında</value>
+  </data>
+  <data name="Settings_AboutDescription.Text" xml:space="preserve">
+    <value>Ayarlar sayfası yer tutucu metni.  Uygulama açıklamanız buraya gider.</value>
+  </data>
+  <data name="Settings_Personalization.Text" xml:space="preserve">
+    <value>Kişiselleştirme</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.Content" xml:space="preserve">
+    <value>Gizlilik Beyanı</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.NavigateUri" xml:space="preserve">
+    <value>https://YourPrivacyUrlGoesHere/</value>
+  </data>
+  <data name="Settings_Theme_Dark.Content" xml:space="preserve">
+    <value>Koyu</value>
+  </data>
+  <data name="Settings_Theme_Default.Content" xml:space="preserve">
+    <value>Windows varsayılan</value>
+  </data>
+  <data name="Settings_Theme_Light.Content" xml:space="preserve">
+    <value>Işık</value>
+  </data>
+  <data name="Settings_Theme.Text" xml:space="preserve">
+    <value>Tema Seç</value>
+  </data>
+  <data name="Settings_Title.Text" xml:space="preserve">
+    <value>Ayarlar</value>
+  </data>
+  <data name="SettingsPage_Devices" xml:space="preserve">
+    <value>Aygıtları</value>
+  </data>
+  <data name="SettingsPage_Language" xml:space="preserve">
+    <value>Dil</value>
+  </data>
+  <data name="SettingsPage_Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="SettingsPage_Questions" xml:space="preserve">
+    <value>Soru</value>
+  </data>
+  <data name="SettingsPage_Title" xml:space="preserve">
+    <value>Ayarlar</value>
+  </data>
+  <data name="ShellView_Help" xml:space="preserve">
+    <value>Yardım</value>
+  </data>
+  <data name="ShellView_History" xml:space="preserve">
+    <value>Tarih</value>
+  </data>
+  <data name="ShellView_Home" xml:space="preserve">
+    <value>Ev</value>
+  </data>
+  <data name="ShellView_Settings.Text" xml:space="preserve">
+    <value>Ayarlar</value>
+  </data>
+  <data name="Sign_In.Text" xml:space="preserve">
+    <value>Oturum Aç</value>
+  </data>
+  <data name="SignInDialog_Description.Text" xml:space="preserve">
+    <value>Jabra cihazınızla birden fazla global dilde anında iletişim kurun.</value>
+  </data>
+  <data name="SignInDialog_SignInButton.Content" xml:space="preserve">
+    <value>Oturum Aç</value>
+  </data>
+  <data name="Translate_Button.Text" xml:space="preserve">
+    <value>Çevir</value>
+  </data>
+  <data name="TranslationPage_EndSession.Text" xml:space="preserve">
+    <value>Oturumu sonlandırma</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOn" xml:space="preserve">
+    <value>Mikrofon Açık</value>
+  </data>
+  <data name="TranslationPage_SpeakerOn" xml:space="preserve">
+    <value>Hoparlör Açık</value>
+  </data>
+  <data name="TranslationPage_SpeakNow.Text" xml:space="preserve">
+    <value>Şimdi Konuş</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Hakkında</value>
+  </data>
+  <data name="AboutPage_AppVersion.Text" xml:space="preserve">
+    <value>Uygulama Sürümü</value>
+  </data>
+  <data name="AboutPage_CheckUpdate.Content" xml:space="preserve">
+    <value>Güncellemeleri kontrol edin</value>
+  </data>
+  <data name="AboutPage_DataConsent" xml:space="preserve">
+    <value>Kuruluşunuz verilerinizi buluta kaydetmeye izin vermiştir.</value>
+  </data>
+  <data name="AboutPage_NoDataConsent" xml:space="preserve">
+    <value>Kuruluşunuz verilerinizi buluta kaydetmek için izin vermedi.</value>
+  </data>
+  <data name="AboutPage_Published.Text" xml:space="preserve">
+    <value>FITTS Limited tarafından yayınlanmıştır.</value>
+  </data>
+  <data name="AppClose_Close.Content" xml:space="preserve">
+    <value>Yine de Kapat</value>
+  </data>
+  <data name="AppClose_Dismiss.Content" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="AppClose_Warning.Text" xml:space="preserve">
+    <value>Devam eden bir oturumunuz var. Lütfen uygulamadan çıkmadan önce oturumu sonlandırın.</value>
+  </data>
+  <data name="AppVersion.Text" xml:space="preserve">
+    <value>Uygulama sürümü</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Button.Content" xml:space="preserve">
+    <value>Oturuma Devam Et</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Description.Text" xml:space="preserve">
+    <value>Oturum şu şekilde sona erecektir:</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Title.Text" xml:space="preserve">
+    <value>Ses Algılanmadı</value>
+  </data>
+  <data name="AudioPlayer_Error.Text" xml:space="preserve">
+    <value>Ses yüklenemedi</value>
+  </data>
+  <data name="DashboardPage_DefaultLanguageError" xml:space="preserve">
+    <value>Kaydedilmiş Varsayılan Çeviri Diliniz yok. Varsayılan Çeviri Dili seçmek için Ayarlar -&gt; Diller'e gidin ve Kaydet'e tıklayın.</value>
+  </data>
+  <data name="DashboardPage_TargetLanguageError" xml:space="preserve">
+    <value>Hedef Çeviri Dili seçmediniz. Lütfen bir dil seçin ve ardından Çevir'e tıklayın.</value>
+  </data>
+  <data name="DevicesErrorDialog_DualDeviceError" xml:space="preserve">
+    <value>Çift Cihaz çevirisi'ni seçtiniz, ancak Kişi 2 için seçili bir cihazınız yok. Bir Mikrofon ve Hoparlör seçmek için Ayarlar -&gt; Cihazlar'a gidin ve ardından Kaydet'e tıklayın.</value>
+  </data>
+  <data name="DevicesPage_Title.Text" xml:space="preserve">
+    <value>Aygıtları</value>
+  </data>
+  <data name="DevicesPage_Wifi_Password.Text" xml:space="preserve">
+    <value>Şifre Girin</value>
+  </data>
+  <data name="DevicesPage_WifiStatus.Text" xml:space="preserve">
+    <value>Wifi durumu</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Düzenlemek</value>
+  </data>
+  <data name="Expiry.Text" xml:space="preserve">
+    <value>Bitiş</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Geri besleme</value>
+  </data>
+  <data name="FeedbackMessage.Text" xml:space="preserve">
+    <value>Herhangi bir geri bildiriminiz veya sorunuz varsa, iletişime geçmekten çekinmeyin.</value>
+  </data>
+  <data name="GetInTouchButton.Text" xml:space="preserve">
+    <value>İletişime geçin</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Yardım</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>Tarih</value>
+  </data>
+  <data name="History_ExportBtn.Text" xml:space="preserve">
+    <value>Ihracat</value>
+  </data>
+  <data name="HistoryExportButtonTooltip.Text" xml:space="preserve">
+    <value>Ihracat</value>
+  </data>
+  <data name="HistoryListColumnDate.Text" xml:space="preserve">
+    <value>Tarih</value>
+  </data>
+  <data name="HistoryListColumnDuration.Text" xml:space="preserve">
+    <value>Süre</value>
+  </data>
+  <data name="HistoryListColumnPrimaryLanguage.Text" xml:space="preserve">
+    <value>Birincil Dil</value>
+  </data>
+  <data name="HistoryListColumnSecondaryLanguage.Text" xml:space="preserve">
+    <value>İkincil Dil</value>
+  </data>
+  <data name="HistoryListColumnSessionId.Text" xml:space="preserve">
+    <value>Oturum Kimliği</value>
+  </data>
+  <data name="InitalSetup_SkipSetup.Content" xml:space="preserve">
+    <value>Kurulumu atla</value>
+  </data>
+  <data name="InitialNetworkPopupConnectButton.Content" xml:space="preserve">
+    <value>Bağlamak</value>
+  </data>
+  <data name="InitialSetup_DeviceSelection.Text" xml:space="preserve">
+    <value>Cihaz Seçimi</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionDescription.Text" xml:space="preserve">
+    <value>Varsayılan ses cihazınızı ayarlama</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneMicrophone.Text" xml:space="preserve">
+    <value>Mikrofon Seç</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneSpeaker.Text" xml:space="preserve">
+    <value>Konuşmacı Seç</value>
+  </data>
+  <data name="InitialSetup_FinishSetup.Content" xml:space="preserve">
+    <value>Kurulumu tamamlayın</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection_Description.Text" xml:space="preserve">
+    <value>Varsayılan çeviri dilinizi ayarlama</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection.Text" xml:space="preserve">
+    <value>Dil Seçimi</value>
+  </data>
+  <data name="InitialSetup_NetworkSelection.Text" xml:space="preserve">
+    <value>Tercih edilen ağ</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopup.Text" xml:space="preserve">
+    <value>Ağa Bağlan</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopupPassword.Text" xml:space="preserve">
+    <value>Şifreyi girin:</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionDescription.Text" xml:space="preserve">
+    <value>Kullanılabilir ağlardan birini seçin</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionNoInternetConnection.Text" xml:space="preserve">
+    <value>İnternete bağlı değilsiniz. Lütfen ağ bağlantılarınızı kontrol edin.</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionOtherNetworks.Text" xml:space="preserve">
+    <value>Diğer Ağlar</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup_Description.Text" xml:space="preserve">
+    <value>Uygulama geçiş kodunuzu ayarlama</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup.Text" xml:space="preserve">
+    <value>Parola Ayarları</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Dil</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage_Description.Text" xml:space="preserve">
+    <value>Uygulama Dilini Seçin</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage.Text" xml:space="preserve">
+    <value>Uygulama Dili</value>
+  </data>
+  <data name="LanguagesPage_AppLanguageDropdown.PlaceholderText" xml:space="preserve">
+    <value>Bir dil seçin</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage_Description.Text" xml:space="preserve">
+    <value>Kullandığınız varsayılan dil</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage.Text" xml:space="preserve">
+    <value>Varsayılan dilim</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguageDropDown.PlaceholderText" xml:space="preserve">
+    <value>Bir dil seçin</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description.Text" xml:space="preserve">
+    <value>Geçmiş bölümü (çok cihazlı çeviriler için)</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description1.Text" xml:space="preserve">
+    <value>* Tek cihaz çevirileri tüm sesleri varsayılan olarak çalar *</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage.Text" xml:space="preserve">
+    <value>Varsayılan Oynatma Dili</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguages.Text" xml:space="preserve">
+    <value>Hızlı görünüm Dilleri</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguagesDropdown.PlaceholderText" xml:space="preserve">
+    <value>Dil ekleme</value>
+  </data>
+  <data name="LanguagesPage_Title.Text" xml:space="preserve">
+    <value>Diller</value>
+  </data>
+  <data name="Licence" xml:space="preserve">
+    <value>Lisans</value>
+  </data>
+  <data name="LicenseType.Text" xml:space="preserve">
+    <value>Lisans Türü:</value>
+  </data>
+  <data name="NetworkConnectionError" xml:space="preserve">
+    <value>Hata:</value>
+  </data>
+  <data name="Next.Content" xml:space="preserve">
+    <value>Önümüzdeki</value>
+  </data>
+  <data name="PasscodeError_MinimumLength" xml:space="preserve">
+    <value>Minimum şifre uzunluğu 4 olmalıdır.</value>
+  </data>
+  <data name="PasscodeError_NotMatching" xml:space="preserve">
+    <value>Girilen parolalar eşleşmiyor. Lütfen şifreleri tekrar girin ve tekrar deneyin.</value>
+  </data>
+  <data name="Person.Text" xml:space="preserve">
+    <value>Kişi</value>
+  </data>
+  <data name="PrivacyPolicy.Text" xml:space="preserve">
+    <value>Gizlilik Politikası</value>
+  </data>
+  <data name="ProfilePage_Email_Description.Text" xml:space="preserve">
+    <value>Varsayılan dışa aktarma e-postası</value>
+  </data>
+  <data name="ProfilePage_Email.Text" xml:space="preserve">
+    <value>E-posta</value>
+  </data>
+  <data name="ProfilePage_Passcode_Description.Text" xml:space="preserve">
+    <value>Uygulama şifreniz</value>
+  </data>
+  <data name="ProfilePage_Passcode.Text" xml:space="preserve">
+    <value>Şifre</value>
+  </data>
+  <data name="ProfilePage_Timeout_Description.Text" xml:space="preserve">
+    <value>Yönetici modu kilidinin sıklığı</value>
+  </data>
+  <data name="ProfilePage_Timeout.Text" xml:space="preserve">
+    <value>Yönetici modu zaman aşımı</value>
+  </data>
+  <data name="ProfilePage_TimeoutDropdown.PlaceholderText" xml:space="preserve">
+    <value>Bir zaman seçin</value>
+  </data>
+  <data name="ProfilePage_Title.Text" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="PublishedBy.Text" xml:space="preserve">
+    <value>Yayımlayan</value>
+  </data>
+  <data name="ReleaseNotesMessage.Text" xml:space="preserve">
+    <value>Sürüm notları yakında güncellenecektir</value>
+  </data>
+  <data name="Save_Text" xml:space="preserve">
+    <value>Kurtarmak</value>
+  </data>
+  <data name="SessionDetailsPage_Description.Text" xml:space="preserve">
+    <value>Transkripsiyon Tarihçesi</value>
+  </data>
+  <data name="SessionDetailsPage_Duration.Text" xml:space="preserve">
+    <value>Süre</value>
+  </data>
+  <data name="SessionDetailsPage_SessionID.Text" xml:space="preserve">
+    <value>Oturum Kimliği</value>
+  </data>
+  <data name="SessionDetailsPage_Title.Text" xml:space="preserve">
+    <value>Tarih</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Ayarlar</value>
+  </data>
+  <data name="TermsOfUse.Text" xml:space="preserve">
+    <value>Kullanım Şartları</value>
+  </data>
+  <data name="TranslationPage_SettingUpState" xml:space="preserve">
+    <value>Ayarlama...</value>
+  </data>
+  <data name="TranslationPage_SpeakFast" xml:space="preserve">
+    <value>Daha iyi çeviri sonuçları için biraz daha hızlı konuşmayı deneyin.</value>
+  </data>
+  <data name="TranslationPage_SpeakIn" xml:space="preserve">
+    <value>Konuşun</value>
+  </data>
+  <data name="TranslationPage_SpeakSlow" xml:space="preserve">
+    <value>Daha iyi çeviri sonuçları için biraz daha yavaş konuşmayı deneyin.</value>
+  </data>
+  <data name="TranslationPage_Switching" xml:space="preserve">
+    <value>Geçiş</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonOne" xml:space="preserve">
+    <value>Kişi 1'e geçme</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonTwo" xml:space="preserve">
+    <value>Kişi 2'ye geçin</value>
+  </data>
+  <data name="TranslationPage_TranslationReadyState" xml:space="preserve">
+    <value>Şimdi konuşun</value>
+  </data>
+  <data name="Website.Text" xml:space="preserve">
+    <value>İnternet Sitesi</value>
+  </data>
+  <data name="WhatsNew" xml:space="preserve">
+    <value>Yenilikler</value>
+  </data>
+  <data name="WhatsNewInSpeechly.Text" xml:space="preserve">
+    <value>Yenilikler</value>
+  </data>
+  <data name="AudioDevicesSelectorDualDevice.Content" xml:space="preserve">
+    <value>Çift Cihaz</value>
+  </data>
+  <data name="AudioDevicesSelectorSingleDevice.Content" xml:space="preserve">
+    <value>Tek Cihaz</value>
+  </data>
+  <data name="AutoDetectSearchCountry.PlaceholderText" xml:space="preserve">
+    <value>Ülke ara</value>
+  </data>
+  <data name="AutoDetectSelectLanguage.Text" xml:space="preserve">
+    <value>Dilinizi seçin</value>
+  </data>
+  <data name="ChatViewPersonOne" xml:space="preserve">
+    <value>Birinci Kişi</value>
+  </data>
+  <data name="ChatViewPersonTwo" xml:space="preserve">
+    <value>İkinci Kişi</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionLost" xml:space="preserve">
+    <value>İnternet bağlantısı kesildi. Lütfen bağlantınızı kontrol edin ve tekrar deneyin.</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionUnstable" xml:space="preserve">
+    <value>İnternet bağlantınız yavaş. Biraz gecikme yaşayabilirsiniz.</value>
+  </data>
+  <data name="CustomTagSelectionTitle.Text" xml:space="preserve">
+    <value>Kuruluş Etiketleri (eklemek için seçin)</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.Header" xml:space="preserve">
+    <value>Dil değiştirmek için kullanıcı bayrağı</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OffContent" xml:space="preserve">
+    <value>Sakat</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OnContent" xml:space="preserve">
+    <value>Etkin</value>
+  </data>
+  <data name="DetectLanguageButton.Content" xml:space="preserve">
+    <value>Dili Algıla</value>
+  </data>
+  <data name="DevicesPageNetworkSetupBluetoothStatus.Text" xml:space="preserve">
+    <value>Bluetooth durumu :</value>
+  </data>
+  <data name="DevicesPageNetworkSetupConnectAutomatically.Text" xml:space="preserve">
+    <value>Otomatik Bağlan</value>
+  </data>
+  <data name="DevicesPageNetworkSetupWiFiStatus.Text" xml:space="preserve">
+    <value>WiFi durumu :</value>
+  </data>
+  <data name="Dimiss.Content" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="Duration.Text" xml:space="preserve">
+    <value>|  Süre</value>
+  </data>
+  <data name="EmailPopup_Description.Text" xml:space="preserve">
+    <value>E-posta adresinizi girin</value>
+  </data>
+  <data name="EmailPopup_Title.Text" xml:space="preserve">
+    <value>Oturumunuza e-posta gönderme</value>
+  </data>
+  <data name="ForcedUpdateDialogCaption" xml:space="preserve">
+    <value>Şunlar için kritik güncelleştirmelerimiz var:</value>
+  </data>
+  <data name="ForcedUpdateDialogInstallBtnText" xml:space="preserve">
+    <value>Güncelleştirmek</value>
+  </data>
+  <data name="ForcedUpdateDialogTitle" xml:space="preserve">
+    <value>Kritik Güncellemeler</value>
+  </data>
+  <data name="GoBack.Content" xml:space="preserve">
+    <value>Geri Git</value>
+  </data>
+  <data name="HelpPageSignOut.Content" xml:space="preserve">
+    <value>Oturumu Kapat</value>
+  </data>
+  <data name="History_Export.Text" xml:space="preserve">
+    <value>Dosya oluşturuluyor...</value>
+  </data>
+  <data name="HistoryListColumnSessionName.Text" xml:space="preserve">
+    <value>Ad</value>
+  </data>
+  <data name="HistoryListColumnSynced.Text" xml:space="preserve">
+    <value>Senkronize</value>
+  </data>
+  <data name="HistorySearchBox.PlaceholderText" xml:space="preserve">
+    <value>Dil, oturum adı, etiketler veya kimlikler</value>
+  </data>
+  <data name="HistorySearchButtonTooltip.Text" xml:space="preserve">
+    <value>Aramak</value>
+  </data>
+  <data name="HistorySearchClearButtonTooltip.Text" xml:space="preserve">
+    <value>Berrak</value>
+  </data>
+  <data name="HistorySearchFromDate.Header" xml:space="preserve">
+    <value>Kaynak:</value>
+  </data>
+  <data name="HistorySearchToDate.Header" xml:space="preserve">
+    <value>Hedef:</value>
+  </data>
+  <data name="HistoryShareButtonTooltip.Text" xml:space="preserve">
+    <value>Paylaş/Gönder</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonOne.Text" xml:space="preserve">
+    <value>Kişi 1</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonTwo.Text" xml:space="preserve">
+    <value>Kişi 2</value>
+  </data>
+  <data name="LoginPageTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NewVersionDialogCaption" xml:space="preserve">
+    <value>Yeni uygulama sürümünü yükleyin</value>
+  </data>
+  <data name="NewVersionDialogDescription" xml:space="preserve">
+    <value>Yeni özellikler ve hata düzeltmeleri eksik olacak </value>
+  </data>
+  <data name="NewVersionDialogInstallBtnText" xml:space="preserve">
+    <value>Yeni Sürüm Yükleme</value>
+  </data>
+  <data name="NewVersionDialogTitle" xml:space="preserve">
+    <value>Yeni Uygulama Sürümü</value>
+  </data>
+  <data name="NextText" xml:space="preserve">
+    <value>Önümüzdeki</value>
+  </data>
+  <data name="ProfilePageEditButton.Content" xml:space="preserve">
+    <value>Düzenlemek</value>
+  </data>
+  <data name="QuestionsButton.Content" xml:space="preserve">
+    <value>Sorulara bakın</value>
+  </data>
+  <data name="QuestionSettingsDescription.Text" xml:space="preserve">
+    <value>Soru kısayollarınızı görüntüleme veya değiştirme</value>
+  </data>
+  <data name="QuestionSettingsInstructionOne.Text" xml:space="preserve">
+    <value>* Her soru için 1-9 arası sayılar kullanın. Sıfır (0) dikkate alınmayacaktır.</value>
+  </data>
+  <data name="QuestionSettingsInstructionThree.Text" xml:space="preserve">
+    <value>* Sadece 9 soruya kısayol atayabilirsiniz.</value>
+  </data>
+  <data name="QuestionSettingsListTitle.Text" xml:space="preserve">
+    <value>Soru Listesi :</value>
+  </data>
+  <data name="ResellerEmailAddress.Text" xml:space="preserve">
+    <value>Bayi E-posta Adresi :</value>
+  </data>
+  <data name="ResellerName.Text" xml:space="preserve">
+    <value>Bayi Adı :</value>
+  </data>
+  <data name="SelectFlag.Text" xml:space="preserve">
+    <value>Bayrağınızı seçin:</value>
+  </data>
+  <data name="Send.Content" xml:space="preserve">
+    <value>Gönder</value>
+  </data>
+  <data name="SessionDetailsPage_SessionName.Text" xml:space="preserve">
+    <value>Oturum Adı</value>
+  </data>
+  <data name="SessionID.Text" xml:space="preserve">
+    <value>Oturum Kimliği : -</value>
+  </data>
+  <data name="SessionMetadataDialog_ContinueButton.Text" xml:space="preserve">
+    <value>Devam etmek</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTags.Text" xml:space="preserve">
+    <value>Özel Etiket(ler)</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Etiket adını buraya girin</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextboxHelper.Text" xml:space="preserve">
+    <value>Enter tuşuna basın</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTags.Text" xml:space="preserve">
+    <value>Varsayılan Etiket(ler)</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Buraya değer girin</value>
+  </data>
+  <data name="SessionMetadataDialog_Description.Text" xml:space="preserve">
+    <value>Zorunlu alanlar ' ile işaretlenir</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionName.Text" xml:space="preserve">
+    <value>Oturum Adı</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionNameTextbox.PlaceholderText" xml:space="preserve">
+    <value>örneğin hasta sıfır</value>
+  </data>
+  <data name="SessionMetadataDialog_Title.Text" xml:space="preserve">
+    <value>Oturum adı ve etiket ekleme</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorActionMessage" xml:space="preserve">
+    <value>Hesabınızı etkinleştirmek için lütfen yöneticinize başvurun.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorMessage" xml:space="preserve">
+    <value>Hesabınız devre dışı bırakıldı.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorActionMessage" xml:space="preserve">
+    <value>Hesabınızı oluşturmak için lütfen yöneticinize başvurun.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorMessage" xml:space="preserve">
+    <value>Hesabınız silindi.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorActionMessage" xml:space="preserve">
+    <value>Hesabınızı etkinleştirmek için lütfen yöneticinize başvurun.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorMessage" xml:space="preserve">
+    <value>Hesabınız devre dışı bırakıldı.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorActionMessage" xml:space="preserve">
+    <value>Hesabınızı oluşturmak için lütfen yöneticinize başvurun.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorMessage" xml:space="preserve">
+    <value>Aktif bir Hesabınız yok.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorActionMessage" xml:space="preserve">
+    <value>Lisansınızı yenilemek için lütfen yöneticinize başvurun.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorMessage" xml:space="preserve">
+    <value>Lisansınızın süresi doldu.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorActionMessage" xml:space="preserve">
+    <value>Lisansınızı etkinleştirmek için lütfen yöneticinize başvurun.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorMessage" xml:space="preserve">
+    <value>Lisansınız devre dışı bırakıldı.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorActionMessage" xml:space="preserve">
+    <value>Lütfen yöneticinize başvurun.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorMessage" xml:space="preserve">
+    <value>Lisansınız askıya alındı.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorActionMessage" xml:space="preserve">
+    <value>Size bir lisans ataması için lütfen yöneticinize başvurun.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorMessage" xml:space="preserve">
+    <value>Size atanmış bir lisansınız yok.</value>
+  </data>
+  <data name="StartupPage2020.Text" xml:space="preserve">
+    <value>2021 </value>
+  </data>
+  <data name="StartupPageErrorDescription.Text" xml:space="preserve">
+    <value>Bir hata oluştu. Lütfen İnternet Bağlantınızı kontrol edin ve tekrar deneyin.</value>
+  </data>
+  <data name="StartupPagePoweredBy.Text" xml:space="preserve">
+    <value>Destekçi </value>
+  </data>
+  <data name="StartupPageProgressDescription.Text" xml:space="preserve">
+    <value>Bu işlem birkaç saniye sürebilir</value>
+  </data>
+  <data name="StartupPageRetryButton.Content" xml:space="preserve">
+    <value>Yeni -den deneme</value>
+  </data>
+  <data name="StartupPageRightsReserved.Text" xml:space="preserve">
+    <value>Tüm hakları saklıdır.</value>
+  </data>
+  <data name="StartUpPageSettingUpMessage" xml:space="preserve">
+    <value>Ayarlama...</value>
+  </data>
+  <data name="StartupPageTitleDescription.Text" xml:space="preserve">
+    <value>Hoşgeldiniz </value>
+  </data>
+  <data name="TranslateText" xml:space="preserve">
+    <value>Çevir</value>
+  </data>
+  <data name="TranslationLicenceUseError" xml:space="preserve">
+    <value>Lisansınız şu anda başka bir oturumda kullanılıyor.</value>
+  </data>
+  <data name="TranslationLimitReachedError" xml:space="preserve">
+    <value>Oturum başına maksimum süre sınırınıza ulaştınız. Oturumun sona ermesi.</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOff" xml:space="preserve">
+    <value>Mikrofon Kapalı</value>
+  </data>
+  <data name="TranslationPage_SpeakerOff" xml:space="preserve">
+    <value>Hoparlör Kapalı</value>
+  </data>
+  <data name="TranslationTimeDepletedError" xml:space="preserve">
+    <value>Çeviri tutanaklarınız tükendi. Lütfen yöneticinize başvurun.</value>
+  </data>
+  <data name="UnsupportedVersionDialogBtntext" xml:space="preserve">
+    <value>Güncelleştirmek</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption" xml:space="preserve">
+    <value>Kritik güncelleştirmeler şunlar için gereklidir: </value>
+  </data>
+  <data name="UnsupportedVersionDialogDescription" xml:space="preserve">
+    <value>Özellik ve güvenlik güncellemelerini almaya devam etmek için uygulamanızı güncelleyin.</value>
+  </data>
+  <data name="UnsupportedVersionDialogTitle" xml:space="preserve">
+    <value>Desteklenmeyen Uygulama Sürümü</value>
+  </data>
+  <data name="UpdateDialogWhatsNew.Text" xml:space="preserve">
+    <value>Yenilikler nelerdir?</value>
+  </data>
+  <data name="Zoom.Text" xml:space="preserve">
+    <value>Yakınlaştırmak</value>
+  </data>
+  <data name="Add.Content" xml:space="preserve">
+    <value>Eklemek</value>
+  </data>
+  <data name="AddNewQuestion.Text" xml:space="preserve">
+    <value>Önceden tanımlanmış yeni soru ekleme</value>
+  </data>
+  <data name="AddQuestion.Content" xml:space="preserve">
+    <value>Soru Ekle</value>
+  </data>
+  <data name="ChooseLanguage.Text" xml:space="preserve">
+    <value>Varsayılan dili seçme</value>
+  </data>
+  <data name="CustomProfileAdded" xml:space="preserve">
+    <value>Profil adı başarıyla eklendi.</value>
+  </data>
+  <data name="CustomProfileDeleted" xml:space="preserve">
+    <value>Profil başarıyla silindi.</value>
+  </data>
+  <data name="CustomProfileInvalidName" xml:space="preserve">
+    <value>Hata! Geçersiz profil adı.</value>
+  </data>
+  <data name="CustomProfileNotDeleted" xml:space="preserve">
+    <value>Silinecek profil yok.</value>
+  </data>
+  <data name="CustomProfileNotSaved" xml:space="preserve">
+    <value>Hata! Hiçbir profil kaydedilmedi.</value>
+  </data>
+  <data name="CustomProfileProfileSaved" xml:space="preserve">
+    <value>Profil başarıyla kaydedildi.</value>
+  </data>
+  <data name="DataRequestMessage" xml:space="preserve">
+    <value>Herhangi bir metin seçmediniz. Lütfen paylaşmak için metin seçin ve tekrar deneyin.</value>
+  </data>
+  <data name="DevicesAddProfileButton.Content" xml:space="preserve">
+    <value>Eklemek</value>
+  </data>
+  <data name="DevicesAvailableProfiles.Text" xml:space="preserve">
+    <value>Kullanılabilir profiller</value>
+  </data>
+  <data name="DevicesDefaultProfile.Text" xml:space="preserve">
+    <value>Varsayılan profil:</value>
+  </data>
+  <data name="DevicesDeleteProfileBtn.Content" xml:space="preserve">
+    <value>Profili Sil</value>
+  </data>
+  <data name="DeviceSetupChanged" xml:space="preserve">
+    <value>Bağlı ses cihazları güncellendi </value>
+  </data>
+  <data name="DevicesHelpfulTip1.Text" xml:space="preserve">
+    <value>1. Bir profil adı ayarlayın</value>
+  </data>
+  <data name="DevicesHelpfulTip2.Text" xml:space="preserve">
+    <value>2. Tek veya çift cihaz modlarını seçin</value>
+  </data>
+  <data name="DevicesHelpfulTip3.Text" xml:space="preserve">
+    <value>3. Hoparlör(ler)i ve mikrofon(lar)ı seçin</value>
+  </data>
+  <data name="DevicesHelpfulTip4.Text" xml:space="preserve">
+    <value>4. Profilinizi varsayılan olarak ayarlayın</value>
+  </data>
+  <data name="DevicesHelpfulTip5.Text" xml:space="preserve">
+    <value>5. Profilinizi kaydetmek için Profili Kaydet düğmesine tıklayın</value>
+  </data>
+  <data name="DevicesHelpfulTips.Text" xml:space="preserve">
+    <value>Faydalı ipuçları</value>
+  </data>
+  <data name="DevicesProfileNameTextBox.PlaceholderText" xml:space="preserve">
+    <value>Profil adı...</value>
+  </data>
+  <data name="DevicesSaveProfileBtn.Content" xml:space="preserve">
+    <value>Profili Kaydet</value>
+  </data>
+  <data name="DevicesSetasDefault.Text" xml:space="preserve">
+    <value>Varsayılan olarak ayarla</value>
+  </data>
+  <data name="DevicesSetProfileButton.Content" xml:space="preserve">
+    <value>Profili ayarla</value>
+  </data>
+  <data name="DevicesSetProfileText.Text" xml:space="preserve">
+    <value>Özel bir profil mi ayarladınız?</value>
+  </data>
+  <data name="DiscardButton.Content" xml:space="preserve">
+    <value>Atmak</value>
+  </data>
+  <data name="DismissButton.Content" xml:space="preserve">
+    <value>Kapatmak</value>
+  </data>
+  <data name="DismissText.Text" xml:space="preserve">
+    <value>Kapatmak</value>
+  </data>
+  <data name="DownloadAudio.Text" xml:space="preserve">
+    <value>Ses İndir</value>
+  </data>
+  <data name="DownloadCancel" xml:space="preserve">
+    <value>İndirme iptal edildi</value>
+  </data>
+  <data name="Downloaded" xml:space="preserve">
+    <value>Indirilen</value>
+  </data>
+  <data name="DownloadError" xml:space="preserve">
+    <value>Hata oluştu</value>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>Indiriyor</value>
+  </data>
+  <data name="DownloadPaused" xml:space="preserve">
+    <value>İndirme Duraklatıldı</value>
+  </data>
+  <data name="DualDeviceUpdated" xml:space="preserve">
+    <value>Çift Cihaz kurulumu başarıyla güncellendi</value>
+  </data>
+  <data name="EnterQuestion.Text" xml:space="preserve">
+    <value>Aşağıya soru girin</value>
+  </data>
+  <data name="ErrorDescription.Text" xml:space="preserve">
+    <value>Değişiklikleriniz kaydedilmedi, bunları kaydetmek mi yoksa atmak mı istiyorsunuz?</value>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>Bir şeyler ters gitti.. Yeniden Deneyin</value>
+  </data>
+  <data name="ErrorTitle.Text" xml:space="preserve">
+    <value>Kaydedilmemiş değişiklikleriniz var</value>
+  </data>
+  <data name="FeedbackEight.Text" xml:space="preserve">
+    <value>Birbirimizin sözünü kesmeye devam ettik</value>
+  </data>
+  <data name="FeedbackFive.Text" xml:space="preserve">
+    <value>Çağrıda yankı duydum</value>
+  </data>
+  <data name="FeedbackFour.Text" xml:space="preserve">
+    <value>Arka plan seslerini aldı</value>
+  </data>
+  <data name="FeedbackOne.Text" xml:space="preserve">
+    <value>Sesimi doğru almadı</value>
+  </data>
+  <data name="FeedbackQuestion.Text" xml:space="preserve">
+    <value>Daha iyi ne olabilirdi?</value>
+  </data>
+  <data name="FeedbackSeven.Text" xml:space="preserve">
+    <value>Oturum beklenmedik şekilde sona erdi</value>
+  </data>
+  <data name="FeedbackSix.Text" xml:space="preserve">
+    <value>Ses seviyesi çok düşüktü</value>
+  </data>
+  <data name="FeedbackThanks.Text" xml:space="preserve">
+    <value>Geri bildirim için teşekkürler</value>
+  </data>
+  <data name="FeedbackThree.Text" xml:space="preserve">
+    <value>Çeviri süresi çok yavaştı</value>
+  </data>
+  <data name="FeedbackTwo.Text" xml:space="preserve">
+    <value>Cümlelerimi yanlış çevirdi</value>
+  </data>
+  <data name="ForcedUpdateDialogCaptionContinuation" xml:space="preserve">
+    <value>işlev görmek için. Uygulama bu güncelleştirmeler olmadan çalışmaz.</value>
+  </data>
+  <data name="Improvement.Text" xml:space="preserve">
+    <value>Deneyiminizi geliştirmek için çalışmaya devam edeceğiz.</value>
+  </data>
+  <data name="LanguageSettingsUpdated" xml:space="preserve">
+    <value>Dil değişiklikleri başarıyla güncellendi</value>
+  </data>
+  <data name="NewVersionDialogDescription2" xml:space="preserve">
+    <value>ve sizin sürümünüz</value>
+  </data>
+  <data name="NewVersionDialogDescription3" xml:space="preserve">
+    <value>desteksiz hale gelebilir.</value>
+  </data>
+  <data name="Other.Text" xml:space="preserve">
+    <value>Diğer Yorumlar:</value>
+  </data>
+  <data name="PasswordUpdated" xml:space="preserve">
+    <value>Şifre Başarıyla Değiştirildi</value>
+  </data>
+  <data name="PlaybackLanguageUpdated" xml:space="preserve">
+    <value>Varsayılan oynatma dili başarıyla değiştirildi</value>
+  </data>
+  <data name="QuestionAdded" xml:space="preserve">
+    <value>Soru Başarıyla Eklendi</value>
+  </data>
+  <data name="QuestionDeleted" xml:space="preserve">
+    <value>Soru Başarıyla Silindi</value>
+  </data>
+  <data name="Questions.Text" xml:space="preserve">
+    <value>Soru</value>
+  </data>
+  <data name="QuestionSettingsInstructionTwo.Text" xml:space="preserve">
+    <value>* Her sorunun farklı bir kısayol tuşu olmalıdır.</value>
+  </data>
+  <data name="QuestionsValidationError.Text" xml:space="preserve">
+    <value>* Doğrulamalarınızı kontrol edin ve tekrar deneyin.</value>
+  </data>
+  <data name="QuickViewLanguagesUpdated" xml:space="preserve">
+    <value>Hızlı görünüm dilleri başarıyla güncellendi</value>
+  </data>
+  <data name="SendFeedback.Content" xml:space="preserve">
+    <value>Geri Bildirim Gönder</value>
+  </data>
+  <data name="SessionFeedbackPrompt" xml:space="preserve">
+    <value>Çeviri oturumunuzu nasıl değerlendirirsiniz?</value>
+  </data>
+  <data name="SessionFeedbackTitle" xml:space="preserve">
+    <value>Çeviri Geri Bildirimi</value>
+  </data>
+  <data name="ShortcutSuccess" xml:space="preserve">
+    <value>Soru kısayolları başarıyla güncellendi</value>
+  </data>
+  <data name="SingleDeviceUpdated" xml:space="preserve">
+    <value>Tek Cihaz kurulumu başarıyla güncellendi</value>
+  </data>
+  <data name="StartupPageTitleDescription2.Text" xml:space="preserve">
+    <value>çeviri yazılımı.</value>
+  </data>
+  <data name="TimeoutUpdated" xml:space="preserve">
+    <value>Zaman aşımı başarıyla güncellendi</value>
+  </data>
+  <data name="TouchShareText" xml:space="preserve">
+    <value>Paylaş'a dokunun</value>
+  </data>
+  <data name="TranslationLanguageUpdated" xml:space="preserve">
+    <value>Varsayılan çeviri dili başarıyla değiştirildi</value>
+  </data>
+  <data name="TranslationPlaybackUpdated" xml:space="preserve">
+    <value>Varsayılan çeviri ve oynatma dili başarıyla değiştirildi</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption2" xml:space="preserve">
+    <value>işlev görmek için. Özellikler önceden haber verilmeksizin çalışmayı durdurabilir. Lütfen uygulamayı güncelleyin.</value>
+  </data>
+  <data name="UserFlagSwitch" xml:space="preserve">
+    <value>Güncelleştirilmiş dili değiştirmek için kullanıcı bayrağı</value>
+  </data>
+</root>

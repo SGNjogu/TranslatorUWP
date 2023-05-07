@@ -1,0 +1,80 @@
+﻿<ContentDialog
+    x:Class="SpeechlyTouch.Views.Popups.AudioNotDetectedDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:SpeechlyTouch.Views.Popups"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Padding="0"
+    Background="{Binding PrimaryBackgroundColor, Source={StaticResource DynamicColors}}"
+    DataContext="{Binding AudioNotDetectedViewModel, Source={StaticResource ViewModelLocator}}"
+    mc:Ignorable="d">
+
+    <Grid RowSpacing="30">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="2*" />
+        </Grid.RowDefinitions>
+
+        <Grid
+            Grid.Row="0"
+            Padding="5"
+            Background="{Binding PrimaryBackgroundColor, Source={StaticResource DynamicColors}}">
+            <TextBlock
+                x:Uid="AudioNotDetectedDialog_Title"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                FontSize="14"
+                FontWeight="SemiBold"
+                Foreground="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}"
+                Style="{StaticResource TextBlockStyle}" />
+        </Grid>
+
+        <StackPanel
+            Grid.Row="1"
+            HorizontalAlignment="Center"
+            Orientation="Horizontal"
+            Spacing="10">
+            <TextBlock
+                x:Uid="AudioNotDetectedDialog_Description"
+                VerticalAlignment="Center"
+                FontSize="12"
+                Foreground="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}"
+                Style="{StaticResource TextBlockStyle}" />
+            <Border
+                Width="40"
+                Height="20"
+                Background="{Binding PrimaryBackgroundColor, Source={StaticResource DynamicColors}}"
+                BorderBrush="{Binding BorderBrush, Source={StaticResource DynamicColors}}"
+                CornerRadius="5">
+                <TextBlock
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    FontSize="12"
+                    Foreground="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}"
+                    Style="{StaticResource TextBlockStyle}"
+                    Text="{Binding CountDownDisplay}" />
+            </Border>
+        </StackPanel>
+
+        <Button
+            x:Uid="AudioNotDetectedDialog_Button"
+            Grid.Row="2"
+            Padding="15,5,15,5"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Background="Transparent"
+            BorderBrush="{Binding AccentColor, Source={StaticResource DynamicColors}}"
+            BorderThickness="1.5"
+            Command="{Binding ContinueTranslationCommand}"
+            CornerRadius="5"
+            Foreground="{Binding AccentColor, Source={StaticResource DynamicColors}}"
+            PointerEntered="Button_PointerEntered"
+            PointerExited="Button_PointerExited"
+            Style="{StaticResource ButtonStyle}" />
+
+    </Grid>
+
+</ContentDialog>

@@ -1,0 +1,720 @@
+﻿<Page
+    x:Class="SpeechlyTouch.Views.ContentControls.SessionHistory.SessionHistoy"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:dataprimitives="using:Microsoft.Toolkit.Uwp.UI.Controls.Primitives"
+    xmlns:local="using:SpeechlyTouch.Views.ContentControls.SessionHistory"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Background="{Binding PrimaryBackgroundColor, Source={StaticResource DynamicColors}}"
+    NavigationCacheMode="Enabled"
+    mc:Ignorable="d">
+
+    <Grid>
+        <!--  Content Section  -->
+        <controls:DropShadowPanel
+            HorizontalContentAlignment="Stretch"
+            BlurRadius="5"
+            CornerRadius="20"
+            OffsetX="0"
+            OffsetY="3"
+            ShadowOpacity="0.70"
+            Color="{Binding BorderColor, Source={StaticResource DynamicColors}}">
+            <Grid Background="{Binding PrimaryBackgroundColor, Source={StaticResource DynamicColors}}">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <!--  Filter Section  -->
+                <Grid Grid.Row="0" Margin="50,0,50,20">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*" />
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="2*" />
+                    </Grid.ColumnDefinitions>
+                    <StackPanel
+                        Grid.Column="0"
+                        Margin="0,0,30,0"
+                        VerticalAlignment="Bottom">
+                        <controls:DockPanel VerticalAlignment="Bottom">
+                            <FontIcon
+                                Margin="5,0,5,10"
+                                VerticalAlignment="Center"
+                                FontFamily="{StaticResource SymbolThemeFontFamily}"
+                                FontSize="19"
+                                FontWeight="ExtraBold"
+                                Foreground="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}"
+                                Glyph="&#xE1A3;"
+                                HighContrastAdjustment="None" />
+                            <TextBox
+                                x:Name="searchBox"
+                                x:Uid="HistorySearchBox"
+                                Width="auto"
+                                VerticalAlignment="Center"
+                                BorderBrush="Transparent"
+                                FontSize="14"
+                                Foreground="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}"
+                                PointerEntered="searchBox_PointerEntered"
+                                Text="{Binding FilterSearchText, Mode=TwoWay}" />
+                        </controls:DockPanel>
+                        <Border
+                            Height="1.5"
+                            BorderBrush="{Binding BorderBrush, Source={StaticResource DynamicColors}}"
+                            BorderThickness="5" />
+                    </StackPanel>
+                    <controls:DockPanel
+                        Grid.Column="1"
+                        Margin="0,0,50,0"
+                        VerticalAlignment="Bottom">
+                        <StackPanel>
+                            <CalendarDatePicker
+                                x:Uid="HistorySearchFromDate"
+                                Padding="0"
+                                BorderThickness="0"
+                                Date="{Binding SearchFromDate, Mode=TwoWay}"
+                                FontSize="13" />
+                            <Border
+                                Height="1.5"
+                                Margin="0,5,0,0"
+                                BorderBrush="{Binding BorderBrush, Source={StaticResource DynamicColors}}"
+                                BorderThickness="5" />
+                        </StackPanel>
+                        <TextBlock
+                            Margin="30,0,30,0"
+                            VerticalAlignment="Center"
+                            FontSize="40"
+                            FontWeight="Light"
+                            Foreground="Gray"
+                            Text="-" />
+                        <StackPanel>
+                            <CalendarDatePicker
+                                x:Uid="HistorySearchToDate"
+                                Margin="0,0,0,0"
+                                BorderThickness="0"
+                                Date="{Binding SearchToDate, Mode=TwoWay}"
+                                FontSize="13" />
+                            <Border
+                                Height="1.5"
+                                Margin="0,5,0,0"
+                                BorderBrush="{Binding BorderBrush, Source={StaticResource DynamicColors}}"
+                                BorderThickness="5" />
+                        </StackPanel>
+                    </controls:DockPanel>
+
+                    <Grid
+                        Grid.Column="2"
+                        Margin="0,5,0,0"
+                        VerticalAlignment="Bottom"
+                        ColumnSpacing="0">
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+
+                        <Button
+                            Grid.Column="0"
+                            Padding="0"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            Background="Transparent"
+                            BorderThickness="0"
+                            Command="{Binding SearchCommand}"
+                            PointerEntered="Button_PointerEntered"
+                            PointerExited="Button_PointerExited"
+                            Style="{StaticResource ButtonStyle}"
+                            Visibility="{Binding IsVisibleExportAndShareButtons}">
+                            <ToolTipService.ToolTip>
+                                <TextBlock x:Uid="HistorySearchButtonTooltip" />
+                            </ToolTipService.ToolTip>
+
+                            <Button.Content>
+                                <StackPanel>
+                                    <Grid>
+                                        <Ellipse
+                                            Width="40"
+                                            Height="40"
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Center"
+                                            Stroke="{Binding AccentColor, Source={StaticResource DynamicColors}}"
+                                            StrokeThickness="1" />
+                                        <FontIcon
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Center"
+                                            FontFamily="{StaticResource SymbolThemeFontFamily}"
+                                            FontSize="15"
+                                            FontWeight="Bold"
+                                            Foreground="{Binding AccentColor, Source={StaticResource DynamicColors}}"
+                                            Glyph="&#xE721;"
+                                            HighContrastAdjustment="None" />
+                                    </Grid>
+                                    <TextBlock
+                                        x:Uid="HistorySearchButtonTooltip"
+                                        HorizontalAlignment="Center"
+                                        FontSize="13"
+                                        Foreground="{Binding AccentColor, Source={StaticResource DynamicColors}}" />
+                                </StackPanel>
+                            </Button.Content>
+
+                        </Button>
+
+                        <Button
+                            Grid.Column="1"
+                            Padding="0"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            Background="Transparent"
+                            BorderThickness="0"
+                            Command="{Binding ClearSearchCommand}"
+                            PointerEntered="Button_PointerEntered"
+                            PointerExited="Button_PointerExited"
+                            Style="{StaticResource ButtonStyle}"
+                            Visibility="{Binding IsVisibleExportAndShareButtons}">
+                            <ToolTipService.ToolTip>
+                                <TextBlock x:Uid="HistorySearchClearButtonTooltip" />
+                            </ToolTipService.ToolTip>
+
+                            <Button.Content>
+                                <StackPanel>
+                                    <Grid>
+                                        <Ellipse
+                                            Width="40"
+                                            Height="40"
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Center"
+                                            Stroke="{Binding AccentColor, Source={StaticResource DynamicColors}}"
+                                            StrokeThickness="1" />
+                                        <FontIcon
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Center"
+                                            FontFamily="{StaticResource SymbolThemeFontFamily}"
+                                            FontSize="15"
+                                            FontWeight="Bold"
+                                            Foreground="{Binding AccentColor, Source={StaticResource DynamicColors}}"
+                                            Glyph="&#xE894;"
+                                            HighContrastAdjustment="None" />
+                                    </Grid>
+                                    <TextBlock
+                                        x:Uid="HistorySearchClearButtonTooltip"
+                                        HorizontalAlignment="Center"
+                                        FontSize="13"
+                                        Foreground="{Binding AccentColor, Source={StaticResource DynamicColors}}" />
+                                </StackPanel>
+                            </Button.Content>
+
+                        </Button>
+
+                        <Button
+                            Grid.Column="2"
+                            Padding="0"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            Background="Transparent"
+                            BorderThickness="0"
+                            Command="{Binding ExportCommand}"
+                            PointerEntered="Button_PointerEntered"
+                            PointerExited="Button_PointerExited"
+                            Style="{StaticResource ButtonStyle}"
+                            Visibility="{Binding IsVisibleExportAndShareButtons}">
+                            <ToolTipService.ToolTip>
+                                <TextBlock x:Uid="HistoryExportButtonTooltip" />
+                            </ToolTipService.ToolTip>
+
+                            <Button.Content>
+                                <StackPanel>
+                                    <Grid>
+                                        <Ellipse
+                                            Width="40"
+                                            Height="40"
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Center"
+                                            HighContrastAdjustment="None"
+                                            Stroke="{Binding AccentColor, Source={StaticResource DynamicColors}}"
+                                            StrokeThickness="1" />
+
+                                        <FontIcon
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Center"
+                                            FontFamily="{StaticResource SymbolThemeFontFamily}"
+                                            FontSize="15"
+                                            FontWeight="Bold"
+                                            Foreground="{Binding AccentColor, Source={StaticResource DynamicColors}}"
+                                            Glyph="&#xEDE1;"
+                                            HighContrastAdjustment="None" />
+
+                                    </Grid>
+                                    <TextBlock
+                                        x:Uid="HistoryExportButtonTooltip"
+                                        HorizontalAlignment="Center"
+                                        FontSize="13"
+                                        Foreground="{Binding AccentColor, Source={StaticResource DynamicColors}}" />
+                                </StackPanel>
+                            </Button.Content>
+
+                        </Button>
+
+                        <Button
+                            Grid.Column="3"
+                            Padding="0"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            Background="Transparent"
+                            BorderThickness="0"
+                            Command="{Binding ShareCommand}"
+                            PointerEntered="Button_PointerEntered"
+                            PointerExited="Button_PointerExited"
+                            Style="{StaticResource ButtonStyle}"
+                            Visibility="{Binding IsVisibleExportAndShareButtons}">
+                            <ToolTipService.ToolTip>
+                                <TextBlock x:Uid="HistoryShareButtonTooltip" Text="Send/Share" />
+                            </ToolTipService.ToolTip>
+
+                            <Button.Content>
+                                <StackPanel>
+                                    <Grid>
+                                        <Ellipse
+                                            Width="40"
+                                            Height="40"
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Center"
+                                            HighContrastAdjustment="None"
+                                            Stroke="{Binding AccentColor, Source={StaticResource DynamicColors}}"
+                                            StrokeThickness="1" />
+
+                                        <FontIcon
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Center"
+                                            FontFamily="{StaticResource SymbolThemeFontFamily}"
+                                            FontSize="15"
+                                            FontWeight="Bold"
+                                            Foreground="{Binding AccentColor, Source={StaticResource DynamicColors}}"
+                                            Glyph="&#xE72D;"
+                                            HighContrastAdjustment="None" />
+
+                                    </Grid>
+                                    <TextBlock
+                                        x:Uid="HistoryShareButtonTooltip"
+                                        HorizontalAlignment="Center"
+                                        FontSize="13"
+                                        Foreground="{Binding AccentColor, Source={StaticResource DynamicColors}}" />
+                                </StackPanel>
+                            </Button.Content>
+
+                        </Button>
+
+                    </Grid>
+                </Grid>
+
+                <controls:DataGrid
+                    x:Name="HistoriesList"
+                    Grid.Row="1"
+                    Margin="50,5,50,5"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Top"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Top"
+                    AlternatingRowBackground="#F3F4F9"
+                    AutoGenerateColumns="False"
+                    GridLinesVisibility="None"
+                    HeadersVisibility="Column"
+                    HorizontalScrollBarVisibility="Disabled"
+                    IsReadOnly="True"
+                    ItemsSource="{Binding Histories}"
+                    RowHeight="60"
+                    SelectedItem="{Binding SelectedSession, Mode=TwoWay}"
+                    SelectionChanged="HistoriesList_SelectionChanged"
+                    VerticalScrollBarVisibility="Auto">
+                    <controls:DataGrid.RowStyle>
+                        <Style TargetType="controls:DataGridRow">
+                            <Setter Property="Foreground" Value="{Binding MenuBackgroundColor, Source={StaticResource DynamicColors}}" />
+                            <Setter Property="IsTapEnabled" Value="False" />
+                        </Style>
+                    </controls:DataGrid.RowStyle>
+                    <controls:DataGrid.Columns>
+                        <controls:DataGridTemplateColumn Width="2*">
+                            <controls:DataGridTemplateColumn.HeaderStyle>
+                                <Style TargetType="dataprimitives:DataGridColumnHeader">
+                                    <Setter Property="ContentTemplate">
+                                        <Setter.Value>
+                                            <DataTemplate>
+                                                <TextBlock
+                                                    x:Uid="HistoryListColumnSessionName"
+                                                    Margin="0"
+                                                    HorizontalAlignment="Center"
+                                                    FontWeight="SemiBold"
+                                                    HorizontalTextAlignment="Center"
+                                                    Opacity="0.6" />
+                                            </DataTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                    <Setter Property="Foreground" Value="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}" />
+                                    <Setter Property="SeparatorVisibility" Value="Collapsed" />
+                                    <Setter Property="Padding" Value="0" />
+                                    <Setter Property="HorizontalContentAlignment" Value="Center" />
+                                </Style>
+                            </controls:DataGridTemplateColumn.HeaderStyle>
+                            <controls:DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <controls:DockPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                                        <TextBlock
+                                            Margin="0"
+                                            HorizontalAlignment="Stretch"
+                                            FontSize="12"
+                                            FontWeight="Bold"
+                                            Foreground="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}"
+                                            Text="{Binding SessionName}" />
+                                    </controls:DockPanel>
+                                </DataTemplate>
+                            </controls:DataGridTemplateColumn.CellTemplate>
+                        </controls:DataGridTemplateColumn>
+                        <controls:DataGridTemplateColumn Width="3*">
+                            <controls:DataGridTemplateColumn.HeaderStyle>
+                                <Style TargetType="dataprimitives:DataGridColumnHeader">
+                                    <Setter Property="ContentTemplate">
+                                        <Setter.Value>
+                                            <DataTemplate>
+                                                <TextBlock
+                                                    x:Uid="HistoryListColumnPrimaryLanguage"
+                                                    Margin="0"
+                                                    HorizontalAlignment="Center"
+                                                    FontWeight="SemiBold"
+                                                    HorizontalTextAlignment="Center"
+                                                    Opacity="0.6" />
+                                            </DataTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                    <Setter Property="Foreground" Value="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}" />
+                                    <Setter Property="SeparatorVisibility" Value="Collapsed" />
+                                    <Setter Property="Padding" Value="0" />
+                                    <Setter Property="HorizontalContentAlignment" Value="Center" />
+                                </Style>
+                            </controls:DataGridTemplateColumn.HeaderStyle>
+                            <controls:DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <controls:DockPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                                        <TextBlock
+                                            Margin="0"
+                                            HorizontalAlignment="Stretch"
+                                            FontSize="12"
+                                            FontWeight="Bold"
+                                            Foreground="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}"
+                                            Text="{Binding DisplaySourceLanguage}" />
+                                    </controls:DockPanel>
+                                </DataTemplate>
+                            </controls:DataGridTemplateColumn.CellTemplate>
+                        </controls:DataGridTemplateColumn>
+                        <controls:DataGridTemplateColumn Width="3*">
+                            <controls:DataGridTemplateColumn.HeaderStyle>
+                                <Style TargetType="dataprimitives:DataGridColumnHeader">
+                                    <Setter Property="ContentTemplate">
+                                        <Setter.Value>
+                                            <DataTemplate>
+                                                <TextBlock
+                                                    x:Uid="HistoryListColumnSecondaryLanguage"
+                                                    Margin="0"
+                                                    HorizontalAlignment="Center"
+                                                    FontWeight="SemiBold"
+                                                    HorizontalTextAlignment="Center"
+                                                    Opacity="0.6" />
+                                            </DataTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                    <Setter Property="Foreground" Value="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}" />
+                                    <Setter Property="SeparatorVisibility" Value="Collapsed" />
+                                    <Setter Property="Padding" Value="0" />
+                                    <Setter Property="HorizontalContentAlignment" Value="Center" />
+                                </Style>
+                            </controls:DataGridTemplateColumn.HeaderStyle>
+                            <controls:DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <controls:DockPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                                        <TextBlock
+                                            Margin="0"
+                                            HorizontalAlignment="Center"
+                                            FontSize="12"
+                                            FontWeight="Bold"
+                                            Foreground="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}"
+                                            Text="{Binding DisplayTargetLanguage}" />
+                                    </controls:DockPanel>
+                                </DataTemplate>
+                            </controls:DataGridTemplateColumn.CellTemplate>
+                        </controls:DataGridTemplateColumn>
+                        <controls:DataGridTemplateColumn Width="2*">
+                            <controls:DataGridTemplateColumn.HeaderStyle>
+                                <Style TargetType="dataprimitives:DataGridColumnHeader">
+                                    <Setter Property="ContentTemplate">
+                                        <Setter.Value>
+                                            <DataTemplate>
+                                                <TextBlock
+                                                    x:Uid="HistoryListColumnDate"
+                                                    Margin="0"
+                                                    HorizontalAlignment="Center"
+                                                    FontWeight="SemiBold"
+                                                    HorizontalTextAlignment="Center"
+                                                    Opacity="0.6" />
+                                            </DataTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                    <Setter Property="Foreground" Value="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}" />
+                                    <Setter Property="SeparatorVisibility" Value="Collapsed" />
+                                </Style>
+                            </controls:DataGridTemplateColumn.HeaderStyle>
+                            <controls:DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <controls:DockPanel HorizontalAlignment="Left" VerticalAlignment="Center">
+                                        <TextBlock
+                                            Margin="0"
+                                            HorizontalAlignment="Center"
+                                            FontSize="12"
+                                            FontWeight="Bold"
+                                            Foreground="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}"
+                                            Text="{Binding RecordDate}" />
+                                    </controls:DockPanel>
+                                </DataTemplate>
+                            </controls:DataGridTemplateColumn.CellTemplate>
+                        </controls:DataGridTemplateColumn>
+                        <controls:DataGridTemplateColumn Width="2*">
+                            <controls:DataGridTemplateColumn.HeaderStyle>
+                                <Style TargetType="dataprimitives:DataGridColumnHeader">
+                                    <Setter Property="ContentTemplate">
+                                        <Setter.Value>
+                                            <DataTemplate>
+                                                <TextBlock
+                                                    x:Uid="HistoryListColumnSessionId"
+                                                    Margin="0"
+                                                    HorizontalAlignment="Center"
+                                                    FontWeight="SemiBold"
+                                                    HorizontalTextAlignment="Center"
+                                                    Opacity="0.6" />
+                                            </DataTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                    <Setter Property="Foreground" Value="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}" />
+                                    <Setter Property="SeparatorVisibility" Value="Collapsed" />
+                                </Style>
+                            </controls:DataGridTemplateColumn.HeaderStyle>
+                            <controls:DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <controls:DockPanel HorizontalAlignment="Left" VerticalAlignment="Center">
+                                        <TextBlock
+                                            Margin="0"
+                                            HorizontalAlignment="Left"
+                                            FontSize="12"
+                                            FontWeight="Bold"
+                                            Foreground="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}"
+                                            Text="{Binding SessionNumber}" />
+                                    </controls:DockPanel>
+                                </DataTemplate>
+                            </controls:DataGridTemplateColumn.CellTemplate>
+                        </controls:DataGridTemplateColumn>
+                        <controls:DataGridTemplateColumn Width="2*">
+                            <controls:DataGridTemplateColumn.HeaderStyle>
+                                <Style TargetType="dataprimitives:DataGridColumnHeader">
+                                    <Setter Property="ContentTemplate">
+                                        <Setter.Value>
+                                            <DataTemplate>
+                                                <TextBlock
+                                                    x:Uid="HistoryListColumnDuration"
+                                                    Margin="0"
+                                                    HorizontalAlignment="Center"
+                                                    FontWeight="SemiBold"
+                                                    HorizontalTextAlignment="Center"
+                                                    Opacity="0.6" />
+                                            </DataTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                    <Setter Property="Foreground" Value="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}" />
+                                    <Setter Property="SeparatorVisibility" Value="Collapsed" />
+                                </Style>
+                            </controls:DataGridTemplateColumn.HeaderStyle>
+                            <controls:DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <controls:DockPanel HorizontalAlignment="Left" VerticalAlignment="Center">
+                                        <TextBlock
+                                            Margin="0"
+                                            HorizontalAlignment="Left"
+                                            FontSize="12"
+                                            FontWeight="Bold"
+                                            Foreground="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}"
+                                            Text="{Binding DisplayDuration}" />
+                                    </controls:DockPanel>
+                                </DataTemplate>
+                            </controls:DataGridTemplateColumn.CellTemplate>
+                        </controls:DataGridTemplateColumn>
+                        <controls:DataGridTemplateColumn Width="2*">
+                            <controls:DataGridTemplateColumn.HeaderStyle>
+                                <Style TargetType="dataprimitives:DataGridColumnHeader">
+                                    <Setter Property="ContentTemplate">
+                                        <Setter.Value>
+                                            <DataTemplate>
+                                                <TextBlock
+                                                    x:Uid="HistoryListColumnSynced"
+                                                    Margin="0"
+                                                    HorizontalAlignment="Center"
+                                                    FontWeight="SemiBold"
+                                                    HorizontalTextAlignment="Center"
+                                                    Opacity="0.6" />
+                                            </DataTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                    <Setter Property="Foreground" Value="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}" />
+                                    <Setter Property="SeparatorVisibility" Value="Collapsed" />
+                                    <Setter Property="HorizontalAlignment" Value="Center" />
+                                    <Setter Property="HorizontalContentAlignment" Value="Center" />
+                                </Style>
+                            </controls:DataGridTemplateColumn.HeaderStyle>
+                            <controls:DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <controls:DockPanel
+                                        x:Name="SyncedDockPanel"
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center">
+                                        <Grid>
+                                            <Ellipse
+                                                Width="18"
+                                                Height="18"
+                                                Fill="{Binding SyncedIconFillColor}" />
+                                            <FontIcon
+                                                Grid.Column="0"
+                                                FontFamily="{StaticResource SymbolThemeFontFamily}"
+                                                FontSize="10"
+                                                FontWeight="ExtraBold"
+                                                Foreground="#FFFFFF"
+                                                HighContrastAdjustment="None"
+                                                Glyph="{Binding SyncedIconGlyph}" />
+                                        </Grid>
+                                    </controls:DockPanel>
+                                </DataTemplate>
+                            </controls:DataGridTemplateColumn.CellTemplate>
+                        </controls:DataGridTemplateColumn>
+                        <controls:DataGridTemplateColumn Width="2*">
+                            <controls:DataGridTemplateColumn.HeaderStyle>
+                                <Style TargetType="dataprimitives:DataGridColumnHeader">
+                                    <Setter Property="ContentTemplate">
+                                        <Setter.Value>
+                                            <DataTemplate>
+                                                <TextBlock
+                                                    Margin="0"
+                                                    HorizontalAlignment="Center"
+                                                    FontWeight="SemiBold"
+                                                    HorizontalTextAlignment="Center" />
+                                            </DataTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                    <Setter Property="Foreground" Value="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}" />
+                                    <Setter Property="SeparatorVisibility" Value="Collapsed" />
+                                </Style>
+                            </controls:DataGridTemplateColumn.HeaderStyle>
+                            <controls:DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <controls:DockPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                                       <TextBlock
+                                        Margin="0"
+                                        HorizontalAlignment="Center"
+                                        FontSize="12"
+                                        FontWeight="Bold"
+                                        Foreground="{Binding AccentColor, Source={StaticResource DynamicColors}}"
+                                        Style="{StaticResource TextBlockStyle}"
+                                        Text="{Binding SyncText}" />
+                                    </controls:DockPanel>
+                                </DataTemplate>
+                            </controls:DataGridTemplateColumn.CellTemplate>
+                        </controls:DataGridTemplateColumn>
+                        <!--<controls:DataGridTemplateColumn Width="1.5*">
+                            <controls:DataGridTemplateColumn.HeaderStyle>
+                                <Style TargetType="dataprimitives:DataGridColumnHeader">
+                                    <Setter Property="ContentTemplate">
+                                        <Setter.Value>
+                                            <DataTemplate>
+                                                <TextBlock
+                                                    Margin="0"
+                                                    HorizontalAlignment="Center"
+                                                    FontWeight="SemiBold"
+                                                    HorizontalTextAlignment="Center" />
+                                            </DataTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                    <Setter Property="Foreground" Value="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}" />
+                                    <Setter Property="SeparatorVisibility" Value="Collapsed" />
+                                </Style>
+                            </controls:DataGridTemplateColumn.HeaderStyle>
+                            <controls:DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <controls:DockPanel Margin="0,0,0,0" HorizontalAlignment="Center">
+                                        <Grid>
+                                            <Rectangle
+                                                Width="52"
+                                                Height="26"
+                                                Fill="#43DCFF"
+                                                RadiusX="13"
+                                                RadiusY="15" />
+                                            <FontIcon
+                                                Grid.Column="0"
+                                                FontFamily="{StaticResource SymbolThemeFontFamily}"
+                                                FontSize="18"
+                                                FontWeight="ExtraBold"
+                                                Foreground="#0B285C"
+                                                Glyph="&#xE125;" />
+                                        </Grid>
+                                    </controls:DockPanel>
+                                </DataTemplate>
+                            </controls:DataGridTemplateColumn.CellTemplate>
+                        </controls:DataGridTemplateColumn>-->
+
+                    </controls:DataGrid.Columns>
+                </controls:DataGrid>
+
+                <!--  Key Section  -->
+                <!--<controls:DockPanel Grid.Row="2" Margin="50,10,0,15">
+                    <Grid>
+                        <Rectangle
+                            Width="52"
+                            Height="26"
+                            Fill="#43DCFF"
+                            RadiusX="13"
+                            RadiusY="15" />
+                        <FontIcon
+                            Grid.Column="0"
+                            FontFamily="{StaticResource SymbolThemeFontFamily}"
+                            FontSize="18"
+                            FontWeight="ExtraBold"
+                            Foreground="#0B285C"
+                            Glyph="&#xE125;" />
+                    </Grid>
+                    <TextBlock
+                        Margin="5,0,0,0"
+                        VerticalAlignment="Center"
+                        FontSize="12"
+                        FontWeight="SemiBold"
+                        Foreground="{Binding SecondaryTextColor, Source={StaticResource DynamicColors}}"
+                        Style="{StaticResource TextBlockStyle}"
+                        Text="- Person to Person translation" />
+                </controls:DockPanel>-->
+            </Grid>
+        </controls:DropShadowPanel>
+
+        <Grid Visibility="{Binding IsBusy}">
+            <Grid Background="{Binding PrimaryBackgroundColor, Source={StaticResource DynamicColors}}" Opacity="0.7" />
+            <StackPanel VerticalAlignment="Center" Spacing="10">
+                <ProgressRing
+                    Width="50"
+                    Height="50"
+                    HorizontalAlignment="Center"
+                    Foreground="{Binding AccentColor, Source={StaticResource DynamicColors}}"
+                    IsActive="True" />
+                <TextBlock
+                    x:Uid="History_Export"
+                    HorizontalAlignment="Center"
+                    FontWeight="Medium"
+                    Foreground="{Binding AccentColor, Source={StaticResource DynamicColors}}" />
+            </StackPanel>
+        </Grid>
+
+    </Grid>
+
+</Page>

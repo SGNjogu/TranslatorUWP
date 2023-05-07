@@ -1,0 +1,1192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="AppDescription" xml:space="preserve">
+    <value>TalaTouchApp</value>
+  </data>
+  <data name="AppDisplayName" xml:space="preserve">
+    <value>TalaTouchApp</value>
+  </data>
+  <data name="AudioDeviceSelector_MicDropdown.PlaceholderText" xml:space="preserve">
+    <value>Chagua kipaza sauti</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneMic.Text" xml:space="preserve">
+    <value>Mtu Maikrofoni Moja</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneSpeaker.Text" xml:space="preserve">
+    <value>Mtu Msemaji Mmoja</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoMic.Text" xml:space="preserve">
+    <value>Mtu Maikrofoni Mbili</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoSpeaker.Text" xml:space="preserve">
+    <value>Mtu wa Pili Spika</value>
+  </data>
+  <data name="AudioDeviceSelector_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>Chagua spika</value>
+  </data>
+  <data name="BluetoothPairingDialog_Description.Text" xml:space="preserve">
+    <value>Hakikisha kifaa chako kimewashwa na kugunduliwa. Chagua kifaa hapa chini ili kuunganisha.</value>
+  </data>
+  <data name="BluetoothPairingDialog_Title.Text" xml:space="preserve">
+    <value>Ongeza kifaa</value>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>Katisha</value>
+  </data>
+  <data name="ChangePasscodeDialog_Confirm.Text" xml:space="preserve">
+    <value>Thibitisha namba mpya ya siri</value>
+  </data>
+  <data name="ChangePasscodeDialog_Current.Text" xml:space="preserve">
+    <value>Namba ya siri ya sasa</value>
+  </data>
+  <data name="ChangePasscodeDialog_New.Text" xml:space="preserve">
+    <value>Namba mpya ya siri</value>
+  </data>
+  <data name="ChangePasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Badilisha nambari ya siri</value>
+  </data>
+  <data name="Close.Content" xml:space="preserve">
+    <value>Funga</value>
+  </data>
+  <data name="ConsentDialog_Description1.Text" xml:space="preserve">
+    <value>Wasiwasi wa faragha ni kipaumbele chetu namba moja. (5) Unakubali masharti na masharti ya Sera hii ya Faragha na simu yako ya mkononi au kompyuta kibao, kama inavyotumika.</value>
+  </data>
+  <data name="ConsentDialog_Description2.Text" xml:space="preserve">
+    <value>Ikiwa utachagua kutoturuhusu kufikia tunapopokea ombi la idhini (maombi kama hayo yataarifiwa kwenye tovuti ya www ICTS kwa :</value>
+  </data>
+  <data name="ConsentDialog_Description3.Text" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int</value>
+  </data>
+  <data name="ConsentDialog_Description4.Text" xml:space="preserve">
+    <value>), basi hakuna anwani ya barua pepe iliyotolewa wala maelezo mengine yoyote ya kibinafsi ambayo yanaweza kutambua mtu anaweza pia kuja katika milki yetu mara tu ruhusa hiyo imetolewa.</value>
+  </data>
+  <data name="ConsentDialog_Description5.Text" xml:space="preserve">
+    <value>Kwa kutumia sehemu fulani: / Matumizi ya mimi wa Simu yangu ya Mkononi / Icons - ambayo inaweza kujumuisha kuruhusu wengine katika vyumba vya mazungumzo kuhusu bidhaa kama</value>
+  </data>
+  <data name="ConsentDialog_HyperLink.NavigateUri" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int/</value>
+  </data>
+  <data name="ConsentDialog_Title.Text" xml:space="preserve">
+    <value>Tunathamini faragha yako</value>
+  </data>
+  <data name="Dashboard_Choose_Language.Text" xml:space="preserve">
+    <value>Chagua lugha</value>
+  </data>
+  <data name="Dashboard_Hello.Text" xml:space="preserve">
+    <value>Hujambo</value>
+  </data>
+  <data name="Dashboard_SearchBox.PlaceholderText" xml:space="preserve">
+    <value>Lugha ya utafutaji</value>
+  </data>
+  <data name="Dashboard_Welcome.Text" xml:space="preserve">
+    <value>Karibu</value>
+  </data>
+  <data name="DevicesErrorDialog_NoDeviceError" xml:space="preserve">
+    <value>Huna kifaa kilichohifadhiwa. Nenda kwenye Mipangilio -&gt; Vifaa vya kuchagua Kipaza sauti na Spika kisha bonyeza Hifadhi.</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Description.Text" xml:space="preserve">
+    <value>Vifaa vya bluetooth vinavyopatikana</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_DropDown.PlaceholderText" xml:space="preserve">
+    <value>Chagua kifaa cha bluetooth</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Scan.Text" xml:space="preserve">
+    <value>Tambaza</value>
+  </data>
+  <data name="DevicesPage_Bluetooth.Text" xml:space="preserve">
+    <value>Bluetooth</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices_Description.Text" xml:space="preserve">
+    <value>Chagua kifaa chako cha sauti</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices.Text" xml:space="preserve">
+    <value>Vifaa vya Sauti vilivyounganishwa</value>
+  </data>
+  <data name="DevicesPage_MicDropDown.PlaceholderText" xml:space="preserve">
+    <value>Chagua kipaza sauti</value>
+  </data>
+  <data name="DevicesPage_Network_Description.Text" xml:space="preserve">
+    <value>Mitandao inayopatikana</value>
+  </data>
+  <data name="DevicesPage_Network_DropDown.PlaceholderText" xml:space="preserve">
+    <value>Chagua mtandao</value>
+  </data>
+  <data name="DevicesPage_Network.Text" xml:space="preserve">
+    <value>Mtandao</value>
+  </data>
+  <data name="DevicesPage_NetworkError" xml:space="preserve">
+    <value>Hakuna mtandao uliochaguliwa. Angalia miunganisho yako ya mtandao.</value>
+  </data>
+  <data name="DevicesPage_PersonOne_Speaker.Text" xml:space="preserve">
+    <value>Mtu mzungumzaji mmoja</value>
+  </data>
+  <data name="DevicesPage_PersonOneMic.Text" xml:space="preserve">
+    <value>Mtu kipaza sauti kimoja</value>
+  </data>
+  <data name="DevicesPage_PersonTwo_Mic.Text" xml:space="preserve">
+    <value>Mtu kipaza sauti mbili</value>
+  </data>
+  <data name="DevicesPage_Scan" xml:space="preserve">
+    <value>Tambaza</value>
+  </data>
+  <data name="DevicesPage_Scanning" xml:space="preserve">
+    <value>Inatambaza...</value>
+  </data>
+  <data name="DevicesPage_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>Chagua spika</value>
+  </data>
+  <data name="DevicesPage_Status_Connect" xml:space="preserve">
+    <value>Kuunganisha</value>
+  </data>
+  <data name="DevicesPage_Status_Connected" xml:space="preserve">
+    <value>Imeunganishwa</value>
+  </data>
+  <data name="DevicesPage_Status_Connecting" xml:space="preserve">
+    <value>Kuunganisha...</value>
+  </data>
+  <data name="DevicesPage_Status_Off" xml:space="preserve">
+    <value>MBALI</value>
+  </data>
+  <data name="DevicesPage_Status_On" xml:space="preserve">
+    <value>KWENYE</value>
+  </data>
+  <data name="DevicesPager_PersonTwo_Speaker.Text" xml:space="preserve">
+    <value>Mtu spika mbili</value>
+  </data>
+  <data name="EnterPasscodeDialog_Description.Text" xml:space="preserve">
+    <value>Tafadhali ingiza namba yako ya siri ili kufikia ukurasa wa mipangilio</value>
+  </data>
+  <data name="EnterPasscodeDialog_ForgotPasscode.Content" xml:space="preserve">
+    <value>Kusahau Namba ya Siri?</value>
+  </data>
+  <data name="EnterPasscodeDialog_InvalidPasscode.Text" xml:space="preserve">
+    <value>Namba ya Siri batili! Tafadhali jaribu tena.</value>
+  </data>
+  <data name="EnterPasscodeDialog_Passcode.Text" xml:space="preserve">
+    <value>Namba ya siri</value>
+  </data>
+  <data name="EnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Ingiza namba yako ya siri</value>
+  </data>
+  <data name="IAgree.Content" xml:space="preserve">
+    <value>Nakubali</value>
+  </data>
+  <data name="InvalidLicenseDialog_Description.Text" xml:space="preserve">
+    <value>Uhakiki wa leseni yako umeshindikana</value>
+  </data>
+  <data name="InvalidLicenseDialog_Title.Text" xml:space="preserve">
+    <value>Leseni batili</value>
+  </data>
+  <data name="LoginFailedDialog_Button.Content" xml:space="preserve">
+    <value>Rudi</value>
+  </data>
+  <data name="LoginFailedDialog_Description.Text" xml:space="preserve">
+    <value>Jaribio lako la kuingia lilishindwa.</value>
+  </data>
+  <data name="LoginFailedDialog_Title.Text" xml:space="preserve">
+    <value>Kuingia kwa kushindwa</value>
+  </data>
+  <data name="Main_Title.Text" xml:space="preserve">
+    <value>Kuu</value>
+  </data>
+  <data name="PasswordPopup_SetupTitle.Text" xml:space="preserve">
+    <value>Sanidi namba ya siri</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Description1.Text" xml:space="preserve">
+    <value>Tafadhali ingiza tena namba yako ya siri ili uendelee kuhariri...</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Ingiza tena namba yako ya siri</value>
+  </data>
+  <data name="RenterPasscodeDialog_Description2.Text" xml:space="preserve">
+    <value>Kuweka akiba ya magari na kurudi nyumbani</value>
+  </data>
+  <data name="Save.Content" xml:space="preserve">
+    <value>Hifadhi</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Description.Text" xml:space="preserve">
+    <value>Huu ni ukurasa wa sampuli ambao utaonyesha vigezo vya kuwezesha ikiwa programu imeamilishwa kutoka kwa Deep Linking.</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Title.Text" xml:space="preserve">
+    <value>SchemeActivationSample</value>
+  </data>
+  <data name="SetPasscodeDialog_ConfirmPasscode.Text" xml:space="preserve">
+    <value>Thibitisha namba mpya ya siri </value>
+  </data>
+  <data name="SetPasscodeDialog_NewPasscode.Text" xml:space="preserve">
+    <value>Namba mpya ya siri</value>
+  </data>
+  <data name="SetPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Sanidi namba ya siri</value>
+  </data>
+  <data name="Settings_About.Text" xml:space="preserve">
+    <value>Kuhusu programu hii</value>
+  </data>
+  <data name="Settings_AboutDescription.Text" xml:space="preserve">
+    <value>Maandishi ya ukurasa wa mipangilio.  Maelezo yako ya programu yanakwenda hapa.</value>
+  </data>
+  <data name="Settings_Personalization.Text" xml:space="preserve">
+    <value>Ubinafsishaji</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.Content" xml:space="preserve">
+    <value>Kauli ya faragha</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.NavigateUri" xml:space="preserve">
+    <value>https://YourPrivacyUrlGoesHere/</value>
+  </data>
+  <data name="Settings_Theme_Dark.Content" xml:space="preserve">
+    <value>Giza</value>
+  </data>
+  <data name="Settings_Theme_Default.Content" xml:space="preserve">
+    <value>Windows chaguo-msingi</value>
+  </data>
+  <data name="Settings_Theme_Light.Content" xml:space="preserve">
+    <value>Mwanga</value>
+  </data>
+  <data name="Settings_Theme.Text" xml:space="preserve">
+    <value>Chagua Mandhari</value>
+  </data>
+  <data name="Settings_Title.Text" xml:space="preserve">
+    <value>Vipimo</value>
+  </data>
+  <data name="SettingsPage_Devices" xml:space="preserve">
+    <value>Vifaa</value>
+  </data>
+  <data name="SettingsPage_Language" xml:space="preserve">
+    <value>Lugha</value>
+  </data>
+  <data name="SettingsPage_Profile" xml:space="preserve">
+    <value>Umbo</value>
+  </data>
+  <data name="SettingsPage_Questions" xml:space="preserve">
+    <value>Maswali</value>
+  </data>
+  <data name="SettingsPage_Title" xml:space="preserve">
+    <value>Vipimo</value>
+  </data>
+  <data name="ShellView_Help" xml:space="preserve">
+    <value>Kusaidia</value>
+  </data>
+  <data name="ShellView_History" xml:space="preserve">
+    <value>Historia</value>
+  </data>
+  <data name="ShellView_Home" xml:space="preserve">
+    <value>Nyumbani</value>
+  </data>
+  <data name="ShellView_Settings.Text" xml:space="preserve">
+    <value>Vipimo</value>
+  </data>
+  <data name="Sign_In.Text" xml:space="preserve">
+    <value>Ingia ndani</value>
+  </data>
+  <data name="SignInDialog_Description.Text" xml:space="preserve">
+    <value>Wasiliana mara moja katika lugha nyingi za ulimwengu na kifaa chako cha Jabra.</value>
+  </data>
+  <data name="SignInDialog_SignInButton.Content" xml:space="preserve">
+    <value>Ingia ndani</value>
+  </data>
+  <data name="Translate_Button.Text" xml:space="preserve">
+    <value>Kutafsiri</value>
+  </data>
+  <data name="TranslationPage_EndSession.Text" xml:space="preserve">
+    <value>Kumaliza kikao</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOn" xml:space="preserve">
+    <value>Maikrofoni Kwenye</value>
+  </data>
+  <data name="TranslationPage_SpeakerOn" xml:space="preserve">
+    <value>Spika Ndugai</value>
+  </data>
+  <data name="TranslationPage_SpeakNow.Text" xml:space="preserve">
+    <value>Ongea Sasa</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Kuhusu</value>
+  </data>
+  <data name="AboutPage_AppVersion.Text" xml:space="preserve">
+    <value>Toleo la Maombi</value>
+  </data>
+  <data name="AboutPage_CheckUpdate.Content" xml:space="preserve">
+    <value>Angalia masasisho</value>
+  </data>
+  <data name="AboutPage_DataConsent" xml:space="preserve">
+    <value>Shirika lako limetoa idhini ya kuhifadhi data yako kwenye wingu.</value>
+  </data>
+  <data name="AboutPage_NoDataConsent" xml:space="preserve">
+    <value>Shirika lako halijatoa idhini ya kuhifadhi data yako kwenye wingu.</value>
+  </data>
+  <data name="AboutPage_Published.Text" xml:space="preserve">
+    <value>Imetolewa na FITTS Limited.</value>
+  </data>
+  <data name="AppClose_Close.Content" xml:space="preserve">
+    <value>Funga Anyway</value>
+  </data>
+  <data name="AppClose_Dismiss.Content" xml:space="preserve">
+    <value>Katisha</value>
+  </data>
+  <data name="AppClose_Warning.Text" xml:space="preserve">
+    <value>Mna kikao kinachoendelea. Tafadhali maliza kikao kabla ya kutoka kwenye maombi.</value>
+  </data>
+  <data name="AppVersion.Text" xml:space="preserve">
+    <value>Toleo la programu</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Button.Content" xml:space="preserve">
+    <value>Kuendelea na Kikao</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Description.Text" xml:space="preserve">
+    <value>Kikao hicho kitamalizika</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Title.Text" xml:space="preserve">
+    <value>Sauti Haijagunduliwa</value>
+  </data>
+  <data name="AudioPlayer_Error.Text" xml:space="preserve">
+    <value>Imeshindwa kupakia sauti</value>
+  </data>
+  <data name="DashboardPage_DefaultLanguageError" xml:space="preserve">
+    <value>Huna lugha ya Tafsiri ya Default iliyohifadhiwa. Nenda kwenye Mipangilio -&gt; lugha ili kuchagua Lugha ya Tafsiri Chaguo-msingi kisha bonyeza Hifadhi.</value>
+  </data>
+  <data name="DashboardPage_TargetLanguageError" xml:space="preserve">
+    <value>Hujachagua Lugha ya Tafsiri lengwa. Chagua lugha kisha bonyeza Tafsiri.</value>
+  </data>
+  <data name="DevicesErrorDialog_DualDeviceError" xml:space="preserve">
+    <value>Umechagua tafsiri ya Dual Device lakini huna kifaa (s) kilichochaguliwa kwa Mtu 2. Nenda kwenye Mipangilio -&gt; Vifaa vya kuchagua Kipaza sauti na Spika kisha bonyeza Hifadhi.</value>
+  </data>
+  <data name="DevicesPage_Title.Text" xml:space="preserve">
+    <value>Vifaa</value>
+  </data>
+  <data name="DevicesPage_Wifi_Password.Text" xml:space="preserve">
+    <value>Ingiza Nenosiri</value>
+  </data>
+  <data name="DevicesPage_WifiStatus.Text" xml:space="preserve">
+    <value>Hali ya Wifi</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Hariri</value>
+  </data>
+  <data name="Expiry.Text" xml:space="preserve">
+    <value>Kumalizika muda wake</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Maoni</value>
+  </data>
+  <data name="FeedbackMessage.Text" xml:space="preserve">
+    <value>Kama una maoni au maswali yoyote usisite kuwasiliana.</value>
+  </data>
+  <data name="GetInTouchButton.Text" xml:space="preserve">
+    <value>Wasiliana</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Kusaidia</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>Historia</value>
+  </data>
+  <data name="History_ExportBtn.Text" xml:space="preserve">
+    <value>Hamisha</value>
+  </data>
+  <data name="HistoryExportButtonTooltip.Text" xml:space="preserve">
+    <value>Hamisha</value>
+  </data>
+  <data name="HistoryListColumnDate.Text" xml:space="preserve">
+    <value>Tarehe</value>
+  </data>
+  <data name="HistoryListColumnDuration.Text" xml:space="preserve">
+    <value>Muda</value>
+  </data>
+  <data name="HistoryListColumnPrimaryLanguage.Text" xml:space="preserve">
+    <value>Lugha ya msingi</value>
+  </data>
+  <data name="HistoryListColumnSecondaryLanguage.Text" xml:space="preserve">
+    <value>Lugha ya sekondari</value>
+  </data>
+  <data name="HistoryListColumnSessionId.Text" xml:space="preserve">
+    <value>Kitambulisho cha kikao</value>
+  </data>
+  <data name="InitalSetup_SkipSetup.Content" xml:space="preserve">
+    <value>Usanidi wa kuruka</value>
+  </data>
+  <data name="InitialNetworkPopupConnectButton.Content" xml:space="preserve">
+    <value>Kuunganisha</value>
+  </data>
+  <data name="InitialSetup_DeviceSelection.Text" xml:space="preserve">
+    <value>Uteuzi wa kifaa</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionDescription.Text" xml:space="preserve">
+    <value>Sanidi kifaa chako cha sauti chaguo-msingi</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneMicrophone.Text" xml:space="preserve">
+    <value>Chagua Maikrofoni</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneSpeaker.Text" xml:space="preserve">
+    <value>Chagua Spika</value>
+  </data>
+  <data name="InitialSetup_FinishSetup.Content" xml:space="preserve">
+    <value>Kumaliza usanidi</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection_Description.Text" xml:space="preserve">
+    <value>Sanidi lugha yako ya tafsiri chaguo-msingi</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection.Text" xml:space="preserve">
+    <value>Uteuzi wa lugha</value>
+  </data>
+  <data name="InitialSetup_NetworkSelection.Text" xml:space="preserve">
+    <value>Mtandao unaopendelewa</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopup.Text" xml:space="preserve">
+    <value>Unganisha kwenye Mtandao</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopupPassword.Text" xml:space="preserve">
+    <value>Ingiza Nenosiri:</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionDescription.Text" xml:space="preserve">
+    <value>Chagua kutoka kwa moja ya mitandao inayopatikana</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionNoInternetConnection.Text" xml:space="preserve">
+    <value>Hujaunganishwa kwenye mtandao. Tafadhali angalia miunganisho yako ya mtandao.</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionOtherNetworks.Text" xml:space="preserve">
+    <value>Mitandao mingine</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup_Description.Text" xml:space="preserve">
+    <value>Sanidi nambari yako ya siri ya programu</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup.Text" xml:space="preserve">
+    <value>Usanidi wa Msimbo wa Siri</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Lugha</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage_Description.Text" xml:space="preserve">
+    <value>Chagua lugha ya maombi</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage.Text" xml:space="preserve">
+    <value>Lugha ya programu</value>
+  </data>
+  <data name="LanguagesPage_AppLanguageDropdown.PlaceholderText" xml:space="preserve">
+    <value>Chagua lugha</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage_Description.Text" xml:space="preserve">
+    <value>Lugha chaguomsingi unayotumia</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage.Text" xml:space="preserve">
+    <value>Lugha yangu chaguo-msingi</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguageDropDown.PlaceholderText" xml:space="preserve">
+    <value>Chagua lugha</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description.Text" xml:space="preserve">
+    <value>Sehemu ya historia (kwa tafsiri za vifaa vingi)</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description1.Text" xml:space="preserve">
+    <value>* Tafsiri za kifaa kimoja hucheza sauti zote kama chaguo-msingi *</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage.Text" xml:space="preserve">
+    <value>Lugha ya uchezaji chaguo-msingi</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguages.Text" xml:space="preserve">
+    <value>Tazama haraka Lugha</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguagesDropdown.PlaceholderText" xml:space="preserve">
+    <value>Ongeza lugha</value>
+  </data>
+  <data name="LanguagesPage_Title.Text" xml:space="preserve">
+    <value>Lugha</value>
+  </data>
+  <data name="Licence" xml:space="preserve">
+    <value>Leseni</value>
+  </data>
+  <data name="LicenseType.Text" xml:space="preserve">
+    <value>Aina ya Leseni:</value>
+  </data>
+  <data name="NetworkConnectionError" xml:space="preserve">
+    <value>Kosa:</value>
+  </data>
+  <data name="Next.Content" xml:space="preserve">
+    <value>Ijayo</value>
+  </data>
+  <data name="PasscodeError_MinimumLength" xml:space="preserve">
+    <value>Urefu wa chini wa nambari ya siri unapaswa kuwa 4.</value>
+  </data>
+  <data name="PasscodeError_NotMatching" xml:space="preserve">
+    <value>Namba za siri zilizoingia hazilingani. Kindly ingiza tena nambari za siri kisha jaribu tena.</value>
+  </data>
+  <data name="Person.Text" xml:space="preserve">
+    <value>Mtu</value>
+  </data>
+  <data name="PrivacyPolicy.Text" xml:space="preserve">
+    <value>Sera ya faragha</value>
+  </data>
+  <data name="ProfilePage_Email_Description.Text" xml:space="preserve">
+    <value>Barua pepe chaguo-msingi ya kuuza nje</value>
+  </data>
+  <data name="ProfilePage_Email.Text" xml:space="preserve">
+    <value>Barua pepe</value>
+  </data>
+  <data name="ProfilePage_Passcode_Description.Text" xml:space="preserve">
+    <value>Nambari yako ya siri ya maombi</value>
+  </data>
+  <data name="ProfilePage_Passcode.Text" xml:space="preserve">
+    <value>Namba ya siri</value>
+  </data>
+  <data name="ProfilePage_Timeout_Description.Text" xml:space="preserve">
+    <value>Mzunguko wa kufuli kwa hali ya admin</value>
+  </data>
+  <data name="ProfilePage_Timeout.Text" xml:space="preserve">
+    <value>Muda wa hali ya admin</value>
+  </data>
+  <data name="ProfilePage_TimeoutDropdown.PlaceholderText" xml:space="preserve">
+    <value>Chagua wakati</value>
+  </data>
+  <data name="ProfilePage_Title.Text" xml:space="preserve">
+    <value>Umbo</value>
+  </data>
+  <data name="PublishedBy.Text" xml:space="preserve">
+    <value>Imetolewa na</value>
+  </data>
+  <data name="ReleaseNotesMessage.Text" xml:space="preserve">
+    <value>Maelezo ya kutolewa yatasasishwa hivi karibuni</value>
+  </data>
+  <data name="Save_Text" xml:space="preserve">
+    <value>Hifadhi</value>
+  </data>
+  <data name="SessionDetailsPage_Description.Text" xml:space="preserve">
+    <value>Historia ya Transcription</value>
+  </data>
+  <data name="SessionDetailsPage_Duration.Text" xml:space="preserve">
+    <value>Muda</value>
+  </data>
+  <data name="SessionDetailsPage_SessionID.Text" xml:space="preserve">
+    <value>Kitambulisho cha kikao</value>
+  </data>
+  <data name="SessionDetailsPage_Title.Text" xml:space="preserve">
+    <value>Historia</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Vipimo</value>
+  </data>
+  <data name="TermsOfUse.Text" xml:space="preserve">
+    <value>Masharti ya Matumizi</value>
+  </data>
+  <data name="TranslationPage_SettingUpState" xml:space="preserve">
+    <value>Kusanidi...</value>
+  </data>
+  <data name="TranslationPage_SpeakFast" xml:space="preserve">
+    <value>Jaribu kuzungumza haraka kidogo kwa matokeo bora ya tafsiri.</value>
+  </data>
+  <data name="TranslationPage_SpeakIn" xml:space="preserve">
+    <value>Ongea katika</value>
+  </data>
+  <data name="TranslationPage_SpeakSlow" xml:space="preserve">
+    <value>Jaribu kuzungumza polepole kidogo kwa matokeo bora ya tafsiri.</value>
+  </data>
+  <data name="TranslationPage_Switching" xml:space="preserve">
+    <value>Kubadilisha</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonOne" xml:space="preserve">
+    <value>Badilisha kwa mtu 1</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonTwo" xml:space="preserve">
+    <value>Badilisha kwa mtu 2</value>
+  </data>
+  <data name="TranslationPage_TranslationReadyState" xml:space="preserve">
+    <value>Ongea sasa</value>
+  </data>
+  <data name="Website.Text" xml:space="preserve">
+    <value>Tovuti</value>
+  </data>
+  <data name="WhatsNew" xml:space="preserve">
+    <value>Nini kipya</value>
+  </data>
+  <data name="WhatsNewInSpeechly.Text" xml:space="preserve">
+    <value>Nini kipya katika</value>
+  </data>
+  <data name="AudioDevicesSelectorDualDevice.Content" xml:space="preserve">
+    <value>Kifaa kiwili</value>
+  </data>
+  <data name="AudioDevicesSelectorSingleDevice.Content" xml:space="preserve">
+    <value>Kifaa kimoja</value>
+  </data>
+  <data name="AutoDetectSearchCountry.PlaceholderText" xml:space="preserve">
+    <value>Nchi ya utafutaji</value>
+  </data>
+  <data name="AutoDetectSelectLanguage.Text" xml:space="preserve">
+    <value>Chagua lugha yako</value>
+  </data>
+  <data name="ChatViewPersonOne" xml:space="preserve">
+    <value>Mtu Mmoja</value>
+  </data>
+  <data name="ChatViewPersonTwo" xml:space="preserve">
+    <value>Mtu wa Pili</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionLost" xml:space="preserve">
+    <value>Muunganisho wa intaneti umepotea. Angalia muunganisho kisha jaribu tena.</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionUnstable" xml:space="preserve">
+    <value>Muunganisho wako wa intaneti ni polepole. Unaweza kupata lag fulani.</value>
+  </data>
+  <data name="CustomTagSelectionTitle.Text" xml:space="preserve">
+    <value>Vitambulisho vya Shirika (chagua kuongeza)</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.Header" xml:space="preserve">
+    <value>Bendera ya mtumiaji kubadili lugha</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OffContent" xml:space="preserve">
+    <value>Walemavu</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OnContent" xml:space="preserve">
+    <value>Kuwezeshwa</value>
+  </data>
+  <data name="DetectLanguageButton.Content" xml:space="preserve">
+    <value>Kugundua lugha</value>
+  </data>
+  <data name="DevicesPageNetworkSetupBluetoothStatus.Text" xml:space="preserve">
+    <value>Hali ya Bluetooth :</value>
+  </data>
+  <data name="DevicesPageNetworkSetupConnectAutomatically.Text" xml:space="preserve">
+    <value>Unganisha kiotomatiki</value>
+  </data>
+  <data name="DevicesPageNetworkSetupWiFiStatus.Text" xml:space="preserve">
+    <value>Hali ya WiFi :</value>
+  </data>
+  <data name="Dimiss.Content" xml:space="preserve">
+    <value>Katisha</value>
+  </data>
+  <data name="Duration.Text" xml:space="preserve">
+    <value>|  Muda</value>
+  </data>
+  <data name="EmailPopup_Description.Text" xml:space="preserve">
+    <value>Ingiza anwani yako ya barua pepe</value>
+  </data>
+  <data name="EmailPopup_Title.Text" xml:space="preserve">
+    <value>Barua pepe kikao chako</value>
+  </data>
+  <data name="ForcedUpdateDialogCaption" xml:space="preserve">
+    <value>Tuna sasisho muhimu kwa</value>
+  </data>
+  <data name="ForcedUpdateDialogInstallBtnText" xml:space="preserve">
+    <value>Sasisha</value>
+  </data>
+  <data name="ForcedUpdateDialogTitle" xml:space="preserve">
+    <value>Sasisho muhimu</value>
+  </data>
+  <data name="GoBack.Content" xml:space="preserve">
+    <value>Rudi</value>
+  </data>
+  <data name="HelpPageSignOut.Content" xml:space="preserve">
+    <value>Jisajili</value>
+  </data>
+  <data name="History_Export.Text" xml:space="preserve">
+    <value>Kuzalisha faili...</value>
+  </data>
+  <data name="HistoryListColumnSessionName.Text" xml:space="preserve">
+    <value>Jina</value>
+  </data>
+  <data name="HistoryListColumnSynced.Text" xml:space="preserve">
+    <value>Imelandanishwa</value>
+  </data>
+  <data name="HistorySearchBox.PlaceholderText" xml:space="preserve">
+    <value>Lugha, jina la kikao, vitambulisho au vitambulisho</value>
+  </data>
+  <data name="HistorySearchButtonTooltip.Text" xml:space="preserve">
+    <value>Tafutiza</value>
+  </data>
+  <data name="HistorySearchClearButtonTooltip.Text" xml:space="preserve">
+    <value>Wazi</value>
+  </data>
+  <data name="HistorySearchFromDate.Header" xml:space="preserve">
+    <value>Kutoka:</value>
+  </data>
+  <data name="HistorySearchToDate.Header" xml:space="preserve">
+    <value>Kwa:</value>
+  </data>
+  <data name="HistoryShareButtonTooltip.Text" xml:space="preserve">
+    <value>Kushiriki/Kutuma</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonOne.Text" xml:space="preserve">
+    <value>Mtu 1</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonTwo.Text" xml:space="preserve">
+    <value>Mtu wa 2</value>
+  </data>
+  <data name="LoginPageTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NewVersionDialogCaption" xml:space="preserve">
+    <value>Sakinisha toleo jipya la programu ya</value>
+  </data>
+  <data name="NewVersionDialogDescription" xml:space="preserve">
+    <value>Vipengele vipya na marekebisho ya hitilafu yatakosekana </value>
+  </data>
+  <data name="NewVersionDialogInstallBtnText" xml:space="preserve">
+    <value>Sakinisha toleo jipya</value>
+  </data>
+  <data name="NewVersionDialogTitle" xml:space="preserve">
+    <value>Toleo jipya la Programu</value>
+  </data>
+  <data name="NextText" xml:space="preserve">
+    <value>Ijayo</value>
+  </data>
+  <data name="ProfilePageEditButton.Content" xml:space="preserve">
+    <value>Hariri</value>
+  </data>
+  <data name="QuestionsButton.Content" xml:space="preserve">
+    <value>Tazama Maswali</value>
+  </data>
+  <data name="QuestionSettingsDescription.Text" xml:space="preserve">
+    <value>Tazama au urekebishe njia za mkato za swali lako</value>
+  </data>
+  <data name="QuestionSettingsInstructionOne.Text" xml:space="preserve">
+    <value>* Tumia namba 1-9 kwa kila swali. Sifuri (0) haitazingatiwa.</value>
+  </data>
+  <data name="QuestionSettingsInstructionThree.Text" xml:space="preserve">
+    <value>* Unaweza tu kugawa njia za mkato kwa maswali 9.</value>
+  </data>
+  <data name="QuestionSettingsListTitle.Text" xml:space="preserve">
+    <value>Orodha ya Maswali :</value>
+  </data>
+  <data name="ResellerEmailAddress.Text" xml:space="preserve">
+    <value>Anwani ya Barua pepe ya Muuzaji :</value>
+  </data>
+  <data name="ResellerName.Text" xml:space="preserve">
+    <value>Jina la Muuzaji :</value>
+  </data>
+  <data name="SelectFlag.Text" xml:space="preserve">
+    <value>Chagua bendera yako:</value>
+  </data>
+  <data name="Send.Content" xml:space="preserve">
+    <value>Tuma</value>
+  </data>
+  <data name="SessionDetailsPage_SessionName.Text" xml:space="preserve">
+    <value>Jina la kikao</value>
+  </data>
+  <data name="SessionID.Text" xml:space="preserve">
+    <value>Kitambulisho cha kikao : -</value>
+  </data>
+  <data name="SessionMetadataDialog_ContinueButton.Text" xml:space="preserve">
+    <value>Kuendelea</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTags.Text" xml:space="preserve">
+    <value>Tag maalum(s)</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Ingiza jina la tag hapa</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextboxHelper.Text" xml:space="preserve">
+    <value>Waandishi wa Habari Enter</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTags.Text" xml:space="preserve">
+    <value>Tag chaguo-msingi (s)</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Ingiza thamani hapa</value>
+  </data>
+  <data name="SessionMetadataDialog_Description.Text" xml:space="preserve">
+    <value>Mashamba ya lazima yamewekwa alama na '</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionName.Text" xml:space="preserve">
+    <value>Jina la kikao</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionNameTextbox.PlaceholderText" xml:space="preserve">
+    <value>mfano mgonjwa sifuri</value>
+  </data>
+  <data name="SessionMetadataDialog_Title.Text" xml:space="preserve">
+    <value>Ongeza jina la kikao na vitambulisho</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorActionMessage" xml:space="preserve">
+    <value>Tafadhali wasiliana na msimamizi wako ili kuamsha akaunti yako.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorMessage" xml:space="preserve">
+    <value>Akaunti yako imezimwa.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorActionMessage" xml:space="preserve">
+    <value>Tafadhali wasiliana na msimamizi wako kuunda akaunti yako.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorMessage" xml:space="preserve">
+    <value>Akaunti yako imefutwa.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorActionMessage" xml:space="preserve">
+    <value>Tafadhali wasiliana na msimamizi wako ili kuwezesha akaunti yako.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorMessage" xml:space="preserve">
+    <value>Akaunti yako imezimwa.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorActionMessage" xml:space="preserve">
+    <value>Tafadhali wasiliana na msimamizi wako kuunda akaunti yako.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorMessage" xml:space="preserve">
+    <value>Huna Akaunti inayofanya kazi.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorActionMessage" xml:space="preserve">
+    <value>Tafadhali wasiliana na msimamizi wako ili kuhuisha leseni yako.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorMessage" xml:space="preserve">
+    <value>Leseni yako imeisha muda wake.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorActionMessage" xml:space="preserve">
+    <value>Tafadhali wasiliana na msimamizi wako ili kuamsha leseni yako.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorMessage" xml:space="preserve">
+    <value>Leseni yako imezimwa.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorActionMessage" xml:space="preserve">
+    <value>Tafadhali wasiliana na msimamizi wako.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorMessage" xml:space="preserve">
+    <value>Leseni yako imesimamishwa.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorActionMessage" xml:space="preserve">
+    <value>Tafadhali wasiliana na msimamizi wako kukupa leseni.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorMessage" xml:space="preserve">
+    <value>Huna leseni uliyopewa.</value>
+  </data>
+  <data name="StartupPage2020.Text" xml:space="preserve">
+    <value>2021 </value>
+  </data>
+  <data name="StartupPageErrorDescription.Text" xml:space="preserve">
+    <value>Kosa lilitokea. Tafadhali angalia Muunganisho wako wa Mtandao kisha ujaribu tena.</value>
+  </data>
+  <data name="StartupPagePoweredBy.Text" xml:space="preserve">
+    <value>Imewezeshwa na </value>
+  </data>
+  <data name="StartupPageProgressDescription.Text" xml:space="preserve">
+    <value>Hii inaweza kuchukua sekunde chache</value>
+  </data>
+  <data name="StartupPageRetryButton.Content" xml:space="preserve">
+    <value>Retry</value>
+  </data>
+  <data name="StartupPageRightsReserved.Text" xml:space="preserve">
+    <value>Haki zote zimehifadhiwa.</value>
+  </data>
+  <data name="StartUpPageSettingUpMessage" xml:space="preserve">
+    <value>Kusanidi...</value>
+  </data>
+  <data name="StartupPageTitleDescription.Text" xml:space="preserve">
+    <value>Karibu kwenye </value>
+  </data>
+  <data name="TranslateText" xml:space="preserve">
+    <value>Kutafsiri</value>
+  </data>
+  <data name="TranslationLicenceUseError" xml:space="preserve">
+    <value>Leseni yako kwa sasa inatumika katika kikao kingine.</value>
+  </data>
+  <data name="TranslationLimitReachedError" xml:space="preserve">
+    <value>Umefikia kiwango chako cha juu cha muda kwa kila kikao. Kumaliza kikao.</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOff" xml:space="preserve">
+    <value>Kipaza sauti Off</value>
+  </data>
+  <data name="TranslationPage_SpeakerOff" xml:space="preserve">
+    <value>Spika Ndugai</value>
+  </data>
+  <data name="TranslationTimeDepletedError" xml:space="preserve">
+    <value>Dakika zako za tafsiri zimepungua. Kindly wasiliana na msimamizi wako.</value>
+  </data>
+  <data name="UnsupportedVersionDialogBtntext" xml:space="preserve">
+    <value>Sasisha</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption" xml:space="preserve">
+    <value>Sasisho muhimu zinahitajika kwa </value>
+  </data>
+  <data name="UnsupportedVersionDialogDescription" xml:space="preserve">
+    <value>Sasisha programu yako ili kuendelea kupata masasisho ya kipengele na usalama.</value>
+  </data>
+  <data name="UnsupportedVersionDialogTitle" xml:space="preserve">
+    <value>Toleo la Programu lisilotumika</value>
+  </data>
+  <data name="UpdateDialogWhatsNew.Text" xml:space="preserve">
+    <value>Nini kipya?</value>
+  </data>
+  <data name="Zoom.Text" xml:space="preserve">
+    <value>Kuza</value>
+  </data>
+  <data name="Add.Content" xml:space="preserve">
+    <value>Ongeza</value>
+  </data>
+  <data name="AddNewQuestion.Text" xml:space="preserve">
+    <value>Ongeza swali jipya lililofafanuliwa awali</value>
+  </data>
+  <data name="AddQuestion.Content" xml:space="preserve">
+    <value>Ongeza Swali</value>
+  </data>
+  <data name="ChooseLanguage.Text" xml:space="preserve">
+    <value>Chagua lugha chaguo-msingi</value>
+  </data>
+  <data name="CustomProfileAdded" xml:space="preserve">
+    <value>Jina la wasifu limeongezwa kwa mafanikio.</value>
+  </data>
+  <data name="CustomProfileDeleted" xml:space="preserve">
+    <value>Wasifu ulifutwa kwa mafanikio.</value>
+  </data>
+  <data name="CustomProfileInvalidName" xml:space="preserve">
+    <value>Kosa! Jina batili la wasifu.</value>
+  </data>
+  <data name="CustomProfileNotDeleted" xml:space="preserve">
+    <value>Hakuna wasifu wa kufuta.</value>
+  </data>
+  <data name="CustomProfileNotSaved" xml:space="preserve">
+    <value>Kosa! Hakuna wasifu uliohifadhiwa.</value>
+  </data>
+  <data name="CustomProfileProfileSaved" xml:space="preserve">
+    <value>Wasifu umehifadhiwa kwa mafanikio.</value>
+  </data>
+  <data name="DataRequestMessage" xml:space="preserve">
+    <value>Hujachagua maandishi yoyote. Tafadhali chagua maandishi ili kushiriki na kujaribu tena.</value>
+  </data>
+  <data name="DevicesAddProfileButton.Content" xml:space="preserve">
+    <value>Ongeza</value>
+  </data>
+  <data name="DevicesAvailableProfiles.Text" xml:space="preserve">
+    <value>Wasifu unaopatikana</value>
+  </data>
+  <data name="DevicesDefaultProfile.Text" xml:space="preserve">
+    <value>Wasifu chaguo-msingi:</value>
+  </data>
+  <data name="DevicesDeleteProfileBtn.Content" xml:space="preserve">
+    <value>Futa Wasifu</value>
+  </data>
+  <data name="DeviceSetupChanged" xml:space="preserve">
+    <value>Vifaa vya sauti vilivyounganishwa vimesasishwa </value>
+  </data>
+  <data name="DevicesHelpfulTip1.Text" xml:space="preserve">
+    <value>1. Weka jina la wasifu</value>
+  </data>
+  <data name="DevicesHelpfulTip2.Text" xml:space="preserve">
+    <value>2. Chagua njia moja au mbili za kifaa</value>
+  </data>
+  <data name="DevicesHelpfulTip3.Text" xml:space="preserve">
+    <value>3. Chagua spika (s) na kipaza sauti(s)</value>
+  </data>
+  <data name="DevicesHelpfulTip4.Text" xml:space="preserve">
+    <value>4. Weka wasifu wako kama chaguo-msingi</value>
+  </data>
+  <data name="DevicesHelpfulTip5.Text" xml:space="preserve">
+    <value>5. Bonyeza Kitufe cha Hifadhi Wasifu ili kuhifadhi wasifu wako</value>
+  </data>
+  <data name="DevicesHelpfulTips.Text" xml:space="preserve">
+    <value>Vidokezo vya kusaidia</value>
+  </data>
+  <data name="DevicesProfileNameTextBox.PlaceholderText" xml:space="preserve">
+    <value>Jina la wasifu...</value>
+  </data>
+  <data name="DevicesSaveProfileBtn.Content" xml:space="preserve">
+    <value>Hifadhi Wasifu</value>
+  </data>
+  <data name="DevicesSetasDefault.Text" xml:space="preserve">
+    <value>Weka kama chaguo-msingi</value>
+  </data>
+  <data name="DevicesSetProfileButton.Content" xml:space="preserve">
+    <value>Weka wasifu</value>
+  </data>
+  <data name="DevicesSetProfileText.Text" xml:space="preserve">
+    <value>Weka wasifu maalum?</value>
+  </data>
+  <data name="DiscardButton.Content" xml:space="preserve">
+    <value>Tupa</value>
+  </data>
+  <data name="DismissButton.Content" xml:space="preserve">
+    <value>Kumfukuza</value>
+  </data>
+  <data name="DismissText.Text" xml:space="preserve">
+    <value>Kumfukuza</value>
+  </data>
+  <data name="DownloadAudio.Text" xml:space="preserve">
+    <value>Pakua Sauti</value>
+  </data>
+  <data name="DownloadCancel" xml:space="preserve">
+    <value>Pakua imefutwa</value>
+  </data>
+  <data name="Downloaded" xml:space="preserve">
+    <value>Kupakuliwa</value>
+  </data>
+  <data name="DownloadError" xml:space="preserve">
+    <value>Kosa lilitokea</value>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>Inapakua</value>
+  </data>
+  <data name="DownloadPaused" xml:space="preserve">
+    <value>Pakua Paused</value>
+  </data>
+  <data name="DualDeviceUpdated" xml:space="preserve">
+    <value>Usanidi wa Kifaa Mbili umesasishwa kwa ufanisi</value>
+  </data>
+  <data name="EnterQuestion.Text" xml:space="preserve">
+    <value>Ingiza swali hapa chini</value>
+  </data>
+  <data name="ErrorDescription.Text" xml:space="preserve">
+    <value>Mabadiliko yako hayajaokolewa, unataka kuyaokoa au kutupa?</value>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>Kuna kitu kiliharibika.. Jaribu tena</value>
+  </data>
+  <data name="ErrorTitle.Text" xml:space="preserve">
+    <value>Una mabadiliko yasiyookolewa</value>
+  </data>
+  <data name="FeedbackEight.Text" xml:space="preserve">
+    <value>Tuliendelea kukatizana</value>
+  </data>
+  <data name="FeedbackFive.Text" xml:space="preserve">
+    <value>Nilisikia mwangwi kwenye simu</value>
+  </data>
+  <data name="FeedbackFour.Text" xml:space="preserve">
+    <value>Ilichukua sauti za chinichini</value>
+  </data>
+  <data name="FeedbackOne.Text" xml:space="preserve">
+    <value>Haikuchukua sauti yangu kwa usahihi</value>
+  </data>
+  <data name="FeedbackQuestion.Text" xml:space="preserve">
+    <value>Nini kingeweza kuwa bora zaidi?</value>
+  </data>
+  <data name="FeedbackSeven.Text" xml:space="preserve">
+    <value>Kikao kilimalizika bila kutarajia</value>
+  </data>
+  <data name="FeedbackSix.Text" xml:space="preserve">
+    <value>Kiasi kilikuwa chini sana</value>
+  </data>
+  <data name="FeedbackThanks.Text" xml:space="preserve">
+    <value>Asante kwa maoni</value>
+  </data>
+  <data name="FeedbackThree.Text" xml:space="preserve">
+    <value>Muda wa kutafsiri ulikuwa polepole sana</value>
+  </data>
+  <data name="FeedbackTwo.Text" xml:space="preserve">
+    <value>Ilipotosha sentensi zangu</value>
+  </data>
+  <data name="ForcedUpdateDialogCaptionContinuation" xml:space="preserve">
+    <value>kufanya kazi. Programu haitafanya kazi bila sasisho hizi.</value>
+  </data>
+  <data name="Improvement.Text" xml:space="preserve">
+    <value>Tutaendelea kufanya kazi katika kuboresha uzoefu wako.</value>
+  </data>
+  <data name="LanguageSettingsUpdated" xml:space="preserve">
+    <value>Mabadiliko ya lugha yamesasishwa kwa ufanisi</value>
+  </data>
+  <data name="NewVersionDialogDescription2" xml:space="preserve">
+    <value>na toleo lako la</value>
+  </data>
+  <data name="NewVersionDialogDescription3" xml:space="preserve">
+    <value>inaweza kuwa haitumiki.</value>
+  </data>
+  <data name="Other.Text" xml:space="preserve">
+    <value>Maoni Mengine:</value>
+  </data>
+  <data name="PasswordUpdated" xml:space="preserve">
+    <value>Nywila Ilibadilika Succesfully</value>
+  </data>
+  <data name="PlaybackLanguageUpdated" xml:space="preserve">
+    <value>Lugha ya uchezaji chaguo-msingi ilibadilika kwa usahihi</value>
+  </data>
+  <data name="QuestionAdded" xml:space="preserve">
+    <value>Swali limeongezwa kwa mafanikio</value>
+  </data>
+  <data name="QuestionDeleted" xml:space="preserve">
+    <value>Swali Lililofutwa Kwa Mafanikio</value>
+  </data>
+  <data name="Questions.Text" xml:space="preserve">
+    <value>Maswali</value>
+  </data>
+  <data name="QuestionSettingsInstructionTwo.Text" xml:space="preserve">
+    <value>* Kila swali lazima liwe na ufunguo tofauti wa njia ya mkato.</value>
+  </data>
+  <data name="QuestionsValidationError.Text" xml:space="preserve">
+    <value>* Angalia uthibitisho wako na ujaribu tena.</value>
+  </data>
+  <data name="QuickViewLanguagesUpdated" xml:space="preserve">
+    <value>Languges za mtazamo wa haraka zilizosasishwa Succesfully</value>
+  </data>
+  <data name="SendFeedback.Content" xml:space="preserve">
+    <value>Tuma Maoni</value>
+  </data>
+  <data name="SessionFeedbackPrompt" xml:space="preserve">
+    <value>Utapimaje kikao chako cha tafsiri?</value>
+  </data>
+  <data name="SessionFeedbackTitle" xml:space="preserve">
+    <value>Maoni ya Tafsiri</value>
+  </data>
+  <data name="ShortcutSuccess" xml:space="preserve">
+    <value>Njia za mkato za maswali zimesasishwa kwa mafanikio</value>
+  </data>
+  <data name="SingleDeviceUpdated" xml:space="preserve">
+    <value>Usanidi wa Kifaa kimoja umesasishwa kwa mafanikio</value>
+  </data>
+  <data name="StartupPageTitleDescription2.Text" xml:space="preserve">
+    <value>programu ya tafsiri.</value>
+  </data>
+  <data name="TimeoutUpdated" xml:space="preserve">
+    <value>Timeout updated Succesfully</value>
+  </data>
+  <data name="TouchShareText" xml:space="preserve">
+    <value>Sehemu ya Kugusa</value>
+  </data>
+  <data name="TranslationLanguageUpdated" xml:space="preserve">
+    <value>Lugha ya tafsiri chaguo-msingi ilibadilika kwa ufanisi</value>
+  </data>
+  <data name="TranslationPlaybackUpdated" xml:space="preserve">
+    <value>Tafsiri chaguo-msingi &amp; lugha ya uchezaji ilibadilika kwa ufanisi</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption2" xml:space="preserve">
+    <value>kufanya kazi. Vipengele vinaweza kuacha kufanya kazi bila taarifa. Tafadhali sasisha programu.</value>
+  </data>
+  <data name="UserFlagSwitch" xml:space="preserve">
+    <value>Bendera ya mtumiaji kubadili lugha iliyosasishwa</value>
+  </data>
+</root>

@@ -1,0 +1,1192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="AppDescription" xml:space="preserve">
+    <value>TalaTouchApp</value>
+  </data>
+  <data name="AppDisplayName" xml:space="preserve">
+    <value>TalaTouchApp</value>
+  </data>
+  <data name="AudioDeviceSelector_MicDropdown.PlaceholderText" xml:space="preserve">
+    <value>Agħżel mikrofonu</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneMic.Text" xml:space="preserve">
+    <value>Persuna Mikrofonu Wieħed</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneSpeaker.Text" xml:space="preserve">
+    <value>Persuna Wieħed Speaker</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoMic.Text" xml:space="preserve">
+    <value>Persuna Żewġ Mikrofonu</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoSpeaker.Text" xml:space="preserve">
+    <value>Persuna Tnejn Speaker</value>
+  </data>
+  <data name="AudioDeviceSelector_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>Agħżel kelliem</value>
+  </data>
+  <data name="BluetoothPairingDialog_Description.Text" xml:space="preserve">
+    <value>Żgura li t-tagħmir tiegħek mixgħul u jista' jiġi skopert. Agħżel tagħmir hawn taħt biex tikkonnettja.</value>
+  </data>
+  <data name="BluetoothPairingDialog_Title.Text" xml:space="preserve">
+    <value>Żid tagħmir</value>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>Ikkanċella</value>
+  </data>
+  <data name="ChangePasscodeDialog_Confirm.Text" xml:space="preserve">
+    <value>Ikkonferma Passcode Ġdid</value>
+  </data>
+  <data name="ChangePasscodeDialog_Current.Text" xml:space="preserve">
+    <value>Passcode kurrenti</value>
+  </data>
+  <data name="ChangePasscodeDialog_New.Text" xml:space="preserve">
+    <value>Passcode Ġdid</value>
+  </data>
+  <data name="ChangePasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Ibdel il-Passcode</value>
+  </data>
+  <data name="Close.Content" xml:space="preserve">
+    <value>Qrib</value>
+  </data>
+  <data name="ConsentDialog_Description1.Text" xml:space="preserve">
+    <value>It-tħassib dwar il-privatezza huwa l-prijorità numru wieħed tagħna. (5) Taċċetta t-termini u l-kundizzjonijiet ta' din il-Politika ta' Privatezza bil-mowbajl jew it-tablet tiegħek, kif applikabbli.</value>
+  </data>
+  <data name="ConsentDialog_Description2.Text" xml:space="preserve">
+    <value>Jekk tagħżel li ma tħalliniex aċċess meta nirċievu talba għall-kunsens (talbiet bħal dawn jiġu nnotifikati fuq is-sit web www ICTS fuq :</value>
+  </data>
+  <data name="ConsentDialog_Description3.Text" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int</value>
+  </data>
+  <data name="ConsentDialog_Description4.Text" xml:space="preserve">
+    <value>), allura la l-indirizz elettroniku pprovdut u lanqas kwalunkwe informazzjoni personali oħra li tista' tidentifika individwu ma jistgħu wkoll jidħlu fil-pussess tagħna ladarba tali permess ikun ingħata.</value>
+  </data>
+  <data name="ConsentDialog_Description5.Text" xml:space="preserve">
+    <value>Bl-użu ta 'ċerti partijiet: /L-użu minni tal-Mowbajl / Ikoni tiegħi - li jista' jinkludi li tippermetti lil oħrajn f'chat rooms dwar prodotti bħal</value>
+  </data>
+  <data name="ConsentDialog_HyperLink.NavigateUri" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int/</value>
+  </data>
+  <data name="ConsentDialog_Title.Text" xml:space="preserve">
+    <value>Aħna napprezzaw il-privatezza tiegħek</value>
+  </data>
+  <data name="Dashboard_Choose_Language.Text" xml:space="preserve">
+    <value>Agħżel il-Lingwa</value>
+  </data>
+  <data name="Dashboard_Hello.Text" xml:space="preserve">
+    <value>Ħello</value>
+  </data>
+  <data name="Dashboard_SearchBox.PlaceholderText" xml:space="preserve">
+    <value>Lingwa tat-Tiftix</value>
+  </data>
+  <data name="Dashboard_Welcome.Text" xml:space="preserve">
+    <value>Merħba</value>
+  </data>
+  <data name="DevicesErrorDialog_NoDeviceError" xml:space="preserve">
+    <value>M'għandek l-ebda tagħmir(i) ssejvjat(i). Mur Settings -&gt; Tagħmir biex tagħżel Mikrofonu u Speaker imbagħad ikklikkja fuq Issejvja.</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Description.Text" xml:space="preserve">
+    <value>Apparati bluetooth disponibbli</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_DropDown.PlaceholderText" xml:space="preserve">
+    <value>Agħżel apparat bluetooth</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Scan.Text" xml:space="preserve">
+    <value>Skennja</value>
+  </data>
+  <data name="DevicesPage_Bluetooth.Text" xml:space="preserve">
+    <value>Bluetooth</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices_Description.Text" xml:space="preserve">
+    <value>Agħżel it-tagħmir ta' l-awdjo tiegħek</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices.Text" xml:space="preserve">
+    <value>Tagħmir ta' l-Awdjo Kkonnettjat</value>
+  </data>
+  <data name="DevicesPage_MicDropDown.PlaceholderText" xml:space="preserve">
+    <value>Agħżel mikrofonu</value>
+  </data>
+  <data name="DevicesPage_Network_Description.Text" xml:space="preserve">
+    <value>Netwerks disponibbli</value>
+  </data>
+  <data name="DevicesPage_Network_DropDown.PlaceholderText" xml:space="preserve">
+    <value>Agħżel netwerk</value>
+  </data>
+  <data name="DevicesPage_Network.Text" xml:space="preserve">
+    <value>Netwerk</value>
+  </data>
+  <data name="DevicesPage_NetworkError" xml:space="preserve">
+    <value>Ebda netwerk magħżul. Iċċekkja l-konnessjonijiet tan-netwerk tiegħek.</value>
+  </data>
+  <data name="DevicesPage_PersonOne_Speaker.Text" xml:space="preserve">
+    <value>Persuna kelliem wieħed</value>
+  </data>
+  <data name="DevicesPage_PersonOneMic.Text" xml:space="preserve">
+    <value>Persuna mikrofonu wieħed</value>
+  </data>
+  <data name="DevicesPage_PersonTwo_Mic.Text" xml:space="preserve">
+    <value>Persuna żewġ mikrofonu</value>
+  </data>
+  <data name="DevicesPage_Scan" xml:space="preserve">
+    <value>Skennja</value>
+  </data>
+  <data name="DevicesPage_Scanning" xml:space="preserve">
+    <value>Skennjar...</value>
+  </data>
+  <data name="DevicesPage_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>Agħżel kelliem</value>
+  </data>
+  <data name="DevicesPage_Status_Connect" xml:space="preserve">
+    <value>Ikkonnettja</value>
+  </data>
+  <data name="DevicesPage_Status_Connected" xml:space="preserve">
+    <value>Konnessi</value>
+  </data>
+  <data name="DevicesPage_Status_Connecting" xml:space="preserve">
+    <value>Konnessjoni...</value>
+  </data>
+  <data name="DevicesPage_Status_Off" xml:space="preserve">
+    <value>MITFI</value>
+  </data>
+  <data name="DevicesPage_Status_On" xml:space="preserve">
+    <value>FUQ</value>
+  </data>
+  <data name="DevicesPager_PersonTwo_Speaker.Text" xml:space="preserve">
+    <value>Persuna żewġ kelliem</value>
+  </data>
+  <data name="EnterPasscodeDialog_Description.Text" xml:space="preserve">
+    <value>Daħħal il-passcode tiegħek biex taċċessa l-paġna tas-settings</value>
+  </data>
+  <data name="EnterPasscodeDialog_ForgotPasscode.Content" xml:space="preserve">
+    <value>Insejt il-Passcode?</value>
+  </data>
+  <data name="EnterPasscodeDialog_InvalidPasscode.Text" xml:space="preserve">
+    <value>Passcode invalidu! Erġa' pprova.</value>
+  </data>
+  <data name="EnterPasscodeDialog_Passcode.Text" xml:space="preserve">
+    <value>Kodiċi tal-pass</value>
+  </data>
+  <data name="EnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Daħħal il-passcode tiegħek</value>
+  </data>
+  <data name="IAgree.Content" xml:space="preserve">
+    <value>Naqbel</value>
+  </data>
+  <data name="InvalidLicenseDialog_Description.Text" xml:space="preserve">
+    <value>Il-verifika tal-liċenzja tiegħek ma rnexxietx</value>
+  </data>
+  <data name="InvalidLicenseDialog_Title.Text" xml:space="preserve">
+    <value>Liċenzja Invalida</value>
+  </data>
+  <data name="LoginFailedDialog_Button.Content" xml:space="preserve">
+    <value>Mur lura</value>
+  </data>
+  <data name="LoginFailedDialog_Description.Text" xml:space="preserve">
+    <value>It-tentattiv tal-login tiegħek falla.</value>
+  </data>
+  <data name="LoginFailedDialog_Title.Text" xml:space="preserve">
+    <value>Login Fallut</value>
+  </data>
+  <data name="Main_Title.Text" xml:space="preserve">
+    <value>Prinċipali</value>
+  </data>
+  <data name="PasswordPopup_SetupTitle.Text" xml:space="preserve">
+    <value>Issettja Passcode</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Description1.Text" xml:space="preserve">
+    <value>Erġa' daħħal il-passcode tiegħek biex tibqa' teditja...</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Erġa' daħħal il-passcode tiegħek</value>
+  </data>
+  <data name="RenterPasscodeDialog_Description2.Text" xml:space="preserve">
+    <value>l-iffrankar awtomatiku u li tmur lura d-dar</value>
+  </data>
+  <data name="Save.Content" xml:space="preserve">
+    <value>Tissejvja</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Description.Text" xml:space="preserve">
+    <value>Din hija paġna tal-kampjun li turi parametri ta 'attivazzjoni jekk l-app tiġi attivata minn Deep Linking.</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Title.Text" xml:space="preserve">
+    <value>SchemeActivationSample</value>
+  </data>
+  <data name="SetPasscodeDialog_ConfirmPasscode.Text" xml:space="preserve">
+    <value>Ikkonferma Passcode Ġdid </value>
+  </data>
+  <data name="SetPasscodeDialog_NewPasscode.Text" xml:space="preserve">
+    <value>Passcode Ġdid</value>
+  </data>
+  <data name="SetPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Issettja Passcode</value>
+  </data>
+  <data name="Settings_About.Text" xml:space="preserve">
+    <value>Dwar din l-applikazzjoni</value>
+  </data>
+  <data name="Settings_AboutDescription.Text" xml:space="preserve">
+    <value>Issettjar tat-test tad-detentur tal-post tal-paġna.  Id-deskrizzjoni tal-app tiegħek tmur hawn.</value>
+  </data>
+  <data name="Settings_Personalization.Text" xml:space="preserve">
+    <value>Personalizzazzjoni</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.Content" xml:space="preserve">
+    <value>Dikjarazzjoni ta' Privatezza</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.NavigateUri" xml:space="preserve">
+    <value>https://YourPrivacyUrlGoesHere/</value>
+  </data>
+  <data name="Settings_Theme_Dark.Content" xml:space="preserve">
+    <value>Skur</value>
+  </data>
+  <data name="Settings_Theme_Default.Content" xml:space="preserve">
+    <value>Default tal-Windows</value>
+  </data>
+  <data name="Settings_Theme_Light.Content" xml:space="preserve">
+    <value>Dawl</value>
+  </data>
+  <data name="Settings_Theme.Text" xml:space="preserve">
+    <value>Agħżel it-Tema</value>
+  </data>
+  <data name="Settings_Title.Text" xml:space="preserve">
+    <value>Issettjar</value>
+  </data>
+  <data name="SettingsPage_Devices" xml:space="preserve">
+    <value>Mezzi</value>
+  </data>
+  <data name="SettingsPage_Language" xml:space="preserve">
+    <value>Lingwa</value>
+  </data>
+  <data name="SettingsPage_Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="SettingsPage_Questions" xml:space="preserve">
+    <value>Kwistjonijiet</value>
+  </data>
+  <data name="SettingsPage_Title" xml:space="preserve">
+    <value>Issettjar</value>
+  </data>
+  <data name="ShellView_Help" xml:space="preserve">
+    <value>Għajnuna</value>
+  </data>
+  <data name="ShellView_History" xml:space="preserve">
+    <value>Kronoloġija</value>
+  </data>
+  <data name="ShellView_Home" xml:space="preserve">
+    <value>Dar</value>
+  </data>
+  <data name="ShellView_Settings.Text" xml:space="preserve">
+    <value>Issettjar</value>
+  </data>
+  <data name="Sign_In.Text" xml:space="preserve">
+    <value>Iffirma</value>
+  </data>
+  <data name="SignInDialog_Description.Text" xml:space="preserve">
+    <value>Istantanjament tikkomunika f'ħafna lingwi globali mat-tagħmir Jabra tiegħek.</value>
+  </data>
+  <data name="SignInDialog_SignInButton.Content" xml:space="preserve">
+    <value>Iffirma</value>
+  </data>
+  <data name="Translate_Button.Text" xml:space="preserve">
+    <value>Ittraduċi</value>
+  </data>
+  <data name="TranslationPage_EndSession.Text" xml:space="preserve">
+    <value>Temm is-sessjoni</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOn" xml:space="preserve">
+    <value>Mikrofonu Fuq</value>
+  </data>
+  <data name="TranslationPage_SpeakerOn" xml:space="preserve">
+    <value>L-Ispeaker dwar</value>
+  </data>
+  <data name="TranslationPage_SpeakNow.Text" xml:space="preserve">
+    <value>Tkellem Issa</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Dwar</value>
+  </data>
+  <data name="AboutPage_AppVersion.Text" xml:space="preserve">
+    <value>Verżjoni tal-Applikazzjoni</value>
+  </data>
+  <data name="AboutPage_CheckUpdate.Content" xml:space="preserve">
+    <value>Iċċekkja għal aġġornamenti</value>
+  </data>
+  <data name="AboutPage_DataConsent" xml:space="preserve">
+    <value>L-organizzazzjoni tiegħek tat il-kunsens tagħha biex tissejvja d-dejta tiegħek fis-sħab.</value>
+  </data>
+  <data name="AboutPage_NoDataConsent" xml:space="preserve">
+    <value>L-organizzazzjoni tiegħek ma tatx il-kunsens tagħha biex tissejvja d-dejta tiegħek fis-sħab.</value>
+  </data>
+  <data name="AboutPage_Published.Text" xml:space="preserve">
+    <value>Ippubblikat minn FITTS Limited.</value>
+  </data>
+  <data name="AppClose_Close.Content" xml:space="preserve">
+    <value>Agħlaq Xorta waħda</value>
+  </data>
+  <data name="AppClose_Dismiss.Content" xml:space="preserve">
+    <value>Ikkanċella</value>
+  </data>
+  <data name="AppClose_Warning.Text" xml:space="preserve">
+    <value>Għandek sessjoni għaddejja. Jekk jogħġbok temm is-sessjoni qabel ma toħroġ mill-applikazzjoni.</value>
+  </data>
+  <data name="AppVersion.Text" xml:space="preserve">
+    <value>Verżjoni tal-app</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Button.Content" xml:space="preserve">
+    <value>Kompli s-Sessjoni</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Description.Text" xml:space="preserve">
+    <value>Is-sessjoni se tintemm</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Title.Text" xml:space="preserve">
+    <value>L-Awdjo Ma Nstabx</value>
+  </data>
+  <data name="AudioPlayer_Error.Text" xml:space="preserve">
+    <value>Ma rnexxilux jillowdja l-awdjo</value>
+  </data>
+  <data name="DashboardPage_DefaultLanguageError" xml:space="preserve">
+    <value>M'għandek l-ebda Lingwa tat-Traduzzjoni Default issejvjata. Mur Settings -&gt; Lingwi biex tagħżel Lingwa tat-Traduzzjoni Default imbagħad ikklikkja fuq Issejvja.</value>
+  </data>
+  <data name="DashboardPage_TargetLanguageError" xml:space="preserve">
+    <value>Ma għażiltx Lingwa tat-Traduzzjoni fil-Mira. Jekk jogħġbok agħżel lingwa imbagħad ikklikkja fuq Ittraduċi.</value>
+  </data>
+  <data name="DevicesErrorDialog_DualDeviceError" xml:space="preserve">
+    <value>Għażilt it-traduzzjoni tat-Tagħmir Doppju iżda m'għandekx tagħmir(i) magħżul(a) għall-Persuna 2. Mur Settings -&gt; Tagħmir biex tagħżel Mikrofonu u Speaker imbagħad ikklikkja fuq Issejvja.</value>
+  </data>
+  <data name="DevicesPage_Title.Text" xml:space="preserve">
+    <value>Mezzi</value>
+  </data>
+  <data name="DevicesPage_Wifi_Password.Text" xml:space="preserve">
+    <value>Daħħal il-Password</value>
+  </data>
+  <data name="DevicesPage_WifiStatus.Text" xml:space="preserve">
+    <value>Status tal-wifi</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Teditja</value>
+  </data>
+  <data name="Expiry.Text" xml:space="preserve">
+    <value>Iskadenza</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Feedback</value>
+  </data>
+  <data name="FeedbackMessage.Text" xml:space="preserve">
+    <value>Jekk għandek xi feedback jew mistoqsijiet toqgħodx lura milli tagħmel kuntatt.</value>
+  </data>
+  <data name="GetInTouchButton.Text" xml:space="preserve">
+    <value>Agħmel kuntatt</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Għajnuna</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>Kronoloġija</value>
+  </data>
+  <data name="History_ExportBtn.Text" xml:space="preserve">
+    <value>Esportazzjoni</value>
+  </data>
+  <data name="HistoryExportButtonTooltip.Text" xml:space="preserve">
+    <value>Esportazzjoni</value>
+  </data>
+  <data name="HistoryListColumnDate.Text" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="HistoryListColumnDuration.Text" xml:space="preserve">
+    <value>Tul</value>
+  </data>
+  <data name="HistoryListColumnPrimaryLanguage.Text" xml:space="preserve">
+    <value>Lingwa Primarja</value>
+  </data>
+  <data name="HistoryListColumnSecondaryLanguage.Text" xml:space="preserve">
+    <value>Lingwa Sekondarja</value>
+  </data>
+  <data name="HistoryListColumnSessionId.Text" xml:space="preserve">
+    <value>ID tas-sessjoni</value>
+  </data>
+  <data name="InitalSetup_SkipSetup.Content" xml:space="preserve">
+    <value>Aqbeż il-konfigurazzjoni</value>
+  </data>
+  <data name="InitialNetworkPopupConnectButton.Content" xml:space="preserve">
+    <value>Ikkonnettja</value>
+  </data>
+  <data name="InitialSetup_DeviceSelection.Text" xml:space="preserve">
+    <value>Għażla tat-Tagħmir</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionDescription.Text" xml:space="preserve">
+    <value>Ikkonfigura t-tagħmir ta' l-awdjo default tiegħek</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneMicrophone.Text" xml:space="preserve">
+    <value>Agħżel il-Mikrofonu</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneSpeaker.Text" xml:space="preserve">
+    <value>Agħżel l-Ispiker</value>
+  </data>
+  <data name="InitialSetup_FinishSetup.Content" xml:space="preserve">
+    <value>Temm il-konfigurazzjoni</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection_Description.Text" xml:space="preserve">
+    <value>Ikkonfigura l-lingwa tat-traduzzjoni default tiegħek</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection.Text" xml:space="preserve">
+    <value>Għażla tal-Lingwa</value>
+  </data>
+  <data name="InitialSetup_NetworkSelection.Text" xml:space="preserve">
+    <value>Netwerk ippreferut</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopup.Text" xml:space="preserve">
+    <value>Ikkonnettja man-Netwerk</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopupPassword.Text" xml:space="preserve">
+    <value>Daħħal il-Password:</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionDescription.Text" xml:space="preserve">
+    <value>Agħżel minn waħda min-netwerks disponibbli</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionNoInternetConnection.Text" xml:space="preserve">
+    <value>M'intix ikkonnettjat mal-internet. Iċċekkja l-konnessjonijiet tan-netwerk tiegħek.</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionOtherNetworks.Text" xml:space="preserve">
+    <value>Netwerks Oħra</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup_Description.Text" xml:space="preserve">
+    <value>Issettja l-passcode tal-app tiegħek</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup.Text" xml:space="preserve">
+    <value>Konfigurazzjoni tal-Passcode</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Lingwa</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage_Description.Text" xml:space="preserve">
+    <value>Agħżel il-Lingwa tal-Applikazzjoni</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage.Text" xml:space="preserve">
+    <value>Lingwa tal-Applikazzjoni</value>
+  </data>
+  <data name="LanguagesPage_AppLanguageDropdown.PlaceholderText" xml:space="preserve">
+    <value>Agħżel lingwa</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage_Description.Text" xml:space="preserve">
+    <value>Il-lingwa default li qed tuża</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage.Text" xml:space="preserve">
+    <value>Il-lingwa default tiegħi</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguageDropDown.PlaceholderText" xml:space="preserve">
+    <value>Agħżel lingwa</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description.Text" xml:space="preserve">
+    <value>Taqsima tal-istorja (għal traduzzjonijiet b'ħafna apparati)</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description1.Text" xml:space="preserve">
+    <value>* traduzzjonijiet ta 'apparat wieħed jilagħbu l-awdjo kollu bħala default *</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage.Text" xml:space="preserve">
+    <value>Lingwa tal-Plejbek Default</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguages.Text" xml:space="preserve">
+    <value>Lingwi ta' viżjoni rapida</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguagesDropdown.PlaceholderText" xml:space="preserve">
+    <value>Żid lingwa</value>
+  </data>
+  <data name="LanguagesPage_Title.Text" xml:space="preserve">
+    <value>Lingwi</value>
+  </data>
+  <data name="Licence" xml:space="preserve">
+    <value>Liċenza</value>
+  </data>
+  <data name="LicenseType.Text" xml:space="preserve">
+    <value>Tip ta' Liċenzja:</value>
+  </data>
+  <data name="NetworkConnectionError" xml:space="preserve">
+    <value>Żball:</value>
+  </data>
+  <data name="Next.Content" xml:space="preserve">
+    <value>Li jmiss</value>
+  </data>
+  <data name="PasscodeError_MinimumLength" xml:space="preserve">
+    <value>It-tul minimu tal-passcode għandu jkun 4.</value>
+  </data>
+  <data name="PasscodeError_NotMatching" xml:space="preserve">
+    <value>Il-passcodes imdaħħla ma jaqblux. Ġentilment erġa' daħħal il-passcodes imbagħad erġa' pprova.</value>
+  </data>
+  <data name="Person.Text" xml:space="preserve">
+    <value>Persuna</value>
+  </data>
+  <data name="PrivacyPolicy.Text" xml:space="preserve">
+    <value>Regoli tal-privatezza</value>
+  </data>
+  <data name="ProfilePage_Email_Description.Text" xml:space="preserve">
+    <value>Email ta 'esportazzjoni default</value>
+  </data>
+  <data name="ProfilePage_Email.Text" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="ProfilePage_Passcode_Description.Text" xml:space="preserve">
+    <value>Il-passcode tal-applikazzjoni tiegħek</value>
+  </data>
+  <data name="ProfilePage_Passcode.Text" xml:space="preserve">
+    <value>Kodiċi tal-pass</value>
+  </data>
+  <data name="ProfilePage_Timeout_Description.Text" xml:space="preserve">
+    <value>Frekwenza tas-serratura tal-modalità amministrattiva</value>
+  </data>
+  <data name="ProfilePage_Timeout.Text" xml:space="preserve">
+    <value>Skadenza tal-ħin tal-modalità tal-amministratur</value>
+  </data>
+  <data name="ProfilePage_TimeoutDropdown.PlaceholderText" xml:space="preserve">
+    <value>Agħżel ħin</value>
+  </data>
+  <data name="ProfilePage_Title.Text" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="PublishedBy.Text" xml:space="preserve">
+    <value>Ippubblikat minn</value>
+  </data>
+  <data name="ReleaseNotesMessage.Text" xml:space="preserve">
+    <value>In-noti tar-rilaxx se jiġu aġġornati dalwaqt</value>
+  </data>
+  <data name="Save_Text" xml:space="preserve">
+    <value>Tissejvja</value>
+  </data>
+  <data name="SessionDetailsPage_Description.Text" xml:space="preserve">
+    <value>Storja tat-Traskrizzjoni</value>
+  </data>
+  <data name="SessionDetailsPage_Duration.Text" xml:space="preserve">
+    <value>Tul</value>
+  </data>
+  <data name="SessionDetailsPage_SessionID.Text" xml:space="preserve">
+    <value>ID tas-sessjoni</value>
+  </data>
+  <data name="SessionDetailsPage_Title.Text" xml:space="preserve">
+    <value>Kronoloġija</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Issettjar</value>
+  </data>
+  <data name="TermsOfUse.Text" xml:space="preserve">
+    <value>Termini ta 'Użu</value>
+  </data>
+  <data name="TranslationPage_SettingUpState" xml:space="preserve">
+    <value>Twaqqif...</value>
+  </data>
+  <data name="TranslationPage_SpeakFast" xml:space="preserve">
+    <value>Ipprova tkellem daqsxejn aktar mgħaġġel għal riżultati ta 'traduzzjoni aħjar.</value>
+  </data>
+  <data name="TranslationPage_SpeakIn" xml:space="preserve">
+    <value>Tkellem fi</value>
+  </data>
+  <data name="TranslationPage_SpeakSlow" xml:space="preserve">
+    <value>Ipprova tkellem daqsxejn aktar bil-mod għal riżultati aħjar tat-traduzzjoni.</value>
+  </data>
+  <data name="TranslationPage_Switching" xml:space="preserve">
+    <value>Taqleb</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonOne" xml:space="preserve">
+    <value>Aqleb għall-persuna 1</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonTwo" xml:space="preserve">
+    <value>Aqleb għal persuna 2</value>
+  </data>
+  <data name="TranslationPage_TranslationReadyState" xml:space="preserve">
+    <value>Tkellem issa</value>
+  </data>
+  <data name="Website.Text" xml:space="preserve">
+    <value>Websajt</value>
+  </data>
+  <data name="WhatsNew" xml:space="preserve">
+    <value>X'hemm Ġdid</value>
+  </data>
+  <data name="WhatsNewInSpeechly.Text" xml:space="preserve">
+    <value>X'hemm ġdid fi</value>
+  </data>
+  <data name="AudioDevicesSelectorDualDevice.Content" xml:space="preserve">
+    <value>Tagħmir Doppju</value>
+  </data>
+  <data name="AudioDevicesSelectorSingleDevice.Content" xml:space="preserve">
+    <value>Apparat Uniku</value>
+  </data>
+  <data name="AutoDetectSearchCountry.PlaceholderText" xml:space="preserve">
+    <value>Pajjiż tat-tiftix</value>
+  </data>
+  <data name="AutoDetectSelectLanguage.Text" xml:space="preserve">
+    <value>Agħżel il-lingwa tiegħek</value>
+  </data>
+  <data name="ChatViewPersonOne" xml:space="preserve">
+    <value>Persuna Waħda</value>
+  </data>
+  <data name="ChatViewPersonTwo" xml:space="preserve">
+    <value>It-Tieni Persuna</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionLost" xml:space="preserve">
+    <value>Il-konnessjoni ta' l-Internet mitlufa. Jekk jogħġbok iċċekkja l-konnessjoni imbagħad erġa' pprova.</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionUnstable" xml:space="preserve">
+    <value>Il-konnessjoni ta' l-internet tiegħek bil-mod. Tista' tesperjenza xi dewmien.</value>
+  </data>
+  <data name="CustomTagSelectionTitle.Text" xml:space="preserve">
+    <value>Tags tal-Organizzazzjoni (agħżel li żżid)</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.Header" xml:space="preserve">
+    <value>Bandiera tal-utent biex taqleb il-lingwa</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OffContent" xml:space="preserve">
+    <value>Diżattivat</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OnContent" xml:space="preserve">
+    <value>Attivat</value>
+  </data>
+  <data name="DetectLanguageButton.Content" xml:space="preserve">
+    <value>Sib il-Lingwa</value>
+  </data>
+  <data name="DevicesPageNetworkSetupBluetoothStatus.Text" xml:space="preserve">
+    <value>Status Bluetooth:</value>
+  </data>
+  <data name="DevicesPageNetworkSetupConnectAutomatically.Text" xml:space="preserve">
+    <value>Ikkonnettja awtomatikament</value>
+  </data>
+  <data name="DevicesPageNetworkSetupWiFiStatus.Text" xml:space="preserve">
+    <value>Status tal-WiFi:</value>
+  </data>
+  <data name="Dimiss.Content" xml:space="preserve">
+    <value>Ikkanċella</value>
+  </data>
+  <data name="Duration.Text" xml:space="preserve">
+    <value>|  Tul</value>
+  </data>
+  <data name="EmailPopup_Description.Text" xml:space="preserve">
+    <value>Daħħal l-indirizz elettroniku tiegħek</value>
+  </data>
+  <data name="EmailPopup_Title.Text" xml:space="preserve">
+    <value>Ibgħat email lis-sessjoni tiegħek</value>
+  </data>
+  <data name="ForcedUpdateDialogCaption" xml:space="preserve">
+    <value>Għandna aġġornamenti kritiċi għal</value>
+  </data>
+  <data name="ForcedUpdateDialogInstallBtnText" xml:space="preserve">
+    <value>Aġġornament</value>
+  </data>
+  <data name="ForcedUpdateDialogTitle" xml:space="preserve">
+    <value>Aġġornamenti Kritiċi</value>
+  </data>
+  <data name="GoBack.Content" xml:space="preserve">
+    <value>Mur lura</value>
+  </data>
+  <data name="HelpPageSignOut.Content" xml:space="preserve">
+    <value>Oħroġ</value>
+  </data>
+  <data name="History_Export.Text" xml:space="preserve">
+    <value>Qed jiġġenera l-fajl...</value>
+  </data>
+  <data name="HistoryListColumnSessionName.Text" xml:space="preserve">
+    <value>Isem</value>
+  </data>
+  <data name="HistoryListColumnSynced.Text" xml:space="preserve">
+    <value>Issinkronizzat</value>
+  </data>
+  <data name="HistorySearchBox.PlaceholderText" xml:space="preserve">
+    <value>Lingwa, isem is-sessjoni, tags jew IDs</value>
+  </data>
+  <data name="HistorySearchButtonTooltip.Text" xml:space="preserve">
+    <value>Tiftix</value>
+  </data>
+  <data name="HistorySearchClearButtonTooltip.Text" xml:space="preserve">
+    <value>Ċara</value>
+  </data>
+  <data name="HistorySearchFromDate.Header" xml:space="preserve">
+    <value>Minn:</value>
+  </data>
+  <data name="HistorySearchToDate.Header" xml:space="preserve">
+    <value>Lil:</value>
+  </data>
+  <data name="HistoryShareButtonTooltip.Text" xml:space="preserve">
+    <value>Ixxerja/Ibgħat</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonOne.Text" xml:space="preserve">
+    <value>Persuna 1</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonTwo.Text" xml:space="preserve">
+    <value>Persuna 2</value>
+  </data>
+  <data name="LoginPageTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NewVersionDialogCaption" xml:space="preserve">
+    <value>Installa verżjoni ġdida tal-app ta'</value>
+  </data>
+  <data name="NewVersionDialogDescription" xml:space="preserve">
+    <value>Karatteristiċi ġodda u bug fixes se jkunu neqsin minn </value>
+  </data>
+  <data name="NewVersionDialogInstallBtnText" xml:space="preserve">
+    <value>Installa Verżjoni Ġdida</value>
+  </data>
+  <data name="NewVersionDialogTitle" xml:space="preserve">
+    <value>Verżjoni ġdida tal-App</value>
+  </data>
+  <data name="NextText" xml:space="preserve">
+    <value>Li jmiss</value>
+  </data>
+  <data name="ProfilePageEditButton.Content" xml:space="preserve">
+    <value>Teditja</value>
+  </data>
+  <data name="QuestionsButton.Content" xml:space="preserve">
+    <value>Ara l-Mistoqsijiet</value>
+  </data>
+  <data name="QuestionSettingsDescription.Text" xml:space="preserve">
+    <value>Ara jew immodifika x-shortcuts tal-mistoqsija tiegħek</value>
+  </data>
+  <data name="QuestionSettingsInstructionOne.Text" xml:space="preserve">
+    <value>* Uża n-numri 1-9 għal kull mistoqsija. Żero (0) ma jiġix ikkunsidrat.</value>
+  </data>
+  <data name="QuestionSettingsInstructionThree.Text" xml:space="preserve">
+    <value>* Tista 'tassenja biss shortcuts għal 9 mistoqsijiet.</value>
+  </data>
+  <data name="QuestionSettingsListTitle.Text" xml:space="preserve">
+    <value>Lista tal-Mistoqsijiet :</value>
+  </data>
+  <data name="ResellerEmailAddress.Text" xml:space="preserve">
+    <value>Indirizz elettroniku tal-bejjiegħ mill-ġdid:</value>
+  </data>
+  <data name="ResellerName.Text" xml:space="preserve">
+    <value>Isem il-Bejjiegħ mill-Ġdid:</value>
+  </data>
+  <data name="SelectFlag.Text" xml:space="preserve">
+    <value>Agħżel il-bandiera tiegħek:</value>
+  </data>
+  <data name="Send.Content" xml:space="preserve">
+    <value>Tibgħat</value>
+  </data>
+  <data name="SessionDetailsPage_SessionName.Text" xml:space="preserve">
+    <value>Isem is-Sessjoni</value>
+  </data>
+  <data name="SessionID.Text" xml:space="preserve">
+    <value>ID tas-sessjoni : -</value>
+  </data>
+  <data name="SessionMetadataDialog_ContinueButton.Text" xml:space="preserve">
+    <value>Tkompli</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTags.Text" xml:space="preserve">
+    <value>Custom Tag(s)</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Daħħal l-isem tat-tag hawn</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextboxHelper.Text" xml:space="preserve">
+    <value>Agħfas Enter</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTags.Text" xml:space="preserve">
+    <value>Default Tag(s)</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Daħħal il-valur hawn</value>
+  </data>
+  <data name="SessionMetadataDialog_Description.Text" xml:space="preserve">
+    <value>L-oqsma obbligatorji huma mmarkati bi "</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionName.Text" xml:space="preserve">
+    <value>Isem is-Sessjoni</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionNameTextbox.PlaceholderText" xml:space="preserve">
+    <value>eż.</value>
+  </data>
+  <data name="SessionMetadataDialog_Title.Text" xml:space="preserve">
+    <value>Żid isem is-sessjoni u tags</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorActionMessage" xml:space="preserve">
+    <value>Ikkuntattja l-amministratur tiegħek biex tattiva l-kont tiegħek.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorMessage" xml:space="preserve">
+    <value>Il-kont tiegħek ġie diżattivat.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorActionMessage" xml:space="preserve">
+    <value>Ikkuntattja l-amministratur tiegħek biex toħloq il-kont tiegħek.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorMessage" xml:space="preserve">
+    <value>Il-kont tiegħek tħassar.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorActionMessage" xml:space="preserve">
+    <value>Ikkuntattja l-amministratur tiegħek biex tattiva l-kont tiegħek.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorMessage" xml:space="preserve">
+    <value>Il-kont tiegħek ġie diżattivat.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorActionMessage" xml:space="preserve">
+    <value>Ikkuntattja l-amministratur tiegħek biex toħloq il-kont tiegħek.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorMessage" xml:space="preserve">
+    <value>M'għandekx Kont attiv.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorActionMessage" xml:space="preserve">
+    <value>Ikkuntattja lill-amministratur tiegħek biex iġġedded il-liċenzja tiegħek.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorMessage" xml:space="preserve">
+    <value>Il-liċenzja tiegħek skadiet.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorActionMessage" xml:space="preserve">
+    <value>Ikkuntattja l-amministratur tiegħek biex tattiva l-liċenzja tiegħek.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorMessage" xml:space="preserve">
+    <value>Il-liċenzja tiegħek ġiet diżattivata.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorActionMessage" xml:space="preserve">
+    <value>Ikkuntattja l-amministratur tiegħek.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorMessage" xml:space="preserve">
+    <value>Il-liċenzja tiegħek ġiet sospiża.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorActionMessage" xml:space="preserve">
+    <value>Ikkuntattja l-amministratur tiegħek biex tassenjalek liċenzja.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorMessage" xml:space="preserve">
+    <value>M'għandekx liċenzja assenjata lilek.</value>
+  </data>
+  <data name="StartupPage2020.Text" xml:space="preserve">
+    <value>2021 </value>
+  </data>
+  <data name="StartupPageErrorDescription.Text" xml:space="preserve">
+    <value>Sar żball. Iċċekkja l-Konnessjoni ta' l-Internet imbagħad erġa' pprova.</value>
+  </data>
+  <data name="StartupPagePoweredBy.Text" xml:space="preserve">
+    <value>Imħaddem min </value>
+  </data>
+  <data name="StartupPageProgressDescription.Text" xml:space="preserve">
+    <value>Dan jista ' jieħu ftit sekondi</value>
+  </data>
+  <data name="StartupPageRetryButton.Content" xml:space="preserve">
+    <value>Erġa' pprova</value>
+  </data>
+  <data name="StartupPageRightsReserved.Text" xml:space="preserve">
+    <value>Id-drittijiet kollha riżervati.</value>
+  </data>
+  <data name="StartUpPageSettingUpMessage" xml:space="preserve">
+    <value>Twaqqif...</value>
+  </data>
+  <data name="StartupPageTitleDescription.Text" xml:space="preserve">
+    <value>Merħba għal </value>
+  </data>
+  <data name="TranslateText" xml:space="preserve">
+    <value>Ittraduċi</value>
+  </data>
+  <data name="TranslationLicenceUseError" xml:space="preserve">
+    <value>Il-liċenzja tiegħek bħalissa qed tintuża f'sessjoni oħra.</value>
+  </data>
+  <data name="TranslationLimitReachedError" xml:space="preserve">
+    <value>Ilħaqt il-limitu ta' żmien massimu tiegħek għal kull sessjoni. It-tmiem tas-sessjoni.</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOff" xml:space="preserve">
+    <value>Mikrofonu Mitfi</value>
+  </data>
+  <data name="TranslationPage_SpeakerOff" xml:space="preserve">
+    <value>L-Ispeaker Mitfi</value>
+  </data>
+  <data name="TranslationTimeDepletedError" xml:space="preserve">
+    <value>Il-minuti tat-traduzzjoni tiegħek tnaqqsu. Ġentilment ikkuntattja lill-amministratur tiegħek.</value>
+  </data>
+  <data name="UnsupportedVersionDialogBtntext" xml:space="preserve">
+    <value>Aġġornament</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption" xml:space="preserve">
+    <value>Aġġornamenti kritiċi huma meħtieġa għal </value>
+  </data>
+  <data name="UnsupportedVersionDialogDescription" xml:space="preserve">
+    <value>Aġġorna l-app tiegħek biex tkompli tikseb aġġornamenti tal-karatteristiċi u tas-sigurtà.</value>
+  </data>
+  <data name="UnsupportedVersionDialogTitle" xml:space="preserve">
+    <value>Verżjoni tal-App Mhux Appoġġjata</value>
+  </data>
+  <data name="UpdateDialogWhatsNew.Text" xml:space="preserve">
+    <value>X'hemm ġdid?</value>
+  </data>
+  <data name="Zoom.Text" xml:space="preserve">
+    <value>Iżżumja</value>
+  </data>
+  <data name="Add.Content" xml:space="preserve">
+    <value>Żid</value>
+  </data>
+  <data name="AddNewQuestion.Text" xml:space="preserve">
+    <value>Żid mistoqsija ġdida definita minn qabel</value>
+  </data>
+  <data name="AddQuestion.Content" xml:space="preserve">
+    <value>Żid Mistoqsija</value>
+  </data>
+  <data name="ChooseLanguage.Text" xml:space="preserve">
+    <value>Agħżel il-lingwa default</value>
+  </data>
+  <data name="CustomProfileAdded" xml:space="preserve">
+    <value>Isem il-profil miżjud b'suċċess.</value>
+  </data>
+  <data name="CustomProfileDeleted" xml:space="preserve">
+    <value>Il-profil imħassar b'suċċess.</value>
+  </data>
+  <data name="CustomProfileInvalidName" xml:space="preserve">
+    <value>Żball! Isem il-profil invalidu.</value>
+  </data>
+  <data name="CustomProfileNotDeleted" xml:space="preserve">
+    <value>Ebda profil biex tħassar.</value>
+  </data>
+  <data name="CustomProfileNotSaved" xml:space="preserve">
+    <value>Żball! L-ebda profil issejvjat.</value>
+  </data>
+  <data name="CustomProfileProfileSaved" xml:space="preserve">
+    <value>Profil issejvjat b'suċċess.</value>
+  </data>
+  <data name="DataRequestMessage" xml:space="preserve">
+    <value>Ma għażilt l-ebda test. Agħżel it-test biex tixxerja u erġa' pprova.</value>
+  </data>
+  <data name="DevicesAddProfileButton.Content" xml:space="preserve">
+    <value>Żid</value>
+  </data>
+  <data name="DevicesAvailableProfiles.Text" xml:space="preserve">
+    <value>Profili disponibbli</value>
+  </data>
+  <data name="DevicesDefaultProfile.Text" xml:space="preserve">
+    <value>Profil default:</value>
+  </data>
+  <data name="DevicesDeleteProfileBtn.Content" xml:space="preserve">
+    <value>Ħassar il-Profil</value>
+  </data>
+  <data name="DeviceSetupChanged" xml:space="preserve">
+    <value>It-tagħmir ta' l-awdjo kkonnettjat aġġornat </value>
+  </data>
+  <data name="DevicesHelpfulTip1.Text" xml:space="preserve">
+    <value>1. Issettja isem tal-profil</value>
+  </data>
+  <data name="DevicesHelpfulTip2.Text" xml:space="preserve">
+    <value>2. Agħżel modi ta 'apparat wieħed jew doppju</value>
+  </data>
+  <data name="DevicesHelpfulTip3.Text" xml:space="preserve">
+    <value>3. Agħżel kelliem(a) u mikrofonu(i)</value>
+  </data>
+  <data name="DevicesHelpfulTip4.Text" xml:space="preserve">
+    <value>4. Issettja l-profil tiegħek bħala default</value>
+  </data>
+  <data name="DevicesHelpfulTip5.Text" xml:space="preserve">
+    <value>5. Ikklikkja fuq il - Ħlief Profil buttuna biex tissejvja l-profil tiegħek</value>
+  </data>
+  <data name="DevicesHelpfulTips.Text" xml:space="preserve">
+    <value>Pariri utli</value>
+  </data>
+  <data name="DevicesProfileNameTextBox.PlaceholderText" xml:space="preserve">
+    <value>Isem il-profil...</value>
+  </data>
+  <data name="DevicesSaveProfileBtn.Content" xml:space="preserve">
+    <value>Issejvja l-Profil</value>
+  </data>
+  <data name="DevicesSetasDefault.Text" xml:space="preserve">
+    <value>Issettja bħala default</value>
+  </data>
+  <data name="DevicesSetProfileButton.Content" xml:space="preserve">
+    <value>Issettja l-profil</value>
+  </data>
+  <data name="DevicesSetProfileText.Text" xml:space="preserve">
+    <value>Issettja profil personalizzat?</value>
+  </data>
+  <data name="DiscardButton.Content" xml:space="preserve">
+    <value>Warrab</value>
+  </data>
+  <data name="DismissButton.Content" xml:space="preserve">
+    <value>Ċaħda</value>
+  </data>
+  <data name="DismissText.Text" xml:space="preserve">
+    <value>Ċaħda</value>
+  </data>
+  <data name="DownloadAudio.Text" xml:space="preserve">
+    <value>Niżżel l-Awdjo</value>
+  </data>
+  <data name="DownloadCancel" xml:space="preserve">
+    <value>Niżżel ikkanċellat</value>
+  </data>
+  <data name="Downloaded" xml:space="preserve">
+    <value>Imniżżel</value>
+  </data>
+  <data name="DownloadError" xml:space="preserve">
+    <value>Sar żball</value>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>Tniżżil</value>
+  </data>
+  <data name="DownloadPaused" xml:space="preserve">
+    <value>Niżżel sospiż</value>
+  </data>
+  <data name="DualDeviceUpdated" xml:space="preserve">
+    <value>Il-konfigurazzjoni tat-Tagħmir Doppju aġġornata b'suċċess</value>
+  </data>
+  <data name="EnterQuestion.Text" xml:space="preserve">
+    <value>Daħħal il-mistoqsija hawn taħt</value>
+  </data>
+  <data name="ErrorDescription.Text" xml:space="preserve">
+    <value>Il-bidliet tiegħek ma ġewx issejvjati, tixtieq tissejvjahom jew tarmi?</value>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>Xi ħaġa marret ħażin.. Erġa' pprova</value>
+  </data>
+  <data name="ErrorTitle.Text" xml:space="preserve">
+    <value>Għandek bidliet mhux issejvjati</value>
+  </data>
+  <data name="FeedbackEight.Text" xml:space="preserve">
+    <value>Bqajna ninterrompu lil xulxin</value>
+  </data>
+  <data name="FeedbackFive.Text" xml:space="preserve">
+    <value>Smajt eku fis-sejħa</value>
+  </data>
+  <data name="FeedbackFour.Text" xml:space="preserve">
+    <value>Huwa qabad ilħna fl-isfond</value>
+  </data>
+  <data name="FeedbackOne.Text" xml:space="preserve">
+    <value>Ma qabadx il-vuċi tiegħi sew</value>
+  </data>
+  <data name="FeedbackQuestion.Text" xml:space="preserve">
+    <value>X'seta' kien aħjar?</value>
+  </data>
+  <data name="FeedbackSeven.Text" xml:space="preserve">
+    <value>Is-sessjoni ntemmet bla mistenni</value>
+  </data>
+  <data name="FeedbackSix.Text" xml:space="preserve">
+    <value>Il-volum kien baxx wisq</value>
+  </data>
+  <data name="FeedbackThanks.Text" xml:space="preserve">
+    <value>Grazzi għall-feedback</value>
+  </data>
+  <data name="FeedbackThree.Text" xml:space="preserve">
+    <value>Il-ħin tat-traduzzjoni kien bil-mod wisq</value>
+  </data>
+  <data name="FeedbackTwo.Text" xml:space="preserve">
+    <value>Ittraduċiet ħażin is-sentenzi tiegħi</value>
+  </data>
+  <data name="ForcedUpdateDialogCaptionContinuation" xml:space="preserve">
+    <value>funzjonali. L-applikazzjoni ma taħdimx mingħajr dawn l-aġġornamenti.</value>
+  </data>
+  <data name="Improvement.Text" xml:space="preserve">
+    <value>Aħna nibqgħu naħdmu biex intejbu l-esperjenza tiegħek.</value>
+  </data>
+  <data name="LanguageSettingsUpdated" xml:space="preserve">
+    <value>Il-bidliet fil-lingwa aġġornati b'mod suċċess</value>
+  </data>
+  <data name="NewVersionDialogDescription2" xml:space="preserve">
+    <value>u l-verżjoni tiegħek ta'</value>
+  </data>
+  <data name="NewVersionDialogDescription3" xml:space="preserve">
+    <value>jistgħu ma jiġux appoġġjati.</value>
+  </data>
+  <data name="Other.Text" xml:space="preserve">
+    <value>Kummenti oħra:</value>
+  </data>
+  <data name="PasswordUpdated" xml:space="preserve">
+    <value>Il-password inbidlet b'mod suċċesiv</value>
+  </data>
+  <data name="PlaybackLanguageUpdated" xml:space="preserve">
+    <value>Il-lingwa tal-plejbek default inbidlet b'mod suċċesiv</value>
+  </data>
+  <data name="QuestionAdded" xml:space="preserve">
+    <value>Mistoqsija Miżjuda b'Suċċess</value>
+  </data>
+  <data name="QuestionDeleted" xml:space="preserve">
+    <value>Mistoqsija Mħassra b'Suċċess</value>
+  </data>
+  <data name="Questions.Text" xml:space="preserve">
+    <value>Kwistjonijiet</value>
+  </data>
+  <data name="QuestionSettingsInstructionTwo.Text" xml:space="preserve">
+    <value>* Kull mistoqsija għandu jkollha ċavetta ta 'shortcut differenti.</value>
+  </data>
+  <data name="QuestionsValidationError.Text" xml:space="preserve">
+    <value>* Iċċekkja l-validazzjonijiet tiegħek u erġa' pprova.</value>
+  </data>
+  <data name="QuickViewLanguagesUpdated" xml:space="preserve">
+    <value>Il-languges tal-vista mgħaġġla aġġornati b'mod sukkess</value>
+  </data>
+  <data name="SendFeedback.Content" xml:space="preserve">
+    <value>Ibgħat Feedback</value>
+  </data>
+  <data name="SessionFeedbackPrompt" xml:space="preserve">
+    <value>Kif tikklassifika s-sessjoni tat-traduzzjoni tiegħek?</value>
+  </data>
+  <data name="SessionFeedbackTitle" xml:space="preserve">
+    <value>Feedback tat-Traduzzjoni</value>
+  </data>
+  <data name="ShortcutSuccess" xml:space="preserve">
+    <value>Shortcuts tal-mistoqsijiet aġġornati b'suċċess</value>
+  </data>
+  <data name="SingleDeviceUpdated" xml:space="preserve">
+    <value>Il-konfigurazzjoni tat-Tagħmir Uniku aġġornata b'suċċess</value>
+  </data>
+  <data name="StartupPageTitleDescription2.Text" xml:space="preserve">
+    <value>softwer tat-traduzzjoni.</value>
+  </data>
+  <data name="TimeoutUpdated" xml:space="preserve">
+    <value>Timeout aġġornat b'mod Succesly</value>
+  </data>
+  <data name="TouchShareText" xml:space="preserve">
+    <value>Touch Share</value>
+  </data>
+  <data name="TranslationLanguageUpdated" xml:space="preserve">
+    <value>Il-lingwa tat-traduzzjoni default inbidlet b'mod suċċesiv</value>
+  </data>
+  <data name="TranslationPlaybackUpdated" xml:space="preserve">
+    <value>It-traduzzjoni default u l-lingwa tal-plejbek inbidlet b'mod suċċesiv</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption2" xml:space="preserve">
+    <value>funzjonali. Il-karatteristiċi jistgħu jieqfu jaħdmu mingħajr avviż. Aġġorna l-applikazzjoni.</value>
+  </data>
+  <data name="UserFlagSwitch" xml:space="preserve">
+    <value>Il-bandiera tal-utent biex taqleb il-lingwa aġġornata</value>
+  </data>
+</root>

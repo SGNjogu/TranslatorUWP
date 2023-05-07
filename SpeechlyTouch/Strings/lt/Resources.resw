@@ -1,0 +1,1192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="AppDescription" xml:space="preserve">
+    <value>"TalaTouchApp"</value>
+  </data>
+  <data name="AppDisplayName" xml:space="preserve">
+    <value>"TalaTouchApp"</value>
+  </data>
+  <data name="AudioDeviceSelector_MicDropdown.PlaceholderText" xml:space="preserve">
+    <value>Pasirinkite mikrofoną</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneMic.Text" xml:space="preserve">
+    <value>Asmuo Vienas mikrofonas</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneSpeaker.Text" xml:space="preserve">
+    <value>Asmuo Vienas kalbėtojas</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoMic.Text" xml:space="preserve">
+    <value>Asmuo du mikrofonai</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoSpeaker.Text" xml:space="preserve">
+    <value>Asmuo du kalbėtojai</value>
+  </data>
+  <data name="AudioDeviceSelector_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>Pasirinkite garsiakalbį</value>
+  </data>
+  <data name="BluetoothPairingDialog_Description.Text" xml:space="preserve">
+    <value>Įsitikinkite, kad įrenginys įjungtas ir aptinkamas. Norėdami prisijungti, pasirinkite toliau pateiktą įrenginį.</value>
+  </data>
+  <data name="BluetoothPairingDialog_Title.Text" xml:space="preserve">
+    <value>Įrenginio įtraukimas</value>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>Atšaukti</value>
+  </data>
+  <data name="ChangePasscodeDialog_Confirm.Text" xml:space="preserve">
+    <value>Patvirtinkite naują prieigos kodą</value>
+  </data>
+  <data name="ChangePasscodeDialog_Current.Text" xml:space="preserve">
+    <value>Dabartinis slaptažodis</value>
+  </data>
+  <data name="ChangePasscodeDialog_New.Text" xml:space="preserve">
+    <value>Naujas slaptažodis</value>
+  </data>
+  <data name="ChangePasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Keisti slaptąjį kodą</value>
+  </data>
+  <data name="Close.Content" xml:space="preserve">
+    <value>Uždaryti</value>
+  </data>
+  <data name="ConsentDialog_Description1.Text" xml:space="preserve">
+    <value>Privatumo problemos yra mūsų prioritetas numeris vienas. (5) Jūs sutinkate su šios privatumo politikos sąlygomis naudodami savo mobilųjį telefoną ar planšetinį kompiuterį, jei taikoma.</value>
+  </data>
+  <data name="ConsentDialog_Description2.Text" xml:space="preserve">
+    <value>Jei nuspręsite neleisti mums prieiti, kai gausime sutikimo prašymą (apie tokius prašymus bus pranešta www ICTS svetainėje adresu :</value>
+  </data>
+  <data name="ConsentDialog_Description3.Text" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int</value>
+  </data>
+  <data name="ConsentDialog_Description4.Text" xml:space="preserve">
+    <value>), tada nei pateiktas el. pašto adresas, nei jokia kita asmeninė informacija, kuri galėtų identifikuoti asmenį, taip pat negali būti mūsų žinioje, kai toks leidimas bus suteiktas.</value>
+  </data>
+  <data name="ConsentDialog_Description5.Text" xml:space="preserve">
+    <value>Naudodami tam tikras dalis: /Mano mobiliojo telefono / piktogramų naudojimas - tai gali apimti leidimą kitiems pokalbių kambariuose apie tokius produktus kaip</value>
+  </data>
+  <data name="ConsentDialog_HyperLink.NavigateUri" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int/</value>
+  </data>
+  <data name="ConsentDialog_Title.Text" xml:space="preserve">
+    <value>Mes vertiname jūsų privatumą</value>
+  </data>
+  <data name="Dashboard_Choose_Language.Text" xml:space="preserve">
+    <value>Pasirinkite kalbą</value>
+  </data>
+  <data name="Dashboard_Hello.Text" xml:space="preserve">
+    <value>Sveiki</value>
+  </data>
+  <data name="Dashboard_SearchBox.PlaceholderText" xml:space="preserve">
+    <value>Paieškos kalba</value>
+  </data>
+  <data name="Dashboard_Welcome.Text" xml:space="preserve">
+    <value>Sveikas atvykęs</value>
+  </data>
+  <data name="DevicesErrorDialog_NoDeviceError" xml:space="preserve">
+    <value>Neturite išsaugoto (-ų) įrenginio (-ių). Eikite į Nustatymai -&gt; Įrenginiai, kad pasirinktumėte mikrofoną ir garsiakalbį, tada spustelėkite Išsaugoti.</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Description.Text" xml:space="preserve">
+    <value>Galimi "Bluetooth" įrenginiai</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_DropDown.PlaceholderText" xml:space="preserve">
+    <value>Pasirinkite "Bluetooth" įrenginį</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Scan.Text" xml:space="preserve">
+    <value>Nuskaityti</value>
+  </data>
+  <data name="DevicesPage_Bluetooth.Text" xml:space="preserve">
+    <value>"Bluetooth"</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices_Description.Text" xml:space="preserve">
+    <value>Pasirinkite garso įrenginį</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices.Text" xml:space="preserve">
+    <value>Prijungti garso įrenginiai</value>
+  </data>
+  <data name="DevicesPage_MicDropDown.PlaceholderText" xml:space="preserve">
+    <value>Pasirinkite mikrofoną</value>
+  </data>
+  <data name="DevicesPage_Network_Description.Text" xml:space="preserve">
+    <value>Galimi tinklai</value>
+  </data>
+  <data name="DevicesPage_Network_DropDown.PlaceholderText" xml:space="preserve">
+    <value>Pasirinkite tinklą</value>
+  </data>
+  <data name="DevicesPage_Network.Text" xml:space="preserve">
+    <value>Tinklas</value>
+  </data>
+  <data name="DevicesPage_NetworkError" xml:space="preserve">
+    <value>Nepasirinktas tinklas. Patikrinkite tinklo ryšius.</value>
+  </data>
+  <data name="DevicesPage_PersonOne_Speaker.Text" xml:space="preserve">
+    <value>Asmuo vienas kalbėtojas</value>
+  </data>
+  <data name="DevicesPage_PersonOneMic.Text" xml:space="preserve">
+    <value>Asmuo vienas mikrofonas</value>
+  </data>
+  <data name="DevicesPage_PersonTwo_Mic.Text" xml:space="preserve">
+    <value>Asmuo du mikrofonai</value>
+  </data>
+  <data name="DevicesPage_Scan" xml:space="preserve">
+    <value>Nuskaityti</value>
+  </data>
+  <data name="DevicesPage_Scanning" xml:space="preserve">
+    <value>Nuskaitymo...</value>
+  </data>
+  <data name="DevicesPage_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>Pasirinkite garsiakalbį</value>
+  </data>
+  <data name="DevicesPage_Status_Connect" xml:space="preserve">
+    <value>Jungti</value>
+  </data>
+  <data name="DevicesPage_Status_Connected" xml:space="preserve">
+    <value>Prijungtas prie</value>
+  </data>
+  <data name="DevicesPage_Status_Connecting" xml:space="preserve">
+    <value>Jungiantis...</value>
+  </data>
+  <data name="DevicesPage_Status_Off" xml:space="preserve">
+    <value>IŠJUNGTI</value>
+  </data>
+  <data name="DevicesPage_Status_On" xml:space="preserve">
+    <value>ANT</value>
+  </data>
+  <data name="DevicesPager_PersonTwo_Speaker.Text" xml:space="preserve">
+    <value>Antras kalbėtojas</value>
+  </data>
+  <data name="EnterPasscodeDialog_Description.Text" xml:space="preserve">
+    <value>Įveskite prieigos kodą, kad pasiektumėte nustatymų puslapį</value>
+  </data>
+  <data name="EnterPasscodeDialog_ForgotPasscode.Content" xml:space="preserve">
+    <value>Pamiršote kodą?</value>
+  </data>
+  <data name="EnterPasscodeDialog_InvalidPasscode.Text" xml:space="preserve">
+    <value>Neteisingas slaptažodis! Bandykite dar kartą.</value>
+  </data>
+  <data name="EnterPasscodeDialog_Passcode.Text" xml:space="preserve">
+    <value>Slaptasis kodas</value>
+  </data>
+  <data name="EnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Įveskite prieigos kodą</value>
+  </data>
+  <data name="IAgree.Content" xml:space="preserve">
+    <value>Aš sutinku</value>
+  </data>
+  <data name="InvalidLicenseDialog_Description.Text" xml:space="preserve">
+    <value>Nepavyko patvirtinti vairuotojo pažymėjimo</value>
+  </data>
+  <data name="InvalidLicenseDialog_Title.Text" xml:space="preserve">
+    <value>Negaliojanti licencija</value>
+  </data>
+  <data name="LoginFailedDialog_Button.Content" xml:space="preserve">
+    <value>Grįžk atgal</value>
+  </data>
+  <data name="LoginFailedDialog_Description.Text" xml:space="preserve">
+    <value>Jūsų bandymas prisijungti nepavyko.</value>
+  </data>
+  <data name="LoginFailedDialog_Title.Text" xml:space="preserve">
+    <value>Nepavyko prisijungti</value>
+  </data>
+  <data name="Main_Title.Text" xml:space="preserve">
+    <value>Pagrindinis</value>
+  </data>
+  <data name="PasswordPopup_SetupTitle.Text" xml:space="preserve">
+    <value>Slaptažodžio nustatymas</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Description1.Text" xml:space="preserve">
+    <value>Iš naujo įveskite prieigos kodą, kad galėtumėte toliau redaguoti...</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Iš naujo įveskite prieigos kodą</value>
+  </data>
+  <data name="RenterPasscodeDialog_Description2.Text" xml:space="preserve">
+    <value>automatinis išsaugojimas ir grįžimas namo</value>
+  </data>
+  <data name="Save.Content" xml:space="preserve">
+    <value>Taupyti</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Description.Text" xml:space="preserve">
+    <value>Tai pavyzdinis puslapis, kuriame bus rodomi aktyvinimo parametrai, jei programa suaktyvinta iš "Deep Linking".</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Title.Text" xml:space="preserve">
+    <value>SchemeActivationSample</value>
+  </data>
+  <data name="SetPasscodeDialog_ConfirmPasscode.Text" xml:space="preserve">
+    <value>Patvirtinkite naują prieigos kodą </value>
+  </data>
+  <data name="SetPasscodeDialog_NewPasscode.Text" xml:space="preserve">
+    <value>Naujas slaptažodis</value>
+  </data>
+  <data name="SetPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Slaptažodžio nustatymas</value>
+  </data>
+  <data name="Settings_About.Text" xml:space="preserve">
+    <value>Apie šią programą</value>
+  </data>
+  <data name="Settings_AboutDescription.Text" xml:space="preserve">
+    <value>Parametrų puslapio vietos rezervavimo ženklo tekstas.  Jūsų programos aprašas pateikiamas čia.</value>
+  </data>
+  <data name="Settings_Personalization.Text" xml:space="preserve">
+    <value>Personalizavimas</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.Content" xml:space="preserve">
+    <value>Pareiškimas apie privatumo apsaugą</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.NavigateUri" xml:space="preserve">
+    <value>https://YourPrivacyUrlGoesHere/</value>
+  </data>
+  <data name="Settings_Theme_Dark.Content" xml:space="preserve">
+    <value>Tamsus</value>
+  </data>
+  <data name="Settings_Theme_Default.Content" xml:space="preserve">
+    <value>Numatytoji "Windows"</value>
+  </data>
+  <data name="Settings_Theme_Light.Content" xml:space="preserve">
+    <value>Šviesa</value>
+  </data>
+  <data name="Settings_Theme.Text" xml:space="preserve">
+    <value>Pasirinkite temą</value>
+  </data>
+  <data name="Settings_Title.Text" xml:space="preserve">
+    <value>Parametrai</value>
+  </data>
+  <data name="SettingsPage_Devices" xml:space="preserve">
+    <value>Įrenginiai</value>
+  </data>
+  <data name="SettingsPage_Language" xml:space="preserve">
+    <value>Kalba</value>
+  </data>
+  <data name="SettingsPage_Profile" xml:space="preserve">
+    <value>Profilis</value>
+  </data>
+  <data name="SettingsPage_Questions" xml:space="preserve">
+    <value>Klausimus</value>
+  </data>
+  <data name="SettingsPage_Title" xml:space="preserve">
+    <value>Parametrai</value>
+  </data>
+  <data name="ShellView_Help" xml:space="preserve">
+    <value>Pagalba</value>
+  </data>
+  <data name="ShellView_History" xml:space="preserve">
+    <value>Istorija</value>
+  </data>
+  <data name="ShellView_Home" xml:space="preserve">
+    <value>Namon</value>
+  </data>
+  <data name="ShellView_Settings.Text" xml:space="preserve">
+    <value>Parametrai</value>
+  </data>
+  <data name="Sign_In.Text" xml:space="preserve">
+    <value>Prisijungti, prisijunk</value>
+  </data>
+  <data name="SignInDialog_Description.Text" xml:space="preserve">
+    <value>Akimirksniu bendraukite keliomis pasaulinėmis kalbomis naudodami savo Jabra įrenginį.</value>
+  </data>
+  <data name="SignInDialog_SignInButton.Content" xml:space="preserve">
+    <value>Prisijungti, prisijunk</value>
+  </data>
+  <data name="Translate_Button.Text" xml:space="preserve">
+    <value>Išversti</value>
+  </data>
+  <data name="TranslationPage_EndSession.Text" xml:space="preserve">
+    <value>Baigti seansą</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOn" xml:space="preserve">
+    <value>Mikrofonas įjungtas</value>
+  </data>
+  <data name="TranslationPage_SpeakerOn" xml:space="preserve">
+    <value>Garsiakalbis įjungtas</value>
+  </data>
+  <data name="TranslationPage_SpeakNow.Text" xml:space="preserve">
+    <value>Kalbėk dabar</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Apie</value>
+  </data>
+  <data name="AboutPage_AppVersion.Text" xml:space="preserve">
+    <value>Programos versija</value>
+  </data>
+  <data name="AboutPage_CheckUpdate.Content" xml:space="preserve">
+    <value>Patikrinkite, ar yra naujinimų</value>
+  </data>
+  <data name="AboutPage_DataConsent" xml:space="preserve">
+    <value>Jūsų organizacija davė sutikimą išsaugoti jūsų duomenis debesyje.</value>
+  </data>
+  <data name="AboutPage_NoDataConsent" xml:space="preserve">
+    <value>Jūsų organizacija nedavė sutikimo išsaugoti jūsų duomenis debesyje.</value>
+  </data>
+  <data name="AboutPage_Published.Text" xml:space="preserve">
+    <value>Išleido "FITTS Limited".</value>
+  </data>
+  <data name="AppClose_Close.Content" xml:space="preserve">
+    <value>Bet kokiu atveju uždarykite</value>
+  </data>
+  <data name="AppClose_Dismiss.Content" xml:space="preserve">
+    <value>Atšaukti</value>
+  </data>
+  <data name="AppClose_Warning.Text" xml:space="preserve">
+    <value>Jūs turite sesiją. Užbaikite sesiją prieš išeidami iš programos.</value>
+  </data>
+  <data name="AppVersion.Text" xml:space="preserve">
+    <value>Programėlės versija</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Button.Content" xml:space="preserve">
+    <value>Tęsti sesiją</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Description.Text" xml:space="preserve">
+    <value>Sesija baigsis</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Title.Text" xml:space="preserve">
+    <value>Garsas neaptiktas</value>
+  </data>
+  <data name="AudioPlayer_Error.Text" xml:space="preserve">
+    <value>Nepavyko įkelti garso įrašo</value>
+  </data>
+  <data name="DashboardPage_DefaultLanguageError" xml:space="preserve">
+    <value>Neturite išsaugotos numatytosios vertimo kalbos. Eikite į Nustatymai -&gt; Kalbos, kad pasirinktumėte numatytąją vertimo kalbą, tada spustelėkite Išsaugoti.</value>
+  </data>
+  <data name="DashboardPage_TargetLanguageError" xml:space="preserve">
+    <value>Nepasirinkote tikslinės vertimo kalbos. Maloniai pasirinkite kalbą, tada spustelėkite Versti.</value>
+  </data>
+  <data name="DevicesErrorDialog_DualDeviceError" xml:space="preserve">
+    <value>Pasirinkote dviejų įrenginių vertimą, bet nepasirinkote 2 asmens įrenginio (-ių). Eikite į Nustatymai -&gt; Įrenginiai, kad pasirinktumėte mikrofoną ir garsiakalbį, tada spustelėkite Išsaugoti.</value>
+  </data>
+  <data name="DevicesPage_Title.Text" xml:space="preserve">
+    <value>Įrenginiai</value>
+  </data>
+  <data name="DevicesPage_Wifi_Password.Text" xml:space="preserve">
+    <value>Įveskite slaptažodį</value>
+  </data>
+  <data name="DevicesPage_WifiStatus.Text" xml:space="preserve">
+    <value>"Wi-Fi" būsena</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Redaguoti</value>
+  </data>
+  <data name="Expiry.Text" xml:space="preserve">
+    <value>Galiojimo pabaigos</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Atsiliepimus</value>
+  </data>
+  <data name="FeedbackMessage.Text" xml:space="preserve">
+    <value>Jei turite atsiliepimų ar klausimų, nedvejodami susisiekite.</value>
+  </data>
+  <data name="GetInTouchButton.Text" xml:space="preserve">
+    <value>Susisiekite su mumis</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Pagalba</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>Istorija</value>
+  </data>
+  <data name="History_ExportBtn.Text" xml:space="preserve">
+    <value>Eksportuoti</value>
+  </data>
+  <data name="HistoryExportButtonTooltip.Text" xml:space="preserve">
+    <value>Eksportuoti</value>
+  </data>
+  <data name="HistoryListColumnDate.Text" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="HistoryListColumnDuration.Text" xml:space="preserve">
+    <value>Trukmė</value>
+  </data>
+  <data name="HistoryListColumnPrimaryLanguage.Text" xml:space="preserve">
+    <value>Pirminė kalba</value>
+  </data>
+  <data name="HistoryListColumnSecondaryLanguage.Text" xml:space="preserve">
+    <value>Antrinė kalba</value>
+  </data>
+  <data name="HistoryListColumnSessionId.Text" xml:space="preserve">
+    <value>Seanso ID</value>
+  </data>
+  <data name="InitalSetup_SkipSetup.Content" xml:space="preserve">
+    <value>Praleisti sąranką</value>
+  </data>
+  <data name="InitialNetworkPopupConnectButton.Content" xml:space="preserve">
+    <value>Jungti</value>
+  </data>
+  <data name="InitialSetup_DeviceSelection.Text" xml:space="preserve">
+    <value>Įrenginio pasirinkimas</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionDescription.Text" xml:space="preserve">
+    <value>Numatytojo garso įrenginio nustatymas</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneMicrophone.Text" xml:space="preserve">
+    <value>Pasirinkite Mikrofonas</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneSpeaker.Text" xml:space="preserve">
+    <value>Pasirinkite garsiakalbį</value>
+  </data>
+  <data name="InitialSetup_FinishSetup.Content" xml:space="preserve">
+    <value>Užbaikite sąranką</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection_Description.Text" xml:space="preserve">
+    <value>Numatytosios vertimo kalbos nustatymas</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection.Text" xml:space="preserve">
+    <value>Kalbos pasirinkimas</value>
+  </data>
+  <data name="InitialSetup_NetworkSelection.Text" xml:space="preserve">
+    <value>Pageidaujamas tinklas</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopup.Text" xml:space="preserve">
+    <value>Prisijungimas prie tinklo</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopupPassword.Text" xml:space="preserve">
+    <value>Įveskite slaptažodį:</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionDescription.Text" xml:space="preserve">
+    <value>Pasirinkite iš vieno iš galimų tinklų</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionNoInternetConnection.Text" xml:space="preserve">
+    <value>Jūs nesate prisijungę prie interneto. Patikrinkite tinklo ryšius.</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionOtherNetworks.Text" xml:space="preserve">
+    <value>Kiti tinklai</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup_Description.Text" xml:space="preserve">
+    <value>Programos slaptažodžio nustatymas</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup.Text" xml:space="preserve">
+    <value>Slaptažodžio sąranka</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Kalba</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage_Description.Text" xml:space="preserve">
+    <value>Pasirinkite programos kalbą</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage.Text" xml:space="preserve">
+    <value>Programos kalba</value>
+  </data>
+  <data name="LanguagesPage_AppLanguageDropdown.PlaceholderText" xml:space="preserve">
+    <value>Pasirinkite kalbą</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage_Description.Text" xml:space="preserve">
+    <value>Numatytoji jūsų naudojama kalba</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage.Text" xml:space="preserve">
+    <value>Mano numatytoji kalba</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguageDropDown.PlaceholderText" xml:space="preserve">
+    <value>Pasirinkite kalbą</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description.Text" xml:space="preserve">
+    <value>Istorijos skyrius (vertimams keliuose įrenginiuose)</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description1.Text" xml:space="preserve">
+    <value>* Vieno įrenginio vertimai atkuria visą garsą kaip numatytąjį *</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage.Text" xml:space="preserve">
+    <value>Numatytoji atkūrimo kalba</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguages.Text" xml:space="preserve">
+    <value>Sparčiosios peržiūros kalbos</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguagesDropdown.PlaceholderText" xml:space="preserve">
+    <value>Kalbos įtraukimas</value>
+  </data>
+  <data name="LanguagesPage_Title.Text" xml:space="preserve">
+    <value>Kalbų</value>
+  </data>
+  <data name="Licence" xml:space="preserve">
+    <value>Licencijos</value>
+  </data>
+  <data name="LicenseType.Text" xml:space="preserve">
+    <value>Licencijos tipas:</value>
+  </data>
+  <data name="NetworkConnectionError" xml:space="preserve">
+    <value>Klaida:</value>
+  </data>
+  <data name="Next.Content" xml:space="preserve">
+    <value>Kitą</value>
+  </data>
+  <data name="PasscodeError_MinimumLength" xml:space="preserve">
+    <value>Mažiausias slaptažodžio ilgis turėtų būti 4.</value>
+  </data>
+  <data name="PasscodeError_NotMatching" xml:space="preserve">
+    <value>Įvesti slaptieji kodai nesutampa. Maloniai įveskite slaptažodžius iš naujo, tada bandykite dar kartą.</value>
+  </data>
+  <data name="Person.Text" xml:space="preserve">
+    <value>Žmogus</value>
+  </data>
+  <data name="PrivacyPolicy.Text" xml:space="preserve">
+    <value>Privatumo politika</value>
+  </data>
+  <data name="ProfilePage_Email_Description.Text" xml:space="preserve">
+    <value>Numatytasis el. laiškų eksportavimas</value>
+  </data>
+  <data name="ProfilePage_Email.Text" xml:space="preserve">
+    <value>El paštas</value>
+  </data>
+  <data name="ProfilePage_Passcode_Description.Text" xml:space="preserve">
+    <value>Jūsų programos slaptažodis</value>
+  </data>
+  <data name="ProfilePage_Passcode.Text" xml:space="preserve">
+    <value>Slaptasis kodas</value>
+  </data>
+  <data name="ProfilePage_Timeout_Description.Text" xml:space="preserve">
+    <value>Administratoriaus režimo užrakto dažnis</value>
+  </data>
+  <data name="ProfilePage_Timeout.Text" xml:space="preserve">
+    <value>Administratoriaus režimo skirtasis laikas</value>
+  </data>
+  <data name="ProfilePage_TimeoutDropdown.PlaceholderText" xml:space="preserve">
+    <value>Pasirinkite laiką</value>
+  </data>
+  <data name="ProfilePage_Title.Text" xml:space="preserve">
+    <value>Profilis</value>
+  </data>
+  <data name="PublishedBy.Text" xml:space="preserve">
+    <value>Paskelbė</value>
+  </data>
+  <data name="ReleaseNotesMessage.Text" xml:space="preserve">
+    <value>Išleidimo pastabos netrukus bus atnaujintos</value>
+  </data>
+  <data name="Save_Text" xml:space="preserve">
+    <value>Taupyti</value>
+  </data>
+  <data name="SessionDetailsPage_Description.Text" xml:space="preserve">
+    <value>Transkripcijos istorija</value>
+  </data>
+  <data name="SessionDetailsPage_Duration.Text" xml:space="preserve">
+    <value>Trukmė</value>
+  </data>
+  <data name="SessionDetailsPage_SessionID.Text" xml:space="preserve">
+    <value>Seanso ID</value>
+  </data>
+  <data name="SessionDetailsPage_Title.Text" xml:space="preserve">
+    <value>Istorija</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Parametrai</value>
+  </data>
+  <data name="TermsOfUse.Text" xml:space="preserve">
+    <value>Naudojimo sąlygos</value>
+  </data>
+  <data name="TranslationPage_SettingUpState" xml:space="preserve">
+    <value>Nustatymas...</value>
+  </data>
+  <data name="TranslationPage_SpeakFast" xml:space="preserve">
+    <value>Pabandykite kalbėti šiek tiek greičiau, kad pasiektumėte geresnių vertimo rezultatų.</value>
+  </data>
+  <data name="TranslationPage_SpeakIn" xml:space="preserve">
+    <value>Kalbėkite</value>
+  </data>
+  <data name="TranslationPage_SpeakSlow" xml:space="preserve">
+    <value>Pabandykite kalbėti šiek tiek lėčiau, kad pasiektumėte geresnių vertimo rezultatų.</value>
+  </data>
+  <data name="TranslationPage_Switching" xml:space="preserve">
+    <value>Perjungimo</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonOne" xml:space="preserve">
+    <value>Perjungti į 1 asmenį</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonTwo" xml:space="preserve">
+    <value>Perjungti į 2 asmenį</value>
+  </data>
+  <data name="TranslationPage_TranslationReadyState" xml:space="preserve">
+    <value>Kalbėkite dabar</value>
+  </data>
+  <data name="Website.Text" xml:space="preserve">
+    <value>Interneto svetainė</value>
+  </data>
+  <data name="WhatsNew" xml:space="preserve">
+    <value>Kas naujo</value>
+  </data>
+  <data name="WhatsNewInSpeechly.Text" xml:space="preserve">
+    <value>Kas naujo ""</value>
+  </data>
+  <data name="AudioDevicesSelectorDualDevice.Content" xml:space="preserve">
+    <value>Dvigubas įrenginys</value>
+  </data>
+  <data name="AudioDevicesSelectorSingleDevice.Content" xml:space="preserve">
+    <value>Vienas įrenginys</value>
+  </data>
+  <data name="AutoDetectSearchCountry.PlaceholderText" xml:space="preserve">
+    <value>Paieškos šalis</value>
+  </data>
+  <data name="AutoDetectSelectLanguage.Text" xml:space="preserve">
+    <value>Pasirinkite kalbą</value>
+  </data>
+  <data name="ChatViewPersonOne" xml:space="preserve">
+    <value>Pirmasis asmuo</value>
+  </data>
+  <data name="ChatViewPersonTwo" xml:space="preserve">
+    <value>Antras asmuo</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionLost" xml:space="preserve">
+    <value>Nutrūko interneto ryšys. Maloniai patikrinkite ryšį, tada bandykite dar kartą.</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionUnstable" xml:space="preserve">
+    <value>Jūsų interneto ryšys yra lėtas. Galite šiek tiek vėluoti.</value>
+  </data>
+  <data name="CustomTagSelectionTitle.Text" xml:space="preserve">
+    <value>Organizacijos žymės (pasirinkite, kad įtrauktumėte)</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.Header" xml:space="preserve">
+    <value>Vartotojo vėliavėlė kalbai perjungti</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OffContent" xml:space="preserve">
+    <value>Išjungta</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OnContent" xml:space="preserve">
+    <value>Įjungtas</value>
+  </data>
+  <data name="DetectLanguageButton.Content" xml:space="preserve">
+    <value>Aptikti kalbą</value>
+  </data>
+  <data name="DevicesPageNetworkSetupBluetoothStatus.Text" xml:space="preserve">
+    <value>"Bluetooth" būsena :</value>
+  </data>
+  <data name="DevicesPageNetworkSetupConnectAutomatically.Text" xml:space="preserve">
+    <value>Automatinis prisijungimas</value>
+  </data>
+  <data name="DevicesPageNetworkSetupWiFiStatus.Text" xml:space="preserve">
+    <value>"WiFi" būsena :</value>
+  </data>
+  <data name="Dimiss.Content" xml:space="preserve">
+    <value>Atšaukti</value>
+  </data>
+  <data name="Duration.Text" xml:space="preserve">
+    <value>|  Trukmė</value>
+  </data>
+  <data name="EmailPopup_Description.Text" xml:space="preserve">
+    <value>Įveskite savo el. pašto adresą</value>
+  </data>
+  <data name="EmailPopup_Title.Text" xml:space="preserve">
+    <value>Siųskite seansą el. paštu</value>
+  </data>
+  <data name="ForcedUpdateDialogCaption" xml:space="preserve">
+    <value>Turime svarbių atnaujinimų, skirtų</value>
+  </data>
+  <data name="ForcedUpdateDialogInstallBtnText" xml:space="preserve">
+    <value>Naujinti</value>
+  </data>
+  <data name="ForcedUpdateDialogTitle" xml:space="preserve">
+    <value>Kritiniai naujinimai</value>
+  </data>
+  <data name="GoBack.Content" xml:space="preserve">
+    <value>Grįžk atgal</value>
+  </data>
+  <data name="HelpPageSignOut.Content" xml:space="preserve">
+    <value>Atsijungti</value>
+  </data>
+  <data name="History_Export.Text" xml:space="preserve">
+    <value>Failo generavimas...</value>
+  </data>
+  <data name="HistoryListColumnSessionName.Text" xml:space="preserve">
+    <value>Vardas, pavadinimas</value>
+  </data>
+  <data name="HistoryListColumnSynced.Text" xml:space="preserve">
+    <value>Sinchronizuoti</value>
+  </data>
+  <data name="HistorySearchBox.PlaceholderText" xml:space="preserve">
+    <value>Kalba, seanso pavadinimas, žymės arba ID</value>
+  </data>
+  <data name="HistorySearchButtonTooltip.Text" xml:space="preserve">
+    <value>Ieškoti</value>
+  </data>
+  <data name="HistorySearchClearButtonTooltip.Text" xml:space="preserve">
+    <value>Aiškus</value>
+  </data>
+  <data name="HistorySearchFromDate.Header" xml:space="preserve">
+    <value>Iš:</value>
+  </data>
+  <data name="HistorySearchToDate.Header" xml:space="preserve">
+    <value>Į:</value>
+  </data>
+  <data name="HistoryShareButtonTooltip.Text" xml:space="preserve">
+    <value>Bendrinti / siųsti</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonOne.Text" xml:space="preserve">
+    <value>1 asmuo</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonTwo.Text" xml:space="preserve">
+    <value>2 asmuo</value>
+  </data>
+  <data name="LoginPageTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NewVersionDialogCaption" xml:space="preserve">
+    <value>Įdiekite naują programos versiją</value>
+  </data>
+  <data name="NewVersionDialogDescription" xml:space="preserve">
+    <value>Trūksta naujų funkcijų ir klaidų pataisymų </value>
+  </data>
+  <data name="NewVersionDialogInstallBtnText" xml:space="preserve">
+    <value>Įdiekite naują versiją</value>
+  </data>
+  <data name="NewVersionDialogTitle" xml:space="preserve">
+    <value>Nauja programos versija</value>
+  </data>
+  <data name="NextText" xml:space="preserve">
+    <value>Kitą</value>
+  </data>
+  <data name="ProfilePageEditButton.Content" xml:space="preserve">
+    <value>Redaguoti</value>
+  </data>
+  <data name="QuestionsButton.Content" xml:space="preserve">
+    <value>Žiūrėti klausimus</value>
+  </data>
+  <data name="QuestionSettingsDescription.Text" xml:space="preserve">
+    <value>Klausimų nuorodų peržiūra arba modifikavimas</value>
+  </data>
+  <data name="QuestionSettingsInstructionOne.Text" xml:space="preserve">
+    <value>* Kiekvienam klausimui naudokite skaičius 1-9. Nulis (0) nebus svarstomas.</value>
+  </data>
+  <data name="QuestionSettingsInstructionThree.Text" xml:space="preserve">
+    <value>* Nuorodas galite priskirti tik 9 klausimams.</value>
+  </data>
+  <data name="QuestionSettingsListTitle.Text" xml:space="preserve">
+    <value>Klausimų sąrašas :</value>
+  </data>
+  <data name="ResellerEmailAddress.Text" xml:space="preserve">
+    <value>Perpardavėjo el. pašto adresas :</value>
+  </data>
+  <data name="ResellerName.Text" xml:space="preserve">
+    <value>Perpardavėjo pavadinimas :</value>
+  </data>
+  <data name="SelectFlag.Text" xml:space="preserve">
+    <value>Pasirinkite vėliavą:</value>
+  </data>
+  <data name="Send.Content" xml:space="preserve">
+    <value>Siųsti</value>
+  </data>
+  <data name="SessionDetailsPage_SessionName.Text" xml:space="preserve">
+    <value>Seanso pavadinimas</value>
+  </data>
+  <data name="SessionID.Text" xml:space="preserve">
+    <value>Sesijos ID : -</value>
+  </data>
+  <data name="SessionMetadataDialog_ContinueButton.Text" xml:space="preserve">
+    <value>Tęsti</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTags.Text" xml:space="preserve">
+    <value>Tinkinta (-os) žyma (-os)</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Čia įveskite žymos pavadinimą</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextboxHelper.Text" xml:space="preserve">
+    <value>Paspauskite Enter</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTags.Text" xml:space="preserve">
+    <value>Numatytoji (-osios) žyma (-os)</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Čia įveskite reikšmę</value>
+  </data>
+  <data name="SessionMetadataDialog_Description.Text" xml:space="preserve">
+    <value>Privalomi laukai pažymėti "</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionName.Text" xml:space="preserve">
+    <value>Seanso pavadinimas</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionNameTextbox.PlaceholderText" xml:space="preserve">
+    <value>pvz., paciento nulis</value>
+  </data>
+  <data name="SessionMetadataDialog_Title.Text" xml:space="preserve">
+    <value>Seanso pavadinimo ir žymių įtraukimas</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorActionMessage" xml:space="preserve">
+    <value>Susisiekite su administratoriumi, kad suaktyvintumėte savo paskyrą.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorMessage" xml:space="preserve">
+    <value>Jūsų paskyra buvo išjungta.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorActionMessage" xml:space="preserve">
+    <value>Susisiekite su administratoriumi, kad sukurtumėte paskyrą.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorMessage" xml:space="preserve">
+    <value>Jūsų paskyra buvo ištrinta.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorActionMessage" xml:space="preserve">
+    <value>Susisiekite su administratoriumi, kad įgalintumėte savo paskyrą.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorMessage" xml:space="preserve">
+    <value>Jūsų paskyra buvo išjungta.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorActionMessage" xml:space="preserve">
+    <value>Susisiekite su administratoriumi, kad sukurtumėte paskyrą.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorMessage" xml:space="preserve">
+    <value>Jūs neturite aktyvios paskyros.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorActionMessage" xml:space="preserve">
+    <value>Norėdami atnaujinti licenciją, susisiekite su administratoriumi.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorMessage" xml:space="preserve">
+    <value>Jūsų vairuotojo pažymėjimo galiojimo laikas baigėsi.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorActionMessage" xml:space="preserve">
+    <value>Susisiekite su administratoriumi, kad suaktyvintumėte savo licenciją.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorMessage" xml:space="preserve">
+    <value>Jūsų vairuotojo pažymėjimas buvo išjungtas.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorActionMessage" xml:space="preserve">
+    <value>Susisiekite su savo administratoriumi.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorMessage" xml:space="preserve">
+    <value>Jūsų vairuotojo pažymėjimas buvo sustabdytas.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorActionMessage" xml:space="preserve">
+    <value>Susisiekite su savo administratoriumi, kad jis jums priskirtų licenciją.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorMessage" xml:space="preserve">
+    <value>Jūs neturite jums priskirtos licencijos.</value>
+  </data>
+  <data name="StartupPage2020.Text" xml:space="preserve">
+    <value>2021 </value>
+  </data>
+  <data name="StartupPageErrorDescription.Text" xml:space="preserve">
+    <value>Įvyko klaida. Patikrinkite interneto ryšį, tada bandykite dar kartą.</value>
+  </data>
+  <data name="StartupPagePoweredBy.Text" xml:space="preserve">
+    <value>Parengta pagal </value>
+  </data>
+  <data name="StartupPageProgressDescription.Text" xml:space="preserve">
+    <value>Tai gali užtrukti kelias sekundes</value>
+  </data>
+  <data name="StartupPageRetryButton.Content" xml:space="preserve">
+    <value>Kartoti</value>
+  </data>
+  <data name="StartupPageRightsReserved.Text" xml:space="preserve">
+    <value>Visos teisės saugomos.</value>
+  </data>
+  <data name="StartUpPageSettingUpMessage" xml:space="preserve">
+    <value>Nustatymas...</value>
+  </data>
+  <data name="StartupPageTitleDescription.Text" xml:space="preserve">
+    <value>Sveiki atvykę į </value>
+  </data>
+  <data name="TranslateText" xml:space="preserve">
+    <value>Išversti</value>
+  </data>
+  <data name="TranslationLicenceUseError" xml:space="preserve">
+    <value>Jūsų vairuotojo pažymėjimas šiuo metu naudojamas kito seanso metu.</value>
+  </data>
+  <data name="TranslationLimitReachedError" xml:space="preserve">
+    <value>Pasiekėte maksimalų seanso laiko limitą. Baigiamoji sesija.</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOff" xml:space="preserve">
+    <value>Mikrofonas išjungtas</value>
+  </data>
+  <data name="TranslationPage_SpeakerOff" xml:space="preserve">
+    <value>Garsiakalbis išjungtas</value>
+  </data>
+  <data name="TranslationTimeDepletedError" xml:space="preserve">
+    <value>Jūsų vertimo protokolai buvo išeikvoti. Maloniai susisiekite su savo administratoriumi.</value>
+  </data>
+  <data name="UnsupportedVersionDialogBtntext" xml:space="preserve">
+    <value>Naujinti</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption" xml:space="preserve">
+    <value>Kritiniai naujinimai reikalingi </value>
+  </data>
+  <data name="UnsupportedVersionDialogDescription" xml:space="preserve">
+    <value>Atnaujinkite programą, kad ir toliau gautumėte funkcijų ir saugos naujinimų.</value>
+  </data>
+  <data name="UnsupportedVersionDialogTitle" xml:space="preserve">
+    <value>Nepalaikoma programos versija</value>
+  </data>
+  <data name="UpdateDialogWhatsNew.Text" xml:space="preserve">
+    <value>Kas naujo?</value>
+  </data>
+  <data name="Zoom.Text" xml:space="preserve">
+    <value>Keisti mastelį</value>
+  </data>
+  <data name="Add.Content" xml:space="preserve">
+    <value>Pridėti</value>
+  </data>
+  <data name="AddNewQuestion.Text" xml:space="preserve">
+    <value>Pridėti naują iš anksto apibrėžtą klausimą</value>
+  </data>
+  <data name="AddQuestion.Content" xml:space="preserve">
+    <value>Pridėti klausimą</value>
+  </data>
+  <data name="ChooseLanguage.Text" xml:space="preserve">
+    <value>Pasirinkite numatytąją kalbą</value>
+  </data>
+  <data name="CustomProfileAdded" xml:space="preserve">
+    <value>Profilio pavadinimas pridėtas sėkmingai.</value>
+  </data>
+  <data name="CustomProfileDeleted" xml:space="preserve">
+    <value>Profilis sėkmingai ištrintas.</value>
+  </data>
+  <data name="CustomProfileInvalidName" xml:space="preserve">
+    <value>Klaida! Neteisingas profilio pavadinimas.</value>
+  </data>
+  <data name="CustomProfileNotDeleted" xml:space="preserve">
+    <value>Nėra profilio, kurį būtų galima ištrinti.</value>
+  </data>
+  <data name="CustomProfileNotSaved" xml:space="preserve">
+    <value>Klaida! Profilis neišsaugotas.</value>
+  </data>
+  <data name="CustomProfileProfileSaved" xml:space="preserve">
+    <value>Profilis išsaugotas sėkmingai.</value>
+  </data>
+  <data name="DataRequestMessage" xml:space="preserve">
+    <value>Jūs nepažymėjote jokio teksto. Pasirinkite tekstą, kurį norite bendrinti, ir bandykite dar kartą.</value>
+  </data>
+  <data name="DevicesAddProfileButton.Content" xml:space="preserve">
+    <value>Pridėti</value>
+  </data>
+  <data name="DevicesAvailableProfiles.Text" xml:space="preserve">
+    <value>Galimi profiliai</value>
+  </data>
+  <data name="DevicesDefaultProfile.Text" xml:space="preserve">
+    <value>Numatytasis profilis:</value>
+  </data>
+  <data name="DevicesDeleteProfileBtn.Content" xml:space="preserve">
+    <value>Ištrinti profilį</value>
+  </data>
+  <data name="DeviceSetupChanged" xml:space="preserve">
+    <value>Atnaujinti prijungti garso įrenginiai </value>
+  </data>
+  <data name="DevicesHelpfulTip1.Text" xml:space="preserve">
+    <value>1. Nustatykite profilio pavadinimą</value>
+  </data>
+  <data name="DevicesHelpfulTip2.Text" xml:space="preserve">
+    <value>2. Pasirinkite vieno arba dviejų įrenginių režimus</value>
+  </data>
+  <data name="DevicesHelpfulTip3.Text" xml:space="preserve">
+    <value>3. Pasirinkite garsiakalbį (-ius) ir mikrofoną (-us)</value>
+  </data>
+  <data name="DevicesHelpfulTip4.Text" xml:space="preserve">
+    <value>4. Nustatykite savo profilį kaip numatytąjį</value>
+  </data>
+  <data name="DevicesHelpfulTip5.Text" xml:space="preserve">
+    <value>5. Spustelėkite mygtuką Išsaugoti profilį, kad išsaugotumėte savo profilį</value>
+  </data>
+  <data name="DevicesHelpfulTips.Text" xml:space="preserve">
+    <value>Naudingi patarimai</value>
+  </data>
+  <data name="DevicesProfileNameTextBox.PlaceholderText" xml:space="preserve">
+    <value>Profilio pavadinimas...</value>
+  </data>
+  <data name="DevicesSaveProfileBtn.Content" xml:space="preserve">
+    <value>Išsaugoti profilį</value>
+  </data>
+  <data name="DevicesSetasDefault.Text" xml:space="preserve">
+    <value>Nustatyti kaip numatytąjį</value>
+  </data>
+  <data name="DevicesSetProfileButton.Content" xml:space="preserve">
+    <value>Nustatyti profilį</value>
+  </data>
+  <data name="DevicesSetProfileText.Text" xml:space="preserve">
+    <value>Nustatyti pasirinktinį profilį?</value>
+  </data>
+  <data name="DiscardButton.Content" xml:space="preserve">
+    <value>Išmesti</value>
+  </data>
+  <data name="DismissButton.Content" xml:space="preserve">
+    <value>Atleisti</value>
+  </data>
+  <data name="DismissText.Text" xml:space="preserve">
+    <value>Atleisti</value>
+  </data>
+  <data name="DownloadAudio.Text" xml:space="preserve">
+    <value>Atsisiųskite garso įrašą</value>
+  </data>
+  <data name="DownloadCancel" xml:space="preserve">
+    <value>Atsisiuntimas atšauktas</value>
+  </data>
+  <data name="Downloaded" xml:space="preserve">
+    <value>Atsisiuntė</value>
+  </data>
+  <data name="DownloadError" xml:space="preserve">
+    <value>Įvyko klaida</value>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>Atsisiųsti</value>
+  </data>
+  <data name="DownloadPaused" xml:space="preserve">
+    <value>Atsisiuntimas pristabdytas</value>
+  </data>
+  <data name="DualDeviceUpdated" xml:space="preserve">
+    <value>Dviejų įrenginių sąranka sėkmingai atnaujinta</value>
+  </data>
+  <data name="EnterQuestion.Text" xml:space="preserve">
+    <value>Įveskite klausimą žemiau</value>
+  </data>
+  <data name="ErrorDescription.Text" xml:space="preserve">
+    <value>Jūsų pakeitimai nebuvo išsaugoti, ar norite juos išsaugoti, ar atmesti?</value>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>Kažkas ne taip.. pabandyk dar kartą</value>
+  </data>
+  <data name="ErrorTitle.Text" xml:space="preserve">
+    <value>Turite neišsaugotų pakeitimų</value>
+  </data>
+  <data name="FeedbackEight.Text" xml:space="preserve">
+    <value>Mes vis pertraukdavome vienas kitą</value>
+  </data>
+  <data name="FeedbackFive.Text" xml:space="preserve">
+    <value>Išgirdau skambučio aidą</value>
+  </data>
+  <data name="FeedbackFour.Text" xml:space="preserve">
+    <value>Jis paėmė foninius balsus</value>
+  </data>
+  <data name="FeedbackOne.Text" xml:space="preserve">
+    <value>Jis netinkamai pakėlė mano balsą</value>
+  </data>
+  <data name="FeedbackQuestion.Text" xml:space="preserve">
+    <value>Kas galėjo būti geriau?</value>
+  </data>
+  <data name="FeedbackSeven.Text" xml:space="preserve">
+    <value>Seansas baigėsi netikėtai</value>
+  </data>
+  <data name="FeedbackSix.Text" xml:space="preserve">
+    <value>Apimtis buvo per maža</value>
+  </data>
+  <data name="FeedbackThanks.Text" xml:space="preserve">
+    <value>Ačiū už atsiliepimą</value>
+  </data>
+  <data name="FeedbackThree.Text" xml:space="preserve">
+    <value>Vertimo laikas buvo per lėtas</value>
+  </data>
+  <data name="FeedbackTwo.Text" xml:space="preserve">
+    <value>Jis neteisingai išvertė mano sakinius</value>
+  </data>
+  <data name="ForcedUpdateDialogCaptionContinuation" xml:space="preserve">
+    <value>funkcionuoti. Programa neveiks be šių naujinimų.</value>
+  </data>
+  <data name="Improvement.Text" xml:space="preserve">
+    <value>Mes ir toliau stengsimės pagerinti jūsų patirtį.</value>
+  </data>
+  <data name="LanguageSettingsUpdated" xml:space="preserve">
+    <value>Sėkmingai atnaujinti kalbos pakeitimai</value>
+  </data>
+  <data name="NewVersionDialogDescription2" xml:space="preserve">
+    <value>ir jūsų versija</value>
+  </data>
+  <data name="NewVersionDialogDescription3" xml:space="preserve">
+    <value>gali tapti nepalaikomas.</value>
+  </data>
+  <data name="Other.Text" xml:space="preserve">
+    <value>Kiti komentarai:</value>
+  </data>
+  <data name="PasswordUpdated" xml:space="preserve">
+    <value>Slaptažodis sėkmingai pakeistas</value>
+  </data>
+  <data name="PlaybackLanguageUpdated" xml:space="preserve">
+    <value>Numatytoji atkūrimo kalba sėkmingai pakeista</value>
+  </data>
+  <data name="QuestionAdded" xml:space="preserve">
+    <value>Klausimas sėkmingai pridėtas</value>
+  </data>
+  <data name="QuestionDeleted" xml:space="preserve">
+    <value>Klausimas sėkmingai ištrintas</value>
+  </data>
+  <data name="Questions.Text" xml:space="preserve">
+    <value>Klausimus</value>
+  </data>
+  <data name="QuestionSettingsInstructionTwo.Text" xml:space="preserve">
+    <value>* Kiekvienas klausimas turi turėti skirtingą spartųjį klavišą.</value>
+  </data>
+  <data name="QuestionsValidationError.Text" xml:space="preserve">
+    <value>* Patikrinkite patvirtinimus ir bandykite dar kartą.</value>
+  </data>
+  <data name="QuickViewLanguagesUpdated" xml:space="preserve">
+    <value>Greitai peržiūrėti languges sėkmingai atnaujinta</value>
+  </data>
+  <data name="SendFeedback.Content" xml:space="preserve">
+    <value>Siųsti atsiliepimą</value>
+  </data>
+  <data name="SessionFeedbackPrompt" xml:space="preserve">
+    <value>Kaip vertintumėte savo vertimo sesiją?</value>
+  </data>
+  <data name="SessionFeedbackTitle" xml:space="preserve">
+    <value>Vertimo grįžtamasis ryšys</value>
+  </data>
+  <data name="ShortcutSuccess" xml:space="preserve">
+    <value>Klausimų spartieji klavišai sėkmingai atnaujinti</value>
+  </data>
+  <data name="SingleDeviceUpdated" xml:space="preserve">
+    <value>Vieno įrenginio sąranka sėkmingai atnaujinta</value>
+  </data>
+  <data name="StartupPageTitleDescription2.Text" xml:space="preserve">
+    <value>vertimo programinė įranga.</value>
+  </data>
+  <data name="TimeoutUpdated" xml:space="preserve">
+    <value>Skirtasis laikas sėkmingai atnaujintas</value>
+  </data>
+  <data name="TouchShareText" xml:space="preserve">
+    <value>Palieskite Bendrinti</value>
+  </data>
+  <data name="TranslationLanguageUpdated" xml:space="preserve">
+    <value>Numatytoji vertimo kalba sėkmingai pakeista</value>
+  </data>
+  <data name="TranslationPlaybackUpdated" xml:space="preserve">
+    <value>Numatytasis vertimas ir atkūrimo kalba sėkmingai pasikeitė</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption2" xml:space="preserve">
+    <value>funkcionuoti. Funkcijos gali nustoti veikti be įspėjimo. Atnaujinkite programą.</value>
+  </data>
+  <data name="UserFlagSwitch" xml:space="preserve">
+    <value>Vartotojo vėliavėlė, skirta perjungti atnaujintą kalbą</value>
+  </data>
+</root>

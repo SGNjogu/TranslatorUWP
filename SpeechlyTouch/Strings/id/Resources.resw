@@ -1,0 +1,1192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="AppDescription" xml:space="preserve">
+    <value>TalaTouchApp</value>
+  </data>
+  <data name="AppDisplayName" xml:space="preserve">
+    <value>TalaTouchApp</value>
+  </data>
+  <data name="AudioDeviceSelector_MicDropdown.PlaceholderText" xml:space="preserve">
+    <value>Pilih mikrofon</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneMic.Text" xml:space="preserve">
+    <value>Mikrofon Orang Satu</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneSpeaker.Text" xml:space="preserve">
+    <value>Orang Satu Pembicara</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoMic.Text" xml:space="preserve">
+    <value>Mikrofon Orang Dua</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoSpeaker.Text" xml:space="preserve">
+    <value>Orang Dua Pembicara</value>
+  </data>
+  <data name="AudioDeviceSelector_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>Pilih speaker</value>
+  </data>
+  <data name="BluetoothPairingDialog_Description.Text" xml:space="preserve">
+    <value>Pastikan perangkat Anda dihidupkan dan dapat ditemukan. Pilih perangkat di bawah ini untuk terhubung.</value>
+  </data>
+  <data name="BluetoothPairingDialog_Title.Text" xml:space="preserve">
+    <value>Menambahkan perangkat</value>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>Membatalkan</value>
+  </data>
+  <data name="ChangePasscodeDialog_Confirm.Text" xml:space="preserve">
+    <value>Konfirmasi Kode Sandi Baru</value>
+  </data>
+  <data name="ChangePasscodeDialog_Current.Text" xml:space="preserve">
+    <value>Kode Sandi Saat Ini</value>
+  </data>
+  <data name="ChangePasscodeDialog_New.Text" xml:space="preserve">
+    <value>Kode Sandi Baru</value>
+  </data>
+  <data name="ChangePasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Ubah Kode Sandi</value>
+  </data>
+  <data name="Close.Content" xml:space="preserve">
+    <value>Tutup</value>
+  </data>
+  <data name="ConsentDialog_Description1.Text" xml:space="preserve">
+    <value>Masalah privasi adalah prioritas nomor satu kami. (5) Anda menerima syarat dan ketentuan Kebijakan Privasi ini dengan ponsel atau tablet Anda, sebagaimana berlaku.</value>
+  </data>
+  <data name="ConsentDialog_Description2.Text" xml:space="preserve">
+    <value>Jika Anda memilih untuk tidak mengizinkan kami mengakses ketika kami menerima permintaan persetujuan (permintaan tersebut akan diberitahukan di situs web www ICTS di:</value>
+  </data>
+  <data name="ConsentDialog_Description3.Text" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int</value>
+  </data>
+  <data name="ConsentDialog_Description4.Text" xml:space="preserve">
+    <value>), maka baik alamat email yang diberikan maupun informasi pribadi lainnya yang dapat mengidentifikasi seseorang juga tidak dapat kami miliki setelah izin tersebut diberikan.</value>
+  </data>
+  <data name="ConsentDialog_Description5.Text" xml:space="preserve">
+    <value>Dengan menggunakan bagian-bagian tertentu: /Penggunaan Ponsel/Ikon saya - yang mungkin termasuk mengizinkan orang lain di ruang obrolan tentang produk seperti</value>
+  </data>
+  <data name="ConsentDialog_HyperLink.NavigateUri" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int/</value>
+  </data>
+  <data name="ConsentDialog_Title.Text" xml:space="preserve">
+    <value>Kami Menghargai Privasi Anda</value>
+  </data>
+  <data name="Dashboard_Choose_Language.Text" xml:space="preserve">
+    <value>Pilih Bahasa</value>
+  </data>
+  <data name="Dashboard_Hello.Text" xml:space="preserve">
+    <value>Halo</value>
+  </data>
+  <data name="Dashboard_SearchBox.PlaceholderText" xml:space="preserve">
+    <value>Bahasa Pencarian</value>
+  </data>
+  <data name="Dashboard_Welcome.Text" xml:space="preserve">
+    <value>Selamat datang</value>
+  </data>
+  <data name="DevicesErrorDialog_NoDeviceError" xml:space="preserve">
+    <value>Anda tidak memiliki perangkat yang disimpan. Buka Pengaturan -&gt; Perangkat untuk memilih Mikrofon dan Speaker lalu klik Simpan.</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Description.Text" xml:space="preserve">
+    <value>Perangkat bluetooth yang tersedia</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_DropDown.PlaceholderText" xml:space="preserve">
+    <value>Pilih perangkat bluetooth</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Scan.Text" xml:space="preserve">
+    <value>Memindai</value>
+  </data>
+  <data name="DevicesPage_Bluetooth.Text" xml:space="preserve">
+    <value>Isi daya</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices_Description.Text" xml:space="preserve">
+    <value>Pilih perangkat audio Anda</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices.Text" xml:space="preserve">
+    <value>Perangkat Audio yang Terhubung</value>
+  </data>
+  <data name="DevicesPage_MicDropDown.PlaceholderText" xml:space="preserve">
+    <value>Pilih mikrofon</value>
+  </data>
+  <data name="DevicesPage_Network_Description.Text" xml:space="preserve">
+    <value>Jaringan yang tersedia</value>
+  </data>
+  <data name="DevicesPage_Network_DropDown.PlaceholderText" xml:space="preserve">
+    <value>Pilih jaringan</value>
+  </data>
+  <data name="DevicesPage_Network.Text" xml:space="preserve">
+    <value>Jaringan</value>
+  </data>
+  <data name="DevicesPage_NetworkError" xml:space="preserve">
+    <value>Tidak ada jaringan yang dipilih. Periksa koneksi jaringan Anda.</value>
+  </data>
+  <data name="DevicesPage_PersonOne_Speaker.Text" xml:space="preserve">
+    <value>Orang satu pembicara</value>
+  </data>
+  <data name="DevicesPage_PersonOneMic.Text" xml:space="preserve">
+    <value>Mikrofon orang satu</value>
+  </data>
+  <data name="DevicesPage_PersonTwo_Mic.Text" xml:space="preserve">
+    <value>Mikrofon orang dua</value>
+  </data>
+  <data name="DevicesPage_Scan" xml:space="preserve">
+    <value>Memindai</value>
+  </data>
+  <data name="DevicesPage_Scanning" xml:space="preserve">
+    <value>Pemindaian...</value>
+  </data>
+  <data name="DevicesPage_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>Pilih speaker</value>
+  </data>
+  <data name="DevicesPage_Status_Connect" xml:space="preserve">
+    <value>Sambung</value>
+  </data>
+  <data name="DevicesPage_Status_Connected" xml:space="preserve">
+    <value>Terhubung</value>
+  </data>
+  <data name="DevicesPage_Status_Connecting" xml:space="preserve">
+    <value>Menghubungkan...</value>
+  </data>
+  <data name="DevicesPage_Status_Off" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="DevicesPage_Status_On" xml:space="preserve">
+    <value>Di atas</value>
+  </data>
+  <data name="DevicesPager_PersonTwo_Speaker.Text" xml:space="preserve">
+    <value>Orang dua pembicara</value>
+  </data>
+  <data name="EnterPasscodeDialog_Description.Text" xml:space="preserve">
+    <value>Silakan masukkan kode sandi Anda untuk mengakses halaman pengaturan</value>
+  </data>
+  <data name="EnterPasscodeDialog_ForgotPasscode.Content" xml:space="preserve">
+    <value>Lupa Kode Sandi?</value>
+  </data>
+  <data name="EnterPasscodeDialog_InvalidPasscode.Text" xml:space="preserve">
+    <value>Kode Sandi Tidak Valid! Silakan coba lagi.</value>
+  </data>
+  <data name="EnterPasscodeDialog_Passcode.Text" xml:space="preserve">
+    <value>Kode sandi</value>
+  </data>
+  <data name="EnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Masukkan kode sandi Anda</value>
+  </data>
+  <data name="IAgree.Content" xml:space="preserve">
+    <value>Saya setuju</value>
+  </data>
+  <data name="InvalidLicenseDialog_Description.Text" xml:space="preserve">
+    <value>Verifikasi lisensi Anda gagal</value>
+  </data>
+  <data name="InvalidLicenseDialog_Title.Text" xml:space="preserve">
+    <value>Lisensi Tidak Valid</value>
+  </data>
+  <data name="LoginFailedDialog_Button.Content" xml:space="preserve">
+    <value>Kembali</value>
+  </data>
+  <data name="LoginFailedDialog_Description.Text" xml:space="preserve">
+    <value>Upaya login Anda gagal.</value>
+  </data>
+  <data name="LoginFailedDialog_Title.Text" xml:space="preserve">
+    <value>Login gagal</value>
+  </data>
+  <data name="Main_Title.Text" xml:space="preserve">
+    <value>Utama</value>
+  </data>
+  <data name="PasswordPopup_SetupTitle.Text" xml:space="preserve">
+    <value>Siapkan Kode Sandi</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Description1.Text" xml:space="preserve">
+    <value>Silakan masukkan kembali kode sandi Anda untuk terus mengedit...</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Masukkan kembali kode sandi Anda</value>
+  </data>
+  <data name="RenterPasscodeDialog_Description2.Text" xml:space="preserve">
+    <value>Menyimpan otomatis dan kembali ke rumah</value>
+  </data>
+  <data name="Save.Content" xml:space="preserve">
+    <value>Simpan</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Description.Text" xml:space="preserve">
+    <value>Ini adalah halaman sampel yang akan menampilkan parameter aktivasi jika aplikasi diaktifkan dari Deep Linking.</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Title.Text" xml:space="preserve">
+    <value>SkeAktivasiSampel</value>
+  </data>
+  <data name="SetPasscodeDialog_ConfirmPasscode.Text" xml:space="preserve">
+    <value>Konfirmasi Kode Sandi Baru </value>
+  </data>
+  <data name="SetPasscodeDialog_NewPasscode.Text" xml:space="preserve">
+    <value>Kode Sandi Baru</value>
+  </data>
+  <data name="SetPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Siapkan Kode Sandi</value>
+  </data>
+  <data name="Settings_About.Text" xml:space="preserve">
+    <value>Tentang aplikasi ini</value>
+  </data>
+  <data name="Settings_AboutDescription.Text" xml:space="preserve">
+    <value>Teks tempat penampung halaman pengaturan.  Deskripsi aplikasi Anda ada di sini.</value>
+  </data>
+  <data name="Settings_Personalization.Text" xml:space="preserve">
+    <value>Personalisasi</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.Content" xml:space="preserve">
+    <value>Pernyataan Privasi</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.NavigateUri" xml:space="preserve">
+    <value>https://YourPrivacyUrlGoesHere/</value>
+  </data>
+  <data name="Settings_Theme_Dark.Content" xml:space="preserve">
+    <value>Gelap</value>
+  </data>
+  <data name="Settings_Theme_Default.Content" xml:space="preserve">
+    <value>Windows default</value>
+  </data>
+  <data name="Settings_Theme_Light.Content" xml:space="preserve">
+    <value>Ringan</value>
+  </data>
+  <data name="Settings_Theme.Text" xml:space="preserve">
+    <value>Pilih Tema</value>
+  </data>
+  <data name="Settings_Title.Text" xml:space="preserve">
+    <value>Pengaturan</value>
+  </data>
+  <data name="SettingsPage_Devices" xml:space="preserve">
+    <value>Perangkat</value>
+  </data>
+  <data name="SettingsPage_Language" xml:space="preserve">
+    <value>Bahasa</value>
+  </data>
+  <data name="SettingsPage_Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="SettingsPage_Questions" xml:space="preserve">
+    <value>Pertanyaan</value>
+  </data>
+  <data name="SettingsPage_Title" xml:space="preserve">
+    <value>Pengaturan</value>
+  </data>
+  <data name="ShellView_Help" xml:space="preserve">
+    <value>Tolong</value>
+  </data>
+  <data name="ShellView_History" xml:space="preserve">
+    <value>Sejarah</value>
+  </data>
+  <data name="ShellView_Home" xml:space="preserve">
+    <value>Rumah</value>
+  </data>
+  <data name="ShellView_Settings.Text" xml:space="preserve">
+    <value>Pengaturan</value>
+  </data>
+  <data name="Sign_In.Text" xml:space="preserve">
+    <value>Tandatangan</value>
+  </data>
+  <data name="SignInDialog_Description.Text" xml:space="preserve">
+    <value>Berkomunikasi secara instan dalam berbagai bahasa global dengan perangkat Jabra Anda.</value>
+  </data>
+  <data name="SignInDialog_SignInButton.Content" xml:space="preserve">
+    <value>Tandatangan</value>
+  </data>
+  <data name="Translate_Button.Text" xml:space="preserve">
+    <value>Terjemah</value>
+  </data>
+  <data name="TranslationPage_EndSession.Text" xml:space="preserve">
+    <value>Mengakhiri sesi</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOn" xml:space="preserve">
+    <value>Mikrofon Aktif</value>
+  </data>
+  <data name="TranslationPage_SpeakerOn" xml:space="preserve">
+    <value>Pembicara Aktif</value>
+  </data>
+  <data name="TranslationPage_SpeakNow.Text" xml:space="preserve">
+    <value>Bicaralah Sekarang</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Sekitar</value>
+  </data>
+  <data name="AboutPage_AppVersion.Text" xml:space="preserve">
+    <value>Versi Aplikasi</value>
+  </data>
+  <data name="AboutPage_CheckUpdate.Content" xml:space="preserve">
+    <value>Periksa pembaruan</value>
+  </data>
+  <data name="AboutPage_DataConsent" xml:space="preserve">
+    <value>Organisasi Anda telah memberikan persetujuan untuk menyimpan data Anda di cloud.</value>
+  </data>
+  <data name="AboutPage_NoDataConsent" xml:space="preserve">
+    <value>Organisasi Anda belum memberikan persetujuan untuk menyimpan data Anda di cloud.</value>
+  </data>
+  <data name="AboutPage_Published.Text" xml:space="preserve">
+    <value>Diterbitkan oleh FITTS Limited.</value>
+  </data>
+  <data name="AppClose_Close.Content" xml:space="preserve">
+    <value>Tutup Pokoknya</value>
+  </data>
+  <data name="AppClose_Dismiss.Content" xml:space="preserve">
+    <value>Membatalkan</value>
+  </data>
+  <data name="AppClose_Warning.Text" xml:space="preserve">
+    <value>Anda memiliki sesi yang sedang berlangsung. Harap akhiri sesi sebelum keluar dari aplikasi.</value>
+  </data>
+  <data name="AppVersion.Text" xml:space="preserve">
+    <value>Versi aplikasi</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Button.Content" xml:space="preserve">
+    <value>Lanjutkan Sesi</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Description.Text" xml:space="preserve">
+    <value>Sesi akan berakhir di</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Title.Text" xml:space="preserve">
+    <value>Audio Tidak Terdeteksi</value>
+  </data>
+  <data name="AudioPlayer_Error.Text" xml:space="preserve">
+    <value>Gagal memuat audio</value>
+  </data>
+  <data name="DashboardPage_DefaultLanguageError" xml:space="preserve">
+    <value>Anda tidak memiliki Bahasa Terjemahan Default yang disimpan. Buka Pengaturan -&gt; Bahasa untuk memilih Bahasa Terjemahan Default lalu klik Simpan.</value>
+  </data>
+  <data name="DashboardPage_TargetLanguageError" xml:space="preserve">
+    <value>Anda belum memilih Bahasa Terjemahan Target. Silakan pilih bahasa lalu klik Terjemahkan.</value>
+  </data>
+  <data name="DevicesErrorDialog_DualDeviceError" xml:space="preserve">
+    <value>Anda telah memilih terjemahan Perangkat Ganda tetapi Anda tidak memiliki perangkat yang dipilih untuk Orang 2. Buka Pengaturan -&gt; Perangkat untuk memilih Mikrofon dan Speaker lalu klik Simpan.</value>
+  </data>
+  <data name="DevicesPage_Title.Text" xml:space="preserve">
+    <value>Perangkat</value>
+  </data>
+  <data name="DevicesPage_Wifi_Password.Text" xml:space="preserve">
+    <value>Masukkan Kata Sandi</value>
+  </data>
+  <data name="DevicesPage_WifiStatus.Text" xml:space="preserve">
+    <value>Status Wifi</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Mengedit</value>
+  </data>
+  <data name="Expiry.Text" xml:space="preserve">
+    <value>Kedaluwarsa</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Umpan balik</value>
+  </data>
+  <data name="FeedbackMessage.Text" xml:space="preserve">
+    <value>Jika Anda memiliki umpan balik atau pertanyaan, jangan ragu untuk menghubungi.</value>
+  </data>
+  <data name="GetInTouchButton.Text" xml:space="preserve">
+    <value>Hubungi kami</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Tolong</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>Sejarah</value>
+  </data>
+  <data name="History_ExportBtn.Text" xml:space="preserve">
+    <value>Ekspor</value>
+  </data>
+  <data name="HistoryExportButtonTooltip.Text" xml:space="preserve">
+    <value>Ekspor</value>
+  </data>
+  <data name="HistoryListColumnDate.Text" xml:space="preserve">
+    <value>Tanggal</value>
+  </data>
+  <data name="HistoryListColumnDuration.Text" xml:space="preserve">
+    <value>Durasi</value>
+  </data>
+  <data name="HistoryListColumnPrimaryLanguage.Text" xml:space="preserve">
+    <value>Bahasa Utama</value>
+  </data>
+  <data name="HistoryListColumnSecondaryLanguage.Text" xml:space="preserve">
+    <value>Bahasa Sekunder</value>
+  </data>
+  <data name="HistoryListColumnSessionId.Text" xml:space="preserve">
+    <value>ID Sesi</value>
+  </data>
+  <data name="InitalSetup_SkipSetup.Content" xml:space="preserve">
+    <value>Lewati pengaturan</value>
+  </data>
+  <data name="InitialNetworkPopupConnectButton.Content" xml:space="preserve">
+    <value>Sambung</value>
+  </data>
+  <data name="InitialSetup_DeviceSelection.Text" xml:space="preserve">
+    <value>Pemilihan Perangkat</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionDescription.Text" xml:space="preserve">
+    <value>Menyiapkan perangkat audio default</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneMicrophone.Text" xml:space="preserve">
+    <value>Pilih Mikrofon</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneSpeaker.Text" xml:space="preserve">
+    <value>Pilih Speaker</value>
+  </data>
+  <data name="InitialSetup_FinishSetup.Content" xml:space="preserve">
+    <value>Selesaikan penyiapan</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection_Description.Text" xml:space="preserve">
+    <value>Menyiapkan bahasa terjemahan default Anda</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection.Text" xml:space="preserve">
+    <value>Pemilihan Bahasa</value>
+  </data>
+  <data name="InitialSetup_NetworkSelection.Text" xml:space="preserve">
+    <value>Jaringan pilihan</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopup.Text" xml:space="preserve">
+    <value>Hubungkan ke Jaringan</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopupPassword.Text" xml:space="preserve">
+    <value>Masukkan Kata Sandi:</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionDescription.Text" xml:space="preserve">
+    <value>Pilih dari salah satu jaringan yang tersedia</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionNoInternetConnection.Text" xml:space="preserve">
+    <value>Anda tidak terhubung ke internet. Silakan periksa koneksi jaringan Anda.</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionOtherNetworks.Text" xml:space="preserve">
+    <value>Jaringan Lain</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup_Description.Text" xml:space="preserve">
+    <value>Menyiapkan kode sandi aplikasi Anda</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup.Text" xml:space="preserve">
+    <value>Pengaturan Kode Sandi</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Bahasa</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage_Description.Text" xml:space="preserve">
+    <value>Pilih Bahasa Aplikasi</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage.Text" xml:space="preserve">
+    <value>Bahasa Aplikasi</value>
+  </data>
+  <data name="LanguagesPage_AppLanguageDropdown.PlaceholderText" xml:space="preserve">
+    <value>Pilih bahasa</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage_Description.Text" xml:space="preserve">
+    <value>Bahasa default yang Anda gunakan</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage.Text" xml:space="preserve">
+    <value>Bahasa default saya</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguageDropDown.PlaceholderText" xml:space="preserve">
+    <value>Pilih bahasa</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description.Text" xml:space="preserve">
+    <value>Bagian riwayat (untuk terjemahan multi-perangkat)</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description1.Text" xml:space="preserve">
+    <value>* terjemahan perangkat tunggal memutar semua audio sebagai default *</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage.Text" xml:space="preserve">
+    <value>Bahasa Pemutaran Default</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguages.Text" xml:space="preserve">
+    <value>Tampilan cepat Bahasa</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguagesDropdown.PlaceholderText" xml:space="preserve">
+    <value>Menambahkan bahasa</value>
+  </data>
+  <data name="LanguagesPage_Title.Text" xml:space="preserve">
+    <value>Bahasa</value>
+  </data>
+  <data name="Licence" xml:space="preserve">
+    <value>Lisensi</value>
+  </data>
+  <data name="LicenseType.Text" xml:space="preserve">
+    <value>Jenis Lisensi:</value>
+  </data>
+  <data name="NetworkConnectionError" xml:space="preserve">
+    <value>Kesalahan:</value>
+  </data>
+  <data name="Next.Content" xml:space="preserve">
+    <value>Depan</value>
+  </data>
+  <data name="PasscodeError_MinimumLength" xml:space="preserve">
+    <value>Panjang minimum kode sandi harus 4.</value>
+  </data>
+  <data name="PasscodeError_NotMatching" xml:space="preserve">
+    <value>Kode sandi yang dimasukkan tidak cocok. Silakan masukkan kembali kode sandi lalu coba lagi.</value>
+  </data>
+  <data name="Person.Text" xml:space="preserve">
+    <value>Orang</value>
+  </data>
+  <data name="PrivacyPolicy.Text" xml:space="preserve">
+    <value>Kebijakan Privasi</value>
+  </data>
+  <data name="ProfilePage_Email_Description.Text" xml:space="preserve">
+    <value>Email ekspor default</value>
+  </data>
+  <data name="ProfilePage_Email.Text" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="ProfilePage_Passcode_Description.Text" xml:space="preserve">
+    <value>Kode sandi aplikasi Anda</value>
+  </data>
+  <data name="ProfilePage_Passcode.Text" xml:space="preserve">
+    <value>Kode sandi</value>
+  </data>
+  <data name="ProfilePage_Timeout_Description.Text" xml:space="preserve">
+    <value>Frekuensi kunci mode admin</value>
+  </data>
+  <data name="ProfilePage_Timeout.Text" xml:space="preserve">
+    <value>Batas waktu mode admin</value>
+  </data>
+  <data name="ProfilePage_TimeoutDropdown.PlaceholderText" xml:space="preserve">
+    <value>Pilih waktu</value>
+  </data>
+  <data name="ProfilePage_Title.Text" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="PublishedBy.Text" xml:space="preserve">
+    <value>Diterbitkan oleh</value>
+  </data>
+  <data name="ReleaseNotesMessage.Text" xml:space="preserve">
+    <value>Catatan rilis akan segera diperbarui</value>
+  </data>
+  <data name="Save_Text" xml:space="preserve">
+    <value>Simpan</value>
+  </data>
+  <data name="SessionDetailsPage_Description.Text" xml:space="preserve">
+    <value>Sejarah transkripsi</value>
+  </data>
+  <data name="SessionDetailsPage_Duration.Text" xml:space="preserve">
+    <value>Durasi</value>
+  </data>
+  <data name="SessionDetailsPage_SessionID.Text" xml:space="preserve">
+    <value>ID Sesi</value>
+  </data>
+  <data name="SessionDetailsPage_Title.Text" xml:space="preserve">
+    <value>Sejarah</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Pengaturan</value>
+  </data>
+  <data name="TermsOfUse.Text" xml:space="preserve">
+    <value>Syarat Penggunaan</value>
+  </data>
+  <data name="TranslationPage_SettingUpState" xml:space="preserve">
+    <value>Menyiapkan...</value>
+  </data>
+  <data name="TranslationPage_SpeakFast" xml:space="preserve">
+    <value>Coba berbicara sedikit lebih cepat untuk hasil terjemahan yang lebih baik.</value>
+  </data>
+  <data name="TranslationPage_SpeakIn" xml:space="preserve">
+    <value>Bicaralah dalam</value>
+  </data>
+  <data name="TranslationPage_SpeakSlow" xml:space="preserve">
+    <value>Coba berbicara sedikit lebih lambat untuk hasil terjemahan yang lebih baik.</value>
+  </data>
+  <data name="TranslationPage_Switching" xml:space="preserve">
+    <value>Beralih</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonOne" xml:space="preserve">
+    <value>Beralih ke orang 1</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonTwo" xml:space="preserve">
+    <value>Beralih ke orang 2</value>
+  </data>
+  <data name="TranslationPage_TranslationReadyState" xml:space="preserve">
+    <value>Bicaralah sekarang</value>
+  </data>
+  <data name="Website.Text" xml:space="preserve">
+    <value>Situs web</value>
+  </data>
+  <data name="WhatsNew" xml:space="preserve">
+    <value>Apa yang baru</value>
+  </data>
+  <data name="WhatsNewInSpeechly.Text" xml:space="preserve">
+    <value>Yang baru di</value>
+  </data>
+  <data name="AudioDevicesSelectorDualDevice.Content" xml:space="preserve">
+    <value>Perangkat Ganda</value>
+  </data>
+  <data name="AudioDevicesSelectorSingleDevice.Content" xml:space="preserve">
+    <value>Satu Perangkat</value>
+  </data>
+  <data name="AutoDetectSearchCountry.PlaceholderText" xml:space="preserve">
+    <value>Cari negara</value>
+  </data>
+  <data name="AutoDetectSelectLanguage.Text" xml:space="preserve">
+    <value>Pilih bahasa Anda</value>
+  </data>
+  <data name="ChatViewPersonOne" xml:space="preserve">
+    <value>Orang Satu</value>
+  </data>
+  <data name="ChatViewPersonTwo" xml:space="preserve">
+    <value>Orang Dua</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionLost" xml:space="preserve">
+    <value>Koneksi internet terputus. Silakan periksa koneksi Anda lalu coba lagi.</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionUnstable" xml:space="preserve">
+    <value>Koneksi internet Anda lambat. Anda mungkin mengalami kelambatan.</value>
+  </data>
+  <data name="CustomTagSelectionTitle.Text" xml:space="preserve">
+    <value>Tag Organisasi (pilih untuk menambahkan)</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.Header" xml:space="preserve">
+    <value>Bendera pengguna untuk beralih bahasa</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OffContent" xml:space="preserve">
+    <value>Cacat</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OnContent" xml:space="preserve">
+    <value>Diaktifkan</value>
+  </data>
+  <data name="DetectLanguageButton.Content" xml:space="preserve">
+    <value>Deteksi Bahasa</value>
+  </data>
+  <data name="DevicesPageNetworkSetupBluetoothStatus.Text" xml:space="preserve">
+    <value>Status Bluetooth:</value>
+  </data>
+  <data name="DevicesPageNetworkSetupConnectAutomatically.Text" xml:space="preserve">
+    <value>Hubungkan Secara Otomatis</value>
+  </data>
+  <data name="DevicesPageNetworkSetupWiFiStatus.Text" xml:space="preserve">
+    <value>Status WiFi :</value>
+  </data>
+  <data name="Dimiss.Content" xml:space="preserve">
+    <value>Membatalkan</value>
+  </data>
+  <data name="Duration.Text" xml:space="preserve">
+    <value>|  Durasi</value>
+  </data>
+  <data name="EmailPopup_Description.Text" xml:space="preserve">
+    <value>Masukkan alamat email Anda</value>
+  </data>
+  <data name="EmailPopup_Title.Text" xml:space="preserve">
+    <value>Kirim sesi Anda melalui email</value>
+  </data>
+  <data name="ForcedUpdateDialogCaption" xml:space="preserve">
+    <value>Kami memiliki pembaruan penting untuk</value>
+  </data>
+  <data name="ForcedUpdateDialogInstallBtnText" xml:space="preserve">
+    <value>Pemutakhiran</value>
+  </data>
+  <data name="ForcedUpdateDialogTitle" xml:space="preserve">
+    <value>Pembaruan Penting</value>
+  </data>
+  <data name="GoBack.Content" xml:space="preserve">
+    <value>Kembali</value>
+  </data>
+  <data name="HelpPageSignOut.Content" xml:space="preserve">
+    <value>Keluar</value>
+  </data>
+  <data name="History_Export.Text" xml:space="preserve">
+    <value>Menghasilkan file...</value>
+  </data>
+  <data name="HistoryListColumnSessionName.Text" xml:space="preserve">
+    <value>Nama</value>
+  </data>
+  <data name="HistoryListColumnSynced.Text" xml:space="preserve">
+    <value>Disinkronkan</value>
+  </data>
+  <data name="HistorySearchBox.PlaceholderText" xml:space="preserve">
+    <value>Bahasa, nama sesi, tag, atau ID</value>
+  </data>
+  <data name="HistorySearchButtonTooltip.Text" xml:space="preserve">
+    <value>Mencari</value>
+  </data>
+  <data name="HistorySearchClearButtonTooltip.Text" xml:space="preserve">
+    <value>Jelas</value>
+  </data>
+  <data name="HistorySearchFromDate.Header" xml:space="preserve">
+    <value>Dari:</value>
+  </data>
+  <data name="HistorySearchToDate.Header" xml:space="preserve">
+    <value>Ke:</value>
+  </data>
+  <data name="HistoryShareButtonTooltip.Text" xml:space="preserve">
+    <value>Bagikan/Kirim</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonOne.Text" xml:space="preserve">
+    <value>Orang 1</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonTwo.Text" xml:space="preserve">
+    <value>Orang 2</value>
+  </data>
+  <data name="LoginPageTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NewVersionDialogCaption" xml:space="preserve">
+    <value>Instal versi aplikasi baru</value>
+  </data>
+  <data name="NewVersionDialogDescription" xml:space="preserve">
+    <value>Fitur baru dan perbaikan bug akan hilang dari </value>
+  </data>
+  <data name="NewVersionDialogInstallBtnText" xml:space="preserve">
+    <value>Instal Versi Baru</value>
+  </data>
+  <data name="NewVersionDialogTitle" xml:space="preserve">
+    <value>Versi Aplikasi Baru</value>
+  </data>
+  <data name="NextText" xml:space="preserve">
+    <value>Depan</value>
+  </data>
+  <data name="ProfilePageEditButton.Content" xml:space="preserve">
+    <value>Mengedit</value>
+  </data>
+  <data name="QuestionsButton.Content" xml:space="preserve">
+    <value>Lihat Pertanyaan</value>
+  </data>
+  <data name="QuestionSettingsDescription.Text" xml:space="preserve">
+    <value>Melihat atau mengubah pintasan pertanyaan Anda</value>
+  </data>
+  <data name="QuestionSettingsInstructionOne.Text" xml:space="preserve">
+    <value>* Gunakan angka 1-9 untuk setiap pertanyaan. Nol (0) tidak akan dipertimbangkan.</value>
+  </data>
+  <data name="QuestionSettingsInstructionThree.Text" xml:space="preserve">
+    <value>* Anda hanya dapat menetapkan pintasan ke 9 pertanyaan.</value>
+  </data>
+  <data name="QuestionSettingsListTitle.Text" xml:space="preserve">
+    <value>Daftar Pertanyaan :</value>
+  </data>
+  <data name="ResellerEmailAddress.Text" xml:space="preserve">
+    <value>Alamat Email Reseller :</value>
+  </data>
+  <data name="ResellerName.Text" xml:space="preserve">
+    <value>Nama Reseller :</value>
+  </data>
+  <data name="SelectFlag.Text" xml:space="preserve">
+    <value>Pilih bendera Anda:</value>
+  </data>
+  <data name="Send.Content" xml:space="preserve">
+    <value>Kirim</value>
+  </data>
+  <data name="SessionDetailsPage_SessionName.Text" xml:space="preserve">
+    <value>Nama Sesi</value>
+  </data>
+  <data name="SessionID.Text" xml:space="preserve">
+    <value>ID Sesi : -</value>
+  </data>
+  <data name="SessionMetadataDialog_ContinueButton.Text" xml:space="preserve">
+    <value>Terus</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTags.Text" xml:space="preserve">
+    <value>Tag Kustom</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Masukkan nama tag di sini</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextboxHelper.Text" xml:space="preserve">
+    <value>Tekan Enter</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTags.Text" xml:space="preserve">
+    <value>Tag Default</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Masukkan nilai di sini</value>
+  </data>
+  <data name="SessionMetadataDialog_Description.Text" xml:space="preserve">
+    <value>Bidang wajib ditandai dengan '</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionName.Text" xml:space="preserve">
+    <value>Nama Sesi</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionNameTextbox.PlaceholderText" xml:space="preserve">
+    <value>misalnya pasien nol</value>
+  </data>
+  <data name="SessionMetadataDialog_Title.Text" xml:space="preserve">
+    <value>Menambahkan nama dan tag sesi</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorActionMessage" xml:space="preserve">
+    <value>Silakan hubungi administrator Anda untuk mengaktifkan akun Anda.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorMessage" xml:space="preserve">
+    <value>Akun Anda telah dinonaktifkan.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorActionMessage" xml:space="preserve">
+    <value>Silakan hubungi administrator Anda untuk membuat akun Anda.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorMessage" xml:space="preserve">
+    <value>Akun Anda telah dihapus.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorActionMessage" xml:space="preserve">
+    <value>Silakan hubungi administrator Anda untuk mengaktifkan akun Anda.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorMessage" xml:space="preserve">
+    <value>Akun Anda telah dinonaktifkan.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorActionMessage" xml:space="preserve">
+    <value>Silakan hubungi administrator Anda untuk membuat akun Anda.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorMessage" xml:space="preserve">
+    <value>Anda tidak memiliki Akun aktif.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorActionMessage" xml:space="preserve">
+    <value>Silakan hubungi administrator Anda untuk memperbarui lisensi Anda.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorMessage" xml:space="preserve">
+    <value>Lisensi Anda telah kedaluwarsa.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorActionMessage" xml:space="preserve">
+    <value>Silakan hubungi administrator Anda untuk mengaktifkan lisensi Anda.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorMessage" xml:space="preserve">
+    <value>Lisensi Anda telah dinonaktifkan.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorActionMessage" xml:space="preserve">
+    <value>Silakan hubungi administrator Anda.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorMessage" xml:space="preserve">
+    <value>Lisensi Anda telah ditangguhkan.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorActionMessage" xml:space="preserve">
+    <value>Silakan hubungi administrator Anda untuk menetapkan lisensi kepada Anda.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorMessage" xml:space="preserve">
+    <value>Anda tidak memiliki lisensi yang ditetapkan untuk Anda.</value>
+  </data>
+  <data name="StartupPage2020.Text" xml:space="preserve">
+    <value>2021 </value>
+  </data>
+  <data name="StartupPageErrorDescription.Text" xml:space="preserve">
+    <value>Terjadi kesalahan. Silakan periksa Koneksi Internet Anda lalu coba lagi.</value>
+  </data>
+  <data name="StartupPagePoweredBy.Text" xml:space="preserve">
+    <value>Didukung oleh </value>
+  </data>
+  <data name="StartupPageProgressDescription.Text" xml:space="preserve">
+    <value>Ini mungkin memakan waktu beberapa detik</value>
+  </data>
+  <data name="StartupPageRetryButton.Content" xml:space="preserve">
+    <value>Pengulangan</value>
+  </data>
+  <data name="StartupPageRightsReserved.Text" xml:space="preserve">
+    <value>Semua hak dilindungi undang-undang.</value>
+  </data>
+  <data name="StartUpPageSettingUpMessage" xml:space="preserve">
+    <value>Menyiapkan...</value>
+  </data>
+  <data name="StartupPageTitleDescription.Text" xml:space="preserve">
+    <value>Selamat datang di </value>
+  </data>
+  <data name="TranslateText" xml:space="preserve">
+    <value>Terjemah</value>
+  </data>
+  <data name="TranslationLicenceUseError" xml:space="preserve">
+    <value>Lisensi Anda saat ini digunakan di sesi lain.</value>
+  </data>
+  <data name="TranslationLimitReachedError" xml:space="preserve">
+    <value>Anda telah mencapai batas waktu maksimum per sesi. Mengakhiri sesi.</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOff" xml:space="preserve">
+    <value>Mikrofon Mati</value>
+  </data>
+  <data name="TranslationPage_SpeakerOff" xml:space="preserve">
+    <value>Speaker Nonaktif</value>
+  </data>
+  <data name="TranslationTimeDepletedError" xml:space="preserve">
+    <value>Menit terjemahan Anda telah habis. Silakan hubungi administrator Anda.</value>
+  </data>
+  <data name="UnsupportedVersionDialogBtntext" xml:space="preserve">
+    <value>Pemutakhiran</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption" xml:space="preserve">
+    <value>Pembaruan penting diperlukan untuk </value>
+  </data>
+  <data name="UnsupportedVersionDialogDescription" xml:space="preserve">
+    <value>Perbarui aplikasi Anda untuk terus mendapatkan pembaruan fitur dan keamanan.</value>
+  </data>
+  <data name="UnsupportedVersionDialogTitle" xml:space="preserve">
+    <value>Versi Aplikasi yang Tidak Didukung</value>
+  </data>
+  <data name="UpdateDialogWhatsNew.Text" xml:space="preserve">
+    <value>Apa yang baru?</value>
+  </data>
+  <data name="Zoom.Text" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="Add.Content" xml:space="preserve">
+    <value>Tambah</value>
+  </data>
+  <data name="AddNewQuestion.Text" xml:space="preserve">
+    <value>Menambahkan pertanyaan baru yang telah ditentukan sebelumnya</value>
+  </data>
+  <data name="AddQuestion.Content" xml:space="preserve">
+    <value>Tambahkan Pertanyaan</value>
+  </data>
+  <data name="ChooseLanguage.Text" xml:space="preserve">
+    <value>Pilih bahasa default</value>
+  </data>
+  <data name="CustomProfileAdded" xml:space="preserve">
+    <value>Nama profil berhasil ditambahkan.</value>
+  </data>
+  <data name="CustomProfileDeleted" xml:space="preserve">
+    <value>Profil berhasil dihapus.</value>
+  </data>
+  <data name="CustomProfileInvalidName" xml:space="preserve">
+    <value>Kesalahan! Nama profil tidak valid.</value>
+  </data>
+  <data name="CustomProfileNotDeleted" xml:space="preserve">
+    <value>Tidak ada profil untuk dihapus.</value>
+  </data>
+  <data name="CustomProfileNotSaved" xml:space="preserve">
+    <value>Kesalahan! Tidak ada profil yang disimpan.</value>
+  </data>
+  <data name="CustomProfileProfileSaved" xml:space="preserve">
+    <value>Profil berhasil disimpan.</value>
+  </data>
+  <data name="DataRequestMessage" xml:space="preserve">
+    <value>Anda belum memilih teks apa pun. Silakan pilih teks untuk dibagikan dan coba lagi.</value>
+  </data>
+  <data name="DevicesAddProfileButton.Content" xml:space="preserve">
+    <value>Tambah</value>
+  </data>
+  <data name="DevicesAvailableProfiles.Text" xml:space="preserve">
+    <value>Profil yang tersedia</value>
+  </data>
+  <data name="DevicesDefaultProfile.Text" xml:space="preserve">
+    <value>Profil default:</value>
+  </data>
+  <data name="DevicesDeleteProfileBtn.Content" xml:space="preserve">
+    <value>Hapus Profil</value>
+  </data>
+  <data name="DeviceSetupChanged" xml:space="preserve">
+    <value>Perangkat audio yang terhubung diperbarui </value>
+  </data>
+  <data name="DevicesHelpfulTip1.Text" xml:space="preserve">
+    <value>1. Tetapkan nama profil</value>
+  </data>
+  <data name="DevicesHelpfulTip2.Text" xml:space="preserve">
+    <value>2. Pilih mode perangkat tunggal atau ganda</value>
+  </data>
+  <data name="DevicesHelpfulTip3.Text" xml:space="preserve">
+    <value>3. Pilih speaker dan mikrofon</value>
+  </data>
+  <data name="DevicesHelpfulTip4.Text" xml:space="preserve">
+    <value>4. Tetapkan profil Anda sebagai default</value>
+  </data>
+  <data name="DevicesHelpfulTip5.Text" xml:space="preserve">
+    <value>5. Klik Simpan Profil tombol untuk menyimpan profil Anda</value>
+  </data>
+  <data name="DevicesHelpfulTips.Text" xml:space="preserve">
+    <value>Tips</value>
+  </data>
+  <data name="DevicesProfileNameTextBox.PlaceholderText" xml:space="preserve">
+    <value>Nama profil...</value>
+  </data>
+  <data name="DevicesSaveProfileBtn.Content" xml:space="preserve">
+    <value>Simpan Profil</value>
+  </data>
+  <data name="DevicesSetasDefault.Text" xml:space="preserve">
+    <value>Tetapkan sebagai default</value>
+  </data>
+  <data name="DevicesSetProfileButton.Content" xml:space="preserve">
+    <value>Atur profil</value>
+  </data>
+  <data name="DevicesSetProfileText.Text" xml:space="preserve">
+    <value>Mengatur profil kustom?</value>
+  </data>
+  <data name="DiscardButton.Content" xml:space="preserve">
+    <value>Membuang</value>
+  </data>
+  <data name="DismissButton.Content" xml:space="preserve">
+    <value>Mengabaikan</value>
+  </data>
+  <data name="DismissText.Text" xml:space="preserve">
+    <value>Mengabaikan</value>
+  </data>
+  <data name="DownloadAudio.Text" xml:space="preserve">
+    <value>Unduh Audio</value>
+  </data>
+  <data name="DownloadCancel" xml:space="preserve">
+    <value>Unduhan dibatalkan</value>
+  </data>
+  <data name="Downloaded" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="DownloadError" xml:space="preserve">
+    <value>Terjadi Kesalahan</value>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>Men</value>
+  </data>
+  <data name="DownloadPaused" xml:space="preserve">
+    <value>Unduh Dijeda</value>
+  </data>
+  <data name="DualDeviceUpdated" xml:space="preserve">
+    <value>Pengaturan Perangkat Ganda berhasil diperbarui</value>
+  </data>
+  <data name="EnterQuestion.Text" xml:space="preserve">
+    <value>Masukkan pertanyaan di bawah ini</value>
+  </data>
+  <data name="ErrorDescription.Text" xml:space="preserve">
+    <value>Perubahan Anda belum disimpan, apakah Anda ingin menyimpannya atau membuangnya?</value>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>Ada yang tidak beres.. Coba lagi</value>
+  </data>
+  <data name="ErrorTitle.Text" xml:space="preserve">
+    <value>Anda memiliki perubahan yang belum disimpan</value>
+  </data>
+  <data name="FeedbackEight.Text" xml:space="preserve">
+    <value>Kami terus menyela satu sama lain</value>
+  </data>
+  <data name="FeedbackFive.Text" xml:space="preserve">
+    <value>Saya mendengar gema dalam panggilan itu</value>
+  </data>
+  <data name="FeedbackFour.Text" xml:space="preserve">
+    <value>Itu mengambil suara latar belakang</value>
+  </data>
+  <data name="FeedbackOne.Text" xml:space="preserve">
+    <value>Itu tidak mengambil suaraku dengan benar</value>
+  </data>
+  <data name="FeedbackQuestion.Text" xml:space="preserve">
+    <value>Apa yang bisa lebih baik?</value>
+  </data>
+  <data name="FeedbackSeven.Text" xml:space="preserve">
+    <value>Sesi berakhir secara tak terduga</value>
+  </data>
+  <data name="FeedbackSix.Text" xml:space="preserve">
+    <value>Volumenya terlalu rendah</value>
+  </data>
+  <data name="FeedbackThanks.Text" xml:space="preserve">
+    <value>Terima kasih atas umpan baliknya</value>
+  </data>
+  <data name="FeedbackThree.Text" xml:space="preserve">
+    <value>Waktu penerjemahan terlalu lambat</value>
+  </data>
+  <data name="FeedbackTwo.Text" xml:space="preserve">
+    <value>Itu salah menerjemahkan kalimat saya</value>
+  </data>
+  <data name="ForcedUpdateDialogCaptionContinuation" xml:space="preserve">
+    <value>untuk berfungsi. Aplikasi tidak akan berfungsi tanpa pembaruan ini.</value>
+  </data>
+  <data name="Improvement.Text" xml:space="preserve">
+    <value>Kami akan terus berupaya meningkatkan pengalaman Anda.</value>
+  </data>
+  <data name="LanguageSettingsUpdated" xml:space="preserve">
+    <value>Perubahan bahasa berhasil diperbarui</value>
+  </data>
+  <data name="NewVersionDialogDescription2" xml:space="preserve">
+    <value>dan versi Anda</value>
+  </data>
+  <data name="NewVersionDialogDescription3" xml:space="preserve">
+    <value>mungkin menjadi tidak didukung.</value>
+  </data>
+  <data name="Other.Text" xml:space="preserve">
+    <value>Komentar lain:</value>
+  </data>
+  <data name="PasswordUpdated" xml:space="preserve">
+    <value>Kata Sandi Berubah Berhasil</value>
+  </data>
+  <data name="PlaybackLanguageUpdated" xml:space="preserve">
+    <value>Bahasa pemutaran default berubah Berhasil</value>
+  </data>
+  <data name="QuestionAdded" xml:space="preserve">
+    <value>Pertanyaan Berhasil Ditambahkan</value>
+  </data>
+  <data name="QuestionDeleted" xml:space="preserve">
+    <value>Pertanyaan Berhasil Dihapus</value>
+  </data>
+  <data name="Questions.Text" xml:space="preserve">
+    <value>Pertanyaan</value>
+  </data>
+  <data name="QuestionSettingsInstructionTwo.Text" xml:space="preserve">
+    <value>* Setiap pertanyaan harus memiliki tombol pintas yang berbeda.</value>
+  </data>
+  <data name="QuestionsValidationError.Text" xml:space="preserve">
+    <value>* Periksa validasi Anda dan coba lagi.</value>
+  </data>
+  <data name="QuickViewLanguagesUpdated" xml:space="preserve">
+    <value>Tampilan cepat languges diperbarui Berhasil</value>
+  </data>
+  <data name="SendFeedback.Content" xml:space="preserve">
+    <value>Kirim Umpan Balik</value>
+  </data>
+  <data name="SessionFeedbackPrompt" xml:space="preserve">
+    <value>Bagaimana Anda menilai sesi terjemahan Anda?</value>
+  </data>
+  <data name="SessionFeedbackTitle" xml:space="preserve">
+    <value>Umpan Balik Terjemahan</value>
+  </data>
+  <data name="ShortcutSuccess" xml:space="preserve">
+    <value>Pintasan pertanyaan berhasil diperbarui</value>
+  </data>
+  <data name="SingleDeviceUpdated" xml:space="preserve">
+    <value>Penyiapan Perangkat Tunggal berhasil diperbarui</value>
+  </data>
+  <data name="StartupPageTitleDescription2.Text" xml:space="preserve">
+    <value>perangkat lunak terjemahan.</value>
+  </data>
+  <data name="TimeoutUpdated" xml:space="preserve">
+    <value>Batas waktu diperbarui Berhasil</value>
+  </data>
+  <data name="TouchShareText" xml:space="preserve">
+    <value>Bagikan Sentuh</value>
+  </data>
+  <data name="TranslationLanguageUpdated" xml:space="preserve">
+    <value>Bahasa terjemahan default berhasil diubah</value>
+  </data>
+  <data name="TranslationPlaybackUpdated" xml:space="preserve">
+    <value>Bahasa terjemahan &amp; pemutaran default berhasil diubah</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption2" xml:space="preserve">
+    <value>untuk berfungsi. Fitur mungkin berhenti bekerja tanpa pemberitahuan. Harap perbarui aplikasi.</value>
+  </data>
+  <data name="UserFlagSwitch" xml:space="preserve">
+    <value>Bendera pengguna untuk beralih bahasa diperbarui</value>
+  </data>
+</root>

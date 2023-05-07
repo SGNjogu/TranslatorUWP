@@ -1,0 +1,1192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="AppDescription" xml:space="preserve">
+    <value>TalaTouchApp</value>
+  </data>
+  <data name="AppDisplayName" xml:space="preserve">
+    <value>TalaTouchApp</value>
+  </data>
+  <data name="AudioDeviceSelector_MicDropdown.PlaceholderText" xml:space="preserve">
+    <value>மைக்ரோஃபோனைத் தேர்ந்தெடுக்கவும்</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneMic.Text" xml:space="preserve">
+    <value>நபர் ஒரு மைக்ரோஃபோன்</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneSpeaker.Text" xml:space="preserve">
+    <value>நபர் ஒரு சபாநாயகர்</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoMic.Text" xml:space="preserve">
+    <value>நபர் இரண்டு ஒலிவாங்கி</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoSpeaker.Text" xml:space="preserve">
+    <value>நபர் இரண்டு சபாநாயகர்</value>
+  </data>
+  <data name="AudioDeviceSelector_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>ஒரு ஸ்பீக்கரை தேர்ந்தெடு</value>
+  </data>
+  <data name="BluetoothPairingDialog_Description.Text" xml:space="preserve">
+    <value>உங்கள் சாதனம் இயக்கப்பட்டிருப்பதையும் கண்டறியக்கூடியதா என்பதையும் உறுதிசெய்யவும். இணைக்க கீழே உள்ள சாதனத்தைத் தேர்ந்தெடுக்கவும்.</value>
+  </data>
+  <data name="BluetoothPairingDialog_Title.Text" xml:space="preserve">
+    <value>ஒரு சாதனத்தைச் சேர்</value>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>ரத்து</value>
+  </data>
+  <data name="ChangePasscodeDialog_Confirm.Text" xml:space="preserve">
+    <value>புதிய கடவுக்குறியீட்டை உறுதிசெய்</value>
+  </data>
+  <data name="ChangePasscodeDialog_Current.Text" xml:space="preserve">
+    <value>நடப்பு கடவுக்குறியீடு</value>
+  </data>
+  <data name="ChangePasscodeDialog_New.Text" xml:space="preserve">
+    <value>புதிய கடவுக்குறியீடு</value>
+  </data>
+  <data name="ChangePasscodeDialog_Title.Text" xml:space="preserve">
+    <value>கடவுக்குறியீட்டை மாற்று</value>
+  </data>
+  <data name="Close.Content" xml:space="preserve">
+    <value>அடைப்பு</value>
+  </data>
+  <data name="ConsentDialog_Description1.Text" xml:space="preserve">
+    <value>தனியுரிமை கவலைகள் எங்கள் முதல் முன்னுரிமை. (5) இந்தத் தனியுரிமைக் கொள்கையின் விதிமுறைகள் மற்றும் நிபந்தனைகளை உங்கள் மொபைல் ஃபோன் அல்லது டேப்லெட்டுடன், பொருந்தும்படி ஏற்றுக்கொள்கிறீர்கள்.</value>
+  </data>
+  <data name="ConsentDialog_Description2.Text" xml:space="preserve">
+    <value>நாங்கள் ஒப்புதலுக்கான கோரிக்கையைப் பெறும்போது எங்களை அணுக அனுமதிக்க வேண்டாம் என்று நீங்கள் தேர்வுசெய்தால் (அத்தகைய கோரிக்கைகள் www ICTS வலைத்தளத்தில் பின்வரும் முகவரியில் அறிவிக்கப்படும்:</value>
+  </data>
+  <data name="ConsentDialog_Description3.Text" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int</value>
+  </data>
+  <data name="ConsentDialog_Description4.Text" xml:space="preserve">
+    <value>), பின்னர் வழங்கப்பட்ட மின்னஞ்சல் முகவரி அல்லது ஒரு தனிநபரை அடையாளம் காணக்கூடிய வேறு எந்த தனிப்பட்ட தகவலும் அத்தகைய அனுமதி வழங்கப்பட்டவுடன் எங்கள் வசம் வர முடியாது.</value>
+  </data>
+  <data name="ConsentDialog_Description5.Text" xml:space="preserve">
+    <value>சில பகுதிகளைப் பயன்படுத்துவதன் மூலம்: /எனது மொபைல் ஃபோன்/சின்னங்களை நான் பயன்படுத்துவது - இது போன்ற தயாரிப்புகளைப் பற்றி அரட்டை அறைகளில் மற்றவர்களை அனுமதிப்பது இதில் அடங்கும்</value>
+  </data>
+  <data name="ConsentDialog_HyperLink.NavigateUri" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int/</value>
+  </data>
+  <data name="ConsentDialog_Title.Text" xml:space="preserve">
+    <value>உங்கள் தனியுரிமையை நாங்கள் மதிக்கிறோம்</value>
+  </data>
+  <data name="Dashboard_Choose_Language.Text" xml:space="preserve">
+    <value>மொழியைத் தேர்ந்தெடு</value>
+  </data>
+  <data name="Dashboard_Hello.Text" xml:space="preserve">
+    <value>ஹலோ</value>
+  </data>
+  <data name="Dashboard_SearchBox.PlaceholderText" xml:space="preserve">
+    <value>தேடல் மொழி</value>
+  </data>
+  <data name="Dashboard_Welcome.Text" xml:space="preserve">
+    <value>வருக</value>
+  </data>
+  <data name="DevicesErrorDialog_NoDeviceError" xml:space="preserve">
+    <value>உங்களிடம் சேமிக்கப்பட்ட சாதனம்(கள்) இல்லை. மைக்ரோஃபோன் மற்றும் ஸ்பீக்கரைத் தேர்ந்தெடுக்க அமைப்புகள் -&gt; சாதனங்களுக்குச் சென்று சேமி என்பதைக் கிளிக் செய்யவும்.</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Description.Text" xml:space="preserve">
+    <value>கிடைக்கப்பெறும் புளூடூத் சாதனங்கள்</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_DropDown.PlaceholderText" xml:space="preserve">
+    <value>புளூடூத் சாதனத்தைத் தேர்ந்தெடுக்கவும்</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Scan.Text" xml:space="preserve">
+    <value>அலகிடு</value>
+  </data>
+  <data name="DevicesPage_Bluetooth.Text" xml:space="preserve">
+    <value>ப்ளூடூத்</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices_Description.Text" xml:space="preserve">
+    <value>உங்கள் ஆடியோ சாதனத்தைத் தேர்வுசெய்யவும்</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices.Text" xml:space="preserve">
+    <value>இணைக்கப்பட்ட ஆடியோ சாதனங்கள்</value>
+  </data>
+  <data name="DevicesPage_MicDropDown.PlaceholderText" xml:space="preserve">
+    <value>மைக்ரோஃபோனைத் தேர்ந்தெடுங்கள்</value>
+  </data>
+  <data name="DevicesPage_Network_Description.Text" xml:space="preserve">
+    <value>கிடைக்கப்பெறும் பிணையங்கள்</value>
+  </data>
+  <data name="DevicesPage_Network_DropDown.PlaceholderText" xml:space="preserve">
+    <value>ஒரு பிணையத்தை தேர்ந்தெடு</value>
+  </data>
+  <data name="DevicesPage_Network.Text" xml:space="preserve">
+    <value>பின்னல் வேலை</value>
+  </data>
+  <data name="DevicesPage_NetworkError" xml:space="preserve">
+    <value>எந்த பிணையமும் தேர்ந்தெடுக்கப்படவில்லை. உங்கள் பிணைய இணைப்புகளைச் சரிபார்க்கவும்.</value>
+  </data>
+  <data name="DevicesPage_PersonOne_Speaker.Text" xml:space="preserve">
+    <value>நபர் ஒரு பேச்சாளர்</value>
+  </data>
+  <data name="DevicesPage_PersonOneMic.Text" xml:space="preserve">
+    <value>நபர் ஒரு மைக்ரோஃபோன்</value>
+  </data>
+  <data name="DevicesPage_PersonTwo_Mic.Text" xml:space="preserve">
+    <value>நபர் இரண்டு மைக்ரோஃபோன்</value>
+  </data>
+  <data name="DevicesPage_Scan" xml:space="preserve">
+    <value>அலகிடு</value>
+  </data>
+  <data name="DevicesPage_Scanning" xml:space="preserve">
+    <value>ஸ்கேன்...</value>
+  </data>
+  <data name="DevicesPage_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>ஒரு ஸ்பீக்கரை தேர்ந்தெடு</value>
+  </data>
+  <data name="DevicesPage_Status_Connect" xml:space="preserve">
+    <value>இணை</value>
+  </data>
+  <data name="DevicesPage_Status_Connected" xml:space="preserve">
+    <value>இணைக்கப்பட்ட</value>
+  </data>
+  <data name="DevicesPage_Status_Connecting" xml:space="preserve">
+    <value>இணைக்கிறது...</value>
+  </data>
+  <data name="DevicesPage_Status_Off" xml:space="preserve">
+    <value>மரப்பந்தாட்டத்தில் எதிர்ப்புறம்</value>
+  </data>
+  <data name="DevicesPage_Status_On" xml:space="preserve">
+    <value>மேல்</value>
+  </data>
+  <data name="DevicesPager_PersonTwo_Speaker.Text" xml:space="preserve">
+    <value>நபர் இரண்டு பேச்சாளர்</value>
+  </data>
+  <data name="EnterPasscodeDialog_Description.Text" xml:space="preserve">
+    <value>அமைப்புகள் பக்கத்தை அணுக உங்கள் கடவுக்குறியீட்டை உள்ளிடவும்</value>
+  </data>
+  <data name="EnterPasscodeDialog_ForgotPasscode.Content" xml:space="preserve">
+    <value>கடவுக்குறியீட்டை மறந்துவிட்டீர்களா?</value>
+  </data>
+  <data name="EnterPasscodeDialog_InvalidPasscode.Text" xml:space="preserve">
+    <value>செல்லுபடியாகாத கடவுக்குறியீடு! தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="EnterPasscodeDialog_Passcode.Text" xml:space="preserve">
+    <value>கடவுக்குறியீடு</value>
+  </data>
+  <data name="EnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>உங்கள் கடவுக்குறியீட்டை உள்ளிடவும்</value>
+  </data>
+  <data name="IAgree.Content" xml:space="preserve">
+    <value>நான் ஒப்புக்கொள்கிறேன்</value>
+  </data>
+  <data name="InvalidLicenseDialog_Description.Text" xml:space="preserve">
+    <value>உங்கள் உரிம சரிபார்ப்பு தோல்வியுற்றது</value>
+  </data>
+  <data name="InvalidLicenseDialog_Title.Text" xml:space="preserve">
+    <value>செல்லுபடியாகாத உரிமம்</value>
+  </data>
+  <data name="LoginFailedDialog_Button.Content" xml:space="preserve">
+    <value>பின் செல்</value>
+  </data>
+  <data name="LoginFailedDialog_Description.Text" xml:space="preserve">
+    <value>உங்கள் உள்நுழைவு முயற்சி தோல்வியுற்றது.</value>
+  </data>
+  <data name="LoginFailedDialog_Title.Text" xml:space="preserve">
+    <value>உள்நுழைவு தோல்வியுற்றது</value>
+  </data>
+  <data name="Main_Title.Text" xml:space="preserve">
+    <value>சேவற் போட்டிப்பந்தயம்</value>
+  </data>
+  <data name="PasswordPopup_SetupTitle.Text" xml:space="preserve">
+    <value>கடவுக்குறியீட்டை அமை</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Description1.Text" xml:space="preserve">
+    <value>திருத்துவதைத் தொடர உங்கள் கடவுக்குறியீட்டை மீண்டும் உள்ளிடவும்...</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>உங்கள் கடவுக்குறியீட்டை மீண்டும் உள்ளிடவும்</value>
+  </data>
+  <data name="RenterPasscodeDialog_Description2.Text" xml:space="preserve">
+    <value>ஆட்டோ சேமிப்பு மற்றும் வீட்டிற்குத் திரும்புதல்</value>
+  </data>
+  <data name="Save.Content" xml:space="preserve">
+    <value>கெலிப்புத்தடங்கல்</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Description.Text" xml:space="preserve">
+    <value>இது ஆழமான இணைப்பிலிருந்து பயன்பாடு செயல்படுத்தப்பட்டால் செயல்படுத்தும் அளவுருக்களைக் காண்பிக்கும் ஒரு மாதிரி பக்கமாகும்.</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Title.Text" xml:space="preserve">
+    <value>திட்டச் செயல்பாடுகள் மாதிரி</value>
+  </data>
+  <data name="SetPasscodeDialog_ConfirmPasscode.Text" xml:space="preserve">
+    <value>புதிய கடவுக்குறியீட்டை உறுதிசெய் </value>
+  </data>
+  <data name="SetPasscodeDialog_NewPasscode.Text" xml:space="preserve">
+    <value>புதிய கடவுக்குறியீடு</value>
+  </data>
+  <data name="SetPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>கடவுக்குறியீட்டை அமை</value>
+  </data>
+  <data name="Settings_About.Text" xml:space="preserve">
+    <value>இந்த பயன்பாடு பற்றி</value>
+  </data>
+  <data name="Settings_AboutDescription.Text" xml:space="preserve">
+    <value>அமைப்புகள் பக்கம் ஒதுக்கிட உரை.  உங்கள் பயன்பாட்டு விளக்கம் இங்கே செல்கிறது.</value>
+  </data>
+  <data name="Settings_Personalization.Text" xml:space="preserve">
+    <value>தன்மயப்படுத்துதல்</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.Content" xml:space="preserve">
+    <value>தனியுரிமை அறிக்கை</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.NavigateUri" xml:space="preserve">
+    <value>https://YourPrivacyUrlGoesHere/</value>
+  </data>
+  <data name="Settings_Theme_Dark.Content" xml:space="preserve">
+    <value>இருள்</value>
+  </data>
+  <data name="Settings_Theme_Default.Content" xml:space="preserve">
+    <value>Windows இயல்புநிலை</value>
+  </data>
+  <data name="Settings_Theme_Light.Content" xml:space="preserve">
+    <value>ஒளி</value>
+  </data>
+  <data name="Settings_Theme.Text" xml:space="preserve">
+    <value>கருப்பொருளை தேர்ந்தெடு</value>
+  </data>
+  <data name="Settings_Title.Text" xml:space="preserve">
+    <value>அமைப்புகள்</value>
+  </data>
+  <data name="SettingsPage_Devices" xml:space="preserve">
+    <value>சாதனங்கள்</value>
+  </data>
+  <data name="SettingsPage_Language" xml:space="preserve">
+    <value>மொழி</value>
+  </data>
+  <data name="SettingsPage_Profile" xml:space="preserve">
+    <value>பக்கத்தோற்ற வடிவம்</value>
+  </data>
+  <data name="SettingsPage_Questions" xml:space="preserve">
+    <value>கேள்விகள்</value>
+  </data>
+  <data name="SettingsPage_Title" xml:space="preserve">
+    <value>அமைப்புகள்</value>
+  </data>
+  <data name="ShellView_Help" xml:space="preserve">
+    <value>உதவி</value>
+  </data>
+  <data name="ShellView_History" xml:space="preserve">
+    <value>வரலாறு</value>
+  </data>
+  <data name="ShellView_Home" xml:space="preserve">
+    <value>வீடு</value>
+  </data>
+  <data name="ShellView_Settings.Text" xml:space="preserve">
+    <value>அமைப்புகள்</value>
+  </data>
+  <data name="Sign_In.Text" xml:space="preserve">
+    <value>உள்நுழைக</value>
+  </data>
+  <data name="SignInDialog_Description.Text" xml:space="preserve">
+    <value>உடனடியாக உங்கள் ஜாப்ரா சாதனத்துடன் பல உலகளாவிய மொழிகளில் தொடர்பு கொள்ளுங்கள்.</value>
+  </data>
+  <data name="SignInDialog_SignInButton.Content" xml:space="preserve">
+    <value>உள்நுழைக</value>
+  </data>
+  <data name="Translate_Button.Text" xml:space="preserve">
+    <value>மொழிபெயர்க்க</value>
+  </data>
+  <data name="TranslationPage_EndSession.Text" xml:space="preserve">
+    <value>அமர்வை முடி</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOn" xml:space="preserve">
+    <value>ஒலிவாங்கி இயக்கு</value>
+  </data>
+  <data name="TranslationPage_SpeakerOn" xml:space="preserve">
+    <value>சபாநாயகர் ஆன்</value>
+  </data>
+  <data name="TranslationPage_SpeakNow.Text" xml:space="preserve">
+    <value>இப்போதே பேசுங்கள்</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>குறித்து</value>
+  </data>
+  <data name="AboutPage_AppVersion.Text" xml:space="preserve">
+    <value>பயன்பாட்டு பதிப்பு</value>
+  </data>
+  <data name="AboutPage_CheckUpdate.Content" xml:space="preserve">
+    <value>புதுப்பித்தல்களுக்காக சரிபார்</value>
+  </data>
+  <data name="AboutPage_DataConsent" xml:space="preserve">
+    <value>உங்கள் தரவை கிளவுடில் சேமிக்க உங்கள் நிறுவனம் ஒப்புதல் அளித்துள்ளது.</value>
+  </data>
+  <data name="AboutPage_NoDataConsent" xml:space="preserve">
+    <value>உங்கள் தரவை கிளவுடில் சேமிக்க உங்கள் நிறுவனம் ஒப்புதல் அளிக்கவில்லை.</value>
+  </data>
+  <data name="AboutPage_Published.Text" xml:space="preserve">
+    <value>FITTS Limited ஆல் வெளியிடப்பட்டது.</value>
+  </data>
+  <data name="AppClose_Close.Content" xml:space="preserve">
+    <value>எப்படியும் மூடு</value>
+  </data>
+  <data name="AppClose_Dismiss.Content" xml:space="preserve">
+    <value>ரத்து</value>
+  </data>
+  <data name="AppClose_Warning.Text" xml:space="preserve">
+    <value>உங்களிடம் ஒரு அமர்வு செயலில் உள்ளது. பயன்பாட்டிலிருந்து வெளியேறும் முன் தயவுசெய்து அமர்வை முடிக்கவும்.</value>
+  </data>
+  <data name="AppVersion.Text" xml:space="preserve">
+    <value>பயன்பாட்டு பதிப்பு</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Button.Content" xml:space="preserve">
+    <value>அமர்வைத் தொடரவும்</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Description.Text" xml:space="preserve">
+    <value>அமர்வு இதில் முடிவடையும்</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Title.Text" xml:space="preserve">
+    <value>ஆடியோ கண்டறியப்படவில்லை</value>
+  </data>
+  <data name="AudioPlayer_Error.Text" xml:space="preserve">
+    <value>ஆடியோவை ஏற்றுவது தோல்வியுற்றது</value>
+  </data>
+  <data name="DashboardPage_DefaultLanguageError" xml:space="preserve">
+    <value>உங்களிடம் இயல்புநிலை மொழிபெயர்ப்பு மொழி சேமிக்கப்படவில்லை. இயல்புநிலை மொழிபெயர்ப்பு மொழியைத் தேர்ந்தெடுக்க அமைப்புகள் -&gt; மொழிகள் என்பதற்குச் சென்று சேமி என்பதைக் கிளிக் செய்யவும்.</value>
+  </data>
+  <data name="DashboardPage_TargetLanguageError" xml:space="preserve">
+    <value>இலக்கு மொழிபெயர்ப்பு மொழியை நீங்கள் தேர்ந்தெடுக்கவில்லை. தயவுசெய்து ஒரு மொழியைத் தேர்ந்தெடுத்து, மொழிபெயர் என்பதைக் கிளிக் செய்க.</value>
+  </data>
+  <data name="DevicesErrorDialog_DualDeviceError" xml:space="preserve">
+    <value>நீங்கள் இரட்டை சாதன மொழிபெயர்ப்பைத் தேர்ந்தெடுத்துள்ளீர்கள், ஆனால் நபர் 2 க்கு தேர்ந்தெடுக்கப்பட்ட சாதனம்(கள்) உங்களிடம் இல்லை. மைக்ரோஃபோன் மற்றும் ஸ்பீக்கரைத் தேர்ந்தெடுக்க அமைப்புகள் -&gt; சாதனங்களுக்குச் சென்று சேமி என்பதைக் கிளிக் செய்யவும்.</value>
+  </data>
+  <data name="DevicesPage_Title.Text" xml:space="preserve">
+    <value>சாதனங்கள்</value>
+  </data>
+  <data name="DevicesPage_Wifi_Password.Text" xml:space="preserve">
+    <value>கடவுச்சொல்லை உள்ளிடவும்</value>
+  </data>
+  <data name="DevicesPage_WifiStatus.Text" xml:space="preserve">
+    <value>வைஃபை நிலை</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>பதிப்பி</value>
+  </data>
+  <data name="Expiry.Text" xml:space="preserve">
+    <value>காலஅவதி</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>பின்னூட்டம்</value>
+  </data>
+  <data name="FeedbackMessage.Text" xml:space="preserve">
+    <value>உங்களிடம் ஏதேனும் பின்னூட்டம் அல்லது கேள்விகள் இருந்தால் தொடர்பு கொள்ள தயங்க வேண்டாம்.</value>
+  </data>
+  <data name="GetInTouchButton.Text" xml:space="preserve">
+    <value>தொடர்பு கொள்ளுங்கள்</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>உதவி</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>வரலாறு</value>
+  </data>
+  <data name="History_ExportBtn.Text" xml:space="preserve">
+    <value>ஏற்றுமதிப்பண்டம்</value>
+  </data>
+  <data name="HistoryExportButtonTooltip.Text" xml:space="preserve">
+    <value>ஏற்றுமதிப்பண்டம்</value>
+  </data>
+  <data name="HistoryListColumnDate.Text" xml:space="preserve">
+    <value>பேரீச்ச மரம்</value>
+  </data>
+  <data name="HistoryListColumnDuration.Text" xml:space="preserve">
+    <value>காலத்தொடர்ச்சி</value>
+  </data>
+  <data name="HistoryListColumnPrimaryLanguage.Text" xml:space="preserve">
+    <value>முதன்மை மொழி</value>
+  </data>
+  <data name="HistoryListColumnSecondaryLanguage.Text" xml:space="preserve">
+    <value>இரண்டாம் நிலை மொழி</value>
+  </data>
+  <data name="HistoryListColumnSessionId.Text" xml:space="preserve">
+    <value>அமர்வு ID</value>
+  </data>
+  <data name="InitalSetup_SkipSetup.Content" xml:space="preserve">
+    <value>அமைவைத் தவிர்</value>
+  </data>
+  <data name="InitialNetworkPopupConnectButton.Content" xml:space="preserve">
+    <value>இணை</value>
+  </data>
+  <data name="InitialSetup_DeviceSelection.Text" xml:space="preserve">
+    <value>சாதன தேர்வு</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionDescription.Text" xml:space="preserve">
+    <value>உங்கள் இயல்புநிலை ஆடியோ சாதனத்தை அமைக்கவும்</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneMicrophone.Text" xml:space="preserve">
+    <value>மைக்ரோஃபோன் தேர்ந்தெடு</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneSpeaker.Text" xml:space="preserve">
+    <value>சபாநாயகரை தேர்ந்தெடு</value>
+  </data>
+  <data name="InitialSetup_FinishSetup.Content" xml:space="preserve">
+    <value>அமைவை முடி</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection_Description.Text" xml:space="preserve">
+    <value>உங்கள் இயல்புநிலை மொழிபெயர்ப்பு மொழியை அமைக்கவும்</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection.Text" xml:space="preserve">
+    <value>மொழி தேர்வு</value>
+  </data>
+  <data name="InitialSetup_NetworkSelection.Text" xml:space="preserve">
+    <value>விருப்பமான பிணையம்</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopup.Text" xml:space="preserve">
+    <value>பிணையத்துடன் இணை</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopupPassword.Text" xml:space="preserve">
+    <value>கடவுச்சொல்லை உள்ளிடவும்:</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionDescription.Text" xml:space="preserve">
+    <value>கிடைக்கப்பெறும் பிணையங்களில் ஒன்றிலிருந்து தேர்ந்தெடு</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionNoInternetConnection.Text" xml:space="preserve">
+    <value>நீங்கள் இணையத்துடன் இணைக்கப்படவில்லை. உங்கள் பிணைய இணைப்புகளை சரிபார்க்கவும்.</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionOtherNetworks.Text" xml:space="preserve">
+    <value>மற்ற நெட்வொர்க்குகள்</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup_Description.Text" xml:space="preserve">
+    <value>உங்கள் பயன்பாட்டு கடவுக்குறியீட்டை அமைக்கவும்</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup.Text" xml:space="preserve">
+    <value>கடவுக்குறியீடு அமைவு</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>மொழி</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage_Description.Text" xml:space="preserve">
+    <value>பயன்பாட்டு மொழியைத் தேர்ந்தெடு</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage.Text" xml:space="preserve">
+    <value>பயன்பாட்டு மொழி</value>
+  </data>
+  <data name="LanguagesPage_AppLanguageDropdown.PlaceholderText" xml:space="preserve">
+    <value>ஒரு மொழியை தேர்ந்தெடு</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage_Description.Text" xml:space="preserve">
+    <value>நீங்கள் பயன்படுத்தும் இயல்புநிலை மொழி</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage.Text" xml:space="preserve">
+    <value>எனது இயல்புநிலை மொழி</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguageDropDown.PlaceholderText" xml:space="preserve">
+    <value>ஒரு மொழியை தேர்ந்தெடு</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description.Text" xml:space="preserve">
+    <value>வரலாறு பிரிவு (பல சாதன மொழிபெயர்ப்புகளுக்கு)</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description1.Text" xml:space="preserve">
+    <value>* ஒற்றை சாதன மொழிபெயர்ப்புகள் இயல்புநிலையாக அனைத்து ஆடியோவையும் இயக்குகின்றன *</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage.Text" xml:space="preserve">
+    <value>இயல்புநிலை மறுஇயக்க மொழி</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguages.Text" xml:space="preserve">
+    <value>விரைவு காட்சி மொழிகள்</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguagesDropdown.PlaceholderText" xml:space="preserve">
+    <value>ஒரு மொழியைச் சேர்</value>
+  </data>
+  <data name="LanguagesPage_Title.Text" xml:space="preserve">
+    <value>மொழிகளை</value>
+  </data>
+  <data name="Licence" xml:space="preserve">
+    <value>விடை</value>
+  </data>
+  <data name="LicenseType.Text" xml:space="preserve">
+    <value>உரிம வகை:</value>
+  </data>
+  <data name="NetworkConnectionError" xml:space="preserve">
+    <value>தவறு:</value>
+  </data>
+  <data name="Next.Content" xml:space="preserve">
+    <value>அடுத்தவர்</value>
+  </data>
+  <data name="PasscodeError_MinimumLength" xml:space="preserve">
+    <value>கடவுக்குறியீட்டின் குறைந்தபட்ச நீளம் 4 ஆக இருக்க வேண்டும்.</value>
+  </data>
+  <data name="PasscodeError_NotMatching" xml:space="preserve">
+    <value>உள்ளிட்ட கடவுக்குறியீடுகள் பொருந்தவில்லை. கடவுக்குறியீடுகளை மீண்டும் உள்ளிடவும், பின்னர் மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="Person.Text" xml:space="preserve">
+    <value>தனியொரு மனிதர்</value>
+  </data>
+  <data name="PrivacyPolicy.Text" xml:space="preserve">
+    <value>தனியுரிமைக் கொள்கை</value>
+  </data>
+  <data name="ProfilePage_Email_Description.Text" xml:space="preserve">
+    <value>இயல்புநிலை ஏற்றுமதி மின்னஞ்சல்</value>
+  </data>
+  <data name="ProfilePage_Email.Text" xml:space="preserve">
+    <value>மின்னஞ்சல்</value>
+  </data>
+  <data name="ProfilePage_Passcode_Description.Text" xml:space="preserve">
+    <value>உங்கள் பயன்பாட்டு கடவுக்குறியீடு</value>
+  </data>
+  <data name="ProfilePage_Passcode.Text" xml:space="preserve">
+    <value>கடவுக்குறியீடு</value>
+  </data>
+  <data name="ProfilePage_Timeout_Description.Text" xml:space="preserve">
+    <value>நிர்வாக பயன்முறை பூட்டின் அதிர்வெண்</value>
+  </data>
+  <data name="ProfilePage_Timeout.Text" xml:space="preserve">
+    <value>நிர்வாக பயன்முறை நேரம் முடிந்தது</value>
+  </data>
+  <data name="ProfilePage_TimeoutDropdown.PlaceholderText" xml:space="preserve">
+    <value>ஒரு நேரத்தை தேர்ந்தெடுங்கள்</value>
+  </data>
+  <data name="ProfilePage_Title.Text" xml:space="preserve">
+    <value>பக்கத்தோற்ற வடிவம்</value>
+  </data>
+  <data name="PublishedBy.Text" xml:space="preserve">
+    <value>பதிப்பகம்</value>
+  </data>
+  <data name="ReleaseNotesMessage.Text" xml:space="preserve">
+    <value>வெளியீட்டுக் குறிப்புகள் விரைவில் புதுப்பிக்கப்படும்</value>
+  </data>
+  <data name="Save_Text" xml:space="preserve">
+    <value>கெலிப்புத்தடங்கல்</value>
+  </data>
+  <data name="SessionDetailsPage_Description.Text" xml:space="preserve">
+    <value>டிரான்ஸ்கிரிப்ஷன் வரலாறு</value>
+  </data>
+  <data name="SessionDetailsPage_Duration.Text" xml:space="preserve">
+    <value>காலத்தொடர்ச்சி</value>
+  </data>
+  <data name="SessionDetailsPage_SessionID.Text" xml:space="preserve">
+    <value>அமர்வு ID</value>
+  </data>
+  <data name="SessionDetailsPage_Title.Text" xml:space="preserve">
+    <value>வரலாறு</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>அமைப்புகள்</value>
+  </data>
+  <data name="TermsOfUse.Text" xml:space="preserve">
+    <value>பயன்பாட்டு விதிமுறைகள்</value>
+  </data>
+  <data name="TranslationPage_SettingUpState" xml:space="preserve">
+    <value>அமைக்கிறது ...</value>
+  </data>
+  <data name="TranslationPage_SpeakFast" xml:space="preserve">
+    <value>சிறந்த மொழிபெயர்ப்பு முடிவுகளுக்கு ஒரு பிட் வேகமாக பேச முயற்சிக்கவும்.</value>
+  </data>
+  <data name="TranslationPage_SpeakIn" xml:space="preserve">
+    <value>இதில் பேசு</value>
+  </data>
+  <data name="TranslationPage_SpeakSlow" xml:space="preserve">
+    <value>சிறந்த மொழிபெயர்ப்பு முடிவுகளுக்கு ஒரு பிட் மெதுவாக பேச முயற்சிக்கவும்.</value>
+  </data>
+  <data name="TranslationPage_Switching" xml:space="preserve">
+    <value>மாறுதல்</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonOne" xml:space="preserve">
+    <value>நபர் 1 க்கு மாறவும்</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonTwo" xml:space="preserve">
+    <value>நபர் 2 க்கு மாறவும்</value>
+  </data>
+  <data name="TranslationPage_TranslationReadyState" xml:space="preserve">
+    <value>இப்போது பேசுங்கள்</value>
+  </data>
+  <data name="Website.Text" xml:space="preserve">
+    <value>வலைத்தளம்</value>
+  </data>
+  <data name="WhatsNew" xml:space="preserve">
+    <value>புதிது என்ன</value>
+  </data>
+  <data name="WhatsNewInSpeechly.Text" xml:space="preserve">
+    <value>இதில் புதியது என்ன</value>
+  </data>
+  <data name="AudioDevicesSelectorDualDevice.Content" xml:space="preserve">
+    <value>இரட்டை சாதனம்</value>
+  </data>
+  <data name="AudioDevicesSelectorSingleDevice.Content" xml:space="preserve">
+    <value>ஒற்றை சாதனம்</value>
+  </data>
+  <data name="AutoDetectSearchCountry.PlaceholderText" xml:space="preserve">
+    <value>நாட்டைத் தேடு</value>
+  </data>
+  <data name="AutoDetectSelectLanguage.Text" xml:space="preserve">
+    <value>உங்கள் மொழியைத் தேர்ந்தெடுக்கவும்</value>
+  </data>
+  <data name="ChatViewPersonOne" xml:space="preserve">
+    <value>நபர் ஒருவர்</value>
+  </data>
+  <data name="ChatViewPersonTwo" xml:space="preserve">
+    <value>நபர் இரண்டு</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionLost" xml:space="preserve">
+    <value>இணைய இணைப்பு இழந்தது. தயவுசெய்து உங்கள் இணைப்பை சரிபார்த்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionUnstable" xml:space="preserve">
+    <value>உங்கள் இணைய இணைப்பு மெதுவாக உள்ளது. நீங்கள் சில பின்னடைவுகளை அனுபவிக்கலாம்.</value>
+  </data>
+  <data name="CustomTagSelectionTitle.Text" xml:space="preserve">
+    <value>நிறுவன குறிச்சொற்கள் (சேர்க்க தேர்ந்தெடுக்கவும்)</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.Header" xml:space="preserve">
+    <value>மொழியை மாற்ற பயனர் கொடி</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OffContent" xml:space="preserve">
+    <value>முடக்கப்பட்டுள்ளது</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OnContent" xml:space="preserve">
+    <value>இயக்கப்பட்ட</value>
+  </data>
+  <data name="DetectLanguageButton.Content" xml:space="preserve">
+    <value>மொழியைக் கண்டுபிடி</value>
+  </data>
+  <data name="DevicesPageNetworkSetupBluetoothStatus.Text" xml:space="preserve">
+    <value>புளூடூத் நிலை :</value>
+  </data>
+  <data name="DevicesPageNetworkSetupConnectAutomatically.Text" xml:space="preserve">
+    <value>தானாக இணை</value>
+  </data>
+  <data name="DevicesPageNetworkSetupWiFiStatus.Text" xml:space="preserve">
+    <value>WiFi நிலை :</value>
+  </data>
+  <data name="Dimiss.Content" xml:space="preserve">
+    <value>ரத்து</value>
+  </data>
+  <data name="Duration.Text" xml:space="preserve">
+    <value>|  காலத்தொடர்ச்சி</value>
+  </data>
+  <data name="EmailPopup_Description.Text" xml:space="preserve">
+    <value>உங்கள் மின்னஞ்சல் முகவரியை உள்ளிடவும்</value>
+  </data>
+  <data name="EmailPopup_Title.Text" xml:space="preserve">
+    <value>உங்கள் அமர்வுக்கு மின்னஞ்சல் அனுப்பவும்</value>
+  </data>
+  <data name="ForcedUpdateDialogCaption" xml:space="preserve">
+    <value>இதற்கான முக்கியமான புதுப்பிப்புகள் எங்களிடம் உள்ளன</value>
+  </data>
+  <data name="ForcedUpdateDialogInstallBtnText" xml:space="preserve">
+    <value>புதுப்பி</value>
+  </data>
+  <data name="ForcedUpdateDialogTitle" xml:space="preserve">
+    <value>முக்கியமான புதுப்பிப்புகள்</value>
+  </data>
+  <data name="GoBack.Content" xml:space="preserve">
+    <value>பின் செல்</value>
+  </data>
+  <data name="HelpPageSignOut.Content" xml:space="preserve">
+    <value>வெளியேறு</value>
+  </data>
+  <data name="History_Export.Text" xml:space="preserve">
+    <value>கோப்பை உருவாக்குகிறது...</value>
+  </data>
+  <data name="HistoryListColumnSessionName.Text" xml:space="preserve">
+    <value>பெயர்</value>
+  </data>
+  <data name="HistoryListColumnSynced.Text" xml:space="preserve">
+    <value>ஒத்திசைக்கப்பட்டது</value>
+  </data>
+  <data name="HistorySearchBox.PlaceholderText" xml:space="preserve">
+    <value>மொழி, அமர்வு பெயர், குறிச்சொற்கள் அல்லது IDகள்</value>
+  </data>
+  <data name="HistorySearchButtonTooltip.Text" xml:space="preserve">
+    <value>தேட்டம்</value>
+  </data>
+  <data name="HistorySearchClearButtonTooltip.Text" xml:space="preserve">
+    <value>தெளிந்த</value>
+  </data>
+  <data name="HistorySearchFromDate.Header" xml:space="preserve">
+    <value>இருந்து:</value>
+  </data>
+  <data name="HistorySearchToDate.Header" xml:space="preserve">
+    <value>நோக்கி:</value>
+  </data>
+  <data name="HistoryShareButtonTooltip.Text" xml:space="preserve">
+    <value>பகிர்/அனுப்பு</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonOne.Text" xml:space="preserve">
+    <value>நபர் 1</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonTwo.Text" xml:space="preserve">
+    <value>நபர் 2</value>
+  </data>
+  <data name="LoginPageTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NewVersionDialogCaption" xml:space="preserve">
+    <value>இதன் புதிய பயன்பாட்டுப் பதிப்பை நிறுவவும்</value>
+  </data>
+  <data name="NewVersionDialogDescription" xml:space="preserve">
+    <value>புதிய அம்சங்கள் மற்றும் பிழைத்திருத்தங்கள் இதில் இருந்து காணாமல் போகும் </value>
+  </data>
+  <data name="NewVersionDialogInstallBtnText" xml:space="preserve">
+    <value>புதிய பதிப்பை நிறுவு</value>
+  </data>
+  <data name="NewVersionDialogTitle" xml:space="preserve">
+    <value>புதிய பயன்பாட்டு பதிப்பு</value>
+  </data>
+  <data name="NextText" xml:space="preserve">
+    <value>அடுத்தவர்</value>
+  </data>
+  <data name="ProfilePageEditButton.Content" xml:space="preserve">
+    <value>பதிப்பி</value>
+  </data>
+  <data name="QuestionsButton.Content" xml:space="preserve">
+    <value>கேள்விகளைப் பார்க்கவும்</value>
+  </data>
+  <data name="QuestionSettingsDescription.Text" xml:space="preserve">
+    <value>உங்கள் கேள்வி குறுக்குவழிகளைக் காணவும் அல்லது மாற்றவும்</value>
+  </data>
+  <data name="QuestionSettingsInstructionOne.Text" xml:space="preserve">
+    <value>* ஒவ்வொரு கேள்விக்கும் 1-9 என்ற எண்களைப் பயன்படுத்தவும். பூஜ்யம் (0) கருதப்படாது.</value>
+  </data>
+  <data name="QuestionSettingsInstructionThree.Text" xml:space="preserve">
+    <value>* நீங்கள் 9 கேள்விகளுக்கு குறுக்குவழிகளை மட்டுமே ஒதுக்க முடியும்.</value>
+  </data>
+  <data name="QuestionSettingsListTitle.Text" xml:space="preserve">
+    <value>கேள்விகள் பட்டியல் :</value>
+  </data>
+  <data name="ResellerEmailAddress.Text" xml:space="preserve">
+    <value>மறுவிற்பனையாளர் மின்னஞ்சல் முகவரி :</value>
+  </data>
+  <data name="ResellerName.Text" xml:space="preserve">
+    <value>மறுவிற்பனையாளர் பெயர் :</value>
+  </data>
+  <data name="SelectFlag.Text" xml:space="preserve">
+    <value>உங்கள் கொடியை தேர்ந்தெடு:</value>
+  </data>
+  <data name="Send.Content" xml:space="preserve">
+    <value>அனுப்பு</value>
+  </data>
+  <data name="SessionDetailsPage_SessionName.Text" xml:space="preserve">
+    <value>அமர்வு பெயர்</value>
+  </data>
+  <data name="SessionID.Text" xml:space="preserve">
+    <value>அமர்வு ID :-</value>
+  </data>
+  <data name="SessionMetadataDialog_ContinueButton.Text" xml:space="preserve">
+    <value>தொடர்</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTags.Text" xml:space="preserve">
+    <value>தனிப்பயன் குறிக்குழு(கள்)</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>குறிக்குழு பெயரை இங்கே உள்ளிடவும்</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextboxHelper.Text" xml:space="preserve">
+    <value>Enter அழுத்தவும்</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTags.Text" xml:space="preserve">
+    <value>இயல்புநிலை குறிக்குழு(கள்)</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>மதிப்பை இங்கே உள்ளிடவும்</value>
+  </data>
+  <data name="SessionMetadataDialog_Description.Text" xml:space="preserve">
+    <value>கட்டாய புலங்கள் ' உடன் குறிக்கப்பட்டுள்ளன</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionName.Text" xml:space="preserve">
+    <value>அமர்வு பெயர்</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionNameTextbox.PlaceholderText" xml:space="preserve">
+    <value>எ.கா. நோயாளி பூஜ்ஜியம்</value>
+  </data>
+  <data name="SessionMetadataDialog_Title.Text" xml:space="preserve">
+    <value>அமர்வு பெயர் மற்றும் குறிச்சொற்களை சேர்</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorActionMessage" xml:space="preserve">
+    <value>உங்கள் கணக்கைச் செயற்படுத்த உங்கள் நிர்வாகியைத் தொடர்பு கொள்ளவும்.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorMessage" xml:space="preserve">
+    <value>உங்கள் கணக்கு செயலிழக்கச் செய்யப்பட்டுள்ளது.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorActionMessage" xml:space="preserve">
+    <value>உங்கள் கணக்கை உருவாக்க உங்கள் நிர்வாகியைத் தொடர்பு கொள்ளவும்.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorMessage" xml:space="preserve">
+    <value>உங்கள் கணக்கு நீக்கப்பட்டது.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorActionMessage" xml:space="preserve">
+    <value>உங்கள் கணக்கை இயக்க உங்கள் நிர்வாகியைத் தொடர்பு கொள்ளவும்.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorMessage" xml:space="preserve">
+    <value>உங்கள் கணக்கு முடக்கப்பட்டுள்ளது.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorActionMessage" xml:space="preserve">
+    <value>உங்கள் கணக்கை உருவாக்க உங்கள் நிர்வாகியைத் தொடர்பு கொள்ளவும்.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorMessage" xml:space="preserve">
+    <value>உங்களிடம் செயலில் உள்ள கணக்கு இல்லை.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorActionMessage" xml:space="preserve">
+    <value>உங்கள் உரிமத்தைப் புதுப்பிக்க உங்கள் நிர்வாகியைத் தொடர்பு கொள்ளவும்.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorMessage" xml:space="preserve">
+    <value>உங்கள் உரிமம் காலாவதியாகிவிட்டது.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorActionMessage" xml:space="preserve">
+    <value>உங்கள் உரிமத்தை செயல்படுத்த உங்கள் நிர்வாகியைத் தொடர்பு கொள்ளவும்.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorMessage" xml:space="preserve">
+    <value>உங்கள் உரிமம் செயலிழக்கச் செய்யப்பட்டுள்ளது.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorActionMessage" xml:space="preserve">
+    <value>தயவுசெய்து உங்கள் நிர்வாகியைத் தொடர்பு கொள்ளவும்.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorMessage" xml:space="preserve">
+    <value>உங்கள் உரிமம் இடைநிறுத்தப்பட்டுள்ளது.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorActionMessage" xml:space="preserve">
+    <value>உங்களுக்கு உரிமத்தை ஒதுக்க உங்கள் நிர்வாகியைத் தொடர்பு கொள்ளவும்.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorMessage" xml:space="preserve">
+    <value>உங்களுக்கு ஒதுக்கப்பட்ட உரிமம் உங்களிடம் இல்லை.</value>
+  </data>
+  <data name="StartupPage2020.Text" xml:space="preserve">
+    <value>2021 </value>
+  </data>
+  <data name="StartupPageErrorDescription.Text" xml:space="preserve">
+    <value>ஒரு பிழை ஏற்பட்டது. தயவுசெய்து உங்கள் இணைய இணைப்பை சரிபார்த்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="StartupPagePoweredBy.Text" xml:space="preserve">
+    <value>இதனால் இயங்குகிறது </value>
+  </data>
+  <data name="StartupPageProgressDescription.Text" xml:space="preserve">
+    <value>இதற்கு சில விநாடிகள் ஆகலாம்</value>
+  </data>
+  <data name="StartupPageRetryButton.Content" xml:space="preserve">
+    <value>மறுமுயற்சி</value>
+  </data>
+  <data name="StartupPageRightsReserved.Text" xml:space="preserve">
+    <value>அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.</value>
+  </data>
+  <data name="StartUpPageSettingUpMessage" xml:space="preserve">
+    <value>அமைக்கிறது...</value>
+  </data>
+  <data name="StartupPageTitleDescription.Text" xml:space="preserve">
+    <value>இதற்கு வரவேற்கிறோம் </value>
+  </data>
+  <data name="TranslateText" xml:space="preserve">
+    <value>மொழிபெயர்க்க</value>
+  </data>
+  <data name="TranslationLicenceUseError" xml:space="preserve">
+    <value>உங்கள் உரிமம் தற்போது மற்றொரு அமர்வில் பயன்பாட்டில் உள்ளது.</value>
+  </data>
+  <data name="TranslationLimitReachedError" xml:space="preserve">
+    <value>ஒரு அமர்வுக்கு உங்கள் அதிகபட்ச நேர வரம்பை நீங்கள் அடைந்துவிட்டீர்கள். அமர்வை முடிக்கிறது.</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOff" xml:space="preserve">
+    <value>மைக்ரோஃபோன் அணை</value>
+  </data>
+  <data name="TranslationPage_SpeakerOff" xml:space="preserve">
+    <value>சபாநாயகர் ஆஃப்</value>
+  </data>
+  <data name="TranslationTimeDepletedError" xml:space="preserve">
+    <value>உங்கள் மொழிபெயர்ப்பு நிமிடங்கள் குறைந்துவிட்டன. தயவுசெய்து உங்கள் நிர்வாகியைத் தொடர்பு கொள்ளவும்.</value>
+  </data>
+  <data name="UnsupportedVersionDialogBtntext" xml:space="preserve">
+    <value>புதுப்பி</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption" xml:space="preserve">
+    <value>முக்கியமான புதுப்பிப்புகள் பின்வருவனவற்றுக்குத் தேவைப்படுகின்றன </value>
+  </data>
+  <data name="UnsupportedVersionDialogDescription" xml:space="preserve">
+    <value>அம்சம் மற்றும் பாதுகாப்பு புதுப்பிப்புகளைத் தொடர்ந்து பெற உங்கள் பயன்பாட்டைப் புதுப்பிக்கவும்.</value>
+  </data>
+  <data name="UnsupportedVersionDialogTitle" xml:space="preserve">
+    <value>ஆதரிக்கப்படாத பயன்பாட்டு பதிப்பு</value>
+  </data>
+  <data name="UpdateDialogWhatsNew.Text" xml:space="preserve">
+    <value>புதிது என்ன?</value>
+  </data>
+  <data name="Zoom.Text" xml:space="preserve">
+    <value>பெரிதாக்கு</value>
+  </data>
+  <data name="Add.Content" xml:space="preserve">
+    <value>சேர்</value>
+  </data>
+  <data name="AddNewQuestion.Text" xml:space="preserve">
+    <value>முன்-வரையறுக்கப்பட்ட புதிய கேள்வியை சேர்</value>
+  </data>
+  <data name="AddQuestion.Content" xml:space="preserve">
+    <value>கேள்வியை சேர்</value>
+  </data>
+  <data name="ChooseLanguage.Text" xml:space="preserve">
+    <value>இயல்புநிலை மொழியை தேர்ந்தெடு</value>
+  </data>
+  <data name="CustomProfileAdded" xml:space="preserve">
+    <value>சுயவிவரப் பெயர் வெற்றிகரமாக சேர்க்கப்பட்டது.</value>
+  </data>
+  <data name="CustomProfileDeleted" xml:space="preserve">
+    <value>சுயவிவரம் வெற்றிகரமாக நீக்கப்பட்டது.</value>
+  </data>
+  <data name="CustomProfileInvalidName" xml:space="preserve">
+    <value>தவறு! செல்லுபடியாகாத சுயவிவரப் பெயர்.</value>
+  </data>
+  <data name="CustomProfileNotDeleted" xml:space="preserve">
+    <value>நீக்குவதற்கு சுயவிவரம் இல்லை.</value>
+  </data>
+  <data name="CustomProfileNotSaved" xml:space="preserve">
+    <value>தவறு! சுயவிவரம் எதுவும் சேமிக்கப்படவில்லை.</value>
+  </data>
+  <data name="CustomProfileProfileSaved" xml:space="preserve">
+    <value>சுயவிவரம் வெற்றிகரமாக சேமிக்கப்பட்டது.</value>
+  </data>
+  <data name="DataRequestMessage" xml:space="preserve">
+    <value>நீங்கள் எந்த உரையையும் தேர்ந்தெடுக்கவில்லை. பகிர உரையைத் தேர்ந்தெடுத்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="DevicesAddProfileButton.Content" xml:space="preserve">
+    <value>சேர்</value>
+  </data>
+  <data name="DevicesAvailableProfiles.Text" xml:space="preserve">
+    <value>கிடைக்கப்பெறும் சுயவிவரங்கள்</value>
+  </data>
+  <data name="DevicesDefaultProfile.Text" xml:space="preserve">
+    <value>இயல்புநிலை சுயவிவரம்:</value>
+  </data>
+  <data name="DevicesDeleteProfileBtn.Content" xml:space="preserve">
+    <value>சுயவிவரத்தை நீக்கு</value>
+  </data>
+  <data name="DeviceSetupChanged" xml:space="preserve">
+    <value>இணைக்கப்பட்ட ஆடியோ சாதனங்கள் புதுப்பிக்கப்பட்டன </value>
+  </data>
+  <data name="DevicesHelpfulTip1.Text" xml:space="preserve">
+    <value>1. ஒரு சுயவிவர பெயரை அமைக்கவும்</value>
+  </data>
+  <data name="DevicesHelpfulTip2.Text" xml:space="preserve">
+    <value>2. ஒற்றை அல்லது இரட்டை சாதன முறைகளை தேர்ந்தெடுக்கவும்</value>
+  </data>
+  <data name="DevicesHelpfulTip3.Text" xml:space="preserve">
+    <value>3. ஸ்பீக்கர்(கள்) மற்றும் மைக்ரோஃபோன்(கள்) ஆகியவற்றைத் தேர்ந்தெடுக்கவும்</value>
+  </data>
+  <data name="DevicesHelpfulTip4.Text" xml:space="preserve">
+    <value>4. இயல்புநிலையாக உங்கள் சுயவிவரத்தை அமைக்கவும்</value>
+  </data>
+  <data name="DevicesHelpfulTip5.Text" xml:space="preserve">
+    <value>5. உங்கள் சுயவிவரத்தைச் சேமிக்க சுயவிவரத்தைச் சேமி பொத்தானைக் கிளிக் செய்க</value>
+  </data>
+  <data name="DevicesHelpfulTips.Text" xml:space="preserve">
+    <value>பயனுள்ள உதவிக்குறிப்புகள்</value>
+  </data>
+  <data name="DevicesProfileNameTextBox.PlaceholderText" xml:space="preserve">
+    <value>சுயவிவரப் பெயர்...</value>
+  </data>
+  <data name="DevicesSaveProfileBtn.Content" xml:space="preserve">
+    <value>சுயவிவரத்தை சேமி</value>
+  </data>
+  <data name="DevicesSetasDefault.Text" xml:space="preserve">
+    <value>இயல்புநிலையாக அமை</value>
+  </data>
+  <data name="DevicesSetProfileButton.Content" xml:space="preserve">
+    <value>சுயவிவரத்தை அமை</value>
+  </data>
+  <data name="DevicesSetProfileText.Text" xml:space="preserve">
+    <value>தனிப்பயன் சுயவிவரத்தை அமைக்கவா?</value>
+  </data>
+  <data name="DiscardButton.Content" xml:space="preserve">
+    <value>சீட்டுக்கழிப்பு</value>
+  </data>
+  <data name="DismissButton.Content" xml:space="preserve">
+    <value>நீக்க</value>
+  </data>
+  <data name="DismissText.Text" xml:space="preserve">
+    <value>நீக்க</value>
+  </data>
+  <data name="DownloadAudio.Text" xml:space="preserve">
+    <value>ஆடியோ பதிவிறக்க</value>
+  </data>
+  <data name="DownloadCancel" xml:space="preserve">
+    <value>பதிவிறக்கம் ரத்து செய்யப்பட்டது</value>
+  </data>
+  <data name="Downloaded" xml:space="preserve">
+    <value>பதிவிறக்க</value>
+  </data>
+  <data name="DownloadError" xml:space="preserve">
+    <value>பிழை ஏற்பட்டது</value>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>பதிவிறக்குகிறது</value>
+  </data>
+  <data name="DownloadPaused" xml:space="preserve">
+    <value>பதிவிறக்கம் இடைநிறுத்தப்பட்டது</value>
+  </data>
+  <data name="DualDeviceUpdated" xml:space="preserve">
+    <value>இரட்டை சாதன அமைவு வெற்றிகரமாக புதுப்பிக்கப்பட்டது</value>
+  </data>
+  <data name="EnterQuestion.Text" xml:space="preserve">
+    <value>கேள்வியை கீழே உள்ளிடவும்</value>
+  </data>
+  <data name="ErrorDescription.Text" xml:space="preserve">
+    <value>உங்கள் மாற்றங்கள் சேமிக்கப்படவில்லை, அவற்றை சேமிக்க விரும்புகிறீர்களா அல்லது புறக்கணிக்க விரும்புகிறீர்களா?</value>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>ஏதோ தவறு நடந்தது.. மீண்டும் முயற்சி செய்</value>
+  </data>
+  <data name="ErrorTitle.Text" xml:space="preserve">
+    <value>சேமிக்கப்படாத மாற்றங்கள் உங்களிடம் உள்ளன</value>
+  </data>
+  <data name="FeedbackEight.Text" xml:space="preserve">
+    <value>நாங்கள் ஒருவருக்கொருவர் இடைமறித்துக் கொண்டே இருந்தோம்</value>
+  </data>
+  <data name="FeedbackFive.Text" xml:space="preserve">
+    <value>அழைப்பில் எதிரொலியைக் கேட்டேன்</value>
+  </data>
+  <data name="FeedbackFour.Text" xml:space="preserve">
+    <value>அது பின்னணி குரல்களை எடுத்தது</value>
+  </data>
+  <data name="FeedbackOne.Text" xml:space="preserve">
+    <value>அது என் குரலை சரியாக எடுக்கவில்லை</value>
+  </data>
+  <data name="FeedbackQuestion.Text" xml:space="preserve">
+    <value>இதைவிட சிறப்பாக என்ன இருந்திருக்க முடியும்?</value>
+  </data>
+  <data name="FeedbackSeven.Text" xml:space="preserve">
+    <value>அமர்வு எதிர்பாராத விதமாக முடிந்தது</value>
+  </data>
+  <data name="FeedbackSix.Text" xml:space="preserve">
+    <value>ஒலியளவு மிகக் குறைவாக இருந்தது</value>
+  </data>
+  <data name="FeedbackThanks.Text" xml:space="preserve">
+    <value>பின்னூட்டத்திற்கு நன்றி</value>
+  </data>
+  <data name="FeedbackThree.Text" xml:space="preserve">
+    <value>மொழிபெயர்ப்பு நேரம் மிகவும் மெதுவாக இருந்தது</value>
+  </data>
+  <data name="FeedbackTwo.Text" xml:space="preserve">
+    <value>அது என் வாக்கியங்களை தவறாக மொழிபெயர்த்தது</value>
+  </data>
+  <data name="ForcedUpdateDialogCaptionContinuation" xml:space="preserve">
+    <value>செயல்பட. இந்தப் புதுப்பித்தல்கள் இல்லாமல் பயன்பாடு வேலை செய்யாது.</value>
+  </data>
+  <data name="Improvement.Text" xml:space="preserve">
+    <value>உங்கள் அனுபவத்தை மேம்படுத்துவதில் நாங்கள் தொடர்ந்து பணியாற்றுவோம்.</value>
+  </data>
+  <data name="LanguageSettingsUpdated" xml:space="preserve">
+    <value>மொழி மாற்றங்கள் வெற்றிகரமாக புதுப்பிக்கப்பட்டன</value>
+  </data>
+  <data name="NewVersionDialogDescription2" xml:space="preserve">
+    <value>மற்றும் உங்கள் பதிப்பு</value>
+  </data>
+  <data name="NewVersionDialogDescription3" xml:space="preserve">
+    <value>ஆதரவற்றதாக மாறலாம்.</value>
+  </data>
+  <data name="Other.Text" xml:space="preserve">
+    <value>பிற கருத்துரைகள்:</value>
+  </data>
+  <data name="PasswordUpdated" xml:space="preserve">
+    <value>கடவுச்சொல் வெற்றிகரமாக மாற்றப்பட்டது</value>
+  </data>
+  <data name="PlaybackLanguageUpdated" xml:space="preserve">
+    <value>இயல்புநிலை மறுஇயக்க மொழி வெற்றிகரமாக மாற்றப்பட்டது</value>
+  </data>
+  <data name="QuestionAdded" xml:space="preserve">
+    <value>கேள்வி வெற்றிகரமாக சேர்க்கப்பட்டது</value>
+  </data>
+  <data name="QuestionDeleted" xml:space="preserve">
+    <value>கேள்வி வெற்றிகரமாக நீக்கப்பட்டது</value>
+  </data>
+  <data name="Questions.Text" xml:space="preserve">
+    <value>கேள்விகள்</value>
+  </data>
+  <data name="QuestionSettingsInstructionTwo.Text" xml:space="preserve">
+    <value>* ஒவ்வொரு கேள்விக்கும் வெவ்வேறு குறுக்குவழி விசை இருக்க வேண்டும்.</value>
+  </data>
+  <data name="QuestionsValidationError.Text" xml:space="preserve">
+    <value>* உங்கள் சரிபார்ப்புகளை சரிபார்த்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="QuickViewLanguagesUpdated" xml:space="preserve">
+    <value>விரைவு பார்வை லாங்குகள் வெற்றிகரமாக புதுப்பிக்கப்பட்டன</value>
+  </data>
+  <data name="SendFeedback.Content" xml:space="preserve">
+    <value>பின்னூட்டம் அனுப்பு</value>
+  </data>
+  <data name="SessionFeedbackPrompt" xml:space="preserve">
+    <value>உங்கள் மொழிபெயர்ப்பு அமர்வை எவ்வாறு மதிப்பிடுவீர்கள்?</value>
+  </data>
+  <data name="SessionFeedbackTitle" xml:space="preserve">
+    <value>மொழிபெயர்ப்பு பின்னூட்டம்</value>
+  </data>
+  <data name="ShortcutSuccess" xml:space="preserve">
+    <value>கேள்விகள் குறுக்குவழிகள் வெற்றிகரமாக புதுப்பிக்கப்பட்டன</value>
+  </data>
+  <data name="SingleDeviceUpdated" xml:space="preserve">
+    <value>ஒற்றை சாதன அமைவு வெற்றிகரமாக புதுப்பிக்கப்பட்டது</value>
+  </data>
+  <data name="StartupPageTitleDescription2.Text" xml:space="preserve">
+    <value>மொழிபெயர்ப்பு மென்பொருள்.</value>
+  </data>
+  <data name="TimeoutUpdated" xml:space="preserve">
+    <value>டைம்அவுட் வெற்றிகரமாக புதுப்பிக்கப்பட்டது</value>
+  </data>
+  <data name="TouchShareText" xml:space="preserve">
+    <value>பகிர் என்பதைத் தொடவும்</value>
+  </data>
+  <data name="TranslationLanguageUpdated" xml:space="preserve">
+    <value>இயல்புநிலை மொழிபெயர்ப்பு மொழி வெற்றிகரமாக மாற்றப்பட்டது</value>
+  </data>
+  <data name="TranslationPlaybackUpdated" xml:space="preserve">
+    <value>இயல்புநிலை மொழிபெயர்ப்பு &amp; மறுஇயக்க மொழி வெற்றிகரமாக மாற்றப்பட்டது</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption2" xml:space="preserve">
+    <value>செயல்பட. அம்சங்கள் முன்னறிவிப்பின்றி வேலை செய்வதை நிறுத்தலாம். தயவுசெய்து பயன்பாட்டைப் புதுப்பிக்கவும்.</value>
+  </data>
+  <data name="UserFlagSwitch" xml:space="preserve">
+    <value>மொழியைப் புதுப்பிக்க பயனர் கொடி</value>
+  </data>
+</root>

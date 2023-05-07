@@ -1,0 +1,1192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="AppDescription" xml:space="preserve">
+    <value>TalaTouchApp</value>
+  </data>
+  <data name="AppDisplayName" xml:space="preserve">
+    <value>TalaTouchApp</value>
+  </data>
+  <data name="AudioDeviceSelector_MicDropdown.PlaceholderText" xml:space="preserve">
+    <value>Valitse mikrofoni</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneMic.Text" xml:space="preserve">
+    <value>Henkilö Yksi mikrofoni</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneSpeaker.Text" xml:space="preserve">
+    <value>Henkilö Yksi puhuja</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoMic.Text" xml:space="preserve">
+    <value>Henkilö kaksi mikrofonia</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoSpeaker.Text" xml:space="preserve">
+    <value>Henkilö Kaksi puhujaa</value>
+  </data>
+  <data name="AudioDeviceSelector_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>Valitse kaiutin</value>
+  </data>
+  <data name="BluetoothPairingDialog_Description.Text" xml:space="preserve">
+    <value>Varmista, että laitteeseen on kytketty virta ja että se on löydettävissä. Valitse alta laite, johon haluat muodostaa yhteyden.</value>
+  </data>
+  <data name="BluetoothPairingDialog_Title.Text" xml:space="preserve">
+    <value>Laitteen lisääminen</value>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>Perua</value>
+  </data>
+  <data name="ChangePasscodeDialog_Confirm.Text" xml:space="preserve">
+    <value>Vahvista uusi pääsykoodi</value>
+  </data>
+  <data name="ChangePasscodeDialog_Current.Text" xml:space="preserve">
+    <value>Nykyinen pääsykoodi</value>
+  </data>
+  <data name="ChangePasscodeDialog_New.Text" xml:space="preserve">
+    <value>Uusi pääsykoodi</value>
+  </data>
+  <data name="ChangePasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Vaihda pääsykoodi</value>
+  </data>
+  <data name="Close.Content" xml:space="preserve">
+    <value>Sulkea</value>
+  </data>
+  <data name="ConsentDialog_Description1.Text" xml:space="preserve">
+    <value>Tietosuojahuolet ovat ykkösprioriteettimme. (5) Hyväksyt tämän tietosuojakäytännön ehdot matkapuhelimellasi tai tablet-laitteellasi, soveltuvin osin.</value>
+  </data>
+  <data name="ConsentDialog_Description2.Text" xml:space="preserve">
+    <value>Jos päätät olla sallimatta meille pääsyä, kun saamme suostumuspyynnön (tällaisista pyynnöistä ilmoitetaan www ICTS -verkkosivustolla osoitteessa:</value>
+  </data>
+  <data name="ConsentDialog_Description3.Text" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int</value>
+  </data>
+  <data name="ConsentDialog_Description4.Text" xml:space="preserve">
+    <value>), annettu sähköpostiosoite tai muut henkilökohtaiset tiedot, joista henkilö voitaisiin tunnistaa, eivät myöskään voi tulla tietoomme, kun tällainen lupa on myönnetty.</value>
+  </data>
+  <data name="ConsentDialog_Description5.Text" xml:space="preserve">
+    <value>Käyttämällä tiettyjä osia: / Matkapuhelimeni / kuvakkeeni käyttö - mikä voi sisältää muiden sallimisen chat-huoneissa tuotteista, kuten</value>
+  </data>
+  <data name="ConsentDialog_HyperLink.NavigateUri" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int/</value>
+  </data>
+  <data name="ConsentDialog_Title.Text" xml:space="preserve">
+    <value>Arvostamme yksityisyyttäsi</value>
+  </data>
+  <data name="Dashboard_Choose_Language.Text" xml:space="preserve">
+    <value>Valitse kieli</value>
+  </data>
+  <data name="Dashboard_Hello.Text" xml:space="preserve">
+    <value>Hei</value>
+  </data>
+  <data name="Dashboard_SearchBox.PlaceholderText" xml:space="preserve">
+    <value>Hakukieli</value>
+  </data>
+  <data name="Dashboard_Welcome.Text" xml:space="preserve">
+    <value>Tervetuloa</value>
+  </data>
+  <data name="DevicesErrorDialog_NoDeviceError" xml:space="preserve">
+    <value>Sinulla ei ole tallennettuja laitteita. Siirry kohtaan Asetukset -&gt; Laitteet valitaksesi mikrofonin ja kaiuttimen ja napsauta sitten Tallenna.</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Description.Text" xml:space="preserve">
+    <value>Käytettävissä olevat Bluetooth-laitteet</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_DropDown.PlaceholderText" xml:space="preserve">
+    <value>Valitse Bluetooth-laite</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Scan.Text" xml:space="preserve">
+    <value>Skannata</value>
+  </data>
+  <data name="DevicesPage_Bluetooth.Text" xml:space="preserve">
+    <value>Bluetooth</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices_Description.Text" xml:space="preserve">
+    <value>Valitse äänilaitteesi</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices.Text" xml:space="preserve">
+    <value>Liitetyt äänilaitteet</value>
+  </data>
+  <data name="DevicesPage_MicDropDown.PlaceholderText" xml:space="preserve">
+    <value>Valitse mikrofoni</value>
+  </data>
+  <data name="DevicesPage_Network_Description.Text" xml:space="preserve">
+    <value>Käytettävissä olevat verkot</value>
+  </data>
+  <data name="DevicesPage_Network_DropDown.PlaceholderText" xml:space="preserve">
+    <value>Valitse verkko</value>
+  </data>
+  <data name="DevicesPage_Network.Text" xml:space="preserve">
+    <value>Verkko</value>
+  </data>
+  <data name="DevicesPage_NetworkError" xml:space="preserve">
+    <value>Verkkoa ei ole valittu. Tarkista verkkoyhteydet.</value>
+  </data>
+  <data name="DevicesPage_PersonOne_Speaker.Text" xml:space="preserve">
+    <value>Henkilö yksi puhuja</value>
+  </data>
+  <data name="DevicesPage_PersonOneMic.Text" xml:space="preserve">
+    <value>Henkilö yksi mikrofoni</value>
+  </data>
+  <data name="DevicesPage_PersonTwo_Mic.Text" xml:space="preserve">
+    <value>Henkilö kaksi mikrofonia</value>
+  </data>
+  <data name="DevicesPage_Scan" xml:space="preserve">
+    <value>Skannata</value>
+  </data>
+  <data name="DevicesPage_Scanning" xml:space="preserve">
+    <value>Skannaus...</value>
+  </data>
+  <data name="DevicesPage_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>Valitse kaiutin</value>
+  </data>
+  <data name="DevicesPage_Status_Connect" xml:space="preserve">
+    <value>Yhdistää</value>
+  </data>
+  <data name="DevicesPage_Status_Connected" xml:space="preserve">
+    <value>Yhdistetty</value>
+  </data>
+  <data name="DevicesPage_Status_Connecting" xml:space="preserve">
+    <value>Kytkeminen...</value>
+  </data>
+  <data name="DevicesPage_Status_Off" xml:space="preserve">
+    <value>POIS</value>
+  </data>
+  <data name="DevicesPage_Status_On" xml:space="preserve">
+    <value>PÄÄLLE</value>
+  </data>
+  <data name="DevicesPager_PersonTwo_Speaker.Text" xml:space="preserve">
+    <value>Henkilö kaksi puhujaa</value>
+  </data>
+  <data name="EnterPasscodeDialog_Description.Text" xml:space="preserve">
+    <value>Anna pääsykoodisi päästäksesi asetussivulle</value>
+  </data>
+  <data name="EnterPasscodeDialog_ForgotPasscode.Content" xml:space="preserve">
+    <value>Unohditko pääsykoodin?</value>
+  </data>
+  <data name="EnterPasscodeDialog_InvalidPasscode.Text" xml:space="preserve">
+    <value>Virheellinen pääsykoodi! Yritä uudelleen.</value>
+  </data>
+  <data name="EnterPasscodeDialog_Passcode.Text" xml:space="preserve">
+    <value>Pääsykoodi</value>
+  </data>
+  <data name="EnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Anna pääsykoodisi</value>
+  </data>
+  <data name="IAgree.Content" xml:space="preserve">
+    <value>Olen samaa mieltä</value>
+  </data>
+  <data name="InvalidLicenseDialog_Description.Text" xml:space="preserve">
+    <value>Lisenssin vahvistus epäonnistui</value>
+  </data>
+  <data name="InvalidLicenseDialog_Title.Text" xml:space="preserve">
+    <value>Virheellinen lisenssi</value>
+  </data>
+  <data name="LoginFailedDialog_Button.Content" xml:space="preserve">
+    <value>Mene takaisin</value>
+  </data>
+  <data name="LoginFailedDialog_Description.Text" xml:space="preserve">
+    <value>Kirjautumisyrityksesi epäonnistui.</value>
+  </data>
+  <data name="LoginFailedDialog_Title.Text" xml:space="preserve">
+    <value>Kirjautuminen epäonnistui</value>
+  </data>
+  <data name="Main_Title.Text" xml:space="preserve">
+    <value>Pää</value>
+  </data>
+  <data name="PasswordPopup_SetupTitle.Text" xml:space="preserve">
+    <value>Pääsykoodin määrittäminen</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Description1.Text" xml:space="preserve">
+    <value>Anna pääsykoodisi uudelleen, jotta voit jatkaa muokkaamista...</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Anna pääsykoodisi uudelleen</value>
+  </data>
+  <data name="RenterPasscodeDialog_Description2.Text" xml:space="preserve">
+    <value>automaattinen tallennus ja kotiinpaluu</value>
+  </data>
+  <data name="Save.Content" xml:space="preserve">
+    <value>Säästää</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Description.Text" xml:space="preserve">
+    <value>Tämä on esimerkkisivu, joka näyttää aktivointiparametrit, jos sovellus on aktivoitu tarkan linkityksen avulla.</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Title.Text" xml:space="preserve">
+    <value>SchemeActivationSample</value>
+  </data>
+  <data name="SetPasscodeDialog_ConfirmPasscode.Text" xml:space="preserve">
+    <value>Vahvista uusi pääsykoodi </value>
+  </data>
+  <data name="SetPasscodeDialog_NewPasscode.Text" xml:space="preserve">
+    <value>Uusi pääsykoodi</value>
+  </data>
+  <data name="SetPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>Pääsykoodin määrittäminen</value>
+  </data>
+  <data name="Settings_About.Text" xml:space="preserve">
+    <value>Tietoja tästä sovelluksesta</value>
+  </data>
+  <data name="Settings_AboutDescription.Text" xml:space="preserve">
+    <value>Asetukset-sivun paikkamerkkiteksti.  Sovelluksesi kuvaus on täällä.</value>
+  </data>
+  <data name="Settings_Personalization.Text" xml:space="preserve">
+    <value>Mukauttaminen</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.Content" xml:space="preserve">
+    <value>Tietosuojatiedot</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.NavigateUri" xml:space="preserve">
+    <value>https://YourPrivacyUrlGoesHere/</value>
+  </data>
+  <data name="Settings_Theme_Dark.Content" xml:space="preserve">
+    <value>Tumma</value>
+  </data>
+  <data name="Settings_Theme_Default.Content" xml:space="preserve">
+    <value>Windowsin oletusasetukset</value>
+  </data>
+  <data name="Settings_Theme_Light.Content" xml:space="preserve">
+    <value>Valo</value>
+  </data>
+  <data name="Settings_Theme.Text" xml:space="preserve">
+    <value>Valitse teema</value>
+  </data>
+  <data name="Settings_Title.Text" xml:space="preserve">
+    <value>Asetukset</value>
+  </data>
+  <data name="SettingsPage_Devices" xml:space="preserve">
+    <value>Laitteet</value>
+  </data>
+  <data name="SettingsPage_Language" xml:space="preserve">
+    <value>Kieli</value>
+  </data>
+  <data name="SettingsPage_Profile" xml:space="preserve">
+    <value>Profiili</value>
+  </data>
+  <data name="SettingsPage_Questions" xml:space="preserve">
+    <value>Kysymyksiä</value>
+  </data>
+  <data name="SettingsPage_Title" xml:space="preserve">
+    <value>Asetukset</value>
+  </data>
+  <data name="ShellView_Help" xml:space="preserve">
+    <value>Apua</value>
+  </data>
+  <data name="ShellView_History" xml:space="preserve">
+    <value>Historia</value>
+  </data>
+  <data name="ShellView_Home" xml:space="preserve">
+    <value>Koti</value>
+  </data>
+  <data name="ShellView_Settings.Text" xml:space="preserve">
+    <value>Asetukset</value>
+  </data>
+  <data name="Sign_In.Text" xml:space="preserve">
+    <value>Kirjaudu sisään</value>
+  </data>
+  <data name="SignInDialog_Description.Text" xml:space="preserve">
+    <value>Kommunikoi välittömästi useilla globaaleilla kielillä Jabra-laitteellasi.</value>
+  </data>
+  <data name="SignInDialog_SignInButton.Content" xml:space="preserve">
+    <value>Kirjaudu sisään</value>
+  </data>
+  <data name="Translate_Button.Text" xml:space="preserve">
+    <value>Kääntää</value>
+  </data>
+  <data name="TranslationPage_EndSession.Text" xml:space="preserve">
+    <value>Istunnon lopettaminen</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOn" xml:space="preserve">
+    <value>Mikrofoni päällä</value>
+  </data>
+  <data name="TranslationPage_SpeakerOn" xml:space="preserve">
+    <value>Puhuja päällä</value>
+  </data>
+  <data name="TranslationPage_SpeakNow.Text" xml:space="preserve">
+    <value>Puhu nyt</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Noin</value>
+  </data>
+  <data name="AboutPage_AppVersion.Text" xml:space="preserve">
+    <value>Sovelluksen versio</value>
+  </data>
+  <data name="AboutPage_CheckUpdate.Content" xml:space="preserve">
+    <value>Tarkista päivitykset</value>
+  </data>
+  <data name="AboutPage_DataConsent" xml:space="preserve">
+    <value>Organisaatiosi on antanut suostumuksensa tietojesi tallentamiseen pilveen.</value>
+  </data>
+  <data name="AboutPage_NoDataConsent" xml:space="preserve">
+    <value>Organisaatiosi ei ole antanut suostumusta tietojesi tallentamiseen pilveen.</value>
+  </data>
+  <data name="AboutPage_Published.Text" xml:space="preserve">
+    <value>Julkaisija: FITTS Limited.</value>
+  </data>
+  <data name="AppClose_Close.Content" xml:space="preserve">
+    <value>Sulje joka tapauksessa</value>
+  </data>
+  <data name="AppClose_Dismiss.Content" xml:space="preserve">
+    <value>Perua</value>
+  </data>
+  <data name="AppClose_Warning.Text" xml:space="preserve">
+    <value>Sinulla on istunto käynnissä. Lopeta istunto ennen kuin poistut sovelluksesta.</value>
+  </data>
+  <data name="AppVersion.Text" xml:space="preserve">
+    <value>Sovelluksen versio</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Button.Content" xml:space="preserve">
+    <value>Jatka istuntoa</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Description.Text" xml:space="preserve">
+    <value>Istunto päättyy</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Title.Text" xml:space="preserve">
+    <value>Ääntä ei havaittu</value>
+  </data>
+  <data name="AudioPlayer_Error.Text" xml:space="preserve">
+    <value>Äänen lataaminen epäonnistui</value>
+  </data>
+  <data name="DashboardPage_DefaultLanguageError" xml:space="preserve">
+    <value>Sinulla ei ole tallennettua oletuskäännöskieltä. Siirry kohtaan Asetukset -&gt; kielet valitaksesi oletuskäännöskielen ja napsauta sitten Tallenna.</value>
+  </data>
+  <data name="DashboardPage_TargetLanguageError" xml:space="preserve">
+    <value>Et ole valinnut käännösten kohdekieltä. Valitse kieli ja napsauta sitten Käännä.</value>
+  </data>
+  <data name="DevicesErrorDialog_DualDeviceError" xml:space="preserve">
+    <value>Olet valinnut kahden laitteen käännöksen, mutta sinulla ei ole henkilöä 2 varten valittuja laitteita. Siirry kohtaan Asetukset -&gt; Laitteet valitaksesi mikrofonin ja kaiuttimen ja napsauta sitten Tallenna.</value>
+  </data>
+  <data name="DevicesPage_Title.Text" xml:space="preserve">
+    <value>Laitteet</value>
+  </data>
+  <data name="DevicesPage_Wifi_Password.Text" xml:space="preserve">
+    <value>Anna salasana</value>
+  </data>
+  <data name="DevicesPage_WifiStatus.Text" xml:space="preserve">
+    <value>Wifi-tila</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Muokata</value>
+  </data>
+  <data name="Expiry.Text" xml:space="preserve">
+    <value>Erääntymisaika</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Palaute</value>
+  </data>
+  <data name="FeedbackMessage.Text" xml:space="preserve">
+    <value>Jos sinulla on palautetta tai kysyttävää, älä epäröi ottaa yhteyttä.</value>
+  </data>
+  <data name="GetInTouchButton.Text" xml:space="preserve">
+    <value>Ota yhteyttä</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Apua</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>Historia</value>
+  </data>
+  <data name="History_ExportBtn.Text" xml:space="preserve">
+    <value>Vienti</value>
+  </data>
+  <data name="HistoryExportButtonTooltip.Text" xml:space="preserve">
+    <value>Vienti</value>
+  </data>
+  <data name="HistoryListColumnDate.Text" xml:space="preserve">
+    <value>Päivämäärä</value>
+  </data>
+  <data name="HistoryListColumnDuration.Text" xml:space="preserve">
+    <value>Kesto</value>
+  </data>
+  <data name="HistoryListColumnPrimaryLanguage.Text" xml:space="preserve">
+    <value>Ensisijainen kieli</value>
+  </data>
+  <data name="HistoryListColumnSecondaryLanguage.Text" xml:space="preserve">
+    <value>Toissijainen kieli</value>
+  </data>
+  <data name="HistoryListColumnSessionId.Text" xml:space="preserve">
+    <value>Istuntotunnus</value>
+  </data>
+  <data name="InitalSetup_SkipSetup.Content" xml:space="preserve">
+    <value>Ohita asetukset</value>
+  </data>
+  <data name="InitialNetworkPopupConnectButton.Content" xml:space="preserve">
+    <value>Yhdistää</value>
+  </data>
+  <data name="InitialSetup_DeviceSelection.Text" xml:space="preserve">
+    <value>Laitteen valinta</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionDescription.Text" xml:space="preserve">
+    <value>Oletusäänilaitteen määrittäminen</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneMicrophone.Text" xml:space="preserve">
+    <value>Valitse Mikrofoni</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneSpeaker.Text" xml:space="preserve">
+    <value>Valitse Kaiutin</value>
+  </data>
+  <data name="InitialSetup_FinishSetup.Content" xml:space="preserve">
+    <value>Viimeistele asennus</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection_Description.Text" xml:space="preserve">
+    <value>Oletuskäännöskielen määrittäminen</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection.Text" xml:space="preserve">
+    <value>Kielen valinta</value>
+  </data>
+  <data name="InitialSetup_NetworkSelection.Text" xml:space="preserve">
+    <value>Ensisijainen verkko</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopup.Text" xml:space="preserve">
+    <value>Yhdistä verkkoon</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopupPassword.Text" xml:space="preserve">
+    <value>Anna salasana:</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionDescription.Text" xml:space="preserve">
+    <value>Valitse jokin käytettävissä olevista verkoista</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionNoInternetConnection.Text" xml:space="preserve">
+    <value>Et ole yhteydessä Internetiin. Tarkista verkkoyhteytesi.</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionOtherNetworks.Text" xml:space="preserve">
+    <value>Muut verkostot</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup_Description.Text" xml:space="preserve">
+    <value>Sovelluksen pääsykoodin määrittäminen</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup.Text" xml:space="preserve">
+    <value>Pääsykoodin asetukset</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Kieli</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage_Description.Text" xml:space="preserve">
+    <value>Valitse sovelluksen kieli</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage.Text" xml:space="preserve">
+    <value>Sovelluksen kieli</value>
+  </data>
+  <data name="LanguagesPage_AppLanguageDropdown.PlaceholderText" xml:space="preserve">
+    <value>Valitse kieli</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage_Description.Text" xml:space="preserve">
+    <value>Käyttämäsi oletuskieli</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage.Text" xml:space="preserve">
+    <value>Oletuskieleni</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguageDropDown.PlaceholderText" xml:space="preserve">
+    <value>Valitse kieli</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description.Text" xml:space="preserve">
+    <value>Historia-osio (usean laitteen käännöksiä varten)</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description1.Text" xml:space="preserve">
+    <value>* Yhden laitteen käännökset toistavat kaiken äänen oletuksena *</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage.Text" xml:space="preserve">
+    <value>Oletustoistokieli</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguages.Text" xml:space="preserve">
+    <value>Quick view -kielet</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguagesDropdown.PlaceholderText" xml:space="preserve">
+    <value>Kielen lisääminen</value>
+  </data>
+  <data name="LanguagesPage_Title.Text" xml:space="preserve">
+    <value>Kielet</value>
+  </data>
+  <data name="Licence" xml:space="preserve">
+    <value>Vapaus</value>
+  </data>
+  <data name="LicenseType.Text" xml:space="preserve">
+    <value>Lisenssin tyyppi:</value>
+  </data>
+  <data name="NetworkConnectionError" xml:space="preserve">
+    <value>Virhe:</value>
+  </data>
+  <data name="Next.Content" xml:space="preserve">
+    <value>Seuraava</value>
+  </data>
+  <data name="PasscodeError_MinimumLength" xml:space="preserve">
+    <value>Pääsykoodin vähimmäispituuden tulisi olla 4.</value>
+  </data>
+  <data name="PasscodeError_NotMatching" xml:space="preserve">
+    <value>Syötetyt pääsykoodit eivät täsmää. Anna salasanat uudelleen ja yritä sitten uudelleen.</value>
+  </data>
+  <data name="Person.Text" xml:space="preserve">
+    <value>Henkilö</value>
+  </data>
+  <data name="PrivacyPolicy.Text" xml:space="preserve">
+    <value>Tietosuojakäytäntö</value>
+  </data>
+  <data name="ProfilePage_Email_Description.Text" xml:space="preserve">
+    <value>Oletusvientisähköpostiviesti</value>
+  </data>
+  <data name="ProfilePage_Email.Text" xml:space="preserve">
+    <value>Sähköposti</value>
+  </data>
+  <data name="ProfilePage_Passcode_Description.Text" xml:space="preserve">
+    <value>Sovelluksen pääsykoodi</value>
+  </data>
+  <data name="ProfilePage_Passcode.Text" xml:space="preserve">
+    <value>Pääsykoodi</value>
+  </data>
+  <data name="ProfilePage_Timeout_Description.Text" xml:space="preserve">
+    <value>Järjestelmänvalvojan tilan lukituksen tiheys</value>
+  </data>
+  <data name="ProfilePage_Timeout.Text" xml:space="preserve">
+    <value>Järjestelmänvalvojan tilan aikakatkaisu</value>
+  </data>
+  <data name="ProfilePage_TimeoutDropdown.PlaceholderText" xml:space="preserve">
+    <value>Valitse aika</value>
+  </data>
+  <data name="ProfilePage_Title.Text" xml:space="preserve">
+    <value>Profiili</value>
+  </data>
+  <data name="PublishedBy.Text" xml:space="preserve">
+    <value>Julkaisija</value>
+  </data>
+  <data name="ReleaseNotesMessage.Text" xml:space="preserve">
+    <value>Julkaisutiedot päivitetään pian</value>
+  </data>
+  <data name="Save_Text" xml:space="preserve">
+    <value>Säästää</value>
+  </data>
+  <data name="SessionDetailsPage_Description.Text" xml:space="preserve">
+    <value>Transkription historia</value>
+  </data>
+  <data name="SessionDetailsPage_Duration.Text" xml:space="preserve">
+    <value>Kesto</value>
+  </data>
+  <data name="SessionDetailsPage_SessionID.Text" xml:space="preserve">
+    <value>Istuntotunnus</value>
+  </data>
+  <data name="SessionDetailsPage_Title.Text" xml:space="preserve">
+    <value>Historia</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Asetukset</value>
+  </data>
+  <data name="TermsOfUse.Text" xml:space="preserve">
+    <value>Käyttöehdot</value>
+  </data>
+  <data name="TranslationPage_SettingUpState" xml:space="preserve">
+    <value>Määrittäminen...</value>
+  </data>
+  <data name="TranslationPage_SpeakFast" xml:space="preserve">
+    <value>Yritä puhua hieman nopeammin saadaksesi parempia käännöstuloksia.</value>
+  </data>
+  <data name="TranslationPage_SpeakIn" xml:space="preserve">
+    <value>Puhu sisään</value>
+  </data>
+  <data name="TranslationPage_SpeakSlow" xml:space="preserve">
+    <value>Yritä puhua hieman hitaammin saadaksesi parempia käännöstuloksia.</value>
+  </data>
+  <data name="TranslationPage_Switching" xml:space="preserve">
+    <value>Transistori</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonOne" xml:space="preserve">
+    <value>Vaihda henkilöön 1</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonTwo" xml:space="preserve">
+    <value>Vaihda henkilöön 2</value>
+  </data>
+  <data name="TranslationPage_TranslationReadyState" xml:space="preserve">
+    <value>Puhu nyt</value>
+  </data>
+  <data name="Website.Text" xml:space="preserve">
+    <value>Verkkosivusto</value>
+  </data>
+  <data name="WhatsNew" xml:space="preserve">
+    <value>Mitä uutta</value>
+  </data>
+  <data name="WhatsNewInSpeechly.Text" xml:space="preserve">
+    <value>Uudet ominaisuudet</value>
+  </data>
+  <data name="AudioDevicesSelectorDualDevice.Content" xml:space="preserve">
+    <value>Kaksi laitetta</value>
+  </data>
+  <data name="AudioDevicesSelectorSingleDevice.Content" xml:space="preserve">
+    <value>Yksi laite</value>
+  </data>
+  <data name="AutoDetectSearchCountry.PlaceholderText" xml:space="preserve">
+    <value>Hae maa</value>
+  </data>
+  <data name="AutoDetectSelectLanguage.Text" xml:space="preserve">
+    <value>Valitse kieli</value>
+  </data>
+  <data name="ChatViewPersonOne" xml:space="preserve">
+    <value>Henkilö yksi</value>
+  </data>
+  <data name="ChatViewPersonTwo" xml:space="preserve">
+    <value>Henkilö kaksi</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionLost" xml:space="preserve">
+    <value>Internet-yhteys katkesi. Tarkista yhteys ja yritä sitten uudelleen.</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionUnstable" xml:space="preserve">
+    <value>Internet-yhteytesi on hidas. Saatat kokea jonkin verran viivettä.</value>
+  </data>
+  <data name="CustomTagSelectionTitle.Text" xml:space="preserve">
+    <value>Organisaation tunnisteet (valitse lisättäväksi)</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.Header" xml:space="preserve">
+    <value>Käyttäjän lippu kielen vaihtamiseksi</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OffContent" xml:space="preserve">
+    <value>Vammainen</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OnContent" xml:space="preserve">
+    <value>Käytössä</value>
+  </data>
+  <data name="DetectLanguageButton.Content" xml:space="preserve">
+    <value>Tunnista kieli</value>
+  </data>
+  <data name="DevicesPageNetworkSetupBluetoothStatus.Text" xml:space="preserve">
+    <value>Bluetooth-tila :</value>
+  </data>
+  <data name="DevicesPageNetworkSetupConnectAutomatically.Text" xml:space="preserve">
+    <value>Yhdistä automaattisesti</value>
+  </data>
+  <data name="DevicesPageNetworkSetupWiFiStatus.Text" xml:space="preserve">
+    <value>WiFi-tila:</value>
+  </data>
+  <data name="Dimiss.Content" xml:space="preserve">
+    <value>Perua</value>
+  </data>
+  <data name="Duration.Text" xml:space="preserve">
+    <value>|  Kesto</value>
+  </data>
+  <data name="EmailPopup_Description.Text" xml:space="preserve">
+    <value>Anna sähköpostiosoitteesi</value>
+  </data>
+  <data name="EmailPopup_Title.Text" xml:space="preserve">
+    <value>Istunnon lähettäminen sähköpostitse</value>
+  </data>
+  <data name="ForcedUpdateDialogCaption" xml:space="preserve">
+    <value>Meillä on kriittisiä päivityksiä</value>
+  </data>
+  <data name="ForcedUpdateDialogInstallBtnText" xml:space="preserve">
+    <value>Päivittää</value>
+  </data>
+  <data name="ForcedUpdateDialogTitle" xml:space="preserve">
+    <value>Kriittiset päivitykset</value>
+  </data>
+  <data name="GoBack.Content" xml:space="preserve">
+    <value>Mene takaisin</value>
+  </data>
+  <data name="HelpPageSignOut.Content" xml:space="preserve">
+    <value>Kirjautua ulos</value>
+  </data>
+  <data name="History_Export.Text" xml:space="preserve">
+    <value>Tiedoston luominen...</value>
+  </data>
+  <data name="HistoryListColumnSessionName.Text" xml:space="preserve">
+    <value>Nimi</value>
+  </data>
+  <data name="HistoryListColumnSynced.Text" xml:space="preserve">
+    <value>Synkronoitu</value>
+  </data>
+  <data name="HistorySearchBox.PlaceholderText" xml:space="preserve">
+    <value>Kieli, istunnon nimi, tunnisteet tai tunnukset</value>
+  </data>
+  <data name="HistorySearchButtonTooltip.Text" xml:space="preserve">
+    <value>Etsiä</value>
+  </data>
+  <data name="HistorySearchClearButtonTooltip.Text" xml:space="preserve">
+    <value>Selvä</value>
+  </data>
+  <data name="HistorySearchFromDate.Header" xml:space="preserve">
+    <value>Alkaen:</value>
+  </data>
+  <data name="HistorySearchToDate.Header" xml:space="preserve">
+    <value>Jotta:</value>
+  </data>
+  <data name="HistoryShareButtonTooltip.Text" xml:space="preserve">
+    <value>Jaa/Lähetä</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonOne.Text" xml:space="preserve">
+    <value>Henkilö 1</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonTwo.Text" xml:space="preserve">
+    <value>Henkilö 2</value>
+  </data>
+  <data name="LoginPageTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NewVersionDialogCaption" xml:space="preserve">
+    <value>Asenna uusi sovellusversio</value>
+  </data>
+  <data name="NewVersionDialogDescription" xml:space="preserve">
+    <value>Uudet ominaisuudet ja virheenkorjaukset puuttuvat </value>
+  </data>
+  <data name="NewVersionDialogInstallBtnText" xml:space="preserve">
+    <value>Asenna uusi versio</value>
+  </data>
+  <data name="NewVersionDialogTitle" xml:space="preserve">
+    <value>Uusi sovellusversio</value>
+  </data>
+  <data name="NextText" xml:space="preserve">
+    <value>Seuraava</value>
+  </data>
+  <data name="ProfilePageEditButton.Content" xml:space="preserve">
+    <value>Muokata</value>
+  </data>
+  <data name="QuestionsButton.Content" xml:space="preserve">
+    <value>Katso kysymykset</value>
+  </data>
+  <data name="QuestionSettingsDescription.Text" xml:space="preserve">
+    <value>Kysymyksen pikakuvakkeiden tarkasteleminen tai muokkaaminen</value>
+  </data>
+  <data name="QuestionSettingsInstructionOne.Text" xml:space="preserve">
+    <value>* Käytä numeroita 1-9 jokaiseen kysymykseen. Nollaa (0) ei oteta huomioon.</value>
+  </data>
+  <data name="QuestionSettingsInstructionThree.Text" xml:space="preserve">
+    <value>* Voit määrittää pikakuvakkeet vain 9 kysymykseen.</value>
+  </data>
+  <data name="QuestionSettingsListTitle.Text" xml:space="preserve">
+    <value>Kysymysluettelo :</value>
+  </data>
+  <data name="ResellerEmailAddress.Text" xml:space="preserve">
+    <value>Jälleenmyyjän sähköpostiosoite :</value>
+  </data>
+  <data name="ResellerName.Text" xml:space="preserve">
+    <value>Jälleenmyyjän nimi :</value>
+  </data>
+  <data name="SelectFlag.Text" xml:space="preserve">
+    <value>Valitse lippusi:</value>
+  </data>
+  <data name="Send.Content" xml:space="preserve">
+    <value>Lähettää</value>
+  </data>
+  <data name="SessionDetailsPage_SessionName.Text" xml:space="preserve">
+    <value>Istunnon nimi</value>
+  </data>
+  <data name="SessionID.Text" xml:space="preserve">
+    <value>Istuntotunnus:-</value>
+  </data>
+  <data name="SessionMetadataDialog_ContinueButton.Text" xml:space="preserve">
+    <value>Jatkaa</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTags.Text" xml:space="preserve">
+    <value>Muokatut tunnisteet</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Kirjoita tunnisteen nimi tähän</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextboxHelper.Text" xml:space="preserve">
+    <value>Paina Enter</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTags.Text" xml:space="preserve">
+    <value>Oletustunnisteet</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Syötä arvo tähän</value>
+  </data>
+  <data name="SessionMetadataDialog_Description.Text" xml:space="preserve">
+    <value>Pakolliset kentät on merkitty merkinnällä '</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionName.Text" xml:space="preserve">
+    <value>Istunnon nimi</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionNameTextbox.PlaceholderText" xml:space="preserve">
+    <value>esimerkiksi potilas nolla</value>
+  </data>
+  <data name="SessionMetadataDialog_Title.Text" xml:space="preserve">
+    <value>Istunnon nimen ja tunnisteiden lisääminen</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorActionMessage" xml:space="preserve">
+    <value>Ota yhteyttä järjestelmänvalvojaan tilisi aktivoimiseksi.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorMessage" xml:space="preserve">
+    <value>Tilisi on poistettu käytöstä.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorActionMessage" xml:space="preserve">
+    <value>Ota yhteyttä järjestelmänvalvojaan tilin luomiseksi.</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorMessage" xml:space="preserve">
+    <value>Tilisi on poistettu.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorActionMessage" xml:space="preserve">
+    <value>Ota yhteyttä järjestelmänvalvojaan ottaaksesi tilisi käyttöön.</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorMessage" xml:space="preserve">
+    <value>Tilisi on poistettu käytöstä.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorActionMessage" xml:space="preserve">
+    <value>Ota yhteyttä järjestelmänvalvojaan tilin luomiseksi.</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorMessage" xml:space="preserve">
+    <value>Sinulla ei ole aktiivista tiliä.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorActionMessage" xml:space="preserve">
+    <value>Ota yhteyttä järjestelmänvalvojaan lisenssin uusimista varten.</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorMessage" xml:space="preserve">
+    <value>Ajokorttisi on vanhentunut.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorActionMessage" xml:space="preserve">
+    <value>Ota yhteyttä järjestelmänvalvojaan lisenssin aktivoimiseksi.</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorMessage" xml:space="preserve">
+    <value>Käyttöoikeutesi on poistettu käytöstä.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorActionMessage" xml:space="preserve">
+    <value>Ota yhteyttä järjestelmänvalvojaan.</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorMessage" xml:space="preserve">
+    <value>Ajokorttisi on keskeytetty.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorActionMessage" xml:space="preserve">
+    <value>Ota yhteyttä järjestelmänvalvojaan ja määritä sinulle käyttöoikeus.</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorMessage" xml:space="preserve">
+    <value>Sinulla ei ole sinulle osoitettua lisenssiä.</value>
+  </data>
+  <data name="StartupPage2020.Text" xml:space="preserve">
+    <value>2021 </value>
+  </data>
+  <data name="StartupPageErrorDescription.Text" xml:space="preserve">
+    <value>Tapahtui virhe. Tarkista Internet-yhteytesi ja yritä sitten uudelleen.</value>
+  </data>
+  <data name="StartupPagePoweredBy.Text" xml:space="preserve">
+    <value>Tuen toimitti </value>
+  </data>
+  <data name="StartupPageProgressDescription.Text" xml:space="preserve">
+    <value>Tämä voi kestää muutaman sekunnin</value>
+  </data>
+  <data name="StartupPageRetryButton.Content" xml:space="preserve">
+    <value>Yritä</value>
+  </data>
+  <data name="StartupPageRightsReserved.Text" xml:space="preserve">
+    <value>Kaikki oikeudet pidätetään.</value>
+  </data>
+  <data name="StartUpPageSettingUpMessage" xml:space="preserve">
+    <value>Määrittäminen...</value>
+  </data>
+  <data name="StartupPageTitleDescription.Text" xml:space="preserve">
+    <value>Tervetuloa </value>
+  </data>
+  <data name="TranslateText" xml:space="preserve">
+    <value>Kääntää</value>
+  </data>
+  <data name="TranslationLicenceUseError" xml:space="preserve">
+    <value>Ajokorttisi on tällä hetkellä käytössä toisessa istunnossa.</value>
+  </data>
+  <data name="TranslationLimitReachedError" xml:space="preserve">
+    <value>Olet saavuttanut istuntokohtaisen enimmäisaikarajasi. Istunnon päättäminen.</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOff" xml:space="preserve">
+    <value>Mikrofoni pois päältä</value>
+  </data>
+  <data name="TranslationPage_SpeakerOff" xml:space="preserve">
+    <value>Kaiutin pois päältä</value>
+  </data>
+  <data name="TranslationTimeDepletedError" xml:space="preserve">
+    <value>Käännöspöytäkirjanne on käytetty loppuun. Ota ystävällisesti yhteyttä järjestelmänvalvojaan.</value>
+  </data>
+  <data name="UnsupportedVersionDialogBtntext" xml:space="preserve">
+    <value>Päivittää</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption" xml:space="preserve">
+    <value>Kriittisiä päivityksiä tarvitaan </value>
+  </data>
+  <data name="UnsupportedVersionDialogDescription" xml:space="preserve">
+    <value>Päivitä sovelluksesi, jotta saat edelleen ominaisuus- ja suojauspäivityksiä.</value>
+  </data>
+  <data name="UnsupportedVersionDialogTitle" xml:space="preserve">
+    <value>Sovellusversio, jota ei tueta</value>
+  </data>
+  <data name="UpdateDialogWhatsNew.Text" xml:space="preserve">
+    <value>Mitä uutta?</value>
+  </data>
+  <data name="Zoom.Text" xml:space="preserve">
+    <value>Zoomata</value>
+  </data>
+  <data name="Add.Content" xml:space="preserve">
+    <value>Lisätä</value>
+  </data>
+  <data name="AddNewQuestion.Text" xml:space="preserve">
+    <value>Lisää uusi ennalta määritetty kysymys</value>
+  </data>
+  <data name="AddQuestion.Content" xml:space="preserve">
+    <value>Lisää kysymys</value>
+  </data>
+  <data name="ChooseLanguage.Text" xml:space="preserve">
+    <value>Valitse oletuskieli</value>
+  </data>
+  <data name="CustomProfileAdded" xml:space="preserve">
+    <value>Profiilin nimi lisätty onnistuneesti.</value>
+  </data>
+  <data name="CustomProfileDeleted" xml:space="preserve">
+    <value>Profiili poistettu onnistuneesti.</value>
+  </data>
+  <data name="CustomProfileInvalidName" xml:space="preserve">
+    <value>Virhe! Virheellinen profiilin nimi.</value>
+  </data>
+  <data name="CustomProfileNotDeleted" xml:space="preserve">
+    <value>Ei poistettavaa profiilia.</value>
+  </data>
+  <data name="CustomProfileNotSaved" xml:space="preserve">
+    <value>Virhe! Profiilia ei tallennettu.</value>
+  </data>
+  <data name="CustomProfileProfileSaved" xml:space="preserve">
+    <value>Profiili tallennettu onnistuneesti.</value>
+  </data>
+  <data name="DataRequestMessage" xml:space="preserve">
+    <value>Et ole valinnut mitään tekstiä. Valitse jaettava teksti ja yritä uudelleen.</value>
+  </data>
+  <data name="DevicesAddProfileButton.Content" xml:space="preserve">
+    <value>Lisätä</value>
+  </data>
+  <data name="DevicesAvailableProfiles.Text" xml:space="preserve">
+    <value>Käytettävissä olevat profiilit</value>
+  </data>
+  <data name="DevicesDefaultProfile.Text" xml:space="preserve">
+    <value>Oletusprofiili:</value>
+  </data>
+  <data name="DevicesDeleteProfileBtn.Content" xml:space="preserve">
+    <value>Poista profiili</value>
+  </data>
+  <data name="DeviceSetupChanged" xml:space="preserve">
+    <value>Liitetyt äänilaitteet päivitetty </value>
+  </data>
+  <data name="DevicesHelpfulTip1.Text" xml:space="preserve">
+    <value>1. Aseta profiilin nimi</value>
+  </data>
+  <data name="DevicesHelpfulTip2.Text" xml:space="preserve">
+    <value>2. Valitse yhden tai kahden laitteen tilat</value>
+  </data>
+  <data name="DevicesHelpfulTip3.Text" xml:space="preserve">
+    <value>3. Valitse kaiutin(t) ja mikrofoni(t)</value>
+  </data>
+  <data name="DevicesHelpfulTip4.Text" xml:space="preserve">
+    <value>4. Aseta profiilisi oletukseksi</value>
+  </data>
+  <data name="DevicesHelpfulTip5.Text" xml:space="preserve">
+    <value>5. Napsauta Tallenna profiili -painiketta tallentaaksesi profiilisi</value>
+  </data>
+  <data name="DevicesHelpfulTips.Text" xml:space="preserve">
+    <value>Hyödyllisiä vinkkejä</value>
+  </data>
+  <data name="DevicesProfileNameTextBox.PlaceholderText" xml:space="preserve">
+    <value>Profiilin nimi...</value>
+  </data>
+  <data name="DevicesSaveProfileBtn.Content" xml:space="preserve">
+    <value>Tallenna profiili</value>
+  </data>
+  <data name="DevicesSetasDefault.Text" xml:space="preserve">
+    <value>Aseta oletukseksi</value>
+  </data>
+  <data name="DevicesSetProfileButton.Content" xml:space="preserve">
+    <value>Aseta profiili</value>
+  </data>
+  <data name="DevicesSetProfileText.Text" xml:space="preserve">
+    <value>Mukautetun profiilin määrittäminen?</value>
+  </data>
+  <data name="DiscardButton.Content" xml:space="preserve">
+    <value>Hylätä</value>
+  </data>
+  <data name="DismissButton.Content" xml:space="preserve">
+    <value>Erottaa</value>
+  </data>
+  <data name="DismissText.Text" xml:space="preserve">
+    <value>Erottaa</value>
+  </data>
+  <data name="DownloadAudio.Text" xml:space="preserve">
+    <value>Lataa ääni</value>
+  </data>
+  <data name="DownloadCancel" xml:space="preserve">
+    <value>Lataus peruttu</value>
+  </data>
+  <data name="Downloaded" xml:space="preserve">
+    <value>Ladata</value>
+  </data>
+  <data name="DownloadError" xml:space="preserve">
+    <value>Tapahtui virhe</value>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>Lataaminen</value>
+  </data>
+  <data name="DownloadPaused" xml:space="preserve">
+    <value>Lataa keskeytetty</value>
+  </data>
+  <data name="DualDeviceUpdated" xml:space="preserve">
+    <value>Kahden laitteen asennus päivitettiin onnistuneesti</value>
+  </data>
+  <data name="EnterQuestion.Text" xml:space="preserve">
+    <value>Kirjoita kysymys alle</value>
+  </data>
+  <data name="ErrorDescription.Text" xml:space="preserve">
+    <value>Muutoksiasi ei ole tallennettu, haluatko tallentaa ne vai hylätä?</value>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>Jotain meni pieleen.. Yritä uudestaan</value>
+  </data>
+  <data name="ErrorTitle.Text" xml:space="preserve">
+    <value>Sinulla on tallentamattomia muutoksia</value>
+  </data>
+  <data name="FeedbackEight.Text" xml:space="preserve">
+    <value>Keskeytimme toisemme jatkuvasti</value>
+  </data>
+  <data name="FeedbackFive.Text" xml:space="preserve">
+    <value>Kuulin kaiun puhelussa</value>
+  </data>
+  <data name="FeedbackFour.Text" xml:space="preserve">
+    <value>Se poimi taustaääniä</value>
+  </data>
+  <data name="FeedbackOne.Text" xml:space="preserve">
+    <value>Se ei poiminut ääntäni oikein</value>
+  </data>
+  <data name="FeedbackQuestion.Text" xml:space="preserve">
+    <value>Mikä olisi voinut olla parempi?</value>
+  </data>
+  <data name="FeedbackSeven.Text" xml:space="preserve">
+    <value>Istunto päättyi yllättäen</value>
+  </data>
+  <data name="FeedbackSix.Text" xml:space="preserve">
+    <value>Äänenvoimakkuus oli liian alhainen</value>
+  </data>
+  <data name="FeedbackThanks.Text" xml:space="preserve">
+    <value>Kiitos palautteesta</value>
+  </data>
+  <data name="FeedbackThree.Text" xml:space="preserve">
+    <value>Käännösaika oli liian hidas</value>
+  </data>
+  <data name="FeedbackTwo.Text" xml:space="preserve">
+    <value>Se käänsi lauseeni väärin</value>
+  </data>
+  <data name="ForcedUpdateDialogCaptionContinuation" xml:space="preserve">
+    <value>toimia. Sovellus ei toimi ilman näitä päivityksiä.</value>
+  </data>
+  <data name="Improvement.Text" xml:space="preserve">
+    <value>Jatkamme työtä käyttökokemuksesi parantamiseksi.</value>
+  </data>
+  <data name="LanguageSettingsUpdated" xml:space="preserve">
+    <value>Kielimuutokset päivitetty onnistuneesti</value>
+  </data>
+  <data name="NewVersionDialogDescription2" xml:space="preserve">
+    <value>ja sinun versiosi</value>
+  </data>
+  <data name="NewVersionDialogDescription3" xml:space="preserve">
+    <value>voi jäädä tukematta.</value>
+  </data>
+  <data name="Other.Text" xml:space="preserve">
+    <value>Muita huomautuksia:</value>
+  </data>
+  <data name="PasswordUpdated" xml:space="preserve">
+    <value>Salasana vaihdettu onnistuneesti</value>
+  </data>
+  <data name="PlaybackLanguageUpdated" xml:space="preserve">
+    <value>Oletustoistokieli vaihtui onnistuneesti</value>
+  </data>
+  <data name="QuestionAdded" xml:space="preserve">
+    <value>Kysymys lisätty onnistuneesti</value>
+  </data>
+  <data name="QuestionDeleted" xml:space="preserve">
+    <value>Kysymys poistettu onnistuneesti</value>
+  </data>
+  <data name="Questions.Text" xml:space="preserve">
+    <value>Kysymyksiä</value>
+  </data>
+  <data name="QuestionSettingsInstructionTwo.Text" xml:space="preserve">
+    <value>* Jokaisella kysymyksellä on oltava eri pikanäppäin.</value>
+  </data>
+  <data name="QuestionsValidationError.Text" xml:space="preserve">
+    <value>* Tarkista vahvistukset ja yritä uudelleen.</value>
+  </data>
+  <data name="QuickViewLanguagesUpdated" xml:space="preserve">
+    <value>Quick view languges päivitetty onnistuneesti</value>
+  </data>
+  <data name="SendFeedback.Content" xml:space="preserve">
+    <value>Lähetä palautetta</value>
+  </data>
+  <data name="SessionFeedbackPrompt" xml:space="preserve">
+    <value>Miten arvioisit käännösistuntoasi?</value>
+  </data>
+  <data name="SessionFeedbackTitle" xml:space="preserve">
+    <value>Käännösten palaute</value>
+  </data>
+  <data name="ShortcutSuccess" xml:space="preserve">
+    <value>Kysymysten pikakuvakkeet päivitetty onnistuneesti</value>
+  </data>
+  <data name="SingleDeviceUpdated" xml:space="preserve">
+    <value>Yhden laitteen asennus päivitetty onnistuneesti</value>
+  </data>
+  <data name="StartupPageTitleDescription2.Text" xml:space="preserve">
+    <value>käännösohjelmisto.</value>
+  </data>
+  <data name="TimeoutUpdated" xml:space="preserve">
+    <value>Aikakatkaisu päivitetty onnistuneesti</value>
+  </data>
+  <data name="TouchShareText" xml:space="preserve">
+    <value>Kosketa Jaa</value>
+  </data>
+  <data name="TranslationLanguageUpdated" xml:space="preserve">
+    <value>Oletuskäännöskieli vaihtui onnistuneesti</value>
+  </data>
+  <data name="TranslationPlaybackUpdated" xml:space="preserve">
+    <value>Oletuskäännös- ja toistokieli vaihtui onnistuneesti</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption2" xml:space="preserve">
+    <value>toimia. Ominaisuudet voivat lakata toimimasta ilman erillistä ilmoitusta. Päivitä sovellus.</value>
+  </data>
+  <data name="UserFlagSwitch" xml:space="preserve">
+    <value>Käyttäjälippu kielen vaihtamiseksi päivitetty</value>
+  </data>
+</root>

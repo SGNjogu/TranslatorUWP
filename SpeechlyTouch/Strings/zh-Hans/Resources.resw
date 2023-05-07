@@ -1,0 +1,1192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="AppDescription" xml:space="preserve">
+    <value>塔拉触摸应用</value>
+  </data>
+  <data name="AppDisplayName" xml:space="preserve">
+    <value>塔拉触摸应用</value>
+  </data>
+  <data name="AudioDeviceSelector_MicDropdown.PlaceholderText" xml:space="preserve">
+    <value>选择麦克风</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneMic.Text" xml:space="preserve">
+    <value>人一话筒</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonOneSpeaker.Text" xml:space="preserve">
+    <value>人一演讲者</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoMic.Text" xml:space="preserve">
+    <value>人二麦克风</value>
+  </data>
+  <data name="AudioDeviceSelector_PersonTwoSpeaker.Text" xml:space="preserve">
+    <value>人二演讲者</value>
+  </data>
+  <data name="AudioDeviceSelector_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>选择扬声器</value>
+  </data>
+  <data name="BluetoothPairingDialog_Description.Text" xml:space="preserve">
+    <value>确保您的设备已开启且可被发现。在下面选择一个设备进行连接。</value>
+  </data>
+  <data name="BluetoothPairingDialog_Title.Text" xml:space="preserve">
+    <value>添加设备</value>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="ChangePasscodeDialog_Confirm.Text" xml:space="preserve">
+    <value>确认新密码</value>
+  </data>
+  <data name="ChangePasscodeDialog_Current.Text" xml:space="preserve">
+    <value>当前密码</value>
+  </data>
+  <data name="ChangePasscodeDialog_New.Text" xml:space="preserve">
+    <value>新密码</value>
+  </data>
+  <data name="ChangePasscodeDialog_Title.Text" xml:space="preserve">
+    <value>更改密码</value>
+  </data>
+  <data name="Close.Content" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="ConsentDialog_Description1.Text" xml:space="preserve">
+    <value>隐私问题是我们的首要任务。（5） 您通过手机或平板电脑（如适用）接受本隐私政策的条款和条件。</value>
+  </data>
+  <data name="ConsentDialog_Description2.Text" xml:space="preserve">
+    <value>如果您在我们收到同意请求时选择不允许我们访问（此类请求将在www ICTS网站上通知：</value>
+  </data>
+  <data name="ConsentDialog_Description3.Text" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int</value>
+  </data>
+  <data name="ConsentDialog_Description4.Text" xml:space="preserve">
+    <value>），那么一旦获得此类许可，所提供的电子邮件地址或任何其他可以识别个人的个人信息都不能归我们所有。</value>
+  </data>
+  <data name="ConsentDialog_Description5.Text" xml:space="preserve">
+    <value>通过使用某些部分：/我使用我的手机/图标 - 其中可能包括允许其他人在聊天室中了解产品，例如</value>
+  </data>
+  <data name="ConsentDialog_HyperLink.NavigateUri" xml:space="preserve">
+    <value>http://www-ietscultationservice2@govtuk.int/</value>
+  </data>
+  <data name="ConsentDialog_Title.Text" xml:space="preserve">
+    <value>我们重视您的隐私</value>
+  </data>
+  <data name="Dashboard_Choose_Language.Text" xml:space="preserve">
+    <value>选择语言</value>
+  </data>
+  <data name="Dashboard_Hello.Text" xml:space="preserve">
+    <value>你好</value>
+  </data>
+  <data name="Dashboard_SearchBox.PlaceholderText" xml:space="preserve">
+    <value>搜索语言</value>
+  </data>
+  <data name="Dashboard_Welcome.Text" xml:space="preserve">
+    <value>欢迎</value>
+  </data>
+  <data name="DevicesErrorDialog_NoDeviceError" xml:space="preserve">
+    <value>您没有保存的设备。转到“设置”-“&gt;设备”以选择麦克风和扬声器，然后单击“保存”。</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Description.Text" xml:space="preserve">
+    <value>可用的蓝牙设备</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_DropDown.PlaceholderText" xml:space="preserve">
+    <value>选择蓝牙设备</value>
+  </data>
+  <data name="DevicesPage_Bluetooth_Scan.Text" xml:space="preserve">
+    <value>扫描</value>
+  </data>
+  <data name="DevicesPage_Bluetooth.Text" xml:space="preserve">
+    <value>蓝牙</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices_Description.Text" xml:space="preserve">
+    <value>选择您的音频设备</value>
+  </data>
+  <data name="DevicesPage_ConnectedDevices.Text" xml:space="preserve">
+    <value>连接的音频设备</value>
+  </data>
+  <data name="DevicesPage_MicDropDown.PlaceholderText" xml:space="preserve">
+    <value>选择麦克风</value>
+  </data>
+  <data name="DevicesPage_Network_Description.Text" xml:space="preserve">
+    <value>可用网络</value>
+  </data>
+  <data name="DevicesPage_Network_DropDown.PlaceholderText" xml:space="preserve">
+    <value>选择一个网络</value>
+  </data>
+  <data name="DevicesPage_Network.Text" xml:space="preserve">
+    <value>网络</value>
+  </data>
+  <data name="DevicesPage_NetworkError" xml:space="preserve">
+    <value>未选择网络。检查您的网络连接。</value>
+  </data>
+  <data name="DevicesPage_PersonOne_Speaker.Text" xml:space="preserve">
+    <value>人一演讲者</value>
+  </data>
+  <data name="DevicesPage_PersonOneMic.Text" xml:space="preserve">
+    <value>人一话筒</value>
+  </data>
+  <data name="DevicesPage_PersonTwo_Mic.Text" xml:space="preserve">
+    <value>人二麦克风</value>
+  </data>
+  <data name="DevicesPage_Scan" xml:space="preserve">
+    <value>扫描</value>
+  </data>
+  <data name="DevicesPage_Scanning" xml:space="preserve">
+    <value>扫描。。。</value>
+  </data>
+  <data name="DevicesPage_SpeakerDropdown.PlaceholderText" xml:space="preserve">
+    <value>选择扬声器</value>
+  </data>
+  <data name="DevicesPage_Status_Connect" xml:space="preserve">
+    <value>连接</value>
+  </data>
+  <data name="DevicesPage_Status_Connected" xml:space="preserve">
+    <value>连接</value>
+  </data>
+  <data name="DevicesPage_Status_Connecting" xml:space="preserve">
+    <value>连接。。。</value>
+  </data>
+  <data name="DevicesPage_Status_Off" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="DevicesPage_Status_On" xml:space="preserve">
+    <value>上</value>
+  </data>
+  <data name="DevicesPager_PersonTwo_Speaker.Text" xml:space="preserve">
+    <value>人二演讲者</value>
+  </data>
+  <data name="EnterPasscodeDialog_Description.Text" xml:space="preserve">
+    <value>请输入您的密码以访问设置页面</value>
+  </data>
+  <data name="EnterPasscodeDialog_ForgotPasscode.Content" xml:space="preserve">
+    <value>忘记密码？</value>
+  </data>
+  <data name="EnterPasscodeDialog_InvalidPasscode.Text" xml:space="preserve">
+    <value>密码无效！请重试。</value>
+  </data>
+  <data name="EnterPasscodeDialog_Passcode.Text" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="EnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>输入您的密码</value>
+  </data>
+  <data name="IAgree.Content" xml:space="preserve">
+    <value>我同意</value>
+  </data>
+  <data name="InvalidLicenseDialog_Description.Text" xml:space="preserve">
+    <value>您的许可证验证失败</value>
+  </data>
+  <data name="InvalidLicenseDialog_Title.Text" xml:space="preserve">
+    <value>许可证无效</value>
+  </data>
+  <data name="LoginFailedDialog_Button.Content" xml:space="preserve">
+    <value>回去</value>
+  </data>
+  <data name="LoginFailedDialog_Description.Text" xml:space="preserve">
+    <value>您的登录尝试失败。</value>
+  </data>
+  <data name="LoginFailedDialog_Title.Text" xml:space="preserve">
+    <value>登录失败</value>
+  </data>
+  <data name="Main_Title.Text" xml:space="preserve">
+    <value>主要</value>
+  </data>
+  <data name="PasswordPopup_SetupTitle.Text" xml:space="preserve">
+    <value>设置密码</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Description1.Text" xml:space="preserve">
+    <value>请重新输入您的密码以继续编辑...</value>
+  </data>
+  <data name="ReEnterPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>重新输入密码</value>
+  </data>
+  <data name="RenterPasscodeDialog_Description2.Text" xml:space="preserve">
+    <value>自动保存并回家</value>
+  </data>
+  <data name="Save.Content" xml:space="preserve">
+    <value>救</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Description.Text" xml:space="preserve">
+    <value>这是一个示例页面，如果应用从深层链接激活，则会显示激活参数。</value>
+  </data>
+  <data name="SchemeActivationSamplePage_Title.Text" xml:space="preserve">
+    <value>方案激活示例</value>
+  </data>
+  <data name="SetPasscodeDialog_ConfirmPasscode.Text" xml:space="preserve">
+    <value>确认新密码</value>
+  </data>
+  <data name="SetPasscodeDialog_NewPasscode.Text" xml:space="preserve">
+    <value>新密码</value>
+  </data>
+  <data name="SetPasscodeDialog_Title.Text" xml:space="preserve">
+    <value>设置密码</value>
+  </data>
+  <data name="Settings_About.Text" xml:space="preserve">
+    <value>关于此应用程序</value>
+  </data>
+  <data name="Settings_AboutDescription.Text" xml:space="preserve">
+    <value>设置页占位符文本。 你的应用说明可在此处查看。</value>
+  </data>
+  <data name="Settings_Personalization.Text" xml:space="preserve">
+    <value>个性化</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.Content" xml:space="preserve">
+    <value>隐私声明</value>
+  </data>
+  <data name="Settings_PrivacyTermsLink.NavigateUri" xml:space="preserve">
+    <value>https://YourPrivacyUrlGoesHere/</value>
+  </data>
+  <data name="Settings_Theme_Dark.Content" xml:space="preserve">
+    <value>黑暗</value>
+  </data>
+  <data name="Settings_Theme_Default.Content" xml:space="preserve">
+    <value>窗口默认值</value>
+  </data>
+  <data name="Settings_Theme_Light.Content" xml:space="preserve">
+    <value>光</value>
+  </data>
+  <data name="Settings_Theme.Text" xml:space="preserve">
+    <value>选择主题</value>
+  </data>
+  <data name="Settings_Title.Text" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="SettingsPage_Devices" xml:space="preserve">
+    <value>设备</value>
+  </data>
+  <data name="SettingsPage_Language" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="SettingsPage_Profile" xml:space="preserve">
+    <value>轮廓</value>
+  </data>
+  <data name="SettingsPage_Questions" xml:space="preserve">
+    <value>问题</value>
+  </data>
+  <data name="SettingsPage_Title" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="ShellView_Help" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="ShellView_History" xml:space="preserve">
+    <value>历史</value>
+  </data>
+  <data name="ShellView_Home" xml:space="preserve">
+    <value>家</value>
+  </data>
+  <data name="ShellView_Settings.Text" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="Sign_In.Text" xml:space="preserve">
+    <value>登录</value>
+  </data>
+  <data name="SignInDialog_Description.Text" xml:space="preserve">
+    <value>与您的 Jabra 设备即时以多种全球语言进行通信。</value>
+  </data>
+  <data name="SignInDialog_SignInButton.Content" xml:space="preserve">
+    <value>登录</value>
+  </data>
+  <data name="Translate_Button.Text" xml:space="preserve">
+    <value>翻译</value>
+  </data>
+  <data name="TranslationPage_EndSession.Text" xml:space="preserve">
+    <value>结束会话</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOn" xml:space="preserve">
+    <value>麦克风开启</value>
+  </data>
+  <data name="TranslationPage_SpeakerOn" xml:space="preserve">
+    <value>扬声器开启</value>
+  </data>
+  <data name="TranslationPage_SpeakNow.Text" xml:space="preserve">
+    <value>立即发言</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>大约</value>
+  </data>
+  <data name="AboutPage_AppVersion.Text" xml:space="preserve">
+    <value>应用程序版本</value>
+  </data>
+  <data name="AboutPage_CheckUpdate.Content" xml:space="preserve">
+    <value>检查更新</value>
+  </data>
+  <data name="AboutPage_DataConsent" xml:space="preserve">
+    <value>您的组织已同意将数据保存在云中。</value>
+  </data>
+  <data name="AboutPage_NoDataConsent" xml:space="preserve">
+    <value>您的组织尚未同意将数据保存在云中。</value>
+  </data>
+  <data name="AboutPage_Published.Text" xml:space="preserve">
+    <value>由菲特斯有限公司出版。</value>
+  </data>
+  <data name="AppClose_Close.Content" xml:space="preserve">
+    <value>无论如何关闭</value>
+  </data>
+  <data name="AppClose_Dismiss.Content" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="AppClose_Warning.Text" xml:space="preserve">
+    <value>您正在进行会话。请在退出应用程序之前结束会话。</value>
+  </data>
+  <data name="AppVersion.Text" xml:space="preserve">
+    <value>应用版本</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Button.Content" xml:space="preserve">
+    <value>继续会话</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Description.Text" xml:space="preserve">
+    <value>会议将结束于</value>
+  </data>
+  <data name="AudioNotDetectedDialog_Title.Text" xml:space="preserve">
+    <value>未检测到音频</value>
+  </data>
+  <data name="AudioPlayer_Error.Text" xml:space="preserve">
+    <value>无法加载音频</value>
+  </data>
+  <data name="DashboardPage_DefaultLanguageError" xml:space="preserve">
+    <value>您没有保存的默认翻译语言。转到“设置”-“&gt;语言”以选择默认翻译语言，然后单击“保存”。</value>
+  </data>
+  <data name="DashboardPage_TargetLanguageError" xml:space="preserve">
+    <value>您尚未选择目标翻译语言。请选择一种语言，然后单击翻译。</value>
+  </data>
+  <data name="DevicesErrorDialog_DualDeviceError" xml:space="preserve">
+    <value>您已选择双设备转换，但尚未为人员 2 选择设备。转到“设置”-“&gt;设备”以选择麦克风和扬声器，然后单击“保存”。</value>
+  </data>
+  <data name="DevicesPage_Title.Text" xml:space="preserve">
+    <value>设备</value>
+  </data>
+  <data name="DevicesPage_Wifi_Password.Text" xml:space="preserve">
+    <value>输入密码</value>
+  </data>
+  <data name="DevicesPage_WifiStatus.Text" xml:space="preserve">
+    <value>无线网络状态</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="Expiry.Text" xml:space="preserve">
+    <value>满期</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>反馈</value>
+  </data>
+  <data name="FeedbackMessage.Text" xml:space="preserve">
+    <value>如果您有任何反馈或疑问，请随时与我们联系。</value>
+  </data>
+  <data name="GetInTouchButton.Text" xml:space="preserve">
+    <value>取得联系</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>历史</value>
+  </data>
+  <data name="History_ExportBtn.Text" xml:space="preserve">
+    <value>出口</value>
+  </data>
+  <data name="HistoryExportButtonTooltip.Text" xml:space="preserve">
+    <value>出口</value>
+  </data>
+  <data name="HistoryListColumnDate.Text" xml:space="preserve">
+    <value>日期</value>
+  </data>
+  <data name="HistoryListColumnDuration.Text" xml:space="preserve">
+    <value>期间</value>
+  </data>
+  <data name="HistoryListColumnPrimaryLanguage.Text" xml:space="preserve">
+    <value>主要语言</value>
+  </data>
+  <data name="HistoryListColumnSecondaryLanguage.Text" xml:space="preserve">
+    <value>第二语言</value>
+  </data>
+  <data name="HistoryListColumnSessionId.Text" xml:space="preserve">
+    <value>会话标识</value>
+  </data>
+  <data name="InitalSetup_SkipSetup.Content" xml:space="preserve">
+    <value>跳过设置</value>
+  </data>
+  <data name="InitialNetworkPopupConnectButton.Content" xml:space="preserve">
+    <value>连接</value>
+  </data>
+  <data name="InitialSetup_DeviceSelection.Text" xml:space="preserve">
+    <value>设备选择</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionDescription.Text" xml:space="preserve">
+    <value>设置默认音频设备</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneMicrophone.Text" xml:space="preserve">
+    <value>选择麦克风</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionSelectPersonOneSpeaker.Text" xml:space="preserve">
+    <value>选择扬声器</value>
+  </data>
+  <data name="InitialSetup_FinishSetup.Content" xml:space="preserve">
+    <value>完成设置</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection_Description.Text" xml:space="preserve">
+    <value>设置默认翻译语言</value>
+  </data>
+  <data name="InitialSetup_LanguageSelection.Text" xml:space="preserve">
+    <value>语言选择</value>
+  </data>
+  <data name="InitialSetup_NetworkSelection.Text" xml:space="preserve">
+    <value>首选网络</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopup.Text" xml:space="preserve">
+    <value>连接到网络</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionConnectPopupPassword.Text" xml:space="preserve">
+    <value>输入密码：</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionDescription.Text" xml:space="preserve">
+    <value>从可用网络之一中选择</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionNoInternetConnection.Text" xml:space="preserve">
+    <value>您未连接到互联网。请检查您的网络连接。</value>
+  </data>
+  <data name="InitialSetup_NetworkSelectionOtherNetworks.Text" xml:space="preserve">
+    <value>其他网络</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup_Description.Text" xml:space="preserve">
+    <value>设置应用密码</value>
+  </data>
+  <data name="InitialSetup_PasscodeSetup.Text" xml:space="preserve">
+    <value>密码设置</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage_Description.Text" xml:space="preserve">
+    <value>选择应用程序语言</value>
+  </data>
+  <data name="LanguagesPage_AppLanguage.Text" xml:space="preserve">
+    <value>应用语言</value>
+  </data>
+  <data name="LanguagesPage_AppLanguageDropdown.PlaceholderText" xml:space="preserve">
+    <value>选择一种语言</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage_Description.Text" xml:space="preserve">
+    <value>您正在使用的默认语言</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguage.Text" xml:space="preserve">
+    <value>我的默认语言</value>
+  </data>
+  <data name="LanguagesPage_DefaultLanguageDropDown.PlaceholderText" xml:space="preserve">
+    <value>选择一种语言</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description.Text" xml:space="preserve">
+    <value>历史记录部分（适用于多设备翻译）</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage_Description1.Text" xml:space="preserve">
+    <value>*单设备翻译默认播放所有音频 *</value>
+  </data>
+  <data name="LanguagesPage_DefaultPlaybackLanguage.Text" xml:space="preserve">
+    <value>默认播放语言</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguages.Text" xml:space="preserve">
+    <value>快速查看语言</value>
+  </data>
+  <data name="LanguagesPage_QuickViewLanguagesDropdown.PlaceholderText" xml:space="preserve">
+    <value>添加语言</value>
+  </data>
+  <data name="LanguagesPage_Title.Text" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="Licence" xml:space="preserve">
+    <value>执照</value>
+  </data>
+  <data name="LicenseType.Text" xml:space="preserve">
+    <value>许可证类型：</value>
+  </data>
+  <data name="NetworkConnectionError" xml:space="preserve">
+    <value>错误：</value>
+  </data>
+  <data name="Next.Content" xml:space="preserve">
+    <value>下一个</value>
+  </data>
+  <data name="PasscodeError_MinimumLength" xml:space="preserve">
+    <value>密码的最小长度应为 4。</value>
+  </data>
+  <data name="PasscodeError_NotMatching" xml:space="preserve">
+    <value>输入的密码不匹配。请重新输入密码，然后重试。</value>
+  </data>
+  <data name="Person.Text" xml:space="preserve">
+    <value>人</value>
+  </data>
+  <data name="PrivacyPolicy.Text" xml:space="preserve">
+    <value>隐私策略</value>
+  </data>
+  <data name="ProfilePage_Email_Description.Text" xml:space="preserve">
+    <value>默认导出电子邮件</value>
+  </data>
+  <data name="ProfilePage_Email.Text" xml:space="preserve">
+    <value>电子邮件</value>
+  </data>
+  <data name="ProfilePage_Passcode_Description.Text" xml:space="preserve">
+    <value>您的应用程序密码</value>
+  </data>
+  <data name="ProfilePage_Passcode.Text" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="ProfilePage_Timeout_Description.Text" xml:space="preserve">
+    <value>管理模式锁定的频率</value>
+  </data>
+  <data name="ProfilePage_Timeout.Text" xml:space="preserve">
+    <value>管理员模式超时</value>
+  </data>
+  <data name="ProfilePage_TimeoutDropdown.PlaceholderText" xml:space="preserve">
+    <value>选择一个时间</value>
+  </data>
+  <data name="ProfilePage_Title.Text" xml:space="preserve">
+    <value>轮廓</value>
+  </data>
+  <data name="PublishedBy.Text" xml:space="preserve">
+    <value>出版人</value>
+  </data>
+  <data name="ReleaseNotesMessage.Text" xml:space="preserve">
+    <value>发行说明将很快更新</value>
+  </data>
+  <data name="Save_Text" xml:space="preserve">
+    <value>救</value>
+  </data>
+  <data name="SessionDetailsPage_Description.Text" xml:space="preserve">
+    <value>转录历史记录</value>
+  </data>
+  <data name="SessionDetailsPage_Duration.Text" xml:space="preserve">
+    <value>期间</value>
+  </data>
+  <data name="SessionDetailsPage_SessionID.Text" xml:space="preserve">
+    <value>会话标识</value>
+  </data>
+  <data name="SessionDetailsPage_Title.Text" xml:space="preserve">
+    <value>历史</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="TermsOfUse.Text" xml:space="preserve">
+    <value>使用条款</value>
+  </data>
+  <data name="TranslationPage_SettingUpState" xml:space="preserve">
+    <value>建立。。。</value>
+  </data>
+  <data name="TranslationPage_SpeakFast" xml:space="preserve">
+    <value>尝试说得快一点，以获得更好的翻译效果。</value>
+  </data>
+  <data name="TranslationPage_SpeakIn" xml:space="preserve">
+    <value>说话方式</value>
+  </data>
+  <data name="TranslationPage_SpeakSlow" xml:space="preserve">
+    <value>尝试说得慢一点，以获得更好的翻译效果。</value>
+  </data>
+  <data name="TranslationPage_Switching" xml:space="preserve">
+    <value>开关</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonOne" xml:space="preserve">
+    <value>切换到人员 1</value>
+  </data>
+  <data name="TranslationPage_SwitchToPersonTwo" xml:space="preserve">
+    <value>切换到人员 2</value>
+  </data>
+  <data name="TranslationPage_TranslationReadyState" xml:space="preserve">
+    <value>立即发言</value>
+  </data>
+  <data name="Website.Text" xml:space="preserve">
+    <value>网站</value>
+  </data>
+  <data name="WhatsNew" xml:space="preserve">
+    <value>最新消息</value>
+  </data>
+  <data name="WhatsNewInSpeechly.Text" xml:space="preserve">
+    <value>中的新增功能</value>
+  </data>
+  <data name="AudioDevicesSelectorDualDevice.Content" xml:space="preserve">
+    <value>双设备</value>
+  </data>
+  <data name="AudioDevicesSelectorSingleDevice.Content" xml:space="preserve">
+    <value>单个设备</value>
+  </data>
+  <data name="AutoDetectSearchCountry.PlaceholderText" xml:space="preserve">
+    <value>搜索国家</value>
+  </data>
+  <data name="AutoDetectSelectLanguage.Text" xml:space="preserve">
+    <value>选择您的语言</value>
+  </data>
+  <data name="ChatViewPersonOne" xml:space="preserve">
+    <value>第一人</value>
+  </data>
+  <data name="ChatViewPersonTwo" xml:space="preserve">
+    <value>人二</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionLost" xml:space="preserve">
+    <value>互联网连接丢失。请检查您的连接，然后重试。</value>
+  </data>
+  <data name="ConenctivityStatus_ConnectionUnstable" xml:space="preserve">
+    <value>您的互联网连接速度很慢。您可能会遇到一些滞后。</value>
+  </data>
+  <data name="CustomTagSelectionTitle.Text" xml:space="preserve">
+    <value>组织标签（选择添加）</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.Header" xml:space="preserve">
+    <value>用于切换语言的用户标志</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OffContent" xml:space="preserve">
+    <value>禁用</value>
+  </data>
+  <data name="DefaultAppLanguageToggleSwitch.OnContent" xml:space="preserve">
+    <value>启用</value>
+  </data>
+  <data name="DetectLanguageButton.Content" xml:space="preserve">
+    <value>检测语言</value>
+  </data>
+  <data name="DevicesPageNetworkSetupBluetoothStatus.Text" xml:space="preserve">
+    <value>蓝牙状态 ：</value>
+  </data>
+  <data name="DevicesPageNetworkSetupConnectAutomatically.Text" xml:space="preserve">
+    <value>自动连接</value>
+  </data>
+  <data name="DevicesPageNetworkSetupWiFiStatus.Text" xml:space="preserve">
+    <value>无线状态 ：</value>
+  </data>
+  <data name="Dimiss.Content" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="Duration.Text" xml:space="preserve">
+    <value>| 期间</value>
+  </data>
+  <data name="EmailPopup_Description.Text" xml:space="preserve">
+    <value>输入您的电子邮件地址</value>
+  </data>
+  <data name="EmailPopup_Title.Text" xml:space="preserve">
+    <value>通过电子邮件发送您的会话</value>
+  </data>
+  <data name="ForcedUpdateDialogCaption" xml:space="preserve">
+    <value>我们有以下重要更新</value>
+  </data>
+  <data name="ForcedUpdateDialogInstallBtnText" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="ForcedUpdateDialogTitle" xml:space="preserve">
+    <value>关键更新</value>
+  </data>
+  <data name="GoBack.Content" xml:space="preserve">
+    <value>回去</value>
+  </data>
+  <data name="HelpPageSignOut.Content" xml:space="preserve">
+    <value>登出</value>
+  </data>
+  <data name="History_Export.Text" xml:space="preserve">
+    <value>正在生成文件...</value>
+  </data>
+  <data name="HistoryListColumnSessionName.Text" xml:space="preserve">
+    <value>名字</value>
+  </data>
+  <data name="HistoryListColumnSynced.Text" xml:space="preserve">
+    <value>同步</value>
+  </data>
+  <data name="HistorySearchBox.PlaceholderText" xml:space="preserve">
+    <value>语言、会话名称、标签或 ID</value>
+  </data>
+  <data name="HistorySearchButtonTooltip.Text" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+  <data name="HistorySearchClearButtonTooltip.Text" xml:space="preserve">
+    <value>清楚</value>
+  </data>
+  <data name="HistorySearchFromDate.Header" xml:space="preserve">
+    <value>从：</value>
+  </data>
+  <data name="HistorySearchToDate.Header" xml:space="preserve">
+    <value>沃克斯</value>
+  </data>
+  <data name="HistoryShareButtonTooltip.Text" xml:space="preserve">
+    <value>分享/发送</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonOne.Text" xml:space="preserve">
+    <value>人 1</value>
+  </data>
+  <data name="InitialSetup_DeviceSelectionPersonTwo.Text" xml:space="preserve">
+    <value>人 2</value>
+  </data>
+  <data name="LoginPageTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NewVersionDialogCaption" xml:space="preserve">
+    <value>安装新的应用版本</value>
+  </data>
+  <data name="NewVersionDialogDescription" xml:space="preserve">
+    <value>新功能和错误修复将丢失</value>
+  </data>
+  <data name="NewVersionDialogInstallBtnText" xml:space="preserve">
+    <value>安装新版本</value>
+  </data>
+  <data name="NewVersionDialogTitle" xml:space="preserve">
+    <value>新应用版本</value>
+  </data>
+  <data name="NextText" xml:space="preserve">
+    <value>下一个</value>
+  </data>
+  <data name="ProfilePageEditButton.Content" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="QuestionsButton.Content" xml:space="preserve">
+    <value>查看问题</value>
+  </data>
+  <data name="QuestionSettingsDescription.Text" xml:space="preserve">
+    <value>查看或修改问题快捷方式</value>
+  </data>
+  <data name="QuestionSettingsInstructionOne.Text" xml:space="preserve">
+    <value>* 每个问题使用数字 1-9。零 （0） 将不被考虑。</value>
+  </data>
+  <data name="QuestionSettingsInstructionThree.Text" xml:space="preserve">
+    <value>* 您只能为 9 个问题分配快捷方式。</value>
+  </data>
+  <data name="QuestionSettingsListTitle.Text" xml:space="preserve">
+    <value>问题列表 ：</value>
+  </data>
+  <data name="ResellerEmailAddress.Text" xml:space="preserve">
+    <value>经销商电子邮件地址 ：</value>
+  </data>
+  <data name="ResellerName.Text" xml:space="preserve">
+    <value>经销商名称 ：</value>
+  </data>
+  <data name="SelectFlag.Text" xml:space="preserve">
+    <value>选择您的旗帜：</value>
+  </data>
+  <data name="Send.Content" xml:space="preserve">
+    <value>发送</value>
+  </data>
+  <data name="SessionDetailsPage_SessionName.Text" xml:space="preserve">
+    <value>会话名称</value>
+  </data>
+  <data name="SessionID.Text" xml:space="preserve">
+    <value>会话编号 ： -</value>
+  </data>
+  <data name="SessionMetadataDialog_ContinueButton.Text" xml:space="preserve">
+    <value>继续</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTags.Text" xml:space="preserve">
+    <value>自定义标签</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>在此处输入标签名称</value>
+  </data>
+  <data name="SessionMetadataDialog_CustomTagsTextboxHelper.Text" xml:space="preserve">
+    <value>按回车键</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTags.Text" xml:space="preserve">
+    <value>默认标记</value>
+  </data>
+  <data name="SessionMetadataDialog_DefaultTagsTextbox.PlaceholderText" xml:space="preserve">
+    <value>在此处输入值</value>
+  </data>
+  <data name="SessionMetadataDialog_Description.Text" xml:space="preserve">
+    <value>必填字段标有”</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionName.Text" xml:space="preserve">
+    <value>会话名称</value>
+  </data>
+  <data name="SessionMetadataDialog_SessionNameTextbox.PlaceholderText" xml:space="preserve">
+    <value>例如，零号病人</value>
+  </data>
+  <data name="SessionMetadataDialog_Title.Text" xml:space="preserve">
+    <value>添加会话名称和标签</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorActionMessage" xml:space="preserve">
+    <value>请联系您的管理员以激活您的帐户。</value>
+  </data>
+  <data name="SpeechlyAccountIsDeactivatedErrorMessage" xml:space="preserve">
+    <value>您的帐户已被停用。</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorActionMessage" xml:space="preserve">
+    <value>请联系您的管理员以创建您的帐户。</value>
+  </data>
+  <data name="SpeechlyAccountIsDeletedErrorMessage" xml:space="preserve">
+    <value>您的帐户已被删除。</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorActionMessage" xml:space="preserve">
+    <value>请联系您的管理员以启用您的帐户。</value>
+  </data>
+  <data name="SpeechlyAccountIsDisabledErrorMessage" xml:space="preserve">
+    <value>您的帐户已被禁用。</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorActionMessage" xml:space="preserve">
+    <value>请联系您的管理员以创建您的帐户。</value>
+  </data>
+  <data name="SpeechlyAccountNotFoundErrorMessage" xml:space="preserve">
+    <value>您没有活动帐户。</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorActionMessage" xml:space="preserve">
+    <value>请联系您的管理员以续订您的许可证。</value>
+  </data>
+  <data name="SpeechlyLicenseHasExpiredErrorMessage" xml:space="preserve">
+    <value>您的许可证已过期。</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorActionMessage" xml:space="preserve">
+    <value>请联系您的管理员以激活您的许可证。</value>
+  </data>
+  <data name="SpeechlyLicenseIsInactiveErrorMessage" xml:space="preserve">
+    <value>您的许可证已被停用。</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorActionMessage" xml:space="preserve">
+    <value>请联系您的管理员。</value>
+  </data>
+  <data name="SpeechlyLicenseIsSuspendedErrorMessage" xml:space="preserve">
+    <value>您的许可证已被暂停。</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorActionMessage" xml:space="preserve">
+    <value>请联系您的管理员以为您分配许可证。</value>
+  </data>
+  <data name="SpeechlyLicenseNotFoundErrorMessage" xml:space="preserve">
+    <value>您没有分配给您的许可证。</value>
+  </data>
+  <data name="StartupPage2020.Text" xml:space="preserve">
+    <value>2021</value>
+  </data>
+  <data name="StartupPageErrorDescription.Text" xml:space="preserve">
+    <value>发生错误。请检查您的互联网连接，然后重试。</value>
+  </data>
+  <data name="StartupPagePoweredBy.Text" xml:space="preserve">
+    <value>提供者</value>
+  </data>
+  <data name="StartupPageProgressDescription.Text" xml:space="preserve">
+    <value>这可能需要几秒钟</value>
+  </data>
+  <data name="StartupPageRetryButton.Content" xml:space="preserve">
+    <value>重试</value>
+  </data>
+  <data name="StartupPageRightsReserved.Text" xml:space="preserve">
+    <value>保留所有权利。</value>
+  </data>
+  <data name="StartUpPageSettingUpMessage" xml:space="preserve">
+    <value>建立。。。</value>
+  </data>
+  <data name="StartupPageTitleDescription.Text" xml:space="preserve">
+    <value>欢迎来到</value>
+  </data>
+  <data name="TranslateText" xml:space="preserve">
+    <value>翻译</value>
+  </data>
+  <data name="TranslationLicenceUseError" xml:space="preserve">
+    <value>您的许可证当前正在另一个会话中使用。</value>
+  </data>
+  <data name="TranslationLimitReachedError" xml:space="preserve">
+    <value>您已达到每个会话的最大时间限制。结束会话。</value>
+  </data>
+  <data name="TranslationPage_MicrophoneOff" xml:space="preserve">
+    <value>麦克风关闭</value>
+  </data>
+  <data name="TranslationPage_SpeakerOff" xml:space="preserve">
+    <value>扬声器关闭</value>
+  </data>
+  <data name="TranslationTimeDepletedError" xml:space="preserve">
+    <value>您的翻译分钟数已用完。请联系您的管理员。</value>
+  </data>
+  <data name="UnsupportedVersionDialogBtntext" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption" xml:space="preserve">
+    <value>需要关键更新</value>
+  </data>
+  <data name="UnsupportedVersionDialogDescription" xml:space="preserve">
+    <value>更新应用以继续获取功能和安全更新。</value>
+  </data>
+  <data name="UnsupportedVersionDialogTitle" xml:space="preserve">
+    <value>不支持的应用版本</value>
+  </data>
+  <data name="UpdateDialogWhatsNew.Text" xml:space="preserve">
+    <value>有什么新变化？</value>
+  </data>
+  <data name="Zoom.Text" xml:space="preserve">
+    <value>缩放</value>
+  </data>
+  <data name="Add.Content" xml:space="preserve">
+    <value>加</value>
+  </data>
+  <data name="AddNewQuestion.Text" xml:space="preserve">
+    <value>添加新的预定义问题</value>
+  </data>
+  <data name="AddQuestion.Content" xml:space="preserve">
+    <value>添加问题</value>
+  </data>
+  <data name="ChooseLanguage.Text" xml:space="preserve">
+    <value>选择默认语言</value>
+  </data>
+  <data name="CustomProfileAdded" xml:space="preserve">
+    <value>已成功添加配置文件名称。</value>
+  </data>
+  <data name="CustomProfileDeleted" xml:space="preserve">
+    <value>已成功删除配置文件。</value>
+  </data>
+  <data name="CustomProfileInvalidName" xml:space="preserve">
+    <value>错误！配置文件名称无效。</value>
+  </data>
+  <data name="CustomProfileNotDeleted" xml:space="preserve">
+    <value>没有要删除的配置文件。</value>
+  </data>
+  <data name="CustomProfileNotSaved" xml:space="preserve">
+    <value>错误！未保存配置文件。</value>
+  </data>
+  <data name="CustomProfileProfileSaved" xml:space="preserve">
+    <value>配置文件已成功保存。</value>
+  </data>
+  <data name="DataRequestMessage" xml:space="preserve">
+    <value>您尚未选择任何文本。请选择要共享的文本，然后重试。</value>
+  </data>
+  <data name="DevicesAddProfileButton.Content" xml:space="preserve">
+    <value>加</value>
+  </data>
+  <data name="DevicesAvailableProfiles.Text" xml:space="preserve">
+    <value>可用配置文件</value>
+  </data>
+  <data name="DevicesDefaultProfile.Text" xml:space="preserve">
+    <value>默认配置文件：</value>
+  </data>
+  <data name="DevicesDeleteProfileBtn.Content" xml:space="preserve">
+    <value>删除个人资料</value>
+  </data>
+  <data name="DeviceSetupChanged" xml:space="preserve">
+    <value>已连接音频设备已更新</value>
+  </data>
+  <data name="DevicesHelpfulTip1.Text" xml:space="preserve">
+    <value>1. 设置配置文件名称</value>
+  </data>
+  <data name="DevicesHelpfulTip2.Text" xml:space="preserve">
+    <value>2. 选择单设备或双设备模式</value>
+  </data>
+  <data name="DevicesHelpfulTip3.Text" xml:space="preserve">
+    <value>3. 选择扬声器和麦克风</value>
+  </data>
+  <data name="DevicesHelpfulTip4.Text" xml:space="preserve">
+    <value>4. 将您的个人资料设置为默认值</value>
+  </data>
+  <data name="DevicesHelpfulTip5.Text" xml:space="preserve">
+    <value>5. 单击“保存配置文件”按钮以保存您的个人资料</value>
+  </data>
+  <data name="DevicesHelpfulTips.Text" xml:space="preserve">
+    <value>有用的提示</value>
+  </data>
+  <data name="DevicesProfileNameTextBox.PlaceholderText" xml:space="preserve">
+    <value>配置文件名称...</value>
+  </data>
+  <data name="DevicesSaveProfileBtn.Content" xml:space="preserve">
+    <value>保存个人资料</value>
+  </data>
+  <data name="DevicesSetasDefault.Text" xml:space="preserve">
+    <value>设置为默认值</value>
+  </data>
+  <data name="DevicesSetProfileButton.Content" xml:space="preserve">
+    <value>设置配置文件</value>
+  </data>
+  <data name="DevicesSetProfileText.Text" xml:space="preserve">
+    <value>设置自定义配置文件？</value>
+  </data>
+  <data name="DiscardButton.Content" xml:space="preserve">
+    <value>丢弃</value>
+  </data>
+  <data name="DismissButton.Content" xml:space="preserve">
+    <value>解雇</value>
+  </data>
+  <data name="DismissText.Text" xml:space="preserve">
+    <value>解雇</value>
+  </data>
+  <data name="DownloadAudio.Text" xml:space="preserve">
+    <value>下载音频</value>
+  </data>
+  <data name="DownloadCancel" xml:space="preserve">
+    <value>下载已取消</value>
+  </data>
+  <data name="Downloaded" xml:space="preserve">
+    <value>下载</value>
+  </data>
+  <data name="DownloadError" xml:space="preserve">
+    <value>发生错误</value>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>下载</value>
+  </data>
+  <data name="DownloadPaused" xml:space="preserve">
+    <value>下载已暂停</value>
+  </data>
+  <data name="DualDeviceUpdated" xml:space="preserve">
+    <value>双设备设置已成功更新</value>
+  </data>
+  <data name="EnterQuestion.Text" xml:space="preserve">
+    <value>在下面输入问题</value>
+  </data>
+  <data name="ErrorDescription.Text" xml:space="preserve">
+    <value>您的更改尚未保存，是要保存还是放弃它们？</value>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>出事了..再试一次</value>
+  </data>
+  <data name="ErrorTitle.Text" xml:space="preserve">
+    <value>您有未保存的更改</value>
+  </data>
+  <data name="FeedbackEight.Text" xml:space="preserve">
+    <value>我们不断打断对方</value>
+  </data>
+  <data name="FeedbackFive.Text" xml:space="preserve">
+    <value>我在通话中听到了回声</value>
+  </data>
+  <data name="FeedbackFour.Text" xml:space="preserve">
+    <value>它拾取了背景声音</value>
+  </data>
+  <data name="FeedbackOne.Text" xml:space="preserve">
+    <value>它没有正确拾取我的声音</value>
+  </data>
+  <data name="FeedbackQuestion.Text" xml:space="preserve">
+    <value>还有什么比这更好的呢？</value>
+  </data>
+  <data name="FeedbackSeven.Text" xml:space="preserve">
+    <value>会议意外结束</value>
+  </data>
+  <data name="FeedbackSix.Text" xml:space="preserve">
+    <value>音量太低</value>
+  </data>
+  <data name="FeedbackThanks.Text" xml:space="preserve">
+    <value>感谢您的反馈</value>
+  </data>
+  <data name="FeedbackThree.Text" xml:space="preserve">
+    <value>翻译时间太慢</value>
+  </data>
+  <data name="FeedbackTwo.Text" xml:space="preserve">
+    <value>它误译了我的句子</value>
+  </data>
+  <data name="ForcedUpdateDialogCaptionContinuation" xml:space="preserve">
+    <value>才能发挥作用。如果没有这些更新，应用程序将无法运行。</value>
+  </data>
+  <data name="Improvement.Text" xml:space="preserve">
+    <value>我们将继续努力改善您的体验。</value>
+  </data>
+  <data name="LanguageSettingsUpdated" xml:space="preserve">
+    <value>语言更改更新成功</value>
+  </data>
+  <data name="NewVersionDialogDescription2" xml:space="preserve">
+    <value>和您的版本</value>
+  </data>
+  <data name="NewVersionDialogDescription3" xml:space="preserve">
+    <value>可能变得不受支持。</value>
+  </data>
+  <data name="Other.Text" xml:space="preserve">
+    <value>其他评论：</value>
+  </data>
+  <data name="PasswordUpdated" xml:space="preserve">
+    <value>密码更改成功</value>
+  </data>
+  <data name="PlaybackLanguageUpdated" xml:space="preserve">
+    <value>默认播放语言已成功更改</value>
+  </data>
+  <data name="QuestionAdded" xml:space="preserve">
+    <value>问题添加成功</value>
+  </data>
+  <data name="QuestionDeleted" xml:space="preserve">
+    <value>问题已成功删除</value>
+  </data>
+  <data name="Questions.Text" xml:space="preserve">
+    <value>问题</value>
+  </data>
+  <data name="QuestionSettingsInstructionTwo.Text" xml:space="preserve">
+    <value>* 每个问题必须具有不同的快捷键。</value>
+  </data>
+  <data name="QuestionsValidationError.Text" xml:space="preserve">
+    <value>* 请检查您的验证，然后重试。</value>
+  </data>
+  <data name="QuickViewLanguagesUpdated" xml:space="preserve">
+    <value>快速查看语言更新成功</value>
+  </data>
+  <data name="SendFeedback.Content" xml:space="preserve">
+    <value>发送反馈</value>
+  </data>
+  <data name="SessionFeedbackPrompt" xml:space="preserve">
+    <value>您如何评价您的翻译会话？</value>
+  </data>
+  <data name="SessionFeedbackTitle" xml:space="preserve">
+    <value>翻译反馈</value>
+  </data>
+  <data name="ShortcutSuccess" xml:space="preserve">
+    <value>问题快捷方式已成功更新</value>
+  </data>
+  <data name="SingleDeviceUpdated" xml:space="preserve">
+    <value>单设备设置已成功更新</value>
+  </data>
+  <data name="StartupPageTitleDescription2.Text" xml:space="preserve">
+    <value>翻译软件。</value>
+  </data>
+  <data name="TimeoutUpdated" xml:space="preserve">
+    <value>超时更新成功</value>
+  </data>
+  <data name="TouchShareText" xml:space="preserve">
+    <value>触摸共享</value>
+  </data>
+  <data name="TranslationLanguageUpdated" xml:space="preserve">
+    <value>默认翻译语言已成功更改</value>
+  </data>
+  <data name="TranslationPlaybackUpdated" xml:space="preserve">
+    <value>默认翻译和播放语言成功更改</value>
+  </data>
+  <data name="UnsupportedVersionDialogCaption2" xml:space="preserve">
+    <value>才能发挥作用。功能可能会停止工作，恕不另行通知。请更新应用程序。</value>
+  </data>
+  <data name="UserFlagSwitch" xml:space="preserve">
+    <value>用于切换语言的用户标志已更新</value>
+  </data>
+</root>

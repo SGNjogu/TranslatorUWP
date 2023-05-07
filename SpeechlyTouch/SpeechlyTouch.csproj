@@ -1,0 +1,1351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{0A393AE7-5477-4A9D-87B3-3EF3B3552361}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SpeechlyTouch</RootNamespace>
+    <AssemblyName>Tala Touch</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.19041.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
+    <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WindowsXamlEnableOverview>true</WindowsXamlEnableOverview>
+    <PackageCertificateKeyFile>
+    </PackageCertificateKeyFile>
+    <PackageCertificateThumbprint>E28216F799005C9779DBC0B5C2FE1F27C61461EF</PackageCertificateThumbprint>
+    <AppxPackageSigningEnabled>True</AppxPackageSigningEnabled>
+    <EnableSigningChecks>False</EnableSigningChecks>
+    <GenerateAppInstallerFile>False</GenerateAppInstallerFile>
+    <AppxPackageSigningTimestampDigestAlgorithm>SHA256</AppxPackageSigningTimestampDigestAlgorithm>
+    <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
+    <GenerateTestArtifacts>True</GenerateTestArtifacts>
+    <AppxBundle>Always</AppxBundle>
+    <AppxBundlePlatforms>x86</AppxBundlePlatforms>
+    <HoursBetweenUpdateChecks>0</HoursBetweenUpdateChecks>
+    <GenerateTemporaryStoreCertificate>True</GenerateTemporaryStoreCertificate>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>false</UseDotNetNativeToolchain>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+    <EnableGatekeeperAnalysis>true</EnableGatekeeperAnalysis>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>false</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>false</UseDotNetNativeToolchain>
+    <EnableGatekeeperAnalysis>false</EnableGatekeeperAnalysis>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM64'">
+    <OutputPath>bin\ARM64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>false</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>false</UseDotNetNativeToolchain>
+    <EnableGatekeeperAnalysis>false</EnableGatekeeperAnalysis>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>false</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>false</UseDotNetNativeToolchain>
+    <EnableGatekeeperAnalysis>false</EnableGatekeeperAnalysis>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AppCenter">
+      <Version>4.2.0</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.AppCenter.Analytics">
+      <Version>4.2.0</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.AppCenter.Crashes">
+      <Version>4.2.0</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client">
+      <Version>7.0.0-preview.2.22153.2</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Azure.KeyVault">
+      <Version>3.0.5</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Azure.Services.AppAuthentication">
+      <Version>1.6.1</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Data.Sqlite">
+      <Version>5.0.0</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection">
+      <Version>7.0.0-preview.2.22152.2</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Identity.Client">
+      <Version>4.35.1</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.NETCore.Runtime.CoreCLR">
+      <Version>2.0.8</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
+      <Version>6.2.12</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Toolkit.Mvvm">
+      <Version>7.0.2</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Toolkit.Uwp">
+      <Version>7.0.2</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Toolkit.Uwp.UI.Controls">
+      <Version>7.0.2</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Toolkit.Uwp.UI.Media">
+      <Version>7.0.2</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Win32.Registry">
+      <Version>6.0.0-preview.5.21301.5</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Uwp.Managed">
+      <Version>2.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="NPOI">
+      <Version>2.5.5</Version>
+    </PackageReference>
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt">
+      <Version>6.12.0</Version>
+    </PackageReference>
+    <PackageReference Include="System.Runtime">
+      <Version>4.3.1</Version>
+    </PackageReference>
+    <PackageReference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <Version>4.3.0</Version>
+    </PackageReference>
+    <PackageReference Include="System.Runtime.WindowsRuntime">
+      <Version>5.0.0-preview.5.20278.1</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="Strings\en\Resources.resw" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Activation\ActivationHandler.cs" />
+    <Compile Include="Activation\SchemeActivationConfig.cs" />
+    <Compile Include="Activation\SchemeActivationData.cs" />
+    <Compile Include="Activation\SchemeActivationHandler.cs" />
+    <Compile Include="BackgroundTasks\BackgroundTask.cs" />
+    <Compile Include="BackgroundTasks\BackgroundTask1.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="Converters\IntToVisibilityConverter.cs" />
+    <Compile Include="DTOs\InitialSetupMenutItem.cs" />
+    <Compile Include="DTOs\MenuItem.cs" />
+    <Compile Include="DTOs\ShellViewModelButtonsStyling.cs" />
+    <Compile Include="Enums\FeedbackType.cs" />
+    <Compile Include="Enums\LoginErrorMessage.cs" />
+    <Compile Include="Enums\QuestionType.cs" />
+    <Compile Include="Enums\SettingsType.cs" />
+    <Compile Include="Enums\UserQuestionStatus.cs" />
+    <Compile Include="Events\SessionTagChangedArgs.cs" />
+    <Compile Include="Helpers\AudioSampler.cs" />
+    <Compile Include="Helpers\DataExportHelper.cs" />
+    <Compile Include="Helpers\DateTimeUtility.cs" />
+    <Compile Include="Helpers\FileDirectoryHelper.cs" />
+    <Compile Include="Helpers\DictionaryToObject.cs" />
+    <Compile Include="Helpers\EnumsConverter.cs" />
+    <Compile Include="Helpers\EnumToBooleanConverter.cs" />
+    <Compile Include="Helpers\FloatToBytesConverter.cs" />
+    <Compile Include="Helpers\FocusExtension.cs" />
+    <Compile Include="Helpers\Json.cs" />
+    <Compile Include="Helpers\JsonConverter.cs" />
+    <Compile Include="Helpers\PermissionsHelper.cs" />
+    <Compile Include="Helpers\SettingsStorageExtensions.cs" />
+    <Compile Include="Helpers\Singleton.cs" />
+    <Compile Include="Helpers\TaskExtensions.cs" />
+    <Compile Include="Helpers\TitleBar.cs" />
+    <Compile Include="Helpers\WindowResizer.cs" />
+    <Compile Include="Logging\CrashlyticsConfig.cs" />
+    <Compile Include="Logging\ICrashlytics.cs" />
+    <Compile Include="Messages\AppUpdateMessage.cs" />
+    <Compile Include="Messages\AudioPlayerMessage.cs" />
+    <Compile Include="Messages\AutoDetectMessage.cs" />
+    <Compile Include="Messages\ConnectivityMessage.cs" />
+    <Compile Include="Messages\CustomTagMessage.cs" />
+    <Compile Include="Messages\DownloadMessage.cs" />
+    <Compile Include="Messages\ErrorMessage.cs" />
+    <Compile Include="Messages\FeedbackDialogMessage.cs" />
+    <Compile Include="Messages\InternationalizationMessage.cs" />
+    <Compile Include="Messages\LanguageMessage.cs" />
+    <Compile Include="Messages\LoginMessage.cs" />
+    <Compile Include="Messages\NewQuestionMessage.cs" />
+    <Compile Include="Messages\NotificationMessage.cs" />
+    <Compile Include="Messages\OrgQuestionsMessage.cs" />
+    <Compile Include="Messages\PermissionsMessage.cs" />
+    <Compile Include="Messages\RecognizedChatMessage.cs" />
+    <Compile Include="Messages\ChatScrollToMessage.cs" />
+    <Compile Include="Messages\DevicesMessage.cs" />
+    <Compile Include="Messages\EmailMessage.cs" />
+    <Compile Include="Messages\HistoryMessage.cs" />
+    <Compile Include="Messages\ImmersiveReaderNavigationMessage.cs" />
+    <Compile Include="Messages\NavigationMessage.cs" />
+    <Compile Include="Messages\OrganizationSettingsMessage.cs" />
+    <Compile Include="Messages\PartialChatMessage.cs" />
+    <Compile Include="Messages\PasscodeMessage.cs" />
+    <Compile Include="Messages\ScrollToMessage.cs" />
+    <Compile Include="Messages\SessionMetadataMessage.cs" />
+    <Compile Include="Models\AuthenticationObject.cs" />
+    <Compile Include="Models\AppVersion.cs" />
+    <Compile Include="Models\AzureAdB2cUser.cs" />
+    <Compile Include="Models\Chat.cs" />
+    <Compile Include="Models\InitialNetworkSetupItem.cs" />
+    <Compile Include="Models\Language.cs" />
+    <Compile Include="Models\LanguageFlag.cs" />
+    <Compile Include="Models\LicensePolicy.cs" />
+    <Compile Include="Models\LicenseValidity.cs" />
+    <Compile Include="Models\Organization.cs" />
+    <Compile Include="Models\OrganizationBranding.cs" />
+    <Compile Include="Models\OrgQuestion.cs" />
+    <Compile Include="Models\Reseller.cs" />
+    <Compile Include="Models\SessionTag.cs" />
+    <Compile Include="Models\SignalRTranslateMessage.cs" />
+    <Compile Include="Models\SpeechlyUser.cs" />
+    <Compile Include="Models\SpeechlyUserData.cs" />
+    <Compile Include="Models\User.cs" />
+    <Compile Include="Models\UserLicense.cs" />
+    <Compile Include="Models\UserRole.cs" />
+    <Compile Include="Models\WiFiNetwork.cs" />
+    <Compile Include="Services\ActivationService.cs" />
+    <Compile Include="Activation\DefaultActivationHandler.cs" />
+    <Compile Include="Services\Audio\AudioService.cs" />
+    <Compile Include="Services\Audio\IAudioService.cs" />
+    <Compile Include="Services\AuditTracking\AppAnalytics.cs" />
+    <Compile Include="Services\AuditTracking\IAppAnalytics.cs" />
+    <Compile Include="Services\Auth\AuthService.cs" />
+    <Compile Include="Services\Auth\IAuthService.cs" />
+    <Compile Include="Services\BackgroundTaskService.cs" />
+    <Compile Include="Services\Bluetooth\BluetoothDeviceAddedEventArgs.cs" />
+    <Compile Include="Services\Bluetooth\BluetoothDeviceRemovedEventArgs.cs" />
+    <Compile Include="Services\Bluetooth\BluetoothEnumerationCompletedEventArgs.cs" />
+    <Compile Include="Services\Bluetooth\BluetoothService.cs" />
+    <Compile Include="Services\Bluetooth\IBluetoothService.cs" />
+    <Compile Include="Services\CognitiveService\CognitiveServicesHelper.cs" />
+    <Compile Include="Services\CognitiveService\ICognitiveServicesHelper.cs" />
+    <Compile Include="Services\Connectivity\ConnectionChangedEventArgs.cs" />
+    <Compile Include="Services\Connectivity\ConnectivityService.cs" />
+    <Compile Include="Services\Connectivity\IConnectivityService.cs" />
+    <Compile Include="Services\DataSync\Interfaces\IPullDataService.cs" />
+    <Compile Include="Services\DataSync\Interfaces\IPushDataService.cs" />
+    <Compile Include="Services\DataSync\Services\PullDataService.cs" />
+    <Compile Include="Services\DataSync\Services\PushDataService.cs" />
+    <Compile Include="Services\Dependency\DependencyService.cs" />
+    <Compile Include="Services\FlagLanguage\FlagLanguageService.cs" />
+    <Compile Include="Services\FlagLanguage\IFlagLanguageService.cs" />
+    <Compile Include="Services\Internationalization\IInternationalizationService.cs" />
+    <Compile Include="Services\Internationalization\InternationalizationService.cs" />
+    <Compile Include="Services\KeyVault\IKeyVaultDataService.cs" />
+    <Compile Include="Services\KeyVault\IKeyVaultService.cs" />
+    <Compile Include="Services\KeyVault\KeyVaultDataService.cs" />
+    <Compile Include="Services\KeyVault\KeyVaultService.cs" />
+    <Compile Include="Services\Languages\ILanguagesService.cs" />
+    <Compile Include="Services\Languages\LanguagesService.cs" />
+    <Compile Include="Services\NavigationService.cs" />
+    <Compile Include="Services\Popup\DialogService.cs" />
+    <Compile Include="Services\Popup\IDialogService.cs" />
+    <Compile Include="Services\Settings\ISettingsService.cs" />
+    <Compile Include="Services\Settings\SettingsService.cs" />
+    <Compile Include="Services\SignalR\ISignalRService.cs" />
+    <Compile Include="Services\SignalR\SignalRService.cs" />
+    <Compile Include="Services\SuspendAndResumeArgs.cs" />
+    <Compile Include="Services\SuspendAndResumeService.cs" />
+    <Compile Include="Services\SuspensionState.cs" />
+    <Compile Include="Services\ThemeSelectorService.cs" />
+    <Compile Include="Services\UsageTracking\IUsageService.cs" />
+    <Compile Include="Services\UsageTracking\UsageService.cs" />
+    <Compile Include="Services\Versioning\AppVersionService.cs" />
+    <Compile Include="Services\Versioning\IAppVersionService.cs" />
+    <Compile Include="Services\Wifi\IWiFiService.cs" />
+    <Compile Include="Services\Wifi\WiFiService.cs" />
+    <Compile Include="Styles\DynamicColors.cs" />
+    <Compile Include="Styles\ThemeHelper.cs" />
+    <Compile Include="ViewModels\AboutViewModel.cs" />
+    <Compile Include="ViewModels\AddNewQuestionViewModel.cs" />
+    <Compile Include="ViewModels\AppCloseViewModel.cs" />
+    <Compile Include="ViewModels\AppUpdateViewModel.cs" />
+    <Compile Include="ViewModels\AudioDownloadViewModel.cs" />
+    <Compile Include="ViewModels\AudioNotDetectedViewModel.cs" />
+    <Compile Include="ViewModels\AudioPlayerViewModel.cs" />
+    <Compile Include="ViewModels\AutoDetectionFlagsViewModel.cs" />
+    <Compile Include="ViewModels\AutoDetectionLanguagesViewModel.cs" />
+    <Compile Include="ViewModels\ChangePasscodeViewModel.cs" />
+    <Compile Include="ViewModels\ChatViewModel.cs" />
+    <Compile Include="ViewModels\ConsentViewModel.cs" />
+    <Compile Include="ViewModels\DashboardViewModel.cs" />
+    <Compile Include="ViewModels\DevicesErrorViewModel.cs" />
+    <Compile Include="ViewModels\DevicesViewModel.cs" />
+    <Compile Include="ViewModels\EmailViewModel.cs" />
+    <Compile Include="ViewModels\EnterPasscodeViewModel.cs" />
+    <Compile Include="ViewModels\ErrorViewModel.cs" />
+    <Compile Include="ViewModels\FeedbackRatingViewModel.cs" />
+    <Compile Include="ViewModels\FeedbackStarRatingViewModel.cs" />
+    <Compile Include="ViewModels\FeedbackSubmittedViewModel.cs" />
+    <Compile Include="ViewModels\FeedbackViewModel.cs" />
+    <Compile Include="ViewModels\HelpViewModel.cs" />
+    <Compile Include="ViewModels\HistoryViewModel.cs" />
+    <Compile Include="ViewModels\ImmersiveReaderViewModel.cs" />
+    <Compile Include="ViewModels\AudioDevicesViewModel.cs" />
+    <Compile Include="ViewModels\InitialSetupLanguagesViewModel.cs" />
+    <Compile Include="ViewModels\InitialSetupNetworkViewModel.cs" />
+    <Compile Include="ViewModels\InitialSetupPasscodeViewModel.cs" />
+    <Compile Include="ViewModels\InitialSetupViewModel.cs" />
+    <Compile Include="ViewModels\InvalidLicenseViewModel.cs" />
+    <Compile Include="ViewModels\LanguageDetectionWizardViewModel.cs" />
+    <Compile Include="ViewModels\LanguagesViewModel.cs" />
+    <Compile Include="ViewModels\LicenseViewModel.cs" />
+    <Compile Include="ViewModels\LoginFailedViewModel.cs" />
+    <Compile Include="ViewModels\LoginViewModel.cs" />
+    <Compile Include="ViewModels\NotificationViewModel.cs" />
+    <Compile Include="ViewModels\OrgQuestionsViewModel.cs" />
+    <Compile Include="ViewModels\ProfileViewModel.cs" />
+    <Compile Include="ViewModels\ReEnterPasscodeViewModel.cs" />
+    <Compile Include="ViewModels\SchemeActivationSampleViewModel.cs" />
+    <Compile Include="ViewModels\DefaultSettingsViewModel.cs" />
+    <Compile Include="ViewModels\SessionDetailsViewModel.cs" />
+    <Compile Include="ViewModels\SessionMetaDataViewModel.cs" />
+    <Compile Include="ViewModels\SettingsViewModel.cs" />
+    <Compile Include="ViewModels\SetupPasscodeViewModel.cs" />
+    <Compile Include="ViewModels\ShellViewModel.cs" />
+    <Compile Include="ViewModels\StartupViewModel.cs" />
+    <Compile Include="ViewModels\TranslationViewModel.cs" />
+    <Compile Include="ViewModels\WhatsNewViewModel.cs" />
+    <Compile Include="Views\ContentControls\AudioDownloadView.xaml.cs">
+      <DependentUpon>AudioDownloadView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ContentControls\AutoDetection\AutoDetectionFlags.xaml.cs">
+      <DependentUpon>AutoDetectionFlags.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ContentControls\AutoDetection\AutoDetectionLanguages.xaml.cs">
+      <DependentUpon>AutoDetectionLanguages.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ContentControls\ChatView.xaml.cs">
+      <DependentUpon>ChatView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ContentControls\Chat\ChatTemplateSelector.cs" />
+    <Compile Include="Views\ContentControls\Chat\PersonOne.xaml.cs">
+      <DependentUpon>PersonOne.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ContentControls\Chat\PersonTwo.xaml.cs">
+      <DependentUpon>PersonTwo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ContentControls\Devices\AudioDevicesSelector.xaml.cs">
+      <DependentUpon>AudioDevicesSelector.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ContentControls\InitialSetup\AudioDevice.xaml.cs">
+      <DependentUpon>AudioDevice.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ContentControls\InitialSetup\Languages.xaml.cs">
+      <DependentUpon>Languages.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ContentControls\InitialSetup\Network.xaml.cs">
+      <DependentUpon>Network.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ContentControls\InitialSetup\Passcode.xaml.cs">
+      <DependentUpon>Passcode.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ContentControls\NotificationView.xaml.cs">
+      <DependentUpon>NotificationView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ContentControls\PageBackground.xaml.cs">
+      <DependentUpon>PageBackground.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ContentControls\Player\AudioPlayer.xaml.cs">
+      <DependentUpon>AudioPlayer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ContentControls\SessionHistory\SessionHistoy.xaml.cs">
+      <DependentUpon>SessionHistoy.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ContentControls\TitleView.xaml.cs">
+      <DependentUpon>TitleView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\AboutPage.xaml.cs">
+      <DependentUpon>AboutPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\DashboardPage.xaml.cs">
+      <DependentUpon>DashboardPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\DevicesPage.xaml.cs">
+      <DependentUpon>DevicesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\FeedbackPage.xaml.cs">
+      <DependentUpon>FeedbackPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\HelpPage.xaml.cs">
+      <DependentUpon>HelpPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\HistoryPage.xaml.cs">
+      <DependentUpon>HistoryPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\InitialSetupPage.xaml.cs">
+      <DependentUpon>InitialSetupPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\LanguagesPage.xaml.cs">
+      <DependentUpon>LanguagesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\LicencePage.xaml.cs">
+      <DependentUpon>LicencePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\ProfilePage.xaml.cs">
+      <DependentUpon>ProfilePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\QuestionsPage.xaml.cs">
+      <DependentUpon>QuestionsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\SessionDetailsPage.xaml.cs">
+      <DependentUpon>SessionDetailsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\SettingsPage.xaml.cs">
+      <DependentUpon>SettingsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\ShellView.xaml.cs">
+      <DependentUpon>ShellView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\StartupPage.xaml.cs">
+      <DependentUpon>StartupPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\TranslationPage.xaml.cs">
+      <DependentUpon>TranslationPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\WhatsNewPage.xaml.cs">
+      <DependentUpon>WhatsNewPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Popups\AddNewQuestionDialog.xaml.cs">
+      <DependentUpon>AddNewQuestionDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Popups\AppCloseDialog.xaml.cs">
+      <DependentUpon>AppCloseDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Popups\AppUpdateDialog.xaml.cs">
+      <DependentUpon>AppUpdateDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Popups\AudioNotDetectedDialog.xaml.cs">
+      <DependentUpon>AudioNotDetectedDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Popups\BluetoothPairingDialog.xaml.cs">
+      <DependentUpon>BluetoothPairingDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Popups\ChangePasscodeDialog.xaml.cs">
+      <DependentUpon>ChangePasscodeDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Popups\ConsentDialog.xaml.cs">
+      <DependentUpon>ConsentDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Popups\DevicesErrorDialog.xaml.cs">
+      <DependentUpon>DevicesErrorDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Popups\EmailDialog.xaml.cs">
+      <DependentUpon>EmailDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Popups\EnterPasscodeDialog.xaml.cs">
+      <DependentUpon>EnterPasscodeDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Popups\ErrorDialog.xaml.cs">
+      <DependentUpon>ErrorDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Popups\FeedbackRatingDialog.xaml.cs">
+      <DependentUpon>FeedbackRatingDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Popups\FeedbackStarRatingDialog.xaml.cs">
+      <DependentUpon>FeedbackStarRatingDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Popups\FeedbackSubmittedDialog.xaml.cs">
+      <DependentUpon>FeedbackSubmittedDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Popups\ImmersiveReaderDialog.xaml.cs">
+      <DependentUpon>ImmersiveReaderDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Popups\InvalidLicenseDialog.xaml.cs">
+      <DependentUpon>InvalidLicenseDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Popups\LanguageDetectionWizard.xaml.cs">
+      <DependentUpon>LanguageDetectionWizard.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Popups\LoginFailedDialog.xaml.cs">
+      <DependentUpon>LoginFailedDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Popups\LoginDialog.xaml.cs">
+      <DependentUpon>LoginDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Popups\OrgQuestionsDialog.xaml.cs">
+      <DependentUpon>OrgQuestionsDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Popups\ReEnterPasscodeDialog.xaml.cs">
+      <DependentUpon>ReEnterPasscodeDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Popups\SessionMetaDataDialog.xaml.cs">
+      <DependentUpon>SessionMetaDataDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Popups\SetupPasscodeDialog.xaml.cs">
+      <DependentUpon>SetupPasscodeDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\SchemeActivationSamplePage.xaml.cs">
+      <DependentUpon>SchemeActivationSamplePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\DefaultSettingsPage.xaml.cs">
+      <DependentUpon>DefaultSettingsPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Services\Dependency\DependencyServiceLocator.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Styles\CustomStyles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Styles\Page.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Styles\_Colors.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\_FontSizes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\_Thickness.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\TextBlock.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ContentControls\AudioDownloadView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ContentControls\AutoDetection\AutoDetectionFlags.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ContentControls\AutoDetection\AutoDetectionLanguages.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ContentControls\ChatView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ContentControls\Chat\PersonOne.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\ContentControls\Chat\PersonTwo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\ContentControls\Devices\AudioDevicesSelector.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ContentControls\InitialSetup\AudioDevice.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ContentControls\InitialSetup\Languages.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ContentControls\InitialSetup\Network.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ContentControls\InitialSetup\Passcode.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ContentControls\NotificationView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ContentControls\PageBackground.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ContentControls\Player\AudioPlayer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ContentControls\SessionHistory\SessionHistoy.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ContentControls\TitleView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\AboutPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\DashboardPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\DevicesPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\FeedbackPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\HelpPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\HistoryPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\InitialSetupPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\LanguagesPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\LicencePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\ProfilePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\QuestionsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\SessionDetailsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\SettingsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\ShellView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\StartupPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\TranslationPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\WhatsNewPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Popups\AddNewQuestionDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Popups\AppCloseDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Popups\AppUpdateDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Popups\AudioNotDetectedDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Popups\BluetoothPairingDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Popups\ChangePasscodeDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Popups\ConsentDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Popups\DevicesErrorDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Popups\EmailDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Popups\EnterPasscodeDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Popups\ErrorDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Popups\FeedbackRatingDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Popups\FeedbackStarRatingDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Popups\FeedbackSubmittedDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Popups\ImmersiveReaderDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Popups\InvalidLicenseDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Popups\LanguageDetectionWizard.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Popups\LoginFailedDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Popups\LoginDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Popups\OrgQuestionsDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Popups\ReEnterPasscodeDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Popups\SessionMetaDataDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Popups\SetupPasscodeDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Pages\SchemeActivationSamplePage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Pages\DefaultSettingsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Helpers\ResourceExtensions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\export.png" />
+    <Content Include="Assets\Flags\ad.svg" />
+    <Content Include="Assets\Flags\ae.svg" />
+    <Content Include="Assets\Flags\af.svg" />
+    <Content Include="Assets\Flags\ag.svg" />
+    <Content Include="Assets\Flags\ai.svg" />
+    <Content Include="Assets\Flags\al.svg" />
+    <Content Include="Assets\Flags\am.svg" />
+    <Content Include="Assets\Flags\ao.svg" />
+    <Content Include="Assets\Flags\aq.svg" />
+    <Content Include="Assets\Flags\ar.svg" />
+    <Content Include="Assets\Flags\as.svg" />
+    <Content Include="Assets\Flags\at.svg" />
+    <Content Include="Assets\Flags\au.svg" />
+    <Content Include="Assets\Flags\aw.svg" />
+    <Content Include="Assets\Flags\ax.svg" />
+    <Content Include="Assets\Flags\az.svg" />
+    <Content Include="Assets\Flags\ba.svg" />
+    <Content Include="Assets\Flags\bb.svg" />
+    <Content Include="Assets\Flags\bd.svg" />
+    <Content Include="Assets\Flags\be.svg" />
+    <Content Include="Assets\Flags\bf.svg" />
+    <Content Include="Assets\Flags\bg.svg" />
+    <Content Include="Assets\Flags\bh.svg" />
+    <Content Include="Assets\Flags\bi.svg" />
+    <Content Include="Assets\Flags\bj.svg" />
+    <Content Include="Assets\Flags\bl.svg" />
+    <Content Include="Assets\Flags\bm.svg" />
+    <Content Include="Assets\Flags\bn.svg" />
+    <Content Include="Assets\Flags\bo.svg" />
+    <Content Include="Assets\Flags\bq.svg" />
+    <Content Include="Assets\Flags\br.svg" />
+    <Content Include="Assets\Flags\bs.svg" />
+    <Content Include="Assets\Flags\bt.svg" />
+    <Content Include="Assets\Flags\bv.svg" />
+    <Content Include="Assets\Flags\bw.svg" />
+    <Content Include="Assets\Flags\by.svg" />
+    <Content Include="Assets\Flags\bz.svg" />
+    <Content Include="Assets\Flags\ca.svg" />
+    <Content Include="Assets\Flags\cc.svg" />
+    <Content Include="Assets\Flags\cd.svg" />
+    <Content Include="Assets\Flags\cf.svg" />
+    <Content Include="Assets\Flags\cg.svg" />
+    <Content Include="Assets\Flags\ch.svg" />
+    <Content Include="Assets\Flags\ci.svg" />
+    <Content Include="Assets\Flags\ck.svg" />
+    <Content Include="Assets\Flags\cl.svg" />
+    <Content Include="Assets\Flags\cm.svg" />
+    <Content Include="Assets\Flags\cn.svg" />
+    <Content Include="Assets\Flags\co.svg" />
+    <Content Include="Assets\Flags\cr.svg" />
+    <Content Include="Assets\Flags\cu.svg" />
+    <Content Include="Assets\Flags\cv.svg" />
+    <Content Include="Assets\Flags\cw.svg" />
+    <Content Include="Assets\Flags\cx.svg" />
+    <Content Include="Assets\Flags\cy.svg" />
+    <Content Include="Assets\Flags\cz.svg" />
+    <Content Include="Assets\Flags\de.svg" />
+    <Content Include="Assets\Flags\dj.svg" />
+    <Content Include="Assets\Flags\dk.svg" />
+    <Content Include="Assets\Flags\dm.svg" />
+    <Content Include="Assets\Flags\do.svg" />
+    <Content Include="Assets\Flags\dz.svg" />
+    <Content Include="Assets\Flags\ec.svg" />
+    <Content Include="Assets\Flags\ee.svg" />
+    <Content Include="Assets\Flags\eg.svg" />
+    <Content Include="Assets\Flags\eh.svg" />
+    <Content Include="Assets\Flags\er.svg" />
+    <Content Include="Assets\Flags\es-ct.svg" />
+    <Content Include="Assets\Flags\es-ga.svg" />
+    <Content Include="Assets\Flags\es.svg" />
+    <Content Include="Assets\Flags\et.svg" />
+    <Content Include="Assets\Flags\eu.svg" />
+    <Content Include="Assets\Flags\fi.svg" />
+    <Content Include="Assets\Flags\fj.svg" />
+    <Content Include="Assets\Flags\fk.svg" />
+    <Content Include="Assets\Flags\fm.svg" />
+    <Content Include="Assets\Flags\fo.svg" />
+    <Content Include="Assets\Flags\fr.svg" />
+    <Content Include="Assets\Flags\ga.svg" />
+    <Content Include="Assets\Flags\gb-eng.svg" />
+    <Content Include="Assets\Flags\gb-nir.svg" />
+    <Content Include="Assets\Flags\gb-sct.svg" />
+    <Content Include="Assets\Flags\gb-wls.svg" />
+    <Content Include="Assets\Flags\gb.svg" />
+    <Content Include="Assets\Flags\gd.svg" />
+    <Content Include="Assets\Flags\ge.svg" />
+    <Content Include="Assets\Flags\gf.svg" />
+    <Content Include="Assets\Flags\gg.svg" />
+    <Content Include="Assets\Flags\gh.svg" />
+    <Content Include="Assets\Flags\gi.svg" />
+    <Content Include="Assets\Flags\gl.svg" />
+    <Content Include="Assets\Flags\gm.svg" />
+    <Content Include="Assets\Flags\gn.svg" />
+    <Content Include="Assets\Flags\gp.svg" />
+    <Content Include="Assets\Flags\gq.svg" />
+    <Content Include="Assets\Flags\gr.svg" />
+    <Content Include="Assets\Flags\gs.svg" />
+    <Content Include="Assets\Flags\gt.svg" />
+    <Content Include="Assets\Flags\gu.svg" />
+    <Content Include="Assets\Flags\gw.svg" />
+    <Content Include="Assets\Flags\gy.svg" />
+    <Content Include="Assets\Flags\hk.svg" />
+    <Content Include="Assets\Flags\hm.svg" />
+    <Content Include="Assets\Flags\hn.svg" />
+    <Content Include="Assets\Flags\hr.svg" />
+    <Content Include="Assets\Flags\ht.svg" />
+    <Content Include="Assets\Flags\hu.svg" />
+    <Content Include="Assets\Flags\id.svg" />
+    <Content Include="Assets\Flags\ie.svg" />
+    <Content Include="Assets\Flags\il.svg" />
+    <Content Include="Assets\Flags\im.svg" />
+    <Content Include="Assets\Flags\in.svg" />
+    <Content Include="Assets\Flags\io.svg" />
+    <Content Include="Assets\Flags\iq.svg" />
+    <Content Include="Assets\Flags\ir.svg" />
+    <Content Include="Assets\Flags\is.svg" />
+    <Content Include="Assets\Flags\it.svg" />
+    <Content Include="Assets\Flags\je.svg" />
+    <Content Include="Assets\Flags\jm.svg" />
+    <Content Include="Assets\Flags\jo.svg" />
+    <Content Include="Assets\Flags\jp.svg" />
+    <Content Include="Assets\Flags\ke.svg" />
+    <Content Include="Assets\Flags\kg.svg" />
+    <Content Include="Assets\Flags\kh.svg" />
+    <Content Include="Assets\Flags\ki.svg" />
+    <Content Include="Assets\Flags\km.svg" />
+    <Content Include="Assets\Flags\kn.svg" />
+    <Content Include="Assets\Flags\kp.svg" />
+    <Content Include="Assets\Flags\kr.svg" />
+    <Content Include="Assets\Flags\kw.svg" />
+    <Content Include="Assets\Flags\ky.svg" />
+    <Content Include="Assets\Flags\kz.svg" />
+    <Content Include="Assets\Flags\la.svg" />
+    <Content Include="Assets\Flags\lb.svg" />
+    <Content Include="Assets\Flags\lc.svg" />
+    <Content Include="Assets\Flags\li.svg" />
+    <Content Include="Assets\Flags\lk.svg" />
+    <Content Include="Assets\Flags\lr.svg" />
+    <Content Include="Assets\Flags\ls.svg" />
+    <Content Include="Assets\Flags\lt.svg" />
+    <Content Include="Assets\Flags\lu.svg" />
+    <Content Include="Assets\Flags\lv.svg" />
+    <Content Include="Assets\Flags\ly.svg" />
+    <Content Include="Assets\Flags\ma.svg" />
+    <Content Include="Assets\Flags\mc.svg" />
+    <Content Include="Assets\Flags\md.svg" />
+    <Content Include="Assets\Flags\me.svg" />
+    <Content Include="Assets\Flags\mf.svg" />
+    <Content Include="Assets\Flags\mg.svg" />
+    <Content Include="Assets\Flags\mh.svg" />
+    <Content Include="Assets\Flags\mk.svg" />
+    <Content Include="Assets\Flags\ml.svg" />
+    <Content Include="Assets\Flags\mm.svg" />
+    <Content Include="Assets\Flags\mn.svg" />
+    <Content Include="Assets\Flags\mo.svg" />
+    <Content Include="Assets\Flags\mp.svg" />
+    <Content Include="Assets\Flags\mq.svg" />
+    <Content Include="Assets\Flags\mr.svg" />
+    <Content Include="Assets\Flags\ms.svg" />
+    <Content Include="Assets\Flags\mt.svg" />
+    <Content Include="Assets\Flags\mu.svg" />
+    <Content Include="Assets\Flags\mv.svg" />
+    <Content Include="Assets\Flags\mw.svg" />
+    <Content Include="Assets\Flags\mx.svg" />
+    <Content Include="Assets\Flags\my.svg" />
+    <Content Include="Assets\Flags\mz.svg" />
+    <Content Include="Assets\Flags\na.svg" />
+    <Content Include="Assets\Flags\nc.svg" />
+    <Content Include="Assets\Flags\ne.svg" />
+    <Content Include="Assets\Flags\nf.svg" />
+    <Content Include="Assets\Flags\ng.svg" />
+    <Content Include="Assets\Flags\ni.svg" />
+    <Content Include="Assets\Flags\nl.svg" />
+    <Content Include="Assets\Flags\no.svg" />
+    <Content Include="Assets\Flags\np.svg" />
+    <Content Include="Assets\Flags\nr.svg" />
+    <Content Include="Assets\Flags\nu.svg" />
+    <Content Include="Assets\Flags\nz.svg" />
+    <Content Include="Assets\Flags\om.svg" />
+    <Content Include="Assets\Flags\pa.svg" />
+    <Content Include="Assets\Flags\pe.svg" />
+    <Content Include="Assets\Flags\pf.svg" />
+    <Content Include="Assets\Flags\pg.svg" />
+    <Content Include="Assets\Flags\ph.svg" />
+    <Content Include="Assets\Flags\pk.svg" />
+    <Content Include="Assets\Flags\pl.svg" />
+    <Content Include="Assets\Flags\pm.svg" />
+    <Content Include="Assets\Flags\pn.svg" />
+    <Content Include="Assets\Flags\pr.svg" />
+    <Content Include="Assets\Flags\ps.svg" />
+    <Content Include="Assets\Flags\pt.svg" />
+    <Content Include="Assets\Flags\pw.svg" />
+    <Content Include="Assets\Flags\py.svg" />
+    <Content Include="Assets\Flags\qa.svg" />
+    <Content Include="Assets\Flags\re.svg" />
+    <Content Include="Assets\Flags\ro.svg" />
+    <Content Include="Assets\Flags\rs.svg" />
+    <Content Include="Assets\Flags\ru.svg" />
+    <Content Include="Assets\Flags\rw.svg" />
+    <Content Include="Assets\Flags\sa.svg" />
+    <Content Include="Assets\Flags\sb.svg" />
+    <Content Include="Assets\Flags\sc.svg" />
+    <Content Include="Assets\Flags\sd.svg" />
+    <Content Include="Assets\Flags\se.svg" />
+    <Content Include="Assets\Flags\sg.svg" />
+    <Content Include="Assets\Flags\sh.svg" />
+    <Content Include="Assets\Flags\si.svg" />
+    <Content Include="Assets\Flags\sj.svg" />
+    <Content Include="Assets\Flags\sk.svg" />
+    <Content Include="Assets\Flags\sl.svg" />
+    <Content Include="Assets\Flags\sm.svg" />
+    <Content Include="Assets\Flags\sn.svg" />
+    <Content Include="Assets\Flags\so.svg" />
+    <Content Include="Assets\Flags\sr.svg" />
+    <Content Include="Assets\Flags\ss.svg" />
+    <Content Include="Assets\Flags\st.svg" />
+    <Content Include="Assets\Flags\sv.svg" />
+    <Content Include="Assets\Flags\sx.svg" />
+    <Content Include="Assets\Flags\sy.svg" />
+    <Content Include="Assets\Flags\sz.svg" />
+    <Content Include="Assets\Flags\tc.svg" />
+    <Content Include="Assets\Flags\td.svg" />
+    <Content Include="Assets\Flags\tf.svg" />
+    <Content Include="Assets\Flags\tg.svg" />
+    <Content Include="Assets\Flags\th.svg" />
+    <Content Include="Assets\Flags\tj.svg" />
+    <Content Include="Assets\Flags\tk.svg" />
+    <Content Include="Assets\Flags\tl.svg" />
+    <Content Include="Assets\Flags\tm.svg" />
+    <Content Include="Assets\Flags\tn.svg" />
+    <Content Include="Assets\Flags\to.svg" />
+    <Content Include="Assets\Flags\tr.svg" />
+    <Content Include="Assets\Flags\tt.svg" />
+    <Content Include="Assets\Flags\tv.svg" />
+    <Content Include="Assets\Flags\tw.svg" />
+    <Content Include="Assets\Flags\tz.svg" />
+    <Content Include="Assets\Flags\ua.svg" />
+    <Content Include="Assets\Flags\ug.svg" />
+    <Content Include="Assets\Flags\um.svg" />
+    <Content Include="Assets\Flags\un.svg" />
+    <Content Include="Assets\Flags\us.svg" />
+    <Content Include="Assets\Flags\uy.svg" />
+    <Content Include="Assets\Flags\uz.svg" />
+    <Content Include="Assets\Flags\va.svg" />
+    <Content Include="Assets\Flags\vc.svg" />
+    <Content Include="Assets\Flags\ve.svg" />
+    <Content Include="Assets\Flags\vg.svg" />
+    <Content Include="Assets\Flags\vi.svg" />
+    <Content Include="Assets\Flags\vn.svg" />
+    <Content Include="Assets\Flags\vu.svg" />
+    <Content Include="Assets\Flags\wf.svg" />
+    <Content Include="Assets\Flags\ws.svg" />
+    <Content Include="Assets\Flags\xk.svg" />
+    <Content Include="Assets\Flags\ye.svg" />
+    <Content Include="Assets\Flags\yt.svg" />
+    <Content Include="Assets\Flags\za.svg" />
+    <Content Include="Assets\Flags\zm.svg" />
+    <Content Include="Assets\Flags\zw.svg" />
+    <Content Include="Assets\helpLogo.png" />
+    <Content Include="Assets\immersive-reader.png" />
+    <Content Include="Assets\LargeTile.scale-100.png" />
+    <Content Include="Assets\LargeTile.scale-125.png" />
+    <Content Include="Assets\LargeTile.scale-150.png" />
+    <Content Include="Assets\LargeTile.scale-200.png" />
+    <Content Include="Assets\LargeTile.scale-400.png" />
+    <Content Include="Assets\LoginPic.png" />
+    <Content Include="Assets\Logo.png" />
+    <Content Include="Assets\logo2.png" />
+    <Content Include="Assets\share.png" />
+    <Content Include="Assets\SmallTile.scale-100.png" />
+    <Content Include="Assets\SmallTile.scale-125.png" />
+    <Content Include="Assets\SmallTile.scale-150.png" />
+    <Content Include="Assets\SmallTile.scale-200.png" />
+    <Content Include="Assets\SmallTile.scale-400.png" />
+    <Content Include="Assets\SpeechlyLogo.png" />
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-125.png" />
+    <Content Include="Assets\SplashScreen.scale-150.png" />
+    <Content Include="Assets\SplashScreen.scale-400.png" />
+    <Content Include="Assets\Square150x150Logo.scale-100.png" />
+    <Content Include="Assets\Square150x150Logo.scale-125.png" />
+    <Content Include="Assets\Square150x150Logo.scale-150.png" />
+    <Content Include="Assets\Square150x150Logo.scale-400.png" />
+    <Content Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png" />
+    <Content Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png" />
+    <Content Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png" />
+    <Content Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png" />
+    <Content Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png" />
+    <Content Include="Assets\Square44x44Logo.altform-unplated_targetsize-16.png" />
+    <Content Include="Assets\Square44x44Logo.altform-unplated_targetsize-256.png" />
+    <Content Include="Assets\Square44x44Logo.altform-unplated_targetsize-32.png" />
+    <Content Include="Assets\Square44x44Logo.altform-unplated_targetsize-48.png" />
+    <Content Include="Assets\Square44x44Logo.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.scale-125.png" />
+    <Content Include="Assets\Square44x44Logo.scale-150.png" />
+    <Content Include="Assets\Square44x44Logo.scale-400.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-16.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-256.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-32.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-48.png" />
+    <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="Assets\StoreLogo.scale-125.png" />
+    <Content Include="Assets\StoreLogo.scale-150.png" />
+    <Content Include="Assets\StoreLogo.scale-200.png" />
+    <Content Include="Assets\StoreLogo.scale-400.png" />
+    <Content Include="Assets\VersionLogo.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-100.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-125.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-150.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-400.png" />
+    <None Include="Package.StoreAssociation.xml" />
+    <None Include="priconfig.default.xml" />
+    <Content Include="Properties\Default.rd.xml" />
+    <Content Include="Assets\LockScreenLogo.scale-200.png" />
+    <Content Include="Assets\SplashScreen.scale-200.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+    <Content Include="Views\EmailTemplates\email-no-link.html" />
+    <Content Include="Views\EmailTemplates\email-singlel-link.html" />
+    <None Include="SpeechlyTouch.Core.csproj" />
+    <None Include="SpeechlyTouch.pfx" />
+    <PRIResource Include="Strings\sk\Resources.resw" />
+    <PRIResource Include="Strings\ru\Resources.resw" />
+    <PRIResource Include="Strings\ro\Resources.resw" />
+    <PRIResource Include="Strings\pt-PT\Resources.resw" />
+    <PRIResource Include="Strings\pt-br\Resources.resw" />
+    <PRIResource Include="Strings\prs\Resources.resw" />
+    <PRIResource Include="Strings\pl\Resources.resw" />
+    <PRIResource Include="Strings\pa\Resources.resw" />
+    <PRIResource Include="Strings\or\Resources.resw" />
+    <PRIResource Include="Strings\nl\Resources.resw" />
+    <PRIResource Include="Strings\ne\Resources.resw" />
+    <PRIResource Include="Strings\nb\Resources.resw" />
+    <PRIResource Include="Strings\mt\Resources.resw" />
+    <PRIResource Include="Strings\ms\Resources.resw" />
+    <PRIResource Include="Strings\mr\Resources.resw" />
+    <PRIResource Include="Strings\ml\Resources.resw" />
+    <PRIResource Include="Strings\mi\Resources.resw" />
+    <PRIResource Include="Strings\lv\Resources.resw" />
+    <PRIResource Include="Strings\lt\Resources.resw" />
+    <PRIResource Include="Strings\lo\Resources.resw" />
+    <PRIResource Include="Strings\ku-arab\Resources.resw" />
+    <PRIResource Include="Strings\ko\Resources.resw" />
+    <PRIResource Include="Strings\kn\Resources.resw" />
+    <PRIResource Include="Strings\km\Resources.resw" />
+    <PRIResource Include="Strings\kk\Resources.resw" />
+    <PRIResource Include="Strings\ja\Resources.resw" />
+    <PRIResource Include="Strings\iu\Resources.resw" />
+    <PRIResource Include="Strings\it\Resources.resw" />
+    <PRIResource Include="Strings\is\Resources.resw" />
+    <PRIResource Include="Strings\id\Resources.resw" />
+    <PRIResource Include="Strings\hy\Resources.resw" />
+    <PRIResource Include="Strings\hu\Resources.resw" />
+    <PRIResource Include="Strings\hr\Resources.resw" />
+    <PRIResource Include="Strings\hi\Resources.resw" />
+    <PRIResource Include="Strings\he\Resources.resw" />
+    <PRIResource Include="Strings\gu\Resources.resw" />
+    <PRIResource Include="Strings\ga\Resources.resw" />
+    <PRIResource Include="Strings\fr-CA\Resources.resw" />
+    <PRIResource Include="Strings\fr\Resources.resw" />
+    <PRIResource Include="Strings\fil\Resources.resw" />
+    <PRIResource Include="Strings\fi\Resources.resw" />
+    <PRIResource Include="Strings\fa\Resources.resw" />
+    <PRIResource Include="Strings\et\Resources.resw" />
+    <PRIResource Include="Strings\es\Resources.resw" />
+    <PRIResource Include="Strings\el\Resources.resw" />
+    <PRIResource Include="Strings\de\Resources.resw" />
+    <PRIResource Include="Strings\da\Resources.resw" />
+    <PRIResource Include="Strings\cy\Resources.resw" />
+    <PRIResource Include="Strings\cs\Resources.resw" />
+    <PRIResource Include="Strings\ca\Resources.resw" />
+    <PRIResource Include="Strings\bs\Resources.resw" />
+    <PRIResource Include="Strings\bn\Resources.resw" />
+    <PRIResource Include="Strings\bg\Resources.resw" />
+    <PRIResource Include="Strings\az-arab\Resources.resw" />
+    <PRIResource Include="Strings\as\Resources.resw" />
+    <PRIResource Include="Strings\ar\Resources.resw" />
+    <PRIResource Include="Strings\am\Resources.resw" />
+    <PRIResource Include="Strings\af\Resources.resw" />
+    <PRIResource Include="Strings\zh-Hant\Resources.resw" />
+    <PRIResource Include="Strings\zh-Hans\Resources.resw" />
+    <PRIResource Include="Strings\vi\Resources.resw" />
+    <PRIResource Include="Strings\ur\Resources.resw" />
+    <PRIResource Include="Strings\uk\Resources.resw" />
+    <PRIResource Include="Strings\tr\Resources.resw" />
+    <PRIResource Include="Strings\ti\Resources.resw" />
+    <PRIResource Include="Strings\th\Resources.resw" />
+    <PRIResource Include="Strings\te\Resources.resw" />
+    <PRIResource Include="Strings\ta\Resources.resw" />
+    <PRIResource Include="Strings\sw\Resources.resw" />
+    <PRIResource Include="Strings\sv\Resources.resw" />
+    <PRIResource Include="Strings\sr-Latn\Resources.resw" />
+    <PRIResource Include="Strings\sr-Cyrl\Resources.resw" />
+    <PRIResource Include="Strings\sq\Resources.resw" />
+    <PRIResource Include="Strings\sl\Resources.resw" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".editorconfig" />
+    <None Include="Settings.XamlStyler" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SpeechlyTouch.Core\SpeechlyTouch.Core.csproj">
+      <Project>{FFA7DAE9-C29B-478B-853D-0A2D1A0EB5C1}</Project>
+      <Name>SpeechlyTouch.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SpeechlyTouch.DataService\SpeechlyTouch.DataService.csproj">
+      <Project>{5b81c6df-5ccb-48b0-98eb-072cb7c85c60}</Project>
+      <Name>SpeechlyTouch.DataService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SpeechlyTouch.Infrastructure\SpeechlyTouch.Infrastructure.csproj">
+      <Project>{fea2476f-404c-4469-b9a3-30eedd3da2c8}</Project>
+      <Name>SpeechlyTouch.Infrastructure</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
+    <VisualStudioVersion>14.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug .NET Native|x86'">
+    <OutputPath>bin\x86\Debug .NET Native\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP;CODE_ANALYSIS</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>false</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <NoStdLib>true</NoStdLib>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug .NET Native|ARM'">
+    <OutputPath>bin\ARM\Debug .NET Native\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP;CODE_ANALYSIS</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <NoWarn>;2008</NoWarn>
+    <NoStdLib>true</NoStdLib>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug .NET Native|ARM64'">
+    <OutputPath>bin\ARM64\Debug .NET Native\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP;CODE_ANALYSIS</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <NoWarn>;2008</NoWarn>
+    <NoStdLib>true</NoStdLib>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug .NET Native|x64'">
+    <OutputPath>bin\x64\Debug .NET Native\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP;CODE_ANALYSIS</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <NoWarn>;2008</NoWarn>
+    <NoStdLib>true</NoStdLib>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
